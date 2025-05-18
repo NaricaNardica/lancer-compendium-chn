@@ -1,232 +1,215 @@
 {
-  "label": "PC 預製單位",
-  "folders": {
-    "Deployable": "可展開物"
-  },
-  "mapping": {
-    "system": {
-      "path": "system",
-      "converter": "generalConverter"
-    }
-  },
-  "entries": {
-    "Aegis Shield Generator": {
-      "name": "神盾護盾產生器",
-      "tokenName": "神盾護盾產生器",
-      "detail": "擺放三顆 d6 骰來表示這個護盾產生器的剩餘能源。當任何至少有一部分位於該區域內的角色或物件受到傷害時，你能以<b>反應</b>擲其中一顆 d6 來使該傷害減少等同擲骰結果的數值。<br><br>這個效果會持續直到該場景結束，所有骰子都被消耗導致護盾產生器失去動力、或護盾產生器被毀為止。"
-    },
-    "Armor Pack": {
-      "name": "Armor Pack",
-      "tokenName": "Armor Pack",
-      "detail": "When finished, this pack latches onto the next allied character that moves adjacent to it and fuses onto them. The project is destroyed, but they gain +1 ARMOR for the rest of the scene. This could temporarily put them over the armor maximum."
-    },
-    "Assassin Drone": {
-      "name": "刺客無人機",
-      "tokenName": "刺客無人機",
-      "detail": "在展開後，刺客無人機會瞄準一處由你選擇，位於感應和視線範圍內的<b> 濺射 2 </b>範圍區域，且你得到<b>區域拒止</b>反應（每輪不限定觸發次數）。<br><br>你能以<b>快速動作</b>把刺客無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。",
-      "actions": {
-        "Area Denial": {
-          "name": "區域拒止",
-          "trigger": "當敵對角色在你刺客無人機瞄準的區域內開始移動、或移動進入該區域時。",
-          "detail": "你能使用刺客無人機對目標進行遠距攻擊，該攻擊判定得到你的毅力加值，並在命中時造成 3 動能傷害。"
-        }
+   "label": "lancer.compendium.player-actors",
+    "mapping": {
+      "system": {
+        "path": "system",
+        "converter": "generalConverter"
       }
     },
-    "Autoloader Drone": {
-      "name": "自動裝填無人機",
-      "tokenName": "自動裝填無人機",
-      "detail": "每輪一次，與這個無人機鄰接的角色能以<b>快速動作</b>來<b>裝填</b>一個帶有<b>裝填</b>標籤的武器。這個無人機會在該場景結束時停止運作。"
-    },
-    "Bouncing Mine": {
-      "name": "彈跳地雷",
-      "tokenName": "彈跳地雷",
-      "detail": "這個地雷會在飛行角色從其所在位置或鄰近空間的上方最多 10 格內範圍飛過時引爆。這個地雷會自行往上彈射並引爆：影響範圍內的所有角色必須成功通過<b>系統豁免</b>，否則受到 2d6 爆炸傷害並立即落地（這被視為墜落，但不會造成任何傷害）；此外，目標直到其下一回合結束前都不能再飛行。若豁免成功，則目標受到的傷害減半且不受其他效果影響。"
-    },
-    "Breaching Charge": {
-      "name": "突破炸藥",
-      "tokenName": "突破炸藥",
-      "detail": "除了鄰接的未佔據空間外，這個地雷也可以被安裝在鄰接的牆壁、掩護、或地形上。在設置後，這個地雷必須以<b>快速動作</b>來引爆。影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 穿甲(AP)爆炸傷害。豁免成功則只受到一半的傷害。物件和地形會被自動命中並受到 30 穿甲(AP)爆炸傷害。"
-    },
-    "Damping Station": {
-      "name": "Damping Station",
-      "tokenName": "Damping Station",
-      "detail": "When finished, this repair station generates a Burst 1 field within which allied characters gain IMMUNITY to burn and clear any burn currently affecting them."
-    },
-    "Deployable Shield (Reserve)": {
-      "name": "可部署護盾（保留）",
-      "tokenName": "可部署護盾（保留）",
-      "detail": "對<b> 爆發 2 </b>範圍內的所有隊友角色提供<b>軟性掩護</b>。"
-    },
-    "Emplacement": {
-      "name": "Emplacement",
-      "tokenName": "Emplacement",
-      "detail": "When finished, this elevated emplacement is SIZE 1 and 3 spaces high. The top third is a is a shielded platform that can fit characters up to a combined SIZE 1 (the rest is solid metal or plastic). Firing slits allow line of sight both into and out of the emplacement but give characters within hard cover from all directions. Characters can enter or exit the emplacement from any adjacent space as a quick action. Upon entering, they move into the shielded platform. Characters and DEPLOYABLES can stand on the flat roof of the structure, but don’t gain cover."
-    },
-    "Explosive Mine": {
-      "name": "爆裂地雷",
-      "tokenName": "爆裂地雷",
-      "detail": "所有位於其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害。豁免成功則只受到一半的傷害。"
-    },
-    "Flash Mine": {
-      "name": "閃光地雷",
-      "tokenName": "閃光地雷",
-      "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，產生一個 爆發 1 範圍的閃光區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則視線範圍被縮減到只剩下其鄰接空間的距離，持續直到其下一回合結束為止。"
-    },
-    "Ghast Drone": {
-      "name": "妖鬼無人機",
-      "tokenName": "妖鬼無人機",
-      "detail": "妖鬼巢房能以<b>免費動作</b>在感應和視線範圍內的一個未佔據空間展開，並在該處成為一架靜止懸浮的無人機。在被展開後，你仍然能夠把它當成武器來進行<b>交火</b>或<b>彈幕</b>，但使用其所在的位置來計算視線範圍和射程。<br><br>你能以<b>快速動作</b>把妖鬼無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。如果它被毀，則它會遵循無人機被毀的規則，且直到被維修之前都無法再被使用。"
-    },
-    "Grounding Mine": {
-      "name": "接地地雷",
-      "tokenName": "接地地雷",
-      "detail": "這個地雷必須以<b>快速動作</b>來遙控引爆，並影響距離地雷 ⌿5 範圍內的一個角色：目標必須成功通過<b>機體豁免</b>，否則被盡可能被拉動到地雷所在的位置，並被拉倒<b>伏臥</b>。豁免失敗的飛行角色同樣會被這個效果影響，且必須被迫立即落地（這被視為墜落，但不會造成任何傷害）。"
-    },
-    "HAVOK Mine": {
-      "name": "浩劫地雷",
-      "tokenName": "浩劫地雷",
-      "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，往觸發角色的方向釋放一個 線性 5 範圍的集中爆炸區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 4 燃燒。若豁免成功，則只受到 2 燃燒。"
-    },
-    "Hive Drone": {
-      "name": "蟲巢無人機",
-      "tokenName": "蟲巢無人機",
-      "detail": "蟲巢無人機可以在感應和視線範圍內的一個未佔據空間展開，並釋放出<b> 爆發 2 </b>範圍的灰蠱蟲群，產生以下的效果：<ul><li>至少部分處於影響範圍內的隊友角色，以及蟲巢無人機本身，都會得到<b>軟性掩護</b>。</li><li>在影響範圍內開始其回合，或是在每輪第一次進入該範圍的敵方角色會受到 1 穿甲(AP)動能傷害。多架蟲巢無人機之間的重疊範圍不會重覆觸發這個效果。</li></ul>無人機能以<b>快速動作</b>回收，或在另一個空間展開。"
-    },
-    "ICEOUT Drone": {
-      "name": "冷遇無人機",
-      "tokenName": "冷遇無人機",
-      "detail": "至少一部份處於冷遇無人機的<b> 爆發 1 </b>範圍區域的角色將免疫於所有科技動作的效果，且無法進行科技動作。因為科技動作而造成的既有狀況和效果不會因此被解除，但角色在處於該區域時將會對其<b>免疫</b>，並能如常進行豁免判定。<br><br>冷遇無人機能以<b>快速動作</b>被移動到感應範圍內的任意位置。它不能被回收，並會在該場景結束時失效。"
-    },
-    "Jericho Deployable Cover": {
-      "name": "耶利哥展開掩體",
-      "tokenName": "耶利哥展開掩體",
-      "detail": "你與你鄰接的兩個未佔據空間中展開兩個<b>大小 1 </b>的<b>硬性掩護</b>。每一個掩體都是<b> 5 迴避 </b>和<b> 10 HP </b>的物件，且能各自被選為目標或被毀。這些掩體可以透過<b>完整動作</b>被撿起。"
-    },
-    "Lotus Projector": {
-      "name": "蓮花投射器",
-      "tokenName": "蓮花投射器",
-      "detail": "這個偵查無人機可以在感應和視線範圍內的一個空間展開，並會在該處產生<b> 爆發 2 </b>範圍的區域，提供以下效果：<ul><li>你知道影響範圍內所有角色的當前位置、HP、迴避、電子防禦、和熱度。</li><li>影響範圍內的敵對角色無法進行<b>躲藏</b>，且其如果在影響範圍內結束回合的話會失去<b>匿跡</b>狀態。</li><li>敵對角色在影響範圍內期間將無法受益於<b>隱形</b>狀態。</li></ul>你能以<b>快速動作</b>收回或重新展開你的偵查無人機。"
-    },
-    "Markey’s Fusebox": {
-      "name": "Markey’s Fusebox",
-      "tokenName": "Markey’s Fusebox",
-      "detail": "Expend a charge to set an explosive charge in a free adjacent space. It arms at the end of the round; once armed, it explodes if it takes any damage or heat. Characters within Burst 3 must succeed on an AGILITY save or take 2d6 Explosive damage and be pushed out of the affected area, or as far as possible. On a success, they are still pushed but take half damage."
-    },
-    "Mesmer Mine": {
-      "name": "麥斯麥催眠地雷",
-      "tokenName": "麥斯麥催眠地雷",
-      "detail": "所有位於其<b> 爆發 2 </b>範圍內的角色必須成功通過<b>系統豁免</b>，否則陷入<b>固定</b>狀況，持續直到其下一回合結束為止。"
-    },
-    "Omnibus Plate": {
-      "name": "Omnibus Plate",
-      "tokenName": "Omnibus Plate",
-      "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2."
-    },
-    "Guardian OROCHI Drone": {
-      "name": "大蛇．護法無人機",
-      "tokenName": "大蛇．護法無人機",
-      "detail": "這個無人機會投放護盾。對與這個無人機鄰接的隊友角色進行的遠距攻擊會得到 +1 難度。"
-    },
-    "Hunter OROCHI Drone": {
-      "name": "大蛇．獵手無人機",
-      "tokenName": "大蛇．獵手無人機",
-      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>系統豁免</b>。若豁免失敗，則目標受到<b>鎖定</b>。"
-    },
-    "Shredder OROCHI Drone": {
-      "name": "大蛇．碎裂無人機",
-      "tokenName": "大蛇．碎裂無人機",
-      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>機體豁免</b>。若豁免失敗，則目標受到 1 動能傷害，並陷入<b>離散</b>狀況直到其下一回合結束為止。"
-    },
-    "Snare OROCHI Drone": {
-      "name": "大蛇．陷阱無人機",
-      "tokenName": "大蛇．陷阱無人機",
-      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>敏捷豁免</b>。若豁免失敗，則目標陷入<b>固定</b>狀況。這個<b>固定</b>狀況會持續直到這個無人機被毀、不再與目標鄰接、或目標以<b>快速動作</b>成功通過敏捷豁免為止。"
-    },
-    "Perimeter Command Plate": {
-      "name": "周界指揮板",
-      "tokenName": "周界指揮板",
-      "detail": "當角色在每輪中第一次進入指揮板佔據的空間、或在該處結束其回合時，指揮板就會被啟動。<br><br>在列印周界指揮板時，選擇以下其中一個設定：<ul><li><b>斥力</b>：進入 PCP 的敵對角色必須成功通過<b>機體豁免</b>，否則被往你選擇的任意方向推動 3 格。如果這會使目標與障礙物相撞，則目標將因此被撞倒<b>伏臥</b>。進入 PCP 的隊友角色則能立即以<b>免費動作</b>往任意方向<b>飛行</b> 3 格。</li><li><b>吸引</b>：進入 PCP 的角色必須成功通過<b>機體豁免</b>，否則陷入<b>固定</b>狀況。目標能以<b>快速動作</b>重複進行這個豁免，成功則解除該狀況；這個<b>固定</b>狀況也會在 PCP 被毀時一併解除。"
-    },
-    "Portable Bunker": {
-      "name": "流動碉堡",
-      "tokenName": "流動碉堡",
-      "detail": "所有完全處於碉堡的 4x4 範圍區域內的角色，對於來自碉堡外的任何攻擊都會受益於<b>硬性掩護</b>，並對源自碉堡外的 <b>濺射</b>、<b>線性</b>、<b>爆發</b>和<b>錐形</b>攻擊造成的傷害具有<b>抗性</b>。<br><br>這座碉堡是露天的，且所有角色都能夠自由進出。一旦被展開，這座碉堡就不能被移動或回收。"
-    },
-    "Restock Drone": {
-      "name": "補給無人機",
-      "tokenName": "補給無人機",
-      "detail": "當隊友角色與這部無人機鄰接時，該角色能以<b>快速動作</b>將其啟動，清除 1d6 熱度，解除一個狀況，並裝填一件帶有<b>裝填</b>標籤的武器。在被啟動之後，這部無人機會立即解體。"
-    },
-    "Sentinel Drone": {
-      "name": "哨兵無人機",
-      "tokenName": "哨兵無人機",
-      "detail": "哨兵無人機可以在感應和視線範圍內的一個未佔據空間展開，並設立一個<b> 爆發 2 </b>範圍的警戒區域。位於範圍區域內的敵對角色會在進行任何攻擊之前，都會因為遭到無人機的炮火並受到 3 動能傷害。<br><br>你能以<b>快速動作</b>把哨兵無人機回收或重新展開在其他位置。"
-    },
-    "Smoke Mine": {
-      "name": "煙霧地雷",
-      "tokenName": "煙霧地雷",
-      "detail": "這個地雷會在任何隊友角色移動到它所在或與其鄰接的空間時引爆。所有處於其<b> 爆發 3 </b>範圍內的角色和物件都會得到<b>軟性掩護</b>，持續直到將其引爆的角色的下一回合結束為止。"
-    },
-    "SMOKESTACK Heat Sink": {
-      "name": "SMOKESTACK Heat Sink",
-      "tokenName": "SMOKESTACK Heat Sink",
-      "detail": "Expend a charge to deploy a pylon that absorbs heat in a Burst 2 area around itself. It absorbs any heat dealt to characters at least partially within the affected area from any source (before reductions, including RESISTANCE). Once the pylon has absorbed 6 Heat, it explodes. Characters within the affected area must succeed on an AGILITY save or take 1d6+3 AP Energy Damage. On a success, they take half damage. Objects and DEPLOYABLES are hit automatically. Any excess heat absorbed by the pylon as part of the same action or effect that caused it to explode disperses with no effect."
-    },
-    "Snare Foam": {
-      "name": "Snare Foam",
-      "tokenName": "Snare Foam",
-      "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
-    },
-    "Stasis Barrier": {
-      "name": "靜滯護盾",
-      "tokenName": "靜滯護盾",
-      "detail": "在至少有一格與你鄰接的未佔據空間中產生一個 4 格高的<b> 線性 4 </b>範圍的護盾。這個護盾被視為障礙物，會提供<b>軟性掩護</b>，但不會阻擋視線。<br><br>當受到攻擊的角色從這個護盾提供的<b>軟性掩護</b>中受益，擲 1d6：若結果為 4+，則該攻擊被護盾抵銷，因此無法造成任何影響。這個護盾會持續直到該場景結束，或直到你以<b>快速動作</b>將其解除。這個效果不會與<b>隱形</b>狀態的效果疊加。"
-    },
-    "Tempest Drone": {
-      "name": "暴風無人機",
-      "tokenName": "暴風無人機",
-      "detail": "當角色在與暴風無人機鄰接時開始其回合、或在每輪第一次移動到其鄰接空間時，該角色必須成功通過<b>機體豁免</b>，否則受到 4 能量傷害，並被往遠離暴風無人機的方向擊退 3 格距離。<br><br>你能以<b>快速動作</b>把暴風無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。"
-    },
-    "Thermite Charge": {
-      "name": "鋁熱炸彈",
-      "tokenName": "鋁熱炸彈",
-      "detail": "這枚炸彈必須以<b>快速動作</b>來遙控引爆。影響範圍內的所有角色必須成功通過<b>工程豁免</b>，否則受到 3 能量傷害。鋁熱炸彈會自動命中物件，並造成帶有穿甲（AP）效果的 10 能量傷害。",
-      "actions": {
-        "Detonate": {
-          "name": "引爆",
-          "detail": "影響範圍內的所有角色必須成功通過<b>工程豁免</b>，否則受到 3 能量傷害。鋁熱炸彈會自動命中物件，並造成帶有穿甲（AP）效果的 10 能量傷害。"
+    "entries": {
+      "Aegis Shield Generator": {
+        "name": "神盾护盾产生器",
+        "tokenName": "神盾护盾产生器",
+        "detail": "摆放三颗 d6 骰来表示这个护盾产生器的剩余能源。当任何至少有一部分位于该区域内的角色或物件受到伤害时，你能以<b>反应</b>掷其中一颗 d6 来使该伤害减少等同掷骰结果的数值。<br><br>这个效果会持续直到该场景结束，所有骰子都被消耗导致护盾产生器失去动力、或护盾产生器被毁为止。"
+      },
+      "Armor Pack": {
+        "name": "Armor Pack",
+        "tokenName": "Armor Pack",
+        "detail": "When finished, this pack latches onto the next allied character that moves adjacent to it and fuses onto them. The project is destroyed, but they gain +1 ARMOR for the rest of the scene. This could temporarily put them over the armor maximum."
+      },
+      "Assassin Drone": {
+        "name": "Assassin Drone",
+        "tokenName": "Assassin Drone",
+        "detail": "Upon deployment, it targets a blast 2 area of your choice within line of sight and Sensors and you gain the Area Denial reaction (usable any number of times a round).<br>You may recall or redeploy the assassin drone as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene."
+      },
+      "Autoloader Drone": {
+        "name": "Autoloader Drone",
+        "tokenName": "Autoloader Drone",
+        "detail": "1/round, one character adjacent to it may reload a Loading weapon as a quick action. It deactivates at the end of the scene."
+      },
+      "Bouncing Mine": {
+        "name": "Bouncing Mine",
+        "tokenName": "Bouncing Mine",
+        "detail": "This mine detonates when a flying character passes over or adjacent to it, up to 10 spaces high. The mine launches itself upwards and detonates: all characters within the affected area must succeed on a Systems save or take 2d6 explosive damage and immediately land (this counts as falling without any damage); additionally, they can’t fly until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
+      },
+      "Breaching Charge": {
+        "name": "突破炸药",
+        "tokenName": "突破炸药",
+        "detail": "除了邻接的未占据空间外，这个地雷也可以被安装在邻接的墙壁、掩护、或地形上。在设置后，这个地雷必须以<b>快速动作</b>来引爆。影响范围内的角色必须成功通过<b>敏捷豁免</b>，否则受到 2d6 穿甲(AP)爆炸伤害。豁免成功则只受到一半的伤害。物件和地形会被自动命中并受到 30 穿甲(AP)爆炸伤害。"
+      },
+      "Damping Station": {
+        "name": "Damping Station",
+        "tokenName": "Damping Station",
+        "detail": "When finished, this repair station generates a Burst 1 field within which allied characters gain IMMUNITY to burn and clear any burn currently affecting them."
+      },
+      "Deployable Shield (Reserve)": {
+        "name": "Deployable Shield (Reserve)",
+        "tokenName": "Deployable Shield (Reserve)",
+        "detail": "Grants soft cover to all friendly characters in a BURST 2 radius"
+      },
+      "Emplacement": {
+        "name": "Emplacement",
+        "tokenName": "Emplacement",
+        "detail": "When finished, this elevated emplacement is SIZE 1 and 3 spaces high. The top third is a is a shielded platform that can fit characters up to a combined SIZE 1 (the rest is solid metal or plastic). Firing slits allow line of sight both into and out of the emplacement but give characters within hard cover from all directions. Characters can enter or exit the emplacement from any adjacent space as a quick action. Upon entering, they move into the shielded platform. Characters and DEPLOYABLES can stand on the flat roof of the structure, but don’t gain cover."
+      },
+      "Explosive Mine": {
+        "name": "爆裂地雷",
+        "tokenName": "爆裂地雷",
+        "detail": "所有位于其<b> 爆发 1 </b>范围内的角色必须成功通过<b>敏捷豁免</b>，否则受到 2d6 爆炸伤害。豁免成功则只受到一半的伤害。"
+      },
+      "Flash Mine": {
+        "name": "Flash Mine",
+        "tokenName": "Flash Mine",
+        "detail": "This mine detonates in a Burst 1 area when a character moves adjacent to or over it. Characters within the affected area must succeed on an Agility save or they only have line of sight to adjacent spaces until the end of their next turn."
+      },
+      "Ghast Drone": {
+        "name": "Ghast Drone",
+        "tokenName": "Ghast Drone",
+        "detail": "This Ghast nexus can be deployed to a free space within Sensors and line of sight as a free action, where it becomes a stationary, hovering Drone. Once deployed, you may still use it for Skirmish and Barrage attacks as though it is still a weapon, but with line of sight and Range traced from its location.<br>You may recall or redeploy the Ghast nexus as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired."
+      },
+      "Grounding Mine": {
+        "name": "Grounding Mine",
+        "tokenName": "Grounding Mine",
+        "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
+      },
+      "Guardian OROCHI Drone": {
+        "name": "Guardian OROCHI Drone",
+        "tokenName": "Guardian OROCHI Drone",
+        "detail": "This drone projects a shield. Ranged attacks against adjacent allied characters receive +1 difficulty."
+      },
+      "HAVOK Mine": {
+        "name": "HAVOK Mine",
+        "tokenName": "HAVOK Mine",
+        "detail": "When a character moves over or adjacent to this mine, it detonates with a focused explosion in a line 5 path in the direction of the character who triggered it. Characters within the affected area must succeed on an Agility save or take 4 burn. On a success, they take 2 burn."
+      },
+      "Hive Drone": {
+        "name": "Hive Drone",
+        "tokenName": "Hive Drone",
+        "detail": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+      },
+      "Hunter OROCHI Drone": {
+        "name": "Hunter OROCHI Drone",
+        "tokenName": "Hunter OROCHI Drone",
+        "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Systems save. On a failure, they receive Lock On."
+      },
+      "ICEOUT Drone": {
+        "name": "ICEOUT Drone",
+        "tokenName": "ICEOUT Drone",
+        "detail": "Characters at least partially within the ICEOUT drone's Burst 1 area gain Immunity to all tech actions, and can’t make tech actions. Existing conditions and effects caused by tech actions are not cleared but characters have Immunity to them while they are in the area, and they can be saved against normally.<br>The ICEOUT drone can be moved to any point within Sensors as a quick action. It cannot be recalled and expires at the end of the scene."
+      },
+      "Jericho Deployable Cover": {
+        "name": "耶利哥展开掩体",
+        "tokenName": "耶利哥展开掩体",
+        "detail": "你与你邻接的两个未占据空间中展开两个<b>大小 1 </b>的<b>硬性掩护</b>。每一个掩体都是<b> 5 回避 </b>和<b> 10 HP </b>的物件，且能各自被选为目标或被毁。这些掩体可以透过<b>完整动作</b>被捡起。"
+      },
+      "Lotus Projector": {
+        "name": "Lotus Projector",
+        "tokenName": "Lotus Projector",
+        "detail": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+      },
+      "Lurker Mine": {
+        "name": "Lurker Mine",
+        "tokenName": "Lurker Mine",
+        "detail": "This mine does not detonate as normal. Instead, gain the Selective Detonation reaction, which can be performed once per deployed lurker mine."
+      },
+      "Markey’s Fusebox": {
+        "name": "Markey’s Fusebox",
+        "tokenName": "Markey’s Fusebox",
+        "detail": "Expend a charge to set an explosive charge in a free adjacent space. It arms at the end of the round; once armed, it explodes if it takes any damage or heat. Characters within Burst 3 must succeed on an AGILITY save or take 2d6 Explosive damage and be pushed out of the affected area, or as far as possible. On a success, they are still pushed but take half damage."
+      },
+      "Mesmer Mine": {
+        "name": "Mesmer Mine",
+        "tokenName": "Mesmer Mine",
+        "detail": "Characters within the affected Burst 2 area must succeed on a Systems save or become Immobilized until the end of their next turn."
+      },
+      "Omnibus Plate": {
+        "name": "Omnibus Plate",
+        "tokenName": "Omnibus Plate",
+        "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2."
+      },
+      "Perimeter Command Plate": {
+        "name": "Perimeter Command Plate",
+        "tokenName": "Perimeter Command Plate",
+        "detail": "The plate activates for a character the first time that character enters its space during a round, or if they end their turn there.<br>Upon printing, choose a setting:<ul><li><b>Repulse:</b> Hostile characters that move onto the PCP must succeed on a Hull save or be pushed 3 spaces in the direction of your choice. If this causes them to collide with an obstruction, they are knocked Prone. Allied characters that enter the space may immediately fly 3 spaces in any direction as a free action.</li><li><b>Attract:</b> Characters that move onto the PCP must succeed on a Hull save or become Immobilized. They can clear Immobilized by successfully repeating the save as a quick action; it is also cleared if the PCP is destroyed."
+      },
+      "Portable Bunker": {
+        "name": "流动碉堡",
+        "tokenName": "流动碉堡",
+        "detail": "所有完全处于碉堡的 4x4 范围区域内的角色，对于来自碉堡外的任何攻击都会受益于<b>硬性掩护</b>，并对源自碉堡外的 <b>溅射</b>、<b>线性</b>、<b>爆发</b>和<b>锥形</b>攻击造成的伤害具有<b>抗性</b>。<br><br>这座碉堡是露天的，且所有角色都能够自由进出。一旦被展开，这座碉堡就不能被移动或回收。"
+      },
+      "Restock Drone": {
+        "name": "补给无人机",
+        "tokenName": "补给无人机",
+        "detail": "当队友角色与这部无人机邻接时，该角色能以<b>快速动作</b>将其启动，清除 1d6 热度，解除一个状况，并装填一件带有<b>装填</b>标签的武器。在被启动之后，这部无人机会立即解体。"
+      },
+      "Sentinel Drone": {
+        "name": "Sentinel Drone",
+        "tokenName": "Sentinel Drone",
+        "detail": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+      },
+      "Shredder OROCHI Drone": {
+        "name": "Shredder OROCHI Drone",
+        "tokenName": "Shredder OROCHI Drone",
+        "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Hull save. On a failure, they take 1 kinetic damage and become Shredded until the end of their next turn."
+      },
+      "Smoke Mine": {
+        "name": "烟雾地雷",
+        "tokenName": "烟雾地雷",
+        "detail": "这个地雷会在任何队友角色移动到它所在或邻接空间时引爆。所有处于其<b> 爆发 3 </b>范围内的角色和物件都会得到<b>软性掩护</b>，持续直到将其引爆的角色的下一回合结束为止。"
+      },
+      "SMOKESTACK Heat Sink": {
+        "name": "SMOKESTACK Heat Sink",
+        "tokenName": "SMOKESTACK Heat Sink",
+        "detail": "Expend a charge to deploy a pylon that absorbs heat in a Burst 2 area around itself. It absorbs any heat dealt to characters at least partially within the affected area from any source (before reductions, including RESISTANCE). Once the pylon has absorbed 6 Heat, it explodes. Characters within the affected area must succeed on an AGILITY save or take 1d6+3 AP Energy Damage. On a success, they take half damage. Objects and DEPLOYABLES are hit automatically. Any excess heat absorbed by the pylon as part of the same action or effect that caused it to explode disperses with no effect."
+      },
+      "Snare Foam": {
+        "name": "Snare Foam",
+        "tokenName": "Snare Foam",
+        "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
+      },
+      "Snare OROCHI Drone": {
+        "name": "Snare OROCHI Drone",
+        "tokenName": "Snare OROCHI Drone",
+        "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make an Agility save. On a failure, they become Immobilized. They only cease to be Immobilized when the drone is destroyed or no longer adjacent, or they succeed on an Agility save as a quick action."
+      },
+      "Stasis Barrier": {
+        "name": "Stasis Barrier",
+        "tokenName": "Stasis Barrier",
+        "detail": "Generate a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you. It counts as an obstruction and provides soft cover, but doesn’t block line of sight.<br>When an attack is made against a character that benefits from this barrier’s soft cover, roll 1d6: on 4+, the attack is consumed by the barrier and has no effect whatsoever. The barrier lasts for the rest of the scene, or until you deactivate it as a quick action. This effect does not stack with Invisible."
+      },
+      "Tempest Drone": {
+        "name": "Tempest Drone",
+        "tokenName": "Tempest Drone",
+        "detail": "Any character that starts their turn adjacent to the tempest drone or moves adjacent to it for the first time in a round must succeed on a Hull save or take 4 energy damage and be knocked 3 spaces directly away from the drone.<br>You may recall or redeploy the tempest drone as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene."
+      },
+      "Thermite Charge": {
+        "name": "铝热炸弹",
+        "tokenName": "铝热炸弹",
+        "detail": "这枚炸弹必须以<b>快速动作</b>来遥控引爆。影响范围内的所有角色必须成功通过<b>工程豁免</b>，否则受到 3 能量伤害。铝热炸弹会自动命中物件，并造成带有穿甲（AP）效果的 10 能量伤害。",
+        "actions": {
+          "Detonate": {
+            "name": "引爆",
+            "detail": "影响范围内的所有角色必须成功通过<b>工程豁免</b>，否则受到 3 能量伤害。铝热炸弹会自动命中物件，并造成带有穿甲（AP）效果的 10 能量伤害。"
+          }
         }
-      }
-    },
-    "Turret Drone": {
-      "name": "無人炮塔",
-      "tokenName": "無人炮塔",
-      "detail": "得到<b>炮塔攻擊</b>反應，每展開一個無人炮塔就能使用這個反應一次。無人炮塔無法回收，且會在場景結束時停止運作。",
-      "actions": {
-        "Turret Attack": {
-          "name": "炮塔攻擊",
-          "trigger": "當無人炮塔的 ⌿10 範圍內有隊友角色進行攻擊並命中時。",
-          "detail": "無人炮塔對在視線範圍內的目標造成 3 動能傷害。"
+      },
+      "Turret Drone": {
+        "name": "无人炮塔",
+        "tokenName": "无人炮塔",
+        "detail": "得到<b>炮塔攻击</b>反应，每展开一个无人炮塔就能使用这个反应一次。无人炮塔无法回收，且会在场景结束时停止运作。",
+        "actions": {
+          "Turret Attack": {
+            "name": "炮塔攻击",
+            "trigger": "当无人炮塔的 ⌿10 范围内有队友角色进行攻击并命中时。",
+            "detail": "无人炮塔对在视线范围内的目标造成 3 动能伤害。"
+          }
         }
-      }
-    },
-    "Webjaw Snare": {
-      "name": "網顎陷阱",
-      "tokenName": "網顎陷阱",
-      "detail": "網顎陷阱不會阻礙移動，且直到被觸發前都不能被攻擊。<br>網顎陷阱會在任何角色移動到其所在位置時被觸發。目標必須成功通過<b>機體豁免</b>，否則受到 1d6 穿甲(AP)動能傷害，並陷入<b>固定</b>狀況。這個效果會持續直到網顎陷阱被毀為止。"
-    },
-
-    "Lurker Mine": {
-      "name": "潛伏者地雷",
-      "tokenName": "潛伏者地雷",
-      "detail": "這個地雷並不會如常引爆。取而代之的是，你獲得<b>選擇性引爆</b>反應，每部署一個潛伏者地雷就可以進行一次。",
-      "actions": {
-        "Selective Detonation": {
-          "name": "選擇性引爆",
-          "trigger": "當角色進入潛伏者地雷所在的空間或與其鄰接的空間，或在該處開始其回合時。",
-          "detail": "該地雷被引爆，所有被影響的角色必須通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害。豁免成功則只受到一半的傷害。"
-        }
+      },
+      "Webjaw Snare": {
+        "name": "网颚陷阱",
+        "tokenName": "网颚陷阱",
+        "detail": "网颚陷阱不会阻碍移动，且直到被触发前都不能被攻击。<br>网颚陷阱会在任何角色移动到其所在位置时被触发。目标必须成功通过<b>机体豁免</b>，否则受到 1d6 穿甲(AP)动能伤害，并陷入<b>固定</b>状况。这个效果会持续直到网颚陷阱被毁为止。"
       }
     }
   }
-}
+  

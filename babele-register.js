@@ -4,7 +4,7 @@ Hooks.once('init', () => {
 
 		Babele.get().register({
 			module: 'lancer-compendium-zhtw',
-			lang: 'zh-tw',
+			lang: 'cn',
 			dir: 'compendium'
 		});
 

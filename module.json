@@ -1,15 +1,26 @@
 {
   "id": "lancer-compendium-zhtw",
-  "title": "Lancer Compendium 繁體中文化",
-  "description": "《槍騎兵 Lancer》的中文化套件，需搭配 Babele 套件使用。",
+  "title": "Lancer Compendium 中文合集包",
+  "description": "《枪骑兵 Lancer》的中文合集包MOD，需搭配 Babele 使用。",
   "authors": [{
 		"name": "Hazmole",
 		"email": "buzzfirefox@gmail.com",
 		"discord": "hazmole#6672"
-	}],
-  "version": "0.1.4",
+	},
+	{
+		"name": "ZhuxingGuan",
+		"email": "2761372449@qq.com",
+		"qq": "2761372449"
+	},
+	{
+		"name": "NaricaNardica",
+		"email": "dimaiou@163.com",
+		"qq": "1073051920"
+	}
+],
+  "version": "0.0.9",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "12"
   },
 
@@ -29,12 +40,12 @@
   "packs": [],
 
   "languages": [{
-  	"lang": "zh-tw",
-    "name": "正體中文",
-    "path": "zhtw.json"
+  	"lang": "cn",
+    "name": "中文",
+    "path": "cn.json"
   }],
 
-  "url": "https://github.com/hazmole/lancer-compendium-zhtw",
-  "manifest": "https://github.com/hazmole/lancer-compendium-zhtw/releases/latest/download/module.json",
-  "download": "https://github.com/hazmole/lancer-compendium-zhtw/releases/latest/download/lancer-compendium-zhtw.zip"
+  "url": "https://github.com/NaricaNardica/lancer-compendium-chn",
+  "manifest": "https://github.com/NaricaNardica/lancer-compendium-chn/releases/latest/download/module.json",
+  "download": "https://github.com/NaricaNardica/lancer-compendium-chn/releases/latest/download/lancer-compendium-chn.zip"
 }
