@@ -1,137 +1,828 @@
 {
-  "label": "NPC 預製單位",
+  "label": "lancer.compendium.npc-actors",
+  "folders": {},
   "entries": {
     "ACE": {
-      "name": "王牌",
-      "tokenName": "王牌"
+      "name": "ACE",
+      "tokenName": "ACE",
+      "items": {
+        "ACE": {
+          "name": "ACE"
+        },
+        "SSC FLIGHT SYSTEM": {
+          "name": "SSC FLIGHT SYSTEM"
+        },
+        "MISSILE LAUNCHER": {
+          "name": "MISSILE LAUNCHER"
+        },
+        "BARREL ROLL": {
+          "name": "BARREL ROLL"
+        }
+      }
     },
     "AEGIS": {
-      "name": "神盾",
-      "tokenName": "神盾"
+      "name": "AEGIS",
+      "tokenName": "AEGIS",
+      "items": {
+        "AEGIS": {
+          "name": "AEGIS"
+        },
+        "LIGHT LASER": {
+          "name": "LIGHT LASER"
+        },
+        "DEFENSE NET": {
+          "name": "DEFENSE NET"
+        },
+        "REGENERATIVE SHIELDING": {
+          "name": "REGENERATIVE SHIELDING"
+        }
+      }
     },
     "ARCHER": {
-      "name": "弓兵",
-      "tokenName": "弓兵"
+      "name": "ARCHER",
+      "tokenName": "ARCHER",
+      "items": {
+        "ARCHER": {
+          "name": "ARCHER"
+        },
+        "LIGHT MACHINE GUN": {
+          "name": "LIGHT MACHINE GUN"
+        },
+        "SUPPRESS": {
+          "name": "SUPPRESS"
+        },
+        "MOVING TARGET": {
+          "name": "MOVING TARGET"
+        },
+        "SUPERIOR SENTINEL": {
+          "name": "SUPERIOR SENTINEL"
+        }
+      }
     },
     "ASSASSIN": {
-      "name": "刺客",
-      "tokenName": "刺客"
+      "name": "ASSASSIN",
+      "tokenName": "ASSASSIN",
+      "items": {
+        "ASSASSIN": {
+          "name": "ASSASSIN"
+        },
+        "KAI BIOPLATING": {
+          "name": "KAI BIOPLATING"
+        },
+        "HEATED BLADE": {
+          "name": "HEATED BLADE"
+        },
+        "ASSASSIN’S MARK": {
+          "name": "ASSASSIN’S MARK"
+        },
+        "LEAP": {
+          "name": "LEAP"
+        }
+      }
     },
     "ASSAULT": {
-      "name": "突擊兵",
-      "tokenName": "突擊兵"
+      "name": "ASSAULT",
+      "tokenName": "ASSAULT",
+      "items": {
+        "ASSAULT": {
+          "name": "ASSAULT"
+        },
+        "HEAVY ASSAULT RIFLE": {
+          "name": "HEAVY ASSAULT RIFLE"
+        },
+        "COMBAT KNIFE": {
+          "name": "COMBAT KNIFE"
+        },
+        "HUNKER DOWN": {
+          "name": "HUNKER DOWN"
+        }
+      }
     },
     "BARRICADE": {
-      "name": "路障",
-      "tokenName": "路障"
+      "name": "BARRICADE",
+      "tokenName": "BARRICADE",
+      "items": {
+        "BARRICADE": {
+          "name": "BARRICADE"
+        },
+        "GRAVITON LANCE": {
+          "name": "GRAVITON LANCE"
+        },
+        "MOBILE PRINTER": {
+          "name": "MOBILE PRINTER"
+        },
+        "SHOCK PLATING": {
+          "name": "SHOCK PLATING"
+        },
+        "BULWARK MODS": {
+          "name": "BULWARK MODS"
+        }
+      }
     },
     "BASTION": {
-      "name": "堡壘",
-      "tokenName": "堡壘"
+      "name": "BASTION",
+      "tokenName": "BASTION",
+      "items": {
+        "BASTION": {
+          "name": "BASTION"
+        },
+        "ROTARY GRENADE LAUNCHER": {
+          "name": "ROTARY GRENADE LAUNCHER"
+        },
+        "HEAVY ASSAULT SHIELD": {
+          "name": "HEAVY ASSAULT SHIELD"
+        },
+        "FRIENDLY INTERDICTION": {
+          "name": "FRIENDLY INTERDICTION"
+        },
+        "GUARDIAN": {
+          "name": "GUARDIAN"
+        }
+      }
     },
     "BERSERKER": {
-      "name": "狂戰士",
-      "tokenName": "狂戰士"
+      "name": "BERSERKER",
+      "tokenName": "BERSERKER",
+      "items": {
+        "BERSERKER": {
+          "name": "BERSERKER"
+        },
+        "CHAIN AXE": {
+          "name": "CHAIN AXE"
+        },
+        "STAMPEDE DEFENSE": {
+          "name": "STAMPEDE DEFENSE"
+        },
+        "AGGRESSION": {
+          "name": "AGGRESSION"
+        },
+        "AVALANCHE CHARGE": {
+          "name": "AVALANCHE CHARGE"
+        }
+      }
     },
     "BOMBARD": {
-      "name": "炮兵",
-      "tokenName": "炮兵"
+      "name": "BOMBARD",
+      "tokenName": "BOMBARD",
+      "items": {
+        "BOMBARD": {
+          "name": "BOMBARD"
+        },
+        "BOMBARD CANNON": {
+          "name": "BOMBARD CANNON"
+        },
+        "CLUSTER MUNITIONS": {
+          "name": "CLUSTER MUNITIONS"
+        },
+        "EARTHSHAKER SHELLS": {
+          "name": "EARTHSHAKER SHELLS"
+        },
+        "SIEGE ARMOR": {
+          "name": "SIEGE ARMOR"
+        }
+      }
     },
     "BREACHER": {
-      "name": "攻堅者",
-      "tokenName": "攻堅者"
+      "name": "BREACHER",
+      "tokenName": "BREACHER",
+      "items": {
+        "BREACHER": {
+          "name": "BREACHER"
+        },
+        "DUAL SHOTGUNS": {
+          "name": "DUAL SHOTGUNS"
+        },
+        "BREACH RAM": {
+          "name": "BREACH RAM"
+        },
+        "BREAK ARMOR": {
+          "name": "BREAK ARMOR"
+        }
+      }
     },
     "CATAPHRACT": {
-      "name": "重鐵騎",
-      "tokenName": "重鐵騎"
+      "name": "CATAPHRACT",
+      "tokenName": "CATAPHRACT",
+      "items": {
+        "CATAPHRACT": {
+          "name": "CATAPHRACT"
+        },
+        "RAM CANNON": {
+          "name": "RAM CANNON"
+        },
+        "TRAMPLE": {
+          "name": "TRAMPLE"
+        },
+        "IMPALE": {
+          "name": "IMPALE"
+        },
+        "POINT-DEFENSE SHIELD": {
+          "name": "POINT-DEFENSE SHIELD"
+        }
+      }
     },
     "DEMOLISHER": {
-      "name": "粉碎者",
-      "tokenName": "粉碎者"
+      "name": "DEMOLISHER",
+      "tokenName": "DEMOLISHER",
+      "items": {
+        "DEMOLISHER": {
+          "name": "DEMOLISHER"
+        },
+        "DEMOLITION HAMMER": {
+          "name": "DEMOLITION HAMMER"
+        },
+        "DIG IN": {
+          "name": "DIG IN"
+        },
+        "SHOCK ARMOR": {
+          "name": "SHOCK ARMOR"
+        },
+        "HEAVY FRAME": {
+          "name": "HEAVY FRAME"
+        }
+      }
     },
     "ENGINEER": {
-      "name": "工程師",
-      "tokenName": "工程師"
+      "name": "ENGINEER",
+      "tokenName": "ENGINEER",
+      "items": {
+        "ENGINEER": {
+          "name": "ENGINEER"
+        },
+        "FLAK CANNON": {
+          "name": "FLAK CANNON"
+        },
+        "DEPLOYABLE TURRET": {
+          "name": "DEPLOYABLE TURRET"
+        },
+        "ENGINEER’S MARK": {
+          "name": "ENGINEER’S MARK"
+        }
+      }
     },
     "GOLIATH": {
-      "name": "巨人",
-      "tokenName": "巨人"
+      "name": "GOLIATH",
+      "tokenName": "GOLIATH",
+      "items": {
+        "GOLIATH": {
+          "name": "GOLIATH"
+        },
+        "DRUM SHOTGUN": {
+          "name": "DRUM SHOTGUN"
+        },
+        "CRUSH TARGETING": {
+          "name": "CRUSH TARGETING"
+        },
+        "HEAVY FRAME": {
+          "name": "HEAVY FRAME"
+        },
+        "GUARDIAN": {
+          "name": "GUARDIAN"
+        },
+        "SIEGE ARMOR": {
+          "name": "SIEGE ARMOR"
+        }
+      }
     },
     "HIVE": {
-      "name": "蟲巢",
-      "tokenName": "蟲巢"
+      "name": "HIVE",
+      "tokenName": "HIVE",
+      "items": {
+        "HIVE": {
+          "name": "HIVE"
+        },
+        "HUNTER-KILLER NEXUS": {
+          "name": "HUNTER-KILLER NEXUS"
+        },
+        "DRONE BARRAGE": {
+          "name": "DRONE BARRAGE"
+        },
+        "RAZOR SWARMS": {
+          "name": "RAZOR SWARMS"
+        }
+      }
     },
     "HORNET": {
-      "name": "胡蜂",
-      "tokenName": "胡蜂"
-    },
-    "HUMAN": {
-      "name": "人類",
-      "tokenName": "人類"
+      "name": "HORNET",
+      "tokenName": "HORNET",
+      "items": {
+        "HORNET": {
+          "name": "HORNET"
+        },
+        "STINGER PISTOL": {
+          "name": "STINGER PISTOL"
+        },
+        "SSC TOTAL SUITE": {
+          "name": "SSC TOTAL SUITE"
+        },
+        "WEAVE": {
+          "name": "WEAVE"
+        },
+        "IMPALE SYSTEMS": {
+          "name": "IMPALE SYSTEMS"
+        }
+      }
     },
     "MIRAGE": {
-      "name": "幻象",
-      "tokenName": "幻象"
-    },
-    "MONSTROSITY": {
-      "name": "怪物",
-      "tokenName": "怪物"
+      "name": "MIRAGE",
+      "tokenName": "MIRAGE",
+      "items": {
+        "MIRAGE": {
+          "name": "MIRAGE"
+        },
+        "WARP SENSORS": {
+          "name": "WARP SENSORS"
+        },
+        "REALITY FLICKER": {
+          "name": "REALITY FLICKER"
+        },
+        "DATAVEIL": {
+          "name": "DATAVEIL"
+        },
+        "GLITCH SCANNERS": {
+          "name": "GLITCH SCANNERS"
+        },
+        "BLIP": {
+          "name": "BLIP"
+        }
+      }
     },
     "OPERATOR": {
-      "name": "操作者",
-      "tokenName": "操作者"
+      "name": "OPERATOR",
+      "tokenName": "OPERATOR",
+      "items": {
+        "OPERATOR": {
+          "name": "OPERATOR"
+        },
+        "RAPTOR PLASMA RIFLE": {
+          "name": "RAPTOR PLASMA RIFLE"
+        },
+        "TRACE DRIVE": {
+          "name": "TRACE DRIVE"
+        },
+        "STEP": {
+          "name": "STEP"
+        },
+        "SELF-ERASURE": {
+          "name": "SELF-ERASURE"
+        }
+      }
     },
     "PRIEST": {
-      "name": "祭司",
-      "tokenName": "祭司"
+      "name": "PRIEST",
+      "tokenName": "PRIEST",
+      "items": {
+        "PRIEST": {
+          "name": "PRIEST"
+        },
+        "ABJURE": {
+          "name": "ABJURE"
+        },
+        "HARDENED TARGET": {
+          "name": "HARDENED TARGET"
+        },
+        "INVESTITURE": {
+          "name": "INVESTITURE"
+        },
+        "DISPERSAL SHIELD": {
+          "name": "DISPERSAL SHIELD"
+        }
+      }
     },
     "PYRO": {
-      "name": "火焰兵",
-      "tokenName": "火焰兵"
+      "name": "PYRO",
+      "tokenName": "PYRO",
+      "items": {
+        "PYRO": {
+          "name": "PYRO"
+        },
+        "FLAMETHROWER": {
+          "name": "FLAMETHROWER"
+        },
+        "EXPLOSIVE VENT": {
+          "name": "EXPLOSIVE VENT"
+        },
+        "INSULATED": {
+          "name": "INSULATED"
+        },
+        "FIREBREAK SHIELD": {
+          "name": "FIREBREAK SHIELD"
+        }
+      }
     },
     "RAINMAKER": {
-      "name": "造雨者",
-      "tokenName": "造雨者"
+      "name": "RAINMAKER",
+      "tokenName": "RAINMAKER",
+      "items": {
+        "RAINMAKER": {
+          "name": "RAINMAKER"
+        },
+        "MISSILE PODS": {
+          "name": "MISSILE PODS"
+        },
+        "JAVELIN ROCKETS": {
+          "name": "JAVELIN ROCKETS"
+        },
+        "HUNTSMAN": {
+          "name": "HUNTSMAN"
+        }
+      }
     },
     "RONIN": {
-      "name": "浪人",
-      "tokenName": "浪人"
+      "name": "RONIN",
+      "tokenName": "RONIN",
+      "items": {
+        "RONIN": {
+          "name": "RONIN"
+        },
+        "CARBON FIBER SWORD": {
+          "name": "CARBON FIBER SWORD"
+        },
+        "REBOUND": {
+          "name": "REBOUND"
+        }
+      }
     },
     "SCOURER": {
-      "name": "凈化者",
-      "tokenName": "凈化者"
+      "name": "SCOURER",
+      "tokenName": "SCOURER",
+      "items": {
+        "SCOURER": {
+          "name": "SCOURER"
+        },
+        "THERMAL LANCE": {
+          "name": "THERMAL LANCE"
+        },
+        "FOCUS DOWN": {
+          "name": "FOCUS DOWN"
+        },
+        "COOLING MODULE": {
+          "name": "COOLING MODULE"
+        },
+        "ABLATIVE SHIELDING": {
+          "name": "ABLATIVE SHIELDING"
+        }
+      }
     },
     "SCOUT": {
-      "name": "斥候",
-      "tokenName": "斥候"
+      "name": "SCOUT",
+      "tokenName": "SCOUT",
+      "items": {
+        "SCOUT": {
+          "name": "SCOUT"
+        },
+        "MARKER RIFLE": {
+          "name": "MARKER RIFLE"
+        },
+        "SIGHT": {
+          "name": "SIGHT"
+        },
+        "REBOUND SCAN": {
+          "name": "REBOUND SCAN"
+        },
+        "CLOAKING FIELD": {
+          "name": "CLOAKING FIELD"
+        }
+      }
     },
     "SEEDER": {
-      "name": "播種者",
-      "tokenName": "播種者"
+      "name": "SEEDER",
+      "tokenName": "SEEDER",
+      "items": {
+        "SEEDER": {
+          "name": "SEEDER"
+        },
+        "LAY MINES": {
+          "name": "LAY MINES"
+        },
+        "GRAV-GRENADE LAUNCHER": {
+          "name": "GRAV-GRENADE LAUNCHER"
+        }
+      }
     },
     "SENTINEL": {
-      "name": "哨兵",
-      "tokenName": "哨兵"
+      "name": "SENTINEL",
+      "tokenName": "SENTINEL",
+      "items": {
+        "SENTINEL": {
+          "name": "SENTINEL"
+        },
+        "COMBAT SHOTGUN": {
+          "name": "COMBAT SHOTGUN"
+        },
+        "RETRACTABLE SWORD": {
+          "name": "RETRACTABLE SWORD"
+        },
+        "EYE OF MIDNIGHT": {
+          "name": "EYE OF MIDNIGHT"
+        },
+        "GUARDIAN": {
+          "name": "GUARDIAN"
+        }
+      }
     },
     "SNIPER": {
-      "name": "狙擊手",
-      "tokenName": "狙擊手"
+      "name": "SNIPER",
+      "tokenName": "SNIPER",
+      "items": {
+        "SNIPER": {
+          "name": "SNIPER"
+        },
+        "ANTI-MATERIEL RIFLE": {
+          "name": "ANTI-MATERIEL RIFLE"
+        },
+        "SNIPER’S MARK": {
+          "name": "SNIPER’S MARK"
+        },
+        "CLIMBER": {
+          "name": "CLIMBER"
+        }
+      }
     },
     "SPECTER": {
-      "name": "幽靈",
-      "tokenName": "幽靈"
-    },
-    "SQUAD": {
-      "name": "兵隊",
-      "tokenName": "兵隊"
+      "name": "SPECTER",
+      "tokenName": "SPECTER",
+      "items": {
+        "SPECTER": {
+          "name": "SPECTER"
+        },
+        "MONOWIRE SWORD": {
+          "name": "MONOWIRE SWORD"
+        },
+        "PROWL": {
+          "name": "PROWL"
+        },
+        "TACTICAL CLOAK": {
+          "name": "TACTICAL CLOAK"
+        },
+        "HUNT": {
+          "name": "HUNT"
+        }
+      }
     },
     "SUPPORT": {
-      "name": "援護者",
-      "tokenName": "援護者"
+      "name": "SUPPORT",
+      "tokenName": "SUPPORT",
+      "items": {
+        "SUPPORT": {
+          "name": "SUPPORT"
+        },
+        "SEALANT GUN": {
+          "name": "SEALANT GUN"
+        },
+        "RESTOCK DRONE": {
+          "name": "RESTOCK DRONE"
+        },
+        "NANO-REPAIR CLOUD": {
+          "name": "NANO-REPAIR CLOUD"
+        }
+      }
     },
     "WITCH": {
-      "name": "女巫",
-      "tokenName": "女巫"
+      "name": "WITCH",
+      "tokenName": "WITCH",
+      "items": {
+        "WITCH": {
+          "name": "WITCH"
+        },
+        "TEAR DOWN": {
+          "name": "TEAR DOWN"
+        },
+        "BLIND": {
+          "name": "BLIND"
+        },
+        "PREDATORY LOGIC": {
+          "name": "PREDATORY LOGIC"
+        },
+        "BLUR": {
+          "name": "BLUR"
+        }
+      }
+    },
+    "HUMAN": {
+      "name": "HUMAN",
+      "tokenName": "HUMAN",
+      "items": {
+        "HUMAN": {
+          "name": "HUMAN"
+        }
+      }
+    },
+    "SQUAD": {
+      "name": "SQUAD",
+      "tokenName": "SQUAD",
+      "items": {
+        "SQUAD": {
+          "name": "SQUAD"
+        },
+        "SOLDIERS": {
+          "name": "SOLDIERS"
+        },
+        "RANK AND FILE": {
+          "name": "RANK AND FILE"
+        },
+        "STRENGTH IN NUMBERS": {
+          "name": "STRENGTH IN NUMBERS"
+        },
+        "SPREAD OUT": {
+          "name": "SPREAD OUT"
+        },
+        "UNDERSIZE": {
+          "name": "UNDERSIZE"
+        },
+        "PRIMARY WEAPON": {
+          "name": "PRIMARY WEAPON"
+        },
+        "ANTI-ARMOR WEAPON": {
+          "name": "ANTI-ARMOR WEAPON"
+        }
+      }
+    },
+    "MONSTROSITY": {
+      "name": "MONSTROSITY",
+      "tokenName": "MONSTROSITY",
+      "items": {
+        "MONSTROSITY": {
+          "name": "MONSTROSITY"
+        },
+        "UNIQUE PHYSIOLOGY": {
+          "name": "UNIQUE PHYSIOLOGY"
+        },
+        "DEADLIEST GAME": {
+          "name": "DEADLIEST GAME"
+        },
+        "CLAWS": {
+          "name": "CLAWS"
+        }
+      }
+    },
+    "MBT": {
+      "name": "MBT",
+      "tokenName": "MBT",
+      "items": {
+        "MBT": {
+          "name": "MBT"
+        },
+        "Armaments": {
+          "name": "Armaments"
+        },
+        "Rolling Thunder": {
+          "name": "Rolling Thunder"
+        },
+        "Full-Tracked": {
+          "name": "Full-Tracked"
+        },
+        "Composite Armor": {
+          "name": "Composite Armor"
+        },
+        "Tank Shock": {
+          "name": "Tank Shock"
+        },
+        "Stable Body": {
+          "name": "Stable Body"
+        }
+      }
+    },
+    "AVENGER": {
+      "name": "AVENGER",
+      "tokenName": "AVENGER",
+      "items": {
+        "AVENGER": {
+          "name": "AVENGER"
+        },
+        "SLUG PISTOL": {
+          "name": "SLUG PISTOL"
+        },
+        "ERUPTING SHRAPNEL": {
+          "name": "ERUPTING SHRAPNEL"
+        },
+        "ASSAULT ARMOR": {
+          "name": "ASSAULT ARMOR"
+        },
+        "REVENGE": {
+          "name": "REVENGE"
+        }
+      }
+    },
+    "LURKER": {
+      "name": "LURKER",
+      "tokenName": "LURKER",
+      "items": {
+        "LURKER": {
+          "name": "LURKER"
+        },
+        "UMBRAL SHROUD": {
+          "name": "UMBRAL SHROUD"
+        },
+        "SCOURING WHIP": {
+          "name": "SCOURING WHIP"
+        },
+        "UMBRAL SHIFT": {
+          "name": "UMBRAL SHIFT"
+        }
+      }
+    },
+    "STRIDER": {
+      "name": "STRIDER",
+      "tokenName": "STRIDER",
+      "items": {
+        "STRIDER": {
+          "name": "STRIDER"
+        },
+        "SWAP KIT": {
+          "name": "SWAP KIT"
+        },
+        "MARKSMAN KIT SWAP BONUS": {
+          "name": "MARKSMAN KIT SWAP BONUS"
+        },
+        "RANGER LONG RIFLE": {
+          "name": "RANGER LONG RIFLE"
+        },
+        "DUCK": {
+          "name": "DUCK"
+        },
+        "SKIRMISHER KIT SWAP BONUS": {
+          "name": "SKIRMISHER KIT SWAP BONUS"
+        },
+        "EXPLOSIVE RIFLE": {
+          "name": "EXPLOSIVE RIFLE"
+        },
+        "REPOSITION": {
+          "name": "REPOSITION"
+        }
+      }
+    },
+    "SPITE": {
+      "name": "SPITE",
+      "tokenName": "SPITE",
+      "items": {
+        "SPITE": {
+          "name": "SPITE"
+        },
+        "ENTHRONE": {
+          "name": "ENTHRONE"
+        },
+        "GUARDIAN": {
+          "name": "GUARDIAN"
+        },
+        "IMPRISON": {
+          "name": "IMPRISON"
+        },
+        "SEIZE": {
+          "name": "SEIZE"
+        }
+      }
+    },
+    "Tempest": {
+      "name": "Tempest",
+      "tokenName": "Tempest",
+      "items": {
+        "Tempest": {
+          "name": "Tempest"
+        },
+        "Flying Platform": {
+          "name": "Flying Platform"
+        },
+        "Centerpiece": {
+          "name": "Centerpiece"
+        },
+        "Eye of the Storm": {
+          "name": "Eye of the Storm"
+        },
+        "Nanite Typhoon Cannon": {
+          "name": "Nanite Typhoon Cannon"
+        },
+        "Climate Node": {
+          "name": "Climate Node"
+        },
+        "Meteorological Graywash": {
+          "name": "Meteorological Graywash"
+        },
+        "Nanite Meteor": {
+          "name": "Nanite Meteor"
+        },
+        "Monsoon Nanite Dispensers": {
+          "name": "Monsoon Nanite Dispensers"
+        }
+      }
+    },
+    "Leech": {
+      "name": "Leech",
+      "tokenName": "Leech",
+      "items": {
+        "Leech": {
+          "name": "Leech"
+        },
+        "Purge": {
+          "name": "Purge"
+        },
+        "Ophiocordyceps Doctrine Upgrade I": {
+          "name": "Ophiocordyceps Doctrine Upgrade I"
+        },
+        "Paired Talons MK II": {
+          "name": "Paired Talons MK II"
+        }
+      }
     }
   }
 }

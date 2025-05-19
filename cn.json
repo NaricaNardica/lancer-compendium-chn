@@ -1,1 +1,445 @@
-{}
+{
+  "TYPES": {
+    "Actor": {
+      "deployable": "可展开物",
+      "mech": "机甲",
+      "npc": "NPC",
+      "pilot": "驾驶员"
+    },
+    "Item": {
+      "bond": "羁绊",
+      "core_bonus": "核心奖励",
+      "frame": "骨架",
+      "license": "牌照",
+      "mech_system": "机甲系统",
+      "mech_weapon": "机甲武器",
+      "npc_class": "NPC职业",
+      "npc_feature": "NPC特性",
+      "npc_template": "NPC模板",
+      "organization": "组织",
+      "pilot_armor": "驾驶员护甲",
+      "pilot_gear": "驾驶员装备",
+      "pilot_weapon": "驾驶员武器",
+      "reserve": "储备",
+      "skill": "技能",
+      "status": "状况/状态",
+      "talent": "天赋",
+      "weapon_mod": "武器模组"
+    }
+  },
+  "lancer": {
+    "Actor": {
+      "FIELDS": {
+        "activations": { "label": "Activations" }
+      }
+    },
+    "placeholder": {
+      "name": "名称"
+    },
+    "common-sheet": {
+      "tabs": {
+        "effects": "<激活中效果>"
+      }
+    },
+    "deployable-sheet": {
+      "tabs": {
+        "status": "<状态>",
+        "config": "<设定>"
+      },
+      "deployer": {
+        "label": "部署者"
+      },
+      "stats": {
+        "label": "基础属性"
+      }
+    },
+    "mech-sheet": {
+      "tabs": {
+        "stats": "<机甲属性>",
+        "loadout": "<机甲装备>",
+        "talents": "<驾驶员天赋>"
+      },
+      "core": {
+        "label": "核心能量"
+      },
+      "actions": {
+        "label": "动作"
+      },
+      "macros": {
+        "label": "宏"
+      },
+      "system": {
+        "label": "装备",
+        "sp-used": "SP 已使用"
+      },
+      "structure": {
+        "label": "结构"
+      },
+      "sensors": {
+        "label": "感应"
+      },
+      "heat": {
+        "label": "热度"
+      },
+      "evasion": {
+        "label": "回避"
+      }
+
+    },
+    "npc-sheet": {
+      "header": {
+        "class": "职业："
+      },
+      "class": {
+        "label": "职业",
+        "none": "未选择职业"
+      },
+      "templates": {
+        "label": "模板"
+      },
+      "features": {
+        "label": "特性"
+      },
+      "effects": {
+        "label": "激活效果"
+      }
+    },
+    "pilot-sheet": {
+      "header": {
+        "ll": "牌照等级：",
+        "cs": "代号：",
+        "name": "名称：",
+        "bg": "背景："
+      },
+      "tabs": {
+        "cloud": "<RM-4://同步页>",
+        "dossier": "<驾驶员档案>",
+        "narrative": "<驾驶员数据>",
+        "tactical": "<驾驶员战术>",
+        "loadout": "<装备>",
+        "mech": "<激活机甲>"
+      },
+      "cloud-header": {
+        "label": "RM-4://(OMNINET上行链路ID)",
+        "vaultID": "自你的Comp/Con账户中加载 (如果已登录该账户)",
+        "raw-placeholder": "或手动输入角色代码"
+      },
+      "cloud-download": {
+        "label": "下载",
+        "lastSync": "上次同步时间: {timestamp}"
+      },
+      "cloud-upload": {
+        "label": "上传",
+        "wip": "功能制作中"
+      },
+      "json-import": {
+        "label": "导入"
+      },
+      "dossier": {
+        "cs": "代号",
+        "name": "名称"
+      },
+      "narrative": {
+        "bond": "羁绊-{bondName}",
+        "burdens": "负担",
+        "clocks": "计数器"
+      },
+      "tactical": {
+        "armor": "装甲",
+        "weapons": "武器",
+        "gear": "装备",
+        "reserves": "储备",
+        "licenses": "牌照",
+        "cores": "核心奖励"
+      },
+      "abilities": {
+        "skills": "技能触发",
+        "talents": "天赋"
+      }
+    },
+    "chat-card": {
+      "title": {
+        "attack": "// 攻击 //",
+        "damage": "// 伤害 //",
+        "reliable": "// 可靠 //",
+        "crit-damage": "// 会心一击伤害 //",
+        "self-heat": "// 自热 //",
+        "defense-hit": "// 攻击 VS {defense} //",
+        "effect": "// 效果 //",
+        "on-attack": "//攻击时//",
+        "on-hit": "//命中时//",
+        "on-crit": "//会心一击时//",
+        "charge-roll": "// 充能骰 //",
+        "recharged": "// 已充能 //",
+        "structure": "//结构伤害//",
+        "overheating": "//过热//",
+        "cascade": "//层流//",
+        "check": "// 检定 :: {check} //",
+        "system": "// 系统 :: {title} //",
+        "mod": "// 模组 :: {title} //",
+        "trait": "// 特征 :: {title} //",
+        "tech": "// 科技 :: {title} //",
+        "reaction": "// 反应 :: {title} //"
+      },
+      "label": {
+        "trigger": "触发",
+        "effect": "效果"
+      },
+      "attack": {
+        "crit": "会心一击！",
+        "hit": "命中",
+        "miss": "失手",
+        "roll-all-damage": "投掷伤害"
+      },
+      "exclamation": {
+        "overkill": "杀绝！"
+      },
+      "overcharge": {
+        "charged": "{target} + :: 成功充能",
+        "uncharged": "{target} + :: 未充能"
+      },
+      "remaining": "{total} / {max} 剩余"
+    },
+    "floatingDamageNumbers": {
+      "name": "伤害飘字",
+      "hint": "在修改状态（包括应用伤害）时显示伤害飘字。此设置对每个客户端独立生效。"
+    },
+    "uiTheme": {
+      "name": "UI主题",
+      "hint": "用户界面的配色方案，与 Comp/Con 的主题对应。",
+      "gms": "GMS Red (default)",
+      "gmsDark": "GMS Dark",
+      "msmc": "MSMC Solarized",
+      "horus": "HORUS Terminal",
+      "ha": "Harrison Armory Ras Shamra",
+      "ssc": "SSC Constellar Congress",
+      "ipsn": "IPS-N Carina",
+      "gal": "FORECAST/GALSIM"
+    },
+    "statusIconsConfig": {
+      "menu-name": "状态图标",
+      "menu-label": "状态图标设置",
+      "menu-hint": "设置显示在指示物HUD上的状态图标",
+      "defaultConditionsStatus": "默认状况/状态",
+      "defaultConditionsStatus-desc": "使用默认的状况/状态图标",
+      "cancerConditionsStatus": "Cancermantis 状况/状态",
+      "cancerConditionsStatus-desc": "使用Cancermantis提供的状况/状态图标",
+      "cancerNPCTemplates": "Cancermantis  NPC模板",
+      "cancerNPCTemplates-desc": "使用Cancermantis提供的NPC模板图标",
+      "hayleyConditionsStatus": "Hayley 状况/状态",
+      "hayleyConditionsStatus-desc": "使用Hayley提供的状况/状态图标",
+      "hayleyPC": "Hayley风格PC系统",
+      "hayleyPC-desc": "为PC的系统效果使用Hayley风格的图标",
+      "hayleyNPC": "Hayley风格NPC系统",
+      "hayleyNPC-desc": "为NPC的系统效果使用Hayley风格的图标",
+      "hayleyUtility": "Hayley风格通用指示器",
+      "hayleyUtility-desc": "为通用指示器使用Hayley风格的图标",
+      "tommyConditionsStatus": "Tommy 状况/状态",
+      "tommyConditionsStatus-desc": "使用Tommy提供的状况/状态图标"
+    },
+    "statusIconsNames": {
+      "abjure": "誓绝",
+      "aceso": "阿刻索稳定器",
+      "blind": "盲目",
+      "bolster": "强化",
+      "burn": "燃烧",
+      "camus_razor": "加缪之锋",
+      "chain": "束缚术",
+      "chains_of_prometheus": "普罗米修斯之链",
+      "clamp_bomb": "夹钳炸弹",
+      "commander": "指挥官",
+      "cover_hard": "硬性掩护",
+      "cover_soft": "软性掩护",
+      "dangerzone": "超温危域",
+      "destroyed": "被毁",
+      "dimensional_shackles": "次元镣铐",
+      "dispersal_shield_1": "散列护盾-1",
+      "dispersal_shield_2": "散列护盾-2",
+      "dispersal_shield_3": "散列护盾-3",
+      "dominions_breadth": "广域支配",
+      "downandout": "昏迷",
+      "duat_gate": "冥界之门",
+      "echo_edge": "共鸣锋刃",
+      "elite": "精英",
+      "engaged": "交战",
+      "excommunicate": "破门",
+      "exotic": "异种",
+      "exposed": "暴露",
+      "fade_cloak": "FADE斗篷",
+      "flaw_minus": "裂痕_minus",
+      "flaw_plus": "裂痕_plus",
+      "flying": "飞行",
+      "focus_down": "倾泻聚焦",
+      "follower_count": "跟踪器倒计时",
+      "grappled": "受擒",
+      "gravity": "重力",
+      "grind_maniple": "研磨小队战术",
+      "grunt": "低等兵",
+      "haste": "急速术",
+      "hidden": "匿迹",
+      "hiddeninvis": "匿迹和隐形",
+      "hunter_lock": "猎手锁定",
+      "hyperdense_armor": "超密度装甲",
+      "illusionary_subroutines": "幻术子程序",
+      "immobilized": "固定",
+      "impaired": "受损",
+      "imperial_eye": "帝王之眼",
+      "intangible": "无形",
+      "investiture": "授权",
+      "invisible": "隐形",
+      "jammed": "受扰",
+      "kraul_grapple": "克拉尔擒抱",
+      "latch_drone": "碰锁无人机",
+      "lockon": "锁定",
+      "marked": "被标记",
+      "mercenary": "雇佣兵",
+      "metahook": "超挂钩",
+      "molten_puncture": "烧灼穿刺",
+      "npc_tier_1": "层级1",
+      "npc_tier_2": "层级2",
+      "npc_tier_3": "层级3",
+      "overshield": "护盾",
+      "pain_transference": "痛苦转移",
+      "petrify": "石化术",
+      "pirate": "海盗",
+      "prone": "伏卧",
+      "reactor_meltdown": "炉心熔解",
+      "resistance_burn": "燃烧抵抗",
+      "resistance_energy": "能量抵抗",
+      "resistance_explosive": "爆炸抵抗",
+      "resistance_heat": "热度抵抗",
+      "resistance_kinetic": "动能抵抗",
+      "retort_loop": "驳逆回环",
+      "rpv": "RPV",
+      "sanctuary": "圣所",
+      "shahnameh": "列王记",
+      "ship": "飞船",
+      "shredded": "离散",
+      "shutdown": "关机",
+      "slow": "缓慢",
+      "spacer": "太空民",
+      "spike": "钉刺",
+      "stasis": "静滞",
+      "stunned": "晕眩",
+      "supercharger": "增压器",
+      "sympathetic_shield": "共感护盾",
+      "tachyon_shield": "迅子护盾",
+      "tear_down": "拆毁术",
+      "terrify": "恐吓",
+      "tiercust": "自定义层级",
+      "tracking_bug": "追踪窃听器",
+      "trueblack": "真黑神盾",
+      "ultra": "超体",
+      "unravel": "解脱",
+      "vehicle": "载具",
+      "veteran": "老兵",
+      "viral_logic": "病毒逻辑",
+      "walk_of_kings": "君王步态",
+      "warp_sensors": "扭曲探头"
+    },
+    "automation": {
+      "menu-name": "自动化",
+      "menu-label": "系统自动化设定",
+      "menu-hint": "设置启用哪些系统自动化选项，或将其全部关闭。",
+      "master-switch": "启用",
+      "master-switch-desc": "关闭此选项以手动处理所有操作。",
+      "attacks": "攻击骰解析",
+      "attacks-desc": "系统是否自动计算攻击命中以及是否处理其他与攻击相关的自动化。",
+      "damage": "伤害应用",
+      "damage-desc": "系统是否对目标自动施加伤害。",
+      "structure": "自动处理结构/压力",
+      "structure-desc": "当机甲HP到达0或热度超过上限时，自动提醒进行结构/压力检定。",
+      "overcharge_heat": "应用超限热度",
+      "overcharge_heat-desc": "自动应用超限热度。",
+      "attack_self_heat": "攻击附带的自身热度",
+      "attack_self_heat-desc": "当武器带有“杀绝”或“热度（自身）”标签时，自动应用热度。",
+      "remove_templates": "自动清除测量模板",
+      "remove_templates-desc": "在回合结束时，自动清除来自攻击的测量模板。",
+      "limited_loading": "管理受限和装填",
+      "limited_loading-desc": "在物品被使用后，自动计算并追踪它们的受限次数/装填状况。",
+      "npc_recharge": "NPC充能",
+      "npc_recharge-desc": "自动在NPC回合开始时为他们投掷充能骰.",
+      "token_size": "指示物大小管理",
+      "token_size-desc": "自动强制指示物的大小与卡上的大小属性匹配。"
+    },
+    "actionTracker": {
+      "menu-name": "动作追踪器",
+      "menu-label": "动作追踪器设置",
+      "menu-hint": "配置与动作跟踪器的HUD和自动化相关的选项。",
+      "showHotbar": "显示快捷栏",
+      "showHotbar-desc": "在战斗中是否显示快捷栏浮窗。",
+      "allowPlayers": "允许玩家修改动作",
+      "allowPlayers-desc": "允许玩家修改自己的动作。",
+      "printMessages": "回合提示",
+      "printMessages-desc": "是否在回合的开始与结束时输出相应的聊天信息提示。"
+    },
+    "initiative": {
+      "sorttracker": "先攻栏自动排序",
+      "sorttracker-desc": "将当前正在行动的单位移到先攻栏的顶部，将已经行动过的单位移到先攻栏末尾。",
+      "appearancesettingslabel": "外观设置",
+      "appearancesettingsbutton": "外观",
+      "appearancesettings-desc": "设置先攻栏的图标与颜色。"
+    },
+    "squaregriddiagonals": {
+      "name": "方格斜向移动规则",
+      "hint": "在使用方格地图时，如何判定斜向移动时的移动力消耗。",
+      "111": "1-1-1: 对角线移动只消耗1移动力（默认）",
+      "121": "1-2-1: 对角线移动交替消耗1或2移动力",
+      "222": "2-2-2: 曼哈顿距离。对角线移动消耗2移动力",
+      "euc": "欧氏距离: 使用四舍五入的欧几里得距离计算移动消耗"
+    },
+    "effect": {
+      "categories": {
+        "passive": "被动效果",
+        "passthrough": "转移效果",
+        "disabled": "不可用效果",
+        "inherited": "继承中效果"
+      }
+    },
+    "compendium": {
+      "core_macros": "LANCER宏",
+      "lancer_info": "LANCER信息",
+      "deployable": "部署物",
+      "mech-items": "机甲汇编",
+      "npc-actors": "预设NPC",
+      "npc-items": "NPC汇编",
+      "pilot-items": "驾驶员汇编",
+      "player-actors": "预设玩家卡",
+      "status-items": "状况/状态"
+    },
+    "tokenConfig": {
+      "manual_token_size": {
+        "label": "手动调整指示物大小",
+        "hint": "跳过系统的自动化缩放以手动决定指示物的尺寸。"
+      }
+    }
+  },
+  "LANCERINITIATIVE": {
+    "IconSettingsMenu": "图标设置",
+    "Icon": "激活图标",
+    "IconDesc": "用于定义激活图标的 CSS 类",
+    "DeactivateIcon": "未激活图标",
+    "DeactivateIconDesc": "用于定义未激活图标的 CSS 类。",
+    "IconSize": "图标大小",
+    "IconPreview": "图标预览",
+    "PCColor": "图标颜色",
+    "PCColorDesc": "默认: #44abe0",
+    "FriendlyColor": "友方颜色",
+    "FriendlyColorDesc": "默认: #44abe0",
+    "NeutralColor": "中立颜色",
+    "NeutralColorDesc": "默认: #146464",
+    "EnemyColor": "敌方颜色",
+    "EnemyColorDesc": "默认: #d98f30",
+    "DoneColor": "未激活颜色",
+    "DoneColorDesc": "默认: #aaaaaa",
+    "ActivatedLast": "已行动单位后置",
+    "ActivatedLastDesc": "将已经行动过回合的单位移到先攻栏的末尾。",
+    "SortTracker": "先攻栏自动排序",
+    "SortTrackerDesc": "将当前正在行动的单位移到先攻栏的顶部，将已经行动过的单位移到先攻栏末尾。",
+    "EnableInitiative": "开启先攻掷骰",
+    "EnableInitiativeDesc": "添加一个允许参战者投掷先攻的按钮",
+    "AddActivation": "激活",
+    "RemoveActivation": "移除激活",
+    "UndoActivation": "撤销激活"
+  }
+}
