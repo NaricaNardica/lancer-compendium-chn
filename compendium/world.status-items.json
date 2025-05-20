@@ -5,15 +5,15 @@
     },
     "entries": {
       "Danger Zone": {
-        "name": "超温危域",
-        "effect": "当角色的热度达到热度上限的一半或以上时，他们就处于<b>超温危域</b>。他们无比炽热，因此能使用特定的攻击、天赋和效果。"
+        "name": "Danger Zone",
+        "effect": "Characters are in the DANGER ZONE when half or more of their heat is filled in. They’re smoking hot, which enables some attacks, talents, and effects."
       },
       "Down and Out": {
         "name": "Down and Out",
         "effect": "Pilots that are DOWN AND OUT are unconscious and STUNNED – if they take any more damage, they die. They'll regain consciousness and half of their HP when they rest."
       },
       "Engaged": {
-        "name": "交战",
+        "name": "Engaged",
         "effect": "If a character moves adjacent to a hostile character, they both gain the ENGAGED status for as long as they remain adjacent to one another. Ranged attacks made by an ENGAGED character receive +1 difficulty. Additionally, characters that become ENGAGED by targets of equal or greater SIZE during the course of a movement stop moving immediately and lose any unused movement."
       },
       "Exposed": {
