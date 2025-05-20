@@ -3,7 +3,7 @@ import glob
 import os
 
 def process_data(obj):
-    target_keys = {'flavor','tactics','trigger','tokenName', 'name', 'description', 'detail','passive_name','passive_effect','active_effect','active_name','effect','on_hit','on_attack','effects'}
+    target_keys = {'flavor','tactics','trigger','tokenName', 'name', 'description', 'detail','passive_name','passive_effect','active_effect','active_name','effect','on_hit','on_attack'}
     if isinstance(obj, dict):
         new_dict = {}
         for key, value in obj.items():

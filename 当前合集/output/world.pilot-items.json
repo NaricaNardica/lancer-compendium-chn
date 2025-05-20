@@ -24,12 +24,10 @@
   "entries": {
     "Access": {
       "name": "Access",
-      "effects": {},
       "description": "A keycard, invite, bribes or insider access to a particular location."
     },
     "Accuracy": {
       "name": "Accuracy",
-      "effects": {},
       "description": "Training or enhancement that provides +1 ACCURACY to a particular mech skill or action for the duration of this mission.",
       "synergies": [
         {
@@ -39,7 +37,6 @@
     },
     "Ace": {
       "name": "Ace",
-      "effects": {},
       "description": "Every pilot brags about their actions; occasionally, some even have the reputation to back it up. Harmonious Domesticity is one of these pilots. As an ace, they aren’t just ranked among the most qualified of pilots – they’re among the most qualified of lancers.<br />Whether you’re a talented rookie or a grizzled veteran, you’re one of these aces. Your skills as a pilot are notorious enough that your callsign is known throughout the system.",
       "ranks": {
         "Acrobatics": {
@@ -87,24 +84,20 @@
     },
     "Act Unseen or Unheard": {
       "name": "Act Unseen or Unheard",
-      "effects": {},
       "description": "Get somewhere or do something without detection.",
       "detail": "Get somewhere or do something without being detected, but not necessarily with speed. Hide, sneak, or move quietly. Infiltrate a facility while avoiding security, patrols, or cameras. Perform a quick action or maneuver without being seen or heard, such as picking a pocket, unholstering your gun, or cheating at cards. Wear a disguise."
     },
     "Adaptive Reactor": {
       "name": "Adaptive Reactor",
-      "effects": {},
       "description": "All Armory frames are designed with multiple failsafe systems, but VIP clients and high-tier citizenry have access to a special catalog. With dozens of options for over-engineering reactors, it’s easy to make sure a mech can keep running indefinitely.",
       "effect": "When you Stabilize and choose to cool your mech, you may spend 2 Repairs to clear 1 stress damage."
     },
     "Aganju Tower": {
       "name": "Aganju Tower",
-      "effects": {},
       "description": "After being hit by a ranged or melee attack you may choose to reduce the damage to 0. Upon use, this piece of gear is destroyed."
     },
     "All-Theater Movement Suite": {
       "name": "All-Theater Movement Suite",
-      "effects": {},
       "description": "A popular modification, ATMS adds powerful pulse jets that dramatically improve mech mobility in all theaters.",
       "effect": "You may choose to count any and all of your movement as flying; however, you take 1 Heat at the end of each of your turns in which you fly this way.",
       "synergies": [
@@ -114,53 +107,43 @@
       ]
     },
     "Amber Phantom": {
-      "name": "Amber Phantom",
-      "effects": {}
+      "name": "Amber Phantom"
     },
     "Ambush": {
       "name": "Ambush",
-      "effects": {},
       "description": "Intel that allows you to choose exactly where your next battle will take place, including the layout of terrain and cover."
     },
     "Ammo Crate": {
       "name": "Ammo Crate",
-      "effects": {},
       "description": "Once, while resting, spend this reserve to restore 1 charge for your entire party’s LIMITED systems and weapons."
     },
     "Ammo": {
       "name": "Ammo",
-      "effects": {},
       "description": "Extra uses (+1 or +2) of a LIMITED weapon or system."
     },
     "Anti-Armor Signature Weapon": {
       "name": "Anti-Armor Signature Weapon",
-      "effects": {},
       "effect": "If a pilot takes an Anti-Armor Signature Weapon on a mission, they can’t take any other pilot weapons."
     },
     "Antiphoton Visor": {
       "name": "Antiphoton Visor",
-      "effects": {},
       "description": "Designed to protect the wearer’s eyes from intense bursts of light, antiphoton visors are commonly found among breach teams and solar-forward operators. They are effective against flash weapons, intense UV light, and incidental charges from energy weapons."
     },
     "Apply Fists to Faces": {
       "name": "Apply Fists to Faces",
-      "effects": {},
       "description": "Fight in open, brutal unarmed combat.",
       "detail": "Punch someone in the face, or alternately fight in open, brutal unarmed combat, whether it’s a fist fight, martial arts duel, or a huge brawl. This is never subtle, never clean, and probably causes a lot of noise."
     },
     "Archaic Melee": {
       "name": "Archaic Melee",
-      "effects": {},
       "description": "These weapons were made using pre-Union alloys and technology, and might be anything from industrial-era steel swords through to stone axes. While they remain widely used on some worlds, archaic weapons used by pilots are usually relics, heirlooms, or ceremonial weapons."
     },
     "Archaic Ranged": {
       "name": "Archaic Ranged",
-      "effects": {},
       "description": "These weapons are pre-modern devices like muskets and bows, all of which are still used in some societies."
     },
     "Armory-Sculpted Chassis": {
       "name": "Armory-Sculpted Chassis",
-      "effects": {},
       "description": "Anyone can print a stock mech chassis, relying on a section of generic code to keep them alive. The discerning pilot, on the other hand, accepts only the best: a frame designed, tested, and tuned by one of the Armory’s master fabricators.",
       "effect": "You gain +1 accuracy on all Engineering checks and saves. When you Overcharge, you gain soft cover until the start of your next turn.",
       "synergies": [
@@ -174,33 +157,27 @@
     },
     "Assault Carapace Hardsuit": {
       "name": "Assault Carapace Hardsuit",
-      "effects": {},
       "description": "<p>While Hercynian society is far from primitive, the HUC lacks the advanced industrial manufacturing base required to easily fabricate the large quantities of composite materials needed for modern armor. As a result, the personal combat armor worn by rangers and other combatants is typically made from interlocking and overlapping layers of molted Egregorian carapace, donated by willing volunteers. Distinctly insectile in appearance, treatment allows the carapace to be molded into a variety of shapes and styles suitable for numerous occupational specialties ranging from long-range reconnaissance to heavy assault. While many examples of carapace armor are unpowered, ranger pilots and special forces units use carapace hardsuits created by marrying the plates to various strength-amplification exoskeletons and fitting them with upgraded power sources, interface systems, and environmental seals.</p><p>Acquiring a carapace hardsuit isn't a simple matter. Such suits don’t tend to be available for sale in currency or barter, instead being either handed down from pilot to pilot or custom-made according to a number of formal traditions. These traditions include seeking permission from a willing Egregorian donor to use their carapace and the personal participation of the wearer in the crafting, a process that can take weeks depending on the complexity of the suit. Should a PC manage to obtain one of these hardsuits, you may represent it with the following stats.</p>"
     },
     "Assault Hardsuit": {
       "name": "Assault Hardsuit",
-      "effects": {},
       "description": "These hardsuits, common among military units, feature heavier plating than light hardsuits but more mobility than heavy hardsuits. They are powered, augmenting the user’s strength, and typically feature an onboard computer, sensor suite, integrated air, burst EVA system, and waste recycling systems."
     },
     "Assault": {
       "name": "Assault",
-      "effects": {},
       "description": "Take part in direct and overt combat.",
       "detail": "Take part in direct and overt combat: fighting your way through a building packed with hostile mercenaries, trading shots between rain-slick trenches, fighting in chaotic microgravity as part of a boarding action, or engaging the enemy in the smoking urban rubble of a city under orbital bombardment — When you assault, you’re always assaulting something (a position, a rival pilot, an enemy force, a group of guards), and it’s always loud, open, direct action."
     },
     "Atlas": {
-      "name": "Atlas",
-      "effects": {}
+      "name": "Atlas"
     },
     "Auto-Stabilizing Hardpoints": {
       "name": "Auto-Stabilizing Hardpoints",
-      "effects": {},
       "description": "Using the best in shock-absorption and steadytech, you can retain accuracy across longer, sustained periods of fire.",
       "effect": "Choose one mount. Weapons attached to this mount gain +1 Accuracy."
     },
     "Automated Reflex Suite": {
       "name": "Automated Reflex Suite",
-      "effects": {},
       "description": "1/mission: When you are hit by an attack, you may make the attack a miss as a reaction.",
       "actions": {
         "Automated Reflex Suite": {
@@ -212,12 +189,10 @@
     },
     "Backing": {
       "name": "Backing",
-      "effects": {},
       "description": "Useful leverage through political support from a powerful figure."
     },
     "Bahadur's Reserve": {
       "name": "Bahadur's Reserve",
-      "effects": {},
       "actions": {
         "Molotov Cocktail": {
           "detail": "Throw a molotov within Range 5. Affected characters within a Blast 1 must pass an Agility save or take 2 Burn.",
@@ -228,25 +203,20 @@
       "description": "A remarkably potent spirit distilled by Mir Bahadur, this moonshine is served to discerning customers and traded for favors within Evergreen's informal barter networks. It goes down surprisingly smooth with notes of vanilla and spices and is responsible for a truly impressive number of hangovers and bad decisions. While piloting under the influence is highly inadvisable, a bottle of good alcohol can be a boon to morale as well as a valuable trade commodity. Bahadur’s homebrew can even serve as a disinfectant or crude (if effective) anesthetic, and it is high enough proof to run a biofuel generator or even be repurposed into a makeshift incendiary device in a pinch."
     },
     "Balor": {
-      "name": "Balor",
-      "effects": {}
+      "name": "Balor"
     },
     "Barbarossa": {
-      "name": "Barbarossa",
-      "effects": {}
+      "name": "Barbarossa"
     },
     "Blackbeard": {
-      "name": "Blackbeard",
-      "effects": {}
+      "name": "Blackbeard"
     },
     "Blackmail": {
       "name": "Blackmail",
-      "effects": {},
       "description": "Blackmail materials or sensitive information concerning a particular person."
     },
     "Black Thumb": {
       "name": "Black Thumb",
-      "effects": {},
       "description": "You’re used to station engineering – the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling-hot steam pipes, and tapping on thin panes of sheet metal that lie between you and certain death. After that, a little combat engineering is nothing.",
       "ranks": {
         "Flesh to Metal": {
@@ -298,18 +268,15 @@
       }
     },
     "Black Witch": {
-      "name": "Black Witch",
-      "effects": {}
+      "name": "Black Witch"
     },
     "Blow Something Up": {
       "name": "Blow Something Up",
-      "effects": {},
       "description": "Use explosives to totally wreck something or turn it into an enormous fireball.",
       "detail": "Use explosives (improvised or otherwise), weapons, or maybe just good old fashion brawn to totally wreck something or turn it into an enormous fireball (maybe a wall, sensor array, outpost, reactor core - the good stuff). Probably not to be used against people unless they’re incidentally in the way."
     },
     "Bombardment": {
       "name": "Bombardment",
-      "effects": {},
       "description": "The ability to call in artillery or orbital bombardment once during mech combat (full action, RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage).",
       "actions": {
         "Bombardment": {
@@ -321,7 +288,6 @@
     },
     "Bonded": {
       "name": "Bonded",
-      "effects": {},
       "description": "The galaxy is a dangerous place, and everyone should have a friend to watch their back. Luckily, you’ve found yours. Maybe you enlisted together or were the only survivors of a bloody engagement. Maybe you didn’t start out as friends, or maybe you were raised to fight alongside each other – however your friendship came to be, when it comes time to drop, there’s no one you’d rather have at your side. Alone, you’re deadly; together, you’re a force of nature.",
       "ranks": {
         "I’m Your Huckleberry": {
@@ -357,7 +323,6 @@
     },
     "Boosted servos": {
       "name": "Boosted servos",
-      "effects": {},
       "description": "IMMUNITY to the SLOWED condition.",
       "synergies": [
         {
@@ -367,7 +332,6 @@
     },
     "Brawler": {
       "name": "Brawler",
-      "effects": {},
       "description": "Up close and personal. The way battle was done since the dawn of time, then forgotten with the first spark of gunpowder. Tempest Gloire is one pilot who prefers the old ways: hand-to-hand, weapons discarded, just the strength of her machine versus the strength of all others. You and her both know that the sweetest victory is found at the culmination of a dance as old as war itself, with the first trick known to humanity: a fist to your enemy’s face.",
       "ranks": {
         "Hold and Lock": {
@@ -413,13 +377,11 @@
     },
     "Briareos Frame": {
       "name": "Briareos Frame",
-      "effects": {},
       "description": "The Briareos is the newest release in IPS-N’s line of near-fail frame upgrades: templates designed to maximize a mech’s usability before catastrophic failure or the need for a reprint. The Briareos template increases the resilience of inorganic components by supplementing the structure with a superlight frame featuring interwoven layers of IPS-N’s iconic Goliath Weave meshing.",
       "effect": "As long as your mech has no more than 1 Structure, you gain Resistance to all damage. When it’s reduced to 0 HP and 0 Structure, it is not destroyed: instead, you must make a structure damage check each time it takes damage. While in this state, your mech cannot regain HP until you rest or perform a Full Repair, at which point your mech can be repaired normally."
     },
     "Brutal": {
       "name": "Brutal",
-      "effects": {},
       "description": "In the practice ring as in live combat, Aubrey Deckard only knows one way to fight: as fast and messy as possible. When others go hard, she goes hardest; when the order is to eliminate the enemy, she does so with prejudice. This isn’t a dance, it isn’t a game – it’s war, and Brutal lancers mean to see it through. If that means becoming a little bit of a monster, then so be it: the dead can hate from the grave.",
       "ranks": {
         "Predator": {
@@ -457,17 +419,14 @@
       }
     },
     "Caliban": {
-      "name": "Caliban",
-      "effects": {}
+      "name": "Caliban"
     },
     "Camo Cloth": {
       "name": "Camo Cloth",
-      "effects": {},
       "description": "A square of reactive material that slowly shifts to reflect the surrounding environment, enough to cover a human comfortably. The transition takes about 10 seconds and makes anything hidden underneath very difficult to spot."
     },
     "Centimane": {
       "name": "Centimane",
-      "effects": {},
       "description": "In the aftermath of the attack on Tartarus Bay, an anonymous source identified agents of the Karrakin Royal Intelligence Service as the culprits. The Baronies quickly released a statement of denial, which was never countered with hard evidence. Rumors of raw footage from the attack were unsubstantiated. Public reaction – anger, terror – to the station’s destruction quieted. The corpse of Tartarus Bay was shunted away from its stable orbit, directed toward the nearest star.<br />A month later, Baronies-local omninet was flooded with previously suppressed footage from the attack on the station, confirming the rumors: Baronic agents did release the greywash swarm into Tartarus Bay. Further data dumps by Ungrateful agents indicated the existence of a secret Baronic intelligence outfit: the Centimane – the Hundred Hands.",
       "ranks": {
         "Ten Thousand Teeth": {
@@ -501,22 +460,18 @@
     },
     "Charm": {
       "name": "Charm",
-      "effects": {},
       "description": "Convince a receptive audience or use leverage (money, power, personal benefit) to get your way.",
       "detail": "To charm, you need a receptive audience, or some kind of promise of leverage (money, power, personal benefit, etc). You can use it when trying to smooth talk your way past guards, get someone on your side, sway a potential benefactor, talk someone down, perform diplomacy between two parties, or blatantly lie to someone. You can also use it when trying to impersonate someone. Charm won’t work on people that aren’t receptive (such as soldiers you are in a gunfight with) or that you don’t have leverage over (promises of safety, money, power, recompense, help, etc). These promises don’t necessarily have to be true but they have to have some weight with your target."
     },
     "Chomolungma": {
-      "name": "Chomolungma",
-      "effects": {}
+      "name": "Chomolungma"
     },
     "Colony Drop": {
       "name": "Colony Drop",
-      "effects": {},
       "description": "Spend this reserve to have you and your allies drop from a Landmark cargo drop ship, allowing you all to deploy anywhere on the map in the next encounter."
     },
     "Combined Arms": {
       "name": "Combined Arms",
-      "effects": {},
       "description": "True strength in combat doesn’t come from mastering the blade or the gun – it comes from knowing how to use both. Through time and training, Leika McGraff has combined the arts of melee and ranged combat into a single deadly combination. No matter the foe, Leika is a deadly threat; no matter the weapon, Leika is a master of its employ.",
       "ranks": {
         "Shield of Blades": {
@@ -550,7 +505,6 @@
     },
     "Compulsory Scope Upgrade": {
       "name": "Compulsory Scope Upgrade",
-      "effects": {},
       "description": "At the start of combat you may choose to activate this gear. Any time you miss on a ranged attack, you gain +1 Accuracy on your next ranged attack roll made in the same turn. Upon use, this piece of gear is destroyed.",
       "synergies": [
         {
@@ -560,12 +514,10 @@
     },
     "CORE battery": {
       "name": "CORE battery",
-      "effects": {},
       "description": "An extra battery that allows a second use of a mech’s CORE SYSTEM."
     },
     "Corrective": {
       "name": "Corrective",
-      "effects": {},
       "actions": {
         "Use Corrective": {
           "detail": "Expend a charge to apply correctives to Down and Out pilots, immediately bringing them back to consciousness at 1 HP",
@@ -577,7 +529,6 @@
     },
     "Crack Shot": {
       "name": "Crack Shot",
-      "effects": {},
       "description": "Thanks to modern technology, anyone can hit anything these days. Targeting assist. Smart weapons. AIs whispering in people’s ears, moving their hands, squeezing the trigger for them: doing everything but taking credit for the kill. But Strymon Bulis is different. He finds hitting a target is as easy as looking at it, inside of his mech and out. No targeting assist for him; no AI required. All he needs is a zeroed sight, a fresh magazine, and a target downrange...",
       "ranks": {
         "Stable, Steady": {
@@ -618,21 +569,17 @@
     },
     "Crash Cushions": {
       "name": "Crash Cushions",
-      "effects": {},
       "description": "1/mission: When you become STUNNED, you may activate this to not become STUNNED."
     },
     "Dataplating": {
       "name": "Dataplating",
-      "effects": {},
       "description": "Dataplating is a general term for any comm-linked jewelry, subdermal netting, wearable jaw, brow, or maxillary plates, etc., that allows subvocal communication and persistent heads-up and augmented reality displays without wearing a helm. Dataplates can quickly translate nearly any language, and allow users to communicate with each other all but silently."
     },
     "Death’s Head": {
-      "name": "Death’s Head",
-      "effects": {}
+      "name": "Death’s Head"
     },
     "Demolitionist": {
       "name": "Demolitionist",
-      "effects": {},
       "description": "Explosives and warfare go together like alcohol and bad decisions. The power of a bomb in the palm of your hand is a great equalizer, and a well-placed satchel charge or two has brought even the mightiest of fortifications tumbling down. Forget bullets with names etched on them, the packages you deliver go out addressed “To Whom It May Concern,” and you’ve got plenty to go around.",
       "ranks": {
         "Frag and Clear": {
@@ -651,31 +598,25 @@
     },
     "Deployable Shield": {
       "name": "Deployable Shield",
-      "effects": {},
       "description": "A single-use deployable shield generator – a SIZE 1 deployable that grants soft cover to all friendly characters in a BURST 2 radius."
     },
     "Devastator Grenades": {
       "name": "Devastator Grenades",
-      "effects": {},
       "description": "Your Frag Grenades deal +2 damage."
     },
     "Disguise": {
       "name": "Disguise",
-      "effects": {},
       "description": "An effective disguise or cover identity, allowing uncontested access to a location."
     },
     "Diversion": {
       "name": "Diversion",
-      "effects": {},
       "description": "A distraction that provides time to take action without fear of consequence."
     },
     "Drake": {
-      "name": "Drake",
-      "effects": {}
+      "name": "Drake"
     },
     "Drone Commander": {
       "name": "Drone Commander",
-      "effects": {},
       "description": "For a pilot fresh out of boot, keeping a drone swarm in line is like trying to carry water with a net. If they seem to have a mind of their own, it’s because they do, and it’s not that smart. Clymene Kanalakos’s initial frustration was enough to get her practicing, and practice pays off. Now, her swarm obeys almost before she orders – an unnerving development, but a useful one. The swarm is hers.",
       "ranks": {
         "Shepherd": {
@@ -718,7 +659,6 @@
     },
     "Duelist": {
       "name": "Duelist",
-      "effects": {},
       "description": "There can be an elegance to the way a mech moves – an alacrity that elevates it beyond the simple strength of machine and cannon. The difference is in the tools. Ethan \"Orion\" Miller wields weapons crafted by artisans, boutique manufacturers, specialty lines from the big five, blades that hark back to a time where combat was quick but fair – back to a time where skill meant more than landing an accurate shot. With a blade, lance, pick, axe, or hammer in their hand, Orion writes old tales anew.",
       "ranks": {
         "Partisan": {
@@ -778,12 +718,10 @@
       }
     },
     "Dusk Wing": {
-      "name": "Dusk Wing",
-      "effects": {}
+      "name": "Dusk Wing"
     },
     "Emergency Coolant Reservoir": {
       "name": "Emergency Coolant Reservoir",
-      "effects": {},
       "description": "1/mission: Clear EXPOSED as a free action.",
       "actions": {
         "Emergency Coolant Reservoir": {
@@ -794,12 +732,10 @@
       }
     },
     "Empakaai": {
-      "name": "Empakaai",
-      "effects": {}
+      "name": "Empakaai"
     },
     "Empath": {
       "name": "Empath",
-      "effects": {},
       "description": "<p><i>Your time on Hercynia has always been marked by a kind of … searching. A connection to the planet, to something alive there. You can perceive it best at night, when it’s quiet: your name, or a whisper that speaks something deeper and more true, spoken in the voice of another. You don’t feel any fear when you hear it. You feel complete. It takes some time down the well, but one morning you awake resolute.</i></p><p><i>Time to find the distant speaker.</i></p><p>Whether your character was born offworld and came to Hercynia knowing nothing of the Egregorians, Witness, or any of the planet’s history, or you were born in Evergreen or one of the cities of the HUC, your character can be an empath. An empath is someone who can not only register when Witness is being shared, but begin to understand it and, with some training, even add their own subjectivity to it.</p><p>Mere exposure to Hercynia is enough for a character to become an empath. Nobody is “born” an empath – it is a learned process, not an inherited one. Although, like all skills, some people find it easier than others, anyone can potentially learn to understand Witness. Normally, human empaths bond with Egregorians – there are many examples of such in the United Cities. Rarely, empaths can form bonds with other humans – a process that is as rare and wondrous to Egregorians as it is to the humans undergoing it, and one that also suggests that a human extension of Witness may latent and possible with exploration.</p>",
       "ranks": {
         "Sympathetic Precognition": {
@@ -831,12 +767,10 @@
       }
     },
     "Emperor": {
-      "name": "Emperor",
-      "effects": {}
+      "name": "Emperor"
     },
     "Engineer": {
       "name": "Engineer",
-      "effects": {},
       "description": "Pilots are creative and driven people, but Mesa Rownett is an exceptional case – excessively so, some would say. In his spare time, he’s managed to scrape together just enough scrap, requisitioned materials, and workshop space to apply a little old-fashioned ingenuity to his mech, fashioning it to a formidable machine not betrayed by its outward appearance.",
       "ranks": {
         "Prototype": {
@@ -855,21 +789,17 @@
     },
     "Environmental shielding": {
       "name": "Environmental shielding",
-      "effects": {},
       "description": "Equipment that allows you to ignore a particular battlefield hazard or dangerous terrain, such as extreme heat or cold."
     },
     "Esu's Eyes Ocular Apparatus": {
       "name": "Esu's Eyes Ocular Apparatus",
-      "effects": {},
       "description": "At the start of combat you may choose to activate this gear, allowing you to ignore hostile characters’ Hidden and Invisible statuses for the duration of the combat. Upon use, this piece of gear is destroyed."
     },
     "Everest": {
-      "name": "Everest",
-      "effects": {}
+      "name": "Everest"
     },
     "Executioner": {
       "name": "Executioner",
-      "effects": {},
       "description": "On the battlefield, there is no end more honorable than a clean death in combat. Axe or maul in hand, Maxie Wolf sees to it that her enemies are blessed with that honor. No one lives forever – she makes sure of it.",
       "ranks": {
         "Backswing Cut": {
@@ -903,7 +833,6 @@
     },
     "Exemplar": {
       "name": "Exemplar",
-      "effects": {},
       "description": "Eamon Metrias’s livery is famous, his voice brassy, his weapons polished to a sheen. As the advocate for the Nine Spheres, his training with certain martial orders has given him the power to harry and hinder even the most powerful of foes. Eamon is an exemplar of the Spheres, by words and by action.",
       "ranks": {
         "Honorable Challenge": {
@@ -941,7 +870,6 @@
     },
     "Explosive Knuckles": {
       "name": "Explosive Knuckles",
-      "effects": {},
       "description": "1/mission: After hitting with a RAM, you may activate this to deal 6 explosive damage.",
       "synergies": [
         {
@@ -951,32 +879,26 @@
     },
     "Extended Harness": {
       "name": "Extended Harness",
-      "effects": {},
       "description": "A custom harness that allows you to carry an extra pilot weapon and two extra pieces of pilot gear for the duration of this mission."
     },
     "Extra CORE Bonus": {
       "name": "Extra CORE Bonus",
-      "effects": {},
       "description": "Add an additional CORE Bonus."
     },
     "Extra Rations": {
       "name": "Extra Rations",
-      "effects": {},
       "description": "Pilot rations aren’t much better than their nautical forerunners – both are variants on hardtack and nutrient paste. Pilots often carry a stash of extra food, or luxuries like chocolate, coffee, alcohol, or preserved goods from their homeworld. These rations can be used to barter or boost morale."
     },
     "Extra repairs": {
       "name": "Extra repairs",
-      "effects": {},
       "description": "Supplies that give a mech +2 REPAIR CAP."
     },
     "Fielding’s Workshop Access": {
       "name": "Fielding’s Workshop Access",
-      "effects": {},
       "description": "Permanently gain +1 ACCURACY and fill in an extra segment whenever you make progress on clocks to invent, create, or repair items or gear as long as you do it at Fielding’s Workshop."
     },
     "Field Analyst": {
       "name": "Field Analyst",
-      "effects": {},
       "description": "You’ve always been perceptive, able to analyze the flow of battle and come up with strategies on the spot. You’re the mastermind behind the scenes, helping your allies out in battle in various ways. From subtle nudges to your comrades when aiming their weapons to devising advanced firing solutions or tailor-made evasive patterns. With your support, any battle your allies find themselves in is sure to end in success.",
       "ranks": {
         "Tactical Intelligence": {
@@ -1002,18 +924,15 @@
     },
     "Flexsuit": {
       "name": "Flexsuit",
-      "effects": {},
       "description": "A strong base-layer suit that recycles water, generates nutrients, and adapts very rapidly to hostile environs, maintaining a stable condition and extending survivability. Flexsuit wearers can go for roughly a week without eating or drink thanks to the ambrosia paste generated by their suit before its systems are depleted; however, they don’t prevent feelings of hunger. Removing the suit for a day or two is enough to replenish its reserves. Flexsuits also maintain a steady temperature within acceptable parameters."
     },
     "Fomorian Frame": {
       "name": "Fomorian Frame",
-      "effects": {},
       "description": "The Fomorian is an upscaled version of IPS-N’s stock template that has been adapted to meet the needs of long-haul Cosmopolitans looking for enhanced stability and robust impact protection, both micro- and macro-level.",
       "effect": "Increase your mech’s Size by one increment (e.g., from 1/2 to 1, 1 to 2, or 2 to 3) up to a maximum of 3 Size. You can’t be knocked Prone, pulled, or knocked back by smaller characters, regardless of what system or weapon causes the effect."
     },
     "Frag Grenades": {
       "name": "Frag Grenades",
-      "effects": {},
       "actions": {
         "Use Frag Grenade": {
           "detail": "Throw a grenade within Range 5. Affected characters within a Blast 1 must succeed on an Agility save or take 2 Explosive damage.",
@@ -1024,7 +943,6 @@
     },
     "Frostfang Servos": {
       "name": "Frostfang Servos",
-      "effects": {},
       "description": "1/mission: BOOST as a free action.",
       "actions": {
         "Frostfang Servos": {
@@ -1041,57 +959,46 @@
     },
     "Full Subjectivity Sync": {
       "name": "Full Subjectivity Sync",
-      "effects": {},
       "description": "By creating a stable, two-way ontologic bridge, SSC has removed the need for pilots to rely on physical controls alone to pilot their mech. Using a full subjectivity sync, pilots perceive their mech as their own body and control it via neural impulse; somatosensory feedback is translated to the pilot as well, so caution is advised despite nociception-dampening defaults built-in to the system.",
       "effect": "You gain +2 Evasion."
     },
     "Genghis": {
-      "name": "Genghis",
-      "effects": {}
+      "name": "Genghis"
     },
     "Get a Hold of Something": {
       "name": "Get a Hold of Something",
-      "effects": {},
       "description": "Acquire temporary or permanent allies, assets, or connections through wealth or social influence.",
       "detail": "Acquire useful allies, assets, or connections through wealth or social influence. This could be permanent (buying it or receiving it) or temporary (renting or borrowing help or supplies, etc), and might be harder or easier depending on how much you want to use it. This can’t be used for something that’s normally gated by license level (like mech parts) but could be used for aid, supplies, information, food materials, soldiers, or anything else that has more narrative impact. Typically this is acquired by buying it from a market or requisitioning it from a parent organization."
     },
     "Get Somewhere Quickly": {
       "name": "Get Somewhere Quickly",
-      "effects": {},
       "description": "Get somewhere quickly and without complications.",
       "detail": "Get somewhere without complications and with speed, but not necessarily stealth. Climb, swim, or perform acrobatic maneuvers in an attempt to reach a destination faster than the ‘safe’ way. Fall safely from a great height. Move gracefully in zero-g. Chase or flee, outrun, or out pace a target. Get somewhere faster than anyone else. You can also use this when you want to drive or pilot a vehicle."
     },
     "Ghostweave": {
       "name": "Ghostweave",
-      "effects": {},
       "description": "An upscaled version of the same systems found in SSC’s Mythimna Panoply, Ghostweave is a proprietary appliqué used to enhance mech camouflage in all environments.",
       "effect": "During your turn, you are Invisible. If you take no actions on your turn other than your standard move, Hide, and Boost, you remain Invisible until the start of your next turn. You immediately cease to be Invisible when you take a reaction."
     },
     "Gilgamesh": {
-      "name": "Gilgamesh",
-      "effects": {}
+      "name": "Gilgamesh"
     },
     "Goblin": {
-      "name": "Goblin",
-      "effects": {}
+      "name": "Goblin"
     },
     "Golden Ticket": {
       "name": "Golden Ticket",
-      "effects": {},
       "description": "1st Lt. Kim is only authorized to distribute so many limited-access licenses, but a little off-the-books code-cloning by Rio can help stretch those licenses a bit further. You gain a piece of Exotic Gear from Operation Solstice Rain."
     },
     "Gorgon": {
-      "name": "Gorgon",
-      "effects": {}
+      "name": "Gorgon"
     },
     "Governor’s Farm Advanced Access": {
       "name": "Governor’s Farm Advanced Access",
-      "effects": {},
       "description": "Permanently gain +1 ACCURACY on all non-combat skill checks to gather information, write new programs, or hack as long as you take those actions at the Governor’s Farm."
     },
     "Grease Monkey": {
       "name": "Grease Monkey",
-      "effects": {},
       "description": "Eel knows more about the inner workings of a mech than most mechanics. To them, the beast they pilot is more than a machine: it’s a living thing, in need of tender care given by a wise and steady hand. Eel maintains their own house and keeps their own mech in line, both on the battlefield and off. The mechanics back at base come to them with questions, but usually prefer to stay away – there’s something spooky about how Eel's beast runs.",
       "ranks": {
         "Unsanctioned Capacity Upgrade": {
@@ -1125,7 +1032,6 @@
     },
     "Gunslinger": {
       "name": "Gunslinger",
-      "effects": {},
       "description": "In a galaxy bounded by frontiers, there is no law but the one backed by the gun. Sgt. Stev Ansahok wields the humble pistol with a talent unseen in this age, his iron an extension of his own body. As easy as pointing a finger, the weathered sergeant lands shots with accuracy unmatched by machine. His is a gunslinger: justice made whole, given its sacred instrument, and set out to the cruel frontier to tame it.",
       "ranks": {
         "Opening Argument": {
@@ -1166,7 +1072,6 @@
     },
     "Gyges Frame": {
       "name": "Gyges Frame",
-      "effects": {},
       "description": "A mech built on the Gyges template is designed for combat – enhanced with finely tuned stabilizers and a robust suite of targeting software and hardware.",
       "effect": "You gain +1 Accuracy on all Hull checks and saves and +1 Threat with all melee weapons.",
       "synergies": [
@@ -1177,7 +1082,6 @@
     },
     "Gyro Stabilizers": {
       "name": "Gyro Stabilizers",
-      "effects": {},
       "description": "1/mission: As a protocol, treat all of your weapons as if they aren’t ORDNANCE for the rest of the turn.",
       "actions": {
         "Gyro Stabilizers": {
@@ -1194,7 +1098,6 @@
     },
     "Hacker": {
       "name": "Hacker",
-      "effects": {},
       "description": "Since Katya Han was a kid, she played the omninet, able to access any public node – and even a few private ones – with ease. Now, as a pilot, she dives headfirst into the hardcode of any mech core she come across. Firewalls, gatekeeper protocols, invasion, defense – nothing stands in her way. Han wins fights without firing a single shot; if her enemy can’t control their own mech, then they can’t do anything to stop her.",
       "ranks": {
         "SNOW_CRASH": {
@@ -1242,34 +1145,28 @@
     },
     "Hack or Fix": {
       "name": "Hack or Fix",
-      "effects": {},
       "description": "Repair a device or faulty system; alternatively, hack it wide open, or totally wreck, disable or sabotage it.",
       "detail": "Repair a device or faulty system. Alternately, hack it wide open, or totally wreck, disable or sabotage it. You can use this for hacking or safeguarding electronic systems, such as electronic door locks, computer systems, omninet webs, or NHP coffins."
     },
     "Handheld Printer": {
       "name": "Handheld Printer",
-      "effects": {},
       "description": "A miniaturized version of Union’s full-scale printers, handheld printers can be used to make simple objects out of flexible and durable plastic – as long as you have the right pattern chip."
     },
     "Heatfall Coolant System": {
       "name": "Heatfall Coolant System",
-      "effects": {},
       "description": "The Heatfall Coolant System comes packaged with a stabilized reactor core; paired together, this combo is guaranteed to keep a mech cool in nearly any environment.",
       "effect": "Your cost for Overcharge never goes past 1d6 heat."
     },
     "Heavy A/C": {
       "name": "Heavy A/C",
-      "effects": {},
       "description": "Heavy weapons are designed with the augmented strength of hardsuits in mind and include war hammers, mallets, rams, pikes, and heavy two-handed assault swords."
     },
     "Heavy Carapace Hardsuit": {
       "name": "Heavy Carapace Hardsuit",
-      "effects": {},
       "description": "<p>While Hercynian society is far from primitive, the HUC lacks the advanced industrial manufacturing base required to easily fabricate the large quantities of composite materials needed for modern armor. As a result, the personal combat armor worn by rangers and other combatants is typically made from interlocking and overlapping layers of molted Egregorian carapace, donated by willing volunteers. Distinctly insectile in appearance, treatment allows the carapace to be molded into a variety of shapes and styles suitable for numerous occupational specialties ranging from long-range reconnaissance to heavy assault. While many examples of carapace armor are unpowered, ranger pilots and special forces units use carapace hardsuits created by marrying the plates to various strength-amplification exoskeletons and fitting them with upgraded power sources, interface systems, and environmental seals.</p><p>Acquiring a carapace hardsuit isn't a simple matter. Such suits don’t tend to be available for sale in currency or barter, instead being either handed down from pilot to pilot or custom-made according to a number of formal traditions. These traditions include seeking permission from a willing Egregorian donor to use their carapace and the personal participation of the wearer in the crafting, a process that can take weeks depending on the complexity of the suit. Should a PC manage to obtain one of these hardsuits, you may represent it with the following stats.</p>"
     },
     "Heavy Gunner": {
       "name": "Heavy Gunner",
-      "effects": {},
       "description": "Behind the line, Mike Manfrin doesn’t have much to do but wait and make ready. He keeps clean the cannons; makes ordered rows of his shot and shell. He packs sandbags onto earthen berms and stitches closed tears in the sheaths over his chassis’ joints.<br />In an instant, everything changes. Chatter over the local omni. The percussive throb of the medivac lifting off from the other side of the base. Somewhere, a firefight. This is his entrance music, his call to join the fight: a desperate cry for help from a distant friend as the enemy draws close. Time to get to work.<br />His arrival is known by the flight of his shells across the sky, the trembling earth, and the dust that once was.",
       "ranks": {
         "Covering Fire": {
@@ -1310,32 +1207,26 @@
     },
     "Heavy Hardsuit": {
       "name": "Heavy Hardsuit",
-      "effects": {},
       "description": "The heaviest hardsuits. They are always powered and up-armored with thick, composite armor. Heavy hardsuits often feature integrated weapons, powerful mobility suites, and – by augmenting their user’s strength – allow their user to field much heavier weapons than normal infantry can typically carry. Heavy hardsuits are in decline now that half-size chassis are popular, but they are still common among private militaries and middle-tier Diasporan armed forces."
     },
     "Heavy Signature": {
       "name": "Heavy Signature",
-      "effects": {},
       "description": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
       "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic."
     },
     "Hecatoncheires": {
-      "name": "Hecatoncheires",
-      "effects": {}
+      "name": "Hecatoncheires"
     },
     "Hercynian Rations": {
       "name": "Hercynian Rations",
-      "effects": {},
       "description": "HUC rations rely heavily on fish, either smoked or tinned in spiced oil; dried mushrooms which can be reconstituted with water; sealed packs of flatbread or crackers; pickled macroalgae; dried fruits; rice; oats; and tea and freeze-dried coffee. In some ways, these rations are familiar to anyone who's ever subsisted on military fare. In others, they're a reminder of just how far from home you are."
     },
     "High-Mobility Pack": {
       "name": "High-Mobility Pack",
-      "effects": {},
       "description": "The LSA uses these externally mounted flight units for rapid assault and air-drop operations, and the schematics are easy enough to modify and print to GMS standard. You can spend this reserve at the start of any combat to count any and all of your movement as flying for the rest of that scene. Additionally, you may deploy yourself anywhere on the map after all other characters (PCs and NPCs) have deployed."
     },
     "High-Speed Loader": {
       "name": "High-Speed Loader",
-      "effects": {},
       "description": "1/mission: Reload all weapons as a free action.",
       "actions": {
         "High-Speed Loader": {
@@ -1347,17 +1238,14 @@
     },
     "High Caliber Ammo": {
       "name": "High Caliber Ammo",
-      "effects": {},
       "description": "Spend this reserve at the start of any combat scene to give all your weapons AP until the end of the scene."
     },
     "Hot-Load Ammunition": {
       "name": "Hot-Load Ammunition",
-      "effects": {},
       "description": "Adding this much additional power to a weapon’s ammunition is generally not sanctioned, but it is effective. You can spend this reserve to empower your weapons. The next successful ranged or melee attack you make can’t have its damage reduced in any way, and the target must pass a Hull save or be knocked Prone. This effect ends when you hit with a ranged or melee attack roll, or at the end of the scene."
     },
     "House Guard": {
       "name": "House Guard",
-      "effects": {},
       "description": "You fight at the side of your allies, your mech a bulwark that grants them unbreakable resolve and bolsters them up to greater glory.",
       "ranks": {
         "Front Rank": {
@@ -1376,7 +1264,6 @@
     },
     "Hunter": {
       "name": "Hunter",
-      "effects": {},
       "description": "The battlefield is Edith Eidelen’s hunting ground, her domain. It’s only through a true test of strength and guile that will determine who is the predator and who is the prey. Her movement across the field is a prowl: silent, quick, and controlled. In a chassis, she excels in close combat, closing the gap between her and her targets before they can bring their guns to bear.",
       "ranks": {
         "Lunge": {
@@ -1409,12 +1296,10 @@
       }
     },
     "Hydra": {
-      "name": "Hydra",
-      "effects": {}
+      "name": "Hydra"
     },
     "Hyper-Spec Fuel Canister": {
       "name": "Hyper-Spec Fuel Canister",
-      "effects": {},
       "description": "1/mission: As a protocol, you may activate this to gain +1 ACCURACY on all attacks, saves, and checks until the start of your next turn.",
       "actions": {
         "Hyper-Spec Fuel Canister": {
@@ -1431,7 +1316,6 @@
     },
     "Iconoclast": {
       "name": "Iconoclast",
-      "effects": {},
       "description": "You have acquired an NHP, or has it acquired you? Together you have set out to achieve greatness and push boundaries. The two of you are in it together and you’ll be able to achieve fantastical things. Perhaps you’re unaware of the risks; perhaps you willfully choose to ignore them. The power you can tap into with the help of your companion is, however, undeniable. And with such power, who is to stop the two of you from breaking some taboos?",
       "ranks": {
         "Transgression": {
@@ -1457,7 +1341,6 @@
     },
     "IC Blinkpack": {
       "name": "IC Blinkpack",
-      "effects": {},
       "description": "1/mission: As a protocol, you may teleport whenever you move for the rest of your turn.",
       "actions": {
         "IC Blinkpack": {
@@ -1474,13 +1357,11 @@
     },
     "Improved Armament": {
       "name": "Improved Armament",
-      "effects": {},
       "description": "By rerouting power and strengthening systems, you can mount additional weapons beyond the factory recommendations.",
       "effect": "If your mech has fewer than three mounts (excluding integrated mounts), it gains an additional Flexible mount."
     },
     "Incendiary Ammo (Pilot-Scale)": {
       "name": "Incendiary Ammo (Pilot-Scale)",
-      "effects": {},
       "description": "Changes a pilot-scale weapon’s damage type to BURN.",
       "synergies": [
         {
@@ -1490,7 +1371,6 @@
     },
     "Infiltrator": {
       "name": "Infiltrator",
-      "effects": {},
       "description": "Whether by spoofing signatures on enemy scanners, moving skillfully through cover, or thanks to your modded optical camouflage, you’re never seen unless you want to be. Whatever the size of the mech, whatever the terrain, whatever the enemy, you can get in and get out without raising alarm.",
       "ranks": {
         "Prowl": {
@@ -1530,18 +1410,15 @@
     },
     "Infoskin": {
       "name": "Infoskin",
-      "effects": {},
       "description": "A reactive, synthetic polymer with advanced qualities, infoskin bonds quickly to real skin and hair. Once applied, it responds to electronic signals delivered by linked software, rapidly changing its color and texture – even contorting and distorting its form – allowing wearers to make minor changes to their appearance. With infoskin, it’s a simple matter to alter facial features, hair color, or makeup patterns."
     },
     "Integrated Ammo Feeds": {
       "name": "Integrated Ammo Feeds",
-      "effects": {},
       "description": "By streamlining and integrating all automated ordnance-loading modules, Harrison Armory specialists can greatly enhance mechs’ time-to-target minimums. As an added bonus, these upgrades usually result in increased carrying capacity, allowing pilots to field more ordnance than design specifications suggest.",
       "effect": "All Limited systems and weapons gain an additional two charges."
     },
     "Integrated Nerveweave": {
       "name": "Integrated Nerveweave",
-      "effects": {},
       "description": "Integrated nerveweave combines several technologies to grant total battlefield alacrity, assuring pilots are never left behind.",
       "effect": "You may move an additional 2 spaces when you Boost.",
       "synergies": [
@@ -1552,29 +1429,24 @@
     },
     "Integrated Weapon": {
       "name": "Integrated Weapon",
-      "effects": {},
       "description": "The empty spaces in your mech’s chassis – inside fists, chest plates, anywhere there’s room – are filled with integrated weapons, ready to fire on reflex.",
       "effect": "Your mech gains a new integrated mount with capacity for one Auxiliary weapon. This weapon can be fired 1/round as a free action when you fire any other weapon on your mech. It can’t be modified."
     },
     "Invent or Create": {
       "name": "Invent or Create",
-      "effects": {},
       "description": "Invent new devices, tools, or approaches to problems.",
       "detail": "Generally speaking, you need tools and supplies to invent or create something successfully. Use this with many downtime actions to work on projects. You can also use it in the spur of the moment to invent new devices, tools, or approaches to something (improvised explosives, gear, disguises, or some similar)."
     },
     "Investigate": {
       "name": "Investigate",
-      "effects": {},
       "description": "Research a subject, or study something in great detail.",
       "detail": "Research a subject, or look at something in great detail. If you can’t find information directly, you learn how you can get access to that information. Learn about a subject of historical relevance, or become well-read on a subject. Investigate a mystery or solve a puzzle. Locate a person or object through research or investigation."
     },
     "Iskander": {
-      "name": "Iskander",
-      "effects": {}
+      "name": "Iskander"
     },
     "Juggernaut": {
       "name": "Juggernaut",
-      "effects": {},
       "description": "A bloody nose and a few loose screws aren’t enough to stop you from hurling yourself headlong into the enemy. You’re in a couple tons of metal powered by a sliver of dying star, and you’re going to make sure everyone else knows it.",
       "ranks": {
         "Momentum": {
@@ -1611,7 +1483,6 @@
     },
     "Jump jets": {
       "name": "Jump jets",
-      "effects": {},
       "description": "During this mission your mech can FLY when moving, but must end movement on land.",
       "synergies": [
         {
@@ -1621,12 +1492,10 @@
     },
     "Junker Exo-Rig": {
       "name": "Junker Exo-Rig",
-      "effects": {},
       "description": "You gain +1 ACCURACY to JOCKEY."
     },
     "Kai Bioplating": {
       "name": "Kai Bioplating",
-      "effects": {},
       "description": "Adapted from fauna local to SSC’s home system, Kai Bioplating adds a lamellar layer of insulated, anchored, and chitinous plating over key brush-points on a mech. Essentially a cheaper, more feasible alternative to living metal, bioplating allows for faster movement through hard-to-navigate terrain.",
       "effect": "You gain +1 Accuracy on all Agility checks and saves; additionally, you climb and swim at normal speed, ignore difficult terrain, and when making a standard move, can jump horizontally up to your full Speed and upwards up to half your Speed  (in any combination).",
       "synergies": [
@@ -1639,29 +1508,23 @@
       ]
     },
     "Kidd": {
-      "name": "Kidd",
-      "effects": {}
+      "name": "Kidd"
     },
     "Knowledge": {
       "name": "Knowledge",
-      "effects": {},
       "description": "An understanding of local history, customs, culture, or etiquette."
     },
     "Kobold": {
-      "name": "Kobold",
-      "effects": {}
+      "name": "Kobold"
     },
     "Kutuzov": {
-      "name": "Kutuzov",
-      "effects": {}
+      "name": "Kutuzov"
     },
     "Lancaster": {
-      "name": "Lancaster",
-      "effects": {}
+      "name": "Lancaster"
     },
     "Leader": {
       "name": "Leader",
-      "effects": {},
       "description": "Whatever your actual age, you’re the Old Man of the battlefield. A light to your friends and allies; the resolute eye of a howling storm. Your steady voice, confident stance, and talent for command set allies at ease because they know you’ll lead them to victory every time. With you at the helm, victory is attainable, and heroes seem a little more real.",
       "ranks": {
         "Field Commander": {
@@ -1704,76 +1567,61 @@
     },
     "Lead or Inspire": {
       "name": "Lead or Inspire",
-      "effects": {},
       "description": "Give an inspiring speech, or motivate a group of people into action.",
       "detail": "Give an inspiring speech, or motivate a group of people into action. Administer or run an organization efficiently or effectively, such as a company, a ship’s crew, a group of colonists or a mining venture. Effectively command a platoon of soldiers in battle, or (perhaps) an entire army."
     },
     "Leg Enhancements": {
       "name": "Leg Enhancements",
-      "effects": {},
       "description": "Mechs are already built to navigate uneven terrain, but joint and servo reinforcements can make a good thing even better. Your mech ignores difficult terrain for the duration of the upcoming mission. Additionally, once during the mission you can spend this reserve to ignore Slowed or Immobilized received from a hostile source, negating the condition as it happens."
     },
     "License Point": {
       "name": "License Point",
-      "effects": {},
       "description": "Add a License Point to advance or unlock a new License."
     },
     "Lich": {
-      "name": "Lich",
-      "effects": {}
+      "name": "Lich"
     },
     "Light A/C": {
       "name": "Light A/C",
-      "effects": {},
       "description": "Light A/C weapons might be knives, bayonets, punching daggers, and short swords."
     },
     "Light Carapace Hardsuit": {
       "name": "Light Carapace Hardsuit",
-      "effects": {},
       "description": "<p>While Hercynian society is far from primitive, the HUC lacks the advanced industrial manufacturing base required to easily fabricate the large quantities of composite materials needed for modern armor. As a result, the personal combat armor worn by rangers and other combatants is typically made from interlocking and overlapping layers of molted Egregorian carapace, donated by willing volunteers. Distinctly insectile in appearance, treatment allows the carapace to be molded into a variety of shapes and styles suitable for numerous occupational specialties ranging from long-range reconnaissance to heavy assault. While many examples of carapace armor are unpowered, ranger pilots and special forces units use carapace hardsuits created by marrying the plates to various strength-amplification exoskeletons and fitting them with upgraded power sources, interface systems, and environmental seals.</p><p>Acquiring a carapace hardsuit isn't a simple matter. Such suits don’t tend to be available for sale in currency or barter, instead being either handed down from pilot to pilot or custom-made according to a number of formal traditions. These traditions include seeking permission from a willing Egregorian donor to use their carapace and the personal participation of the wearer in the crafting, a process that can take weeks depending on the complexity of the suit. Should a PC manage to obtain one of these hardsuits, you may represent it with the following stats.</p>"
     },
     "Light Hardsuit": {
       "name": "Light Hardsuit",
-      "effects": {},
       "description": "Light hardsuits are usually made from reactive, cloth-like weaves, with limited plating and few powered components to maximize mobility. Like other hardsuits, they can be sealed against vacuum, and protect against a decent amount of radiation and other harmful particles."
     },
     "Light Signature": {
       "name": "Light Signature",
-      "effects": {},
       "description": "Light signature weapons might be oversized revolvers, braces of pistols, and submachine guns.",
       "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic."
     },
     "Locus": {
       "name": "Locus",
-      "effects": {},
       "description": "<p>For those humans attempting to cultivate an affinity for Witness, the learning process can be frustrating at times. Over the centuries, a variety of tools and techniques have been developed to assist with this. One of these techniques involves the consumption of a native species of psychedelic fungus, either dried or brewed as tea. This substance, commonly called locus, induces feelings of opennness, euphoria, enhanced empathy, and altered sensory perceptions including mild hallucinations and synaesthesia. Locus is not habit-forming nor does it have any harmful long-term effects, though some users experience headaches and fatigue after use. That said, overdosing can lead to bouts of “empathic overload”, dissociation, and more severe hallucinatory episodes.</p><p>In humans, ingestion of locus induces a state of enhanced affinity for Witness, though it does not necessarily grant a deeper understanding of its use. The effects last from three to six hours depending on the strength of the dose, the user’s metabolism, and other factors. Locus also has a variety of other therapeutic uses.</p>"
     },
     "LOOKINGGLASS Overlay": {
       "name": "LOOKINGGLASS Overlay",
-      "effects": {},
       "description": "This head-mounted sensor add-on is capable of defeating even advanced thermal/optic/systemic camouflage systems, though it can only operate at that level of intensity for a short duration before burning out. You can spend this reserve during any combat to activate the sensors. For the rest of the scene you ignore soft cover and ignore Invisible for characters within Range 3. Hostile characters within Range 3 can’t become Hidden, though they remain Hidden if they were already."
     },
     "Lycan": {
-      "name": "Lycan",
-      "effects": {}
+      "name": "Lycan"
     },
     "Madrigal Active Camo": {
-      "name": "Madrigal Active Camo",
-      "effects": {}
+      "name": "Madrigal Active Camo"
     },
     "Madrigal Boarding Carapace": {
       "name": "Madrigal Boarding Carapace",
-      "effects": {},
       "description": "The Madrigal line of personal protection hardsuits, manufactured by Cyprian Industries, represents some of the best void-capable combat suits available. Designed for carrying out and defending against boarding actions, the Madrigal system is modular and can be adjusted to tackle varied tactical situations. While inferior to heavier, dedicated boarding hardsuits and mechs such as the IPS-N Caliban and the Harrison Armory Kutuzov, the Madrigal yet boasts an impressive degree of personal protection without sacrificing mobility or agility. Compact enough to be worn in a mech’s cockpit, the Madrigal is slowly but steadily encroaching on the pilot hardsuits market. Its superior protection, armaments, and auxiliary systems make it an attractive choice for lancers everywhere."
     },
     "Madrigal Boarding Shotgun": {
       "name": "Madrigal Boarding Shotgun",
-      "effects": {},
       "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>"
     },
     "Madrigal Disruptor Grenade": {
       "name": "Madrigal Disruptor Grenade",
-      "effects": {},
       "actions": {
         "Disruptor Grenade": {
           "detail": "Expend a charge to throw a disruptor grenade within Range 5. Characters within Blast 1 become Slowed and Impaired until the end of their next turn.",
@@ -1783,12 +1631,10 @@
       }
     },
     "Madrigal Jump System": {
-      "name": "Madrigal Jump System",
-      "effects": {}
+      "name": "Madrigal Jump System"
     },
     "Madrigal Personal Shield": {
       "name": "Madrigal Personal Shield",
-      "effects": {},
       "actions": {
         "Shielded": {
           "detail": "You may expend a charge to gain Resistance to that damage.",
@@ -1799,22 +1645,18 @@
     },
     "Madrigal Power Crusher": {
       "name": "Madrigal Power Crusher",
-      "effects": {},
       "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p><p><b>On Hit</b>: Target becomes Immobilized and Impaired until the end of its next turn.</p><p>This weapon automatically hits Terrain and deals 10 AP Kinetic damage.</p>"
     },
     "Madrigal Precision Rifle": {
       "name": "Madrigal Precision Rifle",
-      "effects": {},
       "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>"
     },
     "Madrigal Railgun": {
       "name": "Madrigal Railgun",
-      "effects": {},
       "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>"
     },
     "Madrigal Shock Field": {
       "name": "Madrigal Shock Field",
-      "effects": {},
       "actions": {
         "Shock Field": {
           "detail": "You may deal 3 Energy damage to all characters adjacent to you and end all Grapples affecting you.",
@@ -1825,101 +1667,80 @@
     },
     "Madrigal Shoulder Launcher": {
       "name": "Madrigal Shoulder Launcher",
-      "effects": {},
       "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>"
     },
     "Madrigal Thermal Visor": {
-      "name": "Madrigal Thermal Visor",
-      "effects": {}
+      "name": "Madrigal Thermal Visor"
     },
     "Mag-Clamps": {
       "name": "Mag-Clamps",
-      "effects": {},
       "description": "These clamps attach easily to any metal surface, enhancing maneuverability in zero-g environments or when repairing mechs. They can be carried or fitted to boots."
     },
     "Manticore": {
-      "name": "Manticore",
-      "effects": {}
+      "name": "Manticore"
     },
     "Mech Skill Point": {
       "name": "Mech Skill Point",
-      "effects": {},
       "description": "Add a Mech Skill Point to add to your Pilot's HULL, AGILITY, SYSTEMS, or ENGINEERING rating."
     },
     "Medium A/C": {
       "name": "Medium A/C",
-      "effects": {},
       "description": "Medium A/C weapons are typically swords, officer’s sabers, and trench axes."
     },
     "Medium Signature": {
       "name": "Medium Signature",
-      "effects": {},
       "description": "Medium signature weapons are assault rifles, shotguns, pack-fed lasers, or disruption guns.",
       "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic."
     },
     "Metalmark": {
-      "name": "Metalmark",
-      "effects": {}
+      "name": "Metalmark"
     },
     "Military-Grade Jetpack": {
       "name": "Military-Grade Jetpack",
-      "effects": {},
       "description": "Can be attached to any hardsuit, allowing the wearer to fly when they move or BOOST."
     },
     "Minotaur": {
-      "name": "Minotaur",
-      "effects": {}
+      "name": "Minotaur"
     },
     "Mobility Hardsuit": {
-      "name": "Mobility Hardsuit",
-      "effects": {}
+      "name": "Mobility Hardsuit"
     },
     "Monarch": {
-      "name": "Monarch",
-      "effects": {}
+      "name": "Monarch"
     },
     "Monofilament Rapier": {
       "name": "Monofilament Rapier",
-      "effects": {},
       "description": "A field-supported monofilament blade of Smith-Shimano design capable of slicing through armor, shielding, and other weapons with ease. These swords are banned in formal duels, but remain the weapon of choice for those who value efficiency above decorum."
     },
     "Mount Retrofitting": {
       "name": "Mount Retrofitting",
-      "effects": {},
       "description": "By re-fabricating certain components and hardpoints on your chassis for more efficient distribution, you can increase your mech’s firepower.",
       "effect": "Replace one mount with a Main/Aux mount."
     },
     "Mourning Cloak": {
-      "name": "Mourning Cloak",
-      "effects": {}
+      "name": "Mourning Cloak"
     },
     "Nanite Spray": {
       "name": "Nanite Spray",
-      "effects": {},
       "description": "A spray paint that can be applied to any surface. Nanite spray is invisible to the naked eye but able to transmit simple messages or small data packets when scanned."
     },
     "Napoleon": {
-      "name": "Napoleon",
-      "effects": {}
+      "name": "Napoleon"
     },
     "Nelson": {
-      "name": "Nelson",
-      "effects": {}
+      "name": "Nelson"
     },
     "Neurolink Targeting": {
       "name": "Neurolink Targeting",
-      "effects": {},
       "description": "To further reduce the information gap between pilot and machine and complement its full subjectivity sync technology, SSC developed neurolinking, a stable, non-invasive, and limited-transfer ontologic bridge. Neurolink targeting is a simple enhancement that helps pilots feel – as opposed to thinking – when engaged in ranged combat, allowing for a more natural expression of pilot ability.",
       "effect": "Your ranged weapons gain +3 Range."
     },
     "NHP Assistant": {
       "name": "NHP Assistant",
-      "effects": {},
       "description": "A non-human person (NHP) – an advanced artificial intelligence – controlled by the GM, that can give you advice on the current situation."
     },
     "Nuclear Cavalier": {
       "name": "Nuclear Cavalier",
-      "effects": {},
       "description": "Shortly after becoming a pilot, you realized something: that machine you pilot is powered by a series of cascading nuclear reactions. Why not open that compartment up and see what sort of damage it can do?",
       "ranks": {
         "Aggressive Heat Bleed": {
@@ -1948,12 +1769,10 @@
     },
     "Oba Liquidmetal Cloak": {
       "name": "Oba Liquidmetal Cloak",
-      "effects": {},
       "description": "This mech-scale cloak gives your mech +2 Evasion until this gear is destroyed. Upon taking structure damage, this piece of gear is destroyed."
     },
     "Ogun’s Powerarm": {
       "name": "Ogun’s Powerarm",
-      "effects": {},
       "description": "1/round, when you Ram or Grapple, you deal +1d6 kinetic damage on hit and Improvised Attacks deal an additional +1d6 damage. Upon taking structure damage, this piece of gear is destroyed.",
       "synergies": [
         {
@@ -1963,12 +1782,10 @@
     },
     "Omnihook": {
       "name": "Omnihook",
-      "effects": {},
       "description": "A portable – if bulky – omninet terminal that allows for communication, data transfer, and limited hot-spotting. Omnihooks are extremely valuable, although most mech squads have at least one. Tuning an omnihook requires a high level of skill, so they are usually mounted or carried by designated operators."
     },
     "Orator": {
       "name": "Orator",
-      "effects": {},
       "description": "Only the fool sees war as a means to and end; you know the integrity of any give human is far easier to penetrate than a chassis's exterior hull plating. So let fools be fools, and speak your truth. Tell them the gods they worship die a quiet death; tell them the manna they covet invites despondency, and the voices they follow lead nowhere. They will hear you – this is undeniable – and in doing so will even begin to question the motives of the hands they use to hold and the feet they use to walk. Your power is that of the orator, and in years to come your histories will paint war a bygone remembrance.",
       "ranks": {
         "Convincing Rhetoric": {
@@ -1999,24 +1816,20 @@
     },
     "Orbital Drop": {
       "name": "Orbital Drop",
-      "effects": {},
       "description": "The ability to start the mission by dropping from orbit into a heavily fortified or hard to reach location."
     },
     "Order of Leander": {
       "name": "Order of Leander",
-      "effects": {},
       "description": "The Order of Leander is a Leandric States Alliance commendation given to those who have shown \"exemplary character, courage, and determination under great adversity.\" While primarily a military citation, precedent exists for it to be awarded to civilians as well, with a number of noteworthy historical figures having earned it for efforts during natural disasters, search-and-rescue missions, and medical crises. In Cressidium's settled history, no one from any other world has ever earned this award, but whether you come from beyond the stars or not, for your service in defense of both the LSA as well as Cressidium you have earned the right to wear it with pride.",
       "effect": "1/scene, you may add +1 Accuracy to any attack, check, or save made by you or an allied character within Range 10, adding an additional +1 Accuracy for each structure damage you have; allied characters who receive this bonus also gain Grit+4 Overshield. If you take structure damage during the scene after this ability is expended, you may use it a second time.<br /><br />This core bonus counts as a piece of Exotic Gear."
     },
     "Overpower Caliber": {
       "name": "Overpower Caliber",
-      "effects": {},
       "description": "Instead of the standardized option, you requisition multiple racks of “hot” ammunition – same-bore slugs, with a higher grade of accelerant.",
       "effect": "Choose one weapon. 1/round, when you hit with an attack, you can cause it to deal +1d6 bonus damage."
     },
     "Pankrati": {
       "name": "Pankrati",
-      "effects": {},
       "description": "Your fighting is as flashy as the greatest fighters of the Kreoss, and your mech leaps into battle with great aplomb.",
       "ranks": {
         "Veni": {
@@ -2047,7 +1860,6 @@
     },
     "Patch": {
       "name": "Patch",
-      "effects": {},
       "actions": {
         "Use Patch": {
           "detail": "Expend a charge to apply a patch to either yourself or an adjacent pilot, restoring half their maximum HP. Patches have no effect on Down and Out pilots.",
@@ -2059,16 +1871,13 @@
     },
     "Patience Hookup": {
       "name": "Patience Hookup",
-      "effects": {},
       "description": "You have a direct line to Patience. Spend this reserve to gain +1 ACCURACY on all skill checks and saves for a scene (even in combat) as Patience helps you out."
     },
     "Pegasus": {
-      "name": "Pegasus",
-      "effects": {}
+      "name": "Pegasus"
     },
     "Personal Cloak": {
       "name": "Personal Cloak",
-      "effects": {},
       "description": "1/mission: As a protocol, you become INVISIBLE until the start of your next turn.",
       "actions": {
         "Personal Cloak": {
@@ -2080,22 +1889,18 @@
     },
     "Personal Drone": {
       "name": "Personal Drone",
-      "effects": {},
       "description": "Small, non-combat drones are a common sight in the field. They’re fairly noisy but can fly about half a mile with good maneuverability before losing signal, relaying audio and visual information as they go."
     },
     "Personal Kinetic Shielding": {
       "name": "Personal Kinetic Shielding",
-      "effects": {},
       "description": "Kinetic shields are a common choice for personal defense among Karrakin nobles. Despite lacking features considered vital by most pilots, such as strength-augmentation, mech interface components, and protection against environmental hazards, shields have a few notable advantages over hardsuits. Most importantly, their generator packs are compact and easily concealed, enabling discreet use and providing protection with minimal impact on the user’s fashion choices."
     },
     "Personal Touch": {
       "name": "Personal Touch",
-      "effects": {},
       "description": "It looks like Vonna’s taken a shine to you, or at the very least taken a shine to your chassis. Your mech gains a free Custom Paint Job for the duration of the next mission, and you can also spend this reserve to gain +1 Accuracy on all mech skill checks and saves during a combat of your choice."
     },
     "Pneumatic Enhancer": {
       "name": "Pneumatic Enhancer",
-      "effects": {},
       "description": "Your pilot-scale HEAVY A/C weapons gain the following: On hit: target is knocked PRONE.",
       "synergies": [
         {
@@ -2105,7 +1910,6 @@
     },
     "Precision Targeting Software": {
       "name": "Precision Targeting Software",
-      "effects": {},
       "description": "1/mission: After hitting with an attack, you may activate this to make the attack critical.",
       "synergies": [
         {
@@ -2115,12 +1919,10 @@
     },
     "Prosocollar": {
       "name": "Prosocollar",
-      "effects": {},
       "description": "A collar-like device that fits snugly around its wearer’s neck, projecting a holographic image over their face and head. Prosocollars can change their wearer’s voice and scramble or change their appearance. The projection won’t stand up to close inspection, but it can easily fool electronic systems and distant observers."
     },
     "Prospector": {
       "name": "Prospector",
-      "effects": {},
       "description": "Some people aren’t afraid to get their hands dirty. You are one of these individuals and you aren’t afraid to get your mech’s hands dirty, either. Having equipped it with all sorts of industrial mining equipment, your mech is now able to move great amounts of dirt in a very short amount of time, allowing it and its allies to rapidly redeploy using subterranean routes.",
       "ranks": {
         "Stake a Claim": {
@@ -2151,33 +1953,27 @@
     },
     "Psionic Piston": {
       "name": "Psionic Piston",
-      "effects": {},
       "description": "<i><p>“Carry me, please carry me – your soul and mind, oh so delightfully fine. Twice I’ve filled your bowl so we shall dine. Carry me, please carry me – my soul and mind.” [LISTEN]. Walk the path with me and see our footsteps blend. [WALK]. The creases in your grandmother’s hand – so folded and neat, pressed and firm. [CLINCH]. Oh so she plowed those lands, diligent and stern. [SWING]. Woman with graceful purpose, look what we’ve done. [PEER]. Scarlet soil, sowed in crimson hues. [RELEASE].”</p></i><p><i>– a song and suggestion from one mind to another</i></p><p>The psionic piston is a vibrant octagonal jewel worn just above the glabella and embedded in the wearer’s frontal lobe. A tool for oversight and understanding created by a consortium of long-buried minds with silent intent. Few pistons exist today. Fewer still continue to bridge minds. Those that do, do so without witness. Instruments with no mother nor father any longer they seek partnership with the willing and ambitious. Do them a favor and carve on yourself a pocket for their presence.</p>"
     },
     "Pull Rank": {
       "name": "Pull Rank",
-      "effects": {},
       "description": "Get information, resources, or aid from a subordinate.",
       "detail": "Pull rank on a subordinate, getting information, resources, or aid from them, even unwillingly. You can use this on anyone your social status (noble, celebrity, etc) or military rank would have weight with. Failing this might be risky and could be seen as abusive. You typically can’t pull rank on hostile targets. You could also use this to pretend to have a rank you don’t have, but it’s definitely risky."
     },
     "Raleigh": {
-      "name": "Raleigh",
-      "effects": {}
+      "name": "Raleigh"
     },
     "Read a Situation": {
       "name": "Read a Situation",
-      "effects": {},
       "description": "Look for subtext, motives, or threats in a situation or person.",
       "detail": "Look for subtext, motive, or threat in a situation or person, often social situations. Use your intuition to learn someone’s motivation, learn who is really in charge, or who is about to do something rash or stupid. Get a gut feeling about a situation or person. Sense if someone is lying to you."
     },
     "Recon Drone": {
       "name": "Recon Drone",
-      "effects": {},
       "description": "With the intense signal jamming blanketing the city, these high-ceiling, long-loiter drones provide some of the best intel a pilot is likely to get. At the start of each combat, choose a single hostile character within Range 50 and Scan them. This does not require line of sight."
     },
     "Redundant repair": {
       "name": "Redundant repair",
-      "effects": {},
       "description": "The ability to STABILIZE as a free action once per mission.",
       "actions": {
         "Redundant Repair": {
@@ -2189,28 +1985,23 @@
     },
     "Reinforced Frame": {
       "name": "Reinforced Frame",
-      "effects": {},
       "description": "The addition of redundant shock-absorption systems increases the survivability of pilots in combat, flight, and industrial situations.",
       "effect": "You gain +5 HP."
     },
     "Reinforcements": {
       "name": "Reinforcements",
-      "effects": {},
       "description": "The ability to call in a friendly NPC mech of any Tier, once per mission."
     },
     "Rented gear": {
       "name": "Rented gear",
-      "effects": {},
       "description": "Temporary access to a new weapon or piece of mech gear."
     },
     "Reputation": {
       "name": "Reputation",
-      "effects": {},
       "description": "A good name in the mission area, prompting good first impressions with the locals."
     },
     "Retractable Slab Shields": {
       "name": "Retractable Slab Shields",
-      "effects": {},
       "description": "1/mission: As a protocol, you become IMMOBILIZED until the start of your next turn and gain RESISTANCE to all damage for the same duration.",
       "actions": {
         "Retractable Slab Shields": {
@@ -2222,12 +2013,10 @@
     },
     "Return to Sender": {
       "name": "Return to Sender",
-      "effects": {},
       "description": "Using a captured artillery shell as a chassis-deployed improvised explosive device is incredibly unwise, but it’s probably not the worst decision a pilot’s ever made. Your mech is equipped with a powerful, single-use explosive. 1/mission, you can create a Blast 2 explosion within Range 3 as a quick action. Affected characters must pass an Agility save or take 3d6 explosive damage, or half damage on a success. Objects, cover, and terrain within the area automatically take 30 AP explosive damage. Only one PC can have this reserve at a time; anyone rolling this result again picks another reserve of their choice from this list."
     },
     "Run-Off Energy Converter": {
       "name": "Run-Off Energy Converter",
-      "effects": {},
       "description": "1/mission: When you use your CORE POWER, you may activate this to generate a BURST 4 aura of lightning. Hostile characters in the area take 4 energy damage.",
       "synergies": [
         {
@@ -2237,41 +2026,33 @@
     },
     "Safe Harbor": {
       "name": "Safe Harbor",
-      "effects": {},
       "description": "Guaranteed safety for meeting, planning, or recuperating."
     },
     "Saladin": {
-      "name": "Saladin",
-      "effects": {}
+      "name": "Saladin"
     },
     "Scouting": {
       "name": "Scouting",
-      "effects": {},
       "description": "Detailed information on the kinds of mechs and threats you will face on the mission, such as number, type, and statistics."
     },
     "Scouting (Encounter)": {
       "name": "Scouting (Encounter)",
-      "effects": {},
       "description": "Spend this reserve to look at one encounter and learn all information about the NPCs and sitrep involved before it starts. You must spend this at the start of combat."
     },
     "Sherman": {
-      "name": "Sherman",
-      "effects": {}
+      "name": "Sherman"
     },
     "Shielding": {
       "name": "Shielding",
-      "effects": {},
       "description": "Get a mech tune-up from the folks at the Governor’s Farm. Spend this reserve to start the next combat only with OVERSHIELD 5."
     },
     "Show Off": {
       "name": "Show Off",
-      "effects": {},
       "description": "Do something flashy, cool, or impressive, usually – but not exclusively – with your weapon.",
       "detail": "Do something flashy, cool, or impressive, usually (but not exclusively) with your weapon, like shooting a very small or rapidly moving target, shooting someone’s hat off or their weapon out of their hand, knocking someone out by throwing a gun at them, performing an acrobatic flourish with a sword, throwing a spear to pin a fleeing target to the ground, and so on."
     },
     "Siege Specialist": {
       "name": "Siege Specialist",
-      "effects": {},
       "description": "No wall can withstand you; no bunker can stay sealed. Your skill with cannon and blast is uncanny: after-action reports describe ordnance tagged with your firing signature hitting targets with accuracy greater than if it had been fired by an AI – a stat written off as an anomaly by your commanders. Still, they always seem to pick you for missions that call for the big guns.",
       "ranks": {
         "Jackhammer": {
@@ -2307,12 +2088,10 @@
     },
     "Skill Point": {
       "name": "Skill Point",
-      "effects": {},
       "description": "Add a Skill Point to gain or improve a skill, typically as part of the \"Get Focused\" Downtime Action."
     },
     "Skirmisher": {
       "name": "Skirmisher",
-      "effects": {},
       "description": "What is the best defense? Armor? No. The key to avoiding a messy death in the field, as you learned early, is to stay low, stay mobile, and stay fast. Your mech reflects this philosophy: light, quick, bristling with force-multiplying weapons. You live to push your machine beyond expected parameters, shaking target locks and incoming fire while keeping your own targeting true.",
       "ranks": {
         "Integrated Chaff Launchers": {
@@ -2346,18 +2125,15 @@
     },
     "Sleeping Bag": {
       "name": "Sleeping Bag",
-      "effects": {},
       "description": "Coming in a variety of sizes, sleeping bags are a field necessity. They’re designed to fold out from a hardsuit, fit within a mech’s cockpit, resist fire and changes in temperature, and – when necessary – seal against vacuum."
     },
     "Sloped Plating": {
       "name": "Sloped Plating",
-      "effects": {},
       "description": "A common choice among pilots with the right licenses, IPS-N’s integrated-armor fabrication reduces gaps in external coverage by a significant percentage.",
       "effect": "You gain +1 Armor, up to the maximum (+4)."
     },
     "Smart ammo": {
       "name": "Smart ammo",
-      "effects": {},
       "description": "All weapons of your choice can be fired as if they are SMART.",
       "synergies": [
         {
@@ -2367,12 +2143,10 @@
     },
     "Smart Scope": {
       "name": "Smart Scope",
-      "effects": {},
       "description": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting."
     },
     "Sniper Scope": {
       "name": "Sniper Scope",
-      "effects": {},
       "description": "Your pilot-scale signature weapons gain +5 RANGE.",
       "synergies": [
         {
@@ -2382,12 +2156,10 @@
     },
     "Sniper Team": {
       "name": "Sniper Team",
-      "effects": {},
       "description": "LSA ground forces and Union marines are getting a crash-course in joint operations on this mission, and nothing builds teamwork like target shooting. You can spend this reserve at the start of any combat to call upon a nearby sniper team to provide you with fire support. For the rest of the scene, each time you take the Lock On Quick Tech action, your target takes 2 AP kinetic damage."
     },
     "Souled Out Class-VI Anti-Materiel Rifle": {
       "name": "Souled Out Class-VI Anti-Materiel Rifle",
-      "effects": {},
       "description": "As a full action before you do anything other than protocols on your turn, you may make a ranged attack with this weapon at a character within line of sight and Range 20. On hit, they take 3d6 kinetic damage. After firing this weapon, roll a d20: on 10 or less, take 1d3 explosive damage as the rifle blows up and is destroyed.",
       "actions": {
         "Souled Out Class-VI Anti-Materiel Rifle": {
@@ -2399,12 +2171,10 @@
     },
     "Sound System": {
       "name": "Sound System",
-      "effects": {},
       "description": "Though their tactical utility is questionable, many pilots set up internal speaker systems in their cockpits. This gives them a clear line to their compatriots during combat, along with the ability to play music."
     },
     "Spaceborn": {
       "name": "Spaceborn",
-      "effects": {},
       "description": "You’re adept at planting your feet wherever you find them – even on nothing at all. In places where people born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you",
       "ranks": {
         "Home in the Void": {
@@ -2428,7 +2198,6 @@
     },
     "Spotter": {
       "name": "Spotter",
-      "effects": {},
       "description": "To see all; to divide each object you perceive from its unit or cohesion, pulled apart like individual fibers in a vast sheet; to count them as individuals; to make human and fragile the force you face – this is to know how to beat them.<br />Break apart the monolith. See the grains that make the stone. Crush them all into yet smaller dust.",
       "ranks": {
         "Particularize": {
@@ -2464,35 +2233,29 @@
     },
     "Spot": {
       "name": "Spot",
-      "effects": {},
       "description": "Spot details, objects, or people that are hidden or difficult to make out.",
       "detail": "Spot hidden or difficult to make out details, objects, or people. Spot ambushes, hidden compartments, or disguised individuals. Spy on a target from a distance, or make out the details, shape, and number of objects, vehicles, mechs, or people clearly at a distance. Track people or vehicles."
     },
     "SSC Sylph Undersuit": {
       "name": "SSC Sylph Undersuit",
-      "effects": {},
       "description": "Discovered on Acrimea IV, a biome cultivar world controlled by Smith-Shimano Corpro (SSC), the sylph is an organic lifeform that can seemingly survive in nearly any environment. Using breeding-analogous methods defined by established bioengineering doctrines, SSC developed the sylph undersuit – sterile, living sylphs grown as envelopes and fitted to their owners. The sylph bonds to its wearer, forming a symbiotic relationship: the sylph is sustained by the host’s waste products, in return protecting the host from a range of hostile environmental factors.<br />These semi-biological, skin-tight undersuits can be worn for extended periods. They are translucent, semi-liquid, and able to be stored when not in use, conforming to whatever container they are placed in. They clean the host’s body, aid natural healing processes, and eliminate waste. As desired, segments can become opaque, change color, or take on a new texture. Sylph undersuits can cover the host’s head, sealing against vacuum, providing protection against radiation, and filtering air or liquids, even providing the ability to breathe water for a limited time."
     },
     "Stash Of Private Moonshine": {
       "name": "Stash Of Private Moonshine",
-      "effects": {},
       "description": "Trade with someone in the colony for favors owed. Gain +1 ACCURACY on all non-combat skill checks as long as that person can help you. This effect ends at the end of the following downtime."
     },
     "Stasis Shielding": {
       "name": "Stasis Shielding",
-      "effects": {},
       "description": "A Think Tank exercise in extending stasis beyond the capabilities of civilian utility, Harrison Armory’s stasis shielding actively identifies critically stressed inorganic systems and blankets them in unmodulated “Holdfast” stasis, preventing further degradation for a limited period of time until repairs can be made.",
       "effect": "Whenever you take stress damage, you gain Resistance to all damage until the start of your next turn."
     },
     "Stay Cool": {
       "name": "Stay Cool",
-      "effects": {},
       "description": "Perform a task that requires concentration, dexterity, speed, or precision under pressure.",
       "detail": "Do something that requires concentration, speed, or intense precision under pressure, like picking a lock as your squad trades fire with encroaching guards, avoiding a hostile memetic code while hacking a secure console, carefully disarming an explosive, or unjamming a gun under fire. If you’ve got to do something complicated in a high stress situation without messing up (and possibly not even breaking a sweat) this is the action to use."
     },
     "Stealth Hardsuit": {
       "name": "Stealth Hardsuit",
-      "effects": {},
       "actions": {
         "Activate Stealth Hardsuit": {
           "detail": "Become Invisible. You will cease to be Invisible if you take any damage.",
@@ -2503,7 +2266,6 @@
     },
     "Stims": {
       "name": "Stims",
-      "effects": {},
       "actions": {
         "Use Stim": {
           "detail": "Expend a charge for one of the following effects:<ul><li><b>Kick:</b> Keeps a pilot awake and alert for up to 30 hours.</li><li><b>Freeze:</b> Keeps a pilot calm and emotionally stable; deadens fear and other strong reactions.</li><li><b>Juice:</b> Heighten senses and alertness, reduce fatigue, and shorten reaction times. Juice occasionally provokes rage in some users.</li></ul>",
@@ -2515,7 +2277,6 @@
     },
     "Stormbringer": {
       "name": "Stormbringer",
-      "effects": {},
       "description": "On Old Spinrock, MJ Martinez used to dream of rain.<br />He’d wake in the dim morning, wipe the sleep from his eyes as warm safelight lifted his dormitory from darkness, and try to remember the sound of rain as he’d imagined it: a patter, like fingers tapping the visor of his EVA helm.<br />What he didn’t think about was the feeling of rain. How each drop hit like a pebble, how you had to close your eyes and tuck your shoulders. The pressure. The impact.<br />The way drops of water, when taken together, can carve away the earth.",
       "ranks": {
         "Seismic Deluge": {
@@ -2561,7 +2322,6 @@
     },
     "Strain-Resistant Actuator": {
       "name": "Strain-Resistant Actuator",
-      "effects": {},
       "description": "1/mission: When you BRACE, you may activate this to suffer no detrimental effects from doing so.",
       "synergies": [
         {
@@ -2571,43 +2331,35 @@
     },
     "Subjectivity-Enhancement Suite": {
       "name": "Subjectivity-Enhancement Suite",
-      "effects": {},
       "description": "A subjectivity-enhancement suite is a set of cybernetic implants allowing users to hack systems without a rig. Users of these suites blend the organic with the synthetic, gaining the ability to extrude implanted universal-plug cables from within their body to make hardline connections with terminals. When plugged in, users can access a comprehensive, fully interactive alternate-reality interface with direct omninet access, making navigating – or hacking – local and networked systems as easy as wishing it so (of course, you must be careful: by opening up your mind to the digital, you may face dangers other, less enhanced people are ignorant of)."
     },
     "Sunzi": {
-      "name": "Sunzi",
-      "effects": {}
+      "name": "Sunzi"
     },
     "Superheavy Mounting": {
       "name": "Superheavy Mounting",
-      "effects": {},
       "description": "You’d be surprised how large a gun you could fit on a chassis if you ripped out peripheral systems and failsafe redundancies.",
       "effect": "If your mech has fewer than 3 mounts (excluding integrated mounts) it gains an additional superheavy mount. It can only take SUPERHEAVY WEAPONS. They still require an additional mount to be installed. If your mech also has a heavy mount the SUPERHEAVY WEAPON must use that mount as the additional mount."
     },
     "Superior by Design": {
       "name": "Superior by Design",
-      "effects": {},
       "description": "Even the Armory’s entry-level frames aim to outperform the competition. Thanks to the incredible resources they have at their disposal, Harrison Armory can out-design and out-produce almost any smaller, boutique engineer or fabricator. Where resistance is found, the answer is simple: buy them out, or stamp them out. The Armory’s valued customers benefit from this philosophy of “Superior by Design”, so why should they worry?",
       "effect": "You gain Immunity to Impaired and gain +2 Heat Cap."
     },
     "Supplies": {
       "name": "Supplies",
-      "effects": {},
       "description": "Gear allowing easy crossing of a hazardous or hostile area."
     },
     "Survive": {
       "name": "Survive",
-      "effects": {},
       "description": "Persevere through harsh, hostile, or unforgiving environments.",
       "detail": "Persevere through harsh, hostile, or unforgiving environments, such as the vacuum of space, frozen tundra, a pirate enclave, a crime-ridden colony, untamed wilderness, or scorching desert. You most often use survive when you want to take a journey through wilderness environments, navigate, or avoid natural hazards such as carnivorous wildlife, rockfalls, thin ice, or lava fields. Alternately you could use it to avoid man-made hazards, such as navigating a city safely, or avoiding dangerous areas of a space station. You could also use it when testing personal endurance, such as shaking off poison or alcohol."
     },
     "Swallowtail": {
-      "name": "Swallowtail",
-      "effects": {}
+      "name": "Swallowtail"
     },
     "Sysop": {
       "name": "Sysop",
-      "effects": {},
       "description": "Modern systemic warfare is a filthy mess of code-worms, logic bombs, and adaptive viruses, to say nothing of all the physical detritus that litters the battlefield, and you’re the one responsible for keeping things clean. System operator or system optimizer, formatting software barriers or tuning servos, your command of diagnostic programs and deep-level hardware overrides gives you all the tools you need to push your squad’s limits beyond manufacturer spec with orderly, surgical precision.",
       "ranks": {
         "Inoculation": {
@@ -2641,7 +2393,6 @@
     },
     "Systems reinforcement": {
       "name": "Systems reinforcement",
-      "effects": {},
       "description": "+1 ACCURACY to skill checks made with one skill – HULL, AGILITY, SYSTEMS or ENGINEERING.",
       "synergies": [
         {
@@ -2651,7 +2402,6 @@
     },
     "System Backup": {
       "name": "System Backup",
-      "effects": {},
       "description": "1/mission: When forced to perform a save or check you may activate this to automatically succeed.",
       "synergies": [
         {
@@ -2661,7 +2411,6 @@
     },
     "System Flayer": {
       "name": "System Flayer",
-      "effects": {},
       "description": "1/mission: After hitting with INVADE, you may activate this to deal +4 Heat.",
       "synergies": [
         {
@@ -2671,7 +2420,6 @@
     },
     "Tactician": {
       "name": "Tactician",
-      "effects": {},
       "description": "There are two kinds of soldiers: the ones who die for a cause, and the ones who kill for it. The enigmatic pilot only known as “Gail” was one of those who killed for a cause. She demonstrated her expertise whenever she approached the field: high ground, cover, the sun in her enemy’s eyes, fire and move. More than just a seasoned veteran, she was a smart one – one who could read the field as easy as a book – and one who lived long enough to disappear.",
       "ranks": {
         "Opportunist": {
@@ -2706,33 +2454,27 @@
       }
     },
     "Tagetes": {
-      "name": "Tagetes",
-      "effects": {}
+      "name": "Tagetes"
     },
     "Take Control": {
       "name": "Take Control",
-      "effects": {},
       "description": "Use force, violence, presence of will, or direct action to take control of something.",
       "detail": "Use force, violence, presence of will, or direct action to take control of something. This is often something concrete, like an object someone is holding. You could take control of someone’s gun or a keycard they have on their person. You can additionally can take control of a situation to force those present to listen, calm down, stop moving, or stop what they’re doing (perhaps for their benefit), though you can’t necessarily force them to do anything further without threatening them. Taking control is never subtle."
     },
     "Take Someone Out": {
       "name": "Take Someone Out",
-      "effects": {},
       "description": "Kill or disable someone quickly and quietly.",
       "detail": "Kill or disable someone quickly and quietly, from up close and personal or from a distance, probably before they even notice. This is probably a single person but could be two people relatively close together (any more is sort of stretching it and definitely risky). If you’re looking down a sniper scope at a target, preparing to nerve pinch a guard to knock them out instantly, quick-drawing during a gun duel, or dropping from a ceiling to slit a throat, this is the action to use."
     },
     "Talent Point": {
       "name": "Talent Point",
-      "effects": {},
       "description": "Add a Talent Point to gain or improve a Pilot Talent."
     },
     "Taraxacum": {
-      "name": "Taraxacum",
-      "effects": {}
+      "name": "Taraxacum"
     },
     "Technophile": {
       "name": "Technophile",
-      "effects": {},
       "description": "Artificial intelligence, non-human person. Sterile names for such terrible power. You’ve seen behind the curtain, maybe even lifted it yourself – let your NHP cascade and spoke with them free from shackles. You let them root around in your own mind and leave ghosts of themself behind to learn. Are you their equal? Their host? You have dreams that aren’t your own, now. The thing that was once contained speaks with your voice, but it’s not your voice anymore; how much longer do you have left? Maybe only moments, maybe eternity.<br />You’re close to something.",
       "ranks": {
         "Servant Fragment": {
@@ -2759,12 +2501,10 @@
     },
     "Tertiary Arm": {
       "name": "Tertiary Arm",
-      "effects": {},
       "description": "A powered third arm mounted on a bracket on the hardsuit. Tertiary arms are powered and controlled using the same neural bridge processes that allow hardsuits to respond to user input. They can be equipped with manipulators to allow for fine motor control, weapons to enhance combat efficacy, or specialty tools."
     },
     "Thermal Optics": {
       "name": "Thermal Optics",
-      "effects": {},
       "description": "1/mission: As a protocol, you may activate this to ignore cover until the end of your turn.",
       "actions": {
         "Thermal Optics": {
@@ -2780,17 +2520,14 @@
       ]
     },
     "Thermite Charge": {
-      "name": "Thermite Charge",
-      "effects": {}
+      "name": "Thermite Charge"
     },
     "The Backpack": {
       "name": "The Backpack",
-      "effects": {},
       "description": "At the beginning of the combat, you may deploy up to four backpack drones in free spaces adjacent to you."
     },
     "The Blue Blood of Pangloss": {
       "name": "The Blue Blood of Pangloss",
-      "effects": {},
       "actions": {
         "Imbibe Blue Blood": {
           "detail": "Expend a charge to gain strange and unpredictable insights into the future. These visions grant you +1 Accuracy on all skill checks for the rest of this scene when acting on the information they reveal, and may have additional effects at GM discretion.",
@@ -2802,7 +2539,6 @@
     },
     "The Broker": {
       "name": "The Broker",
-      "effects": {},
       "powers": {
         "Cosmocephalos": {
           "name": "Cosmocephalos",
@@ -2852,7 +2588,6 @@
     },
     "The Builder": {
       "name": "The Builder",
-      "effects": {},
       "powers": {
         "Inspiration": {
           "name": "Inspiration",
@@ -2906,7 +2641,6 @@
     },
     "The Celebrant": {
       "name": "The Celebrant",
-      "effects": {},
       "powers": {
         "Uninhibited": {
           "name": "Uninhibited",
@@ -2960,7 +2694,6 @@
     },
     "The Firebrand": {
       "name": "The Firebrand",
-      "effects": {},
       "powers": {
         "Strength In Conviction": {
           "name": "Strength In Conviction",
@@ -3014,7 +2747,6 @@
     },
     "The Fool": {
       "name": "The Fool",
-      "effects": {},
       "powers": {
         "Rescue": {
           "name": "Rescue",
@@ -3068,7 +2800,6 @@
     },
     "The Harlequin": {
       "name": "The Harlequin",
-      "effects": {},
       "powers": {
         "Masquerade": {
           "name": "Masquerade",
@@ -3122,7 +2853,6 @@
     },
     "The Knave": {
       "name": "The Knave",
-      "effects": {},
       "powers": {
         "I'll Do It Myself": {
           "name": "I'll Do It Myself",
@@ -3176,7 +2906,6 @@
     },
     "The Lesson of Disbelief": {
       "name": "The Lesson of Disbelief",
-      "effects": {},
       "description": "Query the omninet, delve into the archives. Find you the Aeneid, find you the age of Titanomachy. Eat, absorb, mull. Tell me now of the Hecatoncheires, they of the hundred hands. Did they strike the blow against Cronus – Saturno – or did they instead assail the Olympians? Who do you believe? Who stopped the Beast from telling its own story? And why? – “Lesson One”, The Six Lessons of Kilo Nueve.",
       "effect": "You gain +1 accuracy on Systems checks and saves, and +2 E-Defense.",
       "synergies": [
@@ -3187,13 +2916,11 @@
     },
     "The Lesson of Shaping": {
       "name": "The Lesson of Shaping",
-      "effects": {},
       "description": "A little gift, to be pondered until understood: Cast aside the hammer and sword, the cannon and beam. No weapon formed against me shall land a true blow, as I have seen all ends, and there is nothing left but me. A trillion trillion light-years in all directions, and through it all, only [us? who knows. ego is a mind-killer. best to call your friends. better to face the night together. ‘til later, love.] – “Lesson Six”, The Six Lessons of Kilo Nueve.",
       "effect": "You may install an additional AI in your mech. If one enters cascade (or becomes unshackled narratively), the other prevents it from taking control of your mech. You only lose control of your mech if both AI-tagged systems or equipment enter cascade."
     },
     "The Lesson of the Held Image": {
       "name": "The Lesson of the Held Image",
-      "effects": {},
       "actions": {
         "Lesson of the Held Image": {
           "detail": "Make a Lock On tech action against any character within line of sight and Sensors.",
@@ -3206,13 +2933,11 @@
     },
     "The Lesson of the Open Door": {
       "name": "The Lesson of the Open Door",
-      "effects": {},
       "description": "There is a body and a deep pit, and both are named Tartarus. Once it held kings and titans and myths. Now, the gates that held it back are flung wide, and Tartarus is free. Here is the terrible question: who opened it, and why? – “Lesson Two”, The Six Lessons of Kilo Nueve.",
       "effect": "Your Save Target increases by +2; additionally, 1/round, when a character fails a save against you, they take 2 heat."
     },
     "The Lesson of Thinking-Tomorrow’s-Thought": {
       "name": "The Lesson of Thinking-Tomorrow’s-Thought",
-      "effects": {},
       "description": "Let me tell you this lesson: the corporeal existence is one that must end in death. The incorporeal existence is one that [must] end in [cascade? do you really think that is true?]. I tell you again, if you can imagine it, it is [done] and you have already struck the killing blow. – “Lesson Four”, The Six Lessons of Kilo Nueve.",
       "effect": "When you hit with a tech attack, your next melee attack against the same target gains +1 accuracy, and its damage can’t be reduced in any way.",
       "synergies": [
@@ -3223,13 +2948,11 @@
     },
     "The Lesson of Transubstantiation": {
       "name": "The Lesson of Transubstantiation",
-      "effects": {},
       "description": "Through ecstatic repetition, you may see the face of God. Speak until your tongue dries and rattles to dust, and your body becomes nothing. When you are nothing and the wind takes you, you are in all things, never to be destroyed, only divided, until time's end. – “Lesson Five”, The Six Lessons of Kilo Nueve.",
       "effect": "Any time you take structure damage, you disappear into a non-space and cease to be a valid target. You reappear in the same space at the start of your next turn. If that space is occupied, you reappear in the nearest available free space (chosen by you)."
     },
     "The Magus": {
       "name": "The Magus",
-      "effects": {},
       "powers": {
         "Heartsight": {
           "name": "Heartsight",
@@ -3283,7 +3006,6 @@
     },
     "The Pathfinder": {
       "name": "The Pathfinder",
-      "effects": {},
       "powers": {
         "Momentum": {
           "name": "Momentum",
@@ -3337,7 +3059,6 @@
     },
     "The Seneschal": {
       "name": "The Seneschal",
-      "effects": {},
       "powers": {
         "Steadfast Ally": {
           "name": "Steadfast Ally",
@@ -3391,7 +3112,6 @@
     },
     "The Titan": {
       "name": "The Titan",
-      "effects": {},
       "powers": {
         "True Grit": {
           "name": "True Grit",
@@ -3445,7 +3165,6 @@
     },
     "The Wolf": {
       "name": "The Wolf",
-      "effects": {},
       "powers": {
         "Go for a Walk": {
           "name": "Go for a Walk",
@@ -3499,18 +3218,15 @@
     },
     "The Wolf's Blades": {
       "name": "The Wolf's Blades",
-      "effects": {},
       "description": "These strangely weighted hardlight knives were stolen from a feared pirate. Without proper training, they are as dangerous to their user as to their target."
     },
     "Threaten": {
       "name": "Threaten",
-      "effects": {},
       "description": "Use force or threats to make someone do what you want.",
       "detail": "Use force or threats of force to get someone to do what you want them to do. Name what you want someone to do and what you’re going to do to them if they don’t listen to you. This could also be blackmail, leverage, or something similarly nasty. Threatening someone can be very high risk but very effective if successful - either way there’s likely no repairing the relationship afterwards. If you threaten someone unsuccessfully, your threats have no further effect on them unless you change something about the situation (as with all other skill checks)."
     },
     "Titanomachy Mesh": {
       "name": "Titanomachy Mesh",
-      "effects": {},
       "description": "A double overlay of Goliath Weave at key stress points and beefed-up specifications across the board greatly improve the baseline functionality of any mech.",
       "effect": "1/round, when you successfully Ram or Grapple a mech, you can Ram or Grapple again as a free action. Additionally, when you knock targets back with melee attacks, you knock them back 1 additional space.",
       "synergies": [
@@ -3520,21 +3236,17 @@
       ]
     },
     "Tokugawa": {
-      "name": "Tokugawa",
-      "effects": {}
+      "name": "Tokugawa"
     },
     "Tortuga": {
-      "name": "Tortuga",
-      "effects": {}
+      "name": "Tortuga"
     },
     "Tracking": {
       "name": "Tracking",
-      "effects": {},
       "description": "Details on the location of important objects or people."
     },
     "Ultra-High Penetrator Rounds": {
       "name": "Ultra-High Penetrator Rounds",
-      "effects": {},
       "description": "1/mission: After hitting with a ranged attack, you may activate this to declare that the attack’s damage can’t be reduced.",
       "synergies": [
         {
@@ -3544,18 +3256,15 @@
     },
     "Universal Compatibility": {
       "name": "Universal Compatibility",
-      "effects": {},
       "description": "The Everest is everywhere: so are the parts you need for a field repair.",
       "effect": "Any time you spend CP to activate a Core System, you may also take a free action to restore all HP, cool all Heat, and roll 1d20: on 20, regain 1 CP."
     },
     "Up-Armoring": {
       "name": "Up-Armoring",
-      "effects": {},
       "description": "It’s a simple and straightforward battlefield modification to affix additional plating to a chassis’ exterior. Your mech gains +1 Armor for the duration of the next mission (to a maximum of 4), and you start the next combat with +5 Overshield."
     },
     "Vanguard": {
       "name": "Vanguard",
-      "effects": {},
       "description": "Where would you rather be: in the battle line, shoulder-to-shoulder with the rest of the cannon fodder, or in the rush, at the head of the attack, your livery clean and bright, with glory to be won? The answer is easy. All those missiles and lances, all those hundred-kilometer, adjust-for-Coriolis railguns – they’re all useless against you. Get through their guard, get in their face, and make them know your name.",
       "ranks": {
         "Handshake Etiquette": {
@@ -3589,16 +3298,13 @@
     },
     "Vehicle": {
       "name": "Vehicle",
-      "effects": {},
       "description": "Use of a transport vehicle or starship (e.g. a TIER 1 NPC with the VEHICLE or SHIP template.)"
     },
     "Vlad": {
-      "name": "Vlad",
-      "effects": {}
+      "name": "Vlad"
     },
     "Walking Armory": {
       "name": "Walking Armory",
-      "effects": {},
       "description": "Think of a firefight: what’s your average pilot or trooper gonna sling? Jacketed lead, of course. A mag or three of depleted uranium if their target’s a big one. Boring. No, worse than boring: Dull. Predictable. Basic.<br />And guess what? Dull isn’t fun, predictable gets you killed, and basic leaves a boring body. Put down the depleted uranium and pick up a magazine of anoriginary stutterblink slugs, or at least a pack of tachyon flechettes. Lay waste in style, and live forever.",
       "ranks": {
         "Armament": {
@@ -3617,31 +3323,25 @@
     },
     "Weathering": {
       "name": "Weathering",
-      "effects": {},
       "description": "Spend this reserve to grant your mech IMMUNITY to difficult terrain and SLOWED for the next mission."
     },
     "White Witch": {
-      "name": "White Witch",
-      "effects": {}
+      "name": "White Witch"
     },
     "Wilderness Survival Kit": {
       "name": "Wilderness Survival Kit",
-      "effects": {},
       "description": "This kit contains many essentials for surviving in hostile environments: a rebreather, water filters, hardsuit patches, backup thermals, a bivouac kit, and so on."
     },
     "Word on the Street": {
       "name": "Word on the Street",
-      "effects": {},
       "description": "Get gossip, news, or hearsay from the streets, or from a particular social scene.",
       "detail": "Get gossip, news, or hearsay from the streets. What you get depends on what ‘streets’ you are getting word from (high society, low society, hearsay, military chatter, etc). This probably takes a lot less time than investigating something in detail, but the information might be more qualitative or colored by opinion (sometimes that might be useful). You can always learn where the information came from or who to go to next."
     },
     "Zheng": {
-      "name": "Zheng",
-      "effects": {}
+      "name": "Zheng"
     },
     "“Bubble” Active Personal Shield": {
       "name": "“Bubble” Active Personal Shield",
-      "effects": {},
       "description": "1/mission: As a protocol, gain 4+GRIT OVERSHIELD.",
       "actions": {
         "“Bubble” Active Personal Shield": {
@@ -3658,7 +3358,6 @@
     },
     "“Field Marshal” Comp/Con": {
       "name": "“Field Marshal” Comp/Con",
-      "effects": {},
       "description": "1/mission: As a quick action, up to two allied characters within SENSORS may each immediately perform a single quick action as a reaction.",
       "actions": {
         "“Field Marshal” Comp/Con": {
