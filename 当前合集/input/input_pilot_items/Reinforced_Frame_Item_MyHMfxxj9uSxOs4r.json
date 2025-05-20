@@ -1,0 +1,75 @@
+{
+  "name": "Reinforced Frame",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [
+      {
+        "lid": "hp",
+        "val": "5",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": false
+      }
+    ],
+    "counters": [],
+    "deployables": [],
+    "description": "The addition of redundant shock-absorption systems increases the survivability of pilots in combat, flight, and industrial situations.",
+    "effect": "You gain +5 HP.",
+    "integrated": [],
+    "lid": "cb_reinforced_frame",
+    "manufacturer": "IPS-N",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "MyHMfxxj9uSxOs4r",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

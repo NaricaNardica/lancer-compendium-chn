@@ -1,0 +1,97 @@
+{
+  "name": "RONIN",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-RONIN.png",
+  "system": {
+    "lid": "npcc_ronin",
+    "role": "striker",
+    "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br />Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
+    "tactics": "Ronins are no-nonsense, high-damage melee strikers. Rebound makes it dangerous for enemies to attack Ronins with ranged weapons, but they tend to suffer against armored enemies and are heavily reliant on Accuracy.",
+    "base_features": [
+      "npcf_carbon_fiber_sword_ronin",
+      "npcf_rebound_ronin"
+    ],
+    "optional_features": [
+      "npcf_charged_slash_ronin",
+      "npcf_chaff_launchers_ronin",
+      "npcf_echo_edge_ronin",
+      "npcf_instinct_mode_ronin",
+      "npcf_extended_blade_ronin"
+    ],
+    "base_stats": [
+      {
+        "hp": 18,
+        "evasion": 10,
+        "edef": 7,
+        "heatcap": 7,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 10,
+        "hull": 1,
+        "agi": 2,
+        "sys": -1,
+        "eng": -1,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 20,
+        "evasion": 13,
+        "edef": 7,
+        "heatcap": 7,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 13,
+        "hull": 2,
+        "agi": 4,
+        "sys": -1,
+        "eng": -1,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 22,
+        "evasion": 16,
+        "edef": 7,
+        "heatcap": 7,
+        "speed": 6,
+        "sensor_range": 10,
+        "save": 15,
+        "hull": 4,
+        "agi": 5,
+        "sys": -1,
+        "eng": -1,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "OaScztLxdU4GWsBW",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

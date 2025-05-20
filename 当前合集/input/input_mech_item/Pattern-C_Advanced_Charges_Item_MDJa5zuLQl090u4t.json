@@ -1,0 +1,97 @@
+{
+  "name": "Pattern-C Advanced Charges",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_pattern_c_advanced_charges",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          }
+        ],
+        "detail": "All hostile characters within the affected area must pass a Systems save or take 1d6 energy damage and gain Lock On. On a success, they gain Lock On only.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Smart Grenade",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Blast",
+            "val": 1
+          }
+        ],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_lurker_mine"
+    ],
+    "description": "<p>GMS’s latest intelligent munition system is a self-contained, multi-mode weapon designed to be easily deployable from a variety of chassis. Boasting advanced decision-making capabilities, each drone-tier charge is capable of independent target selection and interception, maintaining regular pilot-in-the-loop protocols to ensure optimal detonation parameters.</p>",
+    "destroyed": false,
+    "effect": "Expend a charge from this system for one of the following effects:",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "manufacturer": "EXOTIC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_mine",
+        "val": "0"
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "MDJa5zuLQl090u4t",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586775,
+    "modifiedTime": 1747537586775,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

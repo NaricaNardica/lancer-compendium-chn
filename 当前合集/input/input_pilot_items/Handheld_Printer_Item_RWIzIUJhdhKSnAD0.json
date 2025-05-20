@@ -1,0 +1,41 @@
+{
+  "name": "Handheld Printer",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A miniaturized version of Union’s full-scale printers, handheld printers can be used to make simple objects out of flexible and durable plastic – as long as you have the right pattern chip.",
+    "lid": "pg_handheld_printer",
+    "tags": [
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "RWIzIUJhdhKSnAD0",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

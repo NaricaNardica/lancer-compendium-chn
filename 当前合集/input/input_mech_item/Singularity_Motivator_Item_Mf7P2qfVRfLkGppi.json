@@ -1,0 +1,68 @@
+{
+  "name": "Singularity Motivator",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_singularity_motivator",
+    "actions": [
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "You may immediately teleport to a free space within 1d6 spaces.",
+        "frequency": "1/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Exposed Singularity",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "Your mech takes damage.",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br />A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br />SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_mourning_cloak",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "Mf7P2qfVRfLkGppi",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

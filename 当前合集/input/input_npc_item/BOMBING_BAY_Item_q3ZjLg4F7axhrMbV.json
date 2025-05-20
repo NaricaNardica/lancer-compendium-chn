@@ -1,0 +1,105 @@
+{
+  "name": "BOMBING BAY",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_bombing_bay_ace",
+    "effect": "If the Ace is flying when they move or Boost, they may drop a bomb on one character below or adjacent to the path taken. This causes a Blast 1 explosion that must overlap with at least 1 space occupied by their target. Characters within the affected area must succeed on an Agility save or take {6/8/10} Explosive damage and be knocked Prone.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_free_action",
+        "val": ""
+      },
+      {
+        "lid": "tg_round",
+        "val": "1"
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "q3ZjLg4F7axhrMbV",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

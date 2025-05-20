@@ -1,0 +1,130 @@
+{
+  "name": "MISSILE LAUNCHER",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_missile_launcher_ace",
+    "effect": "",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_seeking",
+        "val": ""
+      },
+      {
+        "lid": "tg_smart",
+        "val": ""
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "weapon_type": "Main Launcher",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Explosive",
+          "val": "4"
+        }
+      ],
+      [
+        {
+          "type": "Explosive",
+          "val": "6"
+        }
+      ],
+      [
+        {
+          "type": "Explosive",
+          "val": "8"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "ewQbeEBwhIecMQql",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Fusion Torch",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "lid": "mw_fusion_torch",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "2d6+2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Line",
+            "val": 5
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          },
+          {
+            "lid": "tg_inaccurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          },
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "on_attack": "This weapon automatically deals 30 AP energy damage to objects, cover, and terrain within its area, leaving behind clouds of molten debris in their place that linger until the end of your next turn. Characters other than you that begin their turn in these clouds or who enter them for the first time in a round take 1d6 energy damage. As long as you are at least partially within a cloud, you gain soft cover.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The FS-90 \"Rockhammer\" directed high-output mining beam is a heavy industrial energy cutter used to carve apart starship-grade hulls and toughened asteroids for mineral extraction, channeling a focused beam of superheated energy capable of effortlessly melting through even reinforced bulkheads. Repurposed by IPS-N as an offensive chassis-mounted weapon system, the fusion torch works just as well against enemy armor, and its effectiveness as a breaching tool is second to none. Operators often refer to the glowing slag deposits which frequently adorn their frames as \"war paint.\"",
+        "name": "Fusion Torch",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "AcSRCXDSn6KRp3Aq",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

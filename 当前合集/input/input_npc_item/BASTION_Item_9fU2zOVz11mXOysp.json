@@ -1,0 +1,99 @@
+{
+  "name": "BASTION",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BASTION.png",
+  "system": {
+    "lid": "npcc_bastion",
+    "role": "defender",
+    "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
+    "tactics": "Bastions are hardy defenders that use their bulk and size to protect themselves and nearby. Use Friendly Interdiction to defend against distant enemies, like artillery and snipers. Bastions (and their wards) are vulnerable to Knockback and forced movement, as these effects break many of their abilities.",
+    "base_features": [
+      "npcf_rotary_grenade_launcher_bastion",
+      "npcf_heavy_assault_shield_bastion",
+      "npcf_friendly_interdiction_bastion",
+      "npcf_guardian_bastion"
+    ],
+    "optional_features": [
+      "npcf_near_threat_denial_system_bastion",
+      "npcf_siege_guardian_bastion",
+      "npcf_pause_engine_bastion",
+      "npcf_fearless_defender_bastion",
+      "npcf_deathcounter_bastion"
+    ],
+    "base_stats": [
+      {
+        "armor": 3,
+        "hp": 10,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 5,
+        "save": 8,
+        "hull": 2,
+        "agi": -3,
+        "eng": 2,
+        "size": 2,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 3,
+        "hp": 10,
+        "evasion": 10,
+        "edef": 8,
+        "heatcap": 10,
+        "speed": 4,
+        "sensor_range": 5,
+        "save": 10,
+        "hull": 4,
+        "agi": -3,
+        "eng": 3,
+        "size": 2,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 4,
+        "hp": 10,
+        "evasion": 10,
+        "edef": 8,
+        "heatcap": 12,
+        "speed": 4,
+        "sensor_range": 5,
+        "save": 12,
+        "hull": 6,
+        "agi": -2,
+        "eng": 4,
+        "size": 2,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "9fU2zOVz11mXOysp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

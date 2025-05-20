@@ -1,0 +1,108 @@
+{
+  "name": "Rapid Maneuver Jets",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_rapid_maneuver_jets",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Further streamlining and miniaturizing IPS-N’s Ramjet system, IPS-N’s new RMJ frame-volatility package increases a chassis’ control envelope, ensuring its pilot can maintain enhanced mobility at pace. This control, coupled with a raw increase in speed, makes any chassis far more difficult to successfully engage.",
+    "destroyed": false,
+    "effect": "1/round, when you Boost, you fly, gain Overshield 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall.",
+    "integrated": [],
+    "license": "mf_caliban",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 4,
+    "synergies": [
+      {
+        "detail": "1/round, when you Boost, you fly, gain Overshield 3, and ignore engagement from and may freely pass through spaces occupied by larger characters (but not end your turn in their spaces). You must end this movement in a space on which you can stand, or else you fall.",
+        "locations": [
+          "boost"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": [
+      {
+        "lid": "tg_overshield",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "1"
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "ChoscLLLQtP0Zhqj",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

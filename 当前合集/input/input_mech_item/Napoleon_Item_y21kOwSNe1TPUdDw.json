@@ -1,0 +1,148 @@
+{
+  "name": "Napoleon",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-NAPOLEON.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on.",
+      "active_name": "Activate Aegis",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The Trueblack Aegis is a breakthrough in personal shielding developed by the Armory’s Think Tank. Like the Armory’s other NHP-derived technologies, the Aegis is a “black-box” technology: its code and inner workings are highly confidential, and it can typically only be requisitioned by pilots of high rank or standing within Harrison Armory. Some Cosmopolitan pilots have described the appearance of the Aegis as similar to the void – or blindness – they see when looking into blinkspace. It’s safe to assume the device harnesses unstable blinkfield technology to manifest a thin blinkspace bubble within defined parameters. The blinkfield can only maintain coherence for a brief moment but can be flickered on and off to create a total blinkspace dome.",
+      "integrated": [],
+      "name": "Trueblack Aegis",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br />Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
+    "license": "mf_napoleon",
+    "license_level": 2,
+    "lid": "mf_napoleon",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Defender",
+      "Controller"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 6,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 3,
+      "sensor_range": 5,
+      "tech_attack": 0,
+      "save": 11,
+      "speed": 4,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Napoleon would take half damage on a successful check or save, it instead reduces the damage to 1.",
+        "integrated": [],
+        "name": "Heavy Shielding",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Napoleon Braces, it reduces incoming damage to 1 instead of gaining Resistance.",
+        "integrated": [],
+        "name": "Flash Aegis",
+        "synergies": [
+          {
+            "detail": "When the Napoleon Braces, it reduces incoming damage to 1 instead of gaining Resistance.",
+            "locations": [
+              "brace"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "y21kOwSNe1TPUdDw",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

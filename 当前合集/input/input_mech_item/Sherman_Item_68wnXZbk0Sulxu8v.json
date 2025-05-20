@@ -1,0 +1,164 @@
+{
+  "name": "Sherman",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-SHERMAN.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, Stabilize generates 2 Charges instead of 1, and all terrain, objects, and deployables take 10 AP energy damage per charge on hit.",
+      "active_name": "COREBURN Protocol",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The ZF4 SOLIDCORE is a hard-mounted, dual-source energy beam weapon. Powered by a millifold power generation system, the ZF4 features a secondary belt-fed rack of solidcore batteries that can be used to overcharge a single impulse beam, extending the weapon’s range and destructive power.",
+      "integrated": [
+        "mw_sherman_integrated"
+      ],
+      "name": "Zone-Focus Mk IV SOLIDCORE",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br />At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
+    "license": "mf_sherman",
+    "license_level": 2,
+    "lid": "mf_sherman",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Striker",
+      "Artillery"
+    ],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 7,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -1,
+      "save": 10,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Sherman gains +1 accuracy on Engineering checks and saves.",
+        "integrated": [],
+        "name": "Superior Reactor",
+        "synergies": [
+          {
+            "detail": "The Sherman gains +1 accuracy on Engineering checks and saves.",
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Sherman clears all heat, you may choose to receive heat equal to half its Heat Cap, putting it in the Danger Zone.",
+        "integrated": [],
+        "name": "Mathur Stop",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you Stabilize the Sherman or it exceeds its Heat Cap, it benefits from soft cover until the start of your next turn.",
+        "integrated": [],
+        "name": "Vent Heat",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "68wnXZbk0Sulxu8v",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "PYRO",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-PYRO.png",
+  "system": {
+    "lid": "npcc_pyro",
+    "role": "defender",
+    "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
+    "tactics": "Pyros are slow, resilient mechs that are especially potent against characters already suffering from Burn. If players don’t keep their distance, Pyros can use Explosive Vent to dump an enormous amount of heat on right on them. Position Pyros so they can protect allies against incoming fire with Firebreak Shield. Note, however, that players can move around shields to reduce their effectiveness to zero, or they can deactivate them by hitting Pyros with Stunned or Knockback weapons.",
+    "base_features": [
+      "npcf_flamethrower_pyro",
+      "npcf_explosive_vent_pyro",
+      "npcf_insulated_pyro",
+      "npcf_firebreak_shield_pyro"
+    ],
+    "optional_features": [
+      "npcf_unshielded_reactor_pyro",
+      "npcf_siege_armor_pyro",
+      "npcf_napalm_bomb_pyro",
+      "npcf_superhot_pyro",
+      "npcf_explosive_jet_pyro"
+    ],
+    "base_stats": [
+      {
+        "armor": 3,
+        "hp": 10,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 12,
+        "speed": 2,
+        "sensor_range": 8,
+        "save": 10,
+        "hull": 1,
+        "agi": -1,
+        "sys": -1,
+        "eng": 3,
+        "size": 1,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 3,
+        "hp": 13,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 12,
+        "speed": 2,
+        "sensor_range": 8,
+        "save": 12,
+        "hull": 2,
+        "sys": -1,
+        "eng": 4,
+        "size": 1,
+        "activations": 1,
+        "agi": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 4,
+        "hp": 15,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 16,
+        "speed": 2,
+        "sensor_range": 8,
+        "save": 14,
+        "hull": 3,
+        "eng": 5,
+        "size": 1,
+        "activations": 1,
+        "agi": 0,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "9DSFfVzVIWxsV9WP",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

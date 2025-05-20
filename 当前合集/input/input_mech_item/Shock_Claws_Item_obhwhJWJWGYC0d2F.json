@@ -1,0 +1,164 @@
+{
+  "name": "Shock Claws",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "lid": "mw_integrated_shock_claws",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "3d6+6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_accurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          }
+        ],
+        "effect": "This weapon may only be used during the Go Loud core power. This weapon can't be used to attack in the same turn as another Heavy or Superheavy weapon.",
+        "on_attack": "You may deal 1d6 AP energy damage to a different character of your choice within Range 3 of the target.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "name": "Shock Claws",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "3d6+6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_accurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          }
+        ],
+        "effect": "This weapon may only be used during the Go Loud core power. The first time in a scene an allied Mech character within Sensors takes structure damage before Going Loud, this profile replaces the default Shock Claws profile. This weapon can't be used to attack in the same turn as another Heavy or Superheavy weapon.",
+        "on_attack": "You may deal 1d6 AP energy damage to a different character of your choice within Range 3 of the target.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "name": "Damaged",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "4d6+6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_accurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          }
+        ],
+        "effect": "This weapon may only be used during the Go Loud core power. If you Go Loud after allied Mech characters within Sensors take structure damage twice or more during the scene, an allied Mech character is destroyed, or while at 2 structure or less, this profile replaces the default Shock Claws profile. This weapon can't be used to attack in the same turn as another Heavy or Superheavy weapon.",
+        "on_attack": "You may deal 1d6 AP energy damage to a different character of your choice within Range 3 of the target.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "name": "Ruined",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "obhwhJWJWGYC0d2F",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

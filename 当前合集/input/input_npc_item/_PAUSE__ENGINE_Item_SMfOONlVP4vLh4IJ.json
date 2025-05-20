@@ -1,0 +1,101 @@
+{
+  "name": "“PAUSE” ENGINE",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_pause_engine_bastion",
+    "effect": "The Bastion and one adjacent allied character are temporarily shielded by a flickering pane of portable blinkspace, gaining Immunity to all damage and effects until the start of the Bastion’s next turn. The allied character loses Immunity if it breaks adjacency. At the start of their Bastion’s next turn, they become Stunned until the start of their following turn.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_recharge",
+        "val": "5"
+      },
+      {
+        "lid": "tg_full_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "SMfOONlVP4vLh4IJ",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

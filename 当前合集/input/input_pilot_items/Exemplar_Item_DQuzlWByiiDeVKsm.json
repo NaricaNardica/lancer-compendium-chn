@@ -1,0 +1,153 @@
+{
+  "name": "Exemplar",
+  "type": "talent",
+  "system": {
+    "lid": "t_exemplar",
+    "curr_rank": 1,
+    "description": "Eamon Metrias’s livery is famous, his voice brassy, his weapons polished to a sheen. As the advocate for the Nine Spheres, his training with certain martial orders has given him the power to harry and hinder even the most powerful of foes. Eamon is an exemplar of the Spheres, by words and by action.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "Your ally may reroll the attack. They must use the second result, even if it’s worse.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "Requires a hostile character has been given your Exemplar's Mark",
+            "lid": "",
+            "mech": true,
+            "name": "Valiant Aid",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "Ally attacks your mark and misses.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The first time on your turn that you attack a hostile character within Range 3, hit or miss, you may give them the Exemplar’s Mark as a free action. Characters can only have one Exemplar’s Mark at a time – new marks from any character replace existing marks.<br>The character has the Exemplar’s Mark until the start of your next turn, and while they have it, you gain the <b>Valiant Aid</b> Reaction.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Honorable Challenge",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when the character with your Mark attacks a character within Range 3 of you, other than you, they trigger your Overwatch.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Punishment",
+        "synergies": [
+          {
+            "detail": "1/round, when the character with your Mark attacks a character within Range 3 of you, other than you, they trigger your Overwatch.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Free",
+            "cost": 0,
+            "damage": [],
+            "detail": "Challenge your marked target to a duel to the death: you and the character with your Mark receive +3 Difficulty on attacks against characters or objects other than each other until either the end of the current scene or one of your mechs are destroyed. If they take any action that includes an attack roll against you, hit or miss, this effect ceases for them until the start of your next turn.<br>While To The Death is active, you cannot voluntarily move away from the character with your Mark; additionally, your Mark lasts either until the end of the current scene or one of your mechs are destroyed, and you cannot Mark any new characters.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Duel To The Death",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "As a free action when you mark a character, you may challenge them in a duel to the death: you and the character with your Mark receive +3 Difficulty on attacks against characters or objects other than each other until either the end of the current scene or one of your mechs are destroyed. If they take any action that includes an attack roll against you, hit or miss, this effect ceases for them until the start of your next turn.<br>While To The Death is active, you cannot voluntarily move away from the character with your Mark; additionally, your Mark lasts either until the end of the current scene or one of your mechs are destroyed, and you cannot Mark any new characters.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "To the Death",
+        "synergies": []
+      }
+    ],
+    "terse": "Challenge your foes, forcing them to fight you instead of your allies"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "DQuzlWByiiDeVKsm",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

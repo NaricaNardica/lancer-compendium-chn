@@ -1,0 +1,821 @@
+{
+  "name": "MBT",
+  "type": "npc",
+  "img": "systems/lancer/assets/icons/npc_class.svg",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:37:30.097Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 20
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "MS8AQBFqhg1aqCKW",
+  "prototypeToken": {
+    "name": "MBT",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/icons/npc_class.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "MBT",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/icons/npc_class.svg",
+      "system": {
+        "lid": "ws_mbt",
+        "role": "artillery",
+        "flavor": "The tank remains a core component of modern military doctrine even in the era of combat chassis, with a history stretching back to the earliest days of pre-Fall armored warfare. Despite the many technological advances since then, the overall design of modern main battle tanks remains immediately recognizable; an armored vehicle housing a large, turreted primary weapon supplemented by secondary armaments, blending firepower, protective countermeasures, and mobility into a multipurpose unit capable of offensive or defensive maneuvers as necessary. While chassis tend to be much more flexible and configurable strike platforms, tanks make up for this with the ability to more easily mount heavier armor without compromising their ability to employ large- caliber weaponry while on the move. The sheer variety of tank configurations which can be found throughout the galaxy is perhaps more numerous than even chassis variants, with different nations, militaries, and even private companies all favoring designs that best suit their preferred combat doctrines.",
+        "tactics": "The MBT is a heavily armored and heavily armed \"setpiece\" unit that can quickly overwhelm enemies with both their speed and firepower. Barraging with both its main gun and secondary weapon along with the option of using Tank Shock to run other characters over allows it to quickly deal a tremendous amount of damage, and Composite Armor makes it incredibly resilient, but it has to balance this with both the restrictions to its movement and its visible armored facing which makes it vulnerable to being flanked. Choosing when to fire from range and when to press the attack are key to getting the most out of this unit.",
+        "base_features": [
+          "npc_mbt_armaments",
+          "npc_mbt_rolling_thunder",
+          "npc_mbt_full-tracked",
+          "npc_mbt_composite_armor",
+          "npc_mbt_tank_shock",
+          "npc_mbt_stable_body"
+        ],
+        "optional_features": [
+          "npc_mbt_smoothbore_cannon",
+          "npc_mbt_railgun",
+          "npc_mbt_antares-pattern_laser_cannon",
+          "npc_mbt_anti-tank_gun",
+          "npc_mbt_streetsweeper_canister_projector",
+          "npc_mbt_pintle-mounted_machine_gun",
+          "npc_mbt_anti-armor_missiles",
+          "npc_mbt_marker_nexus",
+          "npc_mbt_skylight_anti-air_laser",
+          "npc_mbt_multi-directional_charges",
+          "npc_mbt_hover_tank",
+          "npc_mbt_siege_mode",
+          "npc_mbt_secondary_gunner",
+          "npc_mbt_mobile_bunker",
+          "npc_mbt_smokescreen"
+        ],
+        "base_stats": [
+          {
+            "activations": 1,
+            "stress": 1,
+            "structure": 1,
+            "hp": 20,
+            "armor": 2,
+            "evasion": 6,
+            "edef": 8,
+            "heatcap": 10,
+            "hull": 4,
+            "agi": -2,
+            "eng": 2,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 11,
+            "size": 2,
+            "sys": 0
+          },
+          {
+            "activations": 1,
+            "stress": 1,
+            "structure": 1,
+            "hp": 25,
+            "armor": 2,
+            "evasion": 7,
+            "edef": 10,
+            "heatcap": 10,
+            "hull": 5,
+            "agi": -2,
+            "eng": 3,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 13,
+            "size": 2,
+            "sys": 0
+          },
+          {
+            "activations": 1,
+            "stress": 1,
+            "structure": 1,
+            "hp": 30,
+            "armor": 2,
+            "evasion": 8,
+            "edef": 12,
+            "heatcap": 10,
+            "hull": 6,
+            "agi": -2,
+            "eng": 4,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 15,
+            "size": 2,
+            "sys": 0
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "hHkYnSpJHnX9jD5p",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636650762,
+        "modifiedTime": 1747636650762,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "Armaments",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npc_mbt_armaments",
+        "effect": "When creating an MBT, choose exactly one of its Heavy weapon options and exactly one of its Main weapon options.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "name": "MBT",
+          "type": "Class",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "CLhDM0xWeOGgQGOp",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636651213,
+        "modifiedTime": 1747636651213,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "Rolling Thunder",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npc_mbt_rolling_thunder",
+        "effect": "The MBT can't take the Grunt template, and only a single MBT may be present in any scene.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "name": "MBT",
+          "type": "Class",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "8wCs0SvhVEupRI5S",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636651213,
+        "modifiedTime": 1747636651213,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "Full-Tracked",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npc_mbt_full-tracked",
+        "effect": "The MBT must always move in a straight line, although it can move and Boost in separate directions. Additionally, the MBT can't climb, swim, manipulate objects, or make melee attacks other than Ram, but it ignores difficult terrain and has Immunity to Prone.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "name": "MBT",
+          "type": "Class",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "EaZI1TLViZZxdPzv",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636651213,
+        "modifiedTime": 1747636651213,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "Composite Armor",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npc_mbt_composite_armor",
+        "effect": "One side of the the MBT is an armored facing (choose one side of its token, icon, or miniature) which is visible to all characters. Attacks and effects that trace a line directly to this facing treat the MBT as though it has 6 Armor and Resistance to damage from Blast, Burst, Line, and Cone attacks and effects. AP damage, burn, and any damage taken by the MBT while it is Shredded is still reduced by 2 when coming from attacks and effects made against this facing. Mines and other proximity-based systems ignore this trait. Whenever the MBT makes a standard move or Boost, it can change which side its armored facing is on.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "name": "MBT",
+          "type": "Class",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "5JnuYCEJqE0keYqC",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636651213,
+        "modifiedTime": 1747636651213,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "Tank Shock",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npc_mbt_tank_shock",
+        "effect": "The MBT ignores engagement and can pass through, but not stop in, spaces occupied by other characters and obstructions smaller than Size 3. The MBT destroys any objects it passes through this way, and if it passes through any characters, those characters are pushed out of the way as directly as possible if able. Passing through characters as part of a Boost also means those characters must, 1/turn, pass a Hull save or take {4/5/6} kinetic damage and be knocked Prone.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "name": "MBT",
+          "type": "Class",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "MLP3xWm4mn2ZjfEb",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636651213,
+        "modifiedTime": 1747636651213,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "Stable Body",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npc_mbt_stable_body",
+        "effect": "The MBT can't be pushed, pulled, or knocked back by smaller characters. If a hostile effect would move the MBT 2 or more spaces or knock it Prone (even if the MBT would ignore that effect due to Immunity or movement caused by a smaller character) that character may change which side its armored facing is on after that effect resolves. Characters may also Ram the MBT to change which side its armored facing is on regardless of their Size.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "name": "MBT",
+          "type": "Class",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "q0YZET5JpC5VsNT9",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636651213,
+        "modifiedTime": 1747636651213,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636650571,
+    "modifiedTime": 1747636651379,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

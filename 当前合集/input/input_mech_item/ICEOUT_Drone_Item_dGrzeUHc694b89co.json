@@ -1,0 +1,60 @@
+{
+  "name": "ICEOUT Drone",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_iceout_drone",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_iceout_drone"
+    ],
+    "description": "SSC’s ICEOUT drone is a response to increasing reliance on hostile system scans for accurate targeting. By blanketing a mech’s systems in layers of digital defilade, mirroring, spoofing, and redirection, an ICEOUT drone can effectively disappear or disincorporate it from hostile scans. ICEOUT drones only make their operator system-invisible, however; they remain visible with optics.",
+    "destroyed": false,
+    "effect": "Expend a charge to deploy an ICEOUT drone to a free space within Sensors and line of sight, where it hovers in place and generates a burst 1 field.",
+    "integrated": [],
+    "license": "mf_black_witch",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_drone",
+        "val": "0"
+      }
+    ],
+    "type": "Drone",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "dGrzeUHc694b89co",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

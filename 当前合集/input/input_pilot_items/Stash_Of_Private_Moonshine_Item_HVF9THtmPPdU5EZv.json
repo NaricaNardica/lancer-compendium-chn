@@ -1,0 +1,39 @@
+{
+  "name": "Stash Of Private Moonshine",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_stash_of_private_moonshine",
+    "description": "Trade with someone in the colony for favors owed. Gain +1 ACCURACY on all non-combat skill checks as long as that person can help you. This effect ends at the end of the following downtime.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "HVF9THtmPPdU5EZv",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570693,
+    "modifiedTime": 1747537570693,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

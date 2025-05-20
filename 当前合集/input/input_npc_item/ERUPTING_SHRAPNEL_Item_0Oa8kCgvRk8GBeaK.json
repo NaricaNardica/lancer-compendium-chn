@@ -1,0 +1,97 @@
+{
+  "name": "ERUPTING SHRAPNEL",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_erupting_shrapnel_avenger",
+    "effect": "When the Avenger’s attack damages another character, they may force that character to succeed on an ENGINEERING save or be covered in explosive shrapnel until the end of their next turn. Until then, they take {3/4/5} Explosive AP damage each time they make a melee or ranged attack, after the attack roll is made. Affected characters are aware of this effect.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_round",
+        "val": "1"
+      }
+    ],
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "0Oa8kCgvRk8GBeaK",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "DRAIN SYSTEMS",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_drain_systems_specter",
+    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_full_tech",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_type": "Full",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "tech_attack": true,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "tzqI8t79O9gx4Agm",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "name": "BERSERKER",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BERSERKER.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 12
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "imwDakuZUaIYn4dU",
+  "prototypeToken": {
+    "name": "BERSERKER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BERSERKER.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "BERSERKER",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BERSERKER.png",
+      "system": {
+        "lid": "npcc_berserker",
+        "role": "striker",
+        "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
+        "tactics": "Berserkers are excellent melee duelists that are very scary up close. Their potential is greatest when they are as close to enemy forces as possible. Due to their terrible Heat Cap and E-Defense, Berserkers are vulnerable to tech attacks. Savvy opponents will use Aggression to their own advantage, turning Berserkers against their allies, so it’s best to keep them away from friendly forces.",
+        "base_features": [
+          "npcf_chain_axe_berserker",
+          "npcf_stampede_defense_berserker",
+          "npcf_aggression_berserker",
+          "npcf_avalanche_charge_berserker"
+        ],
+        "optional_features": [
+          "npcf_juggernaut_berserker",
+          "npcf_harpoon_cannon_berserker",
+          "npcf_nail_gun_berserker",
+          "npcf_retribution_berserker",
+          "npcf_superhot_berserker"
+        ],
+        "base_stats": [
+          {
+            "armor": 1,
+            "hp": 12,
+            "evasion": 8,
+            "edef": 6,
+            "heatcap": 6,
+            "speed": 5,
+            "sensor_range": 5,
+            "save": 10,
+            "hull": 3,
+            "agi": 2,
+            "sys": -2,
+            "eng": -1,
+            "size": 1,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 16,
+            "evasion": 9,
+            "edef": 6,
+            "heatcap": 6,
+            "speed": 5,
+            "sensor_range": 5,
+            "save": 12,
+            "hull": 4,
+            "agi": 4,
+            "sys": -2,
+            "eng": -1,
+            "size": 1,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 20,
+            "evasion": 10,
+            "edef": 6,
+            "heatcap": 6,
+            "speed": 5,
+            "sensor_range": 5,
+            "save": 14,
+            "hull": 6,
+            "agi": 4,
+            "sys": -2,
+            "size": 1,
+            "activations": 1,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "cuwlXXzOX96Hl7Jc",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609108,
+        "modifiedTime": 1747636609108,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "CHAIN AXE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_chain_axe_berserker",
+        "effect": "On critical hit: Target becomes Shredded until the end of their next turn.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "BERSERKER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          1,
+          2,
+          3
+        ],
+        "weapon_type": "Heavy Melee",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "7"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "9"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "11"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "7pTiZgcHvkh8VNyX",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609522,
+        "modifiedTime": 1747636609522,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "STAMPEDE DEFENSE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_stampede_defense_berserker",
+        "effect": "The Berserker has Resistance to all damage unless they are Impaired, Stunned, Immobilized, Shredded, Slowed or Exposed.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "BERSERKER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "k756051zSamyL6Bt",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609522,
+        "modifiedTime": 1747636609522,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "AGGRESSION",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_aggression_berserker",
+        "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character – hostile or allied – with the Chain Axe.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "BERSERKER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "Yz8NJA1dNYPfmu6d",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609522,
+        "modifiedTime": 1747636609522,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "AVALANCHE CHARGE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_avalanche_charge_berserker",
+        "effect": "The Berserker moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied—with the Chain Axe.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "5"
+          },
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "BERSERKER",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "M7bYrWExQCS98XJX",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609522,
+        "modifiedTime": 1747636609578,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636609782,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

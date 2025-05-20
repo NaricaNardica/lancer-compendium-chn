@@ -1,0 +1,81 @@
+{
+  "name": "Reinforced Cabling",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_reinforced_cabling",
+    "actions": [
+      {
+        "activation": "Free",
+        "cost": 0,
+        "damage": [],
+        "detail": "1/turn, when making a standard move, you can fly your Speed in a straight line as long as there is a clear path. This move must end on an object or surface, or else you begin falling. As long as you remain stationary, you can secure yourself to the destination surface or object, even if it’s vertical or overhanging. If you are knocked Prone or knocked back while secured to a surface, you fall.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Grapple Swing",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Make a contested Hull check against a character within 5 Range and line of sight: the loser is knocked Prone.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Drag Down",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Reinforced grappling cables allow for full movement and utility in ≤1 g environments. Woven from incredibly strong nanocarbon and arachnosynth threading, reinforced grapple line is carried on waist-mounted spools and attached to charge-actuated brachial projectors. Once fired, the grapples penetrate and anchor to the target. Small meltdown charges seeded every thirty meters of cable both allow rapid disengagement and expose a fresh grapple head, ready for immediate use.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_blackbeard",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "uXvWpV0LpH2gWc57",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

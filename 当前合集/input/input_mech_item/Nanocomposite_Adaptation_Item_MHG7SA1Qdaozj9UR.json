@@ -1,0 +1,69 @@
+{
+  "name": "Nanocomposite Adaptation",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_nanocomposite_adaptation",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Nanocomposite weapons take aggressive drone swarms and condense them into individual rounds, a coherent beam, or the edge of a blade.<br />Adapted projectile weapons fire shaped CONSUME/HIVE rounds that shatter on impact, releasing their payload of autonomous nanite maniples. Once freed, the maniples begin eating away at surrounding tissue or superstructure. They proceed until burnout or total target consumption, whichever occurs first. In flight, the maniples are able to hive-link and make slight adjustments to the trajectory of their round, ensuring positive impact.<br />Coherent beam weapons transport maniples directly, while conventional melee weapons are replaced by analogs composed entirely of nanobots.",
+    "destroyed": false,
+    "effect": "the weapon this mod is applied to gains Smart and Seeking.",
+    "integrated": [],
+    "license": "mf_balor",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "uses": 0,
+    "added_damage": [],
+    "added_range": [],
+    "added_tags": [
+      {
+        "lid": "tg_smart",
+        "val": ""
+      },
+      {
+        "lid": "tg_seeking",
+        "val": ""
+      }
+    ],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": true,
+      "Cannon": true,
+      "Launcher": true,
+      "Melee": true,
+      "Nexus": true,
+      "Rifle": true
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "MHG7SA1Qdaozj9UR",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554877,
+    "modifiedTime": 1747537554877,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Nelson",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-IPS-N-NELSON-2-0.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "For the rest of the scene, Skirmisher allows you to move 4 spaces at a time instead of 1 space.",
+      "active_name": "Engage Drive",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "IPS-N’s Perpetual Momentum Drive exploits fighter-tier nearlight spooling to capture and sustain a passive .000001 ls charge, able to be dumped into boost systems upon command. Chassis equipped with this drive require heavy reinforcement, including strengthened joints and limbs, and installation of a k-comp crash couch to protect the pilot from sudden g-force and shear.",
+      "integrated": [],
+      "name": "Perpetual Momentum Drive",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The IPS-N Nelson is the purest embodiment of the close-quarters doctrine espoused by its manufacturer. It is built to brawl, thriving when ordnance has been exhausted or when the environment is too volatile for firearms. With its functional size, the Nelson can strike fast and remain a difficult target to track. Layers of fractal-fold Armor-Lock plating with ceramic-analogous carbon flaking properties effectively nullify the impact of incoming ballistics by dispersing kinetic energy across a rounded hull. This null-k defense protects the pilot from impact trauma, allowing for sustained combat efficacy in high-trade scenarios.<br />The Nelson is an iconic IPS-N chassis, known across the galaxy as the favored frame of the Albatross, the nomadic order of Cosmopolitan peacekeepers. The Albatross’ distinctive white, gold, and red livery, mastery of the war pike, and apparent agelessness due to time dilation has won both them and the Nelson a venerated place in Diasporan lore – and secured an endorsement contract with IPS-N in perpetuity.",
+    "license": "mf_nelson",
+    "license_level": 2,
+    "lid": "mf_nelson",
+    "manufacturer": "IPS-N",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 8,
+      "evasion": 11,
+      "edef": 7,
+      "heatcap": 6,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 5,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, after you Boost, the Nelson’s next melee attack deals +1d6 bonus damage on hit.",
+        "integrated": [],
+        "name": "Momentum",
+        "synergies": [
+          {
+            "detail": "1/round, after you Boost, the Nelson’s next melee attack deals +1d6 bonus damage on hit.",
+            "locations": [
+              "boost"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "After attacking, the Nelson can immediately move 1 space in any direction as long as it isn’t Immobilize or Slowed. This movement ignores engagement and doesn’t provoke reactions.",
+        "integrated": [],
+        "name": "Skirmisher",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "qCNEMLzHCa3IC7ec",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

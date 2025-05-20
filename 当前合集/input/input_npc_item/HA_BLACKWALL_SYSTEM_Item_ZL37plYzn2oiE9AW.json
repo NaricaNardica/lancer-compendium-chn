@@ -1,0 +1,101 @@
+{
+  "name": "HA BLACKWALL SYSTEM",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_ha_blackwall_system_aegis",
+    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_full_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "ZL37plYzn2oiE9AW",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

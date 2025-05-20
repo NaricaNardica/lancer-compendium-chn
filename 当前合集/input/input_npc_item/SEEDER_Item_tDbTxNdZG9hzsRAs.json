@@ -1,0 +1,97 @@
+{
+  "name": "SEEDER",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SEEDER.png",
+  "system": {
+    "lid": "npcc_seeder",
+    "role": "controller",
+    "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
+    "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place a mine each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters don’t trigger Seeders’ mines, but are affected by them if they’re caught in the explosion. Seeders can take optional systems that force characters to spread out or take additional damage.",
+    "base_features": [
+      "npcf_lay_mines_seeder",
+      "npcf_grav_grenade_launcher_seeder"
+    ],
+    "optional_features": [
+      "npcf_hopping_mines_seeder",
+      "npcf_tripwires_seeder",
+      "npcf_speed_deployer_seeder",
+      "npcf_grav_spike_seeder",
+      "npcf_det_spike_seeder"
+    ],
+    "base_stats": [
+      {
+        "armor": 2,
+        "hp": 12,
+        "evasion": 7,
+        "edef": 10,
+        "heatcap": 10,
+        "speed": 4,
+        "sensor_range": 15,
+        "save": 12,
+        "sys": 2,
+        "size": 1,
+        "activations": 1,
+        "hull": 0,
+        "agi": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 2,
+        "hp": 14,
+        "evasion": 8,
+        "edef": 10,
+        "heatcap": 10,
+        "speed": 4,
+        "sensor_range": 15,
+        "save": 15,
+        "hull": 1,
+        "sys": 3,
+        "size": 1,
+        "activations": 1,
+        "agi": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 2,
+        "hp": 16,
+        "evasion": 9,
+        "edef": 11,
+        "heatcap": 10,
+        "speed": 4,
+        "sensor_range": 15,
+        "save": 18,
+        "hull": 2,
+        "sys": 4,
+        "size": 1,
+        "activations": 1,
+        "agi": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "tDbTxNdZG9hzsRAs",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

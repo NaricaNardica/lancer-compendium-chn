@@ -1,0 +1,91 @@
+{
+  "name": "Fragment of Beggar One",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_exo_fragment_beggar_one",
+    "actions": [
+      {
+        "activation": "Full Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a hostile character within SENSORS. They must either immediately attack a different character or object of your choice within their RANGE and line of sight with a single weapon as a reaction, or become JAMMED until the end of their next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Whisper of Cascade",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Full Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "<p>Choose a hostile character within SENSORS. Until the end of their next turn:</p> <ul> <li>They must use their standard move to move toward you by the most direct route possible</li> <li>As long as you are within the RANGE and line of sight of their attacks, they consider you the only valid target for attacks.</li> </ul>.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "A Razor Called Qualia",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "This artifact, recovered following the termination of Beggar One (provisionally designated /obj/00001), displays a number of unusual properties. Though tangible and presumed to be chemically stable, its monocrystalline composition does not correspond to any known element and emits a steady, measurable level of gamma radiation through an unknown process. Deep magnetic resonance scans indicate the presence of significant quantities of compressed data stored within the object, though it shows no signs of self-directed intelligence at any quantifiable level. Its exact purpose, if it has one, has yet to be determined.",
+    "destroyed": false,
+    "effect": "<p>1/scene, you may take one of the following Full Tech actions:</p>",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "9Nu1rHxzdIgESEms",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570903,
+    "modifiedTime": 1747537570903,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

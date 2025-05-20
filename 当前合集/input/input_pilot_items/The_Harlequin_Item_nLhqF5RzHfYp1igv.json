@@ -1,0 +1,195 @@
+{
+  "name": "The Harlequin",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-harlequin",
+    "major_ideals": [
+      "I addressed challenges with cunning, subterfuge, or deceit.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I struggled against or humiliated the powerful.",
+      "I pretended to be someone else for a time.",
+      "I charmed my way out of a charged situation.",
+      "I obtained a guarded, hidden, or secret object or piece of information."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your powers?",
+        "options": [
+          "A high-tech stealth rig.",
+          "A tattered patchwork of a cape stuffed with magician’s trinkets.",
+          "Years of streetwise swindling.",
+          "A deal you once made in a dream."
+        ]
+      },
+      {
+        "question": "What weird quirks do you have?",
+        "options": [
+          "You can change your eye color, your hair color, and your height by up to 3 inches in either direction.",
+          "You weigh almost nothing if you choose not to. You sometimes float an inch off the ground.",
+          "Your can swap your clothing’s coloration, material, fit, cut, and type completely when you enter any scene."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Masquerade",
+        "description": "You can always tell if someone is lying, though you don’t know the exact nature or extent of their lie.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Ridi Pagliacci",
+        "description": "Every session, you can invoke your burdens once each for +1 ACCURACY to any roll.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Gallows Humor",
+        "description": "If you break during a session, all other characters clear 2 STRESS.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Mockingbird",
+        "description": "You can mimic voices and sounds you’ve heard in the last day or so almost perfectly, granting your actions +1 ACCURACY and increased effect where this is relevant.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Slip",
+        "description": "You can instantly disappear from sight and reappear somewhere within ten meters or so. You don’t have to be able to see where you are going.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Fast Friends",
+        "description": "When someone can hear and understand you, you can make them friendly to you for a minute. They’ll let you into areas, vouch for you, do small favors for you, and so on. Social rolls against them gain +1 ACCURACY and increased effect. After a minute, they realize they were manipulated and it won’t work on them again in the same session. This power only works on one person at a time.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Spectacular Flourish",
+        "description": "When you roll 20+ on any skill check, you amaze everyone present with your skill and daring. Anyone watching is stunned momentarily, granting +1 ACCURACY and increased effect to the next action you or another PC takes in the same scene.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Mercurial",
+        "description": "If nobody else is looking, you can completely change your physical appearance, looking and sounding like an entirely new person (height, weight, build, hair/ clothes, and gender). Whether this physically changes you or is an illusory effect created by visual trickery is up to you. If you’re trying to impersonate someone else, your disguise holds up perfectly unless someone knows that person intimately, and even then you get +1 ACCURACY on all skill checks to keep the disguise up. You’re stuck in this form until you next eat or drink.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Exuent",
+        "description": "When you and your allies need to escape a bad situation right away, name your escape route and what you&rsquo;re taking with you. There&rsquo;s no roll required, and you always escape, but the GM chooses one:&nbsp;<ul> <li>You leave something behind (a weapon, a friend, evidence).&nbsp;</li> <li>You end up somewhere perilous or uncomfortable (a garbage chute, a cliff side, a seedy bar).&nbsp;</li> <li>You pick something up on your way out (a hanger-on, pursuers, STRESS).&nbsp;</li> <li>You can back out when you learn the cost and name another escape route (the GM might answer differently depending on how you phrase things).</li> </ul>",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Quickfingers",
+        "description": "Name a visible nearby object that you could fit or carry in one or both hands. By the start of the next scene, you have possession of it. If you stole it, the person you stole it from will find out within the hour",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of Chaos",
+        "description": "At the end of the session, if there was a particularly funny or chaotic moment or scene, describe it. Give someone who was part of the fun or chaos 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Chaos."
+      },
+      {
+        "name": "Silvertongue",
+        "description": "Tell a lie to someone. If it’s wild and outlandish, anyone who listens wholeheartedly believes it for a minute. If it’s merely unbelievable, an hour. If it’s plausible, a day. If they want to believe it, a week. They realize it was a lie after the effect wears off.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "nLhqF5RzHfYp1igv",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747537578652,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

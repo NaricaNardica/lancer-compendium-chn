@@ -1,0 +1,47 @@
+{
+  "name": "Assassin Drone",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_assassin_drone",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_assassin_drone"
+    ],
+    "description": "Assassin drones are used as area-denial weapons – persistent systems intended to occupy or deny an area against enemy combatants. Fired from a launcher, given simple directives, and equipped with a nearly inexhaustible power supply, assassin drones are capable of securing an area indefinitely.",
+    "destroyed": false,
+    "effect": "This assassin drone may be deployed to any free, adjacent space.",
+    "integrated": [],
+    "license": "mf_hydra",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "Drone",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "T72l8UdLVFaKE2PO",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

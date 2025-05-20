@@ -1,0 +1,216 @@
+{
+  "name": "Vanguard",
+  "type": "talent",
+  "system": {
+    "lid": "t_vanguard",
+    "curr_rank": 1,
+    "description": "Where would you rather be: in the battle line, shoulder-to-shoulder with the rest of the cannon fodder, or in the rush, at the head of the attack, your livery clean and bright, with glory to be won? The answer is easy. All those missiles and lances, all those hundred-kilometer, adjust-for-Coriolis railguns – they’re all useless against you. Get through their guard, get in their face, and make them know your name.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain +1 Accuracy when using CQB weapons to attack targets within Range 3.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Handshake Etiquette",
+        "synergies": [
+          {
+            "detail": "Gain +1 Accuracy with this weapon when attacking targets within Range 3",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": true,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You’ve modified your sensors and ammo to punch through, disregard, or otherwise ignore cover at close range. As long as you have line of sight, you ignore both soft and hard cover when using CQB weapons to attack targets within Range 3.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "See-Through Seeker",
+        "synergies": [
+          {
+            "detail": "As long as you have line of sight, ignore both soft and hard cover when using this weapon to attack targets within Range 3",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": true,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You may attack with Overwatch using CQB weapons when hostile characters enter, leave, or exit spaces within your Threat, no matter whether they started their movement there.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Semper Vigilo",
+        "synergies": [
+          {
+            "detail": "You may attack with Overwatch using CQB weapons when hostile characters enter, leave, or exit spaces within your Threat, no matter whether they started their movement there.",
+            "locations": [
+              "overwatch",
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve your CQB weapons and make Overwatching more effective"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "heqU1TQxv87WtFvk",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

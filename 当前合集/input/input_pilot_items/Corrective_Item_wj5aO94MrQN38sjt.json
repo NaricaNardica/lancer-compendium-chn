@@ -1,0 +1,64 @@
+{
+  "name": "Corrective",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [
+      {
+        "activation": "Full",
+        "cost": 0,
+        "damage": [],
+        "detail": "Expend a charge to apply correctives to Down and Out pilots, immediately bringing them back to consciousness at 1 HP",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Use Corrective",
+        "pilot": true,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "This clear, plastic-like sheet can be placed over the wounds of severely injured pilots. It instantly begins to stabilize them, injecting medicine and deploying nanites to stitch wounds shut.",
+    "lid": "pg_corrective",
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "wj5aO94MrQN38sjt",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

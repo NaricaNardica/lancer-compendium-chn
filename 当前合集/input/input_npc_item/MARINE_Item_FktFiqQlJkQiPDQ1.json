@@ -1,0 +1,40 @@
+{
+  "name": "MARINE",
+  "type": "npc_template",
+  "system": {
+    "lid": "ws_marine",
+    "description": "Naval boarding and counterboarding actions are among some of the most dangerous operations that pilots can undertake in some of the most treacherous environments imaginable, with high casualty rates on both sides being both expected and accepted by the commanders who order these soldiers to undertake assaults against ships and stations or against those who seek to take them. Marine pilots know that preparedness is the key to survival, and outfit their chassis accordingly with additional up-armoring, breaching equipment, and close-quarters engagement tools to help tip the odds in their favor when the hullcutter charges blow.",
+    "base_features": [
+      "npc_marine_maneuverable",
+      "npc_marine_first_on_last_off",
+      "npc_marine_marine_systems"
+    ],
+    "optional_features": [
+      "npc_marine_pointman_plating",
+      "npc_marine_battering_ram",
+      "npc_marine_portable_barricade",
+      "npc_marine_deck_anchors",
+      "npc_marine_captive_spike"
+    ]
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "FktFiqQlJkQiPDQ1",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636649632,
+    "modifiedTime": 1747636649632,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

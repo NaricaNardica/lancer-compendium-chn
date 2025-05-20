@@ -1,0 +1,73 @@
+{
+  "name": "Stasis Generator",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_stasis_generator",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a hostile character or willing allied character within line of sight and range 5: until the end of their next turn, they become Stunned, gain Immunity to all damage and effects, and can’t be moved, targeted, or affected by any other character or effect. This can be used on each character 1/scene. Hostile characters can succeed on an Engineering save to ignore this effect.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The skies of Creighton boiled black as ink, marbled by shuddering light. Screaming, angels fell wreathed in flame. The ones who could still run fled for the shelters; for seven days, they crouched in a deeper dark and felt the world shake itself apart.<br />—A.V. Wynyard, “The Killing of Creighton” [epic prose poem, banned throughout the Purview]",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_napoleon",
+    "license_level": 1,
+    "manufacturer": "HA",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "EFXZisLuGrVeUyE4",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

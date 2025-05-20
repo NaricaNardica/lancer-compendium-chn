@@ -1,0 +1,68 @@
+{
+  "name": "Swarm Body",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_swarm_body",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "After activating this system, a burst 1 swarm is released at the end of your turn. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic. This amount increases by +3 damage for each of your turns that you have remained stationary, up to a maximum of 9 kinetic.<br>This effect lasts until you move, including involuntary movement.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_balor",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "DI9gFk2tiJbq5VMq",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

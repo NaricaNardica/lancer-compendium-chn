@@ -1,0 +1,241 @@
+{
+  "name": "Drone Commander",
+  "type": "talent",
+  "system": {
+    "lid": "t_drone_commander",
+    "curr_rank": 1,
+    "description": "For a pilot fresh out of boot, keeping a drone swarm in line is like trying to carry water with a net. If they seem to have a mind of their own, it’s because they do, and it’s not that smart. Clymene Kanalakos’s initial frustration was enough to get her practicing, and practice pays off. Now, her swarm obeys almost before she orders – an unnerving development, but a useful one. The swarm is hers.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Protocol",
+            "cost": 0,
+            "damage": [],
+            "detail": "Move a drone you control up to 4 spaces if it is within Sensors.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Shepherd Drone",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [
+          {
+            "lid": "drone_hp",
+            "val": "5",
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "overwrite": false,
+            "replace": false
+          }
+        ],
+        "counters": [],
+        "deployables": [],
+        "description": "Your Drone systems gain +5 HP. Additionally, gain the <b>Shepherd Drone</b> Protocol.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Shepherd",
+        "synergies": [
+          {
+            "detail": "This Drone system gains +5 HP. As a protocol, you may move one this drone up to 4 spaces if it is within Sensors.",
+            "locations": [
+              "system"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": false,
+              "AI": false,
+              "Shield": false,
+              "Deployable": false,
+              "Drone": true,
+              "Tech": false,
+              "Armor": false,
+              "Flight System": false,
+              "Integrated": false,
+              "Mod": false
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you make an attack that consumes the Lock On condition, your Drones immediately emit a vicious pulse of energy. All characters of your choice within Burst 1 areas centered on each of your drones take 1d6 Energy damage. Each character can only be affected by the pulse from one drone, even if the areas overlap.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Energized Swarm",
+        "synergies": [
+          {
+            "detail": "1/round, when you make an attack that consumes the Lock On condition, your Drones immediately emit a vicious pulse of energy. All characters of your choice within Burst 1 areas centered on each of your drones take 1d6 Energy damage. Each character can only be affected by the pulse from one drone, even if the areas overlap.",
+            "locations": [
+              "system"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": false,
+              "AI": false,
+              "Shield": false,
+              "Deployable": false,
+              "Drone": true,
+              "Tech": false,
+              "Armor": false,
+              "Flight System": false,
+              "Integrated": false,
+              "Mod": false
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "Send a pulse of energy to an allied character (including Drones) within Range 3, drawing a Line to them. You may extend the pulse from your target to another allied character, extending the Line to them, as long as they are within Range 3, and you may continue extending the pulse (and Line) like this as long as you don’t target the same character twice. Allied characters who are used as pulse targets or are in the Line’s path gain 4 Overshield; hostile characters in the Line’s path take 2 Energy damage instead.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Invigorate",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain the <b>Invigorate</b> Quick Action.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Invigorate",
+        "synergies": []
+      }
+    ],
+    "terse": "Improve and empower your Drone Systems to help allies and hurt enemies"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "ZSTxiyCOsFhx6SHH",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

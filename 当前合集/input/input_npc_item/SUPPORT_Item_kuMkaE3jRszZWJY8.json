@@ -1,0 +1,98 @@
+{
+  "name": "SUPPORT",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SUPPORT.png",
+  "system": {
+    "lid": "npcc_support",
+    "role": "support",
+    "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
+    "tactics": "Supports are bulky mechs that can’t deal any damage but have access to powerful healing and condition-clearing effects. Despite their resilience, they have no way to defend themselves and need to get close to their allies in order to be effective. Savvy players will shoot and destroy their Restock Drones before they are activated, denying an opportunity for healing.",
+    "base_features": [
+      "npcf_sealant_gun_support",
+      "npcf_restock_drone_support",
+      "npcf_nano_repair_cloud_support"
+    ],
+    "optional_features": [
+      "npcf_remote_reboot_support",
+      "npcf_empowered_cloud_support",
+      "npcf_remote_cloud_support",
+      "npcf_defensive_pulse_support",
+      "npcf_latch_drone_support"
+    ],
+    "base_stats": [
+      {
+        "armor": 1,
+        "hp": 15,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 10,
+        "save": 10,
+        "hull": 1,
+        "agi": -2,
+        "eng": 2,
+        "size": 2,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 18,
+        "evasion": 10,
+        "edef": 10,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 10,
+        "save": 12,
+        "hull": 1,
+        "agi": -1,
+        "sys": 1,
+        "eng": 4,
+        "size": 2,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 22,
+        "evasion": 12,
+        "edef": 12,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 10,
+        "save": 14,
+        "hull": 1,
+        "agi": -1,
+        "sys": 2,
+        "eng": 6,
+        "size": 2,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "kuMkaE3jRszZWJY8",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

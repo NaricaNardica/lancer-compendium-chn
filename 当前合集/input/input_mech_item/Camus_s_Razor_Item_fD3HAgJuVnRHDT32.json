@@ -1,0 +1,91 @@
+{
+  "name": "Camus’s Razor",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_camuss_razor",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Your mech is capable of projecting a spot-magnetic force of incredible power. You can prime this system as a quick action. Once primed, you gain one use of the Intervention reaction for the rest of the scene.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Prime Camus's Razor",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "You become the target of the action instead. If the action was an area of effect, such as a line, cone, blast, etc, the attacker must now position it so it targets you, or as close as possible, which could change its targets. This transfer takes place even if the original could not have hit you (i.e., it was a melee attack).",
+        "frequency": "1/round",
+        "heat_cost": 0,
+        "init": "This system must be primed as a quick action.",
+        "lid": "",
+        "mech": true,
+        "name": "Intervention",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "An allied character within Range 5 and line of sight is targeted by an action that deals kinetic or explosive damage.",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Manipulating the world around the platform doesn’t end at rearranging the natural/built environment. This was the line that many on the team were afraid to cross, the question we had all asked ourselves once we bracketed the platform: what happens when we apply it to a person? What does existence mean when it can be ended with a thought?”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_white_witch",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "fD3HAgJuVnRHDT32",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578420,
+    "modifiedTime": 1747537578420,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

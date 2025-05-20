@@ -1,0 +1,167 @@
+{
+  "name": "Swallowtail",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-SWALLOWTAIL-2-0.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [
+        {
+          "activation": "Reaction",
+          "cost": 0,
+          "damage": [],
+          "detail": "Effect: Roll 1d6. On 4+, the attack was actually a simulation predicted by your processor - your ally gains Resistance to all damage dealt by the attack and may teleport up to 3 spaces, representing their “true” location. On 3 or less, there’s a glitch – your allied doesn’t gain Resistance, but can teleport up to 6 spaces.",
+          "frequency": "1/round",
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Tactical Simulation",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "An allied character in line of sight takes damage from another character in line of sight.",
+          "tech_attack": false
+        }
+      ],
+      "active_bonuses": [],
+      "active_effect": "Gain the Tactical Simulation reaction for the rest of the scene.",
+      "active_name": "Prophetic Interjection",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Cloudscout TACSIM Swarms are packets of networked microsensors, launched in nonlethal mortar canisters that detonate high above the battlefield. Once seeded, the swarm generates a TACSIM program that begins to run brevity cycles: tight, contained simulations of tactical possibility. Probability results are then fed to the Swallowtail’s choir processors, which in turn feed it to the pilot and networked squad members, ensuring a high probability of successful outcomes.",
+      "integrated": [],
+      "name": "Cloudscout TACSIM Swarms",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The Swallowtail is Smith-Shimano’s primary long-range scouting and fire-support platform, built for rapid and sustained ranging across hostile, volatile environments. Built for long-term sustainability, it can operate in unstable environs for months and maximize its survivability by adjusting its operating efficiency on the fly. Each unit has an integrated cloak and a suite of predictive choral intelligences that coordinate its highly developed sensor systems to rapidly simulate and predict tactical developments – sometimes before they even occur.<br />The Swallowtail’s base model, the SW-01, is one of SSC’s few mass-produced lines – the entry-level BELLA CIAO model. Built without a cloaking field and up-armored to address direct security requirements, the SW-01 is especially popular among the rank and file troopers of Constellar Security forces.",
+    "license": "mf_swallowtail",
+    "license_level": 2,
+    "lid": "mf_swallowtail",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Support"
+    ],
+    "mounts": [
+      "Flex",
+      "Aux/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 10,
+      "edef": 10,
+      "heatcap": 4,
+      "repcap": 5,
+      "sensor_range": 20,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 6,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "At the end of its turn, the Swallowtail becomes Invisible if it hasn’t moved that turn. This lasts until it moves or takes a reaction, or until the start of its next turn.",
+        "integrated": [],
+        "name": "Integrated Cloak",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when the Swallowtail inflicts Lock On, its target also becomes Shredded until the end of its next turn.",
+        "integrated": [],
+        "name": "Prophetic Scanners",
+        "synergies": [
+          {
+            "detail": "1/round, when the Swallowtail inflicts Lock On, its target also becomes Shredded until the end of its next turn.",
+            "locations": [
+              "lock_on"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "Round"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "uFpIEL0h7rvrVr5U",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

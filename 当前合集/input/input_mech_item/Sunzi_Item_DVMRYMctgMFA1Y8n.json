@@ -1,0 +1,138 @@
+{
+  "name": "Sunzi",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-SUNZI.png",
+  "system": {
+    "core_system": {
+      "activation": "Free",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "For the rest of the scene, this system gains 6 charges (you can use a die to track this). As a reaction at the start or end of any hostile or allied character’s turn within SENSORS and line of sight, expend a charge to teleport them up to 3 spaces in any direction, as long as they end in a free space in which they can stand.",
+      "active_name": "Art of War",
+      "active_synergies": [],
+      "counters": [
+        {
+          "default_value": 6,
+          "value": 6,
+          "lid": "ctr_art_of_war",
+          "max": 6,
+          "min": 0,
+          "name": "Art of War"
+        }
+      ],
+      "deactivation": null,
+      "deployables": [],
+      "description": "(TT_CLEARANCE_01): JUST A HEADS UP, YOU’RE GOING TO READ SOME OBTUSE SHIT HERE. I’VE TRANSCRIBED ONLY THE USEFUL PARTS OF WHAT THE VOLS SAID. REFER TO THE VISUAL FOR CORRESPONDING HAND SIGNS. REFER TO REPORTS: VESSEL-PILOT-DOORWAY",
+      "integrated": [],
+      "name": "Reality Carver",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "Blink Anchor (SIZE 1/2, Tags: DEPLOYABLE, IMMUNITY to all damage and effects, LIMITED 3)<br />You carry a single blink anchor that you can deploy as a quick action. When any character teleports within your line of sight, you may force them to appear in a free space adjacent to the blink anchor instead of their original destination, as long as they can safely stand there. If your target is hostile, this expends a charge.<br />Initiating this interruption does not count as a reaction. Once it’s deployed, you or any allied character can pick it up or put it down while adjacent to it as a quick action.",
+      "passive_name": "Blink Anchor",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "<p>The Sunzi represents the peak of Harrison Armory's research into weaponized blink technology. Pilots approved to fabricate and field-test Sunzi components are monitored remotely by the Armory's Special Projects Group, which enjoys wide latitude in gathering telemetry and biometric data. The Sunzi platform is considered by Harrison Armory to still be in development, and not yet available for fleet contracts. </p> <p>Like the Armory's Napoleon chassis before it, the Sunzi utilizes the Armory's H-GOBLIN-derived recursive-mesh interdermal substrate, allowing it to mount outsized weapons and systems on a chassis measuring just over three meters tall. Where it differs is in its technological heritage. The Napoleon was largely the product of the Armory's internal paracausal/ parallel space research and development groups; the Sunzi is rumored to be derived from stolen and extracted Volador technology. This may explain why the Long Rim and the Dawnline Shore are the primary test grounds for the platform – far from Union's most direct oversight, the Armory may have more time to make what progress it can before Union's regulatory impulse catches up to them. </p> <p>According to Union NavInt reports on the Sunzi, the platform's unshielded emissions are consistent with known blinkspace signatures; corroborating intelligence from undercover elements inside the program's main campus on Ras Shamra show that the Sunzi's development has been fast-tracked to respond to the evolving situation in the Dawnline Shore. Both as a forcemultiplication tool to assist the Armory's legionary presence across the Shore, and more specifically to counter the Ungratefuls' newest weapon there, Object L (see UNI Report CORPSE GATE for more). </p>",
+    "license": "mf_sunzi",
+    "license_level": 2,
+    "lid": "mf_sunzi",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Support",
+      "Controller"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "armor": 1,
+      "stress": 4,
+      "structure": 4,
+      "hp": 7,
+      "evasion": 7,
+      "edef": 8,
+      "heatcap": 7,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 4,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When allied characters within Range 50 of the Sunzi teleport or are teleported, free spaces adjacent to the Sunzi are always valid end destinations.",
+        "integrated": [],
+        "name": "Safe Harbor",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Sunzi has Immunity to involuntary movement caused by other characters.",
+        "integrated": [],
+        "name": "Anchor",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [
+          {
+            "activation": "Free",
+            "cost": 0,
+            "damage": [],
+            "detail": "1/round the Sunzi can teleport 2 spaces as a free action",
+            "frequency": "1/Round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Slip",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, the Sunzi can teleport 2 spaces as a free action.",
+        "integrated": [],
+        "name": "Slip",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "DVMRYMctgMFA1Y8n",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563094,
+    "modifiedTime": 1747636626255,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

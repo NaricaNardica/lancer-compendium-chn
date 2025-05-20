@@ -1,0 +1,54 @@
+{
+  "name": "VETERAN",
+  "type": "npc_template",
+  "system": {
+    "lid": "npct_veteran",
+    "description": "Veterans are hardened, experienced fighters that have survived several direct engagements. This isn’t their first rodeo, and their ability to withstand morale shocks is far higher than an untested greenhorn. Their value on the field is the experience they bring to a deployment and their steady presence along the line.<br />Use the Veteran template to make more memorable characters.",
+    "base_features": [
+      "npcf_reinforced_veteran",
+      "npcf_veterancy_veteran",
+      "npcf_veteran_traits_veteran"
+    ],
+    "optional_features": [
+      "npcf_acrobat_veteran",
+      "npcf_deadly_veteran",
+      "npcf_feign_death_veteran",
+      "npcf_hacker_veteran",
+      "npcf_hardened_target_veteran",
+      "npcf_headshot_veteran",
+      "npcf_insulated_veteran",
+      "npcf_legendary_veteran",
+      "npcf_lesser_sight_veteran",
+      "npcf_lightning_reflexes_veteran",
+      "npcf_limitless_veteran",
+      "npcf_nhp_co_pilot_veteran",
+      "npcf_parting_gift_veteran",
+      "npcf_rodeo_master_veteran",
+      "npcf_self_repair_veteran",
+      "npcf_shock_armor_veteran",
+      "npcf_slippery_veteran",
+      "npcf_steel_jaw_veteran",
+      "npcf_vipers_speed_veteran"
+    ]
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "UuOC4CbyE9IWQAoL",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604292,
+    "modifiedTime": 1747636604292,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

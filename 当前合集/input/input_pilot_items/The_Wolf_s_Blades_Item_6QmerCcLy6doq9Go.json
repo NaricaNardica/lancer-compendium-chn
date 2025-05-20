@@ -1,0 +1,66 @@
+{
+  "name": "The Wolf's Blades",
+  "type": "pilot_weapon",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "These strangely weighted hardlight knives were stolen from a feared pirate. Without proper training, they are as dangerous to their user as to their target.",
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Burn",
+        "val": "1"
+      }
+    ],
+    "loaded": false,
+    "lid": "pg_hardlight_knives",
+    "tags": [
+      {
+        "lid": "tg_pilot_weapon",
+        "val": ""
+      },
+      {
+        "lid": "tg_sidearm",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "vxr22GvkHnpNWihW",
+  "_id": "6QmerCcLy6doq9Go",
+  "img": "systems/lancer/assets/icons/role_artillery.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624479,
+    "modifiedTime": 1747537624479,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

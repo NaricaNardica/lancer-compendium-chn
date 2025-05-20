@@ -1,0 +1,652 @@
+{
+  "name": "SPITE",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SPITE.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:38:03.817Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 18
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "6BWkIRp6Zsr3kdmn",
+  "prototypeToken": {
+    "name": "SPITE",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SPITE.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "SPITE",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SPITE.png",
+      "system": {
+        "lid": "nrfaw-npc_npcc_spite",
+        "role": "defender",
+        "flavor": "The Spite is an aggressive tech defender chassis commonly used by HORUS techno cults, pirates, and insurgent factions. By using a reactor-override liturgicode, these mechs are able to pry a mech’s reactor cores open and keep them that way, spiking them with feedback each time a weapon is fired. Unaware or reckless pilots taking the field against an experienced Spite pilot will often find themselves cooking themselves to death.",
+        "tactics": "The Spite punishes characters who rely on heat management or careful heat generation to maximize their damage output. Use IMPRISON to lock down dangerous damage-dealers and ENTHRONE it somewhere it can guard its allies, but be careful – it’s relatively immobile and can’t do much on its own.",
+        "base_features": [
+          "nrfaw-npc_npcf_enthrone_spite",
+          "nrfaw-npc_npcf_guardian_spite",
+          "nrfaw-npc_npcf_imprison_spite",
+          "nrfaw-npc_npcf_seize_spite"
+        ],
+        "optional_features": [
+          "nrfaw-npc_npcf_crush_targeting_spite",
+          "nrfaw-npc_npcf_feedback_shield_spite",
+          "nrfaw-npc_npcf_insidious_prison_spite",
+          "nrfaw-npc_npcf_carceri_spite",
+          "nrfaw-npc_npcf_entrenched_spite"
+        ],
+        "base_stats": [
+          {
+            "armor": 2,
+            "hp": 18,
+            "evasion": 6,
+            "edef": 10,
+            "heatcap": 5,
+            "speed": 2,
+            "sensor_range": 20,
+            "save": 13,
+            "agi": -2,
+            "sys": 2,
+            "eng": 2,
+            "size": 2,
+            "activations": 1,
+            "hull": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 3,
+            "hp": 20,
+            "evasion": 6,
+            "edef": 14,
+            "heatcap": 6,
+            "speed": 2,
+            "sensor_range": 20,
+            "save": 15,
+            "agi": -2,
+            "sys": 3,
+            "eng": 3,
+            "size": 2,
+            "activations": 1,
+            "hull": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 4,
+            "hp": 22,
+            "evasion": 6,
+            "edef": 16,
+            "heatcap": 7,
+            "speed": 2,
+            "sensor_range": 20,
+            "save": 17,
+            "agi": -2,
+            "sys": 4,
+            "eng": 4,
+            "size": 2,
+            "activations": 1,
+            "hull": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "Ktfgo7sPf2O5KSsK",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685866,
+        "modifiedTime": 1747636685866,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "ENTHRONE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_enthrone_spite",
+        "effect": "The Spite becomes IMMOBILIZED and activates a crackling defensive shield. While this shield is active, any characters that make ranged or melee attacks against the Spite or its adjacent allies take {3/4/5} Energy AP before the attack roll is made. This effect lasts until the end of the Spite’s next turn, or if it ends this effect as a quick action.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "4"
+          },
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          },
+          {
+            "lid": "tg_shield",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "SPITE",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "fTJ5OMHH2nEIcBiN",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636686273,
+        "modifiedTime": 1747636686331,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "GUARDIAN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_guardian_spite",
+        "effect": "Adjacent allied characters can use the Spite for hard cover.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "SPITE",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "8FI2CqborPamOKfs",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636686273,
+        "modifiedTime": 1747636686273,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "IMPRISON",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_imprison_spite",
+        "effect": "The Spite chooses a character within SENSORS and line of sight: they must pass a SYSTEMS save or take {4/5/6} Energy and become infected by a catalyzing virus. While affected by this virus they cannot clear any heat by any means (except for overheating). This effect lasts for the rest of the scene, until the Spite is destroyed, or until the affected character moves adjacent to the Spite. While at least one character is affected by the virus, the Spite is IMMOBILIZED. <br />Targets that already suffer from the virus take double damage if imprisoned again.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_tech",
+            "val": ""
+          }
+        ],
+        "type": "Tech",
+        "origin": {
+          "type": "Class",
+          "name": "SPITE",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_type": "Quick",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "Kkf3qg12lTqJ0yN7",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636686273,
+        "modifiedTime": 1747636686273,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SEIZE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_seize_spite",
+        "effect": "A hostile character within SENSORS and line of sight must pass a SYSTEMS save or take 2/3/4 Heat and become IMMOBILIZED until the end of their next turn. On a success, they take no heat and are instead SLOWED until the end of their next turn.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_tech",
+            "val": ""
+          },
+          {
+            "lid": "tg_recharge",
+            "val": "4"
+          }
+        ],
+        "type": "Tech",
+        "origin": {
+          "type": "Class",
+          "name": "SPITE",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_type": "Quick",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "hZcwrSKtwovfVNEb",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636686273,
+        "modifiedTime": 1747636686337,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636684246,
+    "modifiedTime": 1747636686441,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

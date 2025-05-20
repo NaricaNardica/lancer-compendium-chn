@@ -1,0 +1,147 @@
+{
+  "name": "Gilgamesh",
+  "type": "frame",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "You gain Immunity to all conditions not caused by your own systems, talents, etc, until the end of your next turn, and clear all such conditions you already have (including that that can't be cleared normally). You also clear Exposed, stand from Prone, and gain Grit+4 Overshield. At the end of your next turn, clear this Overshield. This ability can be used even if you would not normally be able to take this action (e.g., if you are Stunned).<br /><br />Using this ability during combat counts as expending a Limited charge.",
+      "active_name": "Exo Amplification",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The Gilgamesh was designed from the ground up to be easy and inexpensive to both construct and maintain, but to Harrison Armory \"inexpensive\" does not equal shoddy or inefficient. Instead, the Gilgamesh utilizes a unique two-stage chassis design in which an inner \"core chassis\" is first created before a secondary outer \"exoframe\" is built upon that core, including additional armor, brachial/limb extensions, and hardpoints. The end result is a deceptively elegant design capable of not only extensive customization but also exceptionally simple field repairs. A series of interlocking clamps and explosive bolts anchor various exoframe components and appendages in place, and when sufficient structural integrity is compromised these sections can be swiftly jettisoned and just as quickly replaced, allowing Legionnaires to continue fighting through catastrophic damage that would render other chassis inoperable.<br /><br />This construction also allows power to be selectively rerouted between the core chassis and exoframe components, bypassing system failures and even enhancing overall performance for brief periods, though the strain this puts on the exoframe necessarily limits its use to critical situations only.",
+      "integrated": [],
+      "name": "Exoframe Engineering",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "The Gilgamesh has a modular construction framework which allows it to easily make in-field repairs by blowing off and replacing damaged limbs and components with spares. 1/scene as a free action, you may choose one of the following:<ul><li>Regain 1/2 of your total HP.</li><li>Repair a destroyed weapon or system.</li></ul>If you don't use this ability during combat, then when you next rest you may either regain all HP or automatically repair a destroyed weapon or system.<br /><br />Using this ability during combat counts as expending a Limited charge.",
+      "passive_name": "Exoframe Engineering",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "The Gilgamesh is Harrison Armory's multirole Legionnaire model chassis, designed to be distributed to Armory legions and Acquisition &amp; Management Teams across the Purview and beyond. Built to be fully compatible with numerous hardpoint-mounted tactical system enhancements and munitions, the Gilgamesh excels at no one task in particular, but its comprehensive modular construction and rugged engineering allow it to perform a variety of combat duties without difficulty within numerous theaters. Beyond the logistical efficiency of a standardized, easy to handle chassis meant to streamline both materiel concerns and aptitude training across multiple worlds and cultures, the Gilgamesh has another purpose as well; further reducing the Armory's remaining dependence on foreign-manufactured chassis designs, in particular the GMS Everest.<br /><br />Some commissioned officers have a tendency to look down upon Gilgamesh pilots for using what they view as an unglamorous \"trainer\" chassis, but other commanders are fierce proponents of the design, even choosing to pilot it themselves in order to lead by example, and in certain regions of the Purview the Gilgamesh is regarded with as much admiration as more sophisticated models such as the Sherman.",
+    "license": "mf_gilgamesh",
+    "license_level": 2,
+    "lid": "mf_gilgamesh",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Main",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 7,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 11,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [
+          {
+            "lid": "limited_bonus",
+            "val": "1",
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "overwrite": false,
+            "replace": false
+          }
+        ],
+        "counters": [],
+        "deployables": [],
+        "description": "All Limited systems and weapons equipped to the Gilgamesh gain +1 charge.",
+        "integrated": [],
+        "name": "Load-Bearing Hardpoints",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [
+          {
+            "default_value": 6,
+            "value": 6,
+            "lid": "gilgamesh_arsenal",
+            "max": 6,
+            "min": 1,
+            "name": "Arsenal Die"
+          }
+        ],
+        "deployables": [],
+        "description": "The Gilgamesh has a Loadout Die, 1d6 starting at 6. Each time it expends a Limited charge, reduce the value of the Loadout Die by 1. When the Loadout Die reaches 1, you may reset it to 6 to reroll one attack, check, or save, though the second result must be kept. The value of the Loadout Die persists between scenes but resets to 6 when you perform a Full Repair.",
+        "integrated": [],
+        "name": "Locked and Loaded",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "XZXB1oSpNxBgUpDp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537613995,
+    "modifiedTime": 1747636641834,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

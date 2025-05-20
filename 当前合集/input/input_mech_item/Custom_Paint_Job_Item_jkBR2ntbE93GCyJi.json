@@ -1,0 +1,53 @@
+{
+  "name": "Custom Paint Job",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_custom_paint_job",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "",
+    "destroyed": false,
+    "effect": "When you take structure damage, roll 1d6. On a 6, you return to 1 HP and ignore the damage – the hit simply ‘scratched your paint’.<br />This system can only be used once before each Full Repair, and is not a valid target for system destruction.",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_indestructible",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "jkBR2ntbE93GCyJi",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

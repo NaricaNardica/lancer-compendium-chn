@@ -1,0 +1,97 @@
+{
+  "name": "INVESTITURE",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_investiture_priest",
+    "effect": "The Priest links systems with an allied mech or vehicle within range 5. As long as they remain linked and within range 5, the target gets +{1/2/3} Accuracy on all attacks and can use the Priest’s Systems instead of their own. If either character becomes Jammed, Impaired, or Stunned, however, the other character also receives the condition for the same duration or until the link is disabled. The link is disabled if either character is destroyed or moves more than 5 spaces from the other. The Priest can only link with one character at a time.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      }
+    ],
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "PRIEST",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "KovxJQ78eH9IdYE0",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

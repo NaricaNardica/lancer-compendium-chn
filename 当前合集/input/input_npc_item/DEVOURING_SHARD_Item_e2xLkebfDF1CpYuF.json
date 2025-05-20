@@ -1,0 +1,97 @@
+{
+  "name": "DEVOURING SHARD",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_devouring_shard_lurker",
+    "effect": "While inside a SHROUD ZONE, the Lurker can also spew out a Cone 3 torrent of razor sharp nanites as a quick action. Characters within the affected area must pass an ENGINEERING save or take {4/5/6} Energy AP. On a success, they take half damage.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "LURKER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "e2xLkebfDF1CpYuF",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

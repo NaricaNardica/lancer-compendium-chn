@@ -1,0 +1,280 @@
+{
+  "name": "Dusk Wing",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-DUSK WING.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [
+        {
+          "activation": "Quick",
+          "cost": 0,
+          "damage": [],
+          "detail": "You may instantly teleport to the location of any hologram within range 50 as a quick action. When you do so, all extant holograms detonate – creating burst 1 explosions that deal 1d6 Energy Damage (Agility save for half) – and you may not create any new holograms until the start of your next turn",
+          "frequency": null,
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Hologram Teleport",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "active_bonuses": [],
+      "active_effect": "For the rest of the scene, whenever you start a unique movement during your turn (e.g., a standard move, Boost, or movement granted by talents or systems), you leave a holographic imprint of yourself behind in the space from which you started. These are illusory objects the same Size as you that have Immunity to all damage and effects and aren’t obstructions.<br />When hostile characters start their turn in, move through, or move adjacent to the space occupied by a hologram, it detonates. They must succeed on an Agility save or take 1d6 energy damage. On a success, they take half damage.<br />You also gain the Hologram Teleport Quick Action.",
+      "active_name": "Hall of Mirrors",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "“Belief in what we could see, what we could touch – in what our COMP/CONs assured us was there, in our own subjectivity and memory. Belief in reality became a weapon. We approached the metavault knowing that we would face an unknown enemy, but we approached with the advantage of numbers and machine strength.<br />“DHIYED taught us as it killed us: through garbled comms chatter, through the screams of the dying, through the cackling of our mirror-selves as they killed us. Every spoofed signature, every temporal skip, every memetic, every non-Euclid – these were lessons.<br />“Do you understand?<br />“DHIYED the Teacher. DHIYED the Monster. As we killed it, DHIYED taught us what to fear, and how to face it.<br />“What do I fear now? That's a good question. What does the pilot fear who cracked open DHIYED’s casket?<br />“I don’t think we killed it. I think it wants us to believe we killed it – and I cannot imagine what it has done while we think ourselves safe.”",
+      "integrated": [],
+      "name": "DHIYED Articulation",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The Dusk Wing originated as a legacy-inspired modification package to EVA suits, intended to equip them for hazardous environments. In the early days of deep-space exploration, there was a need for mechanized exoskeletons that not only amplified capacity but enhanced kinetic defense. The Dusk Wing is the spiritual heir of those early deep-space suits. Fast and small, it carries a complement of all-theater maneuverability jets that allow for near-perfect flight.<br />After the DHIYED expedition, the Exotic Materials Group isolated and translated strains of the entity’s realspace expiry paracode, teleologics, and kinematics for use in electronic and systems warfare. Of the frames trialed for use with DHIYED-derived technologies, the Dusk Wing performed best. As a result, it is often used by SSC’s internal Constellar Security forces when esoteric defense is necessary.",
+    "license": "mf_dusk_wing",
+    "license_level": 2,
+    "lid": "mf_dusk_wing",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Controller",
+      "Support"
+    ],
+    "mounts": [
+      "Aux/Aux",
+      "Flex"
+    ],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 12,
+      "edef": 8,
+      "heatcap": 4,
+      "repcap": 3,
+      "sensor_range": 10,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 6,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Dusk Wing can hover when it moves.",
+        "integrated": [],
+        "name": "Maneuverability Jets",
+        "synergies": [
+          {
+            "detail": "The Dusk Wing can hover when it moves.",
+            "locations": [
+              "move"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "During its turn, the Dusk Wing is Invisible; it reappears at the end of the turn.",
+        "integrated": [],
+        "name": "Harlequin Cloak",
+        "synergies": [
+          {
+            "detail": "During its turn, the Dusk Wing is Invisible; it reappears at the end of the turn.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Dusk Wing receives +1 difficulty on Hull checks and saves.",
+        "integrated": [],
+        "name": "Fragile",
+        "synergies": [
+          {
+            "detail": "The Dusk Wing receives +1 difficulty on Hull checks and saves.",
+            "locations": [
+              "hull",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "8HM4gxl69qFzJ2Ks",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

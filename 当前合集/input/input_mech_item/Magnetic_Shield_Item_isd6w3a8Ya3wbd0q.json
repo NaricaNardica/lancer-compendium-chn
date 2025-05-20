@@ -1,0 +1,73 @@
+{
+  "name": "Magnetic Shield",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_magnetic_shield",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "This system creates a line 4 forcefield, 4 spaces high – with at least 1 space adjacent to you – that is an obstruction for mechs and characters made at least partly of metal. It lasts for the rest of the scene and if a new one is placed, the old one deactivates.<br>The forcefield doesn’t block line of sight, but it provides soft cover. Characters gain Resistance to kinetic and explosive damage while benefiting from this cover.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "SSC’s magnetic shield takes the same technology as their proprietary magnetic buckler and applies it to a massive field-projection system.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_black_witch",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "isd6w3a8Ya3wbd0q",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

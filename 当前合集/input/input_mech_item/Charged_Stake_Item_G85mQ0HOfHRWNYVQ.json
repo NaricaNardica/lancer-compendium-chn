@@ -1,0 +1,63 @@
+{
+  "name": "Charged Stake",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_charged_stake",
+    "actions": [
+      {
+        "activation": "Full",
+        "cost": 0,
+        "damage": [],
+        "detail": "This system fires a charged stake at a character adjacent to you. Your target must succeed on a Hull save or be impaled by the stake, taking<br>1d6 AP energy damage and becoming Immobilized while impaled. At the end of each of their turns, an impaled character takes 1d6 AP energy damage. An impaled character can successfully repeat this save as a full action to remove the stake and free themselves, which is the only way to end the immobilization.<br>You can only affect one character with the stake at a time.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Descended from blast-mining tools, this enormous, improvised system is housed and prepped to fire in a specially primed chamber. It first penetrates and immobilizes armored targets, then sends a powerful, vaporizing charge into vulnerable internal systems.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_vlad",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "G85mQ0HOfHRWNYVQ",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

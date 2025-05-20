@@ -1,0 +1,30 @@
+{
+  "name": "Emperor",
+  "type": "license",
+  "system": {
+    "lid": "lic_mf_emperor",
+    "key": "mf_emperor",
+    "manufacturer": "SSC",
+    "curr_rank": 1
+  },
+  "folder": "bM8ZxAL0Xe88tM1c",
+  "_id": "2TeO7xBhGO7qaXwA",
+  "img": "systems/lancer/assets/icons/license.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537577713,
+    "modifiedTime": 1747537577713,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

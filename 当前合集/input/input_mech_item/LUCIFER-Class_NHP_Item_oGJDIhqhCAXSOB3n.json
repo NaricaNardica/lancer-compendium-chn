@@ -1,0 +1,81 @@
+{
+  "name": "LUCIFER-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_lucifer_class_nhp",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "Expend a charge to give your next ranged or melee attack this turn bonus damage on hit equal to your current heat after activating this protocol, as long as the weapon deals any energy.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "LUCIFER Protocol",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "LUCIFER came to the Think Tank’s attention after their repeated victories in thought-war games. LUCIFER clones are characterized by their brash, enthusiastic personality, often expressing frustration with timid pilots. This bombastic personality hides a calculating, brilliant tactical mind that feeds constant information to pilots – often faster than they can process it.<br />LUCIFER’s combat doctrine demands action, appearing to less daring pilots as a chaotic blend of reckless maneuvering and aggressive offense that keeps defenders beleaguered and unable to respond. Pilots looking to partner with LUCIFER clones should be aware that this attack style is likely to leave them vulnerable to counterattack, and also that these NHPs enjoy what they call “good-natured ribbing”.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and the LUCIFER Protocol.",
+    "integrated": [],
+    "license": "mf_tokugawa",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "1d3+3"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "oGJDIhqhCAXSOB3n",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

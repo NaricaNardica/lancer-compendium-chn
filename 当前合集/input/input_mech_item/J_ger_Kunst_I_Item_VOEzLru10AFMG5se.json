@@ -1,0 +1,73 @@
+{
+  "name": "Jäger Kunst I",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_jäger_kunst_i",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "For the rest of the turn, any time you move adjacent to an object or free-standing piece of terrain larger than you, you move 2 spaces in any direction as a free action, ignoring engagement and reactions, running, tumbling, or sliding around. You can do this multiple times a turn, but only once for each unique object or piece of terrain.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Jäger Kunst I",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "Atlas",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "1"
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "VOEzLru10AFMG5se",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Quickfoam Charges",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_quickfoam_charges",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You throw a grenade, targeting a character within Range 5. When used on an allied character, you Bolster the target and they may clear one hostile condition. When used on a hostile character, they become Impaired and Slowed until the end of their next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Patch Grenade",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_sealant_mine"
+    ],
+    "description": "A common piece of equipment aboard commercial and military spacefaring vessels alike, \"quickfoam\" is a self-curing polymer foam laced with whitewash utility nanites that rapidly expands and hardens even in null-atmosphere conditions, used to seal hull breaches and sustain compromised systems. While not considered part of a standard combat loadout, marine pilots often make use of deployable airburst cannisters full of the substance to effect in-field emergency repairs or to set improvised snare traps in chokepoints and access corridors.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "manufacturer": "EXOTIC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_grenade",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_mine",
+        "val": "0"
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "II7mFDqg03sGzOq5",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537614795,
+    "modifiedTime": 1747537614795,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

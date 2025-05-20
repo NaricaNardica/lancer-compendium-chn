@@ -1,0 +1,99 @@
+{
+  "name": "PRIEST",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-PRIEST.png",
+  "system": {
+    "lid": "npcc_priest",
+    "role": "support",
+    "flavor": "Priest-archetype mechs are found among the ranks of technozealot cults, transhumanist movements, and states or corporations that prioritize technological supremacy. These frames are configured to network their sensitive core systems with sympathetic mechs, creating digital super-constructs in order to establish and maintain total theater control. The use of Priest-archetype chassis and strategies were pioneered by a small, esoteric group known as the Messengers of MAIA. Ostensibly a courier group, the Messengers push all systems – synthetic and organic – to their theoretical limits. They even go so far as to share sensory input between linked pilots – an experience known to produce hyper-perception fugues and other ascendant mental states.",
+    "tactics": "Priests are powerful support mechs that function best when partnered with another character they can empower with Investiture. Use their Dispersal Shield to protect vulnerable targets and Investiture to empower an allied striker or defender. Enemies can disarm Investiture by separating Priests from their partners, at which point both become vulnerable to conditions.",
+    "base_features": [
+      "npcf_abjure_priest",
+      "npcf_hardened_target_priest",
+      "npcf_investiture_priest",
+      "npcf_dispersal_shield_priest"
+    ],
+    "optional_features": [
+      "npcf_greater_investiture_priest",
+      "npcf_empowered_shield_priest",
+      "npcf_sanctuary_priest",
+      "npcf_fortress_priest",
+      "npcf_fractal_assault_priest"
+    ],
+    "base_stats": [
+      {
+        "hp": 10,
+        "evasion": 10,
+        "edef": 12,
+        "heatcap": 10,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 11,
+        "hull": -1,
+        "agi": -1,
+        "sys": 2,
+        "eng": 2,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 13,
+        "evasion": 10,
+        "edef": 15,
+        "heatcap": 10,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 13,
+        "hull": -1,
+        "agi": -1,
+        "sys": 4,
+        "eng": 3,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 16,
+        "evasion": 10,
+        "edef": 18,
+        "heatcap": 10,
+        "speed": 6,
+        "sensor_range": 10,
+        "save": 15,
+        "hull": -1,
+        "agi": -1,
+        "sys": 6,
+        "eng": 4,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "WzJ06NHMQMXf4BQz",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

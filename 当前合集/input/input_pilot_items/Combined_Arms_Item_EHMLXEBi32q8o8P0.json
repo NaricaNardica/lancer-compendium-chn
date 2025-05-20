@@ -1,0 +1,217 @@
+{
+  "name": "Combined Arms",
+  "type": "talent",
+  "system": {
+    "lid": "t_combined_arms",
+    "curr_rank": 1,
+    "description": "True strength in combat doesn’t come from mastering the blade or the gun – it comes from knowing how to use both. Through time and training, Leika McGraff has combined the arts of melee and ranged combat into a single deadly combination. No matter the foe, Leika is a deadly threat; no matter the weapon, Leika is a master of its employ.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "As long as you’re Engaged, you and any allies adjacent to you count as having soft cover.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Shield of Blades",
+        "synergies": [
+          {
+            "detail": "As long as you’re Engaged, you and any allies adjacent to you count as having soft cover.",
+            "locations": [
+              "active_effects",
+              "disengage"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": true,
+              "Cannon": true,
+              "Launcher": true,
+              "Melee": true,
+              "Nexus": true,
+              "Rifle": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You don’t gain Difficulty from being Engaged.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "CQB-Trained",
+        "synergies": [
+          {
+            "detail": "You don’t gain Difficulty from being Engaged.",
+            "locations": [
+              "active_effects",
+              "disengage"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": true,
+              "Cannon": true,
+              "Launcher": true,
+              "Melee": true,
+              "Nexus": true,
+              "Rifle": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Whenever you hit a character with a melee attack, you gain +1 Accuracy on your next ranged attack against them; and, whenever you hit a character with a ranged attack, you gain +1 Accuracy on your next melee attack against them. This effect doesn’t stack.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Storm of Violence",
+        "synergies": [
+          {
+            "detail": "Whenever you hit a character with a melee attack, you gain +1 Accuracy on your next ranged attack against them; and, whenever you hit a character with a ranged attack, you gain +1 Accuracy on your next melee attack against them. This effect doesn’t stack.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Become more effective when using both Ranged and Melee weapons in close quarters"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "EHMLXEBi32q8o8P0",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

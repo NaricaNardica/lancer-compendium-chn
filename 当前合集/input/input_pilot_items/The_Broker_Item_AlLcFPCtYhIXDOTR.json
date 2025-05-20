@@ -1,0 +1,193 @@
+{
+  "name": "The Broker",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-broker",
+    "major_ideals": [
+      "I addressed challenges with manipulation, influence, or elegance.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I kept my hands clean of the dirty work.",
+      "I proved that I was the most qualified to handle a situation.",
+      "Someone found me attractive, intriguing, or frightening.",
+      "Despite my best efforts, we went wildly off the plan."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your power?",
+        "options": [
+          "A honeyed voice.",
+          "A filed and organized list of debts owed.",
+          "A favored upbringing, used to your advantage."
+        ]
+      },
+      {
+        "question": "What do you value?",
+        "options": [
+          "Good business and a sense of professionalism.",
+          "Loyalty above all.",
+          "Secrets, the dirtier the better.",
+          "The respect of others, no matter how it’s won."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Cosmocephalos",
+        "description": "When someone else makes a skill check, give them +1 Accuracy by telling the GM how you planned, prepared, or accounted for this situation.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Perfect Little Universe",
+        "description": "Each downtime, you or another PC gain an extra downtime action.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Little Consequence",
+        "description": "When you would take blame, personal fallout, or physical harm as a result of your actions, you have may another willing character nearby take the consequences instead of you after you learn what they are. If they do, they take 1 XP.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Ledger",
+        "description": "Any time, you may ask any character what they want from you right now (service, time, attention, apologies, aid, information, a favor). If you give it to them as described, you can write their name in your ledger. Once their name is in there, you can invoke the ledger any time. When you invoke someone’s name in the ledger, any roll you make against them with a result of 9 or lower is treated as a 10 for the rest of the session, then it loses its power over them.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Favors Owed",
+        "description": "If a nearby character will take consequences from their actions, you can offer to take those consequences instead. If they accept, you get a favor with them. You can cash this favor in any time to force them to help you with any skill check without spending Stress and share in the consequences, or defer to you on a decision. You can only hold one favor from each character at a time.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Contingency Plans",
+        "description": "When you or someone else takes consequences as a result of their actions, you can reduce their severity by describing how you intervene, manipulate, or otherwise change the outcome. This cannot eliminate the consequences entirely, just reduce them. Any Stress suffered is reduced by 1, which can reduce it to 0 Stress.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Beg, Borrow, or Steal",
+        "description": "When you need the right tool for the job (a disguise, a power tool, a weapon, loose currency, identity papers) you can choose to have it right now. The tool gives you +1 accuracy and increased effect on actions but it was stolen or “borrowed” from someone, and they will track you down by next downtime. The tool stops working at the end of the session or if you use this ability again to get a new tool.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Immaculate",
+        "description": "You are always the best dressed in any given situation. You are never unprepared for any situation involving clothing and have access to all manner of uniforms, disguises, costumes, formalwear, and so on. In situations where this helps, gain +1 Accuracy and increased effect.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Spider",
+        "description": "When you need something done without involving yourself or your group, you can call one of your many contacts. Pick up to three of the following words to describe how they get it done for you: <b>quiet, clean, quick</b>. For each word you pick, the GM chooses one thing you will need to get your contact, or else owe them after the job is done:<ul><li>collateral</li><li>proof, payment, or assurances</li><li>extraction</li></ul>For each word you don’ t pick, they don’ t do it that way at all;however, they will always get the job done. The scale of what they need is concurrent with the scale of the request you make of them, which might make the request impossible unless you rephrase it.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of Order",
+        "description": "At the end of each session, if you can describe how everything went to plan, do so. Give someone you think followed the plan 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Order."
+      },
+      {
+        "name": "Seal in Blood",
+        "description": "When you make a deal with a willing person, name the terms of the deal (parties, duration, and services rendered), then shake hands. If you do, any person (including you) that breaks the deal suffers a baleful curse. They rapidly become deathly ill. If they’re an NPC, they are too sick to do anything for the duration of one mission and are essentially helpless. If they are a PC, they gain a “deathly ill” burden.<br>If the deal is broken by one party, the other suffers no consequences and the seal is lifted, ending this effect. Otherwise the seal lasts indefinitely or until the terms of the deal are fulfilled.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power if you’ve taken four or more powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "AlLcFPCtYhIXDOTR",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747636597439,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

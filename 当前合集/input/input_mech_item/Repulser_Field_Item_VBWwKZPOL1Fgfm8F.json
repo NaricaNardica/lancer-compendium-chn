@@ -1,0 +1,72 @@
+{
+  "name": "Repulser Field",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_repulser_field",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "This system emits a burst 2 pulse around you. Characters within the affected area must succeed on a Hull save or be knocked 2 spaces directly away from you; then, all Mines within the affected area detonate simultaneously.<br>You count as having Immunity to any damage or effects immediately forced by mines detonated using this system, although persistent effects still affect you.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Utilizing a subsonic pressure wave, repulser fields emit tremendous single-wave pulses that stun, deter, and dissuade close-proximity hostiles.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_iskander",
+    "license_level": 2,
+    "manufacturer": "HA",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "1"
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "VBWwKZPOL1Fgfm8F",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

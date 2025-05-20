@@ -1,0 +1,222 @@
+{
+  "name": "Ace",
+  "type": "talent",
+  "system": {
+    "lid": "t_ace",
+    "curr_rank": 1,
+    "description": "Every pilot brags about their actions; occasionally, some even have the reputation to back it up. Harmonious Domesticity is one of these pilots. As an ace, they aren’t just ranked among the most qualified of pilots – they’re among the most qualified of lancers.<br />Whether you’re a talented rookie or a grizzled veteran, you’re one of these aces. Your skills as a pilot are notorious enough that your callsign is known throughout the system.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may fly up to 2 spaces in any direction.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Acrobatics",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "Any time an attack misses you.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "While flying, you get the following benefits:<ul><li>You make all Agility checks and saves with +1 Accuracy.</li><li>Any time an attack misses you, you may fly up to 2 spaces in any direction as a reaction.</li></ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Acrobatics",
+        "synergies": [
+          {
+            "detail": "Make all Agility checks and saves with +1 Accuracy.",
+            "locations": [
+              "agility",
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you Boost while flying, you may move an additional 1d6 spaces, but take heat equal to half that amount.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Afterburners",
+        "synergies": [
+          {
+            "detail": "When you Boost while flying, you may move an additional 1d6 spaces, but take heat equal to half that amount.",
+            "locations": [
+              "boost"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "As a quick action on your turn, you may spin up your thrusters. If you end your turn flying, you may nominate a character within a Range equal to your Speed and within line of sight, and gain the Supersonic reaction.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Spin Up Thrusters",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You fly to a space free and adjacent to them. There must be a path to do so but you can move even if the nominated character is no longer within your movement range or line of sight. This ignores engagement and does not provoke reactions.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "Requires activation of the <b>Spin Up Thrusters</b> quick action on your turn. If you end your turn flying, you may nominate a character within a Range equal to your Speed and within line of sight, you may use this reaction.",
+            "lid": "",
+            "mech": true,
+            "name": "Supersonic",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "Your target’s turn ends.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "As a quick action on your turn, you may <b>spin up your thrusters</b>. If you end your turn flying, you may nominate a character within a Range equal to your Speed and within line of sight, and gain the <b>Supersonic</b> Reaction.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Supersonic",
+        "synergies": []
+      }
+    ],
+    "terse": "Improve your flight systems for rapid repositioning and extreme mobility"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "kQK04RXomReNiahw",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

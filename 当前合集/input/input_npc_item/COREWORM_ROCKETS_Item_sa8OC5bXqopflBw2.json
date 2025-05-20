@@ -1,0 +1,101 @@
+{
+  "name": "COREWORM ROCKETS",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_coreworm_rockets_pirate",
+    "effect": "1d3 miniature drones attach themselves to a character within line of sight and Range 10 and begin drilling into their target’s cockpit. In 1d3+2 rounds, if any coreworms are still attached, they reach the cockpit and savage the pilot, reducing them to 0 HP. The target knows how many rounds it will take for the drones to bore though, and how many are attached.<br />The target and allied characters adjacent to them can remove one drone at a time with a successful Systems or Engineering check as a quick action. Additionally, if the target is Shut Down, the coreworms are confused and their timer pauses.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_full_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Template",
+      "name": "PIRATE",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "sa8OC5bXqopflBw2",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

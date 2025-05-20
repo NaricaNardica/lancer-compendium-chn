@@ -1,0 +1,292 @@
+{
+  "name": "Enkidu",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-ENKIDU.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [
+        {
+          "activation": "Full",
+          "cost": 0,
+          "damage": [],
+          "detail": "<p>The Enkidu engages its monstrous strength, targets an adjacent character (allied or hostile) and attempts to tear them in half with its talons. If the target has 7 HP or less, only 1 STRUCTURE remaining, and doesn&rsquo;t have IMMUNITY to damage, they are immediately destroyed, the action cost of this ability is refunded, and the Enkidu can BOOST as a free action. If this action fails to destroy the target, the target instead takes 1 Kinetic Damage.</p> <p>At the end of the scene, the CP cost of BIFURCATE is refunded if the Enkidu did not use it to destroy any characters.</p>",
+          "frequency": null,
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Bifurcate",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "active_bonuses": [],
+      "active_effect": "For the rest of the scene, the Enkidu gains the Bifurcate action, which can only be used in the DANGER ZONE",
+      "active_name": "Crush Limiter",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "<p>“I argue that it is Man who is shapeless; far from immutable, he is given form by the environment around him. In civilization, man is as divine as old God, who judges and creates; he is clothed in finery, and enjoys literature, art, company, and purpose. When left alone in the savage wilderness of nature, Man comports himself accordingly.”</p><p>— Harrison II, “Mandate, Vol II: On Nature, On Savagery, On Reason”</p>",
+      "integrated": [
+        "mw_tokugawa_alt_enkidu_integrated"
+      ],
+      "name": "Limit Restriction Zero",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "<p>The ENKIDU can be taken at rank II of the TOKUGAWA license instead of the base FRAME, or retrofitted during Act 1 of the No Room for a Wallflower Campaign.</p><p>This experimental frame was secretly designed as a TBK chassis for lateaction combat in the Hercynian Crisis. Deployed in limited numbers against the remaining Egregorian hives in the brutal last stages of the war, the Enkidu’s neurological interfacing was dangerous: raw and unshielded. The power and aggression flowing through the subroutines that govern the mech bled into its pilot’s subjectivity, making them lose themselves in a storm of violence, constantly pushing themselves to greater and greater acts of destruction. This effect was incredibly hard for pilots to handle – the fallout rate from the program was extremely high, and the survivors required extensive conditioning, implants, and a cocktail of neurological suppressants to continue.</p> <p>The true aim of the Enkidu program was not to fight Egregorians, which were in the final stages of practical extinction, but to use the battlefield as a testing ground for the eventual deployment of the chassis against ThirdComm revolutionaries and dissidents. Though the codebase for the Enkidu was eventually discontinued and molded into what is now the Tokugawa, the difficulties with the initial project prevented it from getting off the ground before the revolution took hold. The remaining prototypes were buried along with the rest of Hercynia’s history.</p>",
+    "license": "mf_tokugawa",
+    "license_level": 2,
+    "lid": "mf_tokugawa_alt_enkidu",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Striker",
+      "Defender"
+    ],
+    "mounts": [
+      "Flex",
+      "Flex"
+    ],
+    "stats": {
+      "size": 2,
+      "stress": 4,
+      "structure": 4,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 8,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "<p>When the Enkidu ends its turn in the DANGER ZONE, it rears up, extends its PLASMA TALONS (see below), and enters a state of primal fury with the following effects:</p> <ul> <li>On hit, characters struck by the Enkidu&rsquo;s PLASMA TALONS immediately become IMMOBILIZED until the end of their next turn.</li> <li>As a special reaction, the Enkidu must use its PLASMA TALONS to attack any character (hostile or allied) that enters, exits or moves more than 1 space within its THREAT. This special reaction can be used once a turn, any number of times a round, and doesn’t count against the maximum number of reactions a turn, so the Enkidu can take other reactions normally.</li> </ul> <p>This state ends at the start of the Enkidu&rsquo;s turn, or if the Enkidu exits the DANGER ZONE.</p>",
+        "integrated": [],
+        "name": "Primal Fury",
+        "synergies": [
+          {
+            "detail": "When the Enkidu ends its turn in the Danger Zone, it enters the Primal Fury state.",
+            "locations": [
+              "heat"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED.",
+        "integrated": [],
+        "name": "All Fours",
+        "synergies": [
+          {
+            "detail": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED.",
+            "locations": [
+              "heat"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Enkidu gets +1 accuracy on hull checks and saves.",
+        "integrated": [],
+        "name": "Brute Strength",
+        "synergies": [
+          {
+            "detail": "The Enkidu gets +1 accuracy on hull checks and saves.",
+            "locations": [
+              "hull"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Enkidu always knows if characters are at or under half of their maximum HP, but not the exact number.",
+        "integrated": [],
+        "name": "Bloodsense",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "Qyp9VJKiU7G5Ittk",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537569958,
+    "modifiedTime": 1747636674889,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

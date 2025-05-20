@@ -1,0 +1,685 @@
+{
+  "name": "SENTINEL",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SENTINEL.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 16
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "477B3tg6TEsk0eIC",
+  "prototypeToken": {
+    "name": "SENTINEL",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SENTINEL.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "SENTINEL",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SENTINEL.png",
+      "system": {
+        "lid": "npcc_sentinel",
+        "role": "defender",
+        "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
+        "tactics": "Sentinels are fast defenders that focus on protecting their allies with Overwatch. They are fairly short-range attackers, relying on positioning to get the most from their kit, and aren’t as resilient as other defenders.",
+        "base_features": [
+          "npcf_combat_shotgun_sentinel",
+          "npcf_retractable_sword_sentinel",
+          "npcf_eye_of_midnight_sentinel",
+          "npcf_guardian_sentinel"
+        ],
+        "optional_features": [
+          "npcf_punisher_ammunition_sentinel",
+          "npcf_wrath_lock_sentinel",
+          "npcf_impaler_sentinel",
+          "npcf_rapid_response_sentinel",
+          "npcf_bodyguard_sentinel",
+          "npcf_reflexive_blow_sentinel"
+        ],
+        "base_stats": [
+          {
+            "armor": 1,
+            "hp": 16,
+            "evasion": 8,
+            "edef": 8,
+            "heatcap": 8,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 10,
+            "hull": 2,
+            "agi": 1,
+            "sys": 1,
+            "eng": 1,
+            "size": 1,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 20,
+            "evasion": 11,
+            "edef": 11,
+            "heatcap": 8,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 12,
+            "hull": 3,
+            "agi": 2,
+            "sys": 2,
+            "eng": 2,
+            "size": 1,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 24,
+            "evasion": 13,
+            "edef": 13,
+            "heatcap": 8,
+            "speed": 6,
+            "sensor_range": 10,
+            "save": 14,
+            "hull": 4,
+            "agi": 3,
+            "sys": 3,
+            "eng": 3,
+            "size": 1,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "0KO7g7fELrkKnKAE",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616296,
+        "modifiedTime": 1747636616296,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "COMBAT SHOTGUN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_combat_shotgun_sentinel",
+        "effect": "",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "SENTINEL",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          1,
+          2,
+          3
+        ],
+        "weapon_type": "Main CQB",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "6"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "8"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "10"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "pYeuQOLsro9autHN",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616682,
+        "modifiedTime": 1747636616682,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "RETRACTABLE SWORD",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_retractable_sword_sentinel",
+        "effect": "",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "SENTINEL",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "weapon_type": "Main Melee",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "4"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "6"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "8"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "4GY5UpYROALbCETS",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616682,
+        "modifiedTime": 1747636616682,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "EYE OF MIDNIGHT",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_eye_of_midnight_sentinel",
+        "effect": "The Sentinel becomes Slowed but can take Overwatch 1/turn, instead of 1/round. Once activated, this effect lasts until it is deactivated as a quick action.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "SENTINEL",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "W7b0ZPwuaYR5VF2c",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616682,
+        "modifiedTime": 1747636616682,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "GUARDIAN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_guardian_sentinel",
+        "effect": "Allied characters can use the Sentinel for hard cover.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "SENTINEL",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "NiN199m2x9KPTEtW",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616682,
+        "modifiedTime": 1747636616682,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636616948,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "UNIQUE PHYSIOLOGY",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_unique_physiology_monstrosity",
+    "effect": "If the Monstrosity has Structure (because it is an Elite or Ultra, for example), it rolls on the Monstrosity Structure Damage table when it takes structure damage.<br /><b>Monstrosity Structure Damage Table</b><ul><li>5-6: Glancing Hit. The Monstrosity flinches in pain; it’s Impaired until the end of its next turn.</li><li>3-4: Powerful Hit. The Monstrosity is knocked Prone by the force of the blow.</li><li>2: Dismemberment. The attack blows a limb or chunk off the Monstrosity; it takes 1d6 Kinetic damage and becomes Slowed for the rest of the scene.</li><li>1: Direct Hit. The result depends on the Monstrosity’s remaining Structure:<ul><li>3+ Structure: The Monstrosity is smacked in the head and Stunned until the end of its next turn.</li><li>2 Structure: The Monstrosity must succeed on a Hull save or be destroyed.</li><li>1 Structure: The Monstrosity is destroyed.</li></ul></li><li>Multiple 1s: Fatal Hit. The Monstrosity is destroyed.</li></ul>",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [],
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "MONSTROSITY",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "LoLZa2c0N9KtieFl",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

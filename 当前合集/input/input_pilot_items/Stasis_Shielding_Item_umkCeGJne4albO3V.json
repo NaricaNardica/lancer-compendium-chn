@@ -1,0 +1,37 @@
+{
+  "name": "Stasis Shielding",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A Think Tank exercise in extending stasis beyond the capabilities of civilian utility, Harrison Armory’s stasis shielding actively identifies critically stressed inorganic systems and blankets them in unmodulated “Holdfast” stasis, preventing further degradation for a limited period of time until repairs can be made.",
+    "effect": "Whenever you take stress damage, you gain Resistance to all damage until the start of your next turn.",
+    "integrated": [],
+    "lid": "cb_stasis_shielding",
+    "manufacturer": "HA",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "umkCeGJne4albO3V",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

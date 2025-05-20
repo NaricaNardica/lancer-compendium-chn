@@ -1,0 +1,129 @@
+{
+  "name": "HELLFIRE PROJECTOR",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_hellfire_projector_ultra",
+    "effect": "This weapon can make two attacks at a time, but the area of the two attacks can’t overlap.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [],
+    "type": "Weapon",
+    "origin": {
+      "type": "Template",
+      "name": "ULTRA",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "weapon_type": "Heavy CQB",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Energy",
+          "val": "3"
+        },
+        {
+          "type": "Burn",
+          "val": "4"
+        }
+      ],
+      [
+        {
+          "type": "Energy",
+          "val": "3"
+        },
+        {
+          "type": "Burn",
+          "val": "5"
+        }
+      ],
+      [
+        {
+          "type": "Energy",
+          "val": "3"
+        },
+        {
+          "type": "Burn",
+          "val": "6"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "ZmNI3B0BCsow8F7f",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

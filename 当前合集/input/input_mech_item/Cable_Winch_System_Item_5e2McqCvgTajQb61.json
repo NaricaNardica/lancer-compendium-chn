@@ -1,0 +1,63 @@
+{
+  "name": "Cable Winch System",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_cable_winch_system",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "These cables can be attached to an adjacent character. If the target is Stunned or willing, you automatically succeed; otherwise, they can resist with a successful Hull save. Once attached, you and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming Slowed while doing so.<br>Any character can remove the cables on a hit with a melee attack or Improvised Attack against Evasion 10.<br>These cables can also be used to drag, pull, or otherwise interact with objects and the environment. They are 5 spaces long and can support a combined Size 6 before they break. Characters can use them to climb surfaces, allowing them to climb without a Speed penalty.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_lancaster",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 1,
+    "synergies": [],
+    "tags": [],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "5e2McqCvgTajQb61",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

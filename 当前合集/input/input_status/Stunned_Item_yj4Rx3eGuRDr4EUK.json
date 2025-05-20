@@ -1,0 +1,29 @@
+{
+  "name": "Stunned",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/condition_stunned.svg",
+  "system": {
+    "lid": "stunned",
+    "effects": "STUNNED mechs cannot OVERCHARGE, move, or take any actions – including free actions and reactions. Pilots can still MOUNT, DISMOUNT, or EJECT from STUNNED mechs, and can take actions normally.<br />STUNNED mechs have a maximum of 5 EVASION, and automatically fail all HULL and AGILITY checks and saves.",
+    "type": "condition"
+  },
+  "folder": null,
+  "_id": "yj4Rx3eGuRDr4EUK",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

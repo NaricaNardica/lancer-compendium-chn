@@ -1,0 +1,58 @@
+{
+  "name": "Personal Cloak",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_personal_cloak",
+    "description": "1/mission: As a protocol, you become INVISIBLE until the start of your next turn.",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "Become INVISIBLE until the start of your next turn.",
+        "frequency": "1/mission",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Personal Cloak",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "M2RSPAeug26KWqcq",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595761,
+    "modifiedTime": 1747537595761,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

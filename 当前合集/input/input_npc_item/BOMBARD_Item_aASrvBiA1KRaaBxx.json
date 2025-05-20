@@ -1,0 +1,99 @@
+{
+  "name": "BOMBARD",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BOMBARD.png",
+  "system": {
+    "lid": "npcc_bombard",
+    "role": "artillery",
+    "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
+    "tactics": "Bombards are very long-range artillery mechs designed to punish characters that stay close together to take advantage of adjacency bonuses. They are relatively fragile up close, but resilient at a distance, so place them far back to maximize their effectiveness. Bombards’ Earthshaker Shells are great for preventing enemy movement and providing cover, but can harm allies as well.",
+    "base_features": [
+      "npcf_bombard_cannon_bombard",
+      "npcf_cluster_munitions_bombard",
+      "npcf_earthshaker_shells_bombard",
+      "npcf_siege_armor_bombard"
+    ],
+    "optional_features": [
+      "npcf_high_impact_shells_bombard",
+      "npcf_bunker_buster_bombard",
+      "npcf_flare_drone_bombard",
+      "npcf_repeater_cannon_bombard",
+      "npcf_cluster_seeker_bombs_bombard"
+    ],
+    "base_stats": [
+      {
+        "hp": 10,
+        "evasion": 7,
+        "edef": 12,
+        "heatcap": 8,
+        "speed": 2,
+        "sensor_range": 15,
+        "save": 11,
+        "agi": -1,
+        "sys": 1,
+        "eng": 2,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "hull": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 13,
+        "evasion": 8,
+        "edef": 14,
+        "heatcap": 8,
+        "speed": 2,
+        "sensor_range": 15,
+        "save": 13,
+        "hull": 1,
+        "agi": -1,
+        "sys": 2,
+        "eng": 3,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 16,
+        "evasion": 8,
+        "edef": 16,
+        "heatcap": 8,
+        "speed": 3,
+        "sensor_range": 15,
+        "save": 16,
+        "hull": 1,
+        "agi": -1,
+        "sys": 3,
+        "eng": 5,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "aASrvBiA1KRaaBxx",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

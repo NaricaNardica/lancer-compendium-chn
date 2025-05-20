@@ -1,0 +1,67 @@
+{
+  "name": "Latch Drone",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "lid": "mw_lancaster_integrated",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [],
+        "effect": "This weapon can’t make normal attacks. Instead, choose an allied mech within Range and line of sight and make a ranged attack against Evasion 8. On a hit, either you or your target may spend 1 Repair to restore half your target’s HP.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "name": "Latch Drone",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "HVBJhq4w48YxLG5G",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

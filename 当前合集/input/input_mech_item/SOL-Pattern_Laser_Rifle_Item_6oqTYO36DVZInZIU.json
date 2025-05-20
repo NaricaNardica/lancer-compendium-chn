@@ -1,0 +1,81 @@
+{
+  "name": "SOL-Pattern Laser Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_sherman",
+    "license_level": 1,
+    "lid": "mw_sol_pattern_laser_rifle",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          },
+          {
+            "type": "Burn",
+            "val": "1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_heat_self",
+            "val": "1"
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Laser rifles contain a series of apertures and lenses that amplify and focus light into tight beams, sometimes visible, that heat the zone of impact for long enough to turn it into plasma. The SOL-Pattern Laser Rifle consistently outputs 3.5 petawatts, pulsed, but can also project a steady beam at lower power levels. The SOL is entirely self-contained but can be patched into a mech’s reactor core for emergency recharge.<br>Although some laser rifles double as communications and data-transfer devices, the SOL is strictly suitable for combat applications.",
+        "name": "SOL-Pattern Laser Rifle",
+        "synergies": [],
+        "type": "Rifle"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "6oqTYO36DVZInZIU",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

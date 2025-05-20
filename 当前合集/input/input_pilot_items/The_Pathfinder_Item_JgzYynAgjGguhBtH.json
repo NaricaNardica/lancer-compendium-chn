@@ -1,0 +1,191 @@
+{
+  "name": "The Pathfinder",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-pathfinder",
+    "major_ideals": [
+      "I addressed challenges with curiosity, exploration, or understanding.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I smelled, heard, or tasted something new.",
+      "I learned a new skill or trade, or gained a new level of mastery in one I already knew.",
+      "I met and conversed with an expert.",
+      "I beheld a unique, interesting, or beautiful sight."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your power?",
+        "options": [
+          "A star map given to you long ago by an old friend.",
+          "Years spent out in the wilderness, mapping the mountains.",
+          "Many years on a freighter, and many worlds passed by."
+        ]
+      },
+      {
+        "question": "Where have you traveled in your dreams?",
+        "options": [
+          "The edge of the world.",
+          "Deep into the molten core of a supernova.",
+          "A still, black pool in the deep forest.",
+          "An endless expanse of desert."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Momentum",
+        "description": "When you survey a situation, ask one of the following questions and get a truthful answer from the GM:<ul><li>How do I think I can get around this obstacle ?</li><li>What’ s the most direct way forward ?</li><li>Which way do I feel I should be moving ?</li></ul>You or an ally of your choice gets + 1 Accuracy on their next skill check acting on the answer.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Saddleborn",
+        "description": "Gain +1 Accuracy and increased effect to all skill checks related to the use, driving, piloting, and upkeep of vehicles or mounts of any kind. This includes animals like horses.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Dabbler",
+        "description": "Gain +2 to a trigger of your choice, up to a max of +6. You can change this bonus around at the end of each downtime.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Feet Up",
+        "description": "You can forgo any downtime action, including your free Heal Burdens action, to clear 3 Stress.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Freesoul",
+        "description": "You can escape from any restraint, shackle, hold, or prison cell without rolling. Nobody can hold, grab, or restrain you unless you let them. You can choose to conceal this ability if you wish.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Beginner’s Luck",
+        "description": "When you try an activity or skill you’ve never tried before, you get +1 Accuracy and increased effect to checks related to that skill for the rest of the session. This only ever works once for each activity or skill.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Lightspeed",
+        "description": "When you need to go really, really fast, name your method, your destination, and tell the GM you’re pulling out all the stops. You and any of your allies nearby can get there faster than anyone else has before, and can easily outrun anyone you’re running from or trying to pursue. Don’t roll – you do it –  but the GM chooses two:<ul><li>You and your allies are exhausted and take 1 Stress.</li><li>You go off course and end up close to your destination, but not quite there.</li><li> Your vehicle, mount, or method of travel is completely busted and will need repair.</li></ul>",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Lay Burdens",
+        "description": "Fill in a segment of all burdens when using Heal Burdens for free. If you are healing in a different location than your last downtime, tick another segment on any one burden.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Renaissance",
+        "description": "At the start of any session, pick one of your triggers. You become an expert at that skill. When you roll it, roll two d20s and pick the highest for the final result. You must pick a new trigger each session, and can’t pick the same one twice in a row",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Feel the Air",
+        "description": "You can ask the GM up to three of the following about any location you arrive at and receive truthful answers:<ul><li>Who lives here or has passed through recently, and where can I find them ?</li><li>Who owns this place, or wants to, and where can I talk to them ?</li><li>What part of this place do people avoid, and why ?</li></ul>Gain + 1 Accuracy and increased effect on your next check acting on the answers.If you ask only one question, heal 1 Stress.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of the Traveler",
+        "description": "At the end of each session, if you were inspired by the sights, smells, sounds, or sensations of a particular place, describe them. Give someone you shared them with 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Traveler."
+      },
+      {
+        "name": "Long Road Home",
+        "description": "Name a location you’ve been in the last three days. You can make your way back there without rolling. The GM will determine the following about the journey there:<ul><li>Was it a long or arduous journey?</li><li>Was the location dangerous, defended, or contested?</li><li>Were you being pursued, tracked, or hunted ?</li></ul>For every “yes” answer, take 2 Stress; however, at the beginning of the next scene, you and up to ten other willing people arrive safely there.Don’t worry about playing out the journey(just ‘cut’ to the next scene as you are arriving) and work backwards to figure out how you got there.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "JgzYynAgjGguhBtH",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747537578652,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

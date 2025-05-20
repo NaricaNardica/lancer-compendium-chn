@@ -1,0 +1,87 @@
+{
+  "name": "All-Theater Movement Suite",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A popular modification, ATMS adds powerful pulse jets that dramatically improve mech mobility in all theaters.",
+    "effect": "You may choose to count any and all of your movement as flying; however, you take 1 Heat at the end of each of your turns in which you fly this way.",
+    "integrated": [],
+    "lid": "cb_all_theater_movement_suite",
+    "manufacturer": "SSC",
+    "synergies": [
+      {
+        "detail": "You may choose to count any and all of your movement as flying; however, you take 1 Heat at the end of each of your turns in which you fly this way.",
+        "locations": [
+          "move"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "pGWlu5jWKxcvmtUt",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

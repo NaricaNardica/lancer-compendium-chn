@@ -1,0 +1,290 @@
+{
+  "name": "Everest",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-GMS.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "For the rest of this scene, you gain +1 Accuracy on all attacks, checks, and saves; additionally, 1/turn, you can Boost as a free action.",
+      "active_name": "Power Up",
+      "active_synergies": [
+        {
+          "detail": "1/turn, you can Boost as a free action.",
+          "locations": [
+            "active_effects",
+            "boost"
+          ],
+          "damage_types": {
+            "Kinetic": true,
+            "Energy": true,
+            "Explosive": true,
+            "Heat": true,
+            "Burn": true,
+            "Variable": true
+          },
+          "range_types": {
+            "Range": true,
+            "Threat": true,
+            "Thrown": true,
+            "Line": true,
+            "Cone": true,
+            "Blast": true,
+            "Burst": true
+          },
+          "weapon_sizes": {
+            "Auxiliary": true,
+            "Main": true,
+            "Heavy": true,
+            "Superheavy": true
+          },
+          "weapon_types": {
+            "Rifle": true,
+            "Cannon": true,
+            "Launcher": true,
+            "CQB": true,
+            "Nexus": true,
+            "Melee": true
+          },
+          "system_types": {
+            "System": true,
+            "AI": true,
+            "Shield": true,
+            "Deployable": true,
+            "Drone": true,
+            "Tech": true,
+            "Armor": true,
+            "Flight System": true,
+            "Integrated": true,
+            "Mod": true
+          }
+        },
+        {
+          "detail": "Gain +1 Accuracy on all attacks, checks, and saves.",
+          "locations": [
+            "hull",
+            "agility",
+            "systems",
+            "engineering"
+          ],
+          "damage_types": {
+            "Kinetic": true,
+            "Energy": true,
+            "Explosive": true,
+            "Heat": true,
+            "Burn": true,
+            "Variable": true
+          },
+          "range_types": {
+            "Range": true,
+            "Threat": true,
+            "Thrown": true,
+            "Line": true,
+            "Cone": true,
+            "Blast": true,
+            "Burst": true
+          },
+          "weapon_sizes": {
+            "Auxiliary": true,
+            "Main": true,
+            "Heavy": true,
+            "Superheavy": true
+          },
+          "weapon_types": {
+            "Rifle": true,
+            "Cannon": true,
+            "Launcher": true,
+            "CQB": true,
+            "Nexus": true,
+            "Melee": true
+          },
+          "system_types": {
+            "System": true,
+            "AI": true,
+            "Shield": true,
+            "Deployable": true,
+            "Drone": true,
+            "Tech": true,
+            "Armor": true,
+            "Flight System": true,
+            "Integrated": true,
+            "Mod": true
+          }
+        }
+      ],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "",
+      "integrated": [],
+      "name": "Hyperspec Fuel Injector",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "Most humans don’t think to ask about the history of the water they drink, the earth they walk, or the air they breathe. And yet, without water, earth, and air, there would be nowhere for humanity to make a home.<br />Just the same, the GMS-SP1 “Everest” is often taken for granted, its importance dismissed in favor of other, more specialized frames. A plain and unpretentious mech, defined by simple lines, functional grace, universal compatibility, and sturdy bulk, the Everest is as fundamental to the modern mechanized chassis as the natural world is to human life. The Everest isn’t the most specialized mech, but it is the backbone of our expansion imperative. From its shoulders, humanity steps.<br />Prior to GMS’s official adoption of the name, “Everest” was a use-name given to the frame by its pilots. Mount Everest – or Sagarmatha, or Chomolungma, as it has been called in older human tongues – is the tallest mountain on Cradle, though not the most prominent peak in known space, nor even the greatest in Cradle’s star system, yet pilots across the galaxy call their SP1s by that ancient name. Why?<br />The sentimental answer is that the name is a reminder of what was once the limit of human endurance – once the height of human achievement. To reach Everest’s summit was to defy death and stand atop the world – the culmination of months, even years, of training, investment, and hard work. Reaching the peak was also a triumph of the people, systems, and institutions behind the individual – a triumph too often left unacknowledged, or deliberately erased.<br />Sagarmatha. Chomolungma.<br />Even before the Fall, when the Massif vaults were built, some names – some stories – were given priority over others.<br />The real story behind the Everest’s name is likely much less deliberate. Somewhere along the line, a newly graduated pilot, frustrated by GMS’s plain naming conventions, painted “EVEREST” across the flank of their SP1. Maybe it was a callsign, or maybe it represented the pride they felt at success. Either way, the name stuck: others adopted the name, and over five centuries it grew to become the officially unofficial designation of the SP1 chassis.<br />Veteran pilots may never return to the Everest after moving on, but they’ll always remember reaching that first summit – the mountaintop where they proved they could plant their own flag at the peak of the world.<br />Sagarmatha. Chomolungma.<br />Everest – you’ll never forget it.",
+    "license": "mf_standard_pattern_i_everest",
+    "license_level": 0,
+    "lid": "mf_standard_pattern_i_everest",
+    "manufacturer": "GMS",
+    "mechtype": [
+      "Balanced"
+    ],
+    "mounts": [
+      "Main",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 10,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 5,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/scene the Everest may take any quick action as a free action.",
+        "integrated": [],
+        "name": "Initiative",
+        "synergies": [],
+        "use": "Encounter"
+      },
+      {
+        "actions": [],
+        "bonuses": [
+          {
+            "lid": "cheap_struct",
+            "val": "1",
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "overwrite": false,
+            "replace": false
+          }
+        ],
+        "counters": [],
+        "deployables": [],
+        "description": "While resting, the Everest can be repaired at a rate of 1 Repair per 1 structure damage, instead of 2 Repairs.",
+        "integrated": [],
+        "name": "Replaceable parts",
+        "synergies": [
+          {
+            "detail": "The Everest can be repaired at a rate of 1 Repair per 1 structure damage.",
+            "locations": [
+              "rest"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "mvOhoU5QpC7waL1Z",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

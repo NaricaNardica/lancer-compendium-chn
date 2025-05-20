@@ -1,0 +1,86 @@
+{
+  "name": "Tachyon Lance",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_sherman",
+    "license_level": 3,
+    "lid": "mw_tachyon_lance",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "2d6"
+          },
+          {
+            "type": "Burn",
+            "val": "8"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 20
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ordnance",
+            "val": ""
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "4"
+          }
+        ],
+        "on_attack": "If you’re in the Danger Zone, create a cone 3 backblast of burning plasma in the opposite direction to the attack. Characters within the affected area must succeed on an Engineering save or take 4 burn and 2 heat. Until the start of your next turn, the affected area provides soft cover.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Tachyon lances are the weaponized results of joint IPS-N and Harrison Armory experiments into faster-than-light travel. Rendered obsolete by subsequent developments in blinkspace travel (and the difficulty of ensuring corporeal passenger survival), the Armory’s tachyon accelerators were mothballed until Think Tank engineers realized their potential application as weapons. Tachyon lances project tachyon particles – essentially subatomic localized objects – faster than light toward their targets. These particles are impossible to perceive optically, and because they travel faster than light, can’t be seen or evaded. Although the particles are tiny, they travel with colossal speed and energy. The damage a tachyon lance deals to its target – should it hit – is unparalleled.",
+        "name": "Tachyon Lance",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "0TFzBppVlfXfNsRW",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Supermassive Mod",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_supermassive_mod",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The first in a suite of best-practice modifications for close-quarters combat out of the same Titan–Enceladus Field Project that produced the Caliban, supermassive mods include a host of alterations to close-quarters weapons designed to enhance their general lethality and utility by lifting safety precautions.",
+    "destroyed": false,
+    "effect": "Choose one CQB, CANNON, or MELEE weapon: it gains OVERKILL and KNOCKBACK +1. During a FULL REPAIR, you may tune it to remove safety limiters, increasing this benefit to KNOCKBACK +2 instead; however, it also gains ORDNANCE (if it is ranged) or INACCURATE (if it is melee).",
+    "integrated": [],
+    "license": "mf_caliban",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "added_damage": [],
+    "added_range": [],
+    "added_tags": [
+      {
+        "lid": "tg_overkill",
+        "val": ""
+      },
+      {
+        "lid": "tg_knockback",
+        "val": "1"
+      }
+    ],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": true,
+      "Cannon": true,
+      "Launcher": false,
+      "Melee": true,
+      "Nexus": false,
+      "Rifle": false
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "JpFOoeNgOjECKh1P",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563217,
+    "modifiedTime": 1747537563217,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

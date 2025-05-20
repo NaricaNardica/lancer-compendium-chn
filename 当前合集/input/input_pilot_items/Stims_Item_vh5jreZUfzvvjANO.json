@@ -1,0 +1,64 @@
+{
+  "name": "Stims",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Expend a charge for one of the following effects:<ul><li><b>Kick:</b> Keeps a pilot awake and alert for up to 30 hours.</li><li><b>Freeze:</b> Keeps a pilot calm and emotionally stable; deadens fear and other strong reactions.</li><li><b>Juice:</b> Heighten senses and alertness, reduce fatigue, and shorten reaction times. Juice occasionally provokes rage in some users.</li></ul>",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Use Stim",
+        "pilot": true,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "These chemical stimulants are sometimes administered automatically by injectors built into a pilot’s suit, or even implanted within their body. Uncontrolled use can be addictive and dangerous to health in the long-term and is a problem for some pilots.",
+    "lid": "pg_stims",
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "vh5jreZUfzvvjANO",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Act Unseen or Unheard",
+  "type": "skill",
+  "system": {
+    "lid": "sk_act_unseen_or_unheard",
+    "curr_rank": 1,
+    "description": "Get somewhere or do something without detection.",
+    "detail": "Get somewhere or do something without being detected, but not necessarily with speed. Hide, sneak, or move quietly. Infiltrate a facility while avoiding security, patrols, or cameras. Perform a quick action or maneuver without being seen or heard, such as picking a pocket, unholstering your gun, or cheating at cards. Wear a disguise."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "lK6xOG0AHfGVpEyr",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

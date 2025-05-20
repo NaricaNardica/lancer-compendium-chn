@@ -1,0 +1,78 @@
+{
+  "name": "Marathon Arc Bow",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "lid": "mw_emperor_integrated",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Line",
+            "val": 15
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          }
+        ],
+        "on_attack": "Allied characters caught in the area are not attacked, but instead have any Overshield supercharged, increasing it by +4, but clearing all Overshield at the end of their next turn. If they have no Overshield, they instead gain Overshield 2.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "“Directed Subjective Convergence Weapon, Pattern 3. Or as Visual calls it, the ‘Marathon Arc’. I suppose it is a better name. Imposing. Inaccurate but Visual has never been accurate. The Arc forces realignment along a superpositional plane, destabilizing targets without the correct pineal hash while imparting sympathetic lensing on those with the correct hash; a simple ‘weapon’ that emulates an Overmind’s corrective/imperative push.”",
+        "name": "Marathon Arc Bow",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "6HVjroKUMMqHbSHk",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578767,
+    "modifiedTime": 1747537578767,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

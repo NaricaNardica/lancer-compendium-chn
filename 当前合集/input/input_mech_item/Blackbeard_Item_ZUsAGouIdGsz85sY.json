@@ -1,0 +1,262 @@
+{
+  "name": "Blackbeard",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-IPS-N-BLACKBEARD.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "This system fires grappling harpoons at any number of targets within Range 5 and line of sight. Affected characters must succeed on a Hull save or take 2d6 Kinetic damage and be knocked Prone, then pulled adjacent to you, or as close as possible. They become Immobilized until the end of their next turn. On a success, they take half damage and are otherwise unaffected.",
+      "active_name": "Omni-harpoon",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The IPS-N-branded Assault Grappling System is a class-leading technology rated for hauling, supporting, and securing chassis of sizes up to Schedule 4. Grapple heads are interchangeable and can be swapped for engagement with soft or hard targets – either electrified or loaded with codespike systems for long-distance incapacitation.",
+      "integrated": [],
+      "name": "Assault Grapples",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "The Blackbeard is IPS-N’s aggressive solution to piracy: a front-facing, first-striking mech designed for environments in which combustible kinetic weapons are useless, dangerous, or likely to cause unnecessary collateral damage. With its distinctly slim frame, the Blackbeard doesn’t just look fast – it also has a reduced radar profile. This mech is hard to track and harder still to hit.<br />The Blackbeard range comprises two lines: the standard IPS-N/BB-L production line model, and the IPS-N/BB-Sk, a limited-release prototype purpose-built to house IPS-N’s SEKHMET-class NHPs.",
+    "license": "mf_blackbeard",
+    "license_level": 2,
+    "lid": "mf_blackbeard",
+    "manufacturer": "IPS-N",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 5,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 5,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Blackbeard can Grapple targets within Range 5. If the Grapple is successful, the Blackbeard is immediately pulled adjacent to the target by the most direct path. If there are no suitable spaces, the grapple breaks and the Blackbeard does not move.",
+        "integrated": [],
+        "name": "Grapple cable",
+        "synergies": [
+          {
+            "detail": "The Blackbeard can Grapple targets within Range 5. If the Grapple is successful, the Blackbeard is immediately pulled adjacent to the target by the most direct path. If there are no suitable spaces, the grapple breaks and the Blackbeard does not move.",
+            "locations": [
+              "grapple"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "While grappling, the Blackbeard can Boost and take reactions.",
+        "integrated": [],
+        "name": "Lock/Kill Subsystem",
+        "synergies": [
+          {
+            "detail": "While grappling, the Blackbeard can Boost and take reactions.",
+            "locations": [
+              "grapple",
+              "boost"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Blackbeard receives +1 Difficulty on ENGINEERING checks and saves.",
+        "integrated": [],
+        "name": "Exposed Reactor",
+        "synergies": [
+          {
+            "detail": "The Blackbeard gains +1 Difficulty on ENGINEERING checks and saves.",
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "ZUsAGouIdGsz85sY",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

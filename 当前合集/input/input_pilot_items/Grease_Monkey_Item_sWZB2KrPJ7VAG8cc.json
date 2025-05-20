@@ -1,0 +1,215 @@
+{
+  "name": "Grease Monkey",
+  "type": "talent",
+  "system": {
+    "lid": "t_grease_monkey",
+    "curr_rank": 1,
+    "description": "Eel knows more about the inner workings of a mech than most mechanics. To them, the beast they pilot is more than a machine: it’s a living thing, in need of tender care given by a wise and steady hand. Eel maintains their own house and keeps their own mech in line, both on the battlefield and off. The mechanics back at base come to them with questions, but usually prefer to stay away – there’s something spooky about how Eel's beast runs.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "While resting, you can spend 2 Repairs to replenish 1 use of all Limited weapons and systems.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Unsanctioned Capacity Upgrade",
+        "synergies": [
+          {
+            "detail": "While resting, you can spend 2 Repairs to replenish 1 use of all Limited weapons and systems.",
+            "locations": [
+              "rest"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you STABILIZE, you clear all IMPAIRED, JAMMED, IMMOBILIZED, SLOWED, and LOCK ON conditions that weren’t caused by your own systems, talents, etc.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Machine Bond",
+        "synergies": [
+          {
+            "detail": "When you STABILIZE, you clear all IMPAIRED, JAMMED, IMMOBILIZED, SLOWED, and LOCK ON conditions that weren’t caused by your own systems, talents, etc.",
+            "locations": [
+              "stabilize"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Once per mission while resting, you can call in a supply drop. You and your allies may replenish 1 use of all Limited weapons and systems and restore 1 Structure. This doesn’t require any Repairs and can be used even if you have reached your Repair Cap.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Friends in High Places",
+        "synergies": [
+          {
+            "detail": "Once per mission while resting, you can call in a supply drop. You and your allies may replenish 1 use of all Limited weapons and systems and restore 1 Structure. This doesn’t require any Repairs and can be used even if you have reached your Repair Cap.",
+            "locations": [
+              "rest"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Get more out of Limited systems, repairs, and the Stabilize action"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "sWZB2KrPJ7VAG8cc",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Vorpal Gun",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_gorgon",
+    "license_level": 3,
+    "lid": "mw_vorpal_gun",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": true,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "You may make an attack against the hostile character with the Vorpal Gun.",
+        "frequency": "1/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Snicker-Snack",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+        "tech_attack": false
+      }
+    ],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "2d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          }
+        ],
+        "tags": [],
+        "effect": "Gain the Snicker-Snack reaction, which is the only way you can attack with this weapon.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may make an attack against the hostile character with the Vorpal Gun.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Snicker-Snack",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "DO NOT STARE DIRECTLY INTO THE APERTURE.",
+        "name": "Vorpal Gun",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "rPr46ck0MWb5mYsg",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

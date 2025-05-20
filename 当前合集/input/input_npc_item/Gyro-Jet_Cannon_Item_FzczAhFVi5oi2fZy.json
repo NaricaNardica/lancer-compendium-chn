@@ -1,0 +1,126 @@
+{
+  "name": "Gyro-Jet Cannon",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_gyrojet_cannon_spec_op",
+    "effect": "",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_loading",
+        "val": ""
+      },
+      {
+        "lid": "tg_knockback",
+        "val": "2"
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "type": "Template",
+      "name": "Spec Op",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "weapon_type": "Main Launcher",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Explosive",
+          "val": "6"
+        }
+      ],
+      [
+        {
+          "type": "Explosive",
+          "val": "8"
+        }
+      ],
+      [
+        {
+          "type": "Explosive",
+          "val": "10"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "FzczAhFVi5oi2fZy",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595314,
+    "modifiedTime": 1747537595314,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

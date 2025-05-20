@@ -1,0 +1,264 @@
+{
+  "name": "Juggernaut",
+  "type": "talent",
+  "system": {
+    "lid": "t_juggernaut",
+    "curr_rank": 1,
+    "description": "A bloody nose and a few loose screws aren’t enough to stop you from hurling yourself headlong into the enemy. You’re in a couple tons of metal powered by a sliver of dying star, and you’re going to make sure everyone else knows it.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you Boost, your next Ram before the start of your next turn gains +1 Accuracy and knocks your target back an additional 2 spaces.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Momentum",
+        "synergies": [
+          {
+            "detail": "When you Boost, your next Ram before the start of your next turn gains +1 Accuracy and knocks your target back an additional 2 spaces.",
+            "locations": [
+              "boost"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          },
+          {
+            "detail": "If you have boosted this turn, a Ram before the start of your next turn gains +1 Accuracy and knocks your target back an additional 2 spaces.",
+            "locations": [
+              "ram"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, if you Ram a target into...<ul><li>...a space occupied by another character, the other character must succeed on a Hull save or be knocked Prone.</li><li>...an obstruction large enough to stop their movement, your target takes 1d6 kinetic damage.</li></ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Kinetic Mass Transfer",
+        "synergies": [
+          {
+            "detail": "1/round, if you Ram a target into...<ul><li>...a space occupied by another character, the other character must succeed on a Hull save or be knocked Prone.</li><li>...an obstruction large enough to stop their movement, your target takes 1d6 kinetic damage.</li></ul>",
+            "locations": [
+              "ram"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you Boost, you may supercharge your mech’s servos. Move your maximum speed in a straight line, take 1d3+3 Heat, and gain the following benefits:<ul><li>You can freely pass through characters the same Size as your mech or smaller; any characters passed through must succeed on a Hull save or be knocked Prone.</li><li>Any terrain, walls, or other stationary obstructions you attempt to pass through receive 20 Kinetic AP damage. If that is enough to destroy them, you pass through; otherwise, your movement ends.</li><li>You ignore difficult terrain.</li><li>Your movement ignores engagement and doesn’t provoke reactions.</li></ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Unstoppable Force",
+        "synergies": [
+          {
+            "detail": "1/round, when you Boost, you may supercharge your mech’s servos. Move your maximum speed in a straight line, take 1d3+3 Heat, and gain the following benefits:<ul><li>You can freely pass through characters the same Size as your mech or smaller; any characters passed through must succeed on a Hull save or be knocked Prone.</li><li>Any terrain, walls, or other stationary obstructions you attempt to pass through receive 20 Kinetic AP damage. If that is enough to destroy them, you pass through; otherwise, your movement ends.</li><li>You ignore difficult terrain.</li><li>Your movement ignores engagement and doesn’t provoke reactions.</li></ul",
+            "locations": [
+              "boost"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve the effectiveness and utility of ramming"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "tCXbirLn8mxG2Gma",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

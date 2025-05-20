@@ -1,0 +1,82 @@
+{
+  "name": "Unhinge Chronology",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_unhinge_chronoflow",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a character within Sensors and line of sight. For the rest of this scene, or until they take damage, they may Boost 1/round as a free action during their turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Haste",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a character within Sensors and line of sight. They must pass a Systems save or take 2 Heat, become Slowed, and become unable to take reactions. This effects ends if they take any amount of damage or make a successful Systems save as a quick action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Slow",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "M.A2.SP2 [Audio loop, diversion instance #1, timestamp 45:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. The flea always jumps from time to time. It will drink it all. It will drink it deep—“",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_lich",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "40tvG8i1VdE0WWQ5",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747636627104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

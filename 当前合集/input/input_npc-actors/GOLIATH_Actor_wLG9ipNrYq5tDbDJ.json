@@ -1,0 +1,756 @@
+{
+  "name": "GOLIATH",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-GOLIATH.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 25
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "wLG9ipNrYq5tDbDJ",
+  "prototypeToken": {
+    "name": "GOLIATH",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-GOLIATH.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "GOLIATH",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-GOLIATH.png",
+      "system": {
+        "lid": "npcc_goliath",
+        "role": "defender",
+        "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br />With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
+        "tactics": "Goliaths are relatively mobile defenders that can bring enemies to them. With Crush Targeting, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies.",
+        "base_features": [
+          "npcf_drum_shotgun_goliath",
+          "npcf_crush_targeting_goliath",
+          "npcf_heavy_frame_goliath",
+          "npcf_guardian_goliath",
+          "npcf_siege_armor_goliath"
+        ],
+        "optional_features": [
+          "npcf_power_knuckle_goliath",
+          "npcf_pin_goliath",
+          "npcf_crushing_embrace_goliath",
+          "npcf_watchful_guardian_goliath",
+          "npcf_retribution_goliath"
+        ],
+        "base_stats": [
+          {
+            "hp": 25,
+            "evasion": 6,
+            "edef": 6,
+            "heatcap": 8,
+            "speed": 3,
+            "sensor_range": 10,
+            "save": 11,
+            "hull": 4,
+            "agi": -2,
+            "sys": 1,
+            "size": 3,
+            "activations": 1,
+            "armor": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 30,
+            "evasion": 6,
+            "edef": 6,
+            "heatcap": 10,
+            "speed": 3,
+            "sensor_range": 10,
+            "save": 13,
+            "hull": 6,
+            "agi": -2,
+            "sys": 1,
+            "size": 3,
+            "activations": 1,
+            "armor": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 35,
+            "evasion": 6,
+            "edef": 6,
+            "heatcap": 12,
+            "speed": 3,
+            "sensor_range": 15,
+            "save": 15,
+            "hull": 6,
+            "agi": -2,
+            "sys": 1,
+            "eng": 2,
+            "size": 3,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "NFOAVm4GvxjxTeou",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611549,
+        "modifiedTime": 1747636611549,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "DRUM SHOTGUN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_drum_shotgun_goliath",
+        "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "GOLIATH",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "weapon_type": "Heavy CQB",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "2u4mWXaWLOKlYSUf",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611979,
+        "modifiedTime": 1747636611979,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "CRUSH TARGETING",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_crush_targeting_goliath",
+        "effect": "A character within line of sight and Sensors gains +3 difficulty to attack against any character other than the Goliath until the start of the Goliath’s next turn.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "4"
+          },
+          {
+            "lid": "tg_quick_tech",
+            "val": ""
+          }
+        ],
+        "type": "Tech",
+        "origin": {
+          "type": "Class",
+          "name": "GOLIATH",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_type": "Quick",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "DEov5X11TYyNhdNi",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611979,
+        "modifiedTime": 1747636612038,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "HEAVY FRAME",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_heavy_frame_goliath",
+        "effect": "The Goliath can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "GOLIATH",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "xcADgcWzFHX7TfNJ",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611979,
+        "modifiedTime": 1747636611979,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "GUARDIAN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_guardian_goliath",
+        "effect": "Allied characters can use the Goliath for hard cover.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "GOLIATH",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "BY3dbZWgKf916Ps4",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611979,
+        "modifiedTime": 1747636611979,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SIEGE ARMOR",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_siege_armor_goliath",
+        "effect": "The Goliath has Resistance to all damage from attacks that originate beyond range 3.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "GOLIATH",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "kaCDKNZ1z21Zm0fc",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611979,
+        "modifiedTime": 1747636611979,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636612257,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

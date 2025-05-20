@@ -1,0 +1,490 @@
+{
+  "name": "SEEDER",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SEEDER.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 12
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "N7haJDvEETBwgNva",
+  "prototypeToken": {
+    "name": "SEEDER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SEEDER.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "SEEDER",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SEEDER.png",
+      "system": {
+        "lid": "npcc_seeder",
+        "role": "controller",
+        "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
+        "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place a mine each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters don’t trigger Seeders’ mines, but are affected by them if they’re caught in the explosion. Seeders can take optional systems that force characters to spread out or take additional damage.",
+        "base_features": [
+          "npcf_lay_mines_seeder",
+          "npcf_grav_grenade_launcher_seeder"
+        ],
+        "optional_features": [
+          "npcf_hopping_mines_seeder",
+          "npcf_tripwires_seeder",
+          "npcf_speed_deployer_seeder",
+          "npcf_grav_spike_seeder",
+          "npcf_det_spike_seeder"
+        ],
+        "base_stats": [
+          {
+            "armor": 2,
+            "hp": 12,
+            "evasion": 7,
+            "edef": 10,
+            "heatcap": 10,
+            "speed": 4,
+            "sensor_range": 15,
+            "save": 12,
+            "sys": 2,
+            "size": 1,
+            "activations": 1,
+            "hull": 0,
+            "agi": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 2,
+            "hp": 14,
+            "evasion": 8,
+            "edef": 10,
+            "heatcap": 10,
+            "speed": 4,
+            "sensor_range": 15,
+            "save": 15,
+            "hull": 1,
+            "sys": 3,
+            "size": 1,
+            "activations": 1,
+            "agi": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 2,
+            "hp": 16,
+            "evasion": 9,
+            "edef": 11,
+            "heatcap": 10,
+            "speed": 4,
+            "sensor_range": 15,
+            "save": 18,
+            "hull": 2,
+            "sys": 4,
+            "size": 1,
+            "activations": 1,
+            "agi": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "1DjNPRiiyIjhVAx0",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636615981,
+        "modifiedTime": 1747636615981,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "LAY MINES",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_lay_mines_seeder",
+        "effect": "The Seeder deploys one of the mines below in a free space within range 3. Once deployed, the Seeder’s mines detonate when a hostile character moves over them, creating a Blast 1 explosion that affects both allied and hostile characters.<ul><li>Stun Mine: Characters in the area that fail an Engineering save become Stunned until the end of their next turn.</li><li>Explosive Mine: Characters in the area take {8/12/16} Explosive damage, or half if they pass an Agility save.</li><li>Sealant Mine: Characters in the area that fail a Hull save become Immobilized until the end of their next turn, then Slowed until the end of their subsequent turn.</li><li>Shock Mine: Characters in the area that fail a Systems save become Jammed until the end of their next turn, then Impaired until the end of their subsequent turn.</li></ul><br />The Seeder’s mines are Invisible and cannot be targeted, but hostile characters within Sensors can reveal them by succeeding on a Systems check. Characters can disarm them by succeeding on a Systems check as a quick action while in the same space; however, on a failure, the mine detonates.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_mine",
+            "val": ""
+          },
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          },
+          {
+            "lid": "tg_turn",
+            "val": "1"
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "SEEDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "TZI5BwI0t0wiGCNc",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616264,
+        "modifiedTime": 1747636616264,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "GRAV-GRENADE LAUNCHER",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_grav_grenade_launcher_seeder",
+        "effect": "",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_arcing",
+            "val": ""
+          },
+          {
+            "lid": "tg_knockback",
+            "val": "1"
+          }
+        ],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "SEEDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "weapon_type": "Main Launcher",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Explosive",
+              "val": "2"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "3"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "4"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          },
+          {
+            "type": "Blast",
+            "val": 1
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "rUWxcYB2WBwiuLri",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636616264,
+        "modifiedTime": 1747636616264,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636616548,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

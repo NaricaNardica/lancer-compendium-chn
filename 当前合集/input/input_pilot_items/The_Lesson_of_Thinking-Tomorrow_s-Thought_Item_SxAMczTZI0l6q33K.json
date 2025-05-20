@@ -1,0 +1,87 @@
+{
+  "name": "The Lesson of Thinking-Tomorrow’s-Thought",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "Let me tell you this lesson: the corporeal existence is one that must end in death. The incorporeal existence is one that [must] end in [cascade? do you really think that is true?]. I tell you again, if you can imagine it, it is [done] and you have already struck the killing blow. – “Lesson Four”, The Six Lessons of Kilo Nueve.",
+    "effect": "When you hit with a tech attack, your next melee attack against the same target gains +1 accuracy, and its damage can’t be reduced in any way.",
+    "integrated": [],
+    "lid": "cb_the_lesson_of_thinking_tomorrows_thought",
+    "manufacturer": "HORUS",
+    "synergies": [
+      {
+        "detail": "When you hit with a tech attack, your next melee attack against the same target gains +1 accuracy, and its damage can’t be reduced in any way.",
+        "locations": [
+          "tech_attack"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "SxAMczTZI0l6q33K",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

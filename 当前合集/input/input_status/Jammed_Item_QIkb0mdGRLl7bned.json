@@ -1,0 +1,29 @@
+{
+  "name": "Jammed",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/condition_jammed.svg",
+  "system": {
+    "lid": "jammed",
+    "effects": "JAMMED characters can’t:<br />• use comms to talk to other characters;<br />• make attacks, other than IMPROVISED ATTACK, GRAPPLE, and RAM;<br />• take reactions, or take or benefit from tech actions.",
+    "type": "condition"
+  },
+  "folder": null,
+  "_id": "QIkb0mdGRLl7bned",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

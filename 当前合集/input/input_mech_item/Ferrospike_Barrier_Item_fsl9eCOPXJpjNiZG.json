@@ -1,0 +1,47 @@
+{
+  "name": "Ferrospike Barrier",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_ferrospike_barrier",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_ferrospike_barrier"
+    ],
+    "description": "“Again and again the meatheads over at Visual asked us to ‘help them sell’ the platform. What else could we do? We handed them a power that gods of death and war had coveted since Cain cracked a rock over Abel’s head, and they told us, ‘if we can’t see it, we can’t sell it.’ So we mucked around and made another diadematic little wonder for them, the F-Barrier. It’s brilliant. Of course it is. We’re Exotic Materials, brilliance is easy.”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_white_witch",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "fsl9eCOPXJpjNiZG",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578420,
+    "modifiedTime": 1747537578420,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

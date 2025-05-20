@@ -1,0 +1,54 @@
+{
+  "name": "Servant-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_technophile_1",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[an eager student].</span><br />Gained from the <i>Technophile: Rank I</i> pilot talent.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag.<br />You have developed a custom NHP. This NHP can speak to you and has a personality, but they are less advanced than most NHPs and are incapable of independent thought, relying on you for direction. When acting alone, they will follow the last direction given and defend themself as needed; however, they have limited initiative and don’t benefit from your talents.",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 0,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "lxLqi0FLrRtYMsD4",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "ARSENAL",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_arsenal_engineer",
+    "effect": "When the Engineer uses Deployable Turret, they can choose one of these modifications for their turrets:<ul><li>Inferno: The turret’s attacks become Cone 3, {2/3/4} Burn.</li><li>Hellstorm: The turret’s attacks become range 15, Blast 1, {2/3/4} Explosive damage.</li><li>Hunter: The turret’s attacks gain Reliable 1.</li><li>Primed: When either the turret or Engineer is destroyed, the turret explodes in a Burst 1 area. Characters within the affected area must succeed on an Agility save or take {7/9/11} Explosive damage.</li></ul>",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [],
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "7d8t1YLTFmw5LnI1",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

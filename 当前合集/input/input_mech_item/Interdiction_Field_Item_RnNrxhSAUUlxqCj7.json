@@ -1,0 +1,63 @@
+{
+  "name": "Interdiction Field",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_interdiction_field",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "When activated, this system creates a burst 3 field around you that lasts until it is deactivated as a quick action, and you become Slowed for the duration. Hostile characters that start their turn within the affected area or that enter it for the first time in a round must succeed on a Systems save or become Slowed until the end of their next turn. Only characters of your choice within the field can teleport or consider the area of the field valid space for teleportation.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br /><span class=\"horus--subtle\">[it was in this way i taught the world not to touch me. now you – walk]</span>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_minotaur",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 3,
+    "synergies": [],
+    "tags": [],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "RnNrxhSAUUlxqCj7",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

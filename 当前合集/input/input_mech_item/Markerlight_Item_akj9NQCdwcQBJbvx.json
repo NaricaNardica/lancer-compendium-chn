@@ -1,0 +1,64 @@
+{
+  "name": "Markerlight",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_markerlight",
+    "actions": [
+      {
+        "activation": "Full Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Make a tech attack against a character within Sensors and line of sight. On a success, they take 2 heat, Lock On, and cannot benefit from soft cover until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": true
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_swallowtail",
+    "license_level": 1,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "akj9NQCdwcQBJbvx",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

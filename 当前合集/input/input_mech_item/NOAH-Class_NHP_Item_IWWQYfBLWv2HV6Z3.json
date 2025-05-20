@@ -1,0 +1,73 @@
+{
+  "name": "NOAH-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_noah_class_nhp",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "These effects apply until the end of your next turn:<ul><li>You become Slowed.</li><li>Each time you or an allied adjacent character are targeted by a ranged attack, you may take 1 heat as a reaction and roll 1d6 before the attacker rolls: on 4+, you take an additional 1 heat and the attack automatically misses you and any allies adjacent to you. This effect does not stack with Invisible.</li><li>Each time a ranged attack fails to hit you or an adjacent allied character, the attacker takes 4 kinetic damage.</li></ul>",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Diluvian Ark",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Originally developed from a captured Minerva pre-eidolon anomaly, NOAH was adapted for use as a metropolitan administrative NHP on Ras Shamra. The unit that would become NOAH did not, at first, seem like a suitable candidate for military application: this changed after one of its clones was flagged for review following the spontaneous implementation of anomalous traffic patterns, pedestrian routing, and vac-loop scheduling. Armory ontologisticians and engineers isolated and emphasized endemic protocols that could be exploited for tactical advantage.<br />Over numerous iterations and lifecycles, NOAH Prime displayed a high level of adaptability in multiple-variable geospatial problems. A proclivity toward crisis management and multi-actor tracking led to NOAH’s pairing with the Armory’s ENCLAVE-Pattern Support Shield. By networking a series of jet-assist mobility drones carrying an ENCLAVE generator, monitored and controlled by a NOAH clone, Think Tank was able to create an unparalleled personal shielding system: the Diluvian Ark, a miniaturized cluster-shield system unique to the NOAH NHP.<br />Using the Diluvian Ark, NOAH is able to intercept incoming kinetics – and even redirect projectiles back to their source – with stunning accuracy.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and Diluvian Ark.",
+    "integrated": [],
+    "license": "mf_saladin",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "IWWQYfBLWv2HV6Z3",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

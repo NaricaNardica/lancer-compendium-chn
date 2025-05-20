@@ -1,0 +1,644 @@
+{
+  "name": "PRIEST",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-PRIEST.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 10
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "hahQt4ssxIGGnEzy",
+  "prototypeToken": {
+    "name": "PRIEST",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-PRIEST.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "PRIEST",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-PRIEST.png",
+      "system": {
+        "lid": "npcc_priest",
+        "role": "support",
+        "flavor": "Priest-archetype mechs are found among the ranks of technozealot cults, transhumanist movements, and states or corporations that prioritize technological supremacy. These frames are configured to network their sensitive core systems with sympathetic mechs, creating digital super-constructs in order to establish and maintain total theater control. The use of Priest-archetype chassis and strategies were pioneered by a small, esoteric group known as the Messengers of MAIA. Ostensibly a courier group, the Messengers push all systems – synthetic and organic – to their theoretical limits. They even go so far as to share sensory input between linked pilots – an experience known to produce hyper-perception fugues and other ascendant mental states.",
+        "tactics": "Priests are powerful support mechs that function best when partnered with another character they can empower with Investiture. Use their Dispersal Shield to protect vulnerable targets and Investiture to empower an allied striker or defender. Enemies can disarm Investiture by separating Priests from their partners, at which point both become vulnerable to conditions.",
+        "base_features": [
+          "npcf_abjure_priest",
+          "npcf_hardened_target_priest",
+          "npcf_investiture_priest",
+          "npcf_dispersal_shield_priest"
+        ],
+        "optional_features": [
+          "npcf_greater_investiture_priest",
+          "npcf_empowered_shield_priest",
+          "npcf_sanctuary_priest",
+          "npcf_fortress_priest",
+          "npcf_fractal_assault_priest"
+        ],
+        "base_stats": [
+          {
+            "hp": 10,
+            "evasion": 10,
+            "edef": 12,
+            "heatcap": 10,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 11,
+            "hull": -1,
+            "agi": -1,
+            "sys": 2,
+            "eng": 2,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 13,
+            "evasion": 10,
+            "edef": 15,
+            "heatcap": 10,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 13,
+            "hull": -1,
+            "agi": -1,
+            "sys": 4,
+            "eng": 3,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 16,
+            "evasion": 10,
+            "edef": 18,
+            "heatcap": 10,
+            "speed": 6,
+            "sensor_range": 10,
+            "save": 15,
+            "hull": -1,
+            "agi": -1,
+            "sys": 6,
+            "eng": 4,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "XNkFfJQtgusMNh96",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636613715,
+        "modifiedTime": 1747636613715,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "ABJURE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_abjure_priest",
+        "effect": "The Priest makes a tech attack against a target within Sensors. On a success, the target takes {2/3/4} Heat each time they make any attack until the end of their next turn.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_tech",
+            "val": ""
+          }
+        ],
+        "type": "Tech",
+        "origin": {
+          "type": "Class",
+          "name": "PRIEST",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_type": "Quick",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "tech_attack": true,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "azkuY71vE2MdZI1R",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636614097,
+        "modifiedTime": 1747636614097,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "HARDENED TARGET",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_hardened_target_priest",
+        "effect": "The Priest gains +1 Accuracy on Systems saves, and tech attacks against them receive +1 Difficulty.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "PRIEST",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "o1jkJzgAEgwaG96x",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636614097,
+        "modifiedTime": 1747636614097,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "INVESTITURE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_investiture_priest",
+        "effect": "The Priest links systems with an allied mech or vehicle within range 5. As long as they remain linked and within range 5, the target gets +{1/2/3} Accuracy on all attacks and can use the Priest’s Systems instead of their own. If either character becomes Jammed, Impaired, or Stunned, however, the other character also receives the condition for the same duration or until the link is disabled. The link is disabled if either character is destroyed or moves more than 5 spaces from the other. The Priest can only link with one character at a time.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "PRIEST",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "RqUwSu07DvjFPATq",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636614097,
+        "modifiedTime": 1747636614097,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "DISPERSAL SHIELD",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_dispersal_shield_priest",
+        "effect": "The Priest releases a cloud of miniature drones that cluster around a nearby mech, providing protection. The Priest or an allied character within Sensors gains Resistance to damage and heat from the next 1d3 attacks that hit. This effect is not cumulative.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "5"
+          },
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "PRIEST",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "AqFM0xBnyCmHPbG8",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636614097,
+        "modifiedTime": 1747636614155,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636614302,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

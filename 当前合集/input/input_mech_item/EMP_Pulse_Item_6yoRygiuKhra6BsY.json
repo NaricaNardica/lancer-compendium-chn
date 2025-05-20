@@ -1,0 +1,68 @@
+{
+  "name": "EMP Pulse",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_emp_pulse",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You become Stunned until the end of your next turn and all characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters other than yourself can only be Stunned 1/scene by this effect.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_manticore",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "6yoRygiuKhra6BsY",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

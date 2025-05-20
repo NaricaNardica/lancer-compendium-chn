@@ -1,0 +1,84 @@
+{
+  "name": "Shock Wreath",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_shock_wreath",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "1/round you may activate your equipped Shock Wreath as a quick action when you hit a character with the weapon it is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Activate Shock Wreath",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "A post-fab modification popular among melee combat specialists, Shock Wreathes integrate a bundle of conductive filaments within the blade, point, tip, or surface of a close combat weapon. Paired with a power source – typically in the hilt or lower half of a weapon, but sometimes external – Shock Wreathes give kinetic weapons a thermal edge and a distinctive visual marker: fine lines of white-hot light like filigree, shrouding the modified weapon in shimmering heat.",
+    "destroyed": false,
+    "effect": "In addition to its usual damage, 1/round you may activate the wreath as a quick action when you hit a character with the weapon this mod is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn.",
+    "integrated": [],
+    "license": "mf_metalmark",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "added_damage": [],
+    "added_range": [],
+    "added_tags": [],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": false,
+      "Cannon": false,
+      "Launcher": false,
+      "Melee": true,
+      "Nexus": false,
+      "Rifle": false
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "Pn6Qpshio7N9pjSl",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554877,
+    "modifiedTime": 1747537554877,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

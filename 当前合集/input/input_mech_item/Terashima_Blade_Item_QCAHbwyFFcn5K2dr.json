@@ -1,0 +1,272 @@
+{
+  "name": "Terashima Blade",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_atlas",
+    "license_level": 3,
+    "lid": "mw_terashima_blade",
+    "loaded": false,
+    "manufacturer": "SSC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "Change this weapon's stance.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Change Stance",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Free",
+        "cost": 0,
+        "damage": [],
+        "detail": "Drop this weapon's stance.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Drop Stance",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+        "name": "No Stance",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6+3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          },
+          {
+            "lid": "tg_inaccurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_ap",
+            "val": ""
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+        "name": "Troll Stance",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          }
+        ],
+        "effect": "You gain the Storm Stance Reaction.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may immediately deal 2 kinetic to all other characters adjacent to you and your target.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Storm Stance Reaction",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "After hitting with this weapon while in Storm Stance.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+        "name": "Storm Stance",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          }
+        ],
+        "effect": "You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+        "name": "Lord's Stance",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          },
+          {
+            "lid": "tg_reliable",
+            "val": "2"
+          },
+          {
+            "lid": "tg_knockback",
+            "val": "2"
+          }
+        ],
+        "effect": "After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+        "name": "Wind Stance",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 2,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "QCAHbwyFFcn5K2dr",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

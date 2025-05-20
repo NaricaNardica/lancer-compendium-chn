@@ -1,0 +1,162 @@
+{
+  "name": "Leader",
+  "type": "talent",
+  "system": {
+    "lid": "t_leader",
+    "curr_rank": 1,
+    "description": "Whatever your actual age, you’re the Old Man of the battlefield. A light to your friends and allies; the resolute eye of a howling storm. Your steady voice, confident stance, and talent for command set allies at ease because they know you’ll lead them to victory every time. With you at the helm, victory is attainable, and heroes seem a little more real.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Free",
+            "cost": 0,
+            "damage": [],
+            "detail": "1/turn, on your turn as a free action, you may issue an order to an allied PC you can communicate with, describing a course of action, and give them a Leadership Die. They may either expend the Leadership Die to gain +1 Accuracy on any action that directly follows from that order, or they may return it to you as a free action. Allies can have one Leadership Die at a time, which lasts until used or until the end of the current scene.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Issue Order",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [
+          {
+            "default_value": 0,
+            "value": 0,
+            "lid": "ctr_leader",
+            "max": 6,
+            "min": 0,
+            "name": "Leadership Dice"
+          }
+        ],
+        "deployables": [],
+        "description": "Gain 3 Leadership Dice, which are d6s, and gain the Issue Order Free Action.<br>You can’t use Leadership Dice from other characters as long as you have any remaining. If you have none, you regain 1 Leadership Die when you rest or regain all when you perform a Full Repair.<br>Leadership dice are consumed when expended.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Field Commander",
+        "synergies": []
+      },
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may issue a command to an allied PC you can communicate with, describing a course of action, and give them a Leadership Die. They may either expend the Leadership Die to gain +1 Accuracy on any action that directly follows from that order, or they may return it to you as a free action. Allies can have one Leadership Die at a time, which lasts until used or until the end of the current scene.",
+            "frequency": "Unlimited",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Issue Command",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "Another player starts their turn.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain 5 Leadership Dice instead of 3; additionally, you can now issue a command as a reaction at the start of any other player’s turn, any number of times per round.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Open Channels",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain 6 Leadership Dice instead of 5. Allies that have your Leadership Dice can expend them to reduce damage by –1d6 when taking damage or to deal +1d6 bonus damage when they hit with an attack.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Inspiring Presence",
+        "synergies": [
+          {
+            "detail": "Allies that have your Leadership Dice can expend them to reduce damage by –1d6 when taking damage or to deal +1d6 bonus damage when they hit with an attack.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve your allies' rolls during combat with Leadership Dice"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "JONSwI101g2adN2N",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

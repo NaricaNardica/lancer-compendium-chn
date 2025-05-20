@@ -1,0 +1,63 @@
+{
+  "name": "Light Signature",
+  "type": "pilot_weapon",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "Light signature weapons might be oversized revolvers, braces of pistols, and submachine guns.",
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Variable",
+        "val": "1"
+      }
+    ],
+    "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic.",
+    "loaded": false,
+    "lid": "pg_light_signature",
+    "tags": [
+      {
+        "lid": "tg_sidearm",
+        "val": ""
+      },
+      {
+        "lid": "tg_set_damage_type",
+        "val": ""
+      },
+      {
+        "lid": "tg_pilot_weapon",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "vxr22GvkHnpNWihW",
+  "_id": "BGOTB8V0nBwhPMOC",
+  "img": "systems/lancer/assets/icons/role_artillery.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555920,
+    "modifiedTime": 1747537555920,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

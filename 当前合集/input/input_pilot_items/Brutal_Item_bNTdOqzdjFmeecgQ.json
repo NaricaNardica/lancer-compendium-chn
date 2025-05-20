@@ -1,0 +1,224 @@
+{
+  "name": "Brutal",
+  "type": "talent",
+  "system": {
+    "lid": "t_brutal",
+    "curr_rank": 1,
+    "description": "In the practice ring as in live combat, Aubrey Deckard only knows one way to fight: as fast and messy as possible. When others go hard, she goes hardest; when the order is to eliminate the enemy, she does so with prejudice. This isn’t a dance, it isn’t a game – it’s war, and Brutal lancers mean to see it through. If that means becoming a little bit of a monster, then so be it: the dead can hate from the grave.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you roll a 20 on a die for any attack (sometimes called a ‘natural 20’) and critical hit, you deal the maximum possible damage and bonus damage.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Predator",
+        "synergies": [
+          {
+            "detail": "Deal the maximum possible damage when you make an attack roll of 20 and make a critical hit.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Your critical hits gain Knockback 1.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Cull the Herd",
+        "synergies": [
+          {
+            "detail": "Inflict Knockback 1 on a critical hit.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [
+          {
+            "default_value": 0,
+            "value": 0,
+            "lid": "ctr_brutal",
+            "max": 100,
+            "min": 0,
+            "name": "Brutal Die"
+          }
+        ],
+        "deployables": [],
+        "description": "When you make an attack roll and miss, your next attack roll gains +1 Accuracy. This effect stacks and persists until you hit.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Relentless",
+        "synergies": [
+          {
+            "detail": "On a miss, your next attack roll gains +1 Accuracy. This effect stacks and persists until you hit.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve your critical hits, with extra bonuses for natural 20s"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "bNTdOqzdjFmeecgQ",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

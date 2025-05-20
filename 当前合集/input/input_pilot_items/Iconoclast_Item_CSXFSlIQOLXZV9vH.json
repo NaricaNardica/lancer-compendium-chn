@@ -1,0 +1,83 @@
+{
+  "name": "Iconoclast",
+  "type": "talent",
+  "system": {
+    "lid": "t_iconoclast",
+    "curr_rank": 1,
+    "description": "You have acquired an NHP, or has it acquired you? Together you have set out to achieve greatness and push boundaries. The two of you are in it together and you’ll be able to achieve fantastical things. Perhaps you’re unaware of the risks; perhaps you willfully choose to ignore them. The power you can tap into with the help of your companion is, however, undeniable. And with such power, who is to stop the two of you from breaking some taboos?",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You may choose to equip your mech with an Unstable NHP system.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Transgression",
+        "synergies": []
+      },
+      {
+        "actions": [
+          {
+            "activation": "Free",
+            "cost": 0,
+            "damage": [],
+            "detail": "Project a LINE 3 lightning arc as a free action. Characters of your choice in the LINE take 2 AP energy damage.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Transmuting Spark",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "After performing any action granted to you by an NHP, excluding handing control of your mech over to the NHP as a protocol, you may immediately perform the TRANSMUTING SPARK free action. Each NHP may only trigger this action 1/round.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Transmutation",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain a Transcendence Die, a d3 starting at 3. When you use “Transmuting Spark,” reduce the die by 1. If the die is at 1 when you use “Transmuting Spark,” you may immediately enter a transcendent state and reset the Transcendence Die to 3. This has the following effects until the end of your next turn: <br><ul><li>Your Transcendence Die can’t decrease.</li><li>“Memetic Spark” gains +4 damage and +5 Range.</li><li>Unless flying or climbing, you are forced to permanently Hover exactly 1 Space above any surface at all times.</li><li>You gain Immunity to involuntary movement.</li></ul><br>Whenever you cascade and lose control of your mech, you enter a transcendent state for the duration. Cascading NHPs have access to the benefits of this Talent. Your Transcendence Die resets at the end of the Scene.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Transcension",
+        "synergies": []
+      }
+    ]
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "CSXFSlIQOLXZV9vH",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537596104,
+    "modifiedTime": 1747537596104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

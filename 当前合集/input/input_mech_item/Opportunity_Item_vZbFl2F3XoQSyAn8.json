@@ -1,0 +1,77 @@
+{
+  "name": "Opportunity",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_exo_opportunity",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "<p>Opportunity lends their extraordinary processing power and their precise (if exacting) aid, optimizing an ally&rsquo;s systems to a more &ldquo;organized&rdquo; state.</p> <p>Choose an allied mech character within line of sight and SENSORS to benefit from Opportunity&rsquo;s optimization. They gain immunity to heat from other characters, +1 Accuracy on all SYSTEMS checks and saves, and attackers gain +1 Difficulty on tech attacks against them.</p> <p>This effect ends immediately when you take this action again, or when the affected character &ldquo;makes a mess of things&rdquo; by taking an attack roll, forcing a save, or taking any other action that would affect a hostile character.</p>",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Knock",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "vZbFl2F3XoQSyAn8",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570903,
+    "modifiedTime": 1747537570903,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

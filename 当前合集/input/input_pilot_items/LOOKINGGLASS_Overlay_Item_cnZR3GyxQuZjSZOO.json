@@ -1,0 +1,39 @@
+{
+  "name": "LOOKINGGLASS Overlay",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_lookingglass",
+    "description": "This head-mounted sensor add-on is capable of defeating even advanced thermal/optic/systemic camouflage systems, though it can only operate at that level of intensity for a short duration before burning out. You can spend this reserve during any combat to activate the sensors. For the rest of the scene you ignore soft cover and ignore Invisible for characters within Range 3. Hostile characters within Range 3 can’t become Hidden, though they remain Hidden if they were already.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "cnZR3GyxQuZjSZOO",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586559,
+    "modifiedTime": 1747537586559,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

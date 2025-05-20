@@ -1,0 +1,72 @@
+{
+  "name": "The Blue Blood of Pangloss",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Expend a charge to gain strange and unpredictable insights into the future. These visions grant you +1 Accuracy on all skill checks for the rest of this scene when acting on the information they reveal, and may have additional effects at GM discretion.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Imbibe Blue Blood",
+        "pilot": true,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A legendary medicinal liquid created by the Order Xenoglossia. The Blue Blood of Pangloss grants precognitive visions to its users, an ability that Augurs spend a lifetime learning to use to its full potential. Extended use causes sterility, and a strange blue tint to the lips, tongue, and extremities. The Blue Blood of Pangloss is impossible to reproduce without access to specific Begi flora and the secret distillation techniques of the Xenoglossary. Unless a PC has both of these, it can only ever be acquired as a limited-use reserve (at extraordinary cost). Those who steal or abuse the Blue Blood often find themselves the targets of the Stygos Grammaton.",
+    "lid": "pg_blue_blood",
+    "tags": [
+      {
+        "lid": "tg_gear",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "jCG7nUtxcGNgzUL1",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624374,
+    "modifiedTime": 1747537624374,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

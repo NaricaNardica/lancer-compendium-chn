@@ -1,0 +1,41 @@
+{
+  "name": "The Backpack",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_the_backpack",
+    "description": "At the beginning of the combat, you may deploy up to four backpack drones in free spaces adjacent to you.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [
+      "dep_backpack_drone"
+    ],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "8teC4Kz02cs3qD1H",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537605211,
+    "modifiedTime": 1747537605211,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

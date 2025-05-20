@@ -1,0 +1,58 @@
+{
+  "name": "Student-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_technophile_2",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[time to wake up, child]</span><br />Gained from the <i>Technophile: Rank II</i> pilot talent.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag.<br />Your custom NHP has developed further, and is now capable of independent thought. It can make complex decisions and judgments and act independently, without instruction.<br />1/round, with the assistance of your NHP, you may reroll any mech skill check or save. You must keep the new result, even if it’s worse.",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 0,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_round",
+        "val": "1"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "M2cwjqpYJPEO0cZR",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

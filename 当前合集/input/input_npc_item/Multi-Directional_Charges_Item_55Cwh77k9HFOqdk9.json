@@ -1,0 +1,122 @@
+{
+  "name": "Multi-Directional Charges",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npc_mbt_multi-directional_charges",
+    "effect": "This weapon ignores ranged penalties from Engaged.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_knockback",
+        "val": "2"
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "name": "MBT",
+      "type": "Class",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "weapon_type": "Main CQB",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Kinetic",
+          "val": "3"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "4"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "5"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 2
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "55Cwh77k9HFOqdk9",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636649758,
+    "modifiedTime": 1747636649758,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

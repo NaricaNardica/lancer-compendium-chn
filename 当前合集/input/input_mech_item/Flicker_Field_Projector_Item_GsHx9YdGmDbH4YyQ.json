@@ -1,0 +1,100 @@
+{
+  "name": "Flicker Field Projector",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_flicker_field_projector",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“I saw myself over and over and over and over and over and over and over and–”",
+    "destroyed": false,
+    "effect": "Whenever you Boost or make a standard move, you project a holographic pattern around you, leaving dazzling afterimages that make it hard to discern your precise location: you count as Invisible the next time you’re attacked. You can only benefit from one instance of this effect at a time.",
+    "integrated": [],
+    "license": "mf_dusk_wing",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 1,
+    "synergies": [
+      {
+        "detail": "Whenever you Boost or make a standard move, you project a holographic pattern around you, leaving dazzling afterimages that make it hard to discern your precise location: you count as Invisible the next time you’re attacked. You can only benefit from one instance of this effect at a time.",
+        "locations": [
+          "move",
+          "boost"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "GsHx9YdGmDbH4YyQ",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

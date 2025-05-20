@@ -1,0 +1,86 @@
+{
+  "name": "Annihilator",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_tokugawa",
+    "license_level": 1,
+    "lid": "mw_annihilator",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d3+2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          }
+        ],
+        "on_hit": "Make a secondary attack against all characters within burst 1 of the target. These attacks can’t deal bonus damage, and don’t trigger the Annihilator’s heat cost or secondary attacks.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Harrison Armory is known to employ somewhat unconventional development methods: tactical solutions are theorized and designed in the field as often as they are in the lab, with the former often outperforming the latter. The Annihilator’s name comes from pilots’ slang for a jury-rigged weapon first improvised in the Bradbury Rebellion, when desperate resistance pilots found a way to shunt the incredible waste heat from their reactors into a directed blast.",
+        "name": "Annihilator",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "Y4juiHeImHOrlvRP",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

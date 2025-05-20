@@ -1,0 +1,75 @@
+{
+  "name": "The Lesson of Shaping",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [
+      {
+        "lid": "ai_cap",
+        "val": "1",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": false
+      }
+    ],
+    "counters": [],
+    "deployables": [],
+    "description": "A little gift, to be pondered until understood: Cast aside the hammer and sword, the cannon and beam. No weapon formed against me shall land a true blow, as I have seen all ends, and there is nothing left but me. A trillion trillion light-years in all directions, and through it all, only [us? who knows. ego is a mind-killer. best to call your friends. better to face the night together. ‘til later, love.] – “Lesson Six”, The Six Lessons of Kilo Nueve.",
+    "effect": "You may install an additional AI in your mech. If one enters cascade (or becomes unshackled narratively), the other prevents it from taking control of your mech. You only lose control of your mech if both AI-tagged systems or equipment enter cascade.",
+    "integrated": [],
+    "lid": "cb_the_lesson_of_shaping",
+    "manufacturer": "HORUS",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "bV1iIJXDZ2WR4J2e",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

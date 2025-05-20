@@ -1,0 +1,110 @@
+{
+  "name": "Balor",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-BALOR.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "Your nanites switch into a hyperactive mode, causing the following effects until the end of the scene:<ul><li>You and adjacent allies gain soft cover.</li><li>Scouring Swarm deals 4 kinetic, instead of 2.</li><li>Regeneration restores 1/2 of your total HP, instead of 1/4.</li><li>If you would take structure damage, roll 1d6: on 6, your mech hellishly pulls itself together, taking no structure damage, returning to 1 HP, and gaining Immunity to all damage until the end of the current turn.</li><li>You become Shredded and cannot clear this condition for the duration.</li></ul>",
+      "active_name": "Hive Frenzy",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "In a moment, with aught but desire, the pilot of a Balor may quick-print a cloak comprised of countless minuscule drones: a hellswarm cloak – living shield and fluid-dynamic knife, cutting and guarding, in one shimmering wave. They become Hivemaster, and their will is obeyed by millions.",
+      "integrated": [],
+      "name": "Hellswarm",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br />The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br />In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it.",
+    "license": "mf_balor",
+    "license_level": 2,
+    "lid": "mf_balor",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Striker",
+      "Defender"
+    ],
+    "mounts": [
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 6,
+      "edef": 10,
+      "heatcap": 4,
+      "repcap": 4,
+      "sensor_range": 5,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 3,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Balor deals 2 kinetic to characters of its choice that start their turn grappled by or adjacent to it.",
+        "integrated": [],
+        "name": "Scouring Swarm",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "At the end of its turn, the Balor regains 1/4 of its total HP. When it takes stress or structure damage, this effect ceases until the end of its next turn.",
+        "integrated": [],
+        "name": "Regeneration",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you rest, the Balor regains full HP automatically and without REPAIRS.",
+        "integrated": [],
+        "name": "Self-Perpetuating",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "GJ1mayztQeGtQfyH",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

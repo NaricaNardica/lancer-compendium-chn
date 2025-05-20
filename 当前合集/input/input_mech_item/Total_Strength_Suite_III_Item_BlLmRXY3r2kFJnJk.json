@@ -1,0 +1,64 @@
+{
+  "name": "Total Strength Suite III",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_total_strength_suite_iii",
+    "actions": [
+      {
+        "activation": "Full",
+        "cost": 0,
+        "damage": [],
+        "detail": "You end a Grapple, pushing the other character 5 spaces in any direction and knocking them Prone. This movement may pass through spaces occupied by other characters but must end in a free space. All characters they pass through must pass a Hull save or be knocked Prone. If your target collides with an object or piece of terrain, they stop, take 1d6 kinetic damage, and must pass a Hull save or become STUNNED until the end of their next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The last component of the Total Strength upgrade package gives a mech the ability to inject rapid bursts of intense power into its locomotive systems, resulting in short-lived but incredible strength. The underlying systems are carefully calibrated and misuse can rip apart a mech’s internal systems from within.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_zheng",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 3,
+    "synergies": [],
+    "tags": [],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "BlLmRXY3r2kFJnJk",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

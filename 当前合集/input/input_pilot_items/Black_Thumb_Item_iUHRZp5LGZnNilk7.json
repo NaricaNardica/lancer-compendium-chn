@@ -1,0 +1,177 @@
+{
+  "name": "Black Thumb",
+  "type": "talent",
+  "system": {
+    "lid": "t_black_thumb",
+    "curr_rank": 1,
+    "description": "You’re used to station engineering – the kind that regularly requires crawling through nightmarishly tight vents, squeezing past boiling-hot steam pipes, and tapping on thin panes of sheet metal that lie between you and certain death. After that, a little combat engineering is nothing.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "Dismount as per the normal Dismount action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Black Thumb Dismount",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [
+              "dismount"
+            ],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You treat DISMOUNT as a quick action instead of a full action. When you DISMOUNT, your pilot gains a personal shield. The next time your pilot would take damage, reduce that damage to 0, then the shield disperses. Otherwise, it disperses at the end of the scene. You can only have one personal shield at once, and any shields created replace the last one.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Flesh to Metal",
+        "synergies": []
+      },
+      {
+        "actions": [
+          {
+            "activation": "Protocol",
+            "cost": 0,
+            "damage": [],
+            "detail": "Gain a <b>personal shield</b> (as from Flesh to Metal). While in rodeo, your pilot is immune to involuntary movement, occupies your mech’s space and moves when it moves. This does not count as DISMOUNT and the mech can’t be controlled from outside, so it will idle unless it is capable of acting independently (e.g., if it has an NHP that has been given control, which you can do as part of this protocol).<br>While in rodeo, your pilot becomes a valid target and can take damage normally. If you lose your personal shield for any reason, you are immediately forced back inside your mech, ending the effect, and you cannot start a rodeo again on your following turn. You can also end a rodeo as a quick action on any of your turns.<br>While in rodeo, your pilot can only take the <b>Extinguish</b>, <b>Field Repair</b>, or <b>Rig Vents</b> actions granted by Black Thumb.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Black Thumb Rodeo",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "End your current Black Thumb Rodeo.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "End Black Thumb Rodeo",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Full",
+            "cost": 0,
+            "damage": [],
+            "detail": "You immediately clear all Burn affecting your mech, and it gains Resistance to Burn until the start of your next turn. Conditions that were self inflicted cannot be cleared with this action.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "BT: Extinguish",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Full",
+            "cost": 0,
+            "damage": [],
+            "detail": "Your mech gains Overshield 2 and clears either Slowed or Immobilized. Conditions that were self inflicted cannot be cleared with this action.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "BT: Field Repair",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Full",
+            "cost": 0,
+            "damage": [],
+            "detail": "Your mech clears 2 Heat and clears either Impaired or Jammed. Conditions that were self inflicted cannot be cleared with this action.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "BT: Rig Vents",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "<p>As a protocol, you give up the controls, pop the hatch on your mech and partly climb out, starting a BLACK THUMB RODEO and gaining a personal shield (as above). While in rodeo, your pilot is immune to involuntary movement, occupies your mech’s space and moves when it moves. This does not count as DISMOUNT and the mech can’t be controlled from outside, so it will idle unless it is capable of acting independently (e.g., if it has an NHP that has been given control, which you can do as part of this protocol). <br>While in rodeo, your pilot becomes a valid target and can take damage normally. If you lose your personal shield for any reason, you are immediately forced back inside your mech, ending the effect, and you cannot start a rodeo again on your following turn. You can also end a rodeo as a quick action on any of your turns. <br>While in rodeo, your pilot can only take the <b>Extinguish</b>, <b>Field Repair</b>, or <b>Rig Vents</b> actions granted by Black Thumb.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Rodeo",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Your Black Thumb actions can be used on adjacent allied mechs.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Rodeo Master",
+        "synergies": []
+      }
+    ],
+    "terse": "Ride your mech to repair it during combat"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "iUHRZp5LGZnNilk7",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564008,
+    "modifiedTime": 1747537564008,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

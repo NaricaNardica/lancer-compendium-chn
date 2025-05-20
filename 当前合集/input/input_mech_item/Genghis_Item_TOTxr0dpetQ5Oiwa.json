@@ -1,0 +1,99 @@
+{
+  "name": "Genghis",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-GENGHIS.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "The next time you exceed your Heat Cap this scene, you instead clear all heat and vent a burst 3 cloud of burning matter from your mech.<br />Until the start of your next turn, all characters within the affected area count as Invisible to everyone except you, and characters other than you take 2 burn and 2 heat when they start their turn in the area or enter it for the first time in a round. Once this effect ends, characters within the affected area receive soft cover (which you ignore) until the start of your following turn, at which point the cloud disperses.",
+      "active_name": "Expose Power Cells",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "To better manage the Genghis’s tremendous power demands and rapidly accelerate heat dispersion, the Think Tank developed a suite of power-management mechanisms. After extensive field testing, pilots discovered that the TBK Sustain Suite can be used as both a heat sink and an area-denial weapon.",
+      "integrated": [],
+      "name": "TBK Sustain Suite",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "The original Genghis frame marked the dawn of the mech age; the Armory’s new line seeks to redefine it. From its roots as a modified GMS hardsuit, the Genghis Mk I became notorious for its use in the Hercynian Crisis – the first-contact war that triggered the violent overthrow of the Second Committee. In the administrative and political chaos that followed the Crisis, Harrison Armory secured the design and adapted it to serve as the basis of its first proprietary mechs, including the Sherman and the Saladin.<br />The new Genghis bears some resemblance to the chassis of Hercynian notoriety, serving in a similar area-denial/soft-target elimination role; The Genghis Mk II has been brought in line with the Third Committee’s Utopian Pillars.",
+    "license": "mf_genghis",
+    "license_level": 2,
+    "lid": "mf_genghis",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 3,
+      "hp": 6,
+      "evasion": 6,
+      "edef": 8,
+      "heatcap": 10,
+      "repcap": 4,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Genghis has Immunity to burn.",
+        "integrated": [],
+        "name": "Insulated",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Genghis takes structure damage, it clears all heat.",
+        "integrated": [],
+        "name": "Emergency Vent",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "TOTxr0dpetQ5Oiwa",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

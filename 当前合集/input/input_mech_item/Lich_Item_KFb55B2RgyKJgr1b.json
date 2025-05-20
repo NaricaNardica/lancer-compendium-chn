@@ -1,0 +1,97 @@
+{
+  "name": "Lich",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-LICH.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "<p>You gain the ability to disrupt time for the rest of this scene. 1/round, when any character successfully attacks, effects, or takes an action against another character within SENSORS, you may interrupt it before it resolves, with the following effects:</p> <ul> <li>The character taking the action is pushed up to 3 spaces in a direction of your choice, even if they have IMMUNITY to involuntary movement</li> <li>You teleport to one of the spaces originally occupied by that character, or as close as possible, no matter how far away it was.</li> <li>The initial attack, effect, or action resolves with you as its target. </li> </ul> <p>You receive all damage, conditions, statuses, and effects, and the action must be carried out without changes. For example, if the effect was to teleport an allied character to a certain space, you are teleported to that space instead; if the effect was to repair an allied character, you are repaired instead; if the effect was to deal damage and KNOCKBACK, you take the damage (using your ARMOR, RESISTANCE, etc.) and are knocked back in the same direction as the original target would be; if the effect was to inflict a condition or status, you receive that condition or status instead. Initiating this interruption does not count as a reaction. Effects that target the self cannot be interrupted this way </p>",
+      "active_name": "Glitch time",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "“Drink Deep, and Descend.”",
+      "integrated": [],
+      "name": "Chronostutter",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "&gt;//TRANSCRIPT: M.A2_Recovered[UIB:::TERMAGANT]<br />&gt;//TANGENT ROYAL CLEARANCE<br />&gt;//checking…<br />&gt;//TRC_ACCEPTED. OPEN DOC:::Y<br />&gt;//BEGIN:::<br />CALIGULA: So what is it?<br />DOGFRIEND_68: i wish i could tell you, man, it just showed up on the terminal. whole thing in one ping — it’s like a fucking K or two EXB. tried to autofab but i shut it down jic<br />CALIGULA: Gotta be a joke from Ash — she’s trying to wavedown our rig again, don’t let it print.<br />DOGFRIEND_68: fuck no<br />DOGFRIEND_68: do u think i have a death wish<br />CALIGULA: Yes.<br />CALIGULA: Well, who’s it from? Who’s the author?<br />CALIGULA: Hello?<br />CALIGULA: [waiting.omif]<br />DOGFRIEND_68: uh<br />CALIGULA: Who?<br />DOGFRIEND_68: us<br />CALIGULA: Us what?<br />DOGFRIEND_68: it’s from our terminal — we made it<br />CALIGULA: Pretty sure I’d remember if I wrote 1-2k exabyte fabrication by myself.<br />DOGFRIEND_68: yeah except thats our code man, the hash lines up beaucop-sigma<br />DOGFRIEND_68: ok also BigMama is telling me we didn’t actaully get anything inbound which means its just been local but thats impossible, we don’t have that much storage<br />CALIGULA: Let me see the file<br />CALIGULA: It’s dated 15005U<br />DOGFRIEND_68: [lolfuk.omif]<br />CALIGULA: There’s an audio track buried in here. Should I play it?<br />DOGFRIEND_68: i wanna say no but fuck it i’m curious<br />&gt;//TRANSCRIPT ENDS",
+    "license": "mf_lich",
+    "license_level": 2,
+    "lid": "mf_lich",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Support"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 4,
+      "evasion": 8,
+      "edef": 12,
+      "heatcap": 3,
+      "repcap": 5,
+      "sensor_range": 15,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 5,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "At the start of the Lich's turn, set down a SOUL VESSEL at its current location (replacing any previous markers). 1/round, as a reaction when the Lich is hit by an attack, fails a save or check, or takes damage or Heat from any source (even itself), it may immediately gain IMMUNITY to all damage, heat, or conditions from that effect. It then teleports to the marker or as close as possible. The Lich can also take this reaction at the end of any turn, including its own, but if it does so it only teleports and does not gain IMMUNITY. It can't take this reaction if it is JAMMED, STUNNED, GRAPPLED, or unable to take reactions for any reason.",
+        "integrated": [],
+        "name": "Soul Vessel",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/scene, in the round after the Lich has been destroyed, it may return to the location of its SOUL VESSEL as a reaction at the end of any turn. This counts as teleporting; additionally, the Lich appears with full HP, no Heat, 1 STRUCTURE and 1 STRESS (even if it had more when it was destroyed). If its pilot died in the same scene, they also return to life. If the Lich does not take this reaction in that round, it remains destroyed and the pilot remains dead.",
+        "integrated": [],
+        "name": "Immortal",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "KFb55B2RgyKJgr1b",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563094,
+    "modifiedTime": 1747636626255,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

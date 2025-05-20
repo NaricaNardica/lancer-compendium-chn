@@ -1,0 +1,105 @@
+{
+  "name": "LAY MINES",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_lay_mines_seeder",
+    "effect": "The Seeder deploys one of the mines below in a free space within range 3. Once deployed, the Seeder’s mines detonate when a hostile character moves over them, creating a Blast 1 explosion that affects both allied and hostile characters.<ul><li>Stun Mine: Characters in the area that fail an Engineering save become Stunned until the end of their next turn.</li><li>Explosive Mine: Characters in the area take {8/12/16} Explosive damage, or half if they pass an Agility save.</li><li>Sealant Mine: Characters in the area that fail a Hull save become Immobilized until the end of their next turn, then Slowed until the end of their subsequent turn.</li><li>Shock Mine: Characters in the area that fail a Systems save become Jammed until the end of their next turn, then Impaired until the end of their subsequent turn.</li></ul><br />The Seeder’s mines are Invisible and cannot be targeted, but hostile characters within Sensors can reveal them by succeeding on a Systems check. Characters can disarm them by succeeding on a Systems check as a quick action while in the same space; however, on a failure, the mine detonates.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_mine",
+        "val": ""
+      },
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      },
+      {
+        "lid": "tg_turn",
+        "val": "1"
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "SEEDER",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "NId8pSd2sTdT0iGy",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

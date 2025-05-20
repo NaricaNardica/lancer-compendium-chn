@@ -1,0 +1,122 @@
+{
+  "name": "SKYLIGHT Anti-Air Laser",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npc_mbt_skylight_anti-air_laser",
+    "effect": "",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_smart",
+        "val": ""
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "name": "MBT",
+      "type": "Class",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "weapon_type": "Main Rifle",
+    "on_hit": "If the target is flying, they must pass an Agility save or choose one: either take +1d6 bonus damage, or immediately land (this counts as falling without any damage) and become unable to fly until the end of their next turn.",
+    "damage": [
+      [
+        {
+          "type": "Energy",
+          "val": "2"
+        }
+      ],
+      [
+        {
+          "type": "Energy",
+          "val": "3"
+        }
+      ],
+      [
+        {
+          "type": "Energy",
+          "val": "4"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "F6qv2QP1rsPowGJY",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636649758,
+    "modifiedTime": 1747636649758,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

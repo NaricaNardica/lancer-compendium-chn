@@ -1,0 +1,87 @@
+{
+  "name": "Tesseract",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_tesseract",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a blast 3 area within Sensors: this area, extending 6 spaces high, becomes a zero-g area. In addition to the usual rules for zero-g movement, objects that enter the affected area float in place, and objects or characters that are knocked, moved, or pulled out of the area sink harmlessly to the ground at the end of their turn instead of falling. This area disperses if you create a new one. Otherwise, the effect persists until the end of the scene. When the zone disperses, everything within floats harmlessly to the ground.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Spread Focus",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a hostile or willing allied character within Sensors. If they are allied, they float 6 spaces into the air, becoming Immobilized while in the air but counting as flying and unable to fall. They can choose to sink harmlessly to the ground at the end of any of their turns or the start of any of yours. If they are hostile, they must succeed on an Engineering save or experience the same effect as an allied character; however, they sink harmlessly to the ground at the end of their next turn. Hostile characters can each be affected 1/scene.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Pinpoint Focus",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Hold sand above the water: feel it, permanent and cohesive. Place that same sand in the water: watch it drift away, weightless. This is the tool I have made for you: a way to imbue the weighted with mass-as-feathers.<br />— TT-AUDATA, Think Tank paramind.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_iskander",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "usi0adUL8e83n4Ff",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

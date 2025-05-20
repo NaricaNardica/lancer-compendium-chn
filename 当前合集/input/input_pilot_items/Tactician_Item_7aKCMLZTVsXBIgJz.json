@@ -1,0 +1,184 @@
+{
+  "name": "Tactician",
+  "type": "talent",
+  "system": {
+    "lid": "t_tactician",
+    "curr_rank": 1,
+    "description": "There are two kinds of soldiers: the ones who die for a cause, and the ones who kill for it. The enigmatic pilot only known as “Gail” was one of those who killed for a cause. She demonstrated her expertise whenever she approached the field: high ground, cover, the sun in her enemy’s eyes, fire and move. More than just a seasoned veteran, she was a smart one – one who could read the field as easy as a book – and one who lived long enough to disappear.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, gain +1 Accuracy on any melee attack if at least one allied character is Engaged with your target.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Opportunist",
+        "synergies": [
+          {
+            "detail": "1/round, gain +1 Accuracy on any melee attack if at least one allied character is Engaged with your target",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, gain +1 Accuracy on any ranged attack made while you are at a higher elevation than your target.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Solar Backdrop",
+        "synergies": [
+          {
+            "detail": "1/round, gain +1 Accuracy on any ranged attack made while you are at a higher elevation than your target.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": true,
+              "Cannon": true,
+              "Launcher": true,
+              "Melee": false,
+              "Nexus": true,
+              "Rifle": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may target them with Overwatch, dealing half damage, heat or burn on a hit",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Flank",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "A character who doesn’t have cover from your position is successfully attacked by an allied character.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain the <b>Flank</b> Reaction.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Overlapping Fire",
+        "synergies": []
+      }
+    ],
+    "terse": "Gain an advantage when attacking occupied enemies or shooting from higher ground"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "7aKCMLZTVsXBIgJz",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Prosocollar",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A collar-like device that fits snugly around its wearer’s neck, projecting a holographic image over their face and head. Prosocollars can change their wearer’s voice and scramble or change their appearance. The projection won’t stand up to close inspection, but it can easily fool electronic systems and distant observers.",
+    "lid": "pg_prosocollar",
+    "tags": [
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "g3Zo1FCoKjYK7Lae",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

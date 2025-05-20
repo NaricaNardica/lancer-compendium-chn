@@ -1,0 +1,65 @@
+{
+  "name": "Throughbolt Rounds",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_throughbolt_rounds",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Throughbolt rounds are a proprietary IPS-N anti-armor invention. When fired, the rounds ignite and project a superheated cone of plasma before them, creating an effect like a miniature lance that easily penetrates multiple targets – even through hard surfaces.",
+    "destroyed": false,
+    "effect": "When you attack with the weapon this mod is applied to, you may fire a throughbolt round instead of attacking normally. Draw a line 3 path from you, passing through terrain or other obstacles – any characters or objects in the path take 2 AP kinetic damage as the projectile punches through them and out the other side. Range, cover, and line of sight for the attack are then measured from the end of this path, continuing in the same direction.",
+    "integrated": [],
+    "license": "mf_tortuga",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "added_damage": [],
+    "added_range": [],
+    "added_tags": [],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": true,
+      "Cannon": true,
+      "Launcher": false,
+      "Melee": false,
+      "Nexus": false,
+      "Rifle": true
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "s9PRpfX0xdtfkti7",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554877,
+    "modifiedTime": 1747537554877,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

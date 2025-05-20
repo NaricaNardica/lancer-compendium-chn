@@ -1,0 +1,112 @@
+{
+  "name": "Lycan",
+  "type": "frame",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "core_system": {
+      "activation": "Full",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "You violently jettison the Lycan's external carapace, extending brutal talons and supercharging its reactor. For the rest of the scene, your base Armor becomes 0, your base Speed becomes 6, Slag Carapace and Interference Field are disabled, and you gain the Shock Claws integrated weapon.You may then charge forward to strike, moving your Speed and making an attack against a target within Range using the Shock Claws. This attack counts as a Barrage for the purpose of duplicate action restrictions.<br /><br />Before activation, this weapon's output can be enhanced by proximity to extreme structural damage. The first time in a scene that an allied Mech character within Sensors takes structure damage from a hostile source before you activate Go Loud, this weapon becomes Threat 2. If this happens a second time before activating it, this weapon now also deals 4d6+6 energy damage instead of 3d6+6.<br /><br />If an allied Mech character is destroyed before you activate Go Loud, or if you activate it while at 2 Structure or less, you automatically gain both of these additional benefits.<br /><br />This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
+      "active_name": "Go Loud",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "As a chassis designed for covert operations, the Lycan leverages the Manticore's affinity for electromagnetics in order to further obscure its precise nature, wrapping itself in a layered mesh of sensor baffles and wideband interference signals that disrupt and distort recognition scans and targeting systems. The effects of this distortion field are so intense that they even cause sporadic, uncontrolled power fluctuations in nearby systems, and pilots who have survived combat with Lycan PG chassis report experiencing intermittent electronics blackouts and even reduced reactor output upon approach.<br /><br />However, the most distinctive feature of the Lycan by far is its ability to shift from its default, heavily-armored configuration to a more aggressive assault mode. This transformation is dramatic and known to cause panic among enemy forces as the Lycan's true nature is suddenly revealed in an explosive jettisoning of armor plating and a violent surge of power diverted towards the chassis' concealed shock claws, a series of retractable, high-temperature arc blades based on Manticore armament designs and embedded with a series of retaliatory \"self-sharpening\" heuristics.",
+      "integrated": [
+        "mw_integrated_shock_claws"
+      ],
+      "name": "Subversive Signature",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "Despite its recent appearance, the Manticore has quickly become one of the most readily identifiable HORUS pattern-groups due to its distinctive electromagnetic signature and indiscriminately destructive energy bleed-off. While this recognition lends itself well to the Manticore's fearsome reputation, it also limits the design's strategic applications to direct assaults where early detection and collateral damage are of minimal consequence.<br /><br />It remains unclear if the Lycan was designed in parallel to the Manticore or if it represents a subsequent development, but while it's clear that the Lycan is derived from the Manticore PG, it decouples the base chassis' heavy armor and hardpoint capability from the Manticore's more volatile systems. The resulting design is far less dangerous for the pilot, and far more capable of concealing its signature as well as the full extent of its capabilities, allowing it to operate with greater discretion until absolutely necessary.<br /><br />As a result, the Lycan excels at ambush and counter-ambush tactics, capable of masquerading as a more conventional chassis until the opportunity presents itself, then shedding its baffle-lined outer carapace and shifting into a hyper-aggressive close-combat mode in order to dispatch its targets.",
+    "license": "mf_lycan",
+    "license_level": 2,
+    "lid": "mf_lycan",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Defender",
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 8,
+      "evasion": 6,
+      "edef": 10,
+      "heatcap": 6,
+      "repcap": 3,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 3,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Lycan has resistance to Energy Damage and Burn.",
+        "integrated": [],
+        "name": "Slag Carapace",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "All hostile characters within Range 3 of the Lycan take +1 Difficulty on all attacks that do not target the Lycan.",
+        "integrated": [],
+        "name": "Interference Field",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when the Lycan takes heat, a hostile character within Range 3 must pass a Systems save or become Impaired and Slowed until the end of their next turn.",
+        "integrated": [],
+        "name": "Power Flux",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "h7xXAPybBuqcqdu8",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537613995,
+    "modifiedTime": 1747636641834,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

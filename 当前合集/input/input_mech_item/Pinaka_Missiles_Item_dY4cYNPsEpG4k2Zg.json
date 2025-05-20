@@ -1,0 +1,86 @@
+{
+  "name": "Pinaka Missiles",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_monarch",
+    "license_level": 3,
+    "lid": "mw_pinaka_missiles",
+    "loaded": false,
+    "manufacturer": "SSC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "2d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 20
+          },
+          {
+            "type": "Blast",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_arcing",
+            "val": ""
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          }
+        ],
+        "effect": "Attacks with this weapon create up to two blast 1 areas, which cannot overlap.<br>You may also delay the impact of attacks made with this weapon. Choose the target area(s), which become visible to all characters: the missiles land at the end of the next round, after all characters have acted, and deal 3d6 explosive damage instead of 2d6, but you become Slowed until the end of your next turn.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Pinaka missiles are massive, two-stage missiles typically mounted along a mech’s spine or carried, disassembled, to be launched from a brachial mount. The Pinaka was originally adapted from ship-to-ship missiles; as such, their second stage uses jet-assist repositioning for midflight orientation.",
+        "name": "Pinaka Missiles",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "dY4cYNPsEpG4k2Zg",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

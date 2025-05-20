@@ -1,0 +1,30 @@
+{
+  "name": "Take Control",
+  "type": "skill",
+  "system": {
+    "lid": "sk_take_control",
+    "curr_rank": 1,
+    "description": "Use force, violence, presence of will, or direct action to take control of something.",
+    "detail": "Use force, violence, presence of will, or direct action to take control of something. This is often something concrete, like an object someone is holding. You could take control of someone’s gun or a keycard they have on their person. You can additionally can take control of a situation to force those present to listen, calm down, stop moving, or stop what they’re doing (perhaps for their benefit), though you can’t necessarily force them to do anything further without threatening them. Taking control is never subtle."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "4VEXJ1LtA7oQsiXx",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

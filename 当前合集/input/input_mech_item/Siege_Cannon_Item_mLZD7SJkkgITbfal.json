@@ -1,0 +1,129 @@
+{
+  "name": "Siege Cannon",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_barbarossa",
+    "license_level": 3,
+    "lid": "mw_siege_cannon",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "3d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 30
+          },
+          {
+            "type": "Blast",
+            "val": 2
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_arcing",
+            "val": ""
+          },
+          {
+            "lid": "tg_ordnance",
+            "val": ""
+          },
+          {
+            "lid": "tg_loading",
+            "val": ""
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "4"
+          }
+        ],
+        "on_attack": "Choose to fire in either siege mode or direct fire mode.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
+        "name": "Siege Mode",
+        "synergies": [],
+        "type": "Cannon"
+      },
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "3d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 20
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_knockback",
+            "val": "2"
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          }
+        ],
+        "on_attack": "Choose to fire in either siege mode or direct fire mode.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
+        "name": "Direct Fire Mode",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "mLZD7SJkkgITbfal",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

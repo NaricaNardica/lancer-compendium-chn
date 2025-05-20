@@ -1,0 +1,64 @@
+{
+  "name": "Forge Clamps",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_forge_clamps",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You sink the jaws of your clamp into an adjacent object or piece of terrain of Size 1 or larger. You become Immobilized but gain Immunity to Knockback and Prone. This effect ends if the thing you’re clamped onto is destroyed or if you release the clamp as a protocol.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Repurposed from polycrete foundry tongs, these simple manipulators are incredibly resistant to heat and deformation. Using the KOBOLD protocols, previously inert forge clamps become the adherent surfaces for thin plasma sheaths; like blades, they can shear through armor, earth, or bulkhead with ease. One common tactic involves “flashing” plasma across the clamps, fusing them to their target until the Kobold pilot “flashes” them free.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_kobold",
+    "license_level": 1,
+    "manufacturer": "HORUS",
+    "sp": 1,
+    "synergies": [],
+    "tags": [],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "9Zyocha7CTNcVUBj",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

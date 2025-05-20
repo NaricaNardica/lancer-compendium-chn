@@ -1,0 +1,99 @@
+{
+  "name": "ASSASSIN",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-ASSASSIN.png",
+  "system": {
+    "lid": "npcc_assassin",
+    "role": "striker",
+    "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
+    "tactics": "Assassins are true experts at punishing single characters. Use Assassin’s Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. For a nasty combination, pair an Assassin with NPCs that inflict mobility-reducing conditions like Stunned or Prone. Without optional systems like the “Devil’s Cough” Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage.",
+    "base_features": [
+      "npcf_kai_bioplating_assassin",
+      "npcf_heated_blade_assassin",
+      "npcf_assassins_mark_assassin",
+      "npcf_leap_assassin"
+    ],
+    "optional_features": [
+      "npcf_devils_cough_shotgun_assassin",
+      "npcf_sap_assassin",
+      "npcf_spinning_kick_assassin",
+      "npcf_cloud_projector_assassin",
+      "npcf_explosive_knives_assassin"
+    ],
+    "base_stats": [
+      {
+        "hp": 15,
+        "evasion": 12,
+        "edef": 8,
+        "heatcap": 7,
+        "speed": 6,
+        "sensor_range": 10,
+        "save": 10,
+        "agi": 2,
+        "sys": 1,
+        "eng": -1,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "hull": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 15,
+        "evasion": 15,
+        "edef": 8,
+        "heatcap": 7,
+        "speed": 6,
+        "sensor_range": 10,
+        "save": 12,
+        "hull": 1,
+        "agi": 3,
+        "sys": 1,
+        "size": 0.5,
+        "activations": 1,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 15,
+        "evasion": 17,
+        "edef": 8,
+        "heatcap": 7,
+        "speed": 8,
+        "sensor_range": 10,
+        "save": 14,
+        "hull": 1,
+        "agi": 4,
+        "sys": 2,
+        "size": 0.5,
+        "activations": 1,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "zKyH4PGsc1fh43V5",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

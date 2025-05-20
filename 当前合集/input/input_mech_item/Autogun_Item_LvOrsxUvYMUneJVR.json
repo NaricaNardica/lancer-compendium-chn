@@ -1,0 +1,111 @@
+{
+  "name": "Autogun",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_pegasus",
+    "license_level": 3,
+    "lid": "mw_autogun",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": true,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [
+      {
+        "activation": "Free",
+        "cost": 0,
+        "damage": [],
+        "detail": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Fire Autogun",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 15
+          }
+        ],
+        "tags": [],
+        "effect": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [
+          {
+            "activation": "Free",
+            "cost": 0,
+            "damage": [],
+            "detail": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Fire Autogun",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "As the name implies, autoguns are automated weapons. Similar to point-defense systems, autoguns are chambered to provide effective fire against armored targets. Typically mounted on a stabilized, secondary arm, a reliably tuned autogun can be trusted to track and eliminate designated enemy units while a pilot concentrates on more specialized weapons or processes. Cheap, with malleable codebases, autoguns are common among active, armed HORUS cells.",
+        "name": "Autogun",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 1,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "LvOrsxUvYMUneJVR",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

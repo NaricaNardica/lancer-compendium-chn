@@ -1,0 +1,207 @@
+{
+  "name": "The Seneschal",
+  "type": "bond",
+  "system": {
+    "lid": "sotw-bond-seneschal",
+    "major_ideals": [
+      "I addressed challenges with honor, loyalty, or integrity.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I spared or extended grace to a defeated opponent.",
+      "I stood by a friend or ally despite dire consequences.",
+      "I swore a solemn and unbreakable vow.",
+      "I made restitution to someone harmed by my actions."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your powers?",
+        "options": [
+          "An ironclad personal code of honor.",
+          "A family legacy stretching back centuries.",
+          "The knowledge of your privilege and a sense of responsibility to those less fortunate."
+        ]
+      },
+      {
+        "question": "What vow have you sworn?",
+        "options": [
+          "To never allow an innocent to come to harm.",
+          "To preserve the traditions and uphold the values of your culture.",
+          "To repent for an unforgivable mistake.",
+          "To stand by your friends and family, no matter the cost."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Steadfast Ally",
+        "description": "When you push yourself to help another character, you do not take STRESS unless they succeed. You still share in any consequences by helping.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Stewardship",
+        "description": "When a group of people, organization, or object you are leading or protecting would take losses, damage, or other harm, you may instead take consequences (minor, typical, or major) in proportion to the harm they would suffer.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "My Word Is My Bond",
+        "description": "When you make a solemn promise or swear that you will achieve a goal, take 1 STRESS. When you fulfil that promise or achieve that goal, clear 2 STRESS.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Clarion",
+        "description": "When you speak the truth in full knowledge and without intent to deceive, everyone who hears you knows that what you are saying is true.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Responsibility",
+        "description": "When you discover that someone important to you (a trusted friend, a family member, a mentor or student) is in danger, your next skill check to help them this scene gains +1 ACCURACY and increased effect.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Its Own Reward",
+        "description": "When you help or give to another character in a way that causes consequences for yourself, you may fill in a section of a burden.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Forbearance",
+        "description": "When you offer forgiveness or freedom to a defeated enemy, the GM chooses one:<ul><li>They accept the consequences of defeat.</li><li>They escape, vowing revenge against you and your allies. All allies present gain 1 XP.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Champion's Heart",
+        "description": "When you or an ally makes a skill check to help a vulnerable or powerless person, gain +1 ACCURACY and increased effect.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Best Kind Of Correct",
+        "description": "You have a talent for dealing with institutions (governmental, academic, military) and navigating their bureaucracies. When dealing with or managing large organizations you instinctively understand their rules, and can always cut through red tape or get a meeting with the right person.  In situations where this helps, gain +1 ACCURACY and increased effect.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Shivers",
+        "description": "When you enter a scene, you may take 2 STRESS to ask the GM whether someone present is planning to betray or cheat you, and receive a truthful answer. This doesn't tell you who, or how.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of Integrity",
+        "description": "At the end of the session, describe how someone else made the right choice despite personal cost. Give them 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Integrity."
+      },
+      {
+        "name": "Durendal, My Brand",
+        "description": "You may give a name to a weapon, ship, or other object belonging to you or a willing ally. Once per session, the item’s owner may invoke its name for +1 ACCURACY and increased effect on a relevant skill check. If the item is ever lost or damaged beyond repair, the item’s owner gains a burden.<br>You can name multiple items, but a character may only own one named item at a time. If they acquire a second named item, the first loses this benefit.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "AS89UuQU3NE8edtq",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624910,
+    "modifiedTime": 1747537624910,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

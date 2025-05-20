@@ -1,0 +1,99 @@
+{
+  "name": "Siege Ram",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_siege_ram",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The siege ram is a handheld metal beam with a wedge tip, ready to be smashed into the seams of sealed bulkhead doors and driven home. It’s another holdover from the days before the IPS-N merger. When someone needs to open a bulkhead that’s just slammed shut, it’s what marine pilots pick up to get the job done. Heavy, dumb, and unbreakable: IPS-N’s siege ram is the universal skeleton key.",
+    "destroyed": false,
+    "effect": "When you Ram, you deal 2 kinetic damage on hit, and you deal 10 AP kinetic damage when you Ram objects and terrain.",
+    "integrated": [],
+    "license": "mf_tortuga",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [
+      {
+        "detail": "When you Ram, you deal 2 kinetic damage on hit, and you deal 10 AP kinetic damage when you Ram objects and terrain.",
+        "locations": [
+          "ram"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "CDFl1r37TSCgGeu5",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

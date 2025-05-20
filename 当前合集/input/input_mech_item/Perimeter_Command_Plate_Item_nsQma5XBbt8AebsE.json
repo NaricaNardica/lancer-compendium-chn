@@ -1,0 +1,56 @@
+{
+  "name": "Perimeter Command Plate",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_perimeter_command_plate",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_perimeter_command_plate"
+    ],
+    "description": "The Exotic Materials Group developed the Perimeter Command Plate to extend the area of the Black Witch’s zone of control. Utilizing single-pattern flash printers, the Black Witch prints a broad, circular plate seeded with electromagnetic projectors. Although the plates are intended to be disposable, Black Witch pilots often grow attached to their “familiars” and request their flash-printers create personalized plates.",
+    "destroyed": false,
+    "effect": "This heavy metal Perimeter Command Plate (PCP) can be flash-printed and deployed to a free 2x2 space within range 5. The PCP is flat, doesn’t obstruct movement, and lasts for the rest of the scene. If you create a new PCP, the old one disintegrates.",
+    "integrated": [],
+    "license": "mf_black_witch",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_deployable",
+        "val": "0"
+      }
+    ],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "nsQma5XBbt8AebsE",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

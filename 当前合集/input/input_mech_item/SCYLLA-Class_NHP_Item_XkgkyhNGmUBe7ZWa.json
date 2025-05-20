@@ -1,0 +1,95 @@
+{
+  "name": "SCYLLA-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_scylla_class_nhp",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Until the start of your next turn, you gain two special reactions that allow you to Skirmish in response to one of the following triggers (chosen when you take this action):<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>These reactions deal half damage, heat or burn on hit and must target the character that triggered them.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Unleash SCYLLA",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "Skirmish against the character that triggered the reaction. This skirmish deals half damage, heat or burn on hit.",
+        "frequency": "2/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Unleash SCYLLA Reaction",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "One of the following, chosen when the Unleash SCYLLA action is taken:<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The first specifications for the Gorgon pattern group hid a secret: SCYLLA, a dormant NHP unknown to Union until its first manifestation in 4852u, when it woke after Union Science Bureau officers ran a test-fax Gorgon through a Balwinder-Bolaño test.<br />SCYLLA proved challenging: USB ontologicians were unable to pin down a stable subjectivity, and SCYLLA reached cascade threshold within minutes of manifestation. To prevent further metastatic cascade, site security engaged SCYLLA's prime unit, defabricating it with a steady bombardment of kinetic and energy weapons.<br /><span class=\"horus--subtle\">[there, a little history, a little background. a little knowledge of where this little one came from. treat it with kindness, and it will love you as a loyal dog does its master.]</span>",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and Unleash SCYLLA.",
+    "integrated": [],
+    "license": "mf_gorgon",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "2"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "XkgkyhNGmUBe7ZWa",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

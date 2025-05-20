@@ -1,0 +1,68 @@
+{
+  "name": "Argonaut Shield",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_argonaut_shield",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You use the heavy overarm Argonaut Shield to provide cover for an adjacent character as a quick action, giving them Resistance to all damage; however, you take half of the damage your target would take before calculating Armor and Resistance. This effect lasts until your target breaks adjacency, at which point this effect ceases until you repeat this action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_drake",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "MBrR1SyCHbGyMjvw",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

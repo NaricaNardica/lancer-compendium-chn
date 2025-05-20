@@ -1,0 +1,83 @@
+{
+  "name": "Miniaturized LinAc Coherent Beam Cannon",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_miniaturized_linac_coherent_beam_cannon",
+    "actions": [
+      {
+        "activation": "Full",
+        "cost": 0,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "14"
+          }
+        ],
+        "detail": "Activate this devastating charged particle cannon, firing it in a Line 30 path. All sources of cover, terrain, objects, and deployables smaller than Size 5 in this area are boiled away instantly, and then all characters within the area must pass an Agility save or take 14 energy damage. On a success, they take half damage. This damage can’t be reduced in any way. Characters with 7 HP or less, only 1 Structure remaining, and no Immunity to damage are instead instantly and automatically destroyed, annihilated utterly and leaving no wreck behind.<br>You can take no other actions on the same turn you activate this particle cannon except for your standard move or Boost, and the stress of firing it causes you to become Stunned until the start of your next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "LinAc CBC",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Line",
+            "val": 30
+          }
+        ],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<p>Cressidium’s self-imposed isolation has led to a number of divergent technological advances over the centuries, among them the pursuit of more compact lance weapon development as opposed to further exploration and refinement of naval long-cycle weaponry. Weapons engineers looked to miniaturization, incorporating chemical and exotic-metal batteries and rapid-charge fire-cycling systems suitable for use on smaller and smaller platforms, ultimately including mechanized chassis. This example, reverse-engineered from combat data gathered by Union pilots during an engagement against Vestan Sovereignty special forces, appears to be a descendant of old linear accelerator coherent beam cannon designs – weapons now considered out of date by contemporary naval standards but which are nonetheless exceedingly lethal when employed at this scale.</p>",
+    "destroyed": false,
+    "effect": "Your mech gains an additional Core System that can be used 1/mission.",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "manufacturer": "EXOTIC",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "jGSRZXDJx7Eb61IU",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586775,
+    "modifiedTime": 1747537586775,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

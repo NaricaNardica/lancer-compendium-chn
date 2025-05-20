@@ -1,0 +1,69 @@
+{
+  "name": "Total Strength Suite II",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_total_strength_suite_ii",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "Deal 1d6 kinetic damage to a character you are grappling.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The second part of Xiong’s enhancement package: interlocking muscle-analog plates beneath armor, finely tuned to greatly multiply crushing force.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_zheng",
+    "license_level": 2,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "GIw0oNAGLb5PUwNV",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

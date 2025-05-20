@@ -1,0 +1,56 @@
+{
+  "name": "Tempest Drone",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_tempest_drone",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_tempest_drone"
+    ],
+    "description": "The Tempest protocol is a cunning little piece of code that can be uploaded to any broadcast-forward drone, making it – in true HORUS fashion – difficult to detect prior to activation. The protocol is a simple one: an aggressive zone-denial memetic that blasts target systems and NHPs with a strong subjective override, instilling a sharp aversion to certain subjects, areas, and ideas.",
+    "destroyed": false,
+    "effect": "This large, armored tempest drone may be deployed to a free space within Sensors and line of sight.",
+    "integrated": [],
+    "license": "mf_hydra",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_resistall",
+        "val": ""
+      },
+      {
+        "lid": "tg_drone",
+        "val": "0"
+      }
+    ],
+    "type": "Drone",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "sRlXPU6XQ74JZMCh",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Electrohydraulic Claw",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "lid": "mw_electrohydraulic_claw",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6+3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_inaccurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          },
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "effect": "1/round, you may activate the claws as a quick action when you hit a character with this weapon to automatically grapple them. Targets grappled this way must pass a Hull save or become Shredded until the end of their next turn.<br><br>This weapon deals 10 AP kinetic damage to objects, cover, and the environment. Additionally, you gain +1 Accuracy to all non-combat mech skill checks to pry heavy objects open or apart (e.g., sealed airlocks, jammed cockpits, vault doors, cargo containers, etc); this effect does not stack.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "A chassis-scale, weaponized version of the iconic search-and-rescue tool, IPS-N's electrohydraulic cutter/spreader claw is even more powerful than its utilitarian cousin. While the claw's reinforced cutting blades serve as an adequate, if clumsy, weapon on their own, their true potential lies in their ability to literally pry chassis apart when suitably braced, capable of shearing through even reinforced armor composites. The ability to easily bypass sealed doors and airlocks (or create alternate openings during breaching actions) lends the weapon additional versatility.",
+        "name": "Electrohydraulic Claw",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "GuG0wRlWpOFvc3jR",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

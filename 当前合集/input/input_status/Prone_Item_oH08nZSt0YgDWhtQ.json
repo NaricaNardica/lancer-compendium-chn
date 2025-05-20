@@ -1,0 +1,29 @@
+{
+  "name": "Prone",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/status_prone.svg",
+  "system": {
+    "lid": "prone",
+    "effects": "Attacks against PRONE targets receive +1 accuracy.<br />Additionally, PRONE characters are SLOWED and count as moving in difficult terrain. Characters can remove PRONE by standing up instead of taking their standard move, unless they’re IMMOBILIZED. Standing up doesn’t count as movement, so doesn’t trigger OVERWATCH or other effects.",
+    "type": "status"
+  },
+  "folder": null,
+  "_id": "oH08nZSt0YgDWhtQ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

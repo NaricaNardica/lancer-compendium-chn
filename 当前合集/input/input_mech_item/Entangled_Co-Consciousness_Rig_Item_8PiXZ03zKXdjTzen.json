@@ -1,0 +1,77 @@
+{
+  "name": "Entangled Co-Consciousness Rig",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_entangled_co-consciousness_rig",
+    "actions": [
+      {
+        "activation": "Other",
+        "cost": 0,
+        "damage": [],
+        "detail": "1/scene, when you make an attack, you may choose not to roll, instead treating your attack as if you had rolled a 10 on the d20. If this attack hits, it automatically becomes a critical hit.",
+        "frequency": "1/scene",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Champions, Guide My Hands",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<p>House Montmorency carried one of the most impressive win streaks ever seen under the glittering skies of Ispahsalar into the Kreoss, and scored victory after victory until an elite team of Sand-men gave their lives to extract the secret of their exceptional performance.</p><p>Neurolink interfaces fitted with custom paracausal entanglement systems connected each of House Montmorency's pilots together, allowing them to draw on each other’s expertise and even subconscious reactions to gain an edge in combat. Once the mystery was revealed, rules committees were encouraged to find against the use of these systems in the House Games. Other competitions followed suit, and the minor house’s dominance finally came to an end.</p>",
+    "destroyed": false,
+    "effect": "<p>Your mech gains the AI tag and Champions, Guide My Hands. This system is not an NHP and cannot enter cascade.</p><p>Additionally, if a hostile character or a structure damage check would cause you to become Stunned, you may instead turn control of your mech over to its Entangled Co-Consciousness Rig. If you do, you do not become Stunned, but you cannot pick the controls back up or turn over control to any other AI on your next turn.</p>",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "8PiXZ03zKXdjTzen",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624741,
+    "modifiedTime": 1747537624741,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

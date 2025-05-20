@@ -1,0 +1,30 @@
+{
+  "name": "Stay Cool",
+  "type": "skill",
+  "system": {
+    "lid": "sk_stay_cool",
+    "curr_rank": 1,
+    "description": "Perform a task that requires concentration, dexterity, speed, or precision under pressure.",
+    "detail": "Do something that requires concentration, speed, or intense precision under pressure, like picking a lock as your squad trades fire with encroaching guards, avoiding a hostile memetic code while hacking a secure console, carefully disarming an explosive, or unjamming a gun under fire. If you’ve got to do something complicated in a high stress situation without messing up (and possibly not even breaking a sweat) this is the action to use."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "oYNjJAGMW5BrpQJ1",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

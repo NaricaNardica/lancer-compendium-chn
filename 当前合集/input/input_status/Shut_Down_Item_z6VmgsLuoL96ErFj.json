@@ -1,0 +1,29 @@
+{
+  "name": "Shut Down",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/status_shutdown.svg",
+  "system": {
+    "lid": "shutdown",
+    "effects": "When a mech is SHUT DOWN:<br />• all heat is cleared and the EXPOSED status is removed;<br />• any cascading NHPs are stabilised and no longer cascading;<br />• any statuses and conditions affecting the mech caused by tech actions, such as LOCK ON, immediately end.<br />SHUT DOWN mechs have IMMUNITY to all tech actions and attacks, including any from allied characters.<br />While SHUT DOWN, mechs are STUNNED indefinitely. Nothing can prevent this condition, and it remains until the mech ceases to be SHUT DOWN.",
+    "type": "status"
+  },
+  "folder": null,
+  "_id": "z6VmgsLuoL96ErFj",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

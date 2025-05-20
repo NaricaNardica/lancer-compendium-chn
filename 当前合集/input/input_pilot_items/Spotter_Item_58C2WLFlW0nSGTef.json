@@ -1,0 +1,184 @@
+{
+  "name": "Spotter",
+  "type": "talent",
+  "system": {
+    "lid": "t_spotter",
+    "curr_rank": 1,
+    "description": "To see all; to divide each object you perceive from its unit or cohesion, pulled apart like individual fibers in a vast sheet; to count them as individuals; to make human and fragile the force you face – this is to know how to beat them.<br />Break apart the monolith. See the grains that make the stone. Crush them all into yet smaller dust.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When an allied character adjacent to you attacks a target and consumes Lock On, they may roll twice and choose either result.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Particularize",
+        "synergies": [
+          {
+            "detail": "When an allied character adjacent to you attacks a target and consumes Lock On, they may roll twice and choose either result.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "At the end of your turn, if you did not move and took the Lock On Quick Tech action, you may Lock On once as a free action. Additionally, when you Lock On, you learn your target’s Armor, Speed, Evasion, E-Defense, Mech Skills, and current HP, and can share this information with allies.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Panopticon",
+        "synergies": [
+          {
+            "detail": "At the end of your turn, if you did not move and took the Lock On Quick Tech action, you may Lock On once as a free action. Additionally, when you Lock On, you learn your target’s Armor, Speed, Evasion, E-Defense, Mech Skills, and current HP, and can share this information with allies.",
+            "locations": [
+              "lock_on"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "When you Lock On, nominate an allied character adjacent to you: they may immediately make any quick action as a reaction, consuming your target’s Lock On condition. Their action does not need to be an attack, but they benefit from consuming the Lock On condition if they do choose to attack.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Bentham/Foucault Elimination",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "As a quick action when you Lock On, you may nominate an allied character adjacent to you: they may immediately make any quick action as a reaction, consuming your target’s Lock On condition. Their action does not need to be an attack, but they benefit from consuming the Lock On condition if they do choose to attack.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Bentham/Foucault Elimination",
+        "synergies": []
+      }
+    ],
+    "terse": "Improve your Lock On Quick Tech action to empower your allies"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "58C2WLFlW0nSGTef",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

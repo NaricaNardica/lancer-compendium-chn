@@ -1,0 +1,59 @@
+{
+  "name": "Black ICE Module",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_black_ice_module",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [
+      {
+        "default_value": 1,
+        "value": 1,
+        "lid": "ctr_black_ice_module",
+        "max": 3,
+        "min": 1,
+        "name": "Black ICE Module"
+      }
+    ],
+    "deployables": [],
+    "description": "Black ICE modules are defensive systems packaged standard with the Black Witch fleets used by SSC's own internal security forces. They project a bubble of WHITECELL code that analyzes incoming hostile script and structures inoculants for friendly systems on the fly.",
+    "destroyed": false,
+    "effect": "Tech attacks against you or adjacent allied characters receive +1 difficulty. Each subsequent tech attack against you or an adjacent allied character receives an additional +1 difficulty, to a maximum of +3 difficulty.<br />Your Black ICE definitions roll over – resetting to +1 difficulty – when it would increase to +4 difficulty or at the end of the scene. Allied characters lose this benefit when they break adjacency.",
+    "integrated": [],
+    "license": "mf_black_witch",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "6HPwY5Y0RubKU9o0",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

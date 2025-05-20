@@ -1,0 +1,41 @@
+{
+  "name": "Camo Cloth",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A square of reactive material that slowly shifts to reflect the surrounding environment, enough to cover a human comfortably. The transition takes about 10 seconds and makes anything hidden underneath very difficult to spot.",
+    "lid": "pg_camo_cloth",
+    "tags": [
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "DHUv1bR6yj9Hoc51",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

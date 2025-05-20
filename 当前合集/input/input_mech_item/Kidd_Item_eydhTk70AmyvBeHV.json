@@ -1,0 +1,294 @@
+{
+  "name": "Kidd",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-IPS-N-KIDD.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "For the rest of the scene, Plunder and Swindle become Blast 2 and Shiver Timbers affects all characters in a Line 10 path.",
+      "active_name": "Skull and Bones",
+      "active_synergies": [],
+      "counters": [
+        {
+          "default_value": 1,
+          "value": 1,
+          "lid": "ctr_jolly_roger",
+          "max": 6,
+          "min": 1,
+          "name": "Jolly Roger"
+        }
+      ],
+      "deactivation": null,
+      "deployables": [],
+      "description": "",
+      "integrated": [],
+      "name": "The Jolly Roger",
+      "passive_actions": [
+        {
+          "activation": "Quick",
+          "cost": 0,
+          "damage": [],
+          "detail": "SCAN every hostile character in a Blast 1 area and give them LOCK ON.",
+          "frequency": "1/round",
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Plunder 3+",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        },
+        {
+          "activation": "Quick",
+          "cost": 0,
+          "damage": [],
+          "detail": "Every hostile character in a Blast 1 area must succeed on a SYSTEMS save or become IMPAIRED, JAMMED, and SLOWED until the end of their next turn.",
+          "frequency": "1/round",
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Swindle 5+",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        },
+        {
+          "activation": "Quick",
+          "cost": 0,
+          "damage": [],
+          "detail": "Fire a beam weapon, punching a narrow hole through walls and obstructions. One hostile character must succeed on an AGILITY save or take 3d6 AP Energy Damage. On a success, they take half damage.",
+          "frequency": "1/round",
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Shiver Timbers 6",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_effect": "<p>At the start of every combat scene, your Kidd automatically connects to its paired Jolly Roger orbital satellite weapon. The efficacy of the Jolly Roger depends on maintaining a high level of calibration with the Kidd, which is tracked with a JOLLY ROGER DIE - 1d6, starting at 1.</p> <p>The die ticks up by 1 whenever you:</p> <ul> <li>deploy a DRONE or DEPLOYABLE</li> <li>take a tech action that targets at least one allied character.</li> </ul> <p>Each option can only increase the value of the of the JOLLY ROGER DIE once per round independently; however, the die also ticks up by 1 any time a hostile character takes a tech action against an allied character within your SENSORS, with no limit.</p> <p>1/round, you can activate the Jolly Roger as a quick action, resetting the JOLLY ROGER DIE to 1. Choose one of the following effects, based on the value of the die:</p> <p><b class=\"accent--text\">3+</b> <b>Plunder</b>: SCAN every hostile character in a Blast 1 area and give them LOCK ON.</p> <p><b class=\"accent--text\">5+</b> <b>Swindle</b>: Every hostile character in a Blast 1 area must succeed on a SYSTEMS save or become IMPAIRED, JAMMED, and SLOWED until the end of their next turn.</p> <p><b class=\"accent--text\">6</b> <b>Shiver Timbers</b>: Fire a beam weapon, punching a narrow hole through walls and obstructions. One hostile character must succeed on an AGILITY save or take 3d6 AP Energy Damage. On a success, they take half damage</p> <p>You do not require line of sight for any of these effects, they have the effective range of the battlefield, and they easily penetrate objects and terrain, although more potent barriers (e.g., energy shields that prevent effects from crossing them due to line of sight) block them normally</p>",
+      "passive_name": "Jolly Roger",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "<p>A sidegraded cousin of IPS-N’s Lancaster support frame, the Kidd was produced under a joint development contract by IPS-N’s Titan–Enceladus Field Project and Northstar Branch Robotics. The original pattern for the frame was bought off a mining commune that had rigged their support drones in a slapdash but ingenious neural mesh that both hardened them against tech intrusion and increased their operational efficiency many times over. Urban legend was that the original builder of the rig had used his drone team to bury caches of black-market Volador tech in several wandering asteroids, and out of extreme paranoia made his systems almost impossible to crack. To this day Northstar Branch Robotics tries valiantly to squash down persistent rumors that clues to the location of the caches are hidden in the Kidd’s code base.</p> <p>Designed to provide an aggressive, all-theater support solution to rugged field teams in hostile environments, the Kidd mounts a trio of powerful systems to ensure a broad operational envelope. The Jolly Roger semiautonomous personal orbital platform, bundled with every genuine-license Kidd platform establishes theater control in any open or near-surface environment. A squadron of bundled subalterns (along with an onboard maintenance suite) guarantees friendly support in any environment and provides a broad suite of tactical possibility. Finally, Titan–Enceladus’s SMOKESTACK heat sink pylon represents the cutting edge of IPS-N’s thermodynamic axiomatics, allowing users to offset surplus heat via the creation of a pinhole-window into an omega state of absolute zero.</p> <p>The Kidd is a popular chassis in Evergreen where it is employed as a subaltern command platform for civilian and engineering purposes. Its familiar bulk can also regularly be seen accompanying traders on their way to do business with the Gray Towns.</p>",
+    "license": "mf_kidd",
+    "license_level": 2,
+    "lid": "mf_kidd",
+    "manufacturer": "IPS-N",
+    "mechtype": [
+      "Support"
+    ],
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "stress": 4,
+      "structure": 4,
+      "armor": 2,
+      "hp": 6,
+      "evasion": 6,
+      "edef": 12,
+      "heatcap": 4,
+      "repcap": 5,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 6,
+      "sp": 10
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "On its first turn in any combat scene, the Kidd can deploy or activate any one system with the drone or deployable tag as a free action.",
+        "integrated": [],
+        "name": "Rapid Deployment",
+        "synergies": [
+          {
+            "detail": "On its first turn in any combat, the Kidd can deploy or activate any one system with the DRONE or DEPLOYABLE tag as a free action.",
+            "locations": [
+              "deployable",
+              "drone"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "Destroy one of your deployables or drones to either grant 1d6+1 OVERSHIELD to an allied character or deal 1d6+1 AP Energy Damage to a hostile character. The target, allied or hostile, must be adjacent to whatever is destroyed. Systems without LIMITED that are destroyed this way must be repaired before they can be used again.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Reroute Power",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "As a quick action 1/round, the Kidd can destroy one of its DEPLOYABLES or DRONES that was not deployed or created in the same round to either grant 1d6+1 OVERSHIELD to an allied character or deal 1d6+1 AP Energy Damage to a hostile character. The target, allied or hostile, must be adjacent to whatever is destroyed. Systems without LIMITED that are destroyed this way must be repaired before they can be used again.",
+        "integrated": [],
+        "name": "Reroute Power",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "At the end of any scene in which the Kidd used REROUTE POWER, it restores 1 charge to a LIMITED system of its choice with the DRONE or DEPLOYABLE tag.",
+        "integrated": [],
+        "name": "Recycle",
+        "synergies": [
+          {
+            "detail": "At the end of any scene in which the Kidd used REROUTE POWER, it restores 1 charge to a LIMITED system of its choice with the DRONE or DEPLOYABLE tag.",
+            "locations": [
+              "deployable",
+              "drone"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "eydhTk70AmyvBeHV",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537569958,
+    "modifiedTime": 1747636674889,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

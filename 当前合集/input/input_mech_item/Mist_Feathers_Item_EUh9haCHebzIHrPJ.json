@@ -1,0 +1,54 @@
+{
+  "name": "Mist Feathers",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_exo_mist_feathers",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<p><em>“Have you ever wondered how the mist flies? ... Hmm, fine. Well I do, I do every day. I envy it. It bends endlessly with joins of vapor effervescent and naked. I’m not dreaming – stop, don’t be like Grandmother – her hands were always so pressed and firm. You see– I want to fly – fly so high that the mist becomes jealous. Think of it, what if I could bring you too? Things would be better for the both of us. Better than tilling these lands day in and out, laughed at by the mist. I promise one day I’ll grow mist feathers and be the queen of the Kimawense Range. Are you even paying attention? I said I’ll be the Queen!------huh? You know I can hear you walking up behind me, right? Quit fooling around, these hills need tilling. Didn't you hear me!? I know you’re there... Give it a rest, it’s cree---pe---”</em><br /><em>“</em><em>Scarlet soil, sowed in crimson hues.”</em></p> <p>Extensions effervescent and endless. The Mist Feather is a specialty licensed float apparatus specifically designed for thin atmospheres. The flight system – if you can call it that – is not simple aeronautic manipulation. Designed by the illustrious artisan Ololade Omatanwa, the Mist Feathers in fact do not fly; instead, they induce forced molecular bonds between trillions upon trillions of atmospheric particulates. This bonding process instead pulls rather than propels the user forward as with each molecular bond the user is tugged a millionth of an inch. When powered by cold-core reactors the Mist Feather’s output is exponentially multiplied, enabling mechs to hover indefinitely in non-vacuum environments.</p>",
+    "destroyed": false,
+    "effect": "<p>1/scene, when activated, you gain the following effects until the end of your next turn:</p> <ul> <li>Your mech is considered hovering</li> <li>You may Boost as a free action, 1/turn.</li> <li>When Invisible or benefiting from cover at the end of your turn, you may choose to become Hidden without taking an action</li> </ul>",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "EUh9haCHebzIHrPJ",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537605423,
+    "modifiedTime": 1747636667627,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

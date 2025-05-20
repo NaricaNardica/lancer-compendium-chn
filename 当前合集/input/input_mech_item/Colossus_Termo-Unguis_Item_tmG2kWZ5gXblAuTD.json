@@ -1,0 +1,85 @@
+{
+  "name": "Colossus Termo-Unguis",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "lid": "mw_empakaai_alt_blackbeard_integrated",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "2d6"
+          },
+          {
+            "type": "Heat",
+            "val": "4"
+          },
+          {
+            "type": "Burn",
+            "val": "3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 4
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          }
+        ],
+        "effect": "The Empakaai’s COLOSSUS TERMO-UNGUIS can be used even while Jammed. <br/> Before rolling, you may force your target and any characters of your choice adjacent to it to make a Hull save or be pulled adjacent and automatically Grappled.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "name": "Colossus Termo-Unguis",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "tmG2kWZ5gXblAuTD",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537605696,
+    "modifiedTime": 1747537605696,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

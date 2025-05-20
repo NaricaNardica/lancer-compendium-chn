@@ -1,0 +1,313 @@
+{
+  "name": "Infiltrator",
+  "type": "talent",
+  "system": {
+    "lid": "t_infiltrator",
+    "curr_rank": 1,
+    "description": "Whether by spoofing signatures on enemy scanners, moving skillfully through cover, or thanks to your modded optical camouflage, you’re never seen unless you want to be. Whatever the size of the mech, whatever the terrain, whatever the enemy, you can get in and get out without raising alarm.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "During your turn, gain the following benefits:<ul><li>Entering line of sight of hostile characters or moving from cover does not stop you from being Hidden.</li><li>You can pass freely through – but not end your turn in – enemy spaces.</li><li>You can Hide even in plain sight of enemies.<br>These effects immediately end when your turn ends (so you lose Hidden if you’re still in line of sight or out of cover at that time).</li></ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Prowl",
+        "synergies": [
+          {
+            "detail": "Entering line of sight of hostile characters or moving from cover does not stop you from being Hidden. This effect immediately ends when your turn ends.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          },
+          {
+            "detail": "You can pass freely through – but not end your turn in – enemy spaces. This effect immediately ends when your turn ends.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          },
+          {
+            "detail": "You can Hide even in plain sight of enemies. This effect immediately ends when your turn ends.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you start your turn Hidden, the first attack roll of any type that you make sends your target reeling on a hit. Your target must succeed on a Hull save or become Slowed, Impaired, and unable to take reactions until the end of their next turn.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Ambush",
+        "synergies": [
+          {
+            "detail": "When you start your turn Hidden, the first attack roll of any type that you make sends your target reeling on a hit. Your target must succeed on a Hull save or become Slowed, Impaired, and unable to take reactions until the end of their next turn.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you lose Hidden (by any means), you may first fire a flash bomb at any adjacent character. That character must pass a Systems save or only be able to draw line of sight to adjacent spaces until the end of their next turn.<br>You can then move up to your speed, ignoring engagement and not provoking reactions, and are then revealed normally.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Mastermind",
+        "synergies": [
+          {
+            "detail": "When you lose Hidden (by any means), you may first fire a flash bomb at any adjacent character. That character must pass a Systems save or only be able to draw line of sight to adjacent spaces until the end of their next turn.<br>You can then move up to your speed, ignoring engagement and not provoking reactions, and are then revealed normally.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve your Hide action and perform debilitating sneak attacks"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "NfNYW188yABfsjwq",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

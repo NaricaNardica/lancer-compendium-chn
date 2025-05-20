@@ -1,0 +1,191 @@
+{
+  "name": "The Wolf",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-wolf",
+    "major_ideals": [
+      "I addressed challenges with precision, coldness, or intimidation.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I showed someone how it’s done.",
+      "I revealed an ugly truth about the world.",
+      "My pain or weakness became apparent despite my efforts to hide it.",
+      "I got someone to back down or back off."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your power?",
+        "options": [
+          "A long time spent alone in the cold, a time you’d rather forget.",
+          "A hardened, bitter upbringing.",
+          "A collection of blades, polished and well used."
+        ]
+      },
+      {
+        "question": "What must you keep hidden at all costs?",
+        "options": [
+          "The wounds and scars that deform you.",
+          "The people you most care about.",
+          "The person you truly are at your core.",
+          "The blood in your past that’s catching up to you."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Go for a Walk",
+        "description": "If you go off by yourself to accomplish a task, name your goal. You’ll return to the group next scene successful, having accomplished it off-screen, but the GM chooses one<ul><li>You have to hurt someone innocent.</li><li>You raise an alarm, come back with pursuers, or start a ticking clock.</li><li>You come back hurt, taking 2 Stress.</li></ul>If the task was too dangerous, difficult, or complicated to accomplish alone, the GM will tell you that when you return, but will also tell you exactly what needs to be done to finish it. Gain increased effect when you take action to finish the task.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Cornered",
+        "description": "When you break, gain +1 Accuracy and increased effect on all skill checks for the next scene.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Scarcoat",
+        "description": "Your maximum Stress increases by 1 for each burden you currently have.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Discipline",
+        "description": "If an ally fails a skill check, you can both take 1 Stress for them to immediately reroll it. They must keep the new result.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Blood Scent",
+        "description": "If someone or something is bleeding, gain +1 Accuracy and increased effect on any action made to intimidate, track, or harm them",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Pounce",
+        "description": "You take an action before any NPCs have the chance to act, giving you a free roll. Hostile NPCs can’t deal harm or consequences to you as a part of this roll (they’re too slow), although you can still fail or suffer other consequences normally.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Tear Throat",
+        "description": "You can instantly kill any NPC in arm’s reach of you without rolling, but must first pay the cost. The GM chooses one:<ul>  <li>You are wracked by guilt and unable to use this ability again until the next session.</li><li>You take a burden.</li></ul>",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Ultimatum",
+        "description": "You look someone in the face, lock eyes with them, and name what you need. They either give you what you want, right now, or they choose one:<ul><li>They flee the scene (they always get away).</li><li>They escalate the situation (resorting to physical violence, calling in backup, raising the stakes, etc).</li></ul>",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "It’s Nothing",
+        "description": "At the end of each session, clear 3 Stress if you didn’t let anyone tend to you, help you, heal you, or comfort you (even if they tried).",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Don’t Tell Me the Odds",
+        "description": "Gain +1 Accuracy on all actions in a scene where you are clearly outnumbered, outgunned, or backed into a corner.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of the Fang",
+        "description": "At the end of the session, if you think the party fought their way out of a bad situation, describe it, and give someone who you thought fought as hard as you 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Fang."
+      },
+      {
+        "name": "Wick",
+        "description": "This scene, ignore all Stress from anyone not important enough to merit a name, and take increased effect on all actions to evade, fight, subdue, or intimidate them.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "3KRgb5bCsxnruk9r",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747537578652,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

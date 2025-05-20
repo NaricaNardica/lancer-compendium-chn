@@ -1,0 +1,121 @@
+{
+  "name": "RAM CANNON",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_ram_cannon_cataphract",
+    "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. At T2–3, this weapon can make two attacks at a time, targeting either the same character or two different ones.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      1,
+      2,
+      3
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "weapon_type": "Heavy Melee/Heavy Cannon",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Kinetic",
+          "val": "5"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "5"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "5"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "WBo9GMY32tjxG6IO",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

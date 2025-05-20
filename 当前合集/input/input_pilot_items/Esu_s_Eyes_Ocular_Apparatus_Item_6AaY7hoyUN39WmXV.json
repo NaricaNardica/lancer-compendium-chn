@@ -1,0 +1,39 @@
+{
+  "name": "Esu's Eyes Ocular Apparatus",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_esus_eyes_occular_apparatus",
+    "description": "At the start of combat you may choose to activate this gear, allowing you to ignore hostile characters’ Hidden and Invisible statuses for the duration of the combat. Upon use, this piece of gear is destroyed.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "6AaY7hoyUN39WmXV",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537605211,
+    "modifiedTime": 1747537605211,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

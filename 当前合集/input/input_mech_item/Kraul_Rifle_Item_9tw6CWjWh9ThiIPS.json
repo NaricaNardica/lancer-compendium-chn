@@ -1,0 +1,78 @@
+{
+  "name": "Kraul Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_atlas",
+    "license_level": 1,
+    "lid": "mw_kraul_rifle",
+    "loaded": false,
+    "manufacturer": "SSC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_inaccurate",
+            "val": ""
+          }
+        ],
+        "on_hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants.",
+        "name": "Kraul Rifle",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "9tw6CWjWh9ThiIPS",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Smart Scope",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting.",
+    "lid": "pg_smart_scope",
+    "tags": [
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "CXlQEjAzp871Cl72",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

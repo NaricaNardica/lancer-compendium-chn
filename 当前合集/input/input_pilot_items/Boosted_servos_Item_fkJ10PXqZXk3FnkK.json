@@ -1,0 +1,89 @@
+{
+  "name": "Boosted servos",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_boosted_servos",
+    "description": "IMMUNITY to the SLOWED condition.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [
+      {
+        "detail": "Your mech has IMMUNITY to the SLOWED condition.",
+        "locations": [
+          "move"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "fkJ10PXqZXk3FnkK",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556080,
+    "modifiedTime": 1747537556080,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

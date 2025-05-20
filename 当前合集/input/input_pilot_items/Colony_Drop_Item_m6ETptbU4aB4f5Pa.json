@@ -1,0 +1,39 @@
+{
+  "name": "Colony Drop",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_colony_drop",
+    "description": "Spend this reserve to have you and your allies drop from a Landmark cargo drop ship, allowing you all to deploy anywhere on the map in the next encounter.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "m6ETptbU4aB4f5Pa",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570693,
+    "modifiedTime": 1747537570693,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

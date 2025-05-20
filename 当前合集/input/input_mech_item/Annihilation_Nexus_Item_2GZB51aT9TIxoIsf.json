@@ -1,0 +1,120 @@
+{
+  "name": "Annihilation Nexus",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_hydra",
+    "license_level": 3,
+    "lid": "mw_annihilation_nexus",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Annihilation Nexus Secondary Attack",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6+3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Burst",
+            "val": 2
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_smart",
+            "val": ""
+          }
+        ],
+        "on_attack": "You can make a second attack with this weapon at the start of your next turn as a protocol. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [
+          {
+            "activation": "Protocol",
+            "cost": 0,
+            "damage": [],
+            "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Annihilation Nexus Secondary Attack",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "“A storm of bladed death” – nanites organized into maniples, released from a chassis’ onboard nexuses or single-use firing tubes in a burst of filament rings so sharp they slice away at their targets on the molecular level. The visual effect of a maniple being launched is often compared to tinsel being fired through atmosphere.",
+        "name": "Annihilation Nexus",
+        "synergies": [],
+        "type": "Nexus"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "2GZB51aT9TIxoIsf",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

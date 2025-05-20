@@ -1,0 +1,87 @@
+{
+  "name": "Plasma Thrower",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_genghis",
+    "license_level": 3,
+    "lid": "mw_plasma_thrower",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6+2"
+          },
+          {
+            "type": "Burn",
+            "val": "6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Cone",
+            "val": 7
+          },
+          {
+            "type": "Line",
+            "val": 10
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_heat_self",
+            "val": "4"
+          }
+        ],
+        "effect": "Can be fired as Cone 7 <i>or</i> Line 10",
+        "on_attack": "White-hot flames continue to burn in 3 free spaces of your choice within the affected area, lasting for the rest of the scene. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 1d6 energy damage.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The plasma thrower emerged too late in the Hercynian Crisis to see widespread use in the field. The scarce data gathered from the MEF squadrons that used it suggest that plasma throwers would have had a tremendous impact on the outcomes of several major battles that occurred during the bloodiest phase of the Crisis.",
+        "name": "Plasma Thrower",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "GWiJCy4GVXDiQyFV",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

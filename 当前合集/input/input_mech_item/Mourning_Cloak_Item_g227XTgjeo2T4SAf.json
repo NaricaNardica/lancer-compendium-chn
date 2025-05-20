@@ -1,0 +1,219 @@
+{
+  "name": "Mourning Cloak",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-MOURNING CLOAK.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "For the rest of the scene, you teleport when you Boost or make a standard move.",
+      "active_name": "Stabilize Singularity",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Open only to highly licensed pilots, the EX Slipstream program is a uniquely SSC innovation. The Ex Slipstream module itself is a miniaturized near-lightspeed drive capable of transporting the user through blinkspace with acceptable accuracy. The technology is temperamental, at best: nothing smaller than a mech can survive the stress of exposed blink travel, and the experience is traumatic to both the user and anyone in close proximity.",
+      "integrated": [],
+      "name": "EX Slipstream Module",
+      "passive_actions": [
+        {
+          "activation": "Full",
+          "cost": 0,
+          "damage": [],
+          "detail": "Teleport to a space within range 3d6. You don’t require line of sight, but attempts to teleport to occupied spaces cause you to remain stationary and lose this action. If you roll the same number on all three dice, you disappear until your group rests, at which point you reappear nearby.",
+          "frequency": null,
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Blinkspace Jump",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_effect": "Gain the Blinkspace Jump Full Action.",
+      "passive_name": "Blinkspace Jump",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The Mourning Cloak is a brand-new model from SSC’s LUX-Iconic line, and the manufacturer’s newest close-quarters combat and melee specialist frame. The Mourning Cloak emphasizes precision melee combat and is commonly outfitted with a complement of shielded microfilament wires designed to act as an anti-armor slashing weapon.<br />Designed by SSC’s Exotic Materials Group based on data from early engagements against the Ascendant Aun in Boundary Garden, the Mourning Cloak combines SSC’s harvested excerpts of DHIYED paracode with adapted Aunic Firmament-manipulation technology. The Mourning Cloak provides a prestigious and tactical option for situations where firearms are impractical and ordnance is unavailable. As part of the LUX-Iconic line, the Mourning Cloak is a popular order in the Baronies and among various high-manna VIP security firms.",
+    "license": "mf_mourning_cloak",
+    "license_level": 2,
+    "lid": "mf_mourning_cloak",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 8,
+      "evasion": 12,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 5,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target.",
+        "integrated": [],
+        "name": "Hunter",
+        "synergies": [
+          {
+            "detail": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Mourning Cloak gains +1 accuracy on Agility checks and saves.",
+        "integrated": [],
+        "name": "Biotic Components",
+        "synergies": [
+          {
+            "detail": "The Mourning Cloak gains +1 accuracy on Agility checks and saves.",
+            "locations": [
+              "agility",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "g227XTgjeo2T4SAf",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

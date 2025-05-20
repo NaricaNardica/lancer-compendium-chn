@@ -1,0 +1,39 @@
+{
+  "name": "Scouting",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_scouting",
+    "description": "Detailed information on the kinds of mechs and threats you will face on the mission, such as number, type, and statistics.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Location",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "hnm6r3UbXJKchyX6",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556080,
+    "modifiedTime": 1747537556080,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

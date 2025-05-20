@@ -1,0 +1,30 @@
+{
+  "name": "Get a Hold of Something",
+  "type": "skill",
+  "system": {
+    "lid": "sk_get_a_hold_of_something",
+    "curr_rank": 1,
+    "description": "Acquire temporary or permanent allies, assets, or connections through wealth or social influence.",
+    "detail": "Acquire useful allies, assets, or connections through wealth or social influence. This could be permanent (buying it or receiving it) or temporary (renting or borrowing help or supplies, etc), and might be harder or easier depending on how much you want to use it. This can’t be used for something that’s normally gated by license level (like mech parts) but could be used for aid, supplies, information, food materials, soldiers, or anything else that has more narrative impact. Typically this is acquired by buying it from a market or requisitioning it from a parent organization."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "Lds3sscfJIUTpddS",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

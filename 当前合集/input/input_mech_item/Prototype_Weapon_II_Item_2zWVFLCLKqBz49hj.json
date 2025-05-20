@@ -1,0 +1,94 @@
+{
+  "name": "Prototype Weapon II",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "lid": "mw_prototype_2",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Variable",
+            "val": "1d6+2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          },
+          {
+            "type": "Range",
+            "val": 10
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_limited",
+            "val": "1d6+2"
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          },
+          {
+            "lid": "tg_set_max_uses",
+            "val": ""
+          },
+          {
+            "lid": "tg_set_damage_type",
+            "val": ""
+          }
+        ],
+        "effect": "This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 1d6+2 to determine this weapon’s Limited uses and choose two:<ul><li><b>Tweaked Optics:</b> Your prototype weapon always gains +1 Accuracy on attacks.</li><li><b>Tweaked Computer:</b> Your prototype weapon is Smart.</li><li><b>Stripped reactor shielding:</b> Each time you attack with your prototype weapon, you may choose – at the cost of 2 Heat – to attack with one of the following options, depending on its weapon type:<ul><li><b>Ranged weapon:</b> Cone 3, Line 5, or [Blast 1, Range 10].</li><li><b>Melee weapon:</b> Burst 1.</li></li></ul></ul>",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Gained from the <i>\"Engineer\" Rank II</i> Talent",
+        "name": "Prototype Weapon II",
+        "synergies": [],
+        "type": "Rifle"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "2zWVFLCLKqBz49hj",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

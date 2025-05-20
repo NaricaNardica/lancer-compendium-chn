@@ -1,0 +1,29 @@
+{
+  "name": "Hidden",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/status_hidden.svg",
+  "system": {
+    "lid": "hidden",
+    "effects": "HIDDEN characters can’t be targeted by hostile attacks or actions, don’t cause engagement, and enemies only know their approximate location. Attacking, forcing saves, taking reactions, using BOOST, and losing cover all remove HIDDEN after they resolve. Characters can find HIDDEN characters with SEARCH.",
+    "type": "status"
+  },
+  "folder": null,
+  "_id": "F7174qtvxcsTm1N2",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

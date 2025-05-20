@@ -1,0 +1,44 @@
+{
+  "name": "Spec Op",
+  "type": "npc_template",
+  "system": {
+    "lid": "npct_commando_spec_op",
+    "description": "Expertly trained and equipped individuals that often deploy in teams to increase their deadly potential even further. Those that end up on the wrong side of such a strike team should exercise extreme caution.",
+    "base_features": [
+      "npcf_operatives_spec_op",
+      "npcf_active_camo_spec_op",
+      "npcf_deadly_precision_spec_op",
+      "npcf_coordinated_carnage_spec_op"
+    ],
+    "optional_features": [
+      "npcf_full_spectrum_sensor_suite_spec_op",
+      "npcf_automated_battlefield_awareness_node_spec_op",
+      "npcf_serrated_machete_spec_op",
+      "npcf_special_munitions_spec_op",
+      "npcf_bulwark_mods_spec_op",
+      "npcf_gyrojet_cannon_spec_op",
+      "npcf_burst_jets_spec_op",
+      "npcf_null_perception_coating_spec_op"
+    ]
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "eJ3Q2PJhh7y4B4HO",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595208,
+    "modifiedTime": 1747537595208,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

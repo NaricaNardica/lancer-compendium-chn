@@ -1,0 +1,107 @@
+{
+  "name": "Tempest",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-TEMPEST.png",
+  "system": {
+    "lid": "ssmr_Tempest",
+    "role": "controller",
+    "flavor": "The ascent to the top is met with trials that will break hearts and shatter bones. Spawned from the misty peaks of the Kimawense Range and from forgotten SecComm warminds, the Tempest, otherwise known as the Ebigane – a title found carved into its massive chassis when first discovered – casts its shadow over all those below. A massive nanite graywash–equipped flying platform intended to inflict localized changes to meteorological patterns, the Ebigane is an ancient mech pattern that predates Union’s mechanized chassis combat doctrines. It hovers above battlefields causing comprehensive weather anomalies intended to rout all hostile forces, soft or hard",
+    "tactics": "The Tempest hovers at the back of the enemy force, where it uses its weather-altering systems to wear down approaching forces. It manipulates area of effect conditions for both allies and hostiles using its Meteorological Graywash system. PCs and NPCs can seek cover from the oppressive weather effects by destroying climate nodes or seeking shelter within their stabilizing area of effect. That said, players should be wary. The Tempest is able to end Meteorological Graywashto deploy Nanite Meteor, which can be redirected to nodes for high damage. The Tempest is best in sitreps where the main goal is preventing hostiles from advancing or denying map zones. Its Nanite Typhoon Cannon can be used to threaten hostile holding zones and or to push enemies into meteor Blast areas. The Tempest comes with a host of optional systems that increase its versatility when interacting with climate nodes. When playing a Tempest, be sure to deploy it with NPCs that take attention away from it or assist it by providing forced movement or debilitating effects.",
+    "base_features": [
+      "npc_Tempest_FlyingPlatform",
+      "npc_Tempest_Centerpiece",
+      "npc_Tempest_EyeoftheStorm",
+      "npc_Tempest_TyphoonNaniteCannon",
+      "npc_Tempest_ClimateNodes",
+      "npc_Tempest_MeteorologicalGraywash",
+      "npc_Tempest_NaniteMeteor",
+      "npc_Tempest_NaniteMonsoonDispensers"
+    ],
+    "optional_features": [
+      "npc_Tempest_HomingNode",
+      "npc_Tempest_LightningGenerator",
+      "npc_Tempest_NaniteManipulation",
+      "npc_Tempest_BlankspaceMetafoldTransferal",
+      "npc_Tempest_Diffusor",
+      "npc_Tempest_IllusoryNodes",
+      "npc_Tempest_ReflexiveGraywall",
+      "npc_Tempest_Redirect",
+      "npc_PDCTurret"
+    ],
+    "base_stats": [
+      {
+        "activations": 2,
+        "stress": 1,
+        "structure": 1,
+        "hp": 30,
+        "armor": 1,
+        "evasion": 8,
+        "edef": 10,
+        "heatcap": 12,
+        "hull": 3,
+        "agi": -1,
+        "sys": 1,
+        "eng": 2,
+        "speed": 2,
+        "sensor_range": 20,
+        "save": 10,
+        "size": 3
+      },
+      {
+        "activations": 2,
+        "stress": 1,
+        "structure": 1,
+        "hp": 35,
+        "armor": 1,
+        "evasion": 8,
+        "edef": 10,
+        "heatcap": 12,
+        "hull": 3,
+        "agi": -1,
+        "sys": 1,
+        "eng": 2,
+        "speed": 2,
+        "sensor_range": 20,
+        "save": 13,
+        "size": 4
+      },
+      {
+        "activations": 3,
+        "stress": 1,
+        "structure": 1,
+        "hp": 40,
+        "armor": 1,
+        "evasion": 8,
+        "edef": 10,
+        "heatcap": 16,
+        "hull": 3,
+        "agi": -1,
+        "sys": 1,
+        "eng": 2,
+        "speed": 3,
+        "sensor_range": 20,
+        "save": 16,
+        "size": 4
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "76DYIAdCJQnKfugF",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636693992,
+    "modifiedTime": 1747636693992,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

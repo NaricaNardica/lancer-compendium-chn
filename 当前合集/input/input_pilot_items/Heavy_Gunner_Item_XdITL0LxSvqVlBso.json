@@ -1,0 +1,202 @@
+{
+  "name": "Heavy Gunner",
+  "type": "talent",
+  "system": {
+    "lid": "t_heavy_gunner",
+    "curr_rank": 1,
+    "description": "Behind the line, Mike Manfrin doesn’t have much to do but wait and make ready. He keeps clean the cannons; makes ordered rows of his shot and shell. He packs sandbags onto earthen berms and stitches closed tears in the sheaths over his chassis’ joints.<br />In an instant, everything changes. Chatter over the local omni. The percussive throb of the medivac lifting off from the other side of the base. Somewhere, a firefight. This is his entrance music, his call to join the fight: a desperate cry for help from a distant friend as the enemy draws close. Time to get to work.<br />His arrival is known by the flight of his shells across the sky, the trembling earth, and the dust that once was.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "Choose a character within line of sight and Range of one of your Heavy ranged weapons, and within 10 spaces: they are Impaired until the start of your next turn. For the duration, if your target moves more than 1 space, they clear Impaired, but you may attack them as a reaction with a Heavy ranged weapon for half damage, Heat, or Burn, and then this effect ends. You can make this attack at any point during their movement (e.g., waiting until they exit cover).<br>Covering Fire can only affect one character at a time – subsequent uses replace previous ones – and it immediately ends if your target damages you.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Covering Fire",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may attack the target with a Heavy ranged weapon for half damage, Heat, or Burn. You can make this attack at any point during their movement (e.g., waiting until they exit cover).",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Covering Fire Attack",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "The target of your Covering Fire moves more than 1 space.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain the <b>Covering Fire</b> Quick Action.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Covering Fire",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "If you successfully hit your Covering Fire target with the attack reaction granted by that talent, your target is Immobilized until the end of their next turn.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Hammerbeat",
+        "synergies": [
+          {
+            "detail": "If you successfully hit with the attack granted by <b>Covering Fire</b>, your target is Immobilized until the end of their next turn.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you use <b>Covering Fire</b>, you may choose two targets instead of one. Each target triggers and resolves your attack separately, and damage from one target only ends the effect on that target.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Bracketing Fire",
+        "synergies": [
+          {
+            "detail": "When you use <b>Covering Fire</b>, you may choose two targets instead of one. Each target triggers and resolves your attack separately, and damage from one target only ends the effect on that target.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Pin enemies down with Heavy Ranged weapons"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "XdITL0LxSvqVlBso",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

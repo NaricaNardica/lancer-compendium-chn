@@ -1,0 +1,77 @@
+{
+  "name": "Kinetic Hammer",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_raleigh",
+    "license_level": 3,
+    "lid": "mw_kinetic_hammer",
+    "loaded": false,
+    "manufacturer": "IPS-N",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "2d6+2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_reliable",
+            "val": "4"
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "A kinetic hammer is a simple tool, but a brutal one. Made up of a supermassive head fused to a long haft, the hammer carries enough force to create massively traumatic pressure waves upon landing a successful blow.",
+        "name": "Kinetic Hammer",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "8JTfWTuTLqRiSk4u",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

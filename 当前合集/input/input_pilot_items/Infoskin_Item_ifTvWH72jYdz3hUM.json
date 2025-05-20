@@ -1,0 +1,41 @@
+{
+  "name": "Infoskin",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A reactive, synthetic polymer with advanced qualities, infoskin bonds quickly to real skin and hair. Once applied, it responds to electronic signals delivered by linked software, rapidly changing its color and texture – even contorting and distorting its form – allowing wearers to make minor changes to their appearance. With infoskin, it’s a simple matter to alter facial features, hair color, or makeup patterns.",
+    "lid": "pg_infoskin",
+    "tags": [
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "ifTvWH72jYdz3hUM",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537555752,
+    "modifiedTime": 1747537555752,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

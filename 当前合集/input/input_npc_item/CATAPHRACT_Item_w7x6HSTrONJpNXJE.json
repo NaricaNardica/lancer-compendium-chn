@@ -1,0 +1,99 @@
+{
+  "name": "CATAPHRACT",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-CATAPHRACT.png",
+  "system": {
+    "lid": "npcc_cataphract",
+    "role": "striker",
+    "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
+    "tactics": "Cataphracts are mobile strikers. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to force vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully.",
+    "base_features": [
+      "npcf_ram_cannon_cataphract",
+      "npcf_trample_cataphract",
+      "npcf_impale_cataphract",
+      "npcf_point_defense_shield_cataphract"
+    ],
+    "optional_features": [
+      "npcf_electrified_lasso_cataphract",
+      "npcf_lance_shot_cataphract",
+      "npcf_electrified_bola_cataphract",
+      "npcf_capacitor_discharge_cataphract",
+      "npcf_charge_cataphract"
+    ],
+    "base_stats": [
+      {
+        "hp": 15,
+        "evasion": 10,
+        "edef": 8,
+        "heatcap": 6,
+        "speed": 8,
+        "sensor_range": 5,
+        "save": 12,
+        "hull": 1,
+        "agi": 1,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "sys": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 17,
+        "evasion": 11,
+        "edef": 8,
+        "heatcap": 7,
+        "speed": 8,
+        "sensor_range": 5,
+        "save": 14,
+        "hull": 2,
+        "agi": 3,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "sys": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 20,
+        "evasion": 12,
+        "edef": 8,
+        "heatcap": 8,
+        "speed": 8,
+        "sensor_range": 5,
+        "save": 16,
+        "hull": 4,
+        "agi": 4,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "sys": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "w7x6HSTrONJpNXJE",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

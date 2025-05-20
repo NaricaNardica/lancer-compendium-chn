@@ -1,0 +1,73 @@
+{
+  "name": "ATHENA-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_athena_class_nhp",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "ATHENA constructs a perfect, real-time, and fully interactive 3D model of a blast 3 area within range 50, including moving characters, all rendered in lovingly extreme detail. The following effects apply:<ul><li>You have full visibility within the affected area, but it doesn’t count as line of sight.</li><li>You know all statistics, weapons, and systems of characters within the affected area.</li><li>Hostile characters within the affected area don’t benefit from cover and can’t Hide or become Invisible.</li><li>Hostile characters that end their turn in the affected area receive Lock On and cease to be Invisible or Hidden.</li></ul>ATHENA’s simulation lasts until the end of the scene, or about 30 minutes within the narrative. You may target a new area as a quick action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Simulacrum",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Smith-Shimano’s ATHENA is the pinnacle of total hyperspectral environmental facsimiles. Through a combination of unfettered omninet access, hyperspectral relays fired out from a Cloudscout TACSIM projector, sub-networked squadmates, and active/hostile intrusion protocols, ATHENA bootstraps a near-flawless reconstruction of the immediate environment around its host core. ATHENA is unparalleled in its processing power, and with this reconstructed environment, it provides trustworthy, accurate advice to pilots in need of strategic counsel.<br />ATHENA clones tend to be patient, cautious, and measured in their relations with their pilots.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and Simulacrum.",
+    "integrated": [],
+    "license": "mf_swallowtail",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "vC1V6QoETfvGwYea",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

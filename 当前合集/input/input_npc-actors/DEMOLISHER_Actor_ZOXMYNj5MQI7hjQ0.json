@@ -1,0 +1,665 @@
+{
+  "name": "DEMOLISHER",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-DEMOLISHER.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 15
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "ZOXMYNj5MQI7hjQ0",
+  "prototypeToken": {
+    "name": "DEMOLISHER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-DEMOLISHER.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "DEMOLISHER",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-DEMOLISHER.png",
+      "system": {
+        "lid": "npcc_demolisher",
+        "role": "defender",
+        "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
+        "tactics": "Demolishers are slow, resilient defenders that dish out plenty of damage and stuns when they get close to the enemy. Use their size and power in melee combat to force enemy characters to move away instead of fighting them, and Dig In to shrug off heavy hits.",
+        "base_features": [
+          "npcf_demolition_hammer_demolisher",
+          "npcf_dig_in_demolisher",
+          "npcf_shock_armor_demolisher",
+          "npcf_heavy_frame_demolisher"
+        ],
+        "optional_features": [
+          "npcf_broad_sweep_haft_demolisher",
+          "npcf_kinetic_compensation_demolisher",
+          "npcf_concussion_missiles_demolisher",
+          "npcf_seismic_destroyer_demolisher",
+          "npcf_sap_demolisher"
+        ],
+        "base_stats": [
+          {
+            "armor": 2,
+            "hp": 15,
+            "evasion": 6,
+            "edef": 7,
+            "heatcap": 8,
+            "speed": 2,
+            "sensor_range": 10,
+            "save": 10,
+            "hull": 3,
+            "agi": -2,
+            "sys": -1,
+            "eng": 2,
+            "size": 2,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 2,
+            "hp": 20,
+            "evasion": 6,
+            "edef": 7,
+            "heatcap": 8,
+            "speed": 2,
+            "sensor_range": 10,
+            "save": 13,
+            "hull": 4,
+            "agi": -2,
+            "sys": -1,
+            "eng": 3,
+            "size": 2,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 2,
+            "hp": 25,
+            "evasion": 6,
+            "edef": 7,
+            "heatcap": 8,
+            "speed": 3,
+            "sensor_range": 10,
+            "save": 15,
+            "hull": 6,
+            "agi": -2,
+            "sys": -1,
+            "eng": 4,
+            "size": 2,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "QHcL6v7xyEjUn7Tb",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636610735,
+        "modifiedTime": 1747636610735,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "DEMOLITION HAMMER",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_demolition_hammer_demolisher",
+        "effect": "",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          }
+        ],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "DEMOLISHER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          -1,
+          -1,
+          -1
+        ],
+        "attack_bonus": [
+          1,
+          2,
+          3
+        ],
+        "weapon_type": "Superheavy Melee",
+        "on_hit": "Targets must succeed on a Hull save or be Stunned until the end of their next turn.",
+        "damage": [
+          [
+            {
+              "type": "Explosive",
+              "val": "10"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "14"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "16"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "hysxwxg7YMERyPe3",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611163,
+        "modifiedTime": 1747636611163,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "DIG IN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_dig_in_demolisher",
+        "effect": "It gains Resistance to all damage from the attack, but become Slowed until the end of its next turn.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_round",
+            "val": "1"
+          },
+          {
+            "lid": "tg_reaction",
+            "val": ""
+          }
+        ],
+        "type": "Reaction",
+        "origin": {
+          "type": "Class",
+          "name": "DEMOLISHER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "trigger": "An attack hits the Demolisher, but damage hasn’t been rolled yet.",
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "UYgcjEznNyYWFaAA",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611163,
+        "modifiedTime": 1747636611163,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SHOCK ARMOR",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_shock_armor_demolisher",
+        "effect": "The Demolisher has Resistance to damage from melee weapons.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "DEMOLISHER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "dVsHVSe8VXETLgSU",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611163,
+        "modifiedTime": 1747636611163,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "HEAVY FRAME",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_heavy_frame_demolisher",
+        "effect": "The Demolisher can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "DEMOLISHER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "NoSfWknsmX0MUwdh",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611163,
+        "modifiedTime": 1747636611163,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636611409,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

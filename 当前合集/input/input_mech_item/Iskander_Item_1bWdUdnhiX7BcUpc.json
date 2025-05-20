@@ -1,0 +1,109 @@
+{
+  "name": "Iskander",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-ISKANDER-2-0.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "This system fires an enormous, expanding cloud of micromines across the whole battlefield, affecting all hostile characters within range 50. For the rest of the scene, when hostile characters make any movement other than their standard move (including involuntary movement), they take 3 AP explosive damage. This effect can trigger any number of times, but only 1/round for each character.",
+      "active_name": "Death Cloud",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The Broad-Sweep Seeder is a proprietary device developed during the Orrugi Occupation, during which Armory legionnaires fought an embittered, recalcitrant local guerilla movement. IEDs, VBEDs, and D/SABEDs were often employed by the resistance; to counter the threat, Harrison Armory developed the Seeder to simultaneously scan, identify, and eliminate explosive threats in proximity to stationary units. The technology proved successful and, with minor adaptation, was adapted for installation on Armory frames.<br />The Broad-Sweep Seeder emits an excited LIDAR hivecone to flag potential targets: if positive identification occurs, the target is neutralized with a spray of mag-accelerated, dull-coat flechettes. The Seeder can also carry explosive hivemines.",
+      "integrated": [],
+      "name": "Broad-Sweep Seeder",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "Developed on the proving grounds of the Armory’s Think Tank, the Iskander is a new specialist frame designed to bring gravtech area-control and breach capabilities to a mechanized platform.<br />A bulky frame, the Iskander fields a mix of kinetic and causal-energy systems that empower pilots to triumph in a wide portfolio of scenarios. The Iskander platform has no civilian counterpart: it is intended to be used as a frontline command and control platform, with an emphasis toward identifying and eliminating static explosive threats.",
+    "license": "mf_iskander",
+    "license_level": 2,
+    "lid": "mf_iskander",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Controller"
+    ],
+    "mounts": [
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 10,
+      "heatcap": 7,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": 1,
+      "save": 12,
+      "speed": 3,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, the Iskander may throw one Grenade or plant one Mine as though it has range 15.",
+        "integrated": [],
+        "name": "Assault Launcher",
+        "synergies": [],
+        "use": "Round"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when the Iskander plants a Mine (even using its Assault Launcher trait), it may plant up to two other Mines in free spaces adjacent to itself as a free action.",
+        "integrated": [],
+        "name": "Mine Deployers",
+        "synergies": [],
+        "use": "Round"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Iskander never triggers or sets off Mines or other proximity-based systems unless it chooses to do so.",
+        "integrated": [],
+        "name": "Skeleton Key",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "1bWdUdnhiX7BcUpc",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

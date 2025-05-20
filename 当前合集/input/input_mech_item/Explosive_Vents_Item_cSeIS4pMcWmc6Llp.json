@@ -1,0 +1,53 @@
+{
+  "name": "Explosive Vents",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_explosive_vents",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "With the right tweaks, it becomes possible to dump excess heat into the area directly surrounding a chassis. Explosive venting is an unsanctioned, unsafe method of sudden cooling that has nevertheless been adopted by many pilots.",
+    "destroyed": false,
+    "effect": "When you clear all heat or take stress, your mech’s cooling vents open and unleash a burst 1 explosion. Characters within the affected area take 2 heat and 2 burn.",
+    "integrated": [],
+    "license": "mf_genghis",
+    "license_level": 1,
+    "manufacturer": "HA",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_round",
+        "val": "1"
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "cSeIS4pMcWmc6Llp",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

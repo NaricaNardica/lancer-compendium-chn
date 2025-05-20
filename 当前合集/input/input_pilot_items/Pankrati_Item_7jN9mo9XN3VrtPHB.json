@@ -1,0 +1,134 @@
+{
+  "name": "Pankrati",
+  "type": "talent",
+  "system": {
+    "lid": "t_pankrati",
+    "curr_rank": 1,
+    "description": "Your fighting is as flashy as the greatest fighters of the Kreoss, and your mech leaps into battle with great aplomb.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You gain +1 Accuracy to melee attacks against Immobilized or Slowed targets.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Veni",
+        "synergies": [
+          {
+            "detail": "Your melee attacks against Immobilized or Slowed characters gain +1 Accuracy.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Free",
+            "cost": 0,
+            "damage": [],
+            "detail": "You charge, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn.",
+            "frequency": "1/scene",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Valiant Charge",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/scene, you can make a Valiant Charge as a free action on your turn, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Vidi",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "If you start your Valiant Charge adjacent to any allied characters, they may immediately Boost as a reaction after your charge resolves.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Vici",
+        "synergies": []
+      }
+    ],
+    "terse": "Rush and overpower slower opponents"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "7jN9mo9XN3VrtPHB",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578539,
+    "modifiedTime": 1747537578539,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

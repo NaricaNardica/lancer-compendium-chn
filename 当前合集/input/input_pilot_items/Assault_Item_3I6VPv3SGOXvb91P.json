@@ -1,0 +1,30 @@
+{
+  "name": "Assault",
+  "type": "skill",
+  "system": {
+    "lid": "sk_assault",
+    "curr_rank": 1,
+    "description": "Take part in direct and overt combat.",
+    "detail": "Take part in direct and overt combat: fighting your way through a building packed with hostile mercenaries, trading shots between rain-slick trenches, fighting in chaotic microgravity as part of a boarding action, or engaging the enemy in the smoking urban rubble of a city under orbital bombardment — When you assault, you’re always assaulting something (a position, a rival pilot, an enemy force, a group of guards), and it’s always loud, open, direct action."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "3I6VPv3SGOXvb91P",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

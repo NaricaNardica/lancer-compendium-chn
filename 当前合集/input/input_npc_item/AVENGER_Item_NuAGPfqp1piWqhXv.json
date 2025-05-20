@@ -1,0 +1,99 @@
+{
+  "name": "AVENGER",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-AVENGER.png",
+  "system": {
+    "lid": "nrfaw-npc_npcc_avenger",
+    "role": "striker",
+    "flavor": "Avenger-class mechs are typically piloted by zealots, career warriors, and people from cultures that place significant value on praetorian or warrior castes. In battle, these pilots act as force multipliers and squad leaders, but they tend to be more notable as individuals than for their machines. Avenger pilots have tight bonds to their allies – strong enough that the intense emotions of battle, loss, and struggle can push them to incredible feats of heroism when the tide turns in their enemies’ favor.",
+    "tactics": "While not particularly dangerous to begin with, Avengers become much more threatening when their allies start falling around them. Place them near other high-priority targets to take advantage of their REVENGE ability, forcing characters to choose between taking them out first or suffering more for destroying their allies.",
+    "base_features": [
+      "nrfaw-npc_npcf_slug_pistol_avenger",
+      "nrfaw-npc_npcf_erupting_shrapnel_avenger",
+      "nrfaw-npc_npcf_assault_armor_avenger",
+      "nrfaw-npc_npcf_revenge_avenger"
+    ],
+    "optional_features": [
+      "nrfaw-npc_npcf_deadly_avenger",
+      "nrfaw-npc_npcf_endless_revenge_avenger",
+      "nrfaw-npc_npcf_infectious_revenge_avenger",
+      "nrfaw-npc_npcf_judgement_shotgun_avenger",
+      "nrfaw-npc_npcf_mimic_mesh_avenger"
+    ],
+    "base_stats": [
+      {
+        "hp": 15,
+        "evasion": 10,
+        "edef": 8,
+        "heatcap": 6,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 10,
+        "hull": 1,
+        "agi": 1,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "sys": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 18,
+        "evasion": 12,
+        "edef": 10,
+        "heatcap": 6,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 12,
+        "hull": 2,
+        "agi": 3,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "sys": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 21,
+        "evasion": 15,
+        "edef": 12,
+        "heatcap": 8,
+        "speed": 5,
+        "sensor_range": 10,
+        "save": 14,
+        "hull": 3,
+        "agi": 5,
+        "size": 1,
+        "activations": 1,
+        "armor": 0,
+        "sys": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "NuAGPfqp1piWqhXv",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683237,
+    "modifiedTime": 1747636683237,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

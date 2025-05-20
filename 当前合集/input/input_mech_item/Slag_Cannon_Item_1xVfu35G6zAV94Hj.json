@@ -1,0 +1,84 @@
+{
+  "name": "Slag Cannon",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [
+      "dep_slag"
+    ],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_kobold",
+    "license_level": 2,
+    "lid": "mw_slag_cannon",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_heat_self",
+            "val": "1"
+          },
+          {
+            "lid": "tg_deployable",
+            "val": "0"
+          }
+        ],
+        "effect": "If your target is on the ground or a flat surface, once this attack resolves place a SIZE 1 mound of slag in a free space adjacent to them. The mound is an object with EVASION 5 and 10 HP.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Dripping with molten fury, the Slag Cannon is quick to print and requires little training to use effectively. Temperamental but powerful, the Slag Cannon utilizes a simple rawmat-decomp system wedded to an insulated projector to break down, superheat, and cast a stream of plural-state particles at its target. Once cast in this way, the plural-state particles snap into coherence at a range of roughly 80-100 meters, creating base-element lumps of slag wherever they come to rest.",
+        "name": "Slag Cannon",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "1xVfu35G6zAV94Hj",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

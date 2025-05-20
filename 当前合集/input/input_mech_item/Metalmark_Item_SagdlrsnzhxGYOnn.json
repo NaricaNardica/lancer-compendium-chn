@@ -1,0 +1,149 @@
+{
+  "name": "Metalmark",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-METALMARK-2-0.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "You are Invisible for the rest of the scene.",
+      "active_name": "Tactical Cloak",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Tactical cloaks are tight-knit, tight-bind weaves of reactive fabric – high-license tech restricted to pilots of Metalmark Classification II or higher. The weave covers roughly 80% of a mech’s surface area, giving it a dull quality when viewed through optics or with the naked eye. Beyond their use as regular camouflage, activated tactical cloaks bend light in a way that makes their wearers nearly impossible to see.",
+      "integrated": [],
+      "name": "Tactical Cloak",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The Metalmark is the backbone of SSC’s BELLA CIAO mil-spec chassis line, fully equipped with a comprehensive suite of proprietary design and engineering hallmarks to ensure its survivability, deadliness, and agility. Under the increasingly militaristic reign of Union’s Second Committee, SSC’s corporate board pushed to develop the company’s mil-spec supply, logistics, and personal defense divisions; following the advent of the mechanized chassis, the budding SSC SupLogDef division was restructured and refocused to concentrate on chassis development. The first iterations of the Metalmark were designed for the Second Committee’s WARRIOR NEXT program: however, before the chassis could be tested, the Hercynian Crisis spiraled out of control, toppling the Second Committee.<br />The Metalmark was retired in the wake of the Crisis and the restructuring of Union’s Central Committee, deemed too time consuming to produce as a mass-market chassis. SSC reworked the frame, tapped it to lead their new BELLA CIAO line, and concentrated on small-market, exclusive security contracts. The Metalmark is now a valued model among security forces. Its form reflects SSC’s deep-space and long-patrol heritage, blending anthropomorphic and aquiline design elements, sturdy construction, and multiple redundant systems. Leaning fully into their operator-specific marketing, all Metalmark models come standard with a Smith Custom Leather gimbaled pilot seat to ensure comfort on long deployments.",
+    "license": "mf_metalmark",
+    "license_level": 2,
+    "lid": "mf_metalmark",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Aux/Aux",
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 10,
+      "edef": 6,
+      "heatcap": 5,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 5,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Metalmark is Invisible while moving, but reappears when stationary.",
+        "integrated": [],
+        "name": "Flash Cloak",
+        "synergies": [
+          {
+            "detail": "The Metalmark is Invisible while moving.",
+            "locations": [
+              "move"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Metalmark is in soft cover, ranged attackers receive +2 difficulty instead of +1 difficulty.",
+        "integrated": [],
+        "name": "Carapace Adaptation",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "SagdlrsnzhxGYOnn",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

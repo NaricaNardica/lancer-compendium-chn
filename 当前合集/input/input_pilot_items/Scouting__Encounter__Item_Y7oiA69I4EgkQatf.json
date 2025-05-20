@@ -1,0 +1,39 @@
+{
+  "name": "Scouting (Encounter)",
+  "type": "reserve",
+  "system": {
+    "lid": "reserves_scouting_encounter",
+    "description": "Spend this reserve to look at one encounter and learn all information about the NPCs and sitrep involved before it starts. You must spend this at the start of combat.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "Y7oiA69I4EgkQatf",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570693,
+    "modifiedTime": 1747537570693,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

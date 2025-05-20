@@ -1,0 +1,64 @@
+{
+  "name": "Total Strength Suite I",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_total_strength_suite_i",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You rip up a piece of the environment and hurl it at a character within Range 5 and line of sight. Your target must pass an Agility save or take 1d6 kinetic damage and be knocked back 1 space directly away from you. After you take this action, place a Size 1 piece of terrain that grants hard cover in a free space adjacent to your target, even if they passed the save. The terrain has 10 HP and Evasion 5.<br>If there is a Size 1 object or piece of cover adjacent to you, you can move it as part of this action; otherwise, your projectile is ripped out of the ground or environment. If there's nothing to grab nearby or you're not on the ground you can't take this action",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "This whole-system upgrade was the result of tweaks Xiong Xiaoli made to her mech throughout a long career with the MSMC, many of which have now been incorporated into standard IPS-N frame construction protocol. The package comes in three stages, the first of which contains a set of spinal enhancements that allow a mech to rapidly lift and move large weights without systemic damage.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_zheng",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 1,
+    "synergies": [],
+    "tags": [],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "yhqNDnoQ9ypNDD9l",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

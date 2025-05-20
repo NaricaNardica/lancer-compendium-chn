@@ -1,0 +1,550 @@
+{
+  "name": "SUPPORT",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SUPPORT.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 15
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "VdZEiK30b8BStR51",
+  "prototypeToken": {
+    "name": "SUPPORT",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SUPPORT.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "SUPPORT",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SUPPORT.png",
+      "system": {
+        "lid": "npcc_support",
+        "role": "support",
+        "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
+        "tactics": "Supports are bulky mechs that can’t deal any damage but have access to powerful healing and condition-clearing effects. Despite their resilience, they have no way to defend themselves and need to get close to their allies in order to be effective. Savvy players will shoot and destroy their Restock Drones before they are activated, denying an opportunity for healing.",
+        "base_features": [
+          "npcf_sealant_gun_support",
+          "npcf_restock_drone_support",
+          "npcf_nano_repair_cloud_support"
+        ],
+        "optional_features": [
+          "npcf_remote_reboot_support",
+          "npcf_empowered_cloud_support",
+          "npcf_remote_cloud_support",
+          "npcf_defensive_pulse_support",
+          "npcf_latch_drone_support"
+        ],
+        "base_stats": [
+          {
+            "armor": 1,
+            "hp": 15,
+            "evasion": 8,
+            "edef": 8,
+            "heatcap": 8,
+            "speed": 4,
+            "sensor_range": 10,
+            "save": 10,
+            "hull": 1,
+            "agi": -2,
+            "eng": 2,
+            "size": 2,
+            "activations": 1,
+            "sys": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 18,
+            "evasion": 10,
+            "edef": 10,
+            "heatcap": 8,
+            "speed": 4,
+            "sensor_range": 10,
+            "save": 12,
+            "hull": 1,
+            "agi": -1,
+            "sys": 1,
+            "eng": 4,
+            "size": 2,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 22,
+            "evasion": 12,
+            "edef": 12,
+            "heatcap": 8,
+            "speed": 4,
+            "sensor_range": 10,
+            "save": 14,
+            "hull": 1,
+            "agi": -1,
+            "sys": 2,
+            "eng": 6,
+            "size": 2,
+            "activations": 1,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "C94XiK2kY4h82ffy",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636617509,
+        "modifiedTime": 1747636617509,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SEALANT GUN",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_sealant_gun_support",
+        "effect": "The Support chooses a character within line of sight and Range 5, allied or hostile:<ul><li>Allied: The target clears all Burn, but becomes Slowed until the end of their next turn.</li><li>Hostile: The target must succeed on an Agility save or become Slowed until the end of their next turn. Succeed or fail, a Burst 1 area around them becomes difficult terrain for the rest of the scene.</li></ul>",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "SUPPORT",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "3l5MTwaa5q3gUA3T",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636617813,
+        "modifiedTime": 1747636617813,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "RESTOCK DRONE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_restock_drone_support",
+        "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/12/14}, E-Defense {10/12/14}, Tags: Drone)<br />This drone can be deployed hovering in a space within range 5. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them regain {5/10/15} HP.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_drone",
+            "val": ""
+          },
+          {
+            "lid": "tg_recharge",
+            "val": "5"
+          },
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "SUPPORT",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "JUB8HGKxjNm39al5",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636617813,
+        "modifiedTime": 1747636617870,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "NANO-REPAIR CLOUD",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_nano_repair_cloud_support",
+        "effect": "While they are adjacent to the Support, allied characters roll twice on all saves and mech skill checks and choose the higher result.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "SUPPORT",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "wGb8sazqQ8x4BVfY",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636617813,
+        "modifiedTime": 1747636617813,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636617999,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

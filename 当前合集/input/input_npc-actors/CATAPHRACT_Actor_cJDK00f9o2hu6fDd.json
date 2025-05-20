@@ -1,0 +1,668 @@
+{
+  "name": "CATAPHRACT",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-CATAPHRACT.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 15
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "cJDK00f9o2hu6fDd",
+  "prototypeToken": {
+    "name": "CATAPHRACT",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-CATAPHRACT.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "CATAPHRACT",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-CATAPHRACT.png",
+      "system": {
+        "lid": "npcc_cataphract",
+        "role": "striker",
+        "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
+        "tactics": "Cataphracts are mobile strikers. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to force vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully.",
+        "base_features": [
+          "npcf_ram_cannon_cataphract",
+          "npcf_trample_cataphract",
+          "npcf_impale_cataphract",
+          "npcf_point_defense_shield_cataphract"
+        ],
+        "optional_features": [
+          "npcf_electrified_lasso_cataphract",
+          "npcf_lance_shot_cataphract",
+          "npcf_electrified_bola_cataphract",
+          "npcf_capacitor_discharge_cataphract",
+          "npcf_charge_cataphract"
+        ],
+        "base_stats": [
+          {
+            "hp": 15,
+            "evasion": 10,
+            "edef": 8,
+            "heatcap": 6,
+            "speed": 8,
+            "sensor_range": 5,
+            "save": 12,
+            "hull": 1,
+            "agi": 1,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "sys": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 17,
+            "evasion": 11,
+            "edef": 8,
+            "heatcap": 7,
+            "speed": 8,
+            "sensor_range": 5,
+            "save": 14,
+            "hull": 2,
+            "agi": 3,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "sys": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 20,
+            "evasion": 12,
+            "edef": 8,
+            "heatcap": 8,
+            "speed": 8,
+            "sensor_range": 5,
+            "save": 16,
+            "hull": 4,
+            "agi": 4,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "sys": 0,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "qrIs4by8dAyxCg6j",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636610326,
+        "modifiedTime": 1747636610326,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "RAM CANNON",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_ram_cannon_cataphract",
+        "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. At T2–3, this weapon can make two attacks at a time, targeting either the same character or two different ones.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "CATAPHRACT",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          1,
+          2,
+          3
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "weapon_type": "Heavy Melee/Heavy Cannon",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "FwdtukY9SnuvWpUE",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636610704,
+        "modifiedTime": 1747636610704,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "TRAMPLE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_trample_cataphract",
+        "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing {2/3/4} kinetic damage to those characters.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "CATAPHRACT",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "Ph4dPLnjITGfkr7E",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636610704,
+        "modifiedTime": 1747636610704,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "IMPALE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_impale_cataphract",
+        "effect": "The Cataphract moves up to 8 spaces in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they make a Hull save at +1 Difficulty. On a failure, they are grappled by the Cataphract and pulled with the Cataphract to the end of their movement.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "6"
+          },
+          {
+            "lid": "tg_full_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "CATAPHRACT",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "bJ5FwLlEdjP4bYjc",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636610704,
+        "modifiedTime": 1747636610761,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "POINT-DEFENSE SHIELD",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_point_defense_shield_cataphract",
+        "effect": "The Cataphract has Resistance to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_shield",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "CATAPHRACT",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "a2LQVOlq4WeWhxDt",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636610704,
+        "modifiedTime": 1747636610704,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636610968,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

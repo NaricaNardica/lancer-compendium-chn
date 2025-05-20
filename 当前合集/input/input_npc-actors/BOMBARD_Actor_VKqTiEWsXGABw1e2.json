@@ -1,0 +1,672 @@
+{
+  "name": "BOMBARD",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BOMBARD.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 10
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "VKqTiEWsXGABw1e2",
+  "prototypeToken": {
+    "name": "BOMBARD",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BOMBARD.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "BOMBARD",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BOMBARD.png",
+      "system": {
+        "lid": "npcc_bombard",
+        "role": "artillery",
+        "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
+        "tactics": "Bombards are very long-range artillery mechs designed to punish characters that stay close together to take advantage of adjacency bonuses. They are relatively fragile up close, but resilient at a distance, so place them far back to maximize their effectiveness. Bombards’ Earthshaker Shells are great for preventing enemy movement and providing cover, but can harm allies as well.",
+        "base_features": [
+          "npcf_bombard_cannon_bombard",
+          "npcf_cluster_munitions_bombard",
+          "npcf_earthshaker_shells_bombard",
+          "npcf_siege_armor_bombard"
+        ],
+        "optional_features": [
+          "npcf_high_impact_shells_bombard",
+          "npcf_bunker_buster_bombard",
+          "npcf_flare_drone_bombard",
+          "npcf_repeater_cannon_bombard",
+          "npcf_cluster_seeker_bombs_bombard"
+        ],
+        "base_stats": [
+          {
+            "hp": 10,
+            "evasion": 7,
+            "edef": 12,
+            "heatcap": 8,
+            "speed": 2,
+            "sensor_range": 15,
+            "save": 11,
+            "agi": -1,
+            "sys": 1,
+            "eng": 2,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "hull": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 13,
+            "evasion": 8,
+            "edef": 14,
+            "heatcap": 8,
+            "speed": 2,
+            "sensor_range": 15,
+            "save": 13,
+            "hull": 1,
+            "agi": -1,
+            "sys": 2,
+            "eng": 3,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 16,
+            "evasion": 8,
+            "edef": 16,
+            "heatcap": 8,
+            "speed": 3,
+            "sensor_range": 15,
+            "save": 16,
+            "hull": 1,
+            "agi": -1,
+            "sys": 3,
+            "eng": 5,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "FCQL1QaQEypbbRBj",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609554,
+        "modifiedTime": 1747636609554,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "BOMBARD CANNON",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_bombard_cannon_bombard",
+        "effect": "",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_arcing",
+            "val": ""
+          },
+          {
+            "lid": "tg_ordnance",
+            "val": ""
+          }
+        ],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "BOMBARD",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          -1,
+          -1,
+          -1
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "weapon_type": "Superheavy Cannon",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Explosive",
+              "val": "5"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "7"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "8"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 25
+          },
+          {
+            "type": "Blast",
+            "val": 2
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "6zbkQUxS1GmhiQXK",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609939,
+        "modifiedTime": 1747636609939,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "CLUSTER MUNITIONS",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_cluster_munitions_bombard",
+        "effect": "The Bombard’s attacks deal +{2/3/4} damage to all targets for each target beyond the first.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "BOMBARD",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "4XrauWK93zaM6QIv",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609939,
+        "modifiedTime": 1747636609939,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "EARTHSHAKER SHELLS",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_earthshaker_shells_bombard",
+        "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, characters within Burst 3 of the targeted space must succeed on a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces of the Bombard’s choice (within the affected area).",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "6"
+          },
+          {
+            "lid": "tg_free_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "BOMBARD",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "siUejSmsQOVoO2I9",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609939,
+        "modifiedTime": 1747636609995,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SIEGE ARMOR",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_siege_armor_bombard",
+        "effect": "The Bombard has Resistance to all damage from attacks that originate beyond range 3.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "BOMBARD",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "0U9x8I02OSyOfB2r",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636609939,
+        "modifiedTime": 1747636609939,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636610170,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

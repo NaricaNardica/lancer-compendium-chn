@@ -1,0 +1,30 @@
+{
+  "name": "Word on the Street",
+  "type": "skill",
+  "system": {
+    "lid": "sk_word_on_the_street",
+    "curr_rank": 1,
+    "description": "Get gossip, news, or hearsay from the streets, or from a particular social scene.",
+    "detail": "Get gossip, news, or hearsay from the streets. What you get depends on what ‘streets’ you are getting word from (high society, low society, hearsay, military chatter, etc). This probably takes a lot less time than investigating something in detail, but the information might be more qualitative or colored by opinion (sometimes that might be useful). You can always learn where the information came from or who to go to next."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "f9v8gNUWWRreq6HF",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

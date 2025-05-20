@@ -1,0 +1,86 @@
+{
+  "name": "Fuel Rod Gun",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "lid": "mw_fuel_rod_gun",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d3+2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_limited",
+            "val": "3"
+          },
+          {
+            "lid": "tg_unique",
+            "val": ""
+          }
+        ],
+        "on_attack": "Clear 4 heat.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Gained from the \"Nuclear Cavalier\" Rank 3 Talent",
+        "name": "Fuel Rod Gun",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "VrAOdO0sWNCJxEPh",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

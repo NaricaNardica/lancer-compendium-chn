@@ -1,0 +1,42 @@
+{
+  "name": "Horror",
+  "type": "npc_template",
+  "system": {
+    "lid": "npct_horror",
+    "description": "Artificial horrors beyond human comprehension. From biosynth-hybrid mechs and nanite-swarm gestalt-schools to phase-shifted tachyon phantoms. A horror may come in many forms, but those that are forced to face one in combat will always recognize it for what it is.",
+    "base_features": [
+      "npcf_mutations_horror"
+    ],
+    "optional_features": [
+      "npcf_abomination_horror",
+      "npcf_disruptor_whip_horror",
+      "npcf_quadruped_horror",
+      "npcf_superfluous_extremeties_horror",
+      "npcf_terrifying_horror",
+      "npcf_abhorrent_redundancies_horror",
+      "npcf_assimilaiton_maw_horror",
+      "npcf_phase_shift_generator_horror",
+      "npcf_artificial_horror"
+    ]
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "RHL3bPsjdkJrFvLl",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595208,
+    "modifiedTime": 1747537595208,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

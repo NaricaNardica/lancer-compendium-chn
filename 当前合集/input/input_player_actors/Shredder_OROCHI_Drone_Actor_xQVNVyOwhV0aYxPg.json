@@ -1,0 +1,161 @@
+{
+  "name": "Shredder OROCHI Drone",
+  "system": {
+    "actions": [],
+    "counters": [],
+    "synergies": [],
+    "tags": [],
+    "activation": "Free",
+    "stats": {
+      "armor": 0,
+      "edef": 10,
+      "evasion": 10,
+      "heatcap": 0,
+      "hp": "5 + @grit",
+      "save": 10,
+      "size": 0.5,
+      "speed": 0
+    },
+    "activations": 0,
+    "avail_mounted": true,
+    "avail_unmounted": false,
+    "hp": {
+      "min": 0,
+      "max": 5,
+      "value": 5
+    },
+    "burn": 0,
+    "cost": 1,
+    "custom_counters": [],
+    "deactivation": null,
+    "deployer": null,
+    "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Hull save. On a failure, they take 1 kinetic damage and become Shredded until the end of their next turn.",
+    "instances": 1,
+    "lid": "dep_shredder_orochi_drone",
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "recall": "Quick",
+    "redeploy": "Quick",
+    "type": "Drone",
+    "owner": null,
+    "inherited_effects": null,
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    }
+  },
+  "type": "deployable",
+  "folder": "JlYUYsVMUJXGE4ol",
+  "_id": "xQVNVyOwhV0aYxPg",
+  "img": "systems/lancer/assets/icons/deployable.svg",
+  "prototypeToken": {
+    "name": "Shredder OROCHI Drone",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/icons/deployable.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557503,
+    "modifiedTime": 1747537557503,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

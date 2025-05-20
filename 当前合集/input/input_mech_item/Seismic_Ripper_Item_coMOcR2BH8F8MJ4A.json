@@ -1,0 +1,64 @@
+{
+  "name": "Seismic Ripper",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_seismic_pulse",
+    "actions": [
+      {
+        "activation": "Full",
+        "cost": 0,
+        "damage": [],
+        "detail": "You unleash a seismic pulse in a line 10 path: characters in the affected area must pass a Hull save or be knocked Prone and all objects and pieces of terrain automatically take 10 AP energy damage. If this destroys a piece of terrain or object, it explodes with a Burst 1 area. Characters caught in the area of exploding terrain or objects must pass an Agility save or take 2d6 explosive damage. If they pass, they take half damage. Each character can only be affected by one of these explosions at a time, even if several overlap.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "A deadly weapon created from simple shaped charges – the perfect catalyst for insurrection. Easily obtained and disguised as necessary equipment for blast-mining, charges rigged to produce a linear seismic pulse were common in the early days of Ungrateful activity. As Baronic security adapted their strategies, so too did the Ungratefuls; now, these once-simple explosive devices are much more complex – harder to detect, and far more deadly.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_kobold",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "coMOcR2BH8F8MJ4A",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

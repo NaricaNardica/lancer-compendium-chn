@@ -1,0 +1,77 @@
+{
+  "name": "Blinkshield",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_blinkshield",
+    "actions": [
+      {
+        "activation": "Full",
+        "cost": 0,
+        "damage": [],
+        "detail": "This system generates a burst 4 bubble around your mech, within which the flow of time is altered drastically. Nothing can enter or exit the bubble, not even light – it’s both impermeable and has Immunity to all damage and effects. Line of sight can’t be drawn through the border of the area, and it can’t be crossed by any action or effect – even those that don’t require line of sight – but time passes normally on both sides. For characters within the affected area, the world outside goes totally black; likewise, characters outside the affected area see a perfect black sphere.<br>When the Blinkshield is activated, characters partially within the affected area must make an Agility save: on a success, they move to the nearest free space on the side of their choice, inside or outside the area; on a failure, you choose.<br>This effect remains stationary even if you move, and lasts until the end of your next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_napoleon",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "4"
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "33XL6aMbdXcANSN2",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

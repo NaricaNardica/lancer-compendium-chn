@@ -1,0 +1,88 @@
+{
+  "name": "Titanomachy Mesh",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A double overlay of Goliath Weave at key stress points and beefed-up specifications across the board greatly improve the baseline functionality of any mech.",
+    "effect": "1/round, when you successfully Ram or Grapple a mech, you can Ram or Grapple again as a free action. Additionally, when you knock targets back with melee attacks, you knock them back 1 additional space.",
+    "integrated": [],
+    "lid": "cb_titanomachy_mesh",
+    "manufacturer": "IPS-N",
+    "synergies": [
+      {
+        "detail": "1/round, when you successfully Ram or Grapple a mech, you can Ram or Grapple again as a free action.",
+        "locations": [
+          "ram",
+          "grapple"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "0MV37fIgJ5CMHCRo",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Legion Nexus",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [
+      "dep_legion_drone"
+    ],
+    "destroyed": false,
+    "integrated": [],
+    "license": "Gilgamesh",
+    "license_level": 3,
+    "lid": "mw_legion_nexus",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "3d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 10
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_smart",
+            "val": ""
+          },
+          {
+            "lid": "tg_limited",
+            "val": "3"
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          },
+          {
+            "lid": "tg_drone",
+            "val": "0"
+          }
+        ],
+        "effect": "1/round, after attacking with this weapon, you may expend a charge as a free action to task a team of subalterns to operate independently from the main unit. This counts as a Drone deployed in a free space adjacent to you. You may attack with this weapon without expending or requiring charges, and this weapon can be destroyed (due to critical damage or other effects) even if it has no charges remaining.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The PRAETORIAN combat subaltern is one of the Armory's latest and most advanced models, designed for shock assault, seize-and-hold, and combined arms doctrines. Utilizing a tiered hierarchy/command structure allowing them to operate at levels ranging from individual fire teams to brigade strength under local comp/con or NHP command, a squadron of PRAETORIAN subalterns can also be seconded to pilots under local nexus node control, and one or more squadrons are often assigned to legionnaire units during combat operations to provide integrated support.",
+        "name": "Legion Nexus",
+        "synergies": [],
+        "type": "Nexus"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 2,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "2suRxnstmEVklN9U",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

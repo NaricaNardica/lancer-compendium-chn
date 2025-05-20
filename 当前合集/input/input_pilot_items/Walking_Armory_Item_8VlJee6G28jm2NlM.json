@@ -1,0 +1,71 @@
+{
+  "name": "Walking Armory",
+  "type": "talent",
+  "system": {
+    "lid": "t_walking_armory",
+    "curr_rank": 1,
+    "description": "Think of a firefight: what’s your average pilot or trooper gonna sling? Jacketed lead, of course. A mag or three of depleted uranium if their target’s a big one. Boring. No, worse than boring: Dull. Predictable. Basic.<br />And guess what? Dull isn’t fun, predictable gets you killed, and basic leaves a boring body. Put down the depleted uranium and pick up a magazine of anoriginary stutterblink slugs, or at least a pack of tachyon flechettes. Lay waste in style, and live forever.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You carry a supply of custom ammunition that can be used with all your main ranged weapons. Gain the Ammo Case system.<br> Once per turn, when you attack with a MAIN ranged weapon, you may expend one charge to apply one of the following effects to your attack: <ul><li> THUMPER: The attack gains KNOCKBACK 1 and deals Explosive damage.</li><li>SHOCK: The attack deals Energy damage. Choose one character targeted by your attack; adjacent characters take 1 AP Energy Damage, whether the result is a hit or miss.</li><li>MAG: The attack gains ARCING and deals Kinetic damage.</li></ul>",
+        "exclusive": true,
+        "integrated": [
+          "ms_walking_armory_1"
+        ],
+        "name": "Armament",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Upgrade your Ammo Case, gaining new ammunition types, each of which costs two charges rather than one.<br><ul><li>HELLFIRE (2 charges): The attack deals Energy damage and deals any bonus damage as Burn.</li><li>JAGER (2 charges): The attack gains KNOCKBACK 2, deals Explosive damage, and one character hit by the attack – your choice – must succeed on a HULL save or be knocked PRONE.</li><li>SABOT (2 charges): The attack gains AP and deals Kinetic damage.</li></ul>",
+        "exclusive": true,
+        "integrated": [
+          "ms_walking_armory_2"
+        ],
+        "name": "Expanded Portfolio",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Upgrade your Ammo Case again. If you perform a critical hit using ammunition from your Ammo Case, you don’t expend any charges. If your attack has more than one target, this effect only applies to the first attack roll you make.",
+        "exclusive": true,
+        "integrated": [
+          "ms_walking_armory_3"
+        ],
+        "name": "Efficiency",
+        "synergies": []
+      }
+    ],
+    "terse": "Gain an Ammo Case to add effects to Main ranged weapons"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "8VlJee6G28jm2NlM",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": "HUMAN",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Misc-HUMAN.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 6
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "fZOYNPJ2v0BRWCRL",
+  "prototypeToken": {
+    "name": "HUMAN",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Misc-HUMAN.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "HUMAN",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Misc-HUMAN.png",
+      "system": {
+        "lid": "npcc_human",
+        "role": "biological",
+        "flavor": "All kinds of people end up on the battlefield, including pilots, VIPs, and bystanders.<br />You will mostly use Human NPCs when someone climbs out of their mech mid-battle; if you want a proper group of infantry, use the Squad class instead. Humans can never take other templates, and cannot gain structure.",
+        "tactics": "",
+        "base_features": [],
+        "optional_features": [
+          "npcf_ranged_weapon_human",
+          "npcf_melee_weapon_human",
+          "npcf_anti_armor_weapon_human",
+          "npcf_veteran_human",
+          "npcf_armored_human"
+        ],
+        "base_stats": [
+          {
+            "hp": 6,
+            "evasion": 10,
+            "edef": 10,
+            "speed": 4,
+            "sensor_range": 5,
+            "save": 10,
+            "hull": 1,
+            "agi": 1,
+            "sys": 1,
+            "eng": 1,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "heatcap": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 6,
+            "evasion": 10,
+            "edef": 10,
+            "speed": 4,
+            "sensor_range": 5,
+            "save": 10,
+            "hull": 2,
+            "agi": 2,
+            "sys": 2,
+            "eng": 2,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "heatcap": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 6,
+            "evasion": 10,
+            "edef": 10,
+            "speed": 4,
+            "sensor_range": 5,
+            "save": 10,
+            "hull": 3,
+            "agi": 3,
+            "sys": 3,
+            "eng": 3,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "heatcap": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "E4pBqSmNYUj0c1Zb",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636618257,
+        "modifiedTime": 1747636618257,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636618426,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

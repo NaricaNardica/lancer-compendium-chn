@@ -1,0 +1,184 @@
+{
+  "name": "Siege Specialist",
+  "type": "talent",
+  "system": {
+    "lid": "t_siege_specialist",
+    "curr_rank": 1,
+    "description": "No wall can withstand you; no bunker can stay sealed. Your skill with cannon and blast is uncanny: after-action reports describe ordnance tagged with your firing signature hitting targets with accuracy greater than if it had been fired by an AI – a stat written off as an anomaly by your commanders. Still, they always seem to pick you for missions that call for the big guns.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "Fire a jackhammer round from an underslung launcher, automatically dealing 10 AP Kinetic damage to a Size 1 section of any object within Range (e.g., cover, deployable equipment, buildings, or terrain). Any characters adjacent to your target are knocked back from it by 2 spaces and take 2 Kinetic damage.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Jackhammer Round",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "If you have a Cannon, as a quick action, you can fire a jackhammer round from an underslung launcher, automatically dealing 10 AP Kinetic damage to a Size 1 section of any object within Range (e.g., cover, deployable equipment, buildings, or terrain). Any characters adjacent to your target are knocked back from it by 2 spaces and take 2 Kinetic damage.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Jackhammer",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, before rolling an attack with a Cannon, all characters adjacent to you must succeed on a Hull save or be knocked back by 1 space and knocked Prone. You are then pushed 1 space in any direction.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Impact",
+        "synergies": [
+          {
+            "detail": "1/round, before rolling an attack with a Cannon, all characters adjacent to you must succeed on a Hull save or be knocked back by 1 space and knocked Prone. You are then pushed 1 space in any direction.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": true,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you perform a critical hit on a character or object with a Cannon, you may choose to cause an explosion of secondary munitions, causing a Burst 2 explosion around your target. Characters within the affected area must either drop Prone as a reaction, or take 2 Explosive damage and be knocked back by 2 spaces from the center of the attack.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Collateral Damage",
+        "synergies": [
+          {
+            "detail": "1/round, when you perform a critical hit on a character or object with a Cannon, you may choose to cause an explosion of secondary munitions, causing a Burst 2 explosion around your target. Characters within the affected area must either drop Prone as a reaction, or take 2 Explosive damage and be knocked back by 2 spaces from the center of the attack",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": true,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Destroy terrain and force enemy movement with Cannon weapons"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "pGmCewkewStn5JDN",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Stabilizer Mod",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_stabilizer_mod",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Stabilizer mods enhance physical mounts and targeting software, ensuring weapons remain level, steady, and at an appropriate angle regardless of terrain or pilot maneuvers.",
+    "destroyed": false,
+    "effect": "the weapon this mod is applied to gains +5 range and the Ordnance tag.",
+    "integrated": [],
+    "license": "mf_monarch",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "uses": 0,
+    "added_damage": [],
+    "added_range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "added_tags": [
+      {
+        "lid": "tg_ordnance",
+        "val": ""
+      }
+    ],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": false,
+      "Cannon": true,
+      "Launcher": true,
+      "Melee": false,
+      "Nexus": false,
+      "Rifle": false
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "fhISRzDjH1sjN8NC",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554877,
+    "modifiedTime": 1747537554877,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

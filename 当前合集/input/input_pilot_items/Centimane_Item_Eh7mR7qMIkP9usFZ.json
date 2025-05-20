@@ -1,0 +1,216 @@
+{
+  "name": "Centimane",
+  "type": "talent",
+  "system": {
+    "lid": "t_centimane",
+    "curr_rank": 1,
+    "description": "In the aftermath of the attack on Tartarus Bay, an anonymous source identified agents of the Karrakin Royal Intelligence Service as the culprits. The Baronies quickly released a statement of denial, which was never countered with hard evidence. Rumors of raw footage from the attack were unsubstantiated. Public reaction – anger, terror – to the station’s destruction quieted. The corpse of Tartarus Bay was shunted away from its stable orbit, directed toward the nearest star.<br />A month later, Baronies-local omninet was flooded with previously suppressed footage from the attack on the station, confirming the rumors: Baronic agents did release the greywash swarm into Tartarus Bay. Further data dumps by Ungrateful agents indicated the existence of a secret Baronic intelligence outfit: the Centimane – the Hundred Hands.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you perform a critical hit with a Nexus, your target must pass a Systems save or become Impaired and Slowed until the end of their next turn.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Ten Thousand Teeth",
+        "synergies": [
+          {
+            "detail": "1/round, when you perform a critical hit with this weapon, your target must pass a Systems save or become Impaired and Slowed until the end of their next turn.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": true,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you consume Lock On as part of an attack with a Nexus or Drone and perform a critical hit, your target becomes Shredded until the start of your next turn.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Expose Weakness",
+        "synergies": [
+          {
+            "detail": "When you consume Lock On as part of an attack with this weapon and perform a critical hit, your target becomes Shredded until the start of your next turn.",
+            "locations": [
+              "weapon",
+              "system"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": true,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": false,
+              "AI": false,
+              "Shield": false,
+              "Deployable": false,
+              "Drone": true,
+              "Tech": false,
+              "Armor": false,
+              "Flight System": false,
+              "Integrated": false,
+              "Mod": false
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "This replaces Ten Thousand Teeth.<br>1/round, when you perform a critical hit with a Nexus, your target must succeed on a Systems save or you may choose an additional effect for your attack that lasts until the end of their next turn:<ul><li><b>Harrying Swarm:</b> They become Impaired and Slowed.</li><li><b>Blinding Swarm:</b> They only have line of sight to adjacent squares.</li><li><b>Virulent Swarm:</b> They become Shredded. Any adjacent characters of your choice must also make a Systems save or become Shredded.</li><li><b>Restricting Swarm:</b> They take 1 Burn each time they take an action or reaction.</li></ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Tidal Suppression",
+        "synergies": [
+          {
+            "detail": "This replaces Ten Thousand Teeth.<br>1/round, when you perform a critical hit with this weapon, your target must succeed on a Systems save or you may choose an additional effect for your attack that lasts until the end of their next turn:<ul><li><b>Harrying Swarm:</b> They become Impaired and Slowed.</li><li><b>Blinding Swarm:</b> They only have line of sight to adjacent squares.</li><li><b>Virulent Swarm:</b> They become Shredded. Any adjacent characters of your choice must also make a Systems save or become Shredded.</li><li><b>Restricting Swarm:</b> They take 1 Burn each time they take an action or reaction.</li></ul>",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": false,
+              "Nexus": true,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Debuff and control enemies with critical hits from Nexus weapons"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "Eh7mR7qMIkP9usFZ",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

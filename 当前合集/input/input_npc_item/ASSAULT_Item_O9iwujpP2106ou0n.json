@@ -1,0 +1,98 @@
+{
+  "name": "ASSAULT",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-ASSAULT.png",
+  "system": {
+    "lid": "npcc_assault",
+    "role": "striker",
+    "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
+    "tactics": "Assaults are straightforward, damage-dealing strikers. Put them somewhere their toughness and decent range can be used effectively, and Hunker Down against damage to maximize their survivability.",
+    "base_features": [
+      "npcf_heavy_assault_rifle_assault",
+      "npcf_combat_knife_assault",
+      "npcf_hunker_down_assault"
+    ],
+    "optional_features": [
+      "npcf_underslung_grenade_launcher_assault",
+      "npcf_micro_missile_barrage_assault",
+      "npcf_high_impact_rounds_assault",
+      "npcf_auto_targeting_assault",
+      "npcf_rank_discipline_assault"
+    ],
+    "base_stats": [
+      {
+        "armor": 1,
+        "hp": 15,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 8,
+        "save": 10,
+        "hull": 1,
+        "agi": 1,
+        "sys": 1,
+        "eng": 1,
+        "size": 1,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 18,
+        "evasion": 10,
+        "edef": 9,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 8,
+        "save": 12,
+        "hull": 2,
+        "agi": 2,
+        "sys": 2,
+        "eng": 2,
+        "size": 1,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 21,
+        "evasion": 12,
+        "edef": 10,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 8,
+        "save": 14,
+        "hull": 3,
+        "agi": 3,
+        "sys": 3,
+        "eng": 3,
+        "size": 1,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "O9iwujpP2106ou0n",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

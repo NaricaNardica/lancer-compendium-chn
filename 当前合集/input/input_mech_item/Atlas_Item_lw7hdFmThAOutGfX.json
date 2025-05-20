@@ -1,0 +1,340 @@
+{
+  "name": "Atlas",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-ATLAS.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual – by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
+      "active_name": "Final Hunt",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
+      "integrated": [],
+      "name": "BLOODLINE Active Assist",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas – its combat efficacy notwithstanding – is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism – that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
+    "license": "mf_atlas",
+    "license_level": 2,
+    "lid": "mf_atlas",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Main"
+    ],
+    "stats": {
+      "size": 0.5,
+      "stress": 4,
+      "structure": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 12,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 2,
+      "sensor_range": 3,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 6,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
+        "integrated": [],
+        "name": "Giantkiller",
+        "synergies": [
+          {
+            "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling.",
+            "locations": [
+              "ram",
+              "grapple"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          },
+          {
+            "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Jäger Dodge",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "You take damage from a character larger than yourself",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+        "integrated": [],
+        "name": "Jäger Dodge",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
+        "integrated": [],
+        "name": "Finishing Blow",
+        "synergies": [
+          {
+            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Atlas receives +1 Difficulty on ENGINEERING checks and saves.",
+        "integrated": [],
+        "name": "Exposed Reactor",
+        "synergies": [
+          {
+            "detail": "The Atlas takes +1 difficulty on Engineering checks and saves.",
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "lw7hdFmThAOutGfX",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563094,
+    "modifiedTime": 1747636626255,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Gandiva Missiles",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_monarch",
+    "license_level": 2,
+    "lid": "mw_gandiva_missiles",
+    "loaded": false,
+    "manufacturer": "SSC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6+3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 15
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_accurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_seeking",
+            "val": ""
+          },
+          {
+            "lid": "tg_smart",
+            "val": ""
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Gandiva missiles are a reliable mainstay from Smith-Shimano’s BELLA CIAO line. Like the heavier Pinaka, the Gandiva is equipped with jet-assisted midflight repositioning systems, enhancing target navigation in rapidly changing battlefield environments. The Gandiva’s delivery platform is administered by a hivemind COMP/CON drone AI, giving it the capacity to learn from each right-of-launch experience.",
+        "name": "Gandiva Missiles",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 1,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "WZVoJuLKoRrQNum4",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

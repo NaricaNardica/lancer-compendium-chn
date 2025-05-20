@@ -1,0 +1,664 @@
+{
+  "name": "ASSASSIN",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-ASSASSIN.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 15
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "lMjE2acrdi3CvbrW",
+  "prototypeToken": {
+    "name": "ASSASSIN",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-ASSASSIN.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "ASSASSIN",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-ASSASSIN.png",
+      "system": {
+        "lid": "npcc_assassin",
+        "role": "striker",
+        "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
+        "tactics": "Assassins are true experts at punishing single characters. Use Assassin’s Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. For a nasty combination, pair an Assassin with NPCs that inflict mobility-reducing conditions like Stunned or Prone. Without optional systems like the “Devil’s Cough” Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage.",
+        "base_features": [
+          "npcf_kai_bioplating_assassin",
+          "npcf_heated_blade_assassin",
+          "npcf_assassins_mark_assassin",
+          "npcf_leap_assassin"
+        ],
+        "optional_features": [
+          "npcf_devils_cough_shotgun_assassin",
+          "npcf_sap_assassin",
+          "npcf_spinning_kick_assassin",
+          "npcf_cloud_projector_assassin",
+          "npcf_explosive_knives_assassin"
+        ],
+        "base_stats": [
+          {
+            "hp": 15,
+            "evasion": 12,
+            "edef": 8,
+            "heatcap": 7,
+            "speed": 6,
+            "sensor_range": 10,
+            "save": 10,
+            "agi": 2,
+            "sys": 1,
+            "eng": -1,
+            "size": 0.5,
+            "activations": 1,
+            "armor": 0,
+            "hull": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 15,
+            "evasion": 15,
+            "edef": 8,
+            "heatcap": 7,
+            "speed": 6,
+            "sensor_range": 10,
+            "save": 12,
+            "hull": 1,
+            "agi": 3,
+            "sys": 1,
+            "size": 0.5,
+            "activations": 1,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 15,
+            "evasion": 17,
+            "edef": 8,
+            "heatcap": 7,
+            "speed": 8,
+            "sensor_range": 10,
+            "save": 14,
+            "hull": 1,
+            "agi": 4,
+            "sys": 2,
+            "size": 0.5,
+            "activations": 1,
+            "eng": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "h1JwXSvbJVDRnuy5",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636607487,
+        "modifiedTime": 1747636607487,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "KAI BIOPLATING",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_kai_bioplating_assassin",
+        "effect": "The Assassin gains +1 Accuracy on all Agility checks; additionally, they climb and swim at normal speed, ignore difficult terrain, and, when making a standard move, can jump horizontally up to their Speed and vertically up to half their Speed (in any combination).",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "ASSASSIN",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "rXWVCz8pVxYveWly",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636607868,
+        "modifiedTime": 1747636607868,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "HEATED BLADE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_heated_blade_assassin",
+        "effect": "Deals double damage to Prone, Shredded, Immobilized, or Stunned targets.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "ASSASSIN",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          2,
+          2,
+          2
+        ],
+        "attack_bonus": [
+          1,
+          2,
+          3
+        ],
+        "weapon_type": "Main Melee",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "4"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "6"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 2
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "fB8srkE6BrEh22f4",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636607868,
+        "modifiedTime": 1747636607868,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "ASSASSIN’S MARK",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_assassins_mark_assassin",
+        "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains +1 Accuracy on all saves forced by that target.</li></ul><br />The Assassin can only choose a new target if the current target is destroyed.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "ASSASSIN",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "4GfECIjWKM2DJIS4",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636607868,
+        "modifiedTime": 1747636607868,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "LEAP",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_leap_assassin",
+        "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          },
+          {
+            "lid": "tg_recharge",
+            "val": "5"
+          }
+        ],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "ASSASSIN",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "VCRWNidZzPVXjlyl",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636607868,
+        "modifiedTime": 1747636607925,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636608143,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

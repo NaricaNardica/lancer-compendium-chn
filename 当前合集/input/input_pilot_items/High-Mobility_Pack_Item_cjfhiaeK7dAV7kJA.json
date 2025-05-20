@@ -1,0 +1,39 @@
+{
+  "name": "High-Mobility Pack",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_high_mobility_pack",
+    "description": "The LSA uses these externally mounted flight units for rapid assault and air-drop operations, and the schematics are easy enough to modify and print to GMS standard. You can spend this reserve at the start of any combat to count any and all of your movement as flying for the rest of that scene. Additionally, you may deploy yourself anywhere on the map after all other characters (PCs and NPCs) have deployed.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "cjfhiaeK7dAV7kJA",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586559,
+    "modifiedTime": 1747537586559,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

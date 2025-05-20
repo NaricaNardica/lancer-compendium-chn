@@ -1,0 +1,101 @@
+{
+  "name": "MANIFEST FALSE IDOLS",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_manifest_false_idols_mirage",
+    "effect": "The Mirage creates three Size 1 data constructs in free spaces within line of sight and range 5. These constructs provide soft cover but can be passed through. When hostile characters pass through a construct, the construct disappears and they must succeed on a Systems save or take 2 heat and become Jammed until the end of their next turn. At any point during the Mirage’s turn, they can teleport an allied character within line of sight to the location of a data construct as a quick action, causing the construct to disappear, as long as there is space to do so.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_recharge",
+        "val": "5"
+      },
+      {
+        "lid": "tg_full_tech",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "origin": {
+      "type": "Class",
+      "name": "MIRAGE",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_type": "Full",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "F2IejSPK5ctzYsjA",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

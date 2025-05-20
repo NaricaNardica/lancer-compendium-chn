@@ -1,0 +1,30 @@
+{
+  "name": "Hack or Fix",
+  "type": "skill",
+  "system": {
+    "lid": "sk_hack_or_fix",
+    "curr_rank": 1,
+    "description": "Repair a device or faulty system; alternatively, hack it wide open, or totally wreck, disable or sabotage it.",
+    "detail": "Repair a device or faulty system. Alternately, hack it wide open, or totally wreck, disable or sabotage it. You can use this for hacking or safeguarding electronic systems, such as electronic door locks, computer systems, omninet webs, or NHP coffins."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "wnezSs6oGwJCjQ8N",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

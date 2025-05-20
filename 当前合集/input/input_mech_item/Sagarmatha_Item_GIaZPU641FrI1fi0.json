@@ -1,0 +1,248 @@
+{
+  "name": "Sagarmatha",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-GMS.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "You raise a rallying banner. All allied characters in line of sight of your mech when you do this gain RESISTANCE to all damage and heat and gain +1 Accuracy on all checks and saves. These effects last until the end of your next turn.",
+      "active_name": "Raise the Banner",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "",
+      "integrated": [],
+      "name": "Rallying Cry",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Next Turn"
+    },
+    "description": "<p>The SAGARMATHA is a SIZE 2 legacy GMS chassis that all characters have access to from LL0 onwards. This variant FRAME is not mutually exclusive with the EVEREST.</p><p>The Sagarmatha is of an older pattern than the Everest, sturdier and bulkier by necessity more than design. It is seen as somewhat antiquated through the lens of modern manufacturing standards. Nevertheless, it enjoys some use in border colonies, in the Baronies, and with the Albatross.</p>",
+    "license": "mf_standard_pattern_i_everest",
+    "license_level": 0,
+    "lid": "mf_sagarmatha",
+    "manufacturer": "GMS",
+    "mechtype": [
+      "Defender"
+    ],
+    "mounts": [
+      "Main",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 2,
+      "stress": 4,
+      "structure": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 6,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Adjacent allied characters can use the Sagarmatha as hard cover.",
+        "integrated": [],
+        "name": "Guardian",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/scene the Sagarmatha can brace without sacrificing any actions or movement on its following turn.",
+        "integrated": [],
+        "name": "Heroism",
+        "synergies": [
+          {
+            "detail": "1/scene the Sagarmatha can brace without sacrificing any actions or movement on its following turn.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [
+          {
+            "lid": "cheap_struct",
+            "val": "1",
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "overwrite": false,
+            "replace": false
+          }
+        ],
+        "counters": [],
+        "deployables": [],
+        "description": "While resting, the Sagarmatha can be repaired at a rate of 1 repair per structure damage instead of 2.",
+        "integrated": [],
+        "name": "Replaceable Parts",
+        "synergies": [
+          {
+            "detail": "The Sagarmatha can be repaired at a rate of 1 Repair per 1 structure damage.",
+            "locations": [
+              "rest"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "GIaZPU641FrI1fi0",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537569958,
+    "modifiedTime": 1747537569958,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

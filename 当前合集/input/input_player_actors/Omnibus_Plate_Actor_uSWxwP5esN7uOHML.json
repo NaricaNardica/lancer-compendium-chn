@@ -1,0 +1,161 @@
+{
+  "name": "Omnibus Plate",
+  "system": {
+    "actions": [],
+    "counters": [],
+    "synergies": [],
+    "tags": [],
+    "activation": "Quick",
+    "stats": {
+      "armor": 0,
+      "edef": 10,
+      "evasion": 5,
+      "heatcap": 0,
+      "hp": "10",
+      "save": 10,
+      "size": 1,
+      "speed": 0
+    },
+    "activations": 0,
+    "avail_mounted": true,
+    "avail_unmounted": false,
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 10
+    },
+    "burn": 0,
+    "cost": 1,
+    "custom_counters": [],
+    "deactivation": null,
+    "deployer": null,
+    "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2.",
+    "instances": 1,
+    "lid": "dep_omnibus_plate",
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "recall": null,
+    "redeploy": null,
+    "type": "Deployable",
+    "owner": null,
+    "inherited_effects": null,
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    }
+  },
+  "type": "deployable",
+  "folder": "JlYUYsVMUJXGE4ol",
+  "_id": "uSWxwP5esN7uOHML",
+  "img": "systems/lancer/assets/icons/deployable.svg",
+  "prototypeToken": {
+    "name": "Omnibus Plate",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/icons/deployable.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537571313,
+    "modifiedTime": 1747537571313,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

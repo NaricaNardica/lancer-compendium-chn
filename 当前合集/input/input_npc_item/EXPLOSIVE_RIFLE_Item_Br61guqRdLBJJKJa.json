@@ -1,0 +1,126 @@
+{
+  "name": "EXPLOSIVE RIFLE",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_skirmisher_kit_explosive_rifle_strider",
+    "effect": "",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_knockback",
+        "val": "3"
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "weapon_type": "Heavy CQB",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Explosive",
+          "val": "6"
+        }
+      ],
+      [
+        {
+          "type": "Explosive",
+          "val": "7"
+        }
+      ],
+      [
+        {
+          "type": "Explosive",
+          "val": "8"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "Br61guqRdLBJJKJa",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

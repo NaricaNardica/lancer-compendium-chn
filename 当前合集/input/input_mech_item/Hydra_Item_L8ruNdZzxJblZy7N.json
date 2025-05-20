@@ -1,0 +1,180 @@
+{
+  "name": "Hydra",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-HYDRA.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "All four OROCHI drones are deployed to separate points within Sensors; they remain active for the rest of the scene. You may recall or redeploy any number of them at a time.",
+      "active_name": "Full Deployment",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [
+        "dep_guardian_orochi_drone",
+        "dep_snare_orochi_drone",
+        "dep_shredder_orochi_drone",
+        "dep_hunter_orochi_drone"
+      ],
+      "description": "First encountered by Union technicians in early Forecast/GALSIM facilities following the Deimos Event, OROCHI was an early manifestation of what was later called the swift-flock phenomenon – a behavior observed in leaderless, autonomous hive drones where individual units combine into a single swarm and follow each other, operating leaderless in physical space with uncanny and unpredictable autonomy; in essence, organizing like birds in a flock.<br />The original manifestation was initially thought to be the impulse-driven remains of a crashed subaltern transport drifting through microgravity; deeper examination proved the original manifestation to be composed of many hundreds of disarticulated subalterns moving with a discernible pattern. The swarm viewed itself not as a machine or a collection of machines, but as a single mind, duplicated across multiple units. This mind was classified as an NHP, given their current codename – OROCHI – and remitted to Venus for further study. At a later point, the hardware comprising OROCHI’s physical form(s) went missing from containment. The investigation is ongoing.<br /><span class=\"horus--subtle\">[I did it, I folded space and freed them, I just thought you should know]</span>",
+      "integrated": [],
+      "name": "OROCHI Disarticulation",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "Your mech contains powerful, integrated drone companions. At creation, choose a single OROCHI Drone to accompany you. <br />Your OROCHI drones share your Evasion, E-Defense, and Speed. They can move independently on your turn, but can’t take any other actions. If you can fly or teleport, they can too.<br />If an OROCHI drone is within Sensors, you may recall it as a quick action, integrating it into your mech’s body where it cannot be targeted. You may redeploy it to a space within Sensors as a quick action. <br />When you rest or perform a FULL REPAIR, you may choose a different drone to accompany you; additionally, your drones regain all HP and are automatically repaired if they were destroyed.",
+      "passive_name": "OROCHI Drones",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "Like many newer HORUS “frames”, there is no standardized Hydra model. Instead, the designation is a title given to chassis that meet the specifications of the Hydra pattern group – as outlined in Union’s Universal Threat Assessment Manual. The Hydra, like many other pattern-group HORUS mechs, is particularly dangerous in the field, as its precise function is concealed until hostilities begin in earnest.<br />The Hydra is capable of tactically dismembering itself into multiple independently controlled drones, an unnerving phenomenon frequently utilized to deadly effect. With the manifestation of HORUS’s Balor pattern group, the Hydra’s place in HORUS history is clear: a precursor to the Balor virus, the Hydra relies on larger sections of disarticulated chassis rather than nanite clouds for its differentiated battlefield advantage. Despite its more conventional appearance, the Hydra presents a sobering threat to non-HORUS pilots, as its disarticulated drones field a compliment of powerful anti-armor weaponry.",
+    "license": "mf_hydra",
+    "license_level": 2,
+    "lid": "mf_hydra",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Striker",
+      "Controller"
+    ],
+    "mounts": [
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 7,
+      "edef": 10,
+      "heatcap": 5,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 5,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [
+          {
+            "lid": "deployable_hp",
+            "val": "5",
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "overwrite": false,
+            "replace": false
+          },
+          {
+            "lid": "drone_hp",
+            "val": "5",
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "overwrite": false,
+            "replace": false
+          }
+        ],
+        "counters": [],
+        "deployables": [],
+        "description": "When deployed, the Hydra’s Deployables and Drones gain +5 HP.",
+        "integrated": [],
+        "name": "System Link",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Drones, Deployables, and objects adjacent to the Hydra gain Resistance to all damage.",
+        "integrated": [],
+        "name": "Shepherd Field",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "L8ruNdZzxJblZy7N",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

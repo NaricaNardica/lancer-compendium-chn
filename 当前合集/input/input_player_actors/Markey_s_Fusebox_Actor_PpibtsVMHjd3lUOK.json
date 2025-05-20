@@ -1,0 +1,161 @@
+{
+  "name": "Markey’s Fusebox",
+  "system": {
+    "actions": [],
+    "counters": [],
+    "synergies": [],
+    "tags": [],
+    "activation": "Quick",
+    "stats": {
+      "armor": 0,
+      "edef": 5,
+      "evasion": 5,
+      "heatcap": 10,
+      "hp": "10",
+      "save": 10,
+      "size": 0.5,
+      "speed": 0
+    },
+    "activations": 0,
+    "avail_mounted": true,
+    "avail_unmounted": false,
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 10
+    },
+    "burn": 0,
+    "cost": 1,
+    "custom_counters": [],
+    "deactivation": null,
+    "deployer": null,
+    "detail": "Expend a charge to set an explosive charge in a free adjacent space. It arms at the end of the round; once armed, it explodes if it takes any damage or heat. Characters within Burst 3 must succeed on an AGILITY save or take 2d6 Explosive damage and be pushed out of the affected area, or as far as possible. On a success, they are still pushed but take half damage.",
+    "instances": 1,
+    "lid": "dep_markey’s_fusebox",
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "recall": null,
+    "redeploy": null,
+    "type": "Mine",
+    "owner": null,
+    "inherited_effects": null,
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    }
+  },
+  "type": "deployable",
+  "folder": "JlYUYsVMUJXGE4ol",
+  "_id": "PpibtsVMHjd3lUOK",
+  "img": "systems/lancer/assets/icons/deployable.svg",
+  "prototypeToken": {
+    "name": "Markey’s Fusebox",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/icons/deployable.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537571313,
+    "modifiedTime": 1747537571313,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

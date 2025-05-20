@@ -1,0 +1,105 @@
+{
+  "name": "HOUND MISSILES",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_hound_missiles_rainmaker",
+    "effect": "Hound Missile (Size 1/2, HP {10/15/20}, Evasion 10, E-Defense 10, Tags: Drone).<br />The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in range 20 and line of sight. At the start of the Rainmaker’s turns the missile flies 3 spaces towards its target, 6 if the target has Lock On. It moves directly, maneuvering round cover and terrain if needed. When it collides with a character or reaches its target, it creates a Burst 1 explosion. Characters in the affected area take {16/20/24} Energy damage, half if they pass an Agility save.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_drone",
+        "val": ""
+      },
+      {
+        "lid": "tg_recharge",
+        "val": "6"
+      },
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "RAINMAKER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "fJv5qiPCWtu94qOm",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

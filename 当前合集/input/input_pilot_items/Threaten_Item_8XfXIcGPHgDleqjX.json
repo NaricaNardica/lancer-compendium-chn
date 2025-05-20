@@ -1,0 +1,30 @@
+{
+  "name": "Threaten",
+  "type": "skill",
+  "system": {
+    "lid": "sk_threaten",
+    "curr_rank": 1,
+    "description": "Use force or threats to make someone do what you want.",
+    "detail": "Use force or threats of force to get someone to do what you want them to do. Name what you want someone to do and what you’re going to do to them if they don’t listen to you. This could also be blackmail, leverage, or something similarly nasty. Threatening someone can be very high risk but very effective if successful - either way there’s likely no repairing the relationship afterwards. If you threaten someone unsuccessfully, your threats have no further effect on them unless you change something about the situation (as with all other skill checks)."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "8XfXIcGPHgDleqjX",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

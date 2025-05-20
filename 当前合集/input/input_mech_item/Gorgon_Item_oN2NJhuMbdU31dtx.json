@@ -1,0 +1,110 @@
+{
+  "name": "Gorgon",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-GORGON.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within range 3. On a failure, they become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene.",
+      "active_name": "Extrude Basilisk",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The BASILISK is a dangerous memetic weapon derived from DHIYED liturgicode, translated for use in mech-scale engagements. Typically projected from a communications laser, BASILISKs create hyperfractal patterns: memetic interruptions that affects all sapient observers, organic or otherwise. Exposure to a basilisk typically causes immediate encephalitis, massive ocular and cranial hemorrhage, and death – survival is possible with tempering and interdictor heads-up displays, but even then headaches, nausea, and confusion for a short period after viewing are possible. Long-term, survivors often exhibit “flashback” symptoms: momentary paralysis, corporeal alienation, and consciousness destabilization. Anticognition hyperfractals are classified as paracausal weapons; due to the not-as-yet understood nature of their visible-light spectrum broadcast, one would think that they would pose a risk to their user, however, for some reason they do not.",
+      "integrated": [],
+      "name": "BASILISK Directed Anticognition Hyperfractal",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br />The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
+    "license": "mf_gorgon",
+    "license_level": 2,
+    "lid": "mf_gorgon",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Defender"
+    ],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Main"
+    ],
+    "stats": {
+      "size": 2,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 12,
+      "heatcap": 5,
+      "repcap": 3,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 12,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When an attack roll against the Gorgon lands on 1–2, it automatically misses and the attacker becomes Stunned until the end of their next turn.",
+        "integrated": [],
+        "name": "Metastatic Paralysis",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Gorgon can take two reactions per turn, instead of one.",
+        "integrated": [],
+        "name": "Gaze",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Adjacent allied characters may use the Gorgon for hard cover.",
+        "integrated": [],
+        "name": "Guardian",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "oN2NJhuMbdU31dtx",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

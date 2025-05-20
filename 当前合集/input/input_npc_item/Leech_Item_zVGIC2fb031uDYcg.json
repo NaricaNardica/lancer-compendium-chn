@@ -1,0 +1,101 @@
+{
+  "name": "Leech",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-LEECH.png",
+  "system": {
+    "lid": "ssmr_Leech",
+    "role": "support",
+    "flavor": "Sleek, strong, and fast, the Leech (or Asanbosam, as it is often referred to), was first employed by the Foreign Bodies Division in the Farm. Its niche is in supporting special operations where the preservation or elimination of a single combatant can ensure success or failure. Serving as the FBD’s most combat-flexible support platform, the Asanbosam is often deployed to accompany asset recovery missions in the Farm. Its unique design allows it to mold its chassis to that of allied or hostile forces, effectively leeching on to them, where it is then at its most potent",
+    "tactics": "The Leech serves both controller and support roles on the battlefield. It is best used when accompanying fast and deadly chassis on a diverse range of target-elimination operations. Use it to bolster NPCs who need extra defenses or to target single PCs and disrupt their plans.",
+    "base_features": [
+      "npc_Leech_Leech",
+      "npc_Leech_Purge",
+      "npc_Leech_OphiocordycepsDoctrineUpgradeI",
+      "npc_Leech_PairedTalonsMKII"
+    ],
+    "optional_features": [
+      "npc_Leech_EMPPulse",
+      "npc_Leech_FadeReactor",
+      "npc_Leech_LonelyChassis",
+      "npc_Leech_AWickedMess",
+      "npc_Leech_HelobdellaDoctrineUpgradeII",
+      "npc_Leech_Supernova",
+      "npc_Leech_SymbioticDoctrineUpgradeIII"
+    ],
+    "base_stats": [
+      {
+        "activations": 1,
+        "stress": 1,
+        "structure": 1,
+        "hp": 8,
+        "evasion": 12,
+        "edef": 8,
+        "heatcap": 4,
+        "hull": 2,
+        "agi": 3,
+        "sys": 1,
+        "speed": 6,
+        "sensor_range": 5,
+        "save": 12,
+        "size": 0.5,
+        "armor": 0,
+        "eng": 0
+      },
+      {
+        "activations": 1,
+        "stress": 1,
+        "structure": 1,
+        "hp": 8,
+        "evasion": 15,
+        "edef": 8,
+        "heatcap": 6,
+        "hull": 4,
+        "agi": 3,
+        "sys": 2,
+        "speed": 8,
+        "sensor_range": 5,
+        "save": 14,
+        "size": 0.5,
+        "armor": 0,
+        "eng": 0
+      },
+      {
+        "activations": 1,
+        "stress": 1,
+        "structure": 1,
+        "hp": 8,
+        "evasion": 18,
+        "edef": 8,
+        "heatcap": 8,
+        "hull": 6,
+        "agi": 3,
+        "sys": 2,
+        "speed": 10,
+        "sensor_range": 5,
+        "save": 16,
+        "size": 0.5,
+        "armor": 0,
+        "eng": 0
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "zVGIC2fb031uDYcg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636693992,
+    "modifiedTime": 1747636693992,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

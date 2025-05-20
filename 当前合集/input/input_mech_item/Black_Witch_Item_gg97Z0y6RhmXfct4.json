@@ -1,0 +1,117 @@
+{
+  "name": "Black Witch",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-BLACK WITCH.png",
+  "system": {
+    "core_system": {
+      "activation": "Full",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "This system projects a blast 3 magnetic field with at least one space adjacent to you, causing the following effects until the end of your next turn:<ul><li>The affected area is difficult terrain.</li><li>Ranged attacks that deal kinetic or explosive can’t enter or leave the affected area – projectiles stop at the edge, doing no damage. Record each attack stopped this way.</li><li>Mechs and other characters made at least partly of metal that start their turn in the affected area or enter it for the first time in a round must succeed on a Hull save or be pulled as close to the center as possible and become Immobilized.</li></ul>When the effect ends, any ranged attacks that were stopped resume their trajectory – toward the center of the affected area. The GM rolls attacks against each character within, gaining +1 per blocked attack (to a maximum of +6). On hit, these attacks deal 1d6 kinetic damage per blocked attack (to a maximum of 6d6 kinetic damage).",
+      "active_name": "Mag Field",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Magnetic field generators are a portable and field-deployable variation on typical magnetic defense technologies. When activated, they create a magnetic bubble that traps all incoming ferrous projectiles. The strength of the field is so great that it can even draw mechs to its center. When the field is dispersed or its solid-state battery burns out – a feature, not a flaw – the field undergoes a sudden catastrophic implosion, drawing all captured projectiles to a point at the center of the bubble.",
+      "integrated": [],
+      "name": "Magnetic Field Projector",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Next Turn"
+    },
+    "description": "The Black Witch is the flagship model of SSC’s LUX-Iconic line of frames, on paper meant to compete with Harrison Armory’s dominance in the field of cutting-edge gravity and electromagnetic manipulation. Utilizing the newest technologies developed by SSC’s Exotic Materials Group, the Black Witch is a fearsome area-control platform, often fielded in support of heavier mechs engaged in direct combat.<br />With a slim profile and strong defensive systems, the Black Witch is especially popular among the wealthier houses of the Karrakin Trade Baronies, who often place multiple orders to outfit their personal guards and house company officers. Next to internally produced Baronic frames, the Black Witch (alongside other SSC LUX-Iconic models) is the most popular SSC chassis throughout noble Karrakin space.",
+    "license": "mf_black_witch",
+    "license_level": 2,
+    "lid": "mf_black_witch",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Controller",
+      "Support"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 6,
+      "evasion": 10,
+      "edef": 12,
+      "heatcap": 6,
+      "repcap": 3,
+      "sensor_range": 15,
+      "tech_attack": 0,
+      "save": 11,
+      "speed": 5,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Black Witch has Resistance to Kinetic Damage.",
+        "integrated": [],
+        "name": "Repulsor Field",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "Roll 1d6: on 5+, the attack misses. This effect does not stack with Invisible.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Mag Parry",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "An incoming attack will deal Kinetic Damage to you or an adjacent allied character",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, as a reaction, you may attempt to parry an attack that would deal Kinetic Damage to you or an adjacent allied character. Roll 1d6: on 5+, the attack misses. This effect does not stack with Invisible.",
+        "integrated": [],
+        "name": "Mag Parry",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "gg97Z0y6RhmXfct4",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

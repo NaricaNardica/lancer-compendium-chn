@@ -1,0 +1,39 @@
+{
+  "name": "Leg Enhancements",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_leg_enhancements",
+    "description": "Mechs are already built to navigate uneven terrain, but joint and servo reinforcements can make a good thing even better. Your mech ignores difficult terrain for the duration of the upcoming mission. Additionally, once during the mission you can spend this reserve to ignore Slowed or Immobilized received from a hostile source, negating the condition as it happens.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "dBhpVZG5MM5lEJBb",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586559,
+    "modifiedTime": 1747537586559,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

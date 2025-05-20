@@ -1,0 +1,29 @@
+{
+  "name": "Invisible",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/status_invisible.svg",
+  "system": {
+    "lid": "invisible",
+    "effects": "All attacks against INVISIBLE characters, regardless of type, have a 50 percent chance to miss outright, before an attack roll is made. Roll a dice or flip a coin to determine if the attack misses.<br />Additionally, INVISIBLE characters can always HIDE, even without cover.",
+    "type": "status"
+  },
+  "folder": null,
+  "_id": "wVImQ5eBjBTjkthW",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

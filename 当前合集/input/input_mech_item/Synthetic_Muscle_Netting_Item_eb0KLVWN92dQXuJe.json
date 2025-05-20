@@ -1,0 +1,148 @@
+{
+  "name": "Synthetic Muscle Netting",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_synthetic_muscle_netting",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "IPS-N’s Synthetic Muscle Netting (SMN) is a proprietary, field-proven modification compatible with all existing IPS-N frames. This convenient spray-on catalytic and structural enhancement boosts manipulator and propulsion performance by roughly 25 percent with no demonstrated reduction in operational life. An SMN layer also enhances impact absorption and thermal insulation.<br />IPS-N recommends that pilots apply SMN to internal components only and practice frequent cleaning to prevent septic-analogous decay.",
+    "destroyed": false,
+    "effect": "You may Ram targets larger than you, and when you Grapple or Ram larger targets, you count as the same Size as the largest opponent. When you Grapple or Ram opponents of the same Size or smaller, you count as at least one Size larger. Additionally, your lifting and dragging capacity is doubled.",
+    "integrated": [],
+    "license": "mf_blackbeard",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [
+      {
+        "detail": "You may Ram targets larger than you, and when you Ram larger targets, you count as the same Size as the largest opponent. When you Ram opponents of the same Size or smaller, you count as at least one Size larger.",
+        "locations": [
+          "ram"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      },
+      {
+        "detail": "When you Grapple larger targets, you count as the same Size as the largest opponent. When you Grapple opponents of the same Size or smaller, you count as at least one Size larger.",
+        "locations": [
+          "grapple"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "eb0KLVWN92dQXuJe",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

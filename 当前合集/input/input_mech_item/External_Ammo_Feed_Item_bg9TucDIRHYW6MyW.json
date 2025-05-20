@@ -1,0 +1,72 @@
+{
+  "name": "External Ammo Feed",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_external_ammo_feed",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "1/round, you can activate this system to reload a Loading weapon.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_barbarossa",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "1d3+1"
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "bg9TucDIRHYW6MyW",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

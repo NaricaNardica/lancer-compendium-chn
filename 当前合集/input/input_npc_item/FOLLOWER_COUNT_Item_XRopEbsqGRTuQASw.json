@@ -1,0 +1,97 @@
+{
+  "name": "FOLLOWER COUNT",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_follower_count_breacher",
+    "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +{1/2/3} Accuracy on all attacks against their target, and may Boost once per turn as a free action so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_quick_tech",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "origin": {
+      "type": "Class",
+      "name": "BREACHER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_type": "Quick",
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "tech_attack": true,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "XRopEbsqGRTuQASw",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

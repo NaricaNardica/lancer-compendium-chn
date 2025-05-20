@@ -1,0 +1,37 @@
+{
+  "name": "Universal Compatibility",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "The Everest is everywhere: so are the parts you need for a field repair.",
+    "effect": "Any time you spend CP to activate a Core System, you may also take a free action to restore all HP, cool all Heat, and roll 1d20: on 20, regain 1 CP.",
+    "integrated": [],
+    "lid": "cb_universal_compatibility",
+    "manufacturer": "GMS",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "qpNOFLzewXPDVoie",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Kutuzov",
+  "type": "frame",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "Choose an allied character within line of sight, and then choose a hostile character within line of sight. Until the end of your next turn, those characters can't attack each other or force saves against each other via actions. This ability counts as a system with the <b>Shield</b> tag.<br /><br />This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
+      "active_name": "Projected Aegis",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "One of the Kutuzov's most distinct features is its series of integrated parallel-tracked field emitters, allowing for the simultaneous modulation and projection of multiple overlapping waveform patterns. This includes standard superpositional barriers and stasis fields as well as more aggressively-tuned fields designed for the take-and-hold operations the Kutuzov is tasked with, forcefully displacing threats during close-quarters engagements and clearing zones for subsequent barrier deployment to establish reinforced strongpoints.<br /><br />Among these other uses, these emitters are capable of \"flashing\" a single-plane form of the Napoleon's Trueblack Aegis as a short-lived interpositional countermeasure. Without the excessive demands of sustaining a total-coverage envelope, the operational range of the Aegis can be increased through a series of point-defense tracking protocols and set to neutralize all hostile engagement from selected targets. However, the drawback to this implementation is immediately obvious, with a reduced shield profile, unresolved interference with outgoing fire, and the field emitters requiring an extensive power-cycling period before they can be reactivated once more.",
+      "integrated": [],
+      "name": "Parallel Projectors",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "1/round, when you take the Stabilize action, Bolster Quick Tech action, or Activate or otherwise use a Shield system during your turn, you may grant an allied character within Sensors a benefit based on the overall cost of that action:<ul><li>Free Action: They gain soft cover until the end of their next turn.</li><li>Quick Action: They ignore engagement, their movement doesn't provoke reactions, and they may pass through (but not stop in) spaces occupied by obstructions and other characters until the end of their next turn.</li><li>Full Action: They may clear a condition that wasn't caused by one of their own systems, talents, etc.</li></ul><br /><br />You can choose a benefit from a lower action cost if you like, instead (e.g., if you performed a full action, you could choose the quick action or free action options).",
+      "passive_name": "Parallel Projectors",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "Following the initial testbed development of the Napoleon and its successful proof-of-concept demonstration of numerous advanced blinkspace and stasis technologies, Harrison Armory immediately approved a series of ongoing developmental programs to expand the application of these systems across a number of successor chassis and block upgrade packages. One of the earliest of these successor programs, the Kutuzov was designed for Armory Naval Command as a boarding action force multiplier, taking the Napoleon's incredible self-sustainability and turning it outwards to create a compact and maneuverable projected defense platform ideal for accompanying marine or chassis squads into close-quarters engagements.<br /><br />Unlike the more iconic Saladin, the Kutuzov remains unsuited to frontline engagement, and its own personal survivability metrics are notably reduced from the Napoleon itself. However, its robust array of waveform projectors are designed for sustained operation under even critical system stresses, and its ability to rapidly disseminate flash-projected barriers in response to incoming fire have shown extremely promising results both during training exercises as well as limited live-combat engagements during anti-piracy operations. Alongside the Iskander-CC, the Kutuzov has also begun to see increasing use as a perimeter security and riot-control unit during low-intensity defensive actions on New Madrassa.",
+    "license": "mf_kutuzov",
+    "license_level": 2,
+    "lid": "mf_kutuzov",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Defender",
+      "Support"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 6,
+      "evasion": 8,
+      "edef": 10,
+      "heatcap": 8,
+      "repcap": 3,
+      "sensor_range": 5,
+      "tech_attack": 0,
+      "save": 11,
+      "speed": 4,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when the Kutuzov Activates or otherwise uses a Shield system during its turn, it may knock all hostile characters of its choice within Sensors back 3 spaces.",
+        "integrated": [],
+        "name": "Expulsion Zone",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Whenever the Kutuzov or any allied character within Sensors takes the Brace reaction, they clear Shredded (or ignore its effects if it can't be cleared normally) from hostile sources, and attacks they Brace against can't inflict Shredded.",
+        "integrated": [],
+        "name": "Emergency Blinkfields",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "PxmbPOOFSvmF7VkS",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537613995,
+    "modifiedTime": 1747636641834,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

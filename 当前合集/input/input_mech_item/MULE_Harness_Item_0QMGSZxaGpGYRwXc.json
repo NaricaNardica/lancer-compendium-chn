@@ -1,0 +1,49 @@
+{
+  "name": "MULE Harness",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_mule_harness",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The Multiple User, Light Entanglement (MULE) Harness is a mass-produced version of a common battlefield modification that allows friendly soldiers to ride along on a chassis. Some systems are large enough to allow smaller chassis to accompany larger chassis; typically, these variants are employed in high altitude, low orbit insertions where reduced radar presence is required.",
+    "destroyed": false,
+    "effect": "Extra mounts, straps, and hard points allow other characters to climb and ride your mech. Adjacent, non-Immobilized characters can climb onto your mech as a quick action. While riding, they occupy the same space as you, move when you move (even if they’re Slowed), and benefit from soft cover. If you or a rider are knocked Prone, Stunned, Immobilized, or destroyed, they land Prone in adjacent spaces. Riders can climb down as part of any movement away, but can only climb onto your mech as a quick action.<br />You can carry riders of a combined Size equal to your Size, minus Size 1/2 (e.g., if your mech is Size 1 you can carry one Size 1/2 character; if it is Size 2, you can carry a Size 1 character and a Size 1/2 character).",
+    "integrated": [],
+    "license": "mf_lancaster",
+    "license_level": 2,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "0QMGSZxaGpGYRwXc",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "name": "Caliban",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-IPS-N-CALIBAN.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "The Flayer shotgun comes pre-equipped with a muzzle-mounted auto-choke that allows its user to better define the spread of shot issuing from the weapon. The extreme heat from equipping the choke renders it unusable in short order and it must be discarded.<br />For the rest of this scene, the HHS-075 “Flayer” Shotgun gains the following profile:<br />Main CQB, Accurate, Knockback 5<br />[Cone 3] [Threat 3] [1d6+2 kinetic damage]",
+      "active_name": "Equip Autochoke",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "The “Flayer” – officially the Heavy Howitzer-Shotgun 075 – is a compact, formalized version of the popular “Daisy Cutter” howitzer-shotgun used by Trunk Security and other stellar marine forces. Chambered to accept shot, shell, or sabot, the Flayer sacrifices some of the DaisyCutter’s raw power in favor of control and a much-improved fire rate.",
+      "integrated": [
+        "mw_caliban_integrated"
+      ],
+      "name": "Flayer Shotgun",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "<p>The Caliban chassis is a popular new order among anti piracy and stellar marine forces. Unlike many of IPS-N's modern frames, the Caliban was designed from the ground up to be a military machine. </p> <p>The Caliban is IPS-N's solution to the  \"Yemanova \" Problem, more properly known as the Impact-Override Problem. Capital ships, the problem posits, are incredibly expensive, demand a tremendous amount of time for corpros and Diasporan states to produce and maintain, and increasingly outmatched by anti-ship weaponry. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this makes many commanders gun-shy, encouraging them to rely on subline vessels and fighters to accomplish battle objectives rather than risk their big ships. This strategy tends to prove just as expensive: instead of one or a handful of large ships being destroyed, signifying the end of a battle, engagements can grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory. </p> <p>IPS-N was the first to crack the Yemanova Problem. The corpro's designers identified the need for a rapidly deployable, sub-signature, directed weapon. It needed to be well-armed and well-armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this need. </p> <p>Cultural critics argue that mechanized chassis venerate the form of a particular humanity; it is an unconscious nod towards the anthrochauvinist roots of the machine among leading designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose. </p> <p>Unlike many IPS-N frames, the Caliban has no roots in early attempts at self-defense by freighter crews and asteroid miners. It was not born from ingenuity - there is no legacy of resilience, heroism, or the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming; it does not build, defend, or inspire – it was designed to solve a numbers problem on a ledger. </p> <p>It is a tool designed to kill human beings very, very quickly. </p>",
+    "license": "mf_caliban",
+    "license_level": 2,
+    "lid": "mf_caliban",
+    "manufacturer": "IPS-N",
+    "mechtype": [
+      "Striker",
+      "Controller"
+    ],
+    "mounts": [
+      "Heavy"
+    ],
+    "stats": {
+      "size": 0.5,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 6,
+      "evasion": 8,
+      "edef": 8,
+      "heatcap": 5,
+      "repcap": 5,
+      "sensor_range": 3,
+      "tech_attack": -2,
+      "save": 11,
+      "speed": 3,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack.",
+        "integrated": [],
+        "name": "Wrecking Ball",
+        "synergies": [
+          {
+            "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": true,
+              "Cannon": true,
+              "Launcher": true,
+              "Melee": true,
+              "Nexus": true,
+              "Rifle": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Caliban inflicts KNOCKBACK as part of any action, it can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement and doesn’t provoke reactions.",
+        "integrated": [],
+        "name": "Pursue Prey",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when the Caliban knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it may force its target to pass a HULL save or take 1d6 Kinetic Damage and become IMPAIRED until the end of its next turn.",
+        "integrated": [],
+        "name": "Slam",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Caliban takes +1 Difficulty on all SYSTEMS saves and checks.",
+        "integrated": [],
+        "name": "Weak Computer",
+        "synergies": [
+          {
+            "detail": "The Caliban takes +1 Difficulty on all systems saves and checks",
+            "locations": [
+              "systems",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "q2BAqfoI5iIXOhj5",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563094,
+    "modifiedTime": 1747636626255,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

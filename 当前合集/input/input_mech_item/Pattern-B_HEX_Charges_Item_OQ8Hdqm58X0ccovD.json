@@ -1,0 +1,97 @@
+{
+  "name": "Pattern-B HEX Charges",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_pattern_b_hex_charges",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "1d6"
+          }
+        ],
+        "detail": "Throw a Frag Grenade within Range 5. All characters within a Blast 1 area must pass an Agility save or take 1d6 Explosive damage. On a success, they take half damage.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Frag Grenade",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Blast",
+            "val": 1
+          }
+        ],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_explosive_mine"
+    ],
+    "description": "",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_grenade",
+        "val": ""
+      },
+      {
+        "lid": "tg_mine",
+        "val": "0"
+      }
+    ],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "OQ8Hdqm58X0ccovD",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Charm",
+  "type": "skill",
+  "system": {
+    "lid": "sk_charm",
+    "curr_rank": 1,
+    "description": "Convince a receptive audience or use leverage (money, power, personal benefit) to get your way.",
+    "detail": "To charm, you need a receptive audience, or some kind of promise of leverage (money, power, personal benefit, etc). You can use it when trying to smooth talk your way past guards, get someone on your side, sway a potential benefactor, talk someone down, perform diplomacy between two parties, or blatantly lie to someone. You can also use it when trying to impersonate someone. Charm won’t work on people that aren’t receptive (such as soldiers you are in a gunfight with) or that you don’t have leverage over (promises of safety, money, power, recompense, help, etc). These promises don’t necessarily have to be true but they have to have some weight with your target."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "W6lL0xEDcIpFzSqg",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

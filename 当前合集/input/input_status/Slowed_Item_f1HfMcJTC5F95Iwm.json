@@ -1,0 +1,29 @@
+{
+  "name": "Slowed",
+  "type": "status",
+  "img": "systems/lancer/assets/icons/white/condition_slow.svg",
+  "system": {
+    "lid": "slow",
+    "effects": "The only movement SLOWED characters can make is their standard move, on their own turn – they can’t BOOST or make any special moves granted by talents, systems, or weapons.",
+    "type": "condition"
+  },
+  "folder": null,
+  "_id": "f1HfMcJTC5F95Iwm",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556380,
+    "modifiedTime": 1747537556380,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

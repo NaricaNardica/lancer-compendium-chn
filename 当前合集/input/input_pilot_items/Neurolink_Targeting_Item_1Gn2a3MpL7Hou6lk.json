@@ -1,0 +1,75 @@
+{
+  "name": "Neurolink Targeting",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [
+      {
+        "lid": "range",
+        "val": "3",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Blast": false,
+          "Burst": false,
+          "Cone": false,
+          "Line": false,
+          "Range": true,
+          "Thrown": false,
+          "Threat": false
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": false
+      }
+    ],
+    "counters": [],
+    "deployables": [],
+    "description": "To further reduce the information gap between pilot and machine and complement its full subjectivity sync technology, SSC developed neurolinking, a stable, non-invasive, and limited-transfer ontologic bridge. Neurolink targeting is a simple enhancement that helps pilots feel – as opposed to thinking – when engaged in ranged combat, allowing for a more natural expression of pilot ability.",
+    "effect": "Your ranged weapons gain +3 Range.",
+    "integrated": [],
+    "lid": "cb_neurolink_targeting",
+    "manufacturer": "SSC",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "1Gn2a3MpL7Hou6lk",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "MERCENARY",
+  "type": "npc_template",
+  "system": {
+    "lid": "npct_mercenary",
+    "description": "Mercenaries offer their services to the highest bidder. They may have an attachment to a faith or flag, but when it comes to doing business, they’re loyal only to the highest bidder.",
+    "base_features": [
+      "npcf_opportunist_mercenary",
+      "npcf_mercenary_systems_and_traits_mercenary"
+    ],
+    "optional_features": [
+      "npcf_bounty_hunter_mercenary",
+      "npcf_efficient_killer_mercenary",
+      "npcf_favors_owed_mercenary",
+      "npcf_scout_drone_mercenary",
+      "npcf_last_word_mercenary"
+    ]
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "UUsimOGQdHwrZxIm",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604292,
+    "modifiedTime": 1747636604292,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

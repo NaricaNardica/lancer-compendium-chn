@@ -1,0 +1,45 @@
+{
+  "name": "Locus",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "<p>For those humans attempting to cultivate an affinity for Witness, the learning process can be frustrating at times. Over the centuries, a variety of tools and techniques have been developed to assist with this. One of these techniques involves the consumption of a native species of psychedelic fungus, either dried or brewed as tea. This substance, commonly called locus, induces feelings of opennness, euphoria, enhanced empathy, and altered sensory perceptions including mild hallucinations and synaesthesia. Locus is not habit-forming nor does it have any harmful long-term effects, though some users experience headaches and fatigue after use. That said, overdosing can lead to bouts of “empathic overload”, dissociation, and more severe hallucinatory episodes.</p><p>In humans, ingestion of locus induces a state of enhanced affinity for Witness, though it does not necessarily grant a deeper understanding of its use. The effects last from three to six hours depending on the strength of the dose, the user’s metabolism, and other factors. Locus also has a variety of other therapeutic uses.</p>",
+    "lid": "ms_exo_locus",
+    "tags": [
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "tQYNUxNYCOWLfYqP",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570484,
+    "modifiedTime": 1747537570484,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

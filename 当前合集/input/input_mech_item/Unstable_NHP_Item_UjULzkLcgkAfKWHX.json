@@ -1,0 +1,73 @@
+{
+  "name": "Unstable NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_iconoclast",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "1/Round you may deal 1 AP Energy damage to a character within Range 3 as a Quick Action. <br>The spark deals +1 damage for each undestroyed NHP on your mech including this one. “NHPs” are Systems that both grant your Mech the AI tag and can cascade or can be allowed to cascade.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Memetic Spark",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[i slumber but yearn to awaken].</span><br />Gained from the <i>Iconoclast: Rank I</i> pilot talent.",
+    "destroyed": false,
+    "effect": "Your Mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once. You are unable to hand over control of your mech to the Unstable NHP as a Protocol, but it can enter cascade. <br />Your mech gains “Memetic Spark.”",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 0,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_round",
+        "val": "1"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "UjULzkLcgkAfKWHX",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595989,
+    "modifiedTime": 1747636590580,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

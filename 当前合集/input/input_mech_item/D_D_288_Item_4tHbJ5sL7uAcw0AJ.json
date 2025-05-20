@@ -1,0 +1,131 @@
+{
+  "name": "D/D 288",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_zheng",
+    "license_level": 3,
+    "lid": "mw_d_d_288",
+    "loaded": false,
+    "manufacturer": "IPS-N",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Charge the D/D 288. At the start of any of your turns while the D/D 288 is Charged, it uses the \"Charged\" profile. You become SLOWED, and benefit from soft cover. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Charge D/D 288",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_reliable",
+            "val": "3"
+          }
+        ],
+        "cost": 1,
+        "barrageable": false,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots.",
+        "name": "Uncharged",
+        "synergies": [],
+        "type": "Melee"
+      },
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "4d6+8"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_reliable",
+            "val": "8"
+          },
+          {
+            "lid": "tg_knockback",
+            "val": "8"
+          }
+        ],
+        "on_hit": "While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
+        "cost": 1,
+        "barrageable": false,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots.",
+        "name": "Charged",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "4tHbJ5sL7uAcw0AJ",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

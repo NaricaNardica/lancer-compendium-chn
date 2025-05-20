@@ -1,0 +1,65 @@
+{
+  "name": "Paracausal Mod",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_paracausal_mod",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Paracausal weapons are a headache for military planners; their precise A–Z function is often obscured, though they consistently produce the same “Z” output per “A” input.<br />The first reports of unregulated paracausal weaponry occurred during the civil engagements on Tian Shen. System-local forces received sealed magazines with directions to be loaded and fired as normal, although inspection of the magazines’ contents was prohibited on grounds that it would “damage the payload”. Helmet and gun cam footage do not betray the anomalous effects of this ordnance, though after-action reports uncovered a seemingly minor, though incredibly odd fact: every single trooper outfitted with this paracausal ammunition scored a 100% positive impact rate.<br />Union has scheduled all unregulated paracausal weapons and ammunition for retrieval, and the bureau is currently investigating Harrison Armory for its role in the development of the technology. Despite this, paracausal ammunition is still in use, as shipments and codes continue to leak to interested parties.",
+    "destroyed": false,
+    "effect": "This weapon gains Overkill, and its damage can’t be reduced in any way, including by other effects and systems (such as Resistance, Armor, etc).",
+    "integrated": [],
+    "license": "mf_saladin",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 4,
+    "synergies": [],
+    "tags": [],
+    "uses": 0,
+    "added_damage": [],
+    "added_range": [],
+    "added_tags": [
+      {
+        "lid": "tg_overkill",
+        "val": ""
+      }
+    ],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": true,
+      "Cannon": true,
+      "Launcher": true,
+      "Melee": true,
+      "Nexus": true,
+      "Rifle": true
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "dO4tWPeOBP1JdLCx",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554877,
+    "modifiedTime": 1747537554877,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

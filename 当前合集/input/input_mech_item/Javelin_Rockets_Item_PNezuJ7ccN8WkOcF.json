@@ -1,0 +1,68 @@
+{
+  "name": "Javelin Rockets",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_javelin_rockets",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose 3 free spaces within range 15 and line of sight that aren’t adjacent to each other. All characters know which spaces you have chosen. You fire a volley of auto-targeting rockets into the air: until the start of your next turn, when a character moves into or passes above a chosen space – no more than 10 spaces up – they are hit by a rocket, taking 3 kinetic damage. Each space can be triggered once and then the effect disappears on that space.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Pralaya was the name of your mother. She who would see the dawn-at-the-end. Her beauty was terrible, and her wrath, and I see it in all of you. My sons, when you hear the sound of thunder – that is your mother’s voice, and the rain of missiles her gift.” — “Notes for Young John”, Ministrations of the Master Teacher",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_monarch",
+    "license_level": 1,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "PNezuJ7ccN8WkOcF",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

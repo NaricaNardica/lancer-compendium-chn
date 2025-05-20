@@ -1,0 +1,49 @@
+{
+  "name": "Manipulators",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_manipulators",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Precise interaction with built and natural environments, soft targets, and hazardous materials is part of the daily routine for support-class mechs. This is made possible by manipulators – added multi-digit “hands” with haptic sensors.",
+    "destroyed": false,
+    "effect": "Your mech has an extra set of limbs. They are too small to have any combat benefit, but allow the mech to interact with objects that would otherwise be too small or sensitive (e.g., pilot-sized touch pads).",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "WMSFyBkkPR2nYBqg",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

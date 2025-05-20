@@ -1,0 +1,87 @@
+{
+  "name": "Warp Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "Sunzi",
+    "license_level": 2,
+    "lid": "mw_warp_rifle",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d3+1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 10
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          },
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_loading",
+            "val": ""
+          }
+        ],
+        "effect": "",
+        "on_hit": "The target must pass an ENGINEERING save or be teleported a number of spaces equal to the damage you dealt with this weapon (including bonus damage, etc.; no more than 10 spaces), in a direction of your choice. They must end in a free, valid space.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Es una abominación. Dicen que \"es como los arados de las espadas; tú también debes aprender a defender tu hogar ”. Ptah, escupí su lógica de espada. Ni siquiera sabíamos de los arados compartidos antes de convertirlos en espadas, y éramos felices.<br>Hiciste la puerta, la abriste. No es nuestra responsabilidad cerrarla.<br>[It is an abomination. They say “it is like plowshares to swords; you too must learn to defend your home.” Ptah, I spit on their blade-law. We did not even know of plowshares before they beat them into swords, and we were happy.<br>You made the door, you swung it open — it is not our responsibility to close it.]",
+        "name": "Warp Rifle",
+        "synergies": [],
+        "type": "Rifle"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 1,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "jlu2eIvPT99h4CEE",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Superthermal Blade",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "Gilgamesh",
+    "license_level": 2,
+    "lid": "mw_superthermal_blade",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          },
+          {
+            "type": "Heat",
+            "val": "1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_ap",
+            "val": ""
+          },
+          {
+            "lid": "tg_limited",
+            "val": "2"
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "1"
+          },
+          {
+            "lid": "tg_unique",
+            "val": ""
+          }
+        ],
+        "effect": "You may attack with this weapon without expending or requiring charges, and this weapon can be destroyed (due to critical damage or other effects) even if it has no charges remaining.",
+        "on_hit": "1/round, if you are in the Danger Zone you may expend a charge to to deal +3 heat; if you are not in the Danger Zone, you may take 3 heat to expend a charge for the same effect.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Available in a variety of designs curated for maximum cultural appeal, the Armory's line of thermoconductive blades are considered status symbols among some legionnaires. At nominal power, the blade is merely a conventional, if solidly designed, chassis-grade tactical melee weapon, but when the blade draws additional power from a chassis' reactor via hard-cable or induction feeds, its striking edge is instantly superheated to extreme temperatures.",
+        "name": "Superthermal Blade",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "V7xsyXPCiRKuK1p3",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

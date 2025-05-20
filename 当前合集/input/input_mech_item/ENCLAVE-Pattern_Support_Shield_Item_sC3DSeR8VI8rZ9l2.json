@@ -1,0 +1,91 @@
+{
+  "name": "ENCLAVE-Pattern Support Shield",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_enclave_pattern_support_shield",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "This system generates a burst 3 dome that lasts until the end of your next turn. You become Immobilized for the duration, but any ranged or melee attacks made against characters within the affected area from outside the dome receive +1 difficulty.<br>Additionally, gain the Blinkfield Intervention reaction while the shield is active.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "Take two Heat, then grant the attack’s target Resistance to all damage from this attack.",
+        "frequency": "1/round",
+        "heat_cost": 2,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Blinkfield Intervention",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "A character or object within the affected area is attacked.",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_saladin",
+    "license_level": 1,
+    "manufacturer": "HA",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "sC3DSeR8VI8rZ9l2",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

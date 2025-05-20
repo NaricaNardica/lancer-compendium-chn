@@ -1,0 +1,83 @@
+{
+  "name": "SPEAR Charges",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_spear_charges",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You fire a rocket, targeting a single character within range 10. Your target must pass an Agility save or take 6 AP explosive damage. On a success, they take half damage.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Anti-Armor Rocket",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_loitering_payload"
+    ],
+    "description": "Only recently approved for widespread distribution throughout Legion forces, the Special Purpose Enhanced Anti-armor Rocket is a lightweight munition delivery system designed to be used in place of larger payload weapons such as the GMS MC-RPG or the Snapdragon ACGM. Designed for ease of use with minimal training and fired from disposable tube launchers, each rocket can either be used in direct-fire mode or set to loiter over an area, initiating top-down terminal interception upon recognizing hostile contact within its established threat perimeter.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "Gilgamesh",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_grenade",
+        "val": ""
+      },
+      {
+        "lid": "tg_mine",
+        "val": "0"
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "T1taI8HmC77SKglV",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537614795,
+    "modifiedTime": 1747537614795,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

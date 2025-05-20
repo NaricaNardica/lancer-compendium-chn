@@ -1,0 +1,146 @@
+{
+  "name": "Leviathan Heavy Assault Cannon",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_drake",
+    "license_level": 3,
+    "lid": "mw_leviathan_heavy_assault_cannon",
+    "loaded": false,
+    "manufacturer": "IPS-N",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [],
+        "effect": "Unlike other Superheavy weapons, the Leviathan can be used with Skirmish. You can spin up this weapon’s barrels as a quick action.",
+        "cost": 1,
+        "barrageable": false,
+        "skirmishable": true,
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "Spin up the barrels of the Leviathan Heavy Assault Cannon, Slowing your mech and allowing use of its \"Spin-Up Mode\" profile.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Spin Up Leviathan",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "The Leviathan Heavy Assault Cannon (HAC) is a massive, multi-barrel rotary cannon fed by an external reservoir, usually dorsally mounted on the chassis carrying it. Unmodified, the Leviathan should only be fired within the recommended burst timing specifications to prevent percussive trauma to joints and pilots.<br>In partnership with Harrison Armory’s Think Tank, IPS-N is currently investigating remote solutions for the cannon’s ammunition consumption demands.",
+        "name": "Standard",
+        "synergies": [],
+        "type": "Cannon"
+      },
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "4d6+4"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_reliable",
+            "val": "5"
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "2"
+          }
+        ],
+        "effect": "While spinning, you are Slowed and can no longer use the Leviathan with Skirmish.<br>You can cease this effect as a protocol.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [
+          {
+            "activation": "Protocol",
+            "cost": 0,
+            "damage": [],
+            "detail": "End the Leviathan Heavy Assault Cannon's \"Spin-Up Mode\", ending the Slowed condition and allowing the Leviathan to be used with its \"Standard\" profile.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Cease Spin-Up",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "The Leviathan Heavy Assault Cannon (HAC) is a massive, multi-barrel rotary cannon fed by an external reservoir, usually dorsally mounted on the chassis carrying it. Unmodified, the Leviathan should only be fired within the recommended burst timing specifications to prevent percussive trauma to joints and pilots.<br>In partnership with Harrison Armory’s Think Tank, IPS-N is currently investigating remote solutions for the cannon’s ammunition consumption demands.",
+        "name": "Spin-Up Mode",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "RgbNqqMnFSXwz4ua",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

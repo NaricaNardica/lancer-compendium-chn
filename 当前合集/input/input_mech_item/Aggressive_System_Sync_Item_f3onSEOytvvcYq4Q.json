@@ -1,0 +1,82 @@
+{
+  "name": "Aggressive System Sync",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_aggressive_system_sync",
+    "actions": [
+      {
+        "activation": "Full Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Chains of Prometheus",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": true
+      },
+      {
+        "activation": "Full Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Excommunicate",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": true
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[here, another gift: do not seek others. there are none but me]</span>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_minotaur",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "f3onSEOytvvcYq4Q",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

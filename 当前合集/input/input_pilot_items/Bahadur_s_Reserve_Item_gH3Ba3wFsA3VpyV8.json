@@ -1,0 +1,82 @@
+{
+  "name": "Bahadur's Reserve",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [
+          {
+            "type": "Burn",
+            "val": "2"
+          }
+        ],
+        "detail": "Throw a molotov within Range 5. Affected characters within a Blast 1 must pass an Agility save or take 2 Burn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Molotov Cocktail",
+        "pilot": true,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Blast",
+            "val": 1
+          }
+        ],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "A remarkably potent spirit distilled by Mir Bahadur, this moonshine is served to discerning customers and traded for favors within Evergreen's informal barter networks. It goes down surprisingly smooth with notes of vanilla and spices and is responsible for a truly impressive number of hangovers and bad decisions. While piloting under the influence is highly inadvisable, a bottle of good alcohol can be a boon to morale as well as a valuable trade commodity. Bahadur’s homebrew can even serve as a disinfectant or crude (if effective) anesthetic, and it is high enough proof to run a biofuel generator or even be repurposed into a makeshift incendiary device in a pinch.",
+    "lid": "ms_exo_bahadurs_reserve",
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "gH3Ba3wFsA3VpyV8",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570484,
+    "modifiedTime": 1747537570484,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

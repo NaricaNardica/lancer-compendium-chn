@@ -1,0 +1,63 @@
+{
+  "name": "Whitewash Sealant Spray",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_whitewash_sealant_spray",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "This sealant can be sprayed on characters or free spaces within range 5 and line of sight. It has different effects depending on the target:<ul><li><b>Hostile Characters:</b> Your target must succeed on an Agility save or they become Slowed until the end of their next turn and clear all burn.</li><li><b>Allied Characters:</b> Your target clears all burn but they become Slowed until the end of their next turn.</li><li><b>Free Space:</b> Any fires within blast 1 are extinguished and the area becomes difficult terrain for the rest of the scene.</li></ul>",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "For fire suppression and fast, temporary seals in punctured starship bulkheads, IPS-N offers a range of single-use, single objective nanites – “whitewash”. This sealant spray can also be used to restrain noncompliant actors when the correct spray heads and catalytic formulations are installed to the applicator.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_lancaster",
+    "license_level": 2,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "RDroK1wv1WFMIQWz",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

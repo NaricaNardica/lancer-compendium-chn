@@ -1,0 +1,117 @@
+{
+  "name": "Spaceborn",
+  "type": "talent",
+  "system": {
+    "lid": "t_spaceborn",
+    "curr_rank": 1,
+    "description": "You’re adept at planting your feet wherever you find them – even on nothing at all. In places where people born downwell have a hard time keeping their lunch down, you thrive. Which way is up? It’s up to you",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "All of your mechs that you build come with built-in EVA capabilities, meaning you suffer no penalties when operating underwater or in zero-g environments. As a quick action, you can shunt power into this component to fly 3 spaces and take Heat equal to your mech’s Size + 1, although you must land at the end of this movement or fall.",
+        "exclusive": false,
+        "integrated": [
+          "ms_spaceborn_1"
+        ],
+        "name": "Home in the Void",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when your mech is involuntarily moved by another character’s attack or by failing a save forced by another character, you can choose the direction you move. Additionally, when your mech clears Prone, you may move 2 spaces in any direction as a free action. This movement ignores engagement and doesn’t provoke reactions",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Sea Legs",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Scrapper",
+        "synergies": [
+          {
+            "detail": "1/round, when your mech hits a character with a melee attack, it can immediately give that character +1 Difficulty on all checks or saves to avoid Knockback, Prone, Slowed or Immobilized until the end of its next turn, including any effects that are part of the triggering attack.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve your mobility and gain an inbuilt EVA suite"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "rVokxZyvabwYroiH",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564008,
+    "modifiedTime": 1747537564008,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

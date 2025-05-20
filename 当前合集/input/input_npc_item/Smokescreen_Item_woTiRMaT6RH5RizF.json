@@ -1,0 +1,101 @@
+{
+  "name": "Smokescreen",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npc_mbt_smokescreen",
+    "effect": "The MBT creates a Blast 2 area of dense, sensor-jamming smoke within Range 5, and may immediately Boost into it as a free action. This area lasts until the end of the MBT's next turn, and all characters and objects within it gain soft cover. The first time the MBT and any allied characters enter this area, they clear Lock On.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      },
+      {
+        "lid": "tg_recharge",
+        "val": "5"
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "name": "MBT",
+      "type": "Class",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "woTiRMaT6RH5RizF",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636649758,
+    "modifiedTime": 1747636649758,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

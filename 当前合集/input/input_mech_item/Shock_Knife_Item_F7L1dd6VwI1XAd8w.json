@@ -1,0 +1,85 @@
+{
+  "name": "Shock Knife",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_metalmark",
+    "license_level": 2,
+    "lid": "mw_shock_knife",
+    "loaded": false,
+    "manufacturer": "SSC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1"
+          },
+          {
+            "type": "Burn",
+            "val": "2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_thrown",
+            "val": "5"
+          },
+          {
+            "lid": "tg_heat_self",
+            "val": "1"
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Shock knives are short, powered blades designed for integration with Shock Wreaths, a popular post-fab modification. The knives are custom-sculpted by SSC’s Terashima artisan enclave, each one bearing the unique hash-stamp of its designer. Part of SSC’s LUX-Iconic line – a civilian-accessible track of the BELLA CIAO line – each shock knife print code allows only a single use. If lost, pilots must submit an apology and request in writing explaining the circumstances of the loss in order to receive another code.",
+        "name": "Shock Knife",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Auxiliary",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "F7L1dd6VwI1XAd8w",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

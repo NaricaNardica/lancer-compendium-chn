@@ -1,0 +1,49 @@
+{
+  "name": "Expanded Compartment",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_expanded_compartment",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "",
+    "destroyed": false,
+    "effect": "Your mech has space for one additional non-Mech character or object of Size 1/2 to ride as a passenger in the cockpit. While inside the mech, they cannot suffer any effect from outside or be targeted by attacks, as if they were a pilot. You can hand over or take back control to or from them as a protocol (following the same rules as pilot and AIs), but if they take over the controls from you, the mech becomes Impaired and Slowed to reflect the lack of appropriate licenses and integration.",
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "manufacturer": "GMS",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "zx2XEbwTGbStafrj",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

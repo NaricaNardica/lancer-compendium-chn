@@ -1,0 +1,100 @@
+{
+  "name": "GOLIATH",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-GOLIATH.png",
+  "system": {
+    "lid": "npcc_goliath",
+    "role": "defender",
+    "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br />With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
+    "tactics": "Goliaths are relatively mobile defenders that can bring enemies to them. With Crush Targeting, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies.",
+    "base_features": [
+      "npcf_drum_shotgun_goliath",
+      "npcf_crush_targeting_goliath",
+      "npcf_heavy_frame_goliath",
+      "npcf_guardian_goliath",
+      "npcf_siege_armor_goliath"
+    ],
+    "optional_features": [
+      "npcf_power_knuckle_goliath",
+      "npcf_pin_goliath",
+      "npcf_crushing_embrace_goliath",
+      "npcf_watchful_guardian_goliath",
+      "npcf_retribution_goliath"
+    ],
+    "base_stats": [
+      {
+        "hp": 25,
+        "evasion": 6,
+        "edef": 6,
+        "heatcap": 8,
+        "speed": 3,
+        "sensor_range": 10,
+        "save": 11,
+        "hull": 4,
+        "agi": -2,
+        "sys": 1,
+        "size": 3,
+        "activations": 1,
+        "armor": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 30,
+        "evasion": 6,
+        "edef": 6,
+        "heatcap": 10,
+        "speed": 3,
+        "sensor_range": 10,
+        "save": 13,
+        "hull": 6,
+        "agi": -2,
+        "sys": 1,
+        "size": 3,
+        "activations": 1,
+        "armor": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 35,
+        "evasion": 6,
+        "edef": 6,
+        "heatcap": 12,
+        "speed": 3,
+        "sensor_range": 15,
+        "save": 15,
+        "hull": 6,
+        "agi": -2,
+        "sys": 1,
+        "eng": 2,
+        "size": 3,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "vJbU60fh32EIZaE9",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

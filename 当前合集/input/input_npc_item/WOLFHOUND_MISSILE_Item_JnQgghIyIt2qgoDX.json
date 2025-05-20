@@ -1,0 +1,105 @@
+{
+  "name": "WOLFHOUND MISSILE",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_wolfhound_missile_ultra",
+    "effect": "Wolfhound Missile (Size 1, HP {10/15/20}, Evasion 10, E-Defense 10, Tags: Drone)<br />The Ultra chooses a character within line of sight and range 30, then deploys the wolfhound missile to an adjacent space. At the start of each of the Ultra’s subsequent turns, the missile flies 3 spaces towards the target, or 6 spaces if the target has Lock On. The missile moves as directly as possible, but maneuvers around cover and obstructions as long as there is space to do so. When the missile collides with a character or reaches the target, it detonates with a Blast 1 explosion. Characters within the affected area must make an Agility save. On fail, they take {14/20/28} Energy damage; on a success, they take half damage.<br />The Ultra can only deploy one wolfhound missile at a time, and this system can only recharge once the missile has detonated.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_drone",
+        "val": ""
+      },
+      {
+        "lid": "tg_recharge",
+        "val": "6"
+      },
+      {
+        "lid": "tg_quick_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Template",
+      "name": "ULTRA",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "JnQgghIyIt2qgoDX",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

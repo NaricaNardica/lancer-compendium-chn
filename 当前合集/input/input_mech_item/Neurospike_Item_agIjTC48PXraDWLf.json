@@ -1,0 +1,87 @@
+{
+  "name": "Neurospike",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_neurospike",
+    "actions": [
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "Until the end of the target’s next turn, they first take 2 heat whenever they attack.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Shrike Code",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose yourself or an allied character: your systems relay blurred, illusory images over their actual silhouette. Your target treats you, or the character you chose, as Invisible until the end of their next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Mirage",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_dusk_wing",
+    "license_level": 1,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "agIjTC48PXraDWLf",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

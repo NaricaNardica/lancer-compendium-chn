@@ -1,0 +1,49 @@
+{
+  "name": "“Roland” Chamber",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_roland_chamber",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Packed into sealed, self-contained cylinders, IPS-N’s “Roland Rounds” are high-explosive anti-armor charges built for kinetic weapons of any mech-scale caliber. Loaded in place of inert kinetic ammunition, a Roland HE/AA shell increases the efficacy and destructive power of any weapon it is fired from.",
+    "destroyed": false,
+    "effect": "When you reload any weapon, your next attack with a Loading weapon gains this effect:<br />On hit: This attack deals +1d6 explosive bonus damage, and targets must succeed on a Hull save or be knocked Prone.",
+    "integrated": [],
+    "license": "mf_raleigh",
+    "license_level": 2,
+    "manufacturer": "IPS-N",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "gJLfQIEnSF0rORrS",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

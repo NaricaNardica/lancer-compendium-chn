@@ -1,0 +1,81 @@
+{
+  "name": "Pistol",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "GMS",
+    "license_level": 0,
+    "lid": "mw_pistol",
+    "loaded": false,
+    "manufacturer": "GMS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_reliable",
+            "val": "1"
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
+        "name": "Pistol",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Auxiliary",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "Ges359Y33rpMSyOv",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

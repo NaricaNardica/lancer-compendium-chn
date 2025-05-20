@@ -1,0 +1,39 @@
+{
+  "name": "High Caliber Ammo",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_high_caliber_ammo",
+    "description": "Spend this reserve at the start of any combat scene to give all your weapons AP until the end of the scene.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "Q6XqRT67rjVw4rR2",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570693,
+    "modifiedTime": 1747537570693,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

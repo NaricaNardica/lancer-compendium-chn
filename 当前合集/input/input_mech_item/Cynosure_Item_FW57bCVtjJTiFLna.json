@@ -1,0 +1,91 @@
+{
+  "name": "Cynosure",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_exo_cynosure",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Every character on the battlefield involuntarily moves 1 space in a direction of your choice, ignoring engagement and without provoking reactions. They must all move in the same direction.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Celestial Ordering",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "A hostile character within line of sight and SENSORS must succeed on a SYSTEMS save or be mesmerized. Choose another visible character. Any voluntary movement the mesmerized character makes must be toward the chosen character by the most direct route possible. This effect ends when the mesmerized character starts or ends their turn adjacent to any other character, otherwise it lasts until the end of combat.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Unblinking Pursuit",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "This program talks, quietly, of revenge, of the ordering of things, of a march of blades lifted high against the sun.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "FW57bCVtjJTiFLna",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570903,
+    "modifiedTime": 1747537570903,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Reactive Weave",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_reactive_weave",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Composed of woven covers for critical joints and systems, reactive weave not only protects these sensitive components from fouling and poor weather, but provides a surface for the application of SSC’s unique loomware technology. Reactive weave is powered, making it capable of free-flexing to augment mobility and reduce the stress placed on a mech’s joints.",
+    "destroyed": false,
+    "effect": "When you Brace, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed.",
+    "integrated": [],
+    "license": "mf_metalmark",
+    "license_level": 1,
+    "manufacturer": "SSC",
+    "sp": 1,
+    "synergies": [
+      {
+        "detail": "When you Brace, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed.",
+        "locations": [
+          "brace"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "lKytZBQeVdDI0E4R",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

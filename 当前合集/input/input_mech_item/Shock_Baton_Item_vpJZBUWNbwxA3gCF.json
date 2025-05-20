@@ -1,0 +1,83 @@
+{
+  "name": "Shock Baton",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "lid": "mw_shock_baton",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6+1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_unique",
+            "val": ""
+          },
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "effect": "",
+        "on_crit": "Your target must succeed on a Systems save or become Jammed until the end of their next turn. On a success, they become Impaired for the same duration. Each character can only be affected this way 1/Scene.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The shock baton is a relatively recent development in the field of mech-to-mech “less-lethal” weaponry. A popular choice for law enforcement seeking to disable frames instead of destroying them, allowing their pilots to be taken alive.",
+        "name": "Shock Baton",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 1,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "vpJZBUWNbwxA3gCF",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537596271,
+    "modifiedTime": 1747537596271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

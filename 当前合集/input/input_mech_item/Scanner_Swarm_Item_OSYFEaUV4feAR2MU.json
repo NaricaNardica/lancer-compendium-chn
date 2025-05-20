@@ -1,0 +1,50 @@
+{
+  "name": "Scanner Swarm",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_scanner_swarm",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "HORUS-coded scanner swarms establish oculus-form nanite protocols around defined objects or areas, ensuring constant circulation and data capture. The nanites ingest and process full-spectrum information, relaying it back to their pilot/parent in return for an endorphic code-impulse that prompts continued scanning.",
+    "destroyed": false,
+    "effect": "You gain +1 accuracy on tech attacks against adjacent characters.",
+    "integrated": [],
+    "license": "mf_balor",
+    "license_level": 1,
+    "manufacturer": "HORUS",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "OSYFEaUV4feAR2MU",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

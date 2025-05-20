@@ -1,0 +1,85 @@
+{
+  "name": "Swarm/Hive Nanites",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_balor",
+    "license_level": 3,
+    "lid": "mw_swarm_hive_nanites",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "2"
+          },
+          {
+            "type": "Burn",
+            "val": "2"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_smart",
+            "val": ""
+          },
+          {
+            "lid": "tg_seeking",
+            "val": ""
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch.",
+        "name": "Swarm/Hive Nanites",
+        "synergies": [],
+        "type": "Nexus"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "qCr2Ab2mq9AJS1hD",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

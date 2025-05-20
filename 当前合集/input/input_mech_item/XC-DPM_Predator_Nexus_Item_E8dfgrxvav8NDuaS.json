@@ -1,0 +1,89 @@
+{
+  "name": "XC-DPM Predator Nexus",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "lid": "mw_xc_dpm_predator_nexus",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 10
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_accurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_smart",
+            "val": ""
+          },
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "effect": "Attacks with this weapon ignore Invisible.",
+        "on_attack": "",
+        "on_crit": "",
+        "on_hit": "",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "<p>One of GMS’s most advanced nexus weapons currently undergoing field-testing, the XC-DPM Predator project is the direct descendant of the earlier MC-DHK Hunter-Killer program, itself a joint venture between the Advanced Projects Special Research Agency and GMS engineers. The Predator nexus benefits from a comprehensive targeting and autonomy upgrade, incorporating MD+ “Muse Drive” smart weapon design. This system’s heuristics, though declared Turing-Null, display startlingly advanced target acquisition capabilities even when confronted with active countermeasures that might otherwise confound traditional smart weapon platforms.</p>",
+        "name": "XC-DPM Predator Nexus",
+        "synergies": [],
+        "type": "Nexus"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "E8dfgrxvav8NDuaS",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537587046,
+    "modifiedTime": 1747537587046,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

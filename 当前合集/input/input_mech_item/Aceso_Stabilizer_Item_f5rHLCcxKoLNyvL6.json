@@ -1,0 +1,81 @@
+{
+  "name": "Aceso Stabilizer",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_aceso_stabilizer",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Expend a charge to fire this small, self-arming system onto an allied mech within range 5. They gain Overshield equal to your Grit +4. While they have this Overshield they gain Immunity to Impaired and Jammed.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The IPS-N Aceso Stabilizer is a useful triage measure for any scoring and minor mechanical damage that is sustained in the course of combat engagement or negative environmental interaction. Thanks to its negligible processor demand, Aceso Stabilizers can even be controlled by COMP/CON units – this allows the pilot to concentrate on complex repairs or immediate threat neutralization.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_lancaster",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_overshield",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "f5rHLCcxKoLNyvL6",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

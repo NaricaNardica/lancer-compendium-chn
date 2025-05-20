@@ -1,0 +1,93 @@
+{
+  "name": "SIEGE KIT SWAP BONUS",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_siege_kit_swap_bonus_strider",
+    "effect": "Swap bonus: The Strider scatters caltrops in a Blast 1 zone within Range 5, turning it into difficult terrain for the rest of the scene. They then deploy a SIZE 1 piece of hard cover in any free adjacent space, which also remains for the rest of the scene.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [],
+    "type": "Reaction",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "trigger": "The Strider swaps to the SIEGE KIT.",
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "J34lmTID8ALLjHfT",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

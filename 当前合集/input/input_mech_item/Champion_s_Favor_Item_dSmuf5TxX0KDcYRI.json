@@ -1,0 +1,53 @@
+{
+  "name": "Champion's Favor",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_champions_favor",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "These mech-scale golden laurels granted to pankration mechani champions house a small but sophisticated shield generator. The shield provides both protection and a distinctively colored visual shimmer, referred to as a champion's “aura” or “halo”.",
+    "destroyed": false,
+    "effect": "At the start of your turn, gain 1 Overshield.",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "dSmuf5TxX0KDcYRI",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624741,
+    "modifiedTime": 1747537624741,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

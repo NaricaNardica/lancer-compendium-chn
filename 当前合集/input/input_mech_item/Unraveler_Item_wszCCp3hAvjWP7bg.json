@@ -1,0 +1,78 @@
+{
+  "name": "Unraveler",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_lich",
+    "license_level": 1,
+    "lid": "mw_unraveler",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "2d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 10
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_reliable",
+            "val": "2"
+          }
+        ],
+        "effect": "If an attack from this weapon would not deal enough damage to destroy its target or cause it to take at least 1 structure damage, it instead only deals RELIABLE 2 damage, even on a hit.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIB-TERMAGANTTANGENT ROYAL]<br>“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. Open your mouth.”",
+        "name": "Unraveler",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "wszCCp3hAvjWP7bg",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

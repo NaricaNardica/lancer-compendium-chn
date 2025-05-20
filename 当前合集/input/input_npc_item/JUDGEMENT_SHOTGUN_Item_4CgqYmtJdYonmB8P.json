@@ -1,0 +1,126 @@
+{
+  "name": "JUDGEMENT SHOTGUN",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_judgement_shotgun_avenger",
+    "effect": "This weapon automatically reloads whenever an allied non-Grunt, non-Drone character within Range 3 is destroyed.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_loading",
+        "val": ""
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      -1,
+      -1,
+      -1
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "weapon_type": "Main CQB",
+    "on_hit": "Target must pass an AGILITY save or be knocked PRONE.",
+    "damage": [
+      [
+        {
+          "type": "Energy",
+          "val": "10"
+        }
+      ],
+      [
+        {
+          "type": "Energy",
+          "val": "12"
+        }
+      ],
+      [
+        {
+          "type": "Energy",
+          "val": "14"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "4CgqYmtJdYonmB8P",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

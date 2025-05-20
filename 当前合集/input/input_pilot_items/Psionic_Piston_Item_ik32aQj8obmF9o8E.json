@@ -1,0 +1,45 @@
+{
+  "name": "Psionic Piston",
+  "type": "pilot_gear",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "<i><p>“Carry me, please carry me – your soul and mind, oh so delightfully fine. Twice I’ve filled your bowl so we shall dine. Carry me, please carry me – my soul and mind.” [LISTEN]. Walk the path with me and see our footsteps blend. [WALK]. The creases in your grandmother’s hand – so folded and neat, pressed and firm. [CLINCH]. Oh so she plowed those lands, diligent and stern. [SWING]. Woman with graceful purpose, look what we’ve done. [PEER]. Scarlet soil, sowed in crimson hues. [RELEASE].”</p></i><p><i>– a song and suggestion from one mind to another</i></p><p>The psionic piston is a vibrant octagonal jewel worn just above the glabella and embedded in the wearer’s frontal lobe. A tool for oversight and understanding created by a consortium of long-buried minds with silent intent. Few pistons exist today. Fewer still continue to bridge minds. Those that do, do so without witness. Instruments with no mother nor father any longer they seek partnership with the willing and ambitious. Do them a favor and carve on yourself a pocket for their presence.</p>",
+    "lid": "pg_Psionic_Piston",
+    "tags": [
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_gear",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "Eu49r1jK8V4k0hMi",
+  "_id": "ik32aQj8obmF9o8E",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537605046,
+    "modifiedTime": 1747636667179,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

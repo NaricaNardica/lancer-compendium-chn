@@ -1,0 +1,77 @@
+{
+  "name": "Sympathetic Shield",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_sympathetic_shield",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "You project a shield of resonant ferrofluid over an allied character within Range 5. They gain Overshield equal to 4 + GRIT, but any damage dealt to this Overshield before reductions of any kind also deals equivalent kinetic damage to you as if the attacker had also damaged you, no matter how far away you are. This damage does not inherit tags or effects.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Soon enough we realized that shaping weapons from molecules and particles wasn’t enough to justify the conical mag as a system worth platforming. We needed to find a way to make it … more. More visual, tactile, concrete, imposing, thrilling – we needed to sell the next step in realspace control! So with some tuning and, regrettably, input from Visual, we figured out how to define the White Witch: as the most terrifying, alien thing you’ve ever fucking seen.”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_white_witch",
+    "license_level": 2,
+    "manufacturer": "SSC",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_overshield",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "wZtjEITOOOTnfPSN",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578420,
+    "modifiedTime": 1747537578420,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,993 @@
+{
+  "name": "STRIDER",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-STRIDER.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:38:03.817Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 10
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "mZ6Kb60NlCHIQp6k",
+  "prototypeToken": {
+    "name": "STRIDER",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-STRIDER.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "STRIDER",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-STRIDER.png",
+      "system": {
+        "lid": "nrfaw-npc_npcc_strider",
+        "role": "artillery",
+        "flavor": "Striders are piloted by scouts, lone wolves, and mavericks - usually the kind of pilots who are accustomed to spending a lot of time behind enemy lines. The massive amount of gear these elite pilots bring with them gives them the ability to adapt to almost any circumstance.",
+        "tactics": "The Strider is very flexible, but only effective at certain range bands. Use its abilities to reposition it so that it can make the most use out of its various kits. Players will find that moving around is a valuable strategy against the Strider, as being too close or too far for it to attack effectively can render it ineffective.",
+        "base_features": [
+          "nrfaw-npc_npcf_swap_kit_strider",
+          "nrfaw-npc_npcf_marksman_kit_swap_bonus_strider",
+          "nrfaw-npc_npcf_marksman_kit_ranger_long_rifle_strider",
+          "nrfaw-npc_npcf_marksman_kit_duck_strider",
+          "nrfaw-npc_npcf_skirmisher_kit_swap_bonus_strider",
+          "nrfaw-npc_npcf_skirmisher_kit_explosive_rifle_strider",
+          "nrfaw-npc_npcf_skirmisher_kit_reposition_strider"
+        ],
+        "optional_features": [
+          "nrfaw-npc_npcf_cqb_training_strider",
+          "nrfaw-npc_npcf_hustle_strider",
+          "nrfaw-npc_npcf_offensive_weapon_swap_strider",
+          "nrfaw-npc_npcf_siege_kit_swap_bonus_strider",
+          "nrfaw-npc_npcf_siege_kit_shoulder_mortar_strider",
+          "nrfaw-npc_npcf_siege_kit_blast_shield_strider",
+          "nrfaw-npc_npcf_siege_kit_entrenched_strider",
+          "nrfaw-npc_npcf_sapper_kit_swap_bonus_strider",
+          "nrfaw-npc_npcf_sapper_kit_mag_shotgun_strider",
+          "nrfaw-npc_npcf_sapper_kit_smoke_grenade_strider",
+          "nrfaw-npc_npcf_sapper_kit_jamming_pylon_strider"
+        ],
+        "base_stats": [
+          {
+            "hp": 10,
+            "evasion": 10,
+            "edef": 8,
+            "heatcap": 5,
+            "speed": 4,
+            "sensor_range": 20,
+            "save": 10,
+            "hull": -2,
+            "agi": 2,
+            "sys": -1,
+            "eng": 1,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 12,
+            "evasion": 13,
+            "edef": 8,
+            "heatcap": 5,
+            "speed": 4,
+            "sensor_range": 20,
+            "save": 12,
+            "hull": -2,
+            "agi": 4,
+            "eng": 2,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "sys": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "hp": 14,
+            "evasion": 16,
+            "edef": 10,
+            "heatcap": 5,
+            "speed": 4,
+            "sensor_range": 20,
+            "save": 14,
+            "hull": -2,
+            "agi": 4,
+            "sys": 2,
+            "eng": 3,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "KDef7lzt3IeDMa2n",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685258,
+        "modifiedTime": 1747636685258,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SWAP KIT",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_swap_kit_strider",
+        "effect": "The Strider swaps to one of their available kits, gaining new attack options. They also gain a bonus effect that can only be used this round. By default, they have two kits, MARKSMAN KIT and SKIRMISHER KIT, and can gain more with optional systems.<br />In any given turn, they can only use weapons and systems from one kit. When one of the Strider’s weapons or systems are destroyed, it must be chosen from their active kit.<br />The Strider starts combat with any kit of their choice, but does not get the swap bonus until they swap to a different kit.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "Trait",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "T1K1HOGr4bPNI2hW",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685834,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "MARKSMAN KIT SWAP BONUS",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_marksman_kit_swap_bonus_strider",
+        "effect": "Swap bonus: This turn only, damage from the RANGER LONG RIFLE cannot be reduced in any way and it ignores the ORDNANCE tag.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Reaction",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "trigger": "The Strider swaps to the MARKSMAN KIT.",
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "M1FQ4xwvdBBipiNR",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685834,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "RANGER LONG RIFLE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_marksman_kit_ranger_long_rifle_strider",
+        "effect": "This weapon deals 9/10/12 Kinetic instead of its standard damage if the target is further than Range 8.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_ordnance",
+            "val": ""
+          }
+        ],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          1,
+          1,
+          1
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "weapon_type": "Heavy Rifle",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Kinetic",
+              "val": "3"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "4"
+            }
+          ],
+          [
+            {
+              "type": "Kinetic",
+              "val": "5"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 20
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "YgbsXNbf0J8jhZiG",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685834,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "DUCK",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_marksman_kit_duck_strider",
+        "effect": "The attack misses and the Strider gains RESISTANCE to all damage until the end of the turn.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_recharge",
+            "val": "4"
+          }
+        ],
+        "type": "Reaction",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "trigger": "A ranged attack originating beyond Range 8 hits the Strider.",
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "tilHfbMzuVzSkapx",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685899,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "SKIRMISHER KIT SWAP BONUS",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_skirmisher_kit_swap_bonus_strider",
+        "effect": "Swap bonus: This turn only, the Strider’s movement ignores difficult terrain and engagement, and doesn’t provoke reactions.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [],
+        "type": "Reaction",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "trigger": "The Strider swaps to the SKIRMISHER KIT.",
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "5x1t2wp3WwJolYZt",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685834,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "EXPLOSIVE RIFLE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_skirmisher_kit_explosive_rifle_strider",
+        "effect": "",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_knockback",
+            "val": "3"
+          }
+        ],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          1,
+          1,
+          1
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "weapon_type": "Heavy CQB",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Explosive",
+              "val": "6"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "7"
+            }
+          ],
+          [
+            {
+              "type": "Explosive",
+              "val": "8"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "wnI1i7naXhaHItjI",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685834,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "REPOSITION",
+      "type": "npc_feature",
+      "system": {
+        "lid": "nrfaw-npc_npcf_skirmisher_kit_reposition_strider",
+        "effect": "The Strider may move its SPEED in spaces.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_round",
+            "val": "1"
+          }
+        ],
+        "type": "Reaction",
+        "origin": {
+          "type": "Class",
+          "name": "STRIDER",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "trigger": "The start of any turn.",
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "iemueTU5U6mf2D0Y",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636685834,
+        "modifiedTime": 1747636685834,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636684246,
+    "modifiedTime": 1747636686072,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

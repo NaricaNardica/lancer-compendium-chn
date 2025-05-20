@@ -1,0 +1,72 @@
+{
+  "name": "Ramjet",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_ramjet",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "Until the start of your next turn, you can move +2 spaces when you Boost and your melee attacks (including Ram, Grapple, and so on) gain Knockback 2.<br>When you move during this time, you must move your full Speed in a straight line; however, you can stop if you would collide with an obstruction or hostile character, and you can change direction between separate movements (for example, standard moves, Boost, etc).",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "There’s a threshold that veteran Nelson pilots know well: the point of endless momentum. You get moving fast enough in the right atmosphere and the air itself feeds into auxiliary ports on the chassis, screaming out like a demon’s almighty howl. The point of endless momentum is a giant’s hand on your chest and a god’s chariot under your feet. Makes you feel like you can outrun light itself, as long as you don’t pass out first.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_nelson",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "2"
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "0I6lpYFst60qGvaT",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

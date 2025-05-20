@@ -1,0 +1,208 @@
+{
+  "name": "The Builder",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-builder",
+    "major_ideals": [
+      "I addressed challenges with diplomacy, creativity, or empathy.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I made a new friend or ally.",
+      "I defused a potentially violent or charged situation.",
+      "I helped to soothe or heal someone’s pain.",
+      "I created a new object, organization, or alliance, or mended one that was broken."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your power?",
+        "options": [
+          "A strong sense of community from years spent station-side.",
+          "A love of engineering passed down from your parents.",
+          "Part of your body that you built yourself, lovingly tinkered with."
+        ]
+      },
+      {
+        "question": "What do you speak with?",
+        "options": [
+          "Your voice.",
+          "Your hands.",
+          "Your eyes.",
+          "Your heart.",
+          "Your gut."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Inspiration",
+        "description": "When an ally takes can see or hear you while making a skill check, you can encourage them to give them +1 Accuracy or increased effect.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Secret History",
+        "description": "When you examine an object or vehicle close enough to touch, you can ask any of the following to the GM and get an honest answer:<ul><li>Is this thing broken? If so, how can it be fixed?</li><li>Who touched or used this recently?</li><li>Where has this thing been in the past day or so?</li></ul>Gain +1 Accuracy on your next skill check acting on the answers.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Untangle",
+        "description": "When you help someone else Heal Burdens, they clear two extra segments instead of one, and you clear one segment.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Clockmaker",
+        "description": "Gain increased effect on all project clocks and +1 Accuracy on all skill checks to progress them.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Sanctuary",
+        "description": "Until you take violent action in a scene, you cannot take more than 1 Stress at a time from physical harm at the hands of other people.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Bilingual",
+        "description": "For the entirety of a scene, you can talk to objects as if they were people, treating your work on them like a conversation, using social triggers, and so on. Talking to them has the same effect as working on them. Alternatively, you can do the opposite (work on someone like you would a project, using mechanical triggers). You can decide how metaphorical or literal this is. Gain increased effect when you use this ability.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Rigger",
+        "description": "You can create an improvised tool or device. Name its intended purpose and what you built it from (you always have the parts on your person). It provides +1 Accuracy on any skill checks for that purpose, but the first time you use it, roll a d6 and check for the following effects:<ol><li>It explodes immediately unless you take 1 Stress.</li><li>It melts something nearby into slag with a loose bolt of energy unless you take 1 Stress.</li><li>It makes a loud noise straight away and every time it is used.</li><li>It seems to have a mind of its own and sometimes activates without you.</li><li>For the rest of the session, you have to remain perfectly still to use it.</li><li>For the rest of the session, you have to feed it extra parts, raw material, or input from your gear or the environment if you want to use it.</li></ol> This item stops working at the end of the session.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Comfort",
+        "description": "When you sit down and listen to a character for a short time, you may ask one of the following questions of the GM (if they’re an NPC) or their player (if they are a PC) and receive an honest answer:<ul><li>What does this character really want?</li><li>How can I help?</li></ul>The GM or player in question can pass this information to you secretly if desired. You gain +1 Accuracy on your next skill check acting on the answer. If the character was a PC, you both clear 1 Stress.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Metalbloom",
+        "description": "For the rest of this scene, you cannot roll less than a 10 on any skill checks involving the use or understanding of technology. Treat any d20 result of a 9 or lower as a 10.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Mender",
+        "description": "When you wish to fix something broken (a relationship, an object, an alliance), name your approach. You can do it, but the GM chooses one or two things you’ll need:<ul><li>To bring the disparate parts together in one place.</li><li>To gather specific materials or find more time</li><li>To find out what’s missing.</li><li>To be comfortable with not fully fixing it.</li></ul>When you have what you need, you can perform a downtime action and play a scene out to fix it. When it’s fixed, gain 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of the Forge",
+        "description": "At the end of each session, if you completed a project, show it off to everyone. Give someone who admires it 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Forge."
+      },
+      {
+        "name": "Web of Creation",
+        "description": "By touching a willing person, an object, or a structure, you can visualize the connections between them or it and other objects, people, or things. You get excellent (but incomplete) information on these people, objects, or similar and how they relate. This information is factual and detailed. You can view up to three points of connection before this power fades. For example, you could visualize something three times removed or three separate things.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "DWfcIUQ9LKSnxY5d",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747537578652,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "ANDROMEDA-Pattern Heavy Laser Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_sherman",
+    "license_level": 2,
+    "lid": "mw_andromeda_pattern_heavy_laser_rifle",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "2d6"
+          },
+          {
+            "type": "Burn",
+            "val": "3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 12
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_heat_self",
+            "val": "3"
+          }
+        ],
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The Harrison Armory ANDROMEDA-Pattern Heavy Laser Rifle scales up the SOL by half, adding a second projector that can fire independently, synchronized, or in alternating patterns and wavelengths with the primary projector. The effect overwhelms most shields, but the power draw necessary makes this weapon impractical on platforms without the necessary heat reduction and dispersal to manage the incredible cost.",
+        "name": "ANDROMEDA-Pattern Heavy Laser Rifle",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "5iBoyvpC4rRgegS0",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

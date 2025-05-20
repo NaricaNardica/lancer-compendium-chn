@@ -1,0 +1,87 @@
+{
+  "name": "H0R_OS System Upgrade II",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_h0r_os_system_upgrade_ii",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "You create a data construct in a free adjacent space – a Size 2 object that can look like almost anything and that appears real to all systems. The construct provides hard cover, blocks line of sight, and has Immunity to all damage. Characters treat it as an obstruction and so cannot voluntarily move into it; however, if a character attempts to stand on it or is involuntarily moved into its area, it dissipates and is immediately destroyed. It lasts for the rest of the scene, or until destroyed by an adjacent character with a successful Systems skill check as a full action. If you create a second construct, the previous one disappears.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Construct Other: Ideal Image",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a free space within Sensors and a target – either yourself or an allied character within Sensors. You create a false idol – an illusory decoy of your target – in the chosen space. Before attempting to take any hostile actions against your target, characters with line of sight to the false idol must make a Systems save. On a failure, they don’t lose the action, but cannot target the original character and believe the false idol is real instead until the end of their next turn.<br>The false idol is the same Size as your target, can benefit from cover, and has Evasion 10, E-Defense 10, and 1 HP. It disappears if it takes heat or damage, or at the end of the scene. If you create a second idol, the previous one disappears.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Construct Other: False Idol",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "H0r_OS II builds further on the framework established by H0R_OS I, enabling the now-autonomous program to manifest an “Other” – a wholly new being constructed from aggregate user and environmental data. Others may be adapted to resemble a person, an object, or even a physical phenomenon. While the simulacrum isn’t perfect, it’s good enough to confuse systems and most observers on a first look.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_goblin",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "0BVuDmdbCLRDllXA",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

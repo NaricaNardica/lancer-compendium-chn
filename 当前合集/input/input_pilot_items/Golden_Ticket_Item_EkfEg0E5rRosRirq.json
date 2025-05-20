@@ -1,0 +1,39 @@
+{
+  "name": "Golden Ticket",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_golden_ticket",
+    "description": "1st Lt. Kim is only authorized to distribute so many limited-access licenses, but a little off-the-books code-cloning by Rio can help stretch those licenses a bit further. You gain a piece of Exotic Gear from Operation Solstice Rain.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "EkfEg0E5rRosRirq",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586559,
+    "modifiedTime": 1747537586559,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

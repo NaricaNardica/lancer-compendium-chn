@@ -1,0 +1,86 @@
+{
+  "name": "Mimic Mesh",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_mimic_mesh",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Until the end of your next turn, you may use the Battlefield Awareness reaction.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Activate Mimic Mesh",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "You may move 3 spaces towards your target, by the most direct route possible. This movement interrupts and resolves before the triggering action, ignores engagement and doesn’t provoke reactions. This reaction can be taken as many times per round as it is triggered.",
+        "frequency": "Unlimited",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Battlefield Awareness",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "A hostile action is taken against your target.",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Derived from a rather benign HORUS script, mimic meshes extend across projected sensor ranges to feed live positional and superpositional data to the pilot. This multidimensional data equips an effective leader to coordinate their allies’ movement with the assurance of survival.",
+    "destroyed": false,
+    "effect": "On activation, choose an allied character within SENSORS: until the end of your next turn, you gain the Battlefield Awareness reaction.",
+    "integrated": [],
+    "license": "mf_gorgon",
+    "license_level": 1,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "h6TpMkMhc2OZuXFe",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

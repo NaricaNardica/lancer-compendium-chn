@@ -1,0 +1,212 @@
+{
+  "name": "The Fool",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-fool",
+    "major_ideals": [
+      "I addressed challenges with perseverance, learning, or sheer dumb luck.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "Someone else helped me out of a bad situation.",
+      "I learned from my own vulnerability or weakness.",
+      "I threw myself into a situation without planning or preparation.",
+      "Someone taught me something useful, comforting, or painful."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your power?",
+        "options": [
+          "A strong sense of adventure.",
+          "Always being in the right place at the right time or the wrong place at the right time.",
+          "A stubborn refusal to give up."
+        ]
+      },
+      {
+        "question": "Who’s rooting for you back home?",
+        "options": [
+          "My family.",
+          "My partner.",
+          "My grandparent.",
+          "My community.",
+          "Nobody in particular, but that’s okay."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Rescue",
+        "description": "When you fail a skill check, you can let a nearby character step in and bail you out. That character gets 1 XP and can immediately reroll the check as if they were making it, with +1 Accuracy. They take any consequences (including Stress) instead of you.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Punching Bag",
+        "description": "When someone causes you Stress, your allies gain +1 Accuracy on actions against them for the rest of the scene.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Sun",
+        "description": "Gain increased effect on all actions for the rest of the scene.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Moon",
+        "description": "Reduce all Stress suffered by 1, to a minimum of 1, for the rest of the scene.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Joyluck Wind Thrower",
+        "description": "When you roll an unmodified 20 on the dice for a skill check, you may succeed in your task is and describe how you totally blow past everyone’s expectations (even your own). Your action ticks 5 segments on any relevant clocks, and you may give someone else present 1 XP.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Inspired Heroism",
+        "description": "Once a session, when you succeed on a Heroic skill check, all allies present gain 1 XP and heal 1 Stress.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "All-In",
+        "description": "When you push yourself to help another character on a Risky or Heroic skill check, it costs you 0 Stress. You still share in any consequences by helping.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Heart of Hearts",
+        "description": "When you and your group are in a tough spot, you can flash back to a scene from your past or hometown and describe how your memory of that time inspires you in the current moment. You can treat your next roll as though you rolled an unmodified 20. You can only ever use this ability three times; after that, replace it with a new power from this bond.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Stroke of Luck",
+        "description": "When you fail a skill check and take Stress, put yourself into danger, or seriously mess up, tell the GM you stumble onto something lucky of their choice a way forward, an opportunity, or a lucky break. You or another character gain +1 Accuracy on the next check acting on this stroke of luck.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Learn by Example",
+        "description": "At the start of any session, choose another character to be your mentor (whether they are willing or unwilling is up to them). Twice in that session, you may ask them for advice before making a skill check. If you follow their advice, gain +1 Accuracy on that check. If they spurn your request or give you obviously harmful advice, take +1 Accuracy on a check for actions that ignore them.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of the Star",
+        "description": "If you or anyone else succeeded on at least one Heroic skill check, describe what happened. Give someone else who witnessed it 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Star."
+      },
+      {
+        "name": "The World",
+        "description": "For the rest of the scene, treat any final result of 9 or lower on one of your skill checks as 10+. This means you cannot fail skill checks (you might still take consequences for rolling a 10–19 on Risky or Heroic checks).",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "nos7sxhEakJ8HdoP",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747537578652,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

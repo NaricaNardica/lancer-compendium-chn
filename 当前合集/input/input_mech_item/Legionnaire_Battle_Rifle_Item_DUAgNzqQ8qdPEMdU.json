@@ -1,0 +1,79 @@
+{
+  "name": "Legionnaire Battle Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "Gilgamesh",
+    "license_level": 1,
+    "lid": "mw_legionnaire_battle_rifle",
+    "loaded": false,
+    "manufacturer": "HA",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1d6+3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 15
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_limited",
+            "val": "3"
+          }
+        ],
+        "effect": "You may attack with this weapon without expending or requiring charges, and this weapon can be destroyed (due to critical damage or other effects) even if it has no charges remaining.",
+        "on_attack": "You may expend up to 3 charges. For each charge expended you may either gain +2 Reliable for the attack or, on hit, push the target character 1 space in any direction.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Harrison Armory's primary model Legionnaire heavy battle rifle is a mainstay of both regular and auxiliary Armory forces regardless of theater or world of origin, standardizing logistics and streamlining integration of foreign and local assets. Chambered in a high-caliber round, the weapon is both inexpensive to print and easy to operate despite its size, and its robust design allows for sustained volumes of both precision and saturation fire even across extended engagements. Legionnaire pilots are rigorously trained in fire discipline, but enthusiastic recruits are still known to make up for a lack of experience with an excess of ammunition.",
+        "name": "Legionnaire Battle Rifle",
+        "synergies": [],
+        "type": "Rifle"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "DUAgNzqQ8qdPEMdU",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

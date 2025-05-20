@@ -1,0 +1,41 @@
+{
+  "name": "Deployable Shield",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_deployable_shield",
+    "description": "A single-use deployable shield generator – a SIZE 1 deployable that grants soft cover to all friendly characters in a BURST 2 radius.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [
+      "dep_deployable_shield_(reserve)"
+    ],
+    "integrated": [],
+    "label": "Shield",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "zv6e8jD9rehtsvoB",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556080,
+    "modifiedTime": 1747537556080,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

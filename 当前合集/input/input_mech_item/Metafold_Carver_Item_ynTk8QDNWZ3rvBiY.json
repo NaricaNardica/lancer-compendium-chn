@@ -1,0 +1,82 @@
+{
+  "name": "Metafold Carver",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_metafold_carver",
+    "actions": [
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "Your target is teleported 1d6+1 spaces directly toward you, or as close as possible. If this effect would move them to a space occupied by a character, object, or piece of terrain, the teleport fails.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Ophidian Trek",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "Your target disappears from the battlefield until the start of its next turn. It returns in the same space they disappeared from, or in a free space of their choice as close as possible.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Fold Space",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br /><span class=\"horus--subtle\">[no, no. there is only joy in seeking. there is only joy in the question]</span>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_minotaur",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "ynTk8QDNWZ3rvBiY",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

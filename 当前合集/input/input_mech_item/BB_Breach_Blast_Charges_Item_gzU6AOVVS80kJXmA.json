@@ -1,0 +1,97 @@
+{
+  "name": "BB Breach/Blast Charges",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_bb_breach_blast_charges",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1d6"
+          }
+        ],
+        "detail": "Throw a Thermal Grenade within Range 5. All characters within a Blast 1 area must succeed on an Agility save or take 1d6 energy. On a success, they take half damage. Objects and terrain are hit automatically and take 10 AP energy damage.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Thermal Grenade",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Blast",
+            "val": 1
+          }
+        ],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_breaching_charge"
+    ],
+    "description": "Breach/blast charges offer a mil-spec twist on the industrial blasting charges developed by IPS-N for asteroid mining. The IPS-N BB charge features a more volatile blend of high explosives designed to cause massive structural damage to mechanized chassis, starship bulkheads, armored vehicles, bunkers, and other hardened structures.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_raleigh",
+    "license_level": 1,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_grenade",
+        "val": ""
+      },
+      {
+        "lid": "tg_mine",
+        "val": "0"
+      }
+    ],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "gzU6AOVVS80kJXmA",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

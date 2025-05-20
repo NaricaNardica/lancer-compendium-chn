@@ -1,0 +1,60 @@
+{
+  "name": "SMOKESTACK Heat Sink",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_smokestack_heatsink",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_smokestack_heat_sink"
+    ],
+    "description": "The IPS-N Kidd’s SMOKESTACK Heat Sink represents the latest in IPS-N’s heat dispersion systems for chassis and other CORE-powered vehicles and vessels. Utilizing proprietary axiomatics, the SMOKESTACK system establishes (via deployable pylon) a localized, minor, and stable pinhole into an omega state, allowing users to – for a certain value of thermodynamic exchange – cool excess heat debt by depositing it into that same state. Once the SMOKESTACK reaches capacity – a hard-coded feature – it detonates, making the system just as effective a weapon as it is a heat sink.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_kidd",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_deployable",
+        "val": "0"
+      }
+    ],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "prkXbFVXblwRgY4g",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570903,
+    "modifiedTime": 1747537570903,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

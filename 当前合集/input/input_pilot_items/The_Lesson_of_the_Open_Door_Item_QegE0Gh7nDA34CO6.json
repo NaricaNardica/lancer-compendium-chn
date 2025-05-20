@@ -1,0 +1,75 @@
+{
+  "name": "The Lesson of the Open Door",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [
+      {
+        "lid": "save",
+        "val": "2",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": false
+      }
+    ],
+    "counters": [],
+    "deployables": [],
+    "description": "There is a body and a deep pit, and both are named Tartarus. Once it held kings and titans and myths. Now, the gates that held it back are flung wide, and Tartarus is free. Here is the terrible question: who opened it, and why? – “Lesson Two”, The Six Lessons of Kilo Nueve.",
+    "effect": "Your Save Target increases by +2; additionally, 1/round, when a character fails a save against you, they take 2 heat.",
+    "integrated": [],
+    "lid": "cb_the_lesson_of_the_open_door",
+    "manufacturer": "HORUS",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "QegE0Gh7nDA34CO6",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

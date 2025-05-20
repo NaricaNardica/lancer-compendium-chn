@@ -1,0 +1,97 @@
+{
+  "name": "IMPRISON",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_imprison_spite",
+    "effect": "The Spite chooses a character within SENSORS and line of sight: they must pass a SYSTEMS save or take {4/5/6} Energy and become infected by a catalyzing virus. While affected by this virus they cannot clear any heat by any means (except for overheating). This effect lasts for the rest of the scene, until the Spite is destroyed, or until the affected character moves adjacent to the Spite. While at least one character is affected by the virus, the Spite is IMMOBILIZED. <br />Targets that already suffer from the virus take double damage if imprisoned again.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_quick_tech",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "origin": {
+      "type": "Class",
+      "name": "SPITE",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_type": "Quick",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "CfzZY1DdWLoVPO68",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

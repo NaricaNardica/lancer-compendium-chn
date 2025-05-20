@@ -1,0 +1,245 @@
+{
+  "name": "Brawler",
+  "type": "talent",
+  "system": {
+    "lid": "t_brawler",
+    "curr_rank": 1,
+    "description": "Up close and personal. The way battle was done since the dawn of time, then forgotten with the first spark of gunpowder. Tempest Gloire is one pilot who prefers the old ways: hand-to-hand, weapons discarded, just the strength of her machine versus the strength of all others. You and her both know that the sweetest victory is found at the culmination of a dance as old as war itself, with the first trick known to humanity: a fist to your enemy’s face.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You gain +1 Accuracy on all melee attacks against targets you are Grappling.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Hold and Lock",
+        "synergies": [
+          {
+            "detail": "Gain +1 Accuracy on all melee attacks against targets you are Grappling.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Your Improvised Attacks gain Knockback 2 and deal 2d6+2 Kinetic damage.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Sledgehammer",
+        "synergies": [
+          {
+            "detail": "Your Improvised Attacks gain Knockback 2 and deal 2d6+2 Kinetic damage.",
+            "locations": [
+              "improvised_attack"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Full",
+            "cost": 0,
+            "damage": [],
+            "detail": "Reset your Brawler Die to 6 and, as a full action, make a Knockout Blow against an adjacent character. They must pass a Hull save, or take 2d6+2 Kinetic damage and become Stunned until the end of their next turn.<br>This action can only be taken when the value of your Brawler Die is 1.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Knockout Blow",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [
+          {
+            "default_value": 6,
+            "value": 6,
+            "lid": "ctr_brawler",
+            "max": 6,
+            "min": 1,
+            "name": "Brawler Die"
+          }
+        ],
+        "deployables": [],
+        "description": "Gain a Brawler Die, 1d6 starting at 6. Each time you Grapple, Ram, or make an Improvised Attack, lower the value of the Brawler Die by 1. When the Brawler Die reaches 1, you may reset it to 6 and, as a full action, make a Knockout Blow against an adjacent character. The value of your Brawler Die persists between scenes, but it resets to 6 when you rest or perform a Full Repair.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Knockout Blow",
+        "synergies": [
+          {
+            "detail": "Lowers the value of your Brawler Die by 1",
+            "locations": [
+              "grapple",
+              "ram",
+              "improvised_attack"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve the effectiveness of Improvised Attacks and Grappling"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "rG0vqwxSSJNVtvAi",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

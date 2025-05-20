@@ -1,0 +1,211 @@
+{
+  "name": "The Celebrant",
+  "type": "bond",
+  "system": {
+    "lid": "sotw-bond-celebrant",
+    "major_ideals": [
+      "I addressed challenges with enthusiasm, indulgence, or open-mindedness.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I embraced something I did not fully understand.",
+      "I sought out and indulged in pleasurable experiences.",
+      "I showed someone a different side of themselves.",
+      "I managed to find joy in bleak circumstances."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your powers?",
+        "options": [
+          "A cosmopolitan upbringing among many diverse cultures.",
+          "A thrill-seeking drive that only grows when fed.",
+          "A certain awareness of death and the temporary nature of existence."
+        ]
+      },
+      {
+        "question": "What is your greatest pleasure?",
+        "options": [
+          "Unique cuisines and street food from across the Diaspora.",
+          "The fiery adrenaline high of combat.",
+          "Altered perception and otherworldly experiences.",
+          "Convincing someone to try something new."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Uninhibited",
+        "description": "When you indulge in an activity that brings you great joy, you or an ally who joined you may fill in a segment of a burden.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Infectious Enthusiasm",
+        "description": "When you convince an ally to try something new, they gain +1 ACCURACY and increased effect on skill checks related to that experience or activity for the rest of the scene.",
+        "unlocked": false,
+        "frequency": "1/scene",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Break Bread",
+        "description": "When you share a meal or a drink with someone, choose a person you shared with and pick one:<ul><li>They clear 1 STRESS.</li><li>You gain +1 ACCURACY and increased effect on social checks against them for the rest of the scene.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Live And Learn",
+        "description": "When you fail a RISKY or HEROIC check, the next check you make using the same trigger gains +1 ACCURACY.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "What Could Go Wrong?",
+        "description": "When you or a willing ally makes a skill check, you may make that check RISKY (or make a RISKY check HEROIC). If you do, the person making the check gains +1 ACCURACY and increased effect.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Good Stuff",
+        "description": "You always have a ready supply of alcohol, smokes, or tasty snacks, with more than enough to share. Once per scene in a situation where this helps, gain +1 ACCURACY and increased effect.",
+        "unlocked": false,
+        "frequency": "1/scene",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Bad Influence",
+        "description": "You can convince a friendly NPC to take a risk against their better judgment. When you do, the GM chooses one:<ul><li>The consequences are severe.</li><li>You take the consequences.</li><li>They'll never do this again.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Hook Up",
+        "description": "You usually know how to get hold of things rare, expensive, or otherwise scarce; if you don't, you know who does. You can always ask the GM exactly what needs to be done to acquire a rare item, and have increased effect on all actions to do so.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Friends In Strange Places",
+        "description": "When you visit a new location for the first time, you may declare that you know someone there. Give them a name, and describe how you know them; they might be an old colleague, a contact, or someone unexpected from your past. They'll be willing to talk to you, and maybe even help you - but might need some convincing first.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Cosmopolitan",
+        "description": "When you encounter a new culture, subculture, or society, ask one of the following questions and get a truthful answer from the GM:<ul><li>What does this group value?</li><li>What does this group detest?</li><li>How can I best blend in?</li></ul>You or an ally of your choice gets +1 ACCURACY on their next skill check to act on the answer.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of the Open Mind",
+        "description": "At the end of the session, describe how an experience changed or expanded your worldview. Give someone who shared that experience 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Open Mind."
+      },
+      {
+        "name": "The Beautiful Life",
+        "description": "For the rest of the scene, you or an ally of your choice can defer the consequences of all skill checks. They all catch up to you at the end of the scene. If deferred consequences would cause you to break one or more times, you are not removed from a scene but take burdens as usual.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "xb3y2kLI4pAmtMdJ",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624910,
+    "modifiedTime": 1747537624910,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

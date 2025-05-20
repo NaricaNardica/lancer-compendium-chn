@@ -1,0 +1,68 @@
+{
+  "name": "FADE Cloak",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_fade_cloak",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "When activated, you immediately move out of phase with realspace, becoming intangible. While intangible, you may move through obstructions, but not end your turn within them. You cannot interact with any other object or character or be interacted with in any way (e.g., taking or dealing damage).<br>Roll 1d6 at the start of each of your turns: on 3 or less, you return to realspace until the start of your next turn; on 4+, you remain intangible.<br>This system remains active for the rest of the scene, or until you deactivate it as a quick action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Representing SSC’s first successful manipulation of the “Firmament”, Firmament Affinity/Directed Entropy (FADE) cloaks must be fabricated according to the unique affinity signature of requisitioning pilots. They are rough tools: artificial affinity amplifiers that allow operators to access shallow layers of the Firmament, and thus “shimmer” – nudging their physical bodies between the causal and paracausal. The cloak enhances this effect by extruding a semiorganic membrane that wraps around the mech to provide an additional layer of protection.<br />At present, the long-term effects of affinity amplification on organic matter are unknown; before receiving clearance to operate a FADE cloak, pilots must agree to check in with their SSC personal concierge on a regular schedule. These check-ins include regular deposits of genetic material.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_mourning_cloak",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "ErwwKpV2eUIQliCV",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

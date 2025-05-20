@@ -1,0 +1,35 @@
+{
+  "name": "ELITE",
+  "type": "npc_template",
+  "system": {
+    "lid": "npct_elite",
+    "description": "Elite enemies are tougher and more powerful than most – just a step down from Ultras. They might be especially tough or experienced pilots, special forces, or foes using a higher level of technology or better quality gear than the rank and file. Elites can act several times each round and get additional Structure, which effectively doubles their HP and allows them to make structure damage checks like PCs.",
+    "base_features": [
+      "npcf_reinforced_elite",
+      "npcf_ready_and_waiting_elite",
+      "npcf_career_soldier_elite",
+      "npcf_specialist_kit_elite"
+    ],
+    "optional_features": []
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "PRTencstAFvLcNxS",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604292,
+    "modifiedTime": 1747636604292,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "name": "Hunter",
+  "type": "talent",
+  "system": {
+    "lid": "t_hunter",
+    "curr_rank": 1,
+    "description": "The battlefield is Edith Eidelen’s hunting ground, her domain. It’s only through a true test of strength and guile that will determine who is the predator and who is the prey. Her movement across the field is a prowl: silent, quick, and controlled. In a chassis, she excels in close combat, closing the gap between her and her targets before they can bring their guns to bear.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you attack with an Auxiliary melee weapon, you may fly up to 3 spaces directly towards the targeted character before the attack. This movement ignores engagement and doesn’t provoke reactions.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Lunge",
+        "synergies": [
+          {
+            "detail": "1/round, when you attack with an Auxiliary melee weapon, you may fly up to 3 spaces directly towards a targeted character before the attack. This movement ignores engagement and doesn’t provoke reactions.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": false,
+              "Main": false,
+              "Superheavy": false
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "All your Auxiliary melee weapons gain Thrown 5, if they don’t have this property already – if they already have Thrown, it increases to Thrown 5. At the end of your turn, all weapons you have thrown this turn automatically return to you.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Knife Juggler",
+        "synergies": [
+          {
+            "detail": "This weapon gains Thrown 5 and will return to you at the end if your turn if thrown.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": false,
+              "Main": false,
+              "Superheavy": false
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you hit a character with a melee attack, you may also throw an Auxiliary melee weapon as an attack against any character within Range as a free action. This attack can’t deal bonus damage.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Disdainful Blade",
+        "synergies": [
+          {
+            "detail": "1/round, when you hit a character with a melee attack, you may also throw an Auxiliary melee weapon as an attack against any character within Range as a free action. This attack can’t deal bonus damage.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": false,
+              "Melee": true,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Gain mobility and range when using Auxiliary Melee weapons"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "vkKRv5u9iK7mTBYI",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

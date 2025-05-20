@@ -1,0 +1,584 @@
+{
+  "name": "HIVE",
+  "type": "npc",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-HIVE.png",
+  "system": {
+    "notes": "Updated via LCP import at 2025-05-19T06:36:44.735Z",
+    "destroyed": false,
+    "meltdown_timer": null,
+    "tier": 1,
+    "burn": 0,
+    "activations": 1,
+    "custom_counters": [],
+    "hp": {
+      "min": 0,
+      "max": 10,
+      "value": 20
+    },
+    "overshield": {
+      "min": 0,
+      "max": 14,
+      "value": 0
+    },
+    "inherited_effects": null,
+    "action_tracker": {
+      "protocol": false,
+      "move": 0,
+      "full": false,
+      "quick": false,
+      "reaction": false,
+      "free": false,
+      "used_reactions": []
+    },
+    "heat": {
+      "min": 0,
+      "max": 6,
+      "value": 0
+    },
+    "stress": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    },
+    "structure": {
+      "min": 0,
+      "max": 1,
+      "value": 1
+    }
+  },
+  "folder": null,
+  "_id": "DACxH4aKiOsE6bsP",
+  "prototypeToken": {
+    "name": "HIVE",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-HIVE.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": "heat"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "HIVE",
+      "type": "npc_class",
+      "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-HIVE.png",
+      "system": {
+        "lid": "npcc_hive",
+        "role": "controller",
+        "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
+        "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies.",
+        "base_features": [
+          "npcf_hunter_killer_nexus_hive",
+          "npcf_drone_barrage_hive",
+          "npcf_razor_swarms_hive"
+        ],
+        "optional_features": [
+          "npcf_electro_nanite_cloud_hive",
+          "npcf_motile_swarm_hive",
+          "npcf_driving_swarm_hive",
+          "npcf_grind_maniple_hive",
+          "npcf_seeker_cloud_hive"
+        ],
+        "base_stats": [
+          {
+            "hp": 20,
+            "evasion": 8,
+            "edef": 10,
+            "heatcap": 8,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 12,
+            "hull": -1,
+            "sys": 2,
+            "eng": 1,
+            "size": 1,
+            "activations": 1,
+            "armor": 0,
+            "agi": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 20,
+            "evasion": 8,
+            "edef": 13,
+            "heatcap": 8,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 14,
+            "hull": -1,
+            "sys": 4,
+            "eng": 1,
+            "size": 1,
+            "activations": 1,
+            "agi": 0,
+            "structure": 1,
+            "stress": 1
+          },
+          {
+            "armor": 1,
+            "hp": 20,
+            "evasion": 10,
+            "edef": 16,
+            "heatcap": 8,
+            "speed": 5,
+            "sensor_range": 10,
+            "save": 17,
+            "hull": 1,
+            "sys": 5,
+            "eng": 1,
+            "size": 1,
+            "activations": 1,
+            "agi": 0,
+            "structure": 1,
+            "stress": 1
+          }
+        ]
+      },
+      "folder": "P2gGhup5XKspXcKj",
+      "_id": "gNGPFKGXfRXVLtqA",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636611998,
+        "modifiedTime": 1747636611998,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "HUNTER-KILLER NEXUS",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_hunter_killer_nexus_hive",
+        "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_smart",
+            "val": ""
+          },
+          {
+            "lid": "tg_seeking",
+            "val": ""
+          }
+        ],
+        "type": "Weapon",
+        "origin": {
+          "type": "Class",
+          "name": "HIVE",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "weapon_type": "Main Nexus",
+        "on_hit": "",
+        "damage": [
+          [
+            {
+              "type": "Burn",
+              "val": "3"
+            }
+          ],
+          [
+            {
+              "type": "Burn",
+              "val": "3"
+            }
+          ],
+          [
+            {
+              "type": "Burn",
+              "val": "3"
+            }
+          ]
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tech_attack": false,
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "90bV7RfYrnFzxsqt",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636612376,
+        "modifiedTime": 1747636612376,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "DRONE BARRAGE",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_drone_barrage_hive",
+        "effect": "The Hive makes a tech attack against a character within Sensors. On a success, the target chooses one: they become Immobilized and Impaired until the end of their next turn, or they immediately move up to 5 spaces in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_quick_tech",
+            "val": ""
+          }
+        ],
+        "type": "Tech",
+        "origin": {
+          "type": "Class",
+          "name": "HIVE",
+          "base": true
+        },
+        "charged": false,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_type": "Quick",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          2,
+          4,
+          6
+        ],
+        "tech_attack": true,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "ABU94HxilEQoUCtO",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636612376,
+        "modifiedTime": 1747636612376,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    },
+    {
+      "name": "RAZOR SWARMS",
+      "type": "npc_feature",
+      "system": {
+        "lid": "npcf_razor_swarms_hive",
+        "effect": "The Hive deploys a Blast 1 razor swarm in a free area within Sensors. Allied characters gain soft cover as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take {2/4/6} Burn. The Hive can deploy any number of razor swarms, each of which persists for the rest of the scene or until the Hive is destroyed.",
+        "bonus": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "override": {
+          "activations": null,
+          "armor": null,
+          "hp": null,
+          "evasion": null,
+          "edef": null,
+          "heatcap": null,
+          "speed": null,
+          "sensor_range": null,
+          "save": null,
+          "hull": null,
+          "agi": null,
+          "sys": null,
+          "eng": null,
+          "size": null,
+          "structure": null,
+          "stress": null
+        },
+        "tags": [
+          {
+            "lid": "tg_drone",
+            "val": ""
+          },
+          {
+            "lid": "tg_recharge",
+            "val": "4"
+          },
+          {
+            "lid": "tg_quick_action",
+            "val": ""
+          }
+        ],
+        "type": "System",
+        "origin": {
+          "type": "Class",
+          "name": "HIVE",
+          "base": true
+        },
+        "charged": true,
+        "uses": 0,
+        "loaded": false,
+        "destroyed": false,
+        "tier_override": 0,
+        "tech_attack": false,
+        "damage": [],
+        "range": [],
+        "on_hit": "",
+        "accuracy": [
+          0,
+          0,
+          0
+        ],
+        "attack_bonus": [
+          0,
+          0,
+          0
+        ],
+        "tech_type": "Quick",
+        "cascading": false
+      },
+      "folder": "iU14HkPHRVW82mzf",
+      "_id": "RkFmRrF10p3Nm3iS",
+      "img": "systems/lancer/assets/icons/generic_item.svg",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "YArGKa3f4FYWoPpm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "lancer",
+        "systemVersion": "2.8.1",
+        "createdTime": 1747636612376,
+        "modifiedTime": 1747636612432,
+        "lastModifiedBy": "YArGKa3f4FYWoPpm"
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636605823,
+    "modifiedTime": 1747636612604,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Ghostweave",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "An upscaled version of the same systems found in SSC’s Mythimna Panoply, Ghostweave is a proprietary appliqué used to enhance mech camouflage in all environments.",
+    "effect": "During your turn, you are Invisible. If you take no actions on your turn other than your standard move, Hide, and Boost, you remain Invisible until the start of your next turn. You immediately cease to be Invisible when you take a reaction.",
+    "integrated": [],
+    "lid": "cb_ghostweave",
+    "manufacturer": "SSC",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "pSoUGMbahE5EepHG",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "name": "The Magus",
+  "type": "bond",
+  "system": {
+    "lid": "ktb-bond-magus",
+    "major_ideals": [
+      "I addressed challenges with passion, faith, or intuition.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I witnessed something terrifying, mind-bending, or glorious.",
+      "I acted on my first impulse.",
+      "I questioned my own senses, beliefs, or sense of self.",
+      "My stated intuition or gut feeling about something turned out to be right."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your powers?",
+        "options": [
+          "Esoteric technology, implanted in your cortex",
+          "A gut feeling too real for comfort",
+          "A conversation you once had with a long-dead monolith."
+        ]
+      },
+      {
+        "question": "What are your nightmares about?",
+        "options": [
+          "Sinking through an endless blackness.",
+          "Fleeing from teeth, muscle, and bone.",
+          "Hollow faces, staring at you.",
+          "My own blood and body, revolting against me."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Heartsight",
+        "description": "By concentrating momentarily you can sense the ambient emotional state of those close to you. You don’t have to be able to see them, but the effect becomes muddled if there are more than a few people close by. Get +1 Accuracy and increased effect on your next check acting on any insight you glean from this.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "To the Brink",
+        "description": "If you would take enough Stress to break, roll 1d6. On 4+, ignore all the Stress you’d take. On 6, additionally clear 1 Stress.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Eyes of the Void",
+        "description": "You can see perfectly well in even pitch darkness, fog, or poor weather conditions. Gain +1 Accuracy and increased effect on checks that rely on surveying or observing your surroundings. You can see even fine detail up to a mile away unaided.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Possession",
+        "description": "Ask a dark presence deep inside of you for advice on a course of action. The GM answers and you get either +1 Accuracy or increased effect on your next action following this advice (GM choice).",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Blackblood",
+        "description": "You may clear two segments from any of your burdens for +1 Accuracy on any skill check.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Skincrawl",
+        "description": "If there’s any question about who acts first in a scene, it’s you. You get an itch, tic, or bad feeling when you or someone you consider close to you is in immediate danger.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Geist",
+        "description": "When you touch someone skin to skin and take 1 Stress, you can see through their eyes and experience their sensations and ambient emotional state, even after breaking contact, although you can do little but observe. They are unaware of and unharmed by your presence. This lasts until the end of the scene, or until you use this ability again, and while you’re concentrating on it, you cannot do anything yourself except sit in quiet focus, otherwise the effect ends. PCs must be willing.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Plunder the Void",
+        "description": "When you strike out alone and enter a dark and distant place, nobody – PC or NPC – can find you and you may ask the GM one question about a situation at hand. They must answer truthfully with “yes”, “no”, or “unclear”. Whether this is merely a mental space or a different realm entirely is up to you and your GM. You return to reality where you left it at the start of the next scene.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Instinctive",
+        "description": "Describe a course of action to the GM that you plan to take in the same scene. You will receive guidance from the GM in the form of a feeling that is truthful, if unclear. The GM can choose boon (good outcomes), bane (bad outcomes), or chaos (a mix of good and bad outcomes).",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Unveil",
+        "description": "Choose someone present. If you stare straight at them you can ask “what does this person fear right now?” of the GM (if they’re an NPC) or their player (if they’re a PC) and receive an honest answer. You get +1 Accuracy on your next skill check acting on the answer. If a PC answers, they may clear 1 Stress.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of Revelation",
+        "description": "At the end of the session, if you found a scene troubling, exciting, or terrifying, describe why. Give someone who felt similarly 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Revelation."
+      },
+      {
+        "name": "Pierce the Gate",
+        "description": "By concentrating and remaining still, you can witness a scene, place, or person you have seen before as if you were physically present. You can’t interact with anything there, nobody is aware of you, and you can do nothing but observe as a detached mind for the duration. You have all your normal senses, and the effect lasts for the rest of the scene. To view a place, you have to have been there. To view a person, you have to have seen their face. The scene does not need to take place at the same time (it could be in the near past or future), though if it’s not at the present, it becomes blurry and indistinct and is reduced to impressions.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "izDV8U8PzEgwRWfS",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578652,
+    "modifiedTime": 1747537578652,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

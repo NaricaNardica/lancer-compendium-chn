@@ -1,0 +1,30 @@
+{
+  "name": "Spot",
+  "type": "skill",
+  "system": {
+    "lid": "sk_spot",
+    "curr_rank": 1,
+    "description": "Spot details, objects, or people that are hidden or difficult to make out.",
+    "detail": "Spot hidden or difficult to make out details, objects, or people. Spot ambushes, hidden compartments, or disguised individuals. Spy on a target from a distance, or make out the details, shape, and number of objects, vehicles, mechs, or people clearly at a distance. Track people or vehicles."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "6Msk9WObfldZbfrn",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

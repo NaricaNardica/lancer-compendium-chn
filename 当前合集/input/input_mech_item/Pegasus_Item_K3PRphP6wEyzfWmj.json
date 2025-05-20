@@ -1,0 +1,119 @@
+{
+  "name": "Pegasus",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-PEGASUS-2-0.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "For the rest of this scene, you can use the Ushabti Omnigun 3/round, instead of 1/round.",
+      "active_name": "Unshackle Ushabti",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "“– funny thing. See, right now, this weapon technically doesn’t even exist. You’re shooting them with a gun that isn’t real, and yet it is! Don’t worry about it. RA’s like that. Just, here, know that because it exists at some point, we’ve made it. That’s causality, and causality is a –\"",
+      "integrated": [],
+      "name": "Ushabti Omnigun",
+      "passive_actions": [
+        {
+          "activation": "Free",
+          "cost": 0,
+          "damage": [],
+          "detail": "1/round, as a free action during your turn, deal 1 AP kinetic damage to a character within Range 15 and line of sight. This doesn’t count as an attack, hits automatically, ignores cover, bypasses Immunity, and its damage can’t be reduced or ignored in any way. No rule supersedes this.",
+          "frequency": null,
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Fire Omnigun",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_effect": "[ERROR]<br />[range 15][1 AP Kinetic Damage]<br />Your mech’s omnigun is a piece of experimental hardware so advanced that it defies physics: it doesn’t require a mount, nor does it have a weapon type or size – meaning that it can’t be modified or benefit from your talents.<br />You can’t attack normally with this weapon. Instead, 1/round, as a free action during your turn, you can use it to deal 1 AP kinetic damage to a character within Range 15 and line of sight. This doesn’t count as an attack, hits automatically, ignores cover, bypasses Immunity, and its damage can’t be reduced or ignored in any way. No rule in this book or any other supersedes this.",
+      "passive_name": "Ushabti Omnigun",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "The Pegasus pattern group first appeared following the start of hostilities between Union and the Aunic Ascendancy in Boundary Garden, a distant sector of distal space away from the Galactic Core. The timing of this outbreak may be related to the pattern group’s defining weapon, though skip-drone couriers from Union forces reported no encounters with the PG in Boundary Garden; instead, the Pegasus appeared in the Dawnline Shore, a stretch of colonial Armory space opposite Boundary Garden.<br />The Pegasus appears to address HORUS’s need for a pattern group with extensive kinetic combat capabilities: by marrying the best targeting systems, subroutines, and weapons hardware in the HORUS codebase, collectivists have designed a PG that boasts a tremendously low identify/time-to-kill (ID/TTK) ratio in all theaters where kinetic weaponry is viable.<br />As with many HORUS pattern groups, the Pegasus fields a signature weapon system: the Ushabti, a hostile impulse anti-corporeal weapon that operates with complete ignorance of even the most basic underpinnings of physics and thermodynamics. As such, it qualifies unambiguously as a paracausal weapon. The Ushabti’s precise function remains unknown to Union and Harrison Armory scientists, though radiological and gravitational signatures captured in the aftermath of the weapon’s use point toward a relationship with the Aunic Firmament. Studies are ongoing on Ras Shamra, the Armory’s chief research world, and in satellite campuses across the Dawnline Shore.",
+    "license": "mf_pegasus",
+    "license_level": 2,
+    "lid": "mf_pegasus",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Artillery"
+    ],
+    "mounts": [
+      "Flex",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 10,
+      "heatcap": 6,
+      "repcap": 3,
+      "sensor_range": 10,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 4,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "GUN: <b>GUN</b>",
+        "integrated": [],
+        "name": "¿%:?EXTR!UDE GUN",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When it would roll damage, the Pegasus can instead deal the average damage based on the number of dice rolled, as follows: 1d3 (2), 1d6 (4), 2d6 (7), 3d6 (11), 4d6 (14). This must be decided before rolling damage.",
+        "integrated": [],
+        "name": "By the Way, I Know Everything",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "K3PRphP6wEyzfWmj",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

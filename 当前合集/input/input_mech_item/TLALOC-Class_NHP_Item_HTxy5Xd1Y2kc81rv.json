@@ -1,0 +1,77 @@
+{
+  "name": "TLALOC-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_tlaloc_class_nhp",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "Your NHP can rapidly fire and retarget your weapons – far faster than thought. You become Immobilized until the start of your next turn; however, during this time, you may reroll each missed melee or ranged attack roll once, choosing a new target within the attack’s Range. If the attack was part of an area of effect, it must target a character in the same area. Any given target can't be hit more than once as part of the same action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "TLALOC Protocol",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "TLALOC-Class NHPs provide advanced multi-system targeting and co-pilot functions, taking over subroutine control to ensure persistent lock-on and engagement. With TLALOC installed and operational, a pilot can trust that their back is always covered, and every possible advantage exploited.<br />TLALOC clones are often stereotyped as hasty and impetuous, and they are well-known for having superiority complexes. Despite this, they are some of the most stable NHP clones. Leading subjectivity theorists suggest that the wide portfolio of control and sense of domination given to TLALOC units encourages a sense of contentment with their work and subjectivity parameters – as a result, they have a much longer cascade window. Thus far, this theory is consistently reproducible across all TLALOC units, although there is no similar correlation among other mil-spec NHP lines.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and the TLALOC Protocol.",
+    "integrated": [],
+    "license": "mf_monarch",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "2"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "HTxy5Xd1Y2kc81rv",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

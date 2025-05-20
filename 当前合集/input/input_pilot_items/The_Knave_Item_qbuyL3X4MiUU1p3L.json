@@ -1,0 +1,211 @@
+{
+  "name": "The Knave",
+  "type": "bond",
+  "system": {
+    "lid": "sotw-bond-knave",
+    "major_ideals": [
+      "I addressed challenges with resolve, ruthlessness, or ambition.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I set an impossible goal and achieved it anyway.",
+      "I humiliated or brought low a rival.",
+      "I took something important or irreplaceable for myself.",
+      "I paid the price for my ambition."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your powers?",
+        "options": [
+          "An upbringing where you had to take what you needed to survive.",
+          "An uncompromising mentor who taught you tough lessons.",
+          "A heart hardened by betrayal or great injustice."
+        ]
+      },
+      {
+        "question": "What would you give up to achieve your goals?",
+        "options": [
+          "Your dignity.",
+          "Your safety.",
+          "Your principles.",
+          "Your reputation."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "I'll Do It Myself",
+        "description": "When an ally fails a skill check, you may attempt that check yourself using the same trigger. Your ally still takes any consequences from failing the check.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Ruthless",
+        "description": "When you would take a consequence, you may instead choose a friendly NPC who is present in the scene. That NPC takes the consequence, and then becomes your enemy.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "White Whale",
+        "description": "Declare a nemesis (a major antagonist, a powerful organization, an abstract concept). When you score a significant victory over your nemesis, you and each ally who helped clear 1 STRESS. When you defeat your nemesis for good, you or someone who helped you gains 1 XP. You may only have a single nemesis at once, but may change your nemesis during downtime.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Shoot First",
+        "description": "When you are tricked or double-crossed, describe how you prepared for this scenario and are able to turn it to your advantage. The GM picks one:<ul><li>You take the consequences, but gain +1 ACCURACY and increased effect against your adversary for the rest of the scene.</li><li>You are able to avoid the consequences, though your allies may not be so lucky.</li><li>You get to act first.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Heartbreaker",
+        "description": "When you break something significant to another person (a relationship, an object, hard-earned trust), gain +1 ACCURACY and increased effect on all rolls against that person for the rest of the scene.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Out Of My Way",
+        "description": "When someone blocks your path or prevents you from getting what you want, describe how you confront them. You gain +1 ACCURACY and increased effect against them for the rest of the scene.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "From Hell's Heart",
+        "description": "When you break and are removed from the scene, choose an NPC who is present; they are also removed.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Eyes On The Prize",
+        "description": "You may forgo healing STRESS at the start of your downtime. If you do, gain +1 ACCURACY on the roll for your downtime action.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Where There's A Will",
+        "description": "When you come across an impossible scenario or puzzle that seems to have no solution, describe your determined efforts to tackle it anyway. The GM chooses one:<ul><li>You uncover a solution, but it’s extremely dangerous.</li><li>You uncover a solution, but it requires something you don’t have yet (a specific person or object, a key piece of information, backing or influence).</li><li>You confirm that it is truly impossible, and clear 2 STRESS.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Bite The Bullet",
+        "description": "When you fail a skill check, you may clear 2 segments from any of your burdens to reroll it. You must keep the new result. Whether you succeed or fail, you take any consequences from the check.",
+        "unlocked": false,
+        "frequency": "2/session",
+        "uses": {
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of Triumph",
+        "description": "At the end of the session, describe how you got what you wanted. Give someone who helped you 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Triumph."
+      },
+      {
+        "name": "Do or Die",
+        "description": "Once per session, when you make a HEROIC skill check, you succeed on a 10+. If you succeed, you gain increased effect as you achieve your objective in spectacular fashion. If you fail, you suffer increased consequences as you crash and burn.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "qbuyL3X4MiUU1p3L",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624910,
+    "modifiedTime": 1747537624910,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "name": "Swallowtail (Ranger Variant)",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-SSC-RANGER-SWALLOWTAIL.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "<p>You create three Burst 1 patches of smoke in spaces within line of sight and Range 5. These patches grant soft cover to characters at least partly within them. They last for the rest of the scene.</p> <p>Additionally, for the rest of the scene, allied characters within SENSORS gain the benefits of GROUNDED.</p>",
+      "active_name": "Guerrilla Warfare",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Outnumbered, outgunned, and lacking the ability to mass-produce mechs, the rangers have had to rely on the legacy of Hercynia itself to protect them. Each of their Swallowtails is an ingenious, fast-moving suite of meshed software and gear, uniquely tweaked by generations of hardened warriors – imperfect in a way that would make any SSC smith shiver. Each wears its own unique name, has its own unique ballad, and is recorded in the osteomemetics of its home city.",
+      "integrated": [],
+      "name": "Gaia Inheritance",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "When you end your turn in a zone that grants soft cover, you become INVISIBLE until you leave that cover, take damage, attack, force a save, or take any other hostile action that affects another character.",
+      "passive_name": "Grounded",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "<p>This variant can be taken at rank II of the SWALLOWTAIL license instead of the base FRAME, or gained as EXOTIC GEAR by aiding Dthall Ordo during the campaign.</p><p>This Swallowtail variant is common among HUC ranger forces. It was adopted and reverse-engineered from the material remains of early, abandoned SSC survey expeditions. With no ability to print-replicate the mech, the rangers painstakingly manufactured and assembled each unit to high specifications. Unlike the sleek luxury of other SSC frames, this Swallowtail is a rugged affair. Each one has a suite of marks left by its previous owners – livery, battle paint, custom gear, camouflage, and weathering. They have been repaired and maintained for two generations and each one is precious to the United Cities.</p>",
+    "license": "mf_swallowtail",
+    "license_level": 2,
+    "lid": "mf_swallowtail_alt_swallowtail_ranger_variant",
+    "manufacturer": "SSC",
+    "mechtype": [
+      "Support"
+    ],
+    "mounts": [
+      "Flex",
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "stress": 4,
+      "structure": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 10,
+      "edef": 8,
+      "heatcap": 4,
+      "repcap": 5,
+      "sensor_range": 20,
+      "tech_attack": 1,
+      "save": 10,
+      "speed": 6,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "<p>Before the first round of any combat and before any deployment takes place, place up to two of the following in free spaces anywhere on the battlefield:</p> <ul> <li>A 2 x 2 zone that does not impede movement and grants soft cover to characters at least partly within it.</li> <li>A 2 x 2 zone that is difficult terrain.</li> <li>A SIZE 1 piece of hard cover.</li> </ul> <p>They can&rsquo;t be placed within 4 spaces of each other. The same option can be chosen more than once. These objects and zones represent naturally occurring terrain on the battlefield, and you can work with the GM to decide what they are.</p>",
+        "integrated": [],
+        "name": "Scout Battlefield",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round when the Swallowtail inflicts Lock On, an allied character in its sensor range and line of sight can move up to its speed as a reaction.",
+        "integrated": [],
+        "name": "Invigorating Scanners",
+        "synergies": [
+          {
+            "detail": "1/round when the Swallowtail inflicts Lock On, an allied character in its sensor range and line of sight can move up to its speed as a reaction.",
+            "locations": [
+              "lock_on"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Swallowtail ignores difficult terrain.",
+        "integrated": [],
+        "name": "Weathering",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "pPdw5DPMiYlR8Knw",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537569958,
+    "modifiedTime": 1747537569958,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

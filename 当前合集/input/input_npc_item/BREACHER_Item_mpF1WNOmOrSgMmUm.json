@@ -1,0 +1,98 @@
+{
+  "name": "BREACHER",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-BREACHER.png",
+  "system": {
+    "lid": "npcc_breacher",
+    "role": "striker",
+    "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
+    "tactics": "Breachers can deal out significant Burst damage, but they aren’t especially accurate. To boost their capabilities, use Lock On or pair them with support NPCs. The Breach Ram makes short work of cover; however, it lacks speed and range, and risks provoking reactions.",
+    "base_features": [
+      "npcf_dual_shotguns_breacher",
+      "npcf_breach_ram_breacher",
+      "npcf_break_armor_breacher"
+    ],
+    "optional_features": [
+      "npcf_painmaker_breacher",
+      "npcf_superior_ram_breacher",
+      "npcf_follower_count_breacher",
+      "npcf_thermal_charge_breacher",
+      "npcf_flechette_shot_breacher"
+    ],
+    "base_stats": [
+      {
+        "armor": 1,
+        "hp": 18,
+        "evasion": 9,
+        "edef": 7,
+        "heatcap": 7,
+        "speed": 3,
+        "sensor_range": 5,
+        "save": 10,
+        "hull": 2,
+        "sys": -1,
+        "eng": 1,
+        "size": 1,
+        "activations": 1,
+        "agi": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 20,
+        "evasion": 11,
+        "edef": 7,
+        "heatcap": 7,
+        "speed": 4,
+        "sensor_range": 5,
+        "save": 12,
+        "hull": 3,
+        "agi": 1,
+        "sys": -1,
+        "eng": 2,
+        "size": 1,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 22,
+        "evasion": 13,
+        "edef": 7,
+        "heatcap": 8,
+        "speed": 5,
+        "sensor_range": 5,
+        "save": 14,
+        "hull": 4,
+        "agi": 2,
+        "sys": -1,
+        "eng": 3,
+        "size": 1,
+        "activations": 1,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "mpF1WNOmOrSgMmUm",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Barbarossa",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-BARBAROSSA.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "When activated, you start charging the Barbarossa’s Apocalypse Rail, an incredibly powerful ship-to-ship long-spool weapon system that requires target calibration. Gain an Apocalypse Die, 1d6 starting at 4. At the start of each of your turns, lower the value of the Apocalypse Die by 1, to a minimum of 1. If you move (even involuntarily) or become Stunned or Jammed, the Apocalypse Die resets to 4 and then continues to count down as usual.<br />If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn. After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4. If you reach the end of the scene without using it, you regain 1 CP.<br />At the end of the scene, lose the Apocalypse Die, and the Apocalypse Rail stops charging.",
+      "active_name": "Charge Rail",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Fresh from the Armory’s dayside research and development campus, the LGC-04 “Apocalypse Rail” is an exponential gravitic catapult – a to-scale test product pushed to licensed pilots for field trials as part of the Armory’s ongoing Plenary Beach Magnitude Weapons Test Project.<br />Distinct from current logarithmic short- or long-spool ship-to-ship weapons (kinetic or energetic/particular), this new platform taps into the Armory’s current gravitic research to exponentially charge and distribute a kinetic payload downrange. This increase in potential energy loading and decrease in total charge time comes at the cost of stability: where the logarithmic spool cannon is stable and shock-resistant, the exponential gravitic catapult is prone to destabilization. For the time being, built-in failsafes will trigger in the event of sudden traumatic destabilization to prevent detonation of the system, resetting any charging process underway at the time of the shock.<br />The LGC-04 “Apocalypse Rail” system is scaled considerably down from its intended operational role – that is, replacing capital ship spinal spool cannons – in order to effect the accumulation of live data for use in improving the system prior to naval adoption.",
+      "integrated": [
+        "mw_barbarossa_integrated"
+      ],
+      "name": "Apocalypse Rail",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br />The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
+    "license": "mf_barbarossa",
+    "license_level": 2,
+    "lid": "mf_barbarossa",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Artillery"
+    ],
+    "mounts": [
+      "Main",
+      "Main",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 10,
+      "evasion": 6,
+      "edef": 6,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 2,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Barbarossa can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
+        "integrated": [],
+        "name": "Heavy Frame",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Barbarossa has resistance to Explosive Damage.",
+        "integrated": [],
+        "name": "Pressure Plating",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Adjacent allied characters can use the Barbarossa for hard cover.",
+        "integrated": [],
+        "name": "Colossus",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "The Barbarossa receives +1 difficulty on Agility checks and saves.",
+        "integrated": [],
+        "name": "Slow",
+        "synergies": [
+          {
+            "detail": "The Barbarossa receives +1 difficulty on Agility checks and saves.",
+            "locations": [
+              "agility",
+              "skill_check"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "9sFvZuVl1G6UuRDV",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

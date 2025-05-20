@@ -1,0 +1,122 @@
+{
+  "name": "RANGER LONG RIFLE",
+  "type": "npc_feature",
+  "system": {
+    "lid": "nrfaw-npc_npcf_marksman_kit_ranger_long_rifle_strider",
+    "effect": "This weapon deals 9/10/12 Kinetic instead of its standard damage if the target is further than Range 8.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_ordnance",
+        "val": ""
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "STRIDER",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "weapon_type": "Heavy Rifle",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Kinetic",
+          "val": "3"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "4"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "5"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "erG6Z6vYHNAB3Pa8",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683433,
+    "modifiedTime": 1747636683433,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

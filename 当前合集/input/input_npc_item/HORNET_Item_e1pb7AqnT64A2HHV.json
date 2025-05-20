@@ -1,0 +1,99 @@
+{
+  "name": "HORNET",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-HORNET.png",
+  "system": {
+    "lid": "npcc_hornet",
+    "role": "controller",
+    "flavor": "SatriaBarong’s Espada range of half-frame mechs has long been a popular choice in the chassis racing circuit; notably, Espadas are the mechs of choice for the vaunted SatriaBarong–ShimanoLUX chassis racing team. Recently, SatriaBarong – with the blessing of SSC – has moved to create a mil-spec, de-licensed variant of the Espada without the ShimanoLUX branding, giving rise to the Hornet archetype, a platform open for other companies to adapt and improve. The most notable of these competitors is Chandrasekhar &amp; Herschel, the primary sponsor of the new Blueshift Grand Prix racing circuit.",
+    "tactics": "Hornets are small, fast controllers that are extremely hard to hit and incredibly annoying. They deal limited damage, but their ability to inflict mobility-reducing conditions is great for locking down enemy strikers. Fortunately for their enemies, Hornets have a low E-Defense that makes them vulnerable to smart weaponry and tech attacks.",
+    "base_features": [
+      "npcf_stinger_pistol_hornet",
+      "npcf_ssc_total_suite_hornet",
+      "npcf_weave_hornet",
+      "npcf_impale_systems_hornet"
+    ],
+    "optional_features": [
+      "npcf_adapt_evade_disengage_hornet",
+      "npcf_umbral_interdiction_hornet",
+      "npcf_supersonic_hornet",
+      "npcf_hex_missiles_hornet",
+      "npcf_lock_hold_javelins_hornet"
+    ],
+    "base_stats": [
+      {
+        "hp": 8,
+        "evasion": 16,
+        "edef": 6,
+        "heatcap": 5,
+        "speed": 6,
+        "sensor_range": 5,
+        "save": 12,
+        "hull": -2,
+        "agi": 2,
+        "sys": 2,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 8,
+        "evasion": 18,
+        "edef": 7,
+        "heatcap": 6,
+        "speed": 8,
+        "sensor_range": 5,
+        "save": 14,
+        "hull": -2,
+        "agi": 4,
+        "sys": 3,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 8,
+        "evasion": 20,
+        "edef": 8,
+        "heatcap": 7,
+        "speed": 10,
+        "sensor_range": 10,
+        "save": 16,
+        "hull": -2,
+        "agi": 6,
+        "sys": 4,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "e1pb7AqnT64A2HHV",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

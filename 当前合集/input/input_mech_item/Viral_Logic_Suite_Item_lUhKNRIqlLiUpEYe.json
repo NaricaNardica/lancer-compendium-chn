@@ -1,0 +1,87 @@
+{
+  "name": "Viral Logic Suite",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_viral_logic_suite",
+    "actions": [
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "All characters of your choice within burst 2 of your target must succeed on a Systems save or become Slowed until they end one of their turns not adjacent to any character.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Logic Bomb",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "Until the end of your target’s next turn, they take 2 heat for every space they voluntarily move, up to a maximum of 6 heat.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Banish",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<span class=\"horus--subtle\">[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br /><span class=\"horus--subtle\">[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_minotaur",
+    "license_level": 1,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "lUhKNRIqlLiUpEYe",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

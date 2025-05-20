@@ -1,0 +1,227 @@
+{
+  "name": "Heavy Carapace Hardsuit",
+  "type": "pilot_armor",
+  "system": {
+    "actions": [],
+    "bonuses": [
+      {
+        "lid": "pilot_hp",
+        "val": "2",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": false
+      },
+      {
+        "lid": "pilot_armor",
+        "val": "2",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": false
+      },
+      {
+        "lid": "pilot_evasion",
+        "val": "6",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": true
+      },
+      {
+        "lid": "pilot_edef",
+        "val": "6",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": true
+      },
+      {
+        "lid": "pilot_speed",
+        "val": "3",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "overwrite": false,
+        "replace": true
+      }
+    ],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "description": "<p>While Hercynian society is far from primitive, the HUC lacks the advanced industrial manufacturing base required to easily fabricate the large quantities of composite materials needed for modern armor. As a result, the personal combat armor worn by rangers and other combatants is typically made from interlocking and overlapping layers of molted Egregorian carapace, donated by willing volunteers. Distinctly insectile in appearance, treatment allows the carapace to be molded into a variety of shapes and styles suitable for numerous occupational specialties ranging from long-range reconnaissance to heavy assault. While many examples of carapace armor are unpowered, ranger pilots and special forces units use carapace hardsuits created by marrying the plates to various strength-amplification exoskeletons and fitting them with upgraded power sources, interface systems, and environmental seals.</p><p>Acquiring a carapace hardsuit isn't a simple matter. Such suits don’t tend to be available for sale in currency or barter, instead being either handed down from pilot to pilot or custom-made according to a number of formal traditions. These traditions include seeking permission from a willing Egregorian donor to use their carapace and the personal participation of the wearer in the crafting, a process that can take weeks depending on the complexity of the suit. Should a PC manage to obtain one of these hardsuits, you may represent it with the following stats.</p>",
+    "lid": "ms_exo_heavy_carapace_armor",
+    "tags": [
+      {
+        "lid": "tg_personal_armor",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "9MURO6KMHgBXxqtv",
+  "_id": "D5UlzgA9haDBYUAV",
+  "img": "systems/lancer/assets/icons/role_tank.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537570379,
+    "modifiedTime": 1747537570379,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

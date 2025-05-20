@@ -1,0 +1,126 @@
+{
+  "name": "Paired Talons MK II",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npc_Leech_PairedTalonsMKII",
+    "effect": "<p>This weapon gains +1 Accuracy when attacking a character Grappled by the Leech.</p> On hit, as a free action, the Leech my take 2 heat to make an additional attack, and it may continue to make additional attacks on hits unless the Heat it takes would cause it to exceed its Heat Cap.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_thrown",
+        "val": "5"
+      },
+      {
+        "lid": "tg_ap",
+        "val": ""
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "name": "Leech",
+      "type": "Class",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "weapon_type": "Aux Melee",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Kinetic",
+          "val": "2"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "3"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "3"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "68yV2iJorgW7wTsE",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636694188,
+    "modifiedTime": 1747636694188,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

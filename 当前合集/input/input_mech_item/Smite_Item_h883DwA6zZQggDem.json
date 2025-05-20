@@ -1,0 +1,87 @@
+{
+  "name": "Smite",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_smite",
+    "actions": [
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "You take 1d6 AP energy damage and your target must succeed on a Systems save or become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Smite",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "You take 1d6 AP energy damage and you deal 2 heat to your target for each other character of Size 1 or larger that is Engaged with or adjacent to them – including you – up to a maximum of 6 heat.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Sear",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Go with thy face averted, thou emission of chaos! The hidden ones have overthrown thy words, thy face is turned backward, thy head is divided in two at the sides; thy skull is ripped from thy spine. Taste thou death!”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_manticore",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "h883DwA6zZQggDem",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

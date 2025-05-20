@@ -1,0 +1,125 @@
+{
+  "name": "Gyges Frame",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [
+      {
+        "lid": "range",
+        "val": "1",
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Blast": false,
+          "Burst": false,
+          "Cone": false,
+          "Line": false,
+          "Range": false,
+          "Thrown": false,
+          "Threat": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "CQB": false,
+          "Cannon": false,
+          "Launcher": false,
+          "Melee": true,
+          "Nexus": false,
+          "Rifle": false
+        },
+        "overwrite": false,
+        "replace": false
+      }
+    ],
+    "counters": [],
+    "deployables": [],
+    "description": "A mech built on the Gyges template is designed for combat – enhanced with finely tuned stabilizers and a robust suite of targeting software and hardware.",
+    "effect": "You gain +1 Accuracy on all Hull checks and saves and +1 Threat with all melee weapons.",
+    "integrated": [],
+    "lid": "cb_gyges_frame",
+    "manufacturer": "IPS-N",
+    "synergies": [
+      {
+        "detail": "+1 Accuracy on all Hull checks and saves",
+        "locations": [
+          "hull"
+        ],
+        "damage_types": {
+          "Kinetic": true,
+          "Energy": true,
+          "Explosive": true,
+          "Heat": true,
+          "Burn": true,
+          "Variable": true
+        },
+        "range_types": {
+          "Range": true,
+          "Threat": true,
+          "Thrown": true,
+          "Line": true,
+          "Cone": true,
+          "Blast": true,
+          "Burst": true
+        },
+        "weapon_sizes": {
+          "Auxiliary": true,
+          "Main": true,
+          "Heavy": true,
+          "Superheavy": true
+        },
+        "weapon_types": {
+          "Rifle": true,
+          "Cannon": true,
+          "Launcher": true,
+          "CQB": true,
+          "Nexus": true,
+          "Melee": true
+        },
+        "system_types": {
+          "System": true,
+          "AI": true,
+          "Shield": true,
+          "Deployable": true,
+          "Drone": true,
+          "Tech": true,
+          "Armor": true,
+          "Flight System": true,
+          "Integrated": true,
+          "Mod": true
+        }
+      }
+    ],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "hUAM22blP7v9yix2",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

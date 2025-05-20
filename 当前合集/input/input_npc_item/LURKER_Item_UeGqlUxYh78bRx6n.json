@@ -1,0 +1,98 @@
+{
+  "name": "LURKER",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-LURKER.png",
+  "system": {
+    "lid": "nrfaw-npc_npcc_lurker",
+    "role": "striker",
+    "flavor": "Lurker-class foes are rare but terrifying sights on the battlefield. Usually utilizing greywash-analog nanite clouds and matter compressors, they move from swarm to swarm, lashing out with nanite whips and using their swarms to deflect blows as easily as water.",
+    "tactics": "Lurkers are slow but powerful enemies that are very scary inside of their SHROUD ZONES. Canny players will use hacking or smart weapons to disperse these zones and make Lurkers more vulnerable. Lurkers can use each other’s zones, so having multiple Lurkers on a battlefield can greatly multiply their power.",
+    "base_features": [
+      "nrfaw-npc_npcf_umbral_shroud_lurker",
+      "nrfaw-npc_npcf_scouring_whip_lurker",
+      "nrfaw-npc_npcf_umbral_shift_lurker"
+    ],
+    "optional_features": [
+      "nrfaw-npc_npcf_consume_shroud_lurker",
+      "nrfaw-npc_npcf_defensive_shroud_lurker",
+      "nrfaw-npc_npcf_devouring_shard_lurker",
+      "nrfaw-npc_npcf_empower_shroud_lurker",
+      "nrfaw-npc_npcf_ripper_claws_lurker"
+    ],
+    "base_stats": [
+      {
+        "armor": 1,
+        "hp": 10,
+        "evasion": 10,
+        "edef": 6,
+        "heatcap": 5,
+        "speed": 3,
+        "sensor_range": 5,
+        "save": 12,
+        "hull": 2,
+        "agi": 2,
+        "eng": -1,
+        "size": 1,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 14,
+        "evasion": 12,
+        "edef": 6,
+        "heatcap": 5,
+        "speed": 3,
+        "sensor_range": 5,
+        "save": 14,
+        "hull": 3,
+        "agi": 3,
+        "eng": -1,
+        "size": 1,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "armor": 1,
+        "hp": 18,
+        "evasion": 14,
+        "edef": 6,
+        "heatcap": 8,
+        "speed": 4,
+        "sensor_range": 5,
+        "save": 16,
+        "hull": 4,
+        "agi": 4,
+        "eng": -1,
+        "size": 1,
+        "activations": 1,
+        "sys": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "UeGqlUxYh78bRx6n",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636683237,
+    "modifiedTime": 1747636683237,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

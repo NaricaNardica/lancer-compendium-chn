@@ -1,0 +1,97 @@
+{
+  "name": "Meteorological Graywash",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npc_Tempest_MeteorologicalGraywash",
+    "effect": "<p>At the start of combat the Tempest may select one graywash effect from each of the below categories to have readied for the duration of combat</p><p>At the Start of the Tempest's turn it may activate one of its three readied graywash effects, starting at Category I, then Category II, then Category III, and then beginning again at Category I. Multiple instances of the same graywash effect cannot be active at any one time.</p><p>At the end of each of its turns, the Tempest takes 2 Heat per effect active. It can end an effect as a free action at the end of its turn. The Tempest may not take Heat from this system if doing so would exceed its Heat Cap</p><p>Characters are only affected by graywash effects while they are within the Tempest's Sensors</p><p></p><p><b>GRAYWASH EFFECTS</b></p><p>Category I:</p><p><b>SUBZERO WASH:</b> Any characters that do not move or Boost on their turn become Immobilized at the end of their turn and remain Immobilized until they take a quick action to automatically clear the condition.</p><p><b>SOLAR WASH:</b> All characters take +1 heat from all self-inflicted heat, OVERCHARGE, OVERKILL, and heat from external sources</p><p><b>MAELSTROM WASH:</b> All flying characters move as if they are in difficult terrain and characters on the ground are automatically Slowed.</p><p><b>GALE-FORCE WASH:</b> At the end of each character’s turn they are pushed 2/3/4 spaces in any direction of the Tempest’s choice</p><p><b>Category II:</b></p><p><b>INTERCEPTOR WASH:</b> Upon activation, a character chosen by the Tempest gains RESISTANCE to one of the following damage types: explosive, kinetic, or energy damage, from ranged and melee attacks for the duration of this effect.</p><p><b>ILLUSORY WASH:</b> Upon activation, all allied characters adjacent to the Tempest and one other allied character chosen by the Tempest and become INVISIBLE.</p><p><b>STATIC WASH:</b> Upon activation, a character chosen by the Tempest automatically deals 2 heat to  characters it becomes adjacent to for the first time in a round</p><p><b>DISRUPTER WASH:</b> Hostile tech attacks against an allied character chosen by the Tempest upon activation receive +2 DIFFICULTY.</p><p><b>Category III</b></p><p><b>CORROSIVE WASH:</b> The Tempest chooses a character: the target must pass a Hull save or take +3/4/5 AP on the next ranged or melee attack against them, hit or miss. This effects lasts until the Tempest halts this effect or a Climate Node is destroyed.</p><p><b>DERECHO WASH:</b>  The Tempest chooses a character: the target must succeed on an Agility save or become Shredded until the Tempest halts this effect or a Climate Node is destroyed. </p><p><b>SANDSTORM WASH:</b> The Tempest chooses a character: the target must succeed on a Systems save or only be able to draw line of sight to adjacent spaces until the Tempest halts this effect or a Climate Node is destroyed.</p><p><b>SKYFIRE WASH:</b> The Tempest chooses a character: they must pass an Engineering save or be struck by lighting and take 1/2/3 Heat and 1/2/3 Burn until the Tempest halts this effect or a Climate Node is destroyed.</p>",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_protocol",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "name": "Tempest",
+      "type": "Class",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "IE30SK3L4ngQqtBj",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636694188,
+    "modifiedTime": 1747636694188,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

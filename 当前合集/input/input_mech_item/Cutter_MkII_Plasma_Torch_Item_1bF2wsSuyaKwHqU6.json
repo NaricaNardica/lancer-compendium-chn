@@ -1,0 +1,86 @@
+{
+  "name": "Cutter MkII Plasma Torch",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_lancaster",
+    "license_level": 3,
+    "lid": "mw_cutter_mkii_plasma_torch",
+    "loaded": false,
+    "manufacturer": "IPS-N",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1"
+          },
+          {
+            "type": "Heat",
+            "val": "1"
+          },
+          {
+            "type": "Burn",
+            "val": "1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_heat_self",
+            "val": "1"
+          }
+        ],
+        "effect": "This weapon deals 10AP energy to objects, cover, terrain, and the environment.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Plasma cutters were tools first: simple blades built to toggle and sustain a plasma sheath, making it easier to cut metal. Repeated ad hoc use of cutters as personal defense weapons against pirate boarding parties convinced IPS-N of the need for a mil-spec variant of the civilian tool – the Cutter, now in its second generation. The Cutter MkII feeds directly from the mech’s power core, with a port to attach power packs in case of cord severance. Although the cutting edge can be shortened to a knife length, its most popular setting is the “cutlass”, a medium-length option perfect for balancing reach and maneuverability in close quarters.",
+        "name": "Cutter MkII Plasma Torch",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Auxiliary",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "1bF2wsSuyaKwHqU6",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

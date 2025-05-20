@@ -1,0 +1,121 @@
+{
+  "name": "FLECHETTE SHOT",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_flechette_shot_breacher",
+    "effect": "Attacks with this weapon take the form of a Cone 3 shrapnel attack starting from the edge of the targeted space, attacking all characters within both the targeted space and the affected area. The Cone cannot change directions.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "BREACHER",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "weapon_type": "Auxiliary CQB",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Kinetic",
+          "val": "2"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "3"
+        }
+      ],
+      [
+        {
+          "type": "Kinetic",
+          "val": "4"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "YGMZE7fN3Bsq30jf",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

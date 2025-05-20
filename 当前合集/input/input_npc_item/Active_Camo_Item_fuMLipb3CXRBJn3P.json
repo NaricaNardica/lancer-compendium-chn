@@ -1,0 +1,101 @@
+{
+  "name": "Active Camo",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_active_camo_spec_op",
+    "effect": "As a protocol, the Spec Ops may expend a charge to become Invisible until the end of their next turn. For the duration of this effect, the Spec Ops’ next melee or ranged attack becomes a critical hit if it hits.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_protocol",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Template",
+      "name": "Spec Op",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "fuMLipb3CXRBJn3P",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.npc-items.Item.fuMLipb3CXRBJn3P",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595314,
+    "modifiedTime": 1747537595314,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

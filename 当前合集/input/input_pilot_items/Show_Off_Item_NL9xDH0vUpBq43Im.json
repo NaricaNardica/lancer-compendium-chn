@@ -1,0 +1,30 @@
+{
+  "name": "Show Off",
+  "type": "skill",
+  "system": {
+    "lid": "sk_show_off",
+    "curr_rank": 1,
+    "description": "Do something flashy, cool, or impressive, usually – but not exclusively – with your weapon.",
+    "detail": "Do something flashy, cool, or impressive, usually (but not exclusively) with your weapon, like shooting a very small or rapidly moving target, shooting someone’s hat off or their weapon out of their hand, knocking someone out by throwing a gun at them, performing an acrobatic flourish with a sword, throwing a spear to pin a fleeing target to the ground, and so on."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "NL9xDH0vUpBq43Im",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

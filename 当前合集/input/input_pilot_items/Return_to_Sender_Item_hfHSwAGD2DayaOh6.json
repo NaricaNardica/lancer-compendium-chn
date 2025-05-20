@@ -1,0 +1,39 @@
+{
+  "name": "Return to Sender",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_return_to_sender",
+    "description": "Using a captured artillery shell as a chassis-deployed improvised explosive device is incredibly unwise, but it’s probably not the worst decision a pilot’s ever made. Your mech is equipped with a powerful, single-use explosive. 1/mission, you can create a Blast 2 explosion within Range 3 as a quick action. Affected characters must pass an Agility save or take 3d6 explosive damage, or half damage on a success. Objects, cover, and terrain within the area automatically take 30 AP explosive damage. Only one PC can have this reserve at a time; anyone rolling this result again picks another reserve of their choice from this list.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Resource",
+    "synergies": [],
+    "tags": [],
+    "type": "Mech",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "hfHSwAGD2DayaOh6",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586559,
+    "modifiedTime": 1747537586559,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

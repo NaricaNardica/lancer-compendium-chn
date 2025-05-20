@@ -1,0 +1,39 @@
+{
+  "name": "Tracking",
+  "type": "reserve",
+  "system": {
+    "lid": "reserve_tracking",
+    "description": "Details on the location of important objects or people.",
+    "actions": [],
+    "bonuses": [],
+    "consumable": false,
+    "counters": [],
+    "deployables": [],
+    "integrated": [],
+    "label": "Target",
+    "synergies": [],
+    "tags": [],
+    "type": "Tactical",
+    "used": false
+  },
+  "folder": "z0MYVYjPQHigOgT5",
+  "_id": "7zsY3S5lJ9HZWMGO",
+  "img": "systems/lancer/assets/icons/reserve_tac.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556080,
+    "modifiedTime": 1747537556080,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

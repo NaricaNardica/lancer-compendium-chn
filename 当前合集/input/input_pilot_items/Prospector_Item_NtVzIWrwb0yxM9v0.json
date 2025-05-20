@@ -1,0 +1,101 @@
+{
+  "name": "Prospector",
+  "type": "talent",
+  "system": {
+    "lid": "t_prospector",
+    "curr_rank": 1,
+    "description": "Some people aren’t afraid to get their hands dirty. You are one of these individuals and you aren’t afraid to get your mech’s hands dirty, either. Having equipped it with all sorts of industrial mining equipment, your mech is now able to move great amounts of dirt in a very short amount of time, allowing it and its allies to rapidly redeploy using subterranean routes.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Quick",
+            "cost": 0,
+            "damage": [],
+            "detail": "1/Scene While standing on solid ground you may create a Burst 1 Entrance around yourself as a Quick Action. You may then Tunnel to anywhere up to 5 spaces away where you then create another Burst 1 Entrance. Entrances remain in play until the end of the scene. Terrain and sections of terrain overlapping an Entrance take 20 AP Explosive damage. Additionally, you cannot take Reactions until the end of the current turn.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Create Entrance",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          },
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You immediately Tunnel, ending the movement completely within a different Entrance created by the same character as the first.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Subterranean Reposition",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "During your turn, you are completely within an Entrance.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Tunnel: When Tunneling, remove the character from the battlefield and then immediately place them in a free and valid space. This is considered moving 1 space and does trigger Reactions. <br>Gain the “Create Entrance” Quick Action which you may use 1/Scene. <br>While completely within an Entrance you and allied characters gain the “Subterranean Reposition” Reaction during your own turns.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Stake a Claim",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Hostile characters within the area when an Entrance is created must succeed on a Hull save or be knocked Prone. <br>Additionally, after you use “Create Entrance,” allied characters completely within your initial Entrance may use “Subterranean Reposition” even though it is not their turn.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Gold Fever",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "“Create Entrance” becomes 1/Round and you may use it an additional time each Scene.  All Entrances you create are connected for the purposes of Tunneling.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Mother Lode",
+        "synergies": []
+      }
+    ]
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "NtVzIWrwb0yxM9v0",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537596104,
+    "modifiedTime": 1747537596104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

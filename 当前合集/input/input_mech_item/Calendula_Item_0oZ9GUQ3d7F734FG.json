@@ -1,0 +1,199 @@
+{
+  "name": "Calendula",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-RKF-CALENDULA.png",
+  "system": {
+    "core_system": {
+      "activation": "Quick",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
+      "active_name": "Weighing of Inequitable Hearts",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "“I inscribe thy name, I threaten thee with the second death. I kill thy name, and this I kill thee again in the afterlife.“",
+      "integrated": [],
+      "name": "Execration of the Names of the Unworthy Dead",
+      "passive_actions": [
+        {
+          "activation": "Quick Tech",
+          "cost": 0,
+          "damage": [],
+          "detail": "1/round You may target another character in line of sight within Range 3 of a void husk, banishing them to an interstitial space. Allied characters can choose whether or not to be affected, and hostile characters can avoid being affected by succeeding on a SYSTEMS save. Banished characters exist in a shadowy gray realm, making them INTANGIBLE.<br>This effect lasts until the banished character moves adjacent or starts their turn adjacent to a void husk, either of which returns them to physical space and clears INTANGIBLE.",
+          "frequency": "1/round",
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Execrate",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_effect": "Gain the Execrate Quick Tech action.",
+      "passive_name": "Execrate",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "A signature of the Order Xenoglossia’s Stygos Grammaton, the Royal Karrakin Foundries Calendula is derived from the Minotaur pattern group first released by HORUS. Oddly, it is unclear from temporal markers whether the codebase used to create the Calendula was created separately, before contact with Union, despite being nearly identical to the Minotaur codebase.<br />The Calendula uses the internal spatial manipulation abilities of the Minotaur and inverts them, allowing experienced pilots of the mech to cut into a ‘non-space’ widely regarded by Union theorists to be the Aunic Firmament. In this grey and bleak interstitial zone, matter appears as a flowing fog, and is just as easily parted.",
+    "license": "mf_minotaur",
+    "license_level": 2,
+    "lid": "mf_minotaur_alt_wraith",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Controller"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "stress": 4,
+      "structure": 4,
+      "armor": 2,
+      "hp": 7,
+      "evasion": 7,
+      "edef": 10,
+      "heatcap": 6,
+      "repcap": 3,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 4,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [
+          "dep_void_husk"
+        ],
+        "description": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene.",
+        "integrated": [],
+        "name": "Sculptor of Fate",
+        "synergies": [
+          {
+            "detail": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene.",
+            "locations": [
+              "tech_attack"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "SLOWED hostile characters are also SHREDDED while within Range 3 of the Calendula.",
+        "integrated": [],
+        "name": "Grammaton Law",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [
+          {
+            "activation": "Protocol",
+            "cost": 0,
+            "damage": [],
+            "detail": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Grammaton Mantle",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn.",
+        "integrated": [],
+        "name": "Grammaton Mantle",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "0oZ9GUQ3d7F734FG",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537577529,
+    "modifiedTime": 1747636596288,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

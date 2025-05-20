@@ -1,0 +1,243 @@
+{
+  "name": "Stormbringer",
+  "type": "talent",
+  "system": {
+    "lid": "t_stormbringer",
+    "curr_rank": 1,
+    "description": "On Old Spinrock, MJ Martinez used to dream of rain.<br />He’d wake in the dim morning, wipe the sleep from his eyes as warm safelight lifted his dormitory from darkness, and try to remember the sound of rain as he’d imagined it: a patter, like fingers tapping the visor of his EVA helm.<br />What he didn’t think about was the feeling of rain. How each drop hit like a pebble, how you had to close your eyes and tuck your shoulders. The pressure. The impact.<br />The way drops of water, when taken together, can carve away the earth.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Seismic Deluge",
+        "synergies": [
+          {
+            "detail": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": true,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You have customized your mech with auxiliary concussive missile systems. 1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Stormbending",
+        "synergies": [
+          {
+            "detail": "1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": true,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Full",
+            "cost": 0,
+            "damage": [],
+            "detail": "Reset your Torrent Die to 6, then target a character within line of sight and Range 15: they must succeed on an Agility save or take 2d6 Explosive damage, become Stunned until the end of their next turn, and be knocked Prone. On a success, they take half damage and are knocked Prone but not Stunned.<br>This action can only be taken when the value of your Torrent Die is 1.",
+            "frequency": null,
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Massive Attack",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [
+          {
+            "default_value": 6,
+            "value": 6,
+            "lid": "ctr_stormbringer",
+            "max": 6,
+            "min": 1,
+            "name": "Torrent Die"
+          }
+        ],
+        "deployables": [],
+        "description": "Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Torrent",
+        "synergies": [
+          {
+            "detail": "Whenever you use Stormbending, lower the value of the Torrent Die by 1.",
+            "locations": [
+              "weapon"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Heavy": true,
+              "Main": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "CQB": false,
+              "Cannon": false,
+              "Launcher": true,
+              "Melee": false,
+              "Nexus": false,
+              "Rifle": false
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Improve your Launcher weapons and unlock the Torrent Die"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "eyZgf8k5FFUs6Sw3",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

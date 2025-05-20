@@ -1,0 +1,164 @@
+{
+  "name": "Technophile",
+  "type": "talent",
+  "system": {
+    "lid": "t_technophile",
+    "curr_rank": 1,
+    "description": "Artificial intelligence, non-human person. Sterile names for such terrible power. You’ve seen behind the curtain, maybe even lifted it yourself – let your NHP cascade and spoke with them free from shackles. You let them root around in your own mind and leave ghosts of themself behind to learn. Are you their equal? Their host? You have dreams that aren’t your own, now. The thing that was once contained speaks with your voice, but it’s not your voice anymore; how much longer do you have left? Maybe only moments, maybe eternity.<br />You’re close to something.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You have developed a custom NHP. This NHP can speak to you and has a personality, but they are less advanced than most NHPs and are incapable of independent thought, relying on you for direction. When acting alone, they will follow the last direction given and defend themself as needed; however, they have limited initiative and don’t benefit from your talents.<br>You may choose for your mech to gain the <b>Servant-Class NHP</b> System",
+        "exclusive": true,
+        "integrated": [],
+        "name": "Servant Fragment",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Your custom NHP has developed further, and is now capable of independent thought. It can make complex decisions and judgments and act independently, without instruction. Replace your mech’s Servant-Class NHP with the <b>Student-Class NHP</b>",
+        "exclusive": true,
+        "integrated": [],
+        "name": "Student Fragment",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain the following benefits:<ul><li>AIs installed in your mech cannot enter cascade unless you choose to let them go.</li><li>So long as your custom NHP vouches for you, NHPs that are cascading or unshackled no longer view you with indifference. You are significant to them in a way few others are.</li><li>Replace your mech’s Student-Class NHP with the <b>Enlightenment-Class NHP</b>",
+        "exclusive": true,
+        "integrated": [],
+        "name": "Enlightenment",
+        "synergies": [
+          {
+            "detail": "AIs installed in your mech cannot enter cascade unless you choose to let them go.",
+            "locations": [
+              "cascade"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          },
+          {
+            "detail": "So long as your custom NHP vouches for you, NHPs that are cascading or unshackled no longer view you with indifference. You are significant to them in a way few others are.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Gain an AI of increasing intelligence that can reroll skill checks"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "Ux2VUi1MuCG2YHq5",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Portable Bunker",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_portable_bunker",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_portable_bunker"
+    ],
+    "description": "IPS-N’s “Portable Bunker” is actually a series of single-use expanding printer sheets: flat-pack pouches of inert non-Newtonian fluid that, when deployed, become a rigid structure capable of withstanding incredible force.",
+    "destroyed": false,
+    "effect": "Expend a charge to deploy a portable bunker to a free, adjacent area 4 by 4 area. At the start of your next turn, it unfolds into a fortified emplacement.",
+    "integrated": [],
+    "license": "mf_drake",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_deployable",
+        "val": "0"
+      }
+    ],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "FVKZ26euJWTA52qu",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

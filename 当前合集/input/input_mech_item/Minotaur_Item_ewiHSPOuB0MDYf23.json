@@ -1,0 +1,128 @@
+{
+  "name": "Minotaur",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Horus-MINOTAUR.png",
+  "system": {
+    "core_system": {
+      "activation": "Full",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful.",
+      "active_name": "Maze",
+      "active_synergies": [],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "<code class=\"horus\">No maze is more terrible than the one I make. I know all ends and hide them all inside this one perfect construct. What is a human mind but a program of sorts, a system that seeks order and narrative from a mess they are given?<br />I order it for them. Me. I order it for them and set them to the task of sorting it out. When they emerge, they weep in joy, in discovery. I save them, I show them that they are their own redeemers (and yet, am I not just as culpable - as worthy of credit?).<br />So, go now. Enter. Free yourself.</code>",
+      "integrated": [],
+      "name": "Metafold Maze",
+      "passive_actions": [
+        {
+          "activation": "Quick",
+          "cost": 0,
+          "damage": [],
+          "detail": "When you hit with a tech attack, you may activate this system, causing your target to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times.",
+          "frequency": null,
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Metafold Maze",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_name": "Metafold Maze",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "?"
+    },
+    "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br />Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
+    "license": "mf_minotaur",
+    "license_level": 2,
+    "lid": "mf_minotaur",
+    "manufacturer": "HORUS",
+    "mechtype": [
+      "Controller"
+    ],
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 10,
+      "heatcap": 5,
+      "repcap": 4,
+      "sensor_range": 8,
+      "tech_attack": 1,
+      "save": 11,
+      "speed": 4,
+      "sp": 8
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You may Mount or Dismount the Minotaur for the first time each round as a free action. Additionally, the Minotaur doesn’t become Impaired when you Eject.",
+        "integrated": [],
+        "name": "Invert Cockpit",
+        "synergies": [],
+        "use": "Round"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "While inside the Minotaur, you can’t be harmed in any way, even if the Minotaur explodes or is destroyed.",
+        "integrated": [],
+        "name": "Internal Metafold",
+        "synergies": [],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size.",
+        "integrated": [],
+        "name": "Localized Maze",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "ewiHSPOuB0MDYf23",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

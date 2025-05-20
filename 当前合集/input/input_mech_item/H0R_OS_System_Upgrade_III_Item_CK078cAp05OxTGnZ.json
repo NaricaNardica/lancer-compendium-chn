@@ -1,0 +1,87 @@
+{
+  "name": "H0R_OS System Upgrade III",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_h0r_os_system_upgrade_iii",
+    "actions": [
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "You create three Size 1 data constructs in free spaces adjacent to your target, but not adjacent to each other. When a character passes through one of the constructs, they take 2 heat and the construct disappears. They last for the rest of the scene or until either they are destroyed, you take this action again, or you delete them as a free action. A construct can be destroyed by an adjacent character with a successful Systems skill check as a quick action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Dimensional Emblems",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "Mark a space your target currently occupies. If they leave the affected space, once at any point during your turn, you may take a free action to teleport them back to that space, or as close as possible, ending this effect. An affected character can attempt to succeed on a Systems save as a quick action to end the effect, otherwise it lasts until the end of the scene.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Celestial Shackles",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br />Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_goblin",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "CK078cAp05OxTGnZ",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

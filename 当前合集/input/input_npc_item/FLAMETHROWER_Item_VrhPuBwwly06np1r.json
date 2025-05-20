@@ -1,0 +1,122 @@
+{
+  "name": "FLAMETHROWER",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npcf_flamethrower_pyro",
+    "effect": "This weapon deals double Burn to characters that already have any Burn.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_heat_self",
+        "val": "4"
+      }
+    ],
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": true
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "weapon_type": "Heavy CQB",
+    "on_hit": "",
+    "damage": [
+      [
+        {
+          "type": "Burn",
+          "val": "3"
+        }
+      ],
+      [
+        {
+          "type": "Burn",
+          "val": "4"
+        }
+      ],
+      [
+        {
+          "type": "Burn",
+          "val": "5"
+        }
+      ]
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "tech_attack": false,
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "VrhPuBwwly06np1r",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604568,
+    "modifiedTime": 1747636604568,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

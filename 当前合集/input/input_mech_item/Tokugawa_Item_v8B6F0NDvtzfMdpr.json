@@ -1,0 +1,294 @@
+{
+  "name": "Tokugawa",
+  "type": "frame",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-HA-TOKUGAWA.png",
+  "system": {
+    "core_system": {
+      "activation": "Protocol",
+      "active_actions": [],
+      "active_bonuses": [
+        {
+          "lid": "range",
+          "val": "5",
+          "damage_types": {
+            "Burn": false,
+            "Energy": true,
+            "Explosive": false,
+            "Heat": false,
+            "Kinetic": false,
+            "Variable": false
+          },
+          "range_types": {
+            "Blast": false,
+            "Burst": false,
+            "Cone": false,
+            "Line": false,
+            "Range": true,
+            "Thrown": false,
+            "Threat": false
+          },
+          "weapon_sizes": {
+            "Auxiliary": true,
+            "Main": true,
+            "Heavy": true,
+            "Superheavy": true
+          },
+          "weapon_types": {
+            "Rifle": true,
+            "Cannon": true,
+            "Launcher": true,
+            "CQB": true,
+            "Nexus": true,
+            "Melee": true
+          },
+          "overwrite": false,
+          "replace": false
+        },
+        {
+          "lid": "range",
+          "val": "2",
+          "damage_types": {
+            "Burn": false,
+            "Energy": true,
+            "Explosive": false,
+            "Heat": false,
+            "Kinetic": false,
+            "Variable": false
+          },
+          "range_types": {
+            "Blast": false,
+            "Burst": false,
+            "Cone": false,
+            "Line": false,
+            "Range": false,
+            "Thrown": false,
+            "Threat": true
+          },
+          "weapon_sizes": {
+            "Auxiliary": true,
+            "Main": true,
+            "Heavy": true,
+            "Superheavy": true
+          },
+          "weapon_types": {
+            "Rifle": true,
+            "Cannon": true,
+            "Launcher": true,
+            "CQB": true,
+            "Nexus": true,
+            "Melee": true
+          },
+          "overwrite": false,
+          "replace": false
+        }
+      ],
+      "active_effect": "For the rest of this scene, weapons that deal any energy gain +5 range if they are ranged or +2 threat if they are melee.<br />While you’re Exposed, Limit Break stacks with these bonuses for a total increase of +10 range and +3 threat.",
+      "active_name": "Radiance",
+      "active_synergies": [
+        {
+          "detail": "All weapons on your mech that deal any Energy Damage gain +5 Range if they are ranged weapons or gain +1 Threat if they are melee weapons.",
+          "locations": [
+            "active_effects"
+          ],
+          "damage_types": {
+            "Kinetic": true,
+            "Energy": true,
+            "Explosive": true,
+            "Heat": true,
+            "Burn": true,
+            "Variable": true
+          },
+          "range_types": {
+            "Range": true,
+            "Threat": true,
+            "Thrown": true,
+            "Line": true,
+            "Cone": true,
+            "Blast": true,
+            "Burst": true
+          },
+          "weapon_sizes": {
+            "Auxiliary": true,
+            "Main": true,
+            "Heavy": true,
+            "Superheavy": true
+          },
+          "weapon_types": {
+            "Rifle": true,
+            "Cannon": true,
+            "Launcher": true,
+            "CQB": true,
+            "Nexus": true,
+            "Melee": true
+          },
+          "system_types": {
+            "System": true,
+            "AI": true,
+            "Shield": true,
+            "Deployable": true,
+            "Drone": true,
+            "Tech": true,
+            "Armor": true,
+            "Flight System": true,
+            "Integrated": true,
+            "Mod": true
+          }
+        }
+      ],
+      "counters": [],
+      "deactivation": null,
+      "deployables": [],
+      "description": "Pilots of a certain breed thrive at the very edge of catastrophe, risking either glorious success or utter failure in each moment. These daredevils are familiar with the howl of critical heat warnings – the warbling siren song of destruction and superheated reactor feeds. Tokugawa pilots are notorious for supercharging their weapons with excess energy, pushing their heat gauge to the max. Harnessing the Tokugawa’s unique reactor, these pilots churn out damage and make no friends in the engineering bay – assuming they don’t melt into a ball of slag before they make it back from the line.",
+      "integrated": [],
+      "name": "Superheated Reactor Feed",
+      "passive_actions": [
+        {
+          "activation": "Protocol",
+          "cost": 0,
+          "damage": [],
+          "detail": "You cause your mech to become Exposed until the end of your next turn.",
+          "frequency": null,
+          "heat_cost": 0,
+          "init": "",
+          "lid": "",
+          "mech": true,
+          "name": "Overclock",
+          "pilot": false,
+          "range": [],
+          "synergy_locations": [],
+          "terse": "",
+          "trigger": "",
+          "tech_attack": false
+        }
+      ],
+      "passive_bonuses": [],
+      "passive_effect": "",
+      "passive_name": "Overclock",
+      "passive_synergies": [],
+      "tags": [],
+      "use": "Encounter"
+    },
+    "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
+    "license": "mf_tokugawa",
+    "license_level": 2,
+    "lid": "mf_tokugawa",
+    "manufacturer": "HA",
+    "mechtype": [
+      "Striker"
+    ],
+    "mounts": [
+      "Flex",
+      "Main",
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 8,
+      "edef": 6,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -1,
+      "save": 11,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Tokugawa is Exposed, its ranged and melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat.",
+        "integrated": [],
+        "name": "Limit Break",
+        "synergies": [
+          {
+            "detail": "When the Tokugawa is Exposed, its ranged and melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat.",
+            "locations": [
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ],
+        "use": "?"
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When the Tokugawa is in the Danger Zone and attacks with a weapon that deals any amount of energy, all bonus damage becomes burn.",
+        "integrated": [],
+        "name": "Plasma Sheath",
+        "synergies": [],
+        "use": "?"
+      }
+    ]
+  },
+  "folder": "J8bbgzHbNkD5I2bG",
+  "_id": "v8B6F0NDvtzfMdpr",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554523,
+    "modifiedTime": 1747537554523,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

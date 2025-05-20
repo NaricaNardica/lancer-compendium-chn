@@ -1,0 +1,74 @@
+{
+  "name": "Thermal Charge",
+  "type": "weapon_mod",
+  "system": {
+    "lid": "wm_thermal_charge",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "One popular modification to the classic war pike involves replacing the long, armor-piercing pike head with a disposable, impact-triggered explosive charge. On penetration, the pike’s head is severed from the shaft – moments later, the embedded pike head detonates in a conical explosion from the point forward. Spare thermal charges are stable, and transported in external tube magazines.<br />IPS-N also makes thermal charges compatible with GMS’s range of blades, hammers, and picks.",
+    "destroyed": false,
+    "effect": "On a hit with the weapon this mod is applied to, expend a charge as a free action to activate its detonator and deal +1d6 explosive bonus damage.",
+    "integrated": [],
+    "license": "mf_nelson",
+    "license_level": 2,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "added_damage": [
+      {
+        "type": "Explosive",
+        "val": "1d6"
+      }
+    ],
+    "added_range": [],
+    "added_tags": [],
+    "allowed_sizes": {
+      "Auxiliary": true,
+      "Heavy": true,
+      "Main": true,
+      "Superheavy": true
+    },
+    "allowed_types": {
+      "CQB": false,
+      "Cannon": false,
+      "Launcher": false,
+      "Melee": true,
+      "Nexus": false,
+      "Rifle": false
+    }
+  },
+  "folder": "AgbcxivPyROHuyOe",
+  "_id": "YV4aAKCWxFfo4PWR",
+  "img": "systems/lancer/assets/icons/weapon_mod.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554877,
+    "modifiedTime": 1747537554877,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

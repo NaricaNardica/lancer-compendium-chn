@@ -1,0 +1,68 @@
+{
+  "name": "Hunter Lock",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_hunter_lock",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a character within Sensors: for the rest of the scene, your first successful ranged or melee attack against them each round deals +3 bonus damage. You cannot choose a new target until your current target is destroyed or the scene ends.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“A mind’s first charge is to never lose sight of her enemy. When she can affix them in her eye, she can kill them with a blink.”<ul><li>Excerpt from the Boundary Codex.</li></ul>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_pegasus",
+    "license_level": 1,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "4cWxFM5epYdqe7fI",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

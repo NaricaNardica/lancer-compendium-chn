@@ -1,0 +1,67 @@
+{
+  "name": "ULTRA",
+  "type": "npc_template",
+  "system": {
+    "lid": "npct_ultra",
+    "description": "Ultras are the most dangerous individual foes a lancer might face on the battlefield – the champions, favored soldiers, chosen ones, and other mighty warriors of a fighting force. An Ultra might command a small retinue or lead an army from the front, but they are no grand strategists. Their primary tasks are always direct engagement with the enemy, holding or breaking lines, and ensuring through heroic efforts that their side wins the day.<br />Ultras are powerful enemies capable of taking on multiple mechs at once, along the lines of “boss” characters in video games. Like Elites, they have extra Structure, meaning they roll on the structure damage table and are much more resilient than most NPCs. Because they’re so much more powerful than regular NPCs (and keeping track of them is much more complex), it’s recommended you only use one Ultra in any given combat encounter.",
+    "base_features": [
+      "npcf_best_of_the_best_ultra",
+      "npcf_shock_and_awe_ultra",
+      "npcf_deadly_ultra",
+      "npcf_juggernaut_ultra",
+      "npcf_reinforced_ultra",
+      "npcf_legendary_ultra",
+      "npcf_advanced_kit_ultra",
+      "npcf_resilient_ultra",
+      "npcf_reflex_ultra",
+      "npcf_ultra_systems_and_traits_ultra"
+    ],
+    "optional_features": [
+      "npcf_hover_propulsion_ultra",
+      "npcf_repulsion_field_ultra",
+      "npcf_siege_shield_ultra",
+      "npcf_slivershielding_ultra",
+      "npcf_short_cycle_lance_ultra",
+      "npcf_volley_module_ultra",
+      "npcf_wolfhound_missile_ultra",
+      "npcf_argus_armor_ultra",
+      "npcf_devastator_ultra",
+      "npcf_evasive_ultra",
+      "npcf_extra_deadly_ultra",
+      "npcf_fortress_ultra",
+      "npcf_lead_the_charge_ultra",
+      "npcf_legion_ultra",
+      "npcf_limitless_ultra",
+      "npcf_sight_ultra",
+      "npcf_superior_construction_ultra",
+      "npcf_superior_frame_ultra",
+      "npcf_superior_reactor_ultra",
+      "npcf_superior_targeting_ultra",
+      "npcf_supreme_maintenance_ultra",
+      "npcf_supreme_melee_ultra",
+      "npcf_unstoppable_ultra",
+      "npcf_hellfire_projector_ultra",
+      "npcf_ravager_turret_ultra"
+    ]
+  },
+  "folder": "4bbY1Gz8Z3HfiqaR",
+  "_id": "9RcUur6PLr3pYKG5",
+  "img": "systems/lancer/assets/icons/npc_template.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604292,
+    "modifiedTime": 1747636604292,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

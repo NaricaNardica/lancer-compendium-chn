@@ -1,0 +1,65 @@
+{
+  "name": "Demolitionist",
+  "type": "talent",
+  "system": {
+    "lid": "t_demolitionist",
+    "curr_rank": 1,
+    "description": "Explosives and warfare go together like alcohol and bad decisions. The power of a bomb in the palm of your hand is a great equalizer, and a well-placed satchel charge or two has brought even the mightiest of fortifications tumbling down. Forget bullets with names etched on them, the packages you deliver go out addressed “To Whom It May Concern,” and you’ve got plenty to go around.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you use a Grenade, you may choose one character in the affected area to ignore its effects. Additionally, at the end of each scene, you restore 1 charge to each Limited system with the Mine tag for each undetonated Mine you deployed from that system.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Frag and Clear",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Your Grenades gain +3 Range, and you can plant Mines up to Range 3 (or add +3 Range to them if they have one). Additionally, you do not require line of sight for Grenades and Mines as long as it’s possible to trace a path to the target.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Quarterback",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "<p>Your explosive charges have been enhanced with customized payloads. 1/round, you may choose one of the following:</p> <ul> <li>When you throw a Grenade, up to three characters within Range 3 of the targeted space take 2 explosive damage and are knocked back 1 space in a direction of your choice by explosive shrapnel.</li> <li>When a character fails a save against one of your Mines, they take +1d6 explosive bonus damage. If the mine deals no damage normally when detonated, whether it forces a save or not, one character in the affected area takes 1d6 explosive damage instead.</li> </ul>",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Fire in the Hole",
+        "synergies": []
+      }
+    ],
+    "terse": "Improve your grenades and mines to fly further and hit harder"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "zcSEsZSTa9S5Lv70",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537586888,
+    "modifiedTime": 1747537586888,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

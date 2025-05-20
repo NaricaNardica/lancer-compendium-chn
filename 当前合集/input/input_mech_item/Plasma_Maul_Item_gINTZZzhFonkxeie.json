@@ -1,0 +1,86 @@
+{
+  "name": "Plasma Maul",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "lid": "mw_exo_plasma_maul",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "3d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Threat",
+            "val": 1
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_loading",
+            "val": ""
+          },
+          {
+            "lid": "tg_overkill",
+            "val": ""
+          },
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "effect": "This weapon does not need to be reloaded on a miss.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Popular among colonial militias, the plasma maul is a heavy but simple device. High-density magnetic plasma capacitors have a wide range of applications, from power storage through to construction and defense. In the case of the plasma maul, they are mounted in rows along a reinforced haft and set to discharge on contact, making this a devastating closequarters weapon limited only by its need to recharge between strikes. Early models featured ejectable capacitor banks, but contemporary versions are designed to draw power directly from a chassis’ reactor.",
+        "name": "Plasma Maul",
+        "synergies": [],
+        "type": "Melee"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "gINTZZzhFonkxeie",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537571193,
+    "modifiedTime": 1747537571193,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

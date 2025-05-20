@@ -1,0 +1,97 @@
+{
+  "name": "Captive Spike",
+  "type": "npc_feature",
+  "system": {
+    "lid": "npc_marine_captive_spike",
+    "effect": "The Marine deploys a powerful piston spike against an adjacent hostile character and forces them to pass a Hull save. On a success, they become Impaired until the end of their next turn. If they fail the save the target is impaled on the spike, and they are automatically grappled and become Impaired for the duration of the grapple. The Marine becomes Slowed for the duration of the grapple, but is automatically treated as the larger party regardless of Size. To break free from this grapple, rather than a contested Hull check the defender must instead pass a Hull save as a full action.<br /><br />While the target is grappled this way, anyone besides the grappled character who makes a ranged or melee attack against the Marine must first roll 1d6: on 4+ the attack automatically hits the grappled character instead (this effect does not stack with Invisible), dealing half damage and heat. This effect lasts until the grapple is ended or until the Marine takes this action again.",
+    "bonus": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "override": {
+      "activations": null,
+      "armor": null,
+      "hp": null,
+      "evasion": null,
+      "edef": null,
+      "heatcap": null,
+      "speed": null,
+      "sensor_range": null,
+      "save": null,
+      "hull": null,
+      "agi": null,
+      "sys": null,
+      "eng": null,
+      "size": null,
+      "structure": null,
+      "stress": null
+    },
+    "tags": [
+      {
+        "lid": "tg_full_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "origin": {
+      "type": "Template",
+      "name": "MARINE",
+      "base": false
+    },
+    "charged": false,
+    "uses": 0,
+    "loaded": false,
+    "destroyed": false,
+    "tier_override": 0,
+    "tech_attack": false,
+    "damage": [],
+    "range": [],
+    "on_hit": "",
+    "accuracy": [
+      0,
+      0,
+      0
+    ],
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "tech_type": "Quick",
+    "cascading": false
+  },
+  "folder": "iU14HkPHRVW82mzf",
+  "_id": "S1mwbS4Kqcbs0ogI",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636649758,
+    "modifiedTime": 1747636649758,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

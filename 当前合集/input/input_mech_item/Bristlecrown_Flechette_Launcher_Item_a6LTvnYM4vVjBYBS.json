@@ -1,0 +1,73 @@
+{
+  "name": "Bristlecrown Flechette Launcher",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_blackbeard",
+    "license_level": 2,
+    "lid": "mw_bristlecrown_flechette_launcher",
+    "loaded": false,
+    "manufacturer": "IPS-N",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Burst",
+            "val": 1
+          }
+        ],
+        "tags": [],
+        "effect": "This weapon ignores ranged penalties from Engaged, and deals 3 Kinetic damage to Grappled or Biological targets, instead of 1.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The IPS-N Bristlecrown Flechette Launcher uses a hive-analogous mechanism to project a total soft-target kill zone in a dome around the user, proactively denying hostile infantry-tier actions.",
+        "name": "Bristlecrown Flechette Launcher",
+        "synergies": [],
+        "type": "CQB"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Auxiliary",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "a6LTvnYM4vVjBYBS",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "SCOUT",
+  "type": "npc_class",
+  "img": "systems/lancer/assets/retrograde-minis/Retrograde-Minis-Corpro-SCOUT.png",
+  "system": {
+    "lid": "npcc_scout",
+    "role": "support",
+    "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
+    "tactics": "Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle and Cloaking Field allow them to both keep allied characters alive and prevent enemies from hiding. They are especially adept at revealing Invisible characters but need to get close to their targets to take full advantage of this ability. Like most support mechs, Scouts aren’t especially resilient on their own.",
+    "base_features": [
+      "npcf_marker_rifle_scout",
+      "npcf_sight_scout",
+      "npcf_rebound_scan_scout",
+      "npcf_cloaking_field_scout"
+    ],
+    "optional_features": [
+      "npcf_system_flayer_scout",
+      "npcf_spotter_scout",
+      "npcf_expose_weakness_scout",
+      "npcf_dataveil_scout",
+      "npcf_orbital_strike_scout"
+    ],
+    "base_stats": [
+      {
+        "hp": 8,
+        "evasion": 12,
+        "edef": 10,
+        "heatcap": 6,
+        "speed": 6,
+        "sensor_range": 20,
+        "save": 11,
+        "hull": -2,
+        "agi": 2,
+        "sys": 3,
+        "eng": -1,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 8,
+        "evasion": 15,
+        "edef": 13,
+        "heatcap": 6,
+        "speed": 7,
+        "sensor_range": 20,
+        "save": 13,
+        "hull": -2,
+        "agi": 4,
+        "sys": 4,
+        "eng": -1,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "structure": 1,
+        "stress": 1
+      },
+      {
+        "hp": 8,
+        "evasion": 18,
+        "edef": 18,
+        "heatcap": 6,
+        "speed": 8,
+        "sensor_range": 20,
+        "save": 15,
+        "hull": -2,
+        "agi": 5,
+        "sys": 5,
+        "size": 0.5,
+        "activations": 1,
+        "armor": 0,
+        "eng": 0,
+        "structure": 1,
+        "stress": 1
+      }
+    ]
+  },
+  "folder": "P2gGhup5XKspXcKj",
+  "_id": "uUE6QDVqEQubwp3J",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747636604142,
+    "modifiedTime": 1747636604142,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "SEKHMET-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_sekhmet_class_nhp",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "When activated, you give control of your mech to your NHP and gain the following benefits:<ul><li>All melee critical hits deal +1d6 bonus damage.</li><li>1/round, you can Skirmish with melee weapons only as a free action.</li></ul>Your NHP uses all available actions and movement to move toward the closest visible character – allied or hostile – and attacks them with melee attacks, prioritizing melee weapons. It may benefit from your talents. If there are no characters within Threat, your NHP uses all actions to move as directly as possible to the next closest (visible) target. Your NHP can’t make ranged attacks, even if there are actions available.<br>You retain enough control to Overcharge as usual; however, your NHP uses the additional action for the same purpose as its other actions.<br>You can take back control of your mech as a protocol. When you do, you become Stunned until the start of your next turn. Otherwise, this effect lasts until your mech is destroyed – the pilot’s incapacitation or death has no effect.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "SEKHMET Protocol",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“The IPS-N SEKHMET co-pilot is ready to be your first mate! SEKHMET comes standard with remote, omninet, IR tag, and voice control systems, and is fully compatible with all current and legacy IPS-N mechs.<br />Did you know that SEKHMET learns with you? Should the worst happen, your very own SEKHMET will continue to engage hostile targets using an emulated neural-net doppelgänger to pilot your IPS-N chassis until forced or voluntary shutdown!”<br />draft copy, IPS-N Polaris Pilot Lounge adbroad [struck and replaced w/current adbroad]<br />SEKHMET-class NHPs tend toward aggressive attitudes and dark humor. Pilots often call them “berserker systems” – dangerous NHPs that value combat efficacy over pilot wellbeing.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and the SEKHMET Protocol.",
+    "integrated": [],
+    "license": "mf_blackbeard",
+    "license_level": 3,
+    "manufacturer": "IPS-N",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_ai",
+        "val": ""
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "7cgNfblSIchxloCs",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

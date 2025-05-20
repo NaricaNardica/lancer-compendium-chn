@@ -1,0 +1,82 @@
+{
+  "name": "Purifying Code",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_purifying_code",
+    "actions": [
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "You inject a memetic, proximity based virus into the target’s reactor. At the end of their next turn, if they are not adjacent to another character or piece of terrain of Size 1 or larger, the virus catalyzes and they take 1d6+2 AP explosive damage. Once catalyzed, the effect ends.<br>A character can only be affected by one Purifying Code option at a time and are aware of their effects.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "FLAW_plus",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Invade",
+        "cost": 0,
+        "damage": [],
+        "detail": "You inject a memetic, proximity based virus into the target’s reactor. At the end of their next turn, if they are adjacent to another character or piece of terrain of Size 1 or larger, the virus catalyzes and they take 1d6+2 AP explosive damage. Once catalyzed, the effect ends.<br>A character can only be affected by one Purifying Code option at a time and are aware of their effects",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "FLAW_minus",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "The key to the KOBOLD’s creation — a deceptively simple code that unlocks reactor safety limiters in civilian mining mechs. This also bears the only evidence pointing towards a possible creator: “Dog.”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_kobold",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "aehi9YLjEgvXeHEZ",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

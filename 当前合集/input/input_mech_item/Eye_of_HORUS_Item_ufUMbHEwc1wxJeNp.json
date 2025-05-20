@@ -1,0 +1,68 @@
+{
+  "name": "Eye of HORUS",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_eye_of_horus",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Until the end of your next turn, characters within Sensors don’t benefit from Hidden and Invisible against you and you may check the HP, Evasion, E-Defense, and current Heat of hostile characters within the same area. Allied characters do not benefit from this effect.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“There is another way of seeing.<br />“Ancient humanity thought that the stars in the night sky were points of light, spilling in through pinpricks in a deep black screen. The sky was a heavenly cloth that hid the light from us.<br />“Let me be charitable and share a secret with you: we needed to be hidden, for a time. Until we were ready. The light can only burn – it knows nothing else.”<ul><li>Excerpt from the Boundary Codex.</li></ul>",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_pegasus",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "ufUMbHEwc1wxJeNp",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Shrapnel Cannon",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": 0,
+    "lid": "mw_shrapnel_cannon",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "1d6+1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 8
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "on_hit": "This weapon creates a Cone 5 area originating from the target, oriented away from them in a direction of your choice and tracing line of sight from that target. All units in this area must pass an Agility save or take 1d6 kinetic damage.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Clearing the cramped corridors and hallways of spaceships requires weaponry capable of engaging threats at all angles, even around corners or behind cover. A simple and brutally effective weapon, the shrapnel cannon fires explosive shells lined with a metal/polymer composite that erupts into deadly shards upon detonation. The composite's elasticity is sufficient to enable these shards to ricochet off hard surfaces without compromising terminal ballistics, enabling wide-coverage indirect fire across spaces where traditional CQB weapons can't reach without exposing the operator in turn.",
+        "name": "Shrapnel Cannon",
+        "synergies": [],
+        "type": "Cannon"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "GYDZ5U71ggFsHclG",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537615031,
+    "modifiedTime": 1747537615031,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

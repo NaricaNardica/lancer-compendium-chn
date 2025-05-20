@@ -1,0 +1,37 @@
+{
+  "name": "Improved Armament",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "By rerouting power and strengthening systems, you can mount additional weapons beyond the factory recommendations.",
+    "effect": "If your mech has fewer than three mounts (excluding integrated mounts), it gains an additional Flexible mount.",
+    "integrated": [],
+    "lid": "cb_improved_armament",
+    "manufacturer": "GMS",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "kJGbL1oUxRq2Au4j",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

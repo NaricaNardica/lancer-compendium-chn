@@ -1,0 +1,186 @@
+{
+  "name": "Bonded",
+  "type": "talent",
+  "system": {
+    "lid": "t_bonded",
+    "curr_rank": 1,
+    "description": "The galaxy is a dangerous place, and everyone should have a friend to watch their back. Luckily, you’ve found yours. Maybe you enlisted together or were the only survivors of a bloody engagement. Maybe you didn’t start out as friends, or maybe you were raised to fight alongside each other – however your friendship came to be, when it comes time to drop, there’s no one you’d rather have at your side. Alone, you’re deadly; together, you’re a force of nature.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you take this talent, choose another pilot (hopefully a PC, but NPCs are fine if your GM allows it) to be your Bondmate. Any mech skill checks and saves either character makes while you are adjacent gain +1 Accuracy. If both characters have this talent, this increases to +2 Accuracy, but additional characters with this talent can’t increase it any further.<br>Between missions, you can replace your Bondmate with a new one, but only if your relationship with them has changed.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "I’m Your Huckleberry",
+        "synergies": [
+          {
+            "detail": "Any mech skill checks and saves either you or your Bondmate makes while you are adjacent gain +1 Accuracy. If both characters have this talent, this increases to +2 Accuracy.",
+            "locations": [
+              "skill_check",
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may take the damage instead.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Intercede",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "You are adjacent to your Bondmate (pilot or mech) and they take damage from a source within your line of sight.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain the <b>Intercede</b> Reaction.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Sundance",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "If a character within your line of sight attempts to attack your Bondmate, you can spend your Overwatch to threaten the attacker, forcing them to either choose a different target or attack anyway: if they attack a different target, your Overwatch is expended without effect; if they choose to attack anyway, you can immediately attack them with Overwatch, as long as they are within Range and line of sight. This attack resolves before the triggering attack.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Cover Me!",
+        "synergies": [
+          {
+            "detail": "If a character within your line of sight attempts to attack your Bondmate, you can spend your Overwatch to threaten the attacker, forcing them to either choose a different target or attack anyway: if they attack a different target, your Overwatch is expended without effect; if they choose to attack anyway, you can immediately attack them with Overwatch, as long as they are within Range and line of sight. This attack resolves before the triggering attack.",
+            "locations": [
+              "overwatch",
+              "active_effects"
+            ],
+            "damage_types": {
+              "Kinetic": true,
+              "Energy": true,
+              "Explosive": true,
+              "Heat": true,
+              "Burn": true,
+              "Variable": true
+            },
+            "range_types": {
+              "Range": true,
+              "Threat": true,
+              "Thrown": true,
+              "Line": true,
+              "Cone": true,
+              "Blast": true,
+              "Burst": true
+            },
+            "weapon_sizes": {
+              "Auxiliary": true,
+              "Main": true,
+              "Heavy": true,
+              "Superheavy": true
+            },
+            "weapon_types": {
+              "Rifle": true,
+              "Cannon": true,
+              "Launcher": true,
+              "CQB": true,
+              "Nexus": true,
+              "Melee": true
+            },
+            "system_types": {
+              "System": true,
+              "AI": true,
+              "Shield": true,
+              "Deployable": true,
+              "Drone": true,
+              "Tech": true,
+              "Armor": true,
+              "Flight System": true,
+              "Integrated": true,
+              "Mod": true
+            }
+          }
+        ]
+      }
+    ],
+    "terse": "Bond with a partner and protect them from harm"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "chQu11XWdnIJXB4E",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

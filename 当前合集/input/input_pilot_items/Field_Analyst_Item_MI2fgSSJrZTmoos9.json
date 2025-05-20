@@ -1,0 +1,83 @@
+{
+  "name": "Field Analyst",
+  "type": "talent",
+  "system": {
+    "lid": "t_field_analyst",
+    "curr_rank": 1,
+    "description": "You’ve always been perceptive, able to analyze the flow of battle and come up with strategies on the spot. You’re the mastermind behind the scenes, helping your allies out in battle in various ways. From subtle nudges to your comrades when aiming their weapons to devising advanced firing solutions or tailor-made evasive patterns. With your support, any battle your allies find themselves in is sure to end in success.",
+    "ranks": [
+      {
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may add 1 to the attack roll. This may cause an attack to hit or to critically hit. Each attack roll can only be affected this way once.",
+            "frequency": "2/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Superior Intelligence",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "An allied character in Line of Sight has rolled an Attack Roll.",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Whenever an allied character in line of sight misses with an attack, you know by how much it missed. Additionally, you gain the “Superior Intelligence” Reaction.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Tactical Intelligence",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Gain an Intel Die, a d6 starting at 1. <br>At the end of your turn, if you didn’t take any actions that affected a hostile character during that turn other than Scan, your Intel Die increases by 2 to a maximum of 6. <br>Whenever you use Superior Intelligence, you may increase the attack roll by the value of your Intel Die instead of by 1. Afterward, it is reset to 1. <br> Your Intel Die resets at the end of each scene.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Information Handling",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Whenever a hostile character in line of sight hits with an attack, you know what they rolled. <br>You may also use “Superior Intelligence” when a hostile character in Line of Sight has rolled an Attack Roll. Instead of adding to the attack roll, you subtract from it in the same manner. Each attack roll can only be affected this way once.",
+        "exclusive": false,
+        "integrated": [],
+        "name": "Active Interference",
+        "synergies": []
+      }
+    ]
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "MI2fgSSJrZTmoos9",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537596104,
+    "modifiedTime": 1747537596104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

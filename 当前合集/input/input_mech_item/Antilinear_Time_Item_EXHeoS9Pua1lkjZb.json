@@ -1,0 +1,64 @@
+{
+  "name": "Antilinear Time",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_rewrite",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose a character in Sensors and line of sight. They clear all conditions other than Stunned that weren’t self-inflicted, and you immediately receive all conditions they cleared until the end of your next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "M.A2.SP1 [Audio loop, length 93:03][Dated 5008U, 16:50] (recovered: GZ Alhambra) [UIB-TERMAGANTTANGENT ROYAL]<br />“I have never been here: I do not know where here is: It has not happened yet: Once, I was: I have never been here: You are all I see: How can you be all I see: Where am I: Where did I go: I have never been here…”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_lich",
+    "license_level": 2,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "EXHeoS9Pua1lkjZb",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747636627104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

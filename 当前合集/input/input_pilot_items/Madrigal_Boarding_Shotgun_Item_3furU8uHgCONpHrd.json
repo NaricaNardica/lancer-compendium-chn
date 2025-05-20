@@ -1,0 +1,70 @@
+{
+  "name": "Madrigal Boarding Shotgun",
+  "type": "pilot_weapon",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "counters": [],
+    "deployables": [],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "5"
+      }
+    ],
+    "effect": "<p><b>Requirement</b>: Weapons and Gear with “Madrigal” in the name may only be equipped if the Pilot is wearing the “Madrigal Boarding Carapace”.</p>",
+    "loaded": false,
+    "lid": "ms_madrigal_boarding_shotgun",
+    "tags": [
+      {
+        "lid": "tg_ap",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_sidearm",
+        "val": ""
+      },
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_pilot_weapon",
+        "val": ""
+      }
+    ],
+    "uses": 0,
+    "integrated": []
+  },
+  "folder": "vxr22GvkHnpNWihW",
+  "_id": "3furU8uHgCONpHrd",
+  "img": "systems/lancer/assets/icons/role_artillery.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537595649,
+    "modifiedTime": 1747537595649,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

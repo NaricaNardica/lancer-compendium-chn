@@ -1,0 +1,54 @@
+{
+  "name": "Upgraded Network Array",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_exo_upgraded_network_array",
+    "actions": [],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "<p><em>“This is the place? You sure Pettenouk said it was here?”</em></p> <p><em>“Yes, I’m sure. By the way, switch over to atmospheric level two. As you know, the air here on Kibo is noxious to us. Without proper adjustments, you’ll enter a coma in hours... Shou! Dammit, someone get Shou, he’s gone and passed out. Pack it up team, we’ll start again tomorrow.”</em></p> <p><em>“Bass Harbor, ma’am, I’m catching several bodies approaching our position from the foothills to the northeast.”</em></p> <p><em>“Ah, I’m reading it, got you loud and clear. Damn, I love doing these missions for those SSC toads. They always spare no expense and the network arrays are like having God’s eyes. Topside Lighthouse, we got company.”</em></p>",
+    "destroyed": false,
+    "effect": "1/scene, choose an allied character. Until the end of your next turn, you may use their Systems in place of your own for the purposes of checks and saves, and make tech actions using their Sensors, drawing line of sight from their position.",
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "manufacturer": "EXOTIC",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_exotic",
+        "val": ""
+      },
+      {
+        "lid": "tg_free_action",
+        "val": ""
+      }
+    ],
+    "type": "System",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "o8QH9SFlPX1so9CE",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537605423,
+    "modifiedTime": 1747636667627,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

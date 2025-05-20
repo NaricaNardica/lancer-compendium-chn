@@ -1,0 +1,38 @@
+{
+  "name": "Auto-Stabilizing Hardpoints",
+  "type": "core_bonus",
+  "system": {
+    "actions": [],
+    "bonuses": [],
+    "counters": [],
+    "deployables": [],
+    "description": "Using the best in shock-absorption and steadytech, you can retain accuracy across longer, sustained periods of fire.",
+    "effect": "Choose one mount. Weapons attached to this mount gain +1 Accuracy.",
+    "integrated": [],
+    "lid": "cb_auto_stabilizing_hardpoints",
+    "manufacturer": "GMS",
+    "mounted_effect": "Attacks made with weapons from this mount can be made with +1 ACCURACY.",
+    "synergies": [],
+    "tags": []
+  },
+  "folder": "fUAKdyBd1XRruk7N",
+  "_id": "0FZC73GkeCHkBDbr",
+  "img": "systems/lancer/assets/icons/core_bonus.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537554271,
+    "modifiedTime": 1747537554271,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

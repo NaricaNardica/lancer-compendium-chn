@@ -1,0 +1,81 @@
+{
+  "name": "The Walk of Kings",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_the_walk_of_kings",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "An allied character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, all their melee attacks gain AP, and the first time each turn that they either hit with a melee attack or take damage from a hostile character, they release a Burst 1 energy blast centered on them. All hostile characters in the affected area take 1 AP energy damage.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“AND IT WAS SO, that we saw His power, and burned under His glory, and wept, and no fortress could withstand our might.”<br />— Witnessed from the Darius 5.10 ferromemetic",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_emperor",
+    "license_level": 3,
+    "manufacturer": "SSC",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_overshield",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "3"
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "xc0oCwiSCV1Ta0hO",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537578420,
+    "modifiedTime": 1747636597202,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

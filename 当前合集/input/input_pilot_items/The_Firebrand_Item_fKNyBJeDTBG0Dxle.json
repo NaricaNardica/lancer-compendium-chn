@@ -1,0 +1,203 @@
+{
+  "name": "The Firebrand",
+  "type": "bond",
+  "system": {
+    "lid": "sotw-bond-firebrand",
+    "major_ideals": [
+      "I addressed challenges with charisma, iconoclasm, or dedication.",
+      "I expressed my heritage, background, or beliefs through my actions.",
+      "I struggled with issues from my burdens or background."
+    ],
+    "minor_ideals": [
+      "I successfully challenged a long-held or foundational idea.",
+      "I stood up for what was right despite great risk.",
+      "I inspired others to revolutionary action.",
+      "I fought even when the challenge seemed insurmountable."
+    ],
+    "questions": [
+      {
+        "question": "What gives you your powers?",
+        "options": [
+          "An unshakeable conviction or faith.",
+          "The support and solidarity of your comrades.",
+          "The vivid memory of those you could not save."
+        ]
+      },
+      {
+        "question": "What do you fight for?",
+        "options": [
+          "Freedom for the enslaved and indentured.",
+          "Justice for the mistreated and the downtrodden.",
+          "An end to the established order.",
+          "A better world for those who come after."
+        ]
+      }
+    ],
+    "powers": [
+      {
+        "name": "Strength In Conviction",
+        "description": "When you openly declare your cause for all to hear, take +1 ACCURACY and increased effect on your next skill check against a person who heard you.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Solidarity",
+        "description": "When you push yourself to help an ally with a skill check, they add +2 ACCURACY rather than +1.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "The Power Of Friendship",
+        "description": "Name an allied or friendly NPC. As long as it is plausible for them to do so, that NPC shows up to help for the rest of the scene and the GM chooses one:<ul><li>They suffer harm or personal cost to do so.</li><li>They send someone else in their place.</li><li>They bring trouble with them.</li><li>They won't help you like this again until you do them a favor.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Tenacity",
+        "description": "When you push yourself to reroll a skill check, you may take an additional STRESS. If you do, gain +1 ACCURACY.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Weight of the World",
+        "description": "When you encounter someone who is imprisoned, oppressed, or has suffered a great injustice, you may gain a burden. Until the burden is healed, you gain +1 ACCURACY and increased effect on all checks to help or aid them.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Fuck You",
+        "description": "When you break, you may take one last action before you lose control. Gain +1 ACCURACY and increased effect on this action.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Iconoclast",
+        "description": "You gain increased effect whenever you take action against an entrenched institution, tradition, or long-held belief.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Together We Are Strong",
+        "description": "When you successfully convince someone to join your side, each of your allies who witnessed the conversion clears 1 STRESS.",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Inspiring Leader",
+        "description": "Each downtime when you roll for an organization you created, you may roll an additional d20 and choose the highest for the final result.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Raise The Banner",
+        "description": "When you fly a flag, openly display an emblem, or prominently graffiti a symbol or slogan associated with your cause, you can attempt to provoke an enemy to act against you. The GM chooses one:<ul><li>Their response is hasty, or they make a mistake.</li><li>Their response rallies more people to your cause.</li><li>They do not respond immediately, but you gain increased effect on actions against them until they do.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": false,
+        "prerequisite": null
+      },
+      {
+        "name": "Boon of Rebellion",
+        "description": "At the end of each session, if you can describe how someone struggled against the established order, do so. Give someone who participated in that struggle 1 XP.",
+        "unlocked": false,
+        "frequency": null,
+        "uses": null,
+        "veteran": true,
+        "master": false,
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Rebellion."
+      },
+      {
+        "name": "Do You Hear The People Sing",
+        "description": "When you speak to a sympathetic crowd, you can inspire them to action. Name a cause or goal, and choose one:<ul><li>The crowd backs you up, and for the rest of the session they lend you +1 ACCURACY and increased effect on all actions to achieve your cause or goal while they are with you.</li><li>The crowd is inspired to action, and for the rest of the session they will attempt to achieve your cause or goal on their own initiative. At the end of the session (or when narratively appropriate), the GM describes what the crowd has achieved and the consequences of their actions.</li></ul>",
+        "unlocked": false,
+        "frequency": "1/session",
+        "uses": {
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        "veteran": false,
+        "master": true,
+        "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power."
+      }
+    ]
+  },
+  "folder": "6aD6argyZC3rE98g",
+  "_id": "fKNyBJeDTBG0Dxle",
+  "img": "systems/lancer/assets/icons/generic_item.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537624910,
+    "modifiedTime": 1747537624910,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

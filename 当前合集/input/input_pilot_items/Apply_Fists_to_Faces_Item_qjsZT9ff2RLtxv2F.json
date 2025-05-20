@@ -1,0 +1,30 @@
+{
+  "name": "Apply Fists to Faces",
+  "type": "skill",
+  "system": {
+    "lid": "sk_apply_fists_to_faces",
+    "curr_rank": 1,
+    "description": "Fight in open, brutal unarmed combat.",
+    "detail": "Punch someone in the face, or alternately fight in open, brutal unarmed combat, whether it’s a fist fight, martial arts duel, or a huge brawl. This is never subtle, never clean, and probably causes a lot of noise."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "qjsZT9ff2RLtxv2F",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

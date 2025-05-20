@@ -1,0 +1,30 @@
+{
+  "name": "Pull Rank",
+  "type": "skill",
+  "system": {
+    "lid": "sk_pull_rank",
+    "curr_rank": 1,
+    "description": "Get information, resources, or aid from a subordinate.",
+    "detail": "Pull rank on a subordinate, getting information, resources, or aid from them, even unwillingly. You can use this on anyone your social status (noble, celebrity, etc) or military rank would have weight with. Failing this might be risky and could be seen as abusive. You typically can’t pull rank on hostile targets. You could also use this to pretend to have a rank you don’t have, but it’s definitely risky."
+  },
+  "folder": "S0dYhiZQaIFQ98bo",
+  "_id": "4YUH7I3CeXPx1tgk",
+  "img": "systems/lancer/assets/icons/skill.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556266,
+    "modifiedTime": 1747537556266,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

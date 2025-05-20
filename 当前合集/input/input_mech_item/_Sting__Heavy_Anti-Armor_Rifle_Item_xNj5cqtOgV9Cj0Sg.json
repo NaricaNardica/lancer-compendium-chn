@@ -1,0 +1,91 @@
+{
+  "name": "“Sting” Heavy Anti-Armor Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_unknown",
+    "license_level": null,
+    "lid": "mw_exo_sting_heavy_anti_armor_rifle",
+    "loaded": false,
+    "manufacturer": "EXOTIC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "4d6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 20
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_loading",
+            "val": ""
+          },
+          {
+            "lid": "tg_ordnance",
+            "val": ""
+          },
+          {
+            "lid": "tg_reliable",
+            "val": "5"
+          },
+          {
+            "lid": "tg_exotic",
+            "val": ""
+          }
+        ],
+        "on_attack": "If you consume LOCK ON, your attack ignores cover.",
+        "on_hit": "Create a Line 5 path from (but not including) your target, continuing in the same direction as the attack. Characters in this path take 5 Kinetic Damage.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": false,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "An obsolete chassis-grade anti-materiel/ anti-armor rifle dating back to the Hercynian Crisis, this particular design has not been in distribution for hundreds of years but finds continued use among contemporary Hercynian forces. Bulkier and more cumbersome than the current GMS T-3 anti-materiel rifle, this particular model lacks many of the refinements incorporated into later models and is meant to be employed with a dedicated spotter to provide targeting data. All the same, its heavy, highvelocity rounds remain extremely effective at defeating both armor and static defenses at extreme range.",
+        "name": "“Sting” Heavy Anti-Armor Rifle",
+        "synergies": [],
+        "type": "Rifle"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Superheavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "xNj5cqtOgV9Cj0Sg",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537571193,
+    "modifiedTime": 1747537571193,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

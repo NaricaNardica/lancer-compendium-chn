@@ -1,0 +1,91 @@
+{
+  "name": "Stasis Bolt",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_stasis_bolt",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Charge the Stasis Bolt, gaining the Interdiction Point Reaction",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Charge Stasis Bolt",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "Make a contested ranged attack roll: if you win the contested roll, the attack automatically misses. The Stasis Bolt loses its charge.",
+        "frequency": "1/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Interdiction Point",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "You or an allied character within range 5 are targeted by a ranged attack.",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "To better protect Armory personnel beyond the Purview, the Think Tank developed the Stasis Bolt, a portable stasis-projection system designed to interdict shrapnel and projectiles from unseen, hidden, or unknown assailants. When the Stasis Bolt detects a proximal explosion or incoming projectile, it projects a delimited stasis point that blocks projectiles before impact.",
+    "destroyed": false,
+    "effect": "This system charges as a quick action, readying a projected stasis point. While it is charged, you gain the Interdiction Point reaction. It can only hold one charge at a time, but charges last for the rest of the scene or until used.",
+    "integrated": [],
+    "license": "mf_napoleon",
+    "license_level": 1,
+    "manufacturer": "HA",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "OpDxYh40PijWQSM0",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

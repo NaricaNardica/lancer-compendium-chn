@@ -1,0 +1,86 @@
+{
+  "name": "Hammer U-RPL",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_caliban",
+    "license_level": 1,
+    "lid": "mw_hammer_u_rpl",
+    "loaded": false,
+    "manufacturer": "IPS-N",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "2d6+3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_inaccurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_arcing",
+            "val": ""
+          },
+          {
+            "lid": "tg_knockback",
+            "val": "2"
+          }
+        ],
+        "effect": "",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "The Hammer Universal Rotary Projectile Launcher accepts any projectile or weapons system that fits the IPS-N Universal Cartridge System. Most common is the conventional airburst shell – a fragmentation system designed to operate in all theaters, oxygenated or not – a ferocious weapon in the compact halls, safe rooms, and bolt chambers of capital ships and stations.",
+        "name": "Hammer U-RPL",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Heavy",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "H15drtDgDjmEdjKv",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

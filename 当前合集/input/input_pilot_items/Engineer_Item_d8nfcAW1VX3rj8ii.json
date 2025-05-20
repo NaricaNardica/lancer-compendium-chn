@@ -1,0 +1,71 @@
+{
+  "name": "Engineer",
+  "type": "talent",
+  "system": {
+    "lid": "t_engineer",
+    "curr_rank": 1,
+    "description": "Pilots are creative and driven people, but Mesa Rownett is an exceptional case – excessively so, some would say. In his spare time, he’s managed to scrape together just enough scrap, requisitioned materials, and workshop space to apply a little old-fashioned ingenuity to his mech, fashioning it to a formidable machine not betrayed by its outward appearance.",
+    "ranks": [
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "When you perform a Full Repair, you can, with some trial and error, install a prototype weapon system on your mech. You may choose characteristics for your prototype weapon based on the following profile each time you perform a Full Repair, rerolling 1d6+2 to determine Limited each time:<br>Prototype Weapon<br>Main [Melee, CQB, Rifle, Cannon, Launcher, Nexus], Limited [1d6+2], Overkill<br>This weapon is an experimental prototype, customized according to your specific requirements.<br>When you install it, or during a Full Repair, you may choose a new weapon type, damage type, and either Threat 1 (melee) or Range 10 (all other types). Additionally, each time you perform a Full Repair, reroll 1d6+2 to determine this weapon’s Limited uses.<br>Damage: 1d6+2 Kinetic, Explosive or energy.<br>This weapon counts as an integrated mount and does not require a mount.",
+        "exclusive": true,
+        "integrated": [
+          "mw_prototype_1"
+        ],
+        "name": "Prototype",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "You can tweak the essential components of your prototype weapon in order to increase its effectiveness. When you perform a Full Repair, choose two:<ul><li><b>Tweaked Optics:</b> Your prototype weapon always gains +1 Accuracy on attacks.</li><li><b>Tweaked Computer:</b> Your prototype weapon is Smart.</li><li><b>Stripped reactor shielding:</b> Each time you attack with your prototype weapon, you may choose – at the cost of 2 Heat – to attack with one of the following options, depending on its weapon type:<ul><li><b>Ranged weapon:</b> Cone 3, Line 5, or [Blast 1, Range 10].</li><li><b>Melee weapon:</b> Burst 1.</li></ul></li></ul>",
+        "exclusive": true,
+        "integrated": [
+          "mw_prototype_2"
+        ],
+        "name": "Revision",
+        "synergies": []
+      },
+      {
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "description": "Your prototype weapon is now Limited [2d6] and deals 1D6+4 damage.",
+        "exclusive": true,
+        "integrated": [
+          "mw_prototype_3"
+        ],
+        "name": "Final Draft",
+        "synergies": []
+      }
+    ],
+    "terse": "Create an experimental weapon for your mech that you can modify and improve"
+  },
+  "folder": "Yrll1eelZTrjzjAg",
+  "_id": "d8nfcAW1VX3rj8ii",
+  "img": "systems/lancer/assets/icons/talent.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556907,
+    "modifiedTime": 1747537556907,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

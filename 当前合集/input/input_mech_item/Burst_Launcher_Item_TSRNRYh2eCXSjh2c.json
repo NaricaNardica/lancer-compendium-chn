@@ -1,0 +1,86 @@
+{
+  "name": "Burst Launcher",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_dusk_wing",
+    "license_level": 2,
+    "lid": "mw_burst_launcher",
+    "loaded": false,
+    "manufacturer": "SSC",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Explosive",
+            "val": "1d3"
+          },
+          {
+            "type": "Heat",
+            "val": "1"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 15
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_accurate",
+            "val": ""
+          },
+          {
+            "lid": "tg_arcing",
+            "val": ""
+          }
+        ],
+        "on_crit": "Target becomes Impaired until the end of their next turn.",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”",
+        "name": "Burst Launcher",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "TSRNRYh2eCXSjh2c",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

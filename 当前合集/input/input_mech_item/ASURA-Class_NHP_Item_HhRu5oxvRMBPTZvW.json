@@ -1,0 +1,81 @@
+{
+  "name": "ASURA-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_asura_class_nhp",
+    "actions": [
+      {
+        "activation": "Protocol",
+        "cost": 0,
+        "damage": [],
+        "detail": "1/scene, expend a charge to take two additional quick actions or one additional full action this turn. These actions must obey restrictions on duplicate actions.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "ASURA Protocol",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "ASURA was born from the Armory’s Think Tank thought-war games, an autonomous response to repeated failures during forlorn hope scenarios. ASURA manifested in the systems of simulated mechs as a recode of HORUS’s PUPPETMASTER virus, hijacking friendly mechs and forcing them to act far beyond human capacity—at such speed and intensity that the g-force would kill organic pilots with the sudden amplified mass of their own bodies.<br />While these results were initially deemed a failure by Think Tank NHPs and engineers, it was enough to justify further study on ASURA. Personality and parasentience code was injected into the initial anomalous PUPPETMASTER strain, and first contact handled by Think Tank NHPs. Further societal acclimation and conditioning were fast tracked, giving Armory engineers the first iteration of ASURA after a decade of study, recoding, and reeducation. ASURA, as they exist now, is a scaled-back version of that initial manifestation: while retaining some of their initial impetuousness, ASURA clones now recognize the need to keep their pilot alive and will operate within parameters set by their pilot’s medical and psychological tolerances.",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and the ASURA Protocol.",
+    "integrated": [],
+    "license": "mf_sherman",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 3,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "1"
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "3"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "HhRu5oxvRMBPTZvW",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

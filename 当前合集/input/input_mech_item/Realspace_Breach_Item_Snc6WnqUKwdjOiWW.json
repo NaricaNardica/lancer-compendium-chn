@@ -1,0 +1,69 @@
+{
+  "name": "Realspace Breach",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_distort",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "You tear a hole in space, creating a Blast 1 area in a free space within Sensors and line of sight. Weapons with the Blast, Line, Burst, or Cone properties do not affect this area, and it may not be occupied by characters or objects for any reason. Any character or object that moves at least 1 space into the affected area immediately teleports to any free space adjacent to the area (of its player’s choice), or as close as possible. The affected area blocks line of sight; however, any character may target the hole in space with a ranged weapon (excluding Blast, Line, Burst, or Cone weapons) as if attacking it. Attackers don’t roll to hit the hole – instead, it absorbs the attack and redirects it against a new target of the attacker's choice within Range 10 of the zone. The attack resolves as if it originated within the hole. This effect lasts for the rest of the scene, or until you take this action again or end it as a quick action.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Dicen: \"Incluso es difícil de ver en este lugar\". Decimos: \"Usted tiene razón. Es porque este lugar no te quiere aquí.”<br />[They say: “It is even difficult to see in this place.” We say: “You are correct. It is because this place does not want you here.”]",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_sunzi",
+    "license_level": 3,
+    "manufacturer": "HA",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "Snc6WnqUKwdjOiWW",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747636627104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

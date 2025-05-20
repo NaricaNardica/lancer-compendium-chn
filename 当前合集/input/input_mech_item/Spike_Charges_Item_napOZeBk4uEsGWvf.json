@@ -1,0 +1,83 @@
+{
+  "name": "Spike Charges",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_spike_charges",
+    "actions": [
+      {
+        "activation": "Quick",
+        "cost": 0,
+        "damage": [],
+        "detail": "Throw a Spike Grenade at a target within Range 5. Your target must pass an Agility save or the grenade attaches to them and arms itself. It automatically attaches to objects. At the start or end of any turn, while a spike grenade is attached, you may detonate all armed spike grenades as a reaction. Characters to whom they are attached take 1d6+3 kinetic damage and are knocked back 3 spaces in a direction of your choice, while objects just take the damage. Characters can detach spike grenades from themselves by passing another Agility save as a quick action on their turn. All grenades detach at the end of the scene.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Spike Grenade",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [
+      "dep_spike_mine"
+    ],
+    "description": "Originally designed as a load variant for use with the Hammer U-RPL, spike charges carry dozens of hardened flechettes designed to tumble, ricochet, and pierce upon shell detonation, tearing apart flesh and soft targets with sheer torque. As a payload for impact-activated grenades and proximity-activated mine, these devices found their use first in micro/null-grav combat, in which out-ofcontrol vessels and units could themselves be turned into missiles. In gravity-well combat, this system is less deadly but no less chaotic.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_caliban",
+    "license_level": 2,
+    "manufacturer": "IPS-N",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_grenade",
+        "val": ""
+      },
+      {
+        "lid": "tg_mine",
+        "val": "0"
+      }
+    ],
+    "type": "Deployable",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "napOZeBk4uEsGWvf",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747537563878,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

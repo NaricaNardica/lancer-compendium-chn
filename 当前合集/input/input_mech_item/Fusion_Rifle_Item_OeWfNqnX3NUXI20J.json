@@ -1,0 +1,73 @@
+{
+  "name": "Fusion Rifle",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_kobold",
+    "license_level": 1,
+    "lid": "mw_fusion_rifle",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": false,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Energy",
+            "val": "1-6"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 6
+          }
+        ],
+        "tags": [],
+        "effect": "This weapon deals damage equal to its RANGE from the target (up to a maximum of 6 Energy Damage).",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "description": "Bootstrapped from powerful ore mining lasers, the Kobold’s simple fusion rifle is no less deadly for its humble origins. By burning through solid-state batteries to produce the necessary reaction, the rifle’s simple mechanism proved simple enough for untrained Ungratefuls to learn. As their tactics improved and Baronic forces were pushed back, the fusion rifle took on an iconic reputation and has become a symbol of resistance across the Baronies – often seen stenciled on walls and crossed on Ungrateful flags.",
+        "name": "Fusion Rifle",
+        "synergies": [],
+        "type": "Rifle"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 0,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "OeWfNqnX3NUXI20J",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537564169,
+    "modifiedTime": 1747537564169,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

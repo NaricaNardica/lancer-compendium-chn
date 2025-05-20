@@ -1,0 +1,73 @@
+{
+  "name": "Stay of Execution",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_stay_of_execution",
+    "actions": [
+      {
+        "activation": "Quick Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Choose yourself or another character within Sensors and line of sight. Your target gains Immunity to all damage and effects from external sources until the end of their next turn, at which point they become STUNNED until the end of their following turn. Nothing can prevent or clear this condition.<br>During this time, any active effects on your target are frozen in time – effectively paused – and any relevant timers do not count down (e.g., conditions that would expire at the end of their turn now expire at the end of their following turn, reactor meltdown timers do not tick down, etc).<br>An unwilling character can ignore this effect with a successful Systems save.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Action",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 5006U, 01:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“I felt the bullet tear through me. I felt the bullet tear through me. I felt the pressure and it was my brother, his fist, my chest, and I was laying on my back and the sky was blue, and my mother hollered at him and the bullet had never hit me, and the legionnaire who shot me had not yet pulled the trigger, and so I killed him. I drank deep and killed him.”",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_lich",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_limited",
+        "val": "2"
+      }
+    ],
+    "type": "Tech",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "oPzC9ntmgkiAbzrn",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537563878,
+    "modifiedTime": 1747636627104,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

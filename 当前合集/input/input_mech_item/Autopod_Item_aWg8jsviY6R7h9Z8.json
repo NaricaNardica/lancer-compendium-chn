@@ -1,0 +1,120 @@
+{
+  "name": "Autopod",
+  "type": "mech_weapon",
+  "system": {
+    "cascading": false,
+    "deployables": [],
+    "destroyed": false,
+    "integrated": [],
+    "license": "mf_goblin",
+    "license_level": 1,
+    "lid": "mw_autopod",
+    "loaded": false,
+    "manufacturer": "HORUS",
+    "no_attack": true,
+    "no_bonuses": false,
+    "no_core_bonuses": false,
+    "no_mods": false,
+    "no_synergies": false,
+    "actions": [
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "You may automatically hit their target with the Autopod.",
+        "frequency": "1/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Autonomous Assault",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+        "tech_attack": false
+      }
+    ],
+    "profiles": [
+      {
+        "damage": [
+          {
+            "type": "Kinetic",
+            "val": "3"
+          }
+        ],
+        "range": [
+          {
+            "type": "Range",
+            "val": 15
+          }
+        ],
+        "tags": [
+          {
+            "lid": "tg_seeking",
+            "val": ""
+          },
+          {
+            "lid": "tg_unique",
+            "val": ""
+          }
+        ],
+        "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
+        "cost": 1,
+        "barrageable": true,
+        "skirmishable": true,
+        "actions": [
+          {
+            "activation": "Reaction",
+            "cost": 0,
+            "damage": [],
+            "detail": "You may automatically hit their target with the Autopod.",
+            "frequency": "1/round",
+            "heat_cost": 0,
+            "init": "",
+            "lid": "",
+            "mech": true,
+            "name": "Autonomous Assault",
+            "pilot": false,
+            "range": [],
+            "synergy_locations": [],
+            "terse": "",
+            "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+            "tech_attack": false
+          }
+        ],
+        "bonuses": [],
+        "counters": [],
+        "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
+        "name": "Autopod",
+        "synergies": [],
+        "type": "Launcher"
+      }
+    ],
+    "selected_profile_index": 0,
+    "size": "Main",
+    "sp": 1,
+    "uses": 0
+  },
+  "folder": "V6VZPud2bkVPnTAQ",
+  "_id": "aWg8jsviY6R7h9Z8",
+  "img": "systems/lancer/assets/icons/mech_weapon.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537557247,
+    "modifiedTime": 1747537557247,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

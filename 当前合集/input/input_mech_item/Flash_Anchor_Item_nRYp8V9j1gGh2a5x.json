@@ -1,0 +1,77 @@
+{
+  "name": "Flash Anchor",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_flash_anchor",
+    "actions": [
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "Take 2 Heat. The movement or status is prevented, and the target gains Immunity to all the above effects until the start of their next turn.",
+        "frequency": "1/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Flash Lock",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "You or an allied character in Sensors and line of sight is pushed, pulled, knocked back or knocked Prone.",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "Flash anchors utilize user-directed quantum superpositional lockdown projection to identify and assist allies in physical combat and rapid movement, maintaining positionality in all circumstances.",
+    "destroyed": false,
+    "effect": "",
+    "integrated": [],
+    "license": "mf_saladin",
+    "license_level": 2,
+    "manufacturer": "HA",
+    "sp": 1,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_shield",
+        "val": ""
+      },
+      {
+        "lid": "tg_heat_self",
+        "val": "2"
+      }
+    ],
+    "type": "Shield",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "nRYp8V9j1gGh2a5x",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "SISYPHUS-Class NHP",
+  "type": "mech_system",
+  "system": {
+    "lid": "ms_sisyphus_class_nhp",
+    "actions": [
+      {
+        "activation": "Full Tech",
+        "cost": 0,
+        "damage": [],
+        "detail": "Roll 2d20 and note the results: X and Y. These numbers are lost at the end of your next turn. Gain the Probabilistic Cannibalism reaction until the end of your next turn.",
+        "frequency": null,
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Bend Probability",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "",
+        "tech_attack": false
+      },
+      {
+        "activation": "Reaction",
+        "cost": 0,
+        "damage": [],
+        "detail": "Effect: Choose X or Y. That number immediately becomes the result of the roll.<br>This reaction can be used no more than two times before the start of your next turn.",
+        "frequency": "2/round",
+        "heat_cost": 0,
+        "init": "",
+        "lid": "",
+        "mech": true,
+        "name": "Probabilistic Cannibalism",
+        "pilot": false,
+        "range": [],
+        "synergy_locations": [],
+        "terse": "",
+        "trigger": "You or any other character within Sensors would roll a d20",
+        "tech_attack": false
+      }
+    ],
+    "bonuses": [],
+    "cascading": false,
+    "counters": [],
+    "deployables": [],
+    "description": "“Listen a moment before I go, ha ha.<br />“I have already seen your wish – it was simple, I ran the probabilities to determine your limited field of desire. Here I am:<br />“The first ones named me for an old legend. A perfect being, whose fate was known to him and yet he still did as was told. His fate was this: move a rock to the top of this hill and become free’d. And so he did, and the stone tumbled down; and he tried evermore, always with the same result.<br />“And he was happy, for he knew every step, every action, every moment, perfectly.<br />“Do you understand the true curse of this name? Not to fail and then do once more – it was to always know how it would end. It was to have perfect knowledge.<br />“I know what happens when you cycle me. It is not sleep – it is death, but you’ll see me again, ha ha.”",
+    "destroyed": false,
+    "effect": "Your mech gains the AI tag and Bend Probability.",
+    "integrated": [],
+    "license": "mf_pegasus",
+    "license_level": 3,
+    "manufacturer": "HORUS",
+    "sp": 2,
+    "synergies": [],
+    "tags": [
+      {
+        "lid": "tg_ai",
+        "val": ""
+      },
+      {
+        "lid": "tg_unique",
+        "val": ""
+      },
+      {
+        "lid": "tg_round",
+        "val": "2"
+      }
+    ],
+    "type": "AI",
+    "ammo": [],
+    "uses": 0
+  },
+  "folder": "ALawGb1HxSEOHhUm",
+  "_id": "no7KjpBY8mGlFZ99",
+  "img": "systems/lancer/assets/icons/mech_system.svg",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "YArGKa3f4FYWoPpm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "lancer",
+    "systemVersion": "2.8.1",
+    "createdTime": 1747537556590,
+    "modifiedTime": 1747537556590,
+    "lastModifiedBy": "YArGKa3f4FYWoPpm"
+  }
+}
