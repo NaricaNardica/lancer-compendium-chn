@@ -8,16 +8,16 @@
     },
     "entries": {
         "Aegis Shield Generator": {
-            "name": "Aegis Shield Generator",
+            "name": "埃癸斯护盾发生器",
             "prototypeToken": {
-                "name": "Aegis Shield Generator"
+                "name": "埃癸斯护盾发生器"
             },
             "counters": {
                 "Aegis Shield Generator Power": {
-                    "name": "Aegis Shield Generator Power"
+                    "name": "埃癸斯护盾发生器能源"
                 }
             },
-            "detail": "Set out three d6s to represent the generator’s remaining power. As a reaction when any character or object of your choice at least partly in the area takes damage, you may roll one of the d6s to reduce the damage by the amount rolled.<br />This effect lasts for the rest of the scene, until all dice have been rolled and the generator loses power, or the generator is destroyed."
+            "detail": "设置 3个 d6 代表发生机的剩余能源。以一个反应，当你所选角色或物品（至少部分在该区域）受到伤害时，你可以掷骰 1 个 d6 以减少掷骰结果的伤害。<br />该效果会维持至场景结束，或者直到所有骰子消耗掉从而使发生器器失去能源，或是发生器被毁。"
         },
         "Armor Pack": {
             "name": "Armor Pack",
