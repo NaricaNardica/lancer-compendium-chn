@@ -3831,14 +3831,14 @@
             "description": "<p>This variant can be taken at rank II of the GENGHIS license instead of the base FRAME. It can also be dug up and repaired as part of No Room For A Wallflower.</p><p>Though the Genghis Mk I is classified as a Harrison Armory FRAME for gameplay purposes, the original Genghis models were based on upscaled SecComm power armor and are technically GMS frames. Today, they are only compatible with the HA Genghis license due to a last-ditch tech partition by SecComm partisans in the latter stages of the revolution.</p><p>These old-pattern Genghis mechs are buried all over Hercynia in various states of disrepair. They are a grim reminder of the carnage that once took place here. Unlike the Mk II, with its sleeker, slimmer frame, the Mk I is much more brutal in its simplicity – mass produced, a crude weapon.</p>"
         },
         "Aceso Stabilizer": {
-            "name": "Aceso Stabilizer",
+            "name": "阿刻索稳定器",
             "actions": {
                 "Action": {
-                    "detail": "Expend a charge to fire this small, self-arming system onto an allied mech within range 5. They gain Overshield equal to your Grit +4. While they have this Overshield they gain Immunity to Impaired and Jammed.",
+                    "detail": "消耗 1 充能向射程 5 的一台盟友机甲发射小型自我武装系统。他们获得等同你[b]毅力+4[/b]的护盾。当他们获得该护盾时，对[b]受损和受扰免疫[/b]。",
                     "name": "Action"
                 }
             },
-            "description": "The IPS-N Aceso Stabilizer is a useful triage measure for any scoring and minor mechanical damage that is sustained in the course of combat engagement or negative environmental interaction. Thanks to its negligible processor demand, Aceso Stabilizers can even be controlled by COMP/CON units – this allows the pilot to concentrate on complex repairs or immediate threat neutralization."
+            "description": "IPS-N 阿刻索稳定器是对任何在战斗和负面环境互动造成磨损和轻微机械性伤害相当有用的分级系统。受惠于其微不足道的处理器需求，阿刻索稳定器甚至可以由伙伴礼宾单元操作，让驾驶员能够集中精神处理复杂修理和解决更迫切的威胁。"
         },
         "Aggressive System Sync": {
             "name": "Aggressive System Sync",
