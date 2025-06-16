@@ -41,9 +41,9 @@
             "detail": "Generate a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you. It counts as an obstruction and provides soft cover, but doesn’t block line of sight.<br />When an attack is made against a character that benefits from this barrier’s soft cover, roll 1d6: on 4+, the attack is consumed by the barrier and has no effect whatsoever. The barrier lasts for the rest of the scene, or until you deactivate it as a quick action. This effect does not stack with Invisible."
         },
         "Assassin Drone": {
-            "name": "Assassin Drone",
+            "name": "刺客无人机",
             "prototypeToken": {
-                "name": "Assassin Drone"
+                "name": "刺客无人机"
             },
             "actions": {
                 "Area Denial": {
