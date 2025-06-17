@@ -1443,98 +1443,98 @@
         },
         "Hecatoncheires": {
             "core_system": {
-                "name": "MYRIOS Long-Leash Directed Greywash",
+                "name": "“迈里奥斯”长束定向灰浴",
                 "passive_actions": {
                     "Deploy Razor Swarm": {
-                        "detail": "Deploy a Razor Swarm to a valid Blast 1 area within Sensors that contains no hostile characters. The Hecatoncheires may only have a single Razor Swarm deployed at any one time. The Razor Swarm persists until the end of the scene or until recalled or redeployed as a quick action.",
-                        "name": "Deploy Razor Swarm"
+                        "detail": "部署剃刀虫群至<b>感应</b>内不包含敌对角色<b>溅射 1 </b>区域。你在任意时候只能部署一台剃刀虫群。剃刀虫群持续到场景结束，或以一个<b>快速动作</b>召回或重新部署。",
+                        "name": "部署剃刀虫群"
                     }
                 },
-                "passive_name": "Razor Hive",
+                "passive_name": "剃刀虫群",
                 "active_actions": {
                     "Enrage Swarm": {
-                        "detail": "Each hostile character in one or more areas created by your Drones takes 4 burn. This action is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this action was used.",
-                        "name": "Enrage Swarm"
+                        "detail": "你的无人机创建的一或多个区域内，每个敌方角色受到 4 燃烧。该动作是一个 <b>高效</b> 动作，在使用该动作后，场景结束时会返还 1 CP。",
+                        "name": "狂暴虫群"
                     }
                 },
-                "active_name": "Enrage Swarm",
-                "description": "<p>Hard lessons were learned from the downfall of the Maw, harder even than those learned from the invisible, unstoppable consumption of Bo. From those lessons came visceral terror, perfected. Long-leash technology allows greywash swarms to operate persistently apart from their hives and draw power from alternate sources while remaining under failsafe control of their operator.</p><p>This level of operational safety comes as little comfort to the victims of MYRIOS swarms, however, as the swarms specialize in eating away at their targets in hideous acts of consumption barely tempered by their controllers’ instructions.</p>"
+                "active_name": "狂暴虫群",
+                "description": "<p>与博无可避免但无形无束的蚕食相比，从无底洞衰落中汲取的惨痛教训要更为深刻。长束系统允许灰浴虫群在远离巢房情况下持续运作，并从替代来源获取能量且仍处于操作员故障安全控制下。然而，这种操作安全水平对受害者来说毫无宽慰可言，随时间推移，“迈里奥斯”虫群会专门吞噬目标——这种可怕蚕食行为几乎无法被控制者定向所影响。</p>"
             },
-            "description": "<p>Officially, the Hecatoncheires does not exist. Baronic Intelligence denies the domestication of liturgicode seeds recovered from the Blanca Desert after the Maw’s defeat on Khayradin, and instead the Hecatoncheires is described as a local variant HORUS pattern group. The chassis is most frequently encountered in the hands of Company Centimane, whose status as a Free Company (and the occasional appearance of the pattern group elsewhere) lends a thin veneer of plausibility to the official story.</p><p>On Free Sanjak, the Hecatoncheires is a weapon of terror, a nightmare given form from haze and smoke. Revolutionary fire-teams have been known to trek through tropical jungles and the monsoon rains for days, losing members one by one as they are stalked by something just out of sight. Beneath the waters of Ludra’s beach paradises, it is said a monster lurks – tearing apart coastal communities and ships alike. In the deep tunnels, apocryphal tales persist of a thick gray cloud that sweeps through and leaves nothing but dust in its wake.</p><p>Meanwhile, a deep cover DoJ/HR operation working with support from the House of Dust has been trying to unearth solid evidence directly tying the Hecatoncheires to Baronic authorities – a link that might be leveraged to rally the Republican cause and finally ease pressure on Sanjak.</p>",
+            "description": "<p>官方宣称百臂巨人并不存在。它绝非男爵情报局在无底洞于海拉丁战败后从布兰卡沙漠回收驯化的礼拜编码种。相反，它被正式归类为百臂连队最常见的本地荷鲁斯模式组变体，而百臂连队作为自由连队的地位（以及模式组偶在其他地方出现）为官方背书增添了一层薄薄的合理性。</p><p>在自由桑贾克中，百臂巨人俨然是雾霾与浓烟构成的梦魇，是及其恐怖的武器。为人所知的是，有这样一支革命火力小队在热带丛林和季风雨中跋涉数天，然而成员们一个接一个因未见之物的追踪而失去。在卢德拉海滩天堂的水下，据传潜伏着一只海怪——撕裂沿海社区和船只。在深邃隧道中流传着传说故事，那是一团密不透光的灰色云层掠袭而过徒留尘埃。</p><p>与此同时，在尘埃家族支持下，一项由司法/人权部执行的深度潜伏行动一直在试图挖掘直接将百臂巨人与男爵领当局联系起来的确凿证据——这一联系或许能被用来团结共和党事业，并最终减轻对桑贾克的压力。</p>",
             "traits": {
                 "Dispersed Profile": {
-                    "description": "When the Hecatoncheires is in soft cover, ranged attackers receive +2 Difficulty instead of +1 Difficulty.",
-                    "name": "Dispersed Profile"
+                    "description": "百臂巨人处于<b>软性掩护</b>时，对其远程攻击 +2 <b>难度</b>而非 +1 。",
+                    "name": "分散剖面"
                 },
                 "Smoke and Mirrors": {
-                    "description": "The Hecatoncheires can always Hide in an area of soft cover, regardless of Engagement or enemy traits and systems.",
-                    "name": "Smoke and Mirrors"
+                    "description": "百臂巨人总是能在<b>软性掩护</b>中<b>躲藏</b>，忽略<b>交战</b>或敌方特征与系统。",
+                    "name": "烟与镜"
                 },
                 "Panoptes Targeting": {
-                    "description": "The Hecatoncheires' Smart weapons ignore the Invisible status of characters within sensors.",
-                    "name": "Panoptes Targeting"
+                    "description": "百臂巨人的<b>智慧</b>武器忽视<b>感应</b>内角色的<b>隐形</b>。",
+                    "name": "全视巨人准镜"
                 }
             },
-            "name": "Hecatoncheires"
+            "name": "百臂巨人"
         },
         "HHS-075 “Flayer” Shotgun": {
-            "name": "HHS-075 “Flayer” Shotgun",
+            "name": "HHS-075“剥皮者”霰弹枪",
             "profiles": {
                 "Standard": {
-                    "name": "Standard",
-                    "on_attack": "After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space."
+                    "name": "标准动作",
+                    "on_attack": "在使用该武器进行攻击后，你可以用枪托击打邻近角色，造成<b> 1 动能伤害</b>并将其击退<b> 1 空间</b>。"
                 },
                 "Autochoke Equipped": {
-                    "on_attack": "After any attack with this weapon, you may smack an adjacent character with the butt end, dealing 1 Kinetic Damage and knocking them back 1 space.",
-                    "name": "Autochoke Equipped"
+                    "on_attack": "在使用该武器进行攻击后，你可以用枪托击打邻近角色，造成<b> 1 动能伤害</b>并将其击退<b> 1 空间</b>。",
+                    "name": "配备自动锁喉"
                 }
             }
         },
         "High-Stress Mag Clamps": {
-            "effect": "You treat all solid surfaces as flat ground for the purposes of movement; you can move across them normally instead of climbing, although you begin to fall if you are knocked Prone.",
+            "effect": "在移动时，你视所有坚固表面为平地；你可以如常移动经过它们而无需攀爬，不过若你被<b>伏卧</b>则开始坠落。",
             "synergies": [
                 {
-                    "detail": "You treat all solid surfaces as flat ground for the purposes of movement; you can move across them normally instead of climbing, although you begin to fall if you are knocked Prone."
+                    "detail": "在移动时，你视所有坚固表面为平地；你可以如常移动经过它们而无需攀爬，不过若你被<b>伏卧</b>则开始坠落。"
                 }
             ],
-            "name": "High-Stress Mag Clamps",
-            "description": "A simple, reliable set of toggleable mag clamps built into a mech’s locomotive system can vastly increase the tactical possibilities open to its pilot. When switched on, these clamps allow a mech to cling to ferrous surfaces, which is especially useful in low- and zero-gravity environments."
+            "name": "高压磁能钳",
+            "description": "这是组简单可靠的可开关磁能钳，安装在机甲移动系统里可极大提高驾驶员的战术选择性。在启动后，这些夹钳能让机甲附着在任何金属表面，在微重力和无重力环境尤其突出。"
         },
         "Hive Drone": {
-            "name": "Hive Drone",
-            "description": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br />Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br />This is greywash, and it is never sated.",
-            "effect": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+            "name": "虫巢无人机",
+            "description": "乍看之下，如同翻腾的灰色云雾，汹涌着气泡——好似洒在混凝土上滚烫的苏打水。它以奇异的伸展收缩动作前进，如同一团混沌的蛇，意图分明地蠕行。<br />色彩点亮了这层灰云，萤光的虫群——那是数百万纳米体吞噬接触一切发出的热光。<br />这便是灰浴，永不满足的灰浴。",
+            "effect": "虫巢无人机可部署在视线<b>感应</b>内的自由空间，释放出<b>爆发 2 </b>灰浴虫群，产生以下效果：<ul><li>至少部分在受影响范围内的盟友角色以及虫巢无人机本身均获得<b>软性掩护</b>。</li><li>在受影响范围开始其回合或在轮内首次进入该区域的敌对角色受到<b> 1AP 动能伤害</b>。多虫巢无人机产生的伤害不会叠加。</li></ul>无人机可用<b>快速动作</b>回收或部署到另一不同空间。"
         },
         "Hurricane Cluster Projector": {
-            "name": "Hurricane Cluster Projector",
+            "name": "“飓风”集群投射器",
             "profiles": {
                 "Hurricane Cluster Projector": {
-                    "name": "Hurricane Cluster Projector",
-                    "description": "This oversized, chassis-mounted artillery platform is capable of unleashing a devastating barrage. With a short maximum range for a weapon of its kind, it is nevertheless capable of saturating a targeted area in a harrowing hail of intelligent self-correcting cluster munitions. It is currently carried in the “Storm” line of superheavy equipment."
+                    "name": "“飓风”集群投射器",
+                    "description": "该种超大底盘式火炮平台足以发射毁灭性弹幕。尽管此类武器最大射程较短，但它能够在智能自校正集群弹药坠落物中使目标区域饱和打击。目前被列入“风暴”系列的超重型装备。"
                 }
             }
         },
         "Hydra": {
-            "name": "Hydra",
+            "name": "多头蛇",
             "core_system": {
-                "active_name": "Full Deployment",
-                "description": "First encountered by Union technicians in early Forecast/GALSIM facilities following the Deimos Event, OROCHI was an early manifestation of what was later called the swift-flock phenomenon – a behavior observed in leaderless, autonomous hive drones where individual units combine into a single swarm and follow each other, operating leaderless in physical space with uncanny and unpredictable autonomy; in essence, organizing like birds in a flock.<br />The original manifestation was initially thought to be the impulse-driven remains of a crashed subaltern transport drifting through microgravity; deeper examination proved the original manifestation to be composed of many hundreds of disarticulated subalterns moving with a discernible pattern. The swarm viewed itself not as a machine or a collection of machines, but as a single mind, duplicated across multiple units. This mind was classified as an NHP, given their current codename – OROCHI – and remitted to Venus for further study. At a later point, the hardware comprising OROCHI’s physical form(s) went missing from containment. The investigation is ongoing.<br /><span class=\"horus--subtle\">[I did it, I folded space and freed them, I just thought you should know]</span>",
-                "active_effect": "All four OROCHI drones are deployed to separate points within Sensors; they remain active for the rest of the scene. You may recall or redeploy any number of them at a time.",
-                "name": "OROCHI Disarticulation",
-                "passive_effect": "Your mech contains powerful, integrated drone companions. At creation, choose a single OROCHI Drone to accompany you. <br />Your OROCHI drones share your Evasion, E-Defense, and Speed. They can move independently on your turn, but can’t take any other actions. If you can fly or teleport, they can too.<br />If an OROCHI drone is within Sensors, you may recall it as a quick action, integrating it into your mech’s body where it cannot be targeted. You may redeploy it to a space within Sensors as a quick action. <br />When you rest or perform a FULL REPAIR, you may choose a different drone to accompany you; additionally, your drones regain all HP and are automatically repaired if they were destroyed.",
-                "passive_name": "OROCHI Drones"
+                "active_name": "全部展开",
+                "description": "在火卫二事件后，联盟技术人员于早期预报/银河模拟设施中首次遭遇“大蛇”，它是后被称为快速群聚现象的早期表现——这一异常行为在无领导自律蜂群无人机中观察到，其中独立单元结合成群体并相互跟随，在物理空间中无领导地运作，展现出不可思议且不可预测的自主性；本质上，其组织性如同鸟群里的鸟类。<br />最初显化被视为是坠毁副官运输舰在微重力环境中漂移的脉冲驱动残留；但更深入的研究证明，这一最初显化实际是由数百个脱节副官以可辨别模式移动组合而成。该集群将自己视为在多个单元中复刻的独立思维体。该思维体被归类为 NHP，以其现行代号“大蛇”被送往金星进行进一步研究。然而在后来的某个时间点，构成大蛇物理形态的硬件从隔离区失踪。目前调查仍在进行中。<br /><span class=\"horus--subtle\">[是我做的，是我曲翘了空间，放它们自由。我单纯觉得你该知道]</span>",
+                "active_effect": "全部 4 台<b>大蛇</b>无人机在<b>感应</b>内的不同空间部署；它们会激活直到场景结束。你可以一次性召回或是重新部署任何数量的它们。",
+                "name": "“大蛇”解体",
+                "passive_effect": "你的机甲拥有强大整合的无人机伙伴。在创造时，选择以下一款无人机陪伴你：<br />你的<b>大蛇</b>无人机与你共用<b>回避</b>、<b>电子防御</b>和<b>速度</b>。它们可以在你的回合独立移动，但无法进行其他动作。若你能飞行或瞬间移动，它们也能。<br />若<b>大蛇</b>无人机在<b>感应</b>内，你可使用<b>快速动作</b>召回它们，并将其融入你的机甲身体而不被成为目标。你可使用快速动作将其重新部署在感应内的空间。<br />当你休息或<b>全面维修</b>时，你可以选择不同无人机来陪伴你；此外，你的无人机恢复所有<b> HP </b>，若已被摧毁也能自动修复。",
+                "passive_name": "大蛇无人机"
             },
             "traits": {
                 "System Link": {
-                    "description": "When deployed, the Hydra’s Deployables and Drones gain +5 HP.",
-                    "name": "System Link"
+                    "description": "多头蛇的<b>可展开</b>和<b>无人机</b>得到<b>+5 HP </b>。",
+                    "name": "系统连结"
                 },
                 "Shepherd Field": {
-                    "name": "Shepherd Field",
-                    "description": "Drones, Deployables, and objects adjacent to the Hydra gain Resistance to all damage."
+                    "name": "牧羊人领域",
+                    "description": "与多头蛇邻近的<b>无人机</b>、<b>可展开</b>和物品对所有伤害有<b>抗性</b>。"
                 }
             },
-            "description": "Like many newer HORUS “frames”, there is no standardized Hydra model. Instead, the designation is a title given to chassis that meet the specifications of the Hydra pattern group – as outlined in Union’s Universal Threat Assessment Manual. The Hydra, like many other pattern-group HORUS mechs, is particularly dangerous in the field, as its precise function is concealed until hostilities begin in earnest.<br />The Hydra is capable of tactically dismembering itself into multiple independently controlled drones, an unnerving phenomenon frequently utilized to deadly effect. With the manifestation of HORUS’s Balor pattern group, the Hydra’s place in HORUS history is clear: a precursor to the Balor virus, the Hydra relies on larger sections of disarticulated chassis rather than nanite clouds for its differentiated battlefield advantage. Despite its more conventional appearance, the Hydra presents a sobering threat to non-HORUS pilots, as its disarticulated drones field a compliment of powerful anti-armor weaponry."
+            "description": "与诸多较新的荷鲁斯“骨架”一样，多头蛇并没有标准型号。相反，该识别名称是给予符合联盟《通用威胁评估手册》描述的多头蛇模式组规格底盘骨架总称。与诸多其他的荷鲁斯模式组机甲一样，多头蛇因其实际功能在交战后才会展现，因而在战场上相当危险<br />多头蛇在战术上可将自己分解成多架独立运作的无人机，这让人毛骨悚然的现象经常也以致命效果实现。在荷鲁斯炎魔模式组出现后，多头蛇在荷鲁斯历史定位也豁然开朗：作为炎魔病毒的先行者，多头蛇依靠较大型拆解底盘而非纳米云来获得差异化的战场优势。尽管其外观更为传统，但多头蛇分解而成的无人机拥有一系列强大反装甲武器，对非荷鲁斯驾驶员而言构成了严峻威胁。"
         },
         "IMMOLATE": {
             "description": "The Kobold PG’s code is unique in that it can be injected into existing civilian mining mechs, allowing them to interact with the full suite of largely improvised, adapted weaponry and systems. The process skips printers entirely; however, in avoiding the constraints of Unionmonitored printers, the process also eschews widely accepted safety standards – a common theme among HORUS PGs. With no governors or consistent standards on the operational envelope of the K-PG, some pilots have discovered the terminal limits of their chassis the hard way.",
@@ -4383,65 +4383,65 @@
             }
         },
         "HHS-155 CANNIBAL": {
-            "name": "HHS-155 CANNIBAL",
+            "name": "HHS-155 食人族",
             "profiles": {
                 "Single Barrel": {
-                    "description": "The IPS-N Heavy Howitzer-Shotgun 155 “Cannibal” is a large, breech-loaded, over-under cannon chambered to fire shells, shot, and sabots. This is the higher-powered version of the HHS-075, designed to phase out the “Daisy Cutter” by providing comparable stopping power in a format that can be more easily supplied to armies in the field. The Cannibal should be used with caution around mixed units of friendlies, as its ejection action clears the weapon’s barrels of spent cartridges with enough velocity to decapitate unarmored personnel.",
-                    "name": "Single Barrel"
+                    "description": "IPS-N 重型榴弹霰枪 155 “食人族”是一把用于发射子弹、炮弹或弹托，且无比巨大的后装立式双管加农炮。这是 HHS-075 的更高出力版本，其设计初衷为以一种更容易提供给战场上军队的形式提供可比的阻挡力去逐步淘汰“摘菊使者”。“食人族”在友军混合部队周围使用时需要谨慎，它清除武器枪管的弹射动作会加速弹壳抛射，足以将非装甲人员斩首。",
+                    "name": "单管"
                 },
                 "Both Barrels": {
-                    "effect": "Fire both barrels at once, causing the weapon to be fired with +1 Difficulty and requiring a reload as normal.",
-                    "description": "The IPS-N Heavy Howitzer-Shotgun 155 “Cannibal” is a large, breech-loaded, over-under cannon chambered to fire shells, shot, and sabots. This is the higher-powered version of the HHS-075, designed to phase out the “Daisy Cutter” by providing comparable stopping power in a format that can be more easily supplied to armies in the field. The Cannibal should be used with caution around mixed units of friendlies, as its ejection action clears the weapon’s barrels of spent cartridges with enough velocity to decapitate unarmored personnel.",
-                    "name": "Both Barrels"
+                    "effect": "同时用两根炮管开火，使其获得<b> +1 难度</b>，使用后需要如常进行装填。",
+                    "description": "IPS-N 重型榴弹霰枪 155 “食人族”是一把用于发射子弹、炮弹或弹托，且无比巨大的后装立式双管加农炮。这是 HHS-075 的更高出力版本，其设计初衷为以一种更容易提供给战场上军队的形式提供可比的阻挡力去逐步淘汰“摘菊使者”。“食人族”在友军混合部队周围使用时需要谨慎，它清除武器枪管的弹射动作会加速弹壳抛射，足以将非装甲人员斩首。",
+                    "name": "双管"
                 }
             }
         },
         "Howitzer": {
-            "name": "Howitzer",
+            "name": "榴弹炮",
             "profiles": {
                 "Howitzer": {
-                    "name": "Howitzer",
-                    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user."
+                    "name": "榴弹炮",
+                    "description": "正如 GMS 机甲，GMS 武器同样是可靠的银河标准，使用可互换部件制造，承受几乎任何环境条件。目前有三条生产线存在。<br><b>三式（T3）</b>系列生产线由重型武器，重火器，和其他异化，特化，或大规模化武器组成。这是个宽泛的分类，T3系列包含了常规动能反器材步枪、超速循环脉冲步枪、导弹发射架、加农炮以及可作为微型工厂、机库和便携式无人机部署系统的无人机枢纽——“巢房”式发射装置。该系列中还包含恐怖的“多段刀”，该系统采用闪印技术，在使用者周身制造即抛式刃具。"
                 }
             }
         },
         "Hunter Lock": {
-            "name": "Hunter Lock",
+            "name": "猎手锁定",
             "actions": {
                 "Action": {
-                    "detail": "Choose a character within Sensors: for the rest of the scene, your first successful ranged or melee attack against them each round deals +3 bonus damage. You cannot choose a new target until your current target is destroyed or the scene ends.",
-                    "name": "Action"
+                    "detail": "选择<b>感应</b>内的一个角色：直到场景结束前，你每轮对目标的首次成功远程或近战攻击<b> +3 额外伤害</b>。直到目标被毁或场景结束前，你不能选择新目标。",
+                    "name": "动作"
                 }
             },
-            "description": "“A mind’s first charge is to never lose sight of her enemy. When she can affix them in her eye, she can kill them with a blink.”<ul><li>Excerpt from the Boundary Codex.</li></ul>"
+            "description": "“思想的首要任务是永远不要忘记她的敌人。当她能将目标锁定在眼中时，她只需眨眼，便可杀死猎物。” <ul><li>——摘自《边界法典》</li></ul>"
         },
         "Hunter Logic Suite": {
-            "name": "Hunter Logic Suite",
+            "name": "猎人逻辑套件",
             "actions": {
                 "Stalk Prey": {
-                    "detail": "You infect the target with a viral logic that wipes your image from their sensors. They treat you as Invisible until you next take damage from them. This can only affect one target at a time.",
-                    "name": "Stalk Prey"
+                    "detail": "你用病毒逻辑感染目标来将你的影像从其传感器中抹去。直至你从目标受到伤害，目标都会将你视作<b>隐形</b>。一次只能影响一个目标。",
+                    "name": "跟踪猎物"
                 },
                 "Terrify": {
-                    "detail": "You infect the target with a viral logic that makes your mech appear horrifying. Until the end of their next turn, they become Impaired and cannot make any voluntary movements that bring them closer to you.",
-                    "name": "Terrify"
+                    "detail": "你使用病毒逻辑感染目标来让你的机甲看起来颇为可怖。直到他们下一回合结束前，目标<b>受损</b>且无法自主移动接近你。",
+                    "name": "恐吓"
                 }
             },
-            "description": "Built from interpreted strands of DHIYED paracode, SSC’s Hunter Logic is an agile computational memetic: a dual synthetic/VLS-vector systemic weapon capable of interfering with both a target’s computer and its crew."
+            "description": "通过解析节德柱副编码构建，SSC 猎人逻辑是套灵敏计算模因：它是一种双模式合成/垂直起降系统武器，能够同时干扰目标的计算机系统和其操作人员。"
         },
         "HyperDense Armor": {
-            "name": "HyperDense Armor",
+            "name": "超密度装甲",
             "actions": {
                 "Action": {
-                    "detail": "When activated, the HyperDense Armor hardens into a shimmering, reflective surface that offers unparalleled protection. You gain Resistance to all damage, Heat and Burn from attacks that originate beyond Range 3; however, you become Slowed and deal half damage, Heat and Burn to characters beyond Range 3.",
-                    "name": "Action"
+                    "detail": "激活时，装甲会硬化成璀璨的反光表面，提供无与伦比的保护。你对源自<b>射程 3 </b>外的攻击造成的所有<b>伤害</b>，<b>热度</b>和<b>燃烧</b>均获得<b>抗性</b>。但同时，你陷入<b>缓慢</b>并对<b>射程 3 </b>以外的角色造成的<b>伤害</b>，<b>热度</b>和<b>燃烧</b>减半。",
+                    "name": "动作"
                 },
                 "Deactivate HyperDense Armor": {
-                    "detail": "Deactivate HyperDense Armor, losing Resistance to all damage, Heat and Burn from attacks that originate beyond Range 3; as well as clearing your Slowed status and dealing normal damage, Heat and Burn to characters beyond Range 3.",
-                    "name": "Deactivate HyperDense Armor"
+                    "detail": "解除超密度装甲，失去对<b>射程 3 </b>外的所有<b>伤害</b>，<b>热度</b>和<b>燃烧</b>的<b>抗性</b>；同时清除你的<b>缓慢</b>状态，并且对<b>射程 3 </b>外造成正常<b>伤害</b>，<b>热度</b>和<b>燃烧</b>。",
+                    "name": "解除超密度装甲"
                 }
             },
-            "description": "IPS-N HyperDense Armor is built for space – forged with no regard for any constraints users might face within a gravity well. As such, many pilots protected by HyperDense products are shocked to experience the difference between piloting their mech down a well and taking it for a ride in the null-gravity of space."
+            "description": "IPS-N 超密度装甲为太空而设，打造时并无考虑使用者在重力井下会受到的限制。因此，诸多受到超密度装甲保护的驾驶员会对其机甲在重力井运作和在无重力中翱翔的差异而感到震惊。"
         },
         "ICEOUT Drone": {
             "name": "ICEOUT Drone",
