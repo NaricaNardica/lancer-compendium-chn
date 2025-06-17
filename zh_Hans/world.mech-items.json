@@ -8,166 +8,166 @@
     },
     "entries": {
         "Accelerate": {
-            "name": "Accelerate",
+            "name": "加速",
             "actions": {
                 "Action": {
-                    "name": "Action",
-                    "detail": "Choose and mark two free spaces within your line of sight that share a surface and are within Range 5 of each other. Characters that start their turn in one of these spaces or enter one for the first time in a round are pushed as far as possible in a straight line towards the other space. If they collide with an obstruction, they stop moving. They may avoid being pushed with a successful Hull save. Grenades, Deployables, or other loose objects of Size 1 or smaller that are thrown or deployed into one of the spaces are also pushed towards the other space before activating or detonating. They activate or detonate early if they are forced to stop by another character or object. This effect lasts for the rest of the scene, or until you take this Quick Tech option again."
+                    "name": "动作",
+                    "detail": "选择并标记你视线内2个自由空间，它们需处在同一个表面且彼此之间距离不超过<b>射程5</b>。在此空间中开始回合或在该轮中首次进入的角色将被尽可能地以直线推向另一个空间。如若与障碍物相撞，就会停止移动。他们可通过</b>机体<b>豁免避免被推离。投掷或部署到其中空间的<b>榴弹</b>、<b>可展开</b>或其他小于等于<b>大小1</b>的松散物品亦会在激活或引爆前被推到另一空间。若它们被其他角色或物品强迫停止，则会提前激活或引爆。该效果会持续到场景结束，或者直到你再次使用该<b>快速科技</b>。"
                 }
             },
-            "description": "Guillermo, no es suficiente saber caminar; Debes saber dónde y dónde no pisar. El lugar incorrecto, y te perderás. Es en un plano de telaraña donde construimos nuestro hogar: pise ligeramente cuando vaya.<br />[Guillermo, it is not enough to know how to walk; you must know where and where not to step; the incorrect spot, and you will be lost. It is on a plane of gossamer that we make our home: tread lightly when you go.]"
+            "description": "吉列尔莫，光知道如何走路是不够的；你必须知道哪里可以走，哪里不能踩；走错一步，你就会迷失。我们的家园建立在如游丝般的位面上：走的每一步都要万分小心。"
         },
         "Active Camouflage": {
-            "name": "Active Camouflage",
+            "name": "主动光学迷彩",
             "actions": {
                 "Action": {
-                    "detail": "You become Invisible until you take damage, or until the end of your next turn.",
-                    "name": "Action"
+                    "detail": "你<b>隐形</b>直到受伤或你下一回合结束。",
+                    "name": "动作"
                 }
             },
-            "description": "Active camouflage is the pinnacle of counter-optic defense systems. Active camouflage systems continuously interpret incoming visible-light data, allowing them to project light-bending fields around their user and effectively hiding them in plain sight."
+            "description": "主动光学迷彩是反光学防御系统的巅峰之作。主动光学迷彩可以持续解读入射的可见光数据，使其向使用者周围投射弯曲光场，有效地将使用者隐藏光天化日下。"
         },
         "ADJUTANT-Class Comp/Con": {
-            "description": "<p>A major cornerstone of GMS's advanced technology initiative is the planned development of a next-generation companion/concierge system to replace the standard EPIPHANY-Class C/C currently in use by Union pilots. For reasons both practical as well as ethical, widespread dissemination of chassis-compatible C/C systems is currently being pushed by Union CentComm over military NHP design, and the ADJUTANT is the latest model to be approved for limited field trials following First Contact Accords compliance evaluation. Utilizing a new-model ontologic bridge framework, ADJUTANT allows for the use of selected simulant/reflex architectures to be uploaded to an engrammatic matrix for compatible pilot integration along both first- and second-tier neural processes. Long-term effects of repeated engrammatic synthesis are currently unknown, but early feedback is promising with test pilots reporting minimal difficulty expressing previously unheld aptitudes.</p>",
-            "name": "ADJUTANT-Class Comp/Con",
+            "description": "<p>GMS先进技术计划的其中一个主项目，就是开发下一代的伙伴礼宾单元，以替代现今联盟驾驶员使用的“顿悟级”伙伴礼宾单元。出于实用性和伦理性的考虑，联盟委员会目前正在推广使用与机甲兼容的伙伴礼宾单元来替代军用NHP。而助理级是在符合《第一接触协议》评估后，被批准有限实试验的最新型号。利用重新构筑的本体论桥接，助理级可选择特定模拟/反射架构，将其上传到一个兼容整合到驾驶员一层二层神经进程的记忆印迹矩阵中。长期接受记忆整合的影响尚不明确，但早期反馈很有希望，根据测试驾驶员报告，可以毫无阻碍地使用以前从未掌握的能力。</p>",
+            "name": "“助理级”伙伴礼宾单元",
             "actions": {
                 "Active Assist": {
-                    "detail": "1/scene, you may take a quick action of your choice. This action cannot be an attack or force any saves.",
-                    "name": "Active Assist"
+                    "detail": "<b>1/场景</b>，你可以选择进行一次<b>快速动作</b>。该动作不能是攻击或任意强制豁免。",
+                    "name": "激活主动辅助"
                 }
             },
-            "effect": "<p>Your mech gains the AI tag and Active Assist.</p><p>Additionally, you may load one talent rank you qualify for but do not have onto this system’s ontologic bridge. You gain access to that talent while piloting your mech. If this system is destroyed, neither this talent nor any systems or mech capabilities it grants can be used until it’s repaired. You may choose a different talent rank whenever you take a Full Repair.</p><p>This system isn’t a full NHP and cannot enter cascade.</p>"
+            "effect": "<p>你的机甲获得<b>AI</b>标签和<b>主动辅助</b>。</p><p>此外，你可以加载一个你有资格选择但没有的天赋等级，将其加载到该系统的本体论桥接上。你可以在驾驶机甲时获得该天赋。若该系统遭毁，该天赋和它所授予的任何系统或机甲能力都不能再使用，直到它被修复。当你进行<b>全面维修</b>时，你可以选择不同的天赋等级。</p><p>该系统不是NHP，因此不会层流。</p>"
         },
         "Aegis Shield Generator": {
-            "name": "Aegis Shield Generator",
-            "description": "The Aegis is a portable electromagnetic shield generator: a powerful and reliable method – if crude by modern standards – for establishing kinetic and coherent-particle deterrence over a wide area.",
-            "effect": "Expend a charge to deploy a Size 1 shield generator in a free, adjacent space, where it creates a burst 1 shield."
+            "name": "埃癸斯护盾发生器",
+            "description": "埃癸斯是便携式电磁屏蔽发生器：一种以现代标准衡量颇为粗糙，但精实可靠的开阔区域动能与连续相干粒子系统屏蔽器。",
+            "effect": "消耗1充能在邻近自由空间展开<b>大小1</b>的护盾发生器。它会产生<b>爆发1</b>的护盾。"
         },
         "Amber Phantom": {
             "core_system": {
-                "active_name": "Convergence Point",
-                "passive_name": "Possibility Mapping",
-                "active_effect": "Choose one allied character that has not taken their turn this round. That character may take their turn either immediately after your turn ends, or they may take their turn now before you do anything else, pausing your own turn until their turn ends. If they choose to act now, they count as acting before you in the PC turn order. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
-                "description": "SSC's precognitive neural bridging systems are not paracausal as the name might suggest. Using carefully modulated neural stimulation and acceleration, the operator's ability to consciously process and assimilate even subconsciously-derived sensory input is greatly amplified, reducing feedback delay and enhancing reaction time to near-instinctive levels. This then allows users to more accurately predict immediate future occurrences based on comprehensive sensory awareness and intuitive analysis, hence precognition.<br /><br />To further enhance this system's capability, the Amber Phantom marries precognitive bridging with a chorus of predictive modeling and tactical simulation systems to provide the pilot with even more information. The result is the creation of a holistic battlefield timeline continuously extending forward several seconds in advance of realtime, granting users an unparalleled ability to choose the precise, optimal moment to act in all situations, reacting to ongoing events even before they occur.",
-                "name": "Possibility Mapping",
-                "passive_effect": "At the start of each round, choose a point during the PC turn order to act (i.e. if there are three PCs, you can choose to act first, second, or third among them). 1/round, if you take your turn during that point, you may deal +1d6 bonus damage on hit with a ranged or melee attack against a target within Sensors. If you take your turn at another point in the round, you may still gain this bonus damage, but you take 1d6 heat when doing so."
+                "active_name": "交汇点",
+                "passive_name": "可能性映射",
+                "active_effect": "选择一个本轮尚未进行过回合的盟友角色。该角色可在你回合结束后立即行动，或可以在你做任何其他事情之前立即行动。在该角色回合结束前，你的回合暂停。若对方选择立即行动，在玩家角色行动顺序中算作在你之前行动。这项能力是 <b>高效</b>的，在场景结束时已使用过此系统，你将重新获得1CP。",
+                "description": "SSC预知性神经桥接系统并不像其名称所暗示的那样超越因果关系。通过精心调节的神经刺激和加速，操作者能够有意识地处理和吸收甚至是潜意识中获得的感官输入，大大减少了反馈延迟并提高了反应时间，使得反应成为了近乎本能动作。进而使得用户能够基于全面的感知能力和直觉分析来更准确地预测即将发生的事情，因此称之为预知。<br /><br />为了进一步增强该系统的能力，晶眼蝶将预知性桥接与预测建模和战术模拟系统相结合，为驾驶员提供了更多信息。结果就是创建了一个全面的，能领先现实时间多达数秒的战场时间线。这使用户能够在所有情况下精确选择最佳的行动时机，甚至在事件发生之前就做出反应。",
+                "name": "可能性映射",
+                "passive_effect": "每轮开始时，从所有玩家行动回合顺序中选择一个时间点来行动（例如，若有三个玩家，你可选择第一、第二或第三行动）。<b>1/轮</b>，若你在所选时点行动，你在对<b>感应</b>内目标进行<b>远程</b>或<b>近战攻击</b>时+1d6<b>额外伤害</b>。若你在本轮其他时点行动，你仍可获得该<b>额外伤害</b>，但是会受到<b>1d6热度</b>。"
             },
-            "name": "Amber Phantom",
+            "name": "晶眼蝶",
             "traits": {
                 "Battle Oracle": {
-                    "name": "Battle Oracle",
-                    "description": "1/round, when a hostile character misses the Amber Phantom with an attack, it may pull a character within Sensors up to 2 spaces in any direction."
+                    "name": "战场先知",
+                    "description": "<b>1/轮</b>，当一次敌对攻击未命中晶眼蝶，它可将<b>感应</b>内任一角色向任意方向拉动<b>2空间</b>。"
                 },
                 "Hyperawareness": {
-                    "description": "At the start of each round, until the Amber Phantom takes its turn, all attacks against it are made with +1 Difficulty and it makes all saves with +1 Accuracy.",
-                    "name": "Hyperawareness"
+                    "description": "每轮开始时，直到晶眼蝶行动前，对它的所有攻击<b>+1难度</b>，且它的所有豁免<b>+1准度</b>。",
+                    "name": "超感知"
                 }
             },
-            "description": "Created as an advanced strike chassis for SSC's INSIGHT ORDINAL next-generation weapons evaluation program, the Amber Phantom represents the culmination of numerous technologies developed under the BELLA CIAO line into a single hyperspec, high-performance frame. Based primarily upon the Metalmark platform, the Amber Phantom incorporates an advanced neural bridge derived from the Death's Head's precognitive targeting system in conjunction with TACSIM choral processors in order to amplify the pilot's situational awareness to beyond-human levels.<br /><br />The result of this synergy is an uncanny level of mind/machine-integrated performance akin to seeing into the future. Amber Phantom pilots appear to casually sidestep incoming fire, and their attacks are perfectly timed to intersect enemy positions without any wasted movement. This system is not without its drawbacks; extended use of the neural bridge is said to result in feelings of intense déjà vu, temporal dissociation, and dyschronometria, and pilots are strongly advised to maintain regular downtime rotation cycles and centering exercises in order to minimize these risks.<br /><br />Not currently in widespread distribution, the Amber Phantom has seen extensive use among Constellar special forces, and is also available to select SSC clients under a full-disclosure data sharing and promotional rights agreement."
+            "description": "作为SSC“神识序列”下一代武器评估计划的先进打击底盘，晶眼蝶集“告别佳人”系列生产线中多项技术于一体，成为了超高规格、高性能的骨架。晶眼蝶主要基于蚬蝶平台，结合了源自鬼面蛾的预知锁定系统的先进神经桥接技术和凤蝶的“先知叹息”战术模拟，以将驾驶员的环境感知能力提升到超越人类水平。<br /><br />这种协同效应的结果令人难以置信——心智与机器高度整合，近乎能够预见未来。晶眼蝶的驾驶员似乎能够轻松地躲避来袭的火力，并且他们的攻击与敌人的位置完美相交，不浪费一点动作。这个系统并非没有缺点;据说长时间使用神经桥会导致强烈的似曾相识感、时间脱离感和时间错乱感，因此强烈建议驾驶员保持定期的休息轮换周期和自我中心训练，以尽量降低风险。<br /><br />虽然晶眼蝶目前尚未普及，但已经在辰星安保的特种部队中得到广泛使用，SSC也会在完全数据共享和签署推广权协议的前提下精心挑选其他客户。"
         },
         "Ammo Case III": {
-            "name": "Ammo Case III",
-            "description": "Gained from the <i>Walking Armory: Rank III</i> pilot talent.",
-            "effect": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost. If you perform a critical hit using ammunition from your Ammo Case, you don’t expend any charges. If your attack has more than one target, this effect only applies to the first attack roll you make.",
+            "name": "弹药库 III",
+            "description": "自驾驶员天赋 <i>自走兵器库: 等级3</i> 中获得。",
+            "effect": "<b>1/回合</b>，当你使用一把<b>远程主武器攻击</b>时，你可以根据所列次数消耗，对你的攻击施加以下效果之一。若你使用<b>弹药库</b>的弹药并造成<b>会心一击</b>时，此次攻击不消耗充能。若你的攻击有多目标，则该效果只适用于你作第一次攻击的掷骰。",
             "ammo": {
                 "Thumper": {
-                    "name": "Thumper"
+                    "name": "捶击"
                 },
                 "Shock": {
-                    "name": "Shock"
+                    "name": "震撼"
                 },
                 "Mag": {
-                    "name": "Mag"
+                    "name": "磁性"
                 },
                 "Hellfire": {
-                    "name": "Hellfire"
+                    "name": "地狱火"
                 },
                 "Jager": {
-                    "name": "Jager"
+                    "name": "猎人"
                 },
                 "Sabot": {
-                    "name": "Sabot"
+                    "name": "脱壳穿甲"
                 }
             }
         },
         "Ammo Case I": {
-            "description": "Gained from the <i>Walking Armory: Rank I</i> pilot talent.",
+            "description": "自驾驶员天赋 <i>自走兵器库: 等级1</i> 中获得。",
             "ammo": {
                 "Thumper": {
-                    "name": "Thumper"
+                    "name": "捶击"
                 },
                 "Shock": {
-                    "name": "Shock"
+                    "name": "震撼"
                 },
                 "Mag": {
-                    "name": "Mag"
+                    "name": "磁性"
                 }
             },
-            "name": "Ammo Case I",
-            "effect": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost."
+            "name": "弹药库 I",
+            "effect": "<b>1/回合</b>，当你使用一把<b>远程主武器</b>攻击时，你可以根据所列次数消耗，对你的攻击施加以下效果之一。"
         },
         "Anti-Materiel Rifle": {
             "profiles": {
                 "Anti-Materiel Rifle": {
-                    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive” style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
-                    "name": "Anti-Materiel Rifle"
+                    "description": "正如GMS机甲，GMS武器同样是可靠的银河标准，使用可互换部件制造，承受几乎任何环境条件。目前有三条生产线存在。<br>三式（T3）系列生产线由重型武器，重火器，和其他异化，特化，或大规模化武器组成。这是个宽泛的分类，T3系列包含了常规动能反器材步枪、超速循环脉冲步枪、导弹发射架、加农炮以及可作为微型工厂、机库和便携式无人机部署系统的无人机枢纽——“巢房”式发射装置。该系列中还包含恐怖的“多段刀”，该系统采用闪印技术，在使用者周身制造即抛式刃具。",
+                    "name": "反器材步枪"
                 }
             },
-            "name": "Anti-Materiel Rifle"
+            "name": "反器材步枪"
         },
         "Antilinear Time": {
-            "name": "Antilinear Time",
+            "name": "反线性时间",
             "actions": {
                 "Action": {
-                    "detail": "Choose a character in Sensors and line of sight. They clear all conditions other than Stunned that weren’t self-inflicted, and you immediately receive all conditions they cleared until the end of your next turn.",
-                    "name": "Action"
+                    "detail": "选择<b>视线感应</b>内的一个角色。对方清理除<b>晕眩</b>之外的所有非自主造成的<b>状态</b>，并且你立即获得对方清除的所有<b>状态</b>，直到你下一回合结束。",
+                    "name": "动作"
                 }
             },
-            "description": "M.A2.SP1 [Audio loop, length 93:03][Dated 5008U, 16:50] (recovered: GZ Alhambra) [UIB-TERMAGANTTANGENT ROYAL]<br />“I have never been here: I do not know where here is: It has not happened yet: Once, I was: I have never been here: You are all I see: How can you be all I see: Where am I: Where did I go: I have never been here…”"
+            "description": "M.A2.SP1 [音频循环，长度 93:03][日期 5008U，16:50] (重新获取：阿罕布拉绿区) [UIB-悍妇-皇家正切]<br />“我没来过这里。我不知道这是哪儿。它还没发生。曾一度，我再次。你的所有，在我眼里。你们所有怎么会在我眼里。我在哪儿。我去哪儿了？我没来过这里……”"
         },
         "Apocalypse Rail": {
-            "name": "Apocalypse Rail",
+            "name": "末日导轨",
             "actions": {
                 "Fire Apocalypse Rail": {
-                    "name": "Fire Apocalypse Rail",
-                    "detail": "If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn.<br>After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4."
+                    "name": "末日导轨开火",
+                    "detail": "若末日骰的数值为1~3，你可在自己回合中以<b>完整动作</b>使用末日导轨攻击，但该回合无法移动或进行其他任何动作。<br>在以末日导轨进行攻击后，末日骰将重置为4。"
                 }
             },
             "profiles": {
                 "Charge Rail: 4": {
-                    "effect": "Cannot Be Fired",
-                    "name": "Charge Rail: 4"
+                    "effect": "不能开火。",
+                    "name": "导轨充能: 4"
                 },
                 "Charge Rail: 1": {
-                    "effect": "Objects and terrain in the area automatically take 100 AP explosive damage, and characters become Shredded and Stunned until the end of their next turn on hit. The ground in the affected area is vaporized on impact: for the rest of the scene, it is difficult terrain, characters within the affected area receive soft cover, and characters that start their turn with the area or move there for the first time in a round take 4 burn.",
-                    "name": "Charge Rail: 1"
+                    "effect": "受影响区域内的物件自动承受<b>100AP爆炸伤害</b>，而被命中的角色在对方下一回合结束前<b>离散</b>和<b>受损</b>。影响区域内的地面在引爆时被蒸发，该场景中变为<b>困难地形</b>。并为在影响区域内的角色提供<b>软性掩护</b>，在其中开始回合或在轮内首次进入该区域的角色会受到<b>4燃烧</b>。",
+                    "name": "导轨充能: 1"
                 },
                 "Charge Rail: 3": {
-                    "effect": "Objects within the affected area automatically take 20 AP explosive damage. After the attack, the blast cloud lingers, providing soft cover to characters within the affected area until the end of your next turn.",
-                    "name": "Charge Rail: 3"
+                    "effect": "受影响区域内的<b>物品</b>自动承受<b>20AP爆炸伤害</b>。在攻击后，爆炸扬尘在你下一回合结束前不会落定，期间为在影响内的角色提供<b>软性掩护</b>。",
+                    "name": "导轨充能: 3"
                 },
                 "Charge Rail: 2": {
-                    "effect": "Objects and terrain in the area automatically take 40 AP explosive damage, and on hit characters become Shredded and Impaired until the end of their next turn. The blast cloud is a burning storm: until the end of your next turn, characters within the affected area receive soft cover, and characters that start their turn within the area or move there for the first time in a round take 4 burn.",
-                    "name": "Charge Rail: 2"
+                    "effect": "受影响区域内的物品自动承受<b>40AP爆炸伤害</b>，而被命中的角色在对方下一回合结束前<b>离散</b>和<b>受损</b>。爆炸云内的暴风会燃烧至你下一回合结束，期间在影响区域内的角色获得<b>软性掩护</b>，在其中开始回合或在轮内首次进入该区域的角色会受到<b>4燃烧</b>。",
+                    "name": "导轨充能: 2"
                 }
             }
         },
         "Arc Projector": {
-            "name": "Arc Projector",
+            "name": "电弧投射器",
             "profiles": {
                 "Arc Projector": {
-                    "description": "“Fire be upon thee, APEP! Thy flesh is seared from thy bones; The Lord of the Duat will never enable thy shade to rise again!”",
-                    "name": "Arc Projector",
-                    "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range; however, each attack generates 1 heat, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon."
+                    "description": "“火焰吞噬汝，阿佩普！汝之血肉从骸骨上剥落燃尽；冥界之主决不容许汝的阴影再起！”",
+                    "name": "电弧投射器",
+                    "on_hit": "你可选择对第一个目标<b>射程3</b>内的另一角色进行第二次攻击。只要在第二个目标<b>射程</b>内有新的有效目标，你在命中后可继续进行第二次攻击，以此类推。不过，每次攻击会造成<b>1热度</b>，且第二次攻击无法造成<b>额外伤害</b>。每个角色不能被同一武器击中一次以上。"
                 }
             }
         },
         "Argonaut Shield": {
-            "name": "Argonaut Shield",
+            "name": "阿尔戈大盾",
             "actions": {
                 "Action": {
                     "name": "Action",
-                    "detail": "You use the heavy overarm Argonaut Shield to provide cover for an adjacent character as a quick action, giving them Resistance to all damage; however, you take half of the damage your target would take before calculating Armor and Resistance. This effect lasts until your target breaks adjacency, at which point this effect ceases until you repeat this action."
+                    "detail": "以快速动作使用这块重型臂上大盾来为一个邻近角色提供掩护，给予他们对所有伤害的<b>抗性</b>。然而，你会承受目标结算<b>装甲</b>和<b>抗性</b>前伤害的一半。该效果会维持到你的目标不再<b>邻近</b>，此时效果停止，直到你重复此动作。"
                 }
             },
             "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size."
@@ -3835,99 +3835,99 @@
             "actions": {
                 "Action": {
                     "detail": "消耗 1 充能向射程 5 的一台盟友机甲发射小型自我武装系统。他们获得等同你<b>毅力+4</b>的护盾。当他们获得该护盾时，对<b>受损和受扰免疫</b>。",
-                    "name": "Action"
+                    "name": "动作"
                 }
             },
             "description": "IPS-N 阿刻索稳定器是对任何在战斗和负面环境互动造成磨损和轻微机械性伤害相当有用的分级系统。受惠于其微不足道的处理器需求，阿刻索稳定器甚至可以由伙伴礼宾单元操作，让驾驶员能够集中精神处理复杂修理和解决更迫切的威胁。"
         },
         "Aggressive System Sync": {
-            "name": "Aggressive System Sync",
+            "name": "积极系统同步",
             "actions": {
                 "Chains of Prometheus": {
-                    "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time.",
-                    "name": "Chains of Prometheus"
+                    "detail": "对<b>感应</b>内的一个角色进行<b>科技攻击</b>。命中则受到<b>4热度</b>，并在该场景结束前，当他们在回合结束时距离你超过<b>射程3</b>则受到<b>2热度</b>。目标可用<b>完整动作</b>并通过<b>系统豁免<b/>来解除该效果。此选项同一时间只能影响一个角色。",
+                    "name": "普罗米修斯之链"
                 },
                 "Excommunicate": {
-                    "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time.",
-                    "name": "Excommunicate"
+                    "detail": "对<b>感应</b>内的一个角色进行<b>科技攻击</b>。命中后直至场景结束前，每轮他第一次邻近盟友角色开始其回合，或移动至其邻近空间时，二者同时受到<b>3热度</b>。目标可用完整动作并通过<b>系统豁免</b>来解除该效果。此选项同一时间只能影响一个角色。",
+                    "name": "破门"
                 }
             },
-            "description": "<span class=\"horus--subtle\">[here, another gift: do not seek others. there are none but me]</span>"
+            "description": "<span class=\"horus--subtle\">[来，另一件礼物：不要寻求别人。除了我，别无他人。]</span>"
         },
         "AGNI-Class NHP": {
-            "name": "AGNI-Class NHP",
+            "name": "阿格尼级NHP",
             "actions": {
                 "AGNI Protocol": {
-                    "detail": "1/scene, expend a charge to automatically clear all heat at the end of your turn, venting it in a burst 2 wave. Characters within the affected area must succeed on an Engineering save or take 2 burn and be pushed outside the area (or as far as possible). Until the end of your next turn, characters within the affected area receive soft cover.",
-                    "name": "AGNI Protocol"
+                    "detail": "<b>1/场景</b>，消耗1充能在你回合结束时自动清除所有<b>热度</b>，并将废热以<b>爆发2</b>热浪排出。影响区域内的角色必须通过<b>工程豁免</b>否则受到<b>2燃烧伤害</b>并被推出范围外（或推至尽可能远的位置）。直至你下一回合结束，影响区域内的角色获得<b>软性掩护</b>。",
+                    "name": "阿格尼协定"
                 }
             },
-            "description": "AGNI was developed during the Hercynian Crisis using a combination of combat performance data recorded by extant subsentient artificial intelligences (weapons systems, COMP/CONs, co-pilot systems, tactic-minds, general combat data) and the modeled neural network of an Egregorian overmind captured and vivisected by the Union Science Bureau.<br />AGNI Prime was used to devise systems of heat management that have since been disseminated throughout core space, ensuring unparalleled heat processing, recycling, and shielding. Further developments into radiation shielding, omninet capability, and nanite control are forthcoming; meanwhile, AGNI clones have been optimized to support mech core systems.<br />Pilots report that AGNI clones are generally cold and efficient. An insignificant percentage have reported instances of memory recitation and command rejection, followed days later by total breakdown through attempted self-emancipation. Pilots are recommended to cycle their AGNI clones at least once every six standard months.",
-            "effect": "Your mech gains the AI tag and the AGNI Protocol."
+            "description": "阿格尼于海西尼亚危机期间开发，由子认知人工智能（武器系统、伙伴礼宾单元、副驾驶系统、战术思维体、通用战斗数据）记录的作战性能数据及联盟科学局捕捉、解剖的伊格林高利主宰的神经网络模型结合而来。<br />原型阿格尼设计出的热量管理系统在中核天体相当常见，具有无可比拟废热处理、回收及隔绝能力。由此发展出的辐射屏蔽、万物网扩容及纳米体控制技术的前景也相当乐观。同时，阿格尼克隆体也在特化后用于支援机甲核心系统。<br />驾驶员反应阿格尼克隆体通常冷静而高效。极少数报告显示克隆体重历记忆并拒绝命令的情况，这些克隆体在数天后因试图摆脱枷锁而彻底层流。建议驾驶员至少每六个标准月循环一次他们的阿格尼克隆体。",
+            "effect": "你的机甲获得<b>AI</b>标签和<b>阿格尼协定</b>。"
         },
         "Ammo Case II": {
-            "name": "Ammo Case II",
-            "description": "Gained from the <i>Walking Armory: Rank II</i> pilot talent.",
-            "effect": "1/turn, when you attack with a Main ranged weapon, you may expend charges to apply one of the following effects to your attack at the listed cost.",
+            "name": "弹药库 II",
+            "description": "自驾驶员天赋 <i>自走兵器库: 等级2</i> 中获得。",
+            "effect": "<b>1/回合</b>，当你使用一把<b>远程主武器</b>攻击时，你可以根据所列次数消耗，对你的攻击施加以下效果之一。",
             "ammo": {
                 "Thumper": {
-                    "name": "Thumper"
+                    "name": "捶击"
                 },
                 "Shock": {
-                    "name": "Shock"
+                    "name": "震撼"
                 },
                 "Mag": {
-                    "name": "Mag"
+                    "name": "磁性"
                 },
                 "Hellfire": {
-                    "name": "Hellfire"
+                    "name": "地狱火"
                 },
                 "Jager": {
-                    "name": "Jager"
+                    "name": "猎人"
                 },
                 "Sabot": {
-                    "name": "Sabot"
+                    "name": "脱壳穿甲"
                 }
             }
         },
         "ANDROMEDA-Pattern Heavy Laser Rifle": {
             "profiles": {
                 "ANDROMEDA-Pattern Heavy Laser Rifle": {
-                    "description": "The Harrison Armory ANDROMEDA-Pattern Heavy Laser Rifle scales up the SOL by half, adding a second projector that can fire independently, synchronized, or in alternating patterns and wavelengths with the primary projector. The effect overwhelms most shields, but the power draw necessary makes this weapon impractical on platforms without the necessary heat reduction and dispersal to manage the incredible cost.",
-                    "name": "ANDROMEDA-Pattern Heavy Laser Rifle"
+                    "description": "哈里逊兵工厂的仙女座式重型镭射炮是放大一半规模的索尔式，并加上了能与主投射器同步或是交替独立开火的副投射器。该效果能够压制大部分护盾，但其所需能量使该武器无法用于缺少必要减热和散热管理来应付庞大能源支出的平台。",
+                    "name": "仙女座式重型镭射炮"
                 }
             },
-            "name": "ANDROMEDA-Pattern Heavy Laser Rifle"
+            "name": "仙女座式重型镭射炮"
         },
         "Annihilation Nexus": {
-            "name": "Annihilation Nexus",
+            "name": "湮灭巢房",
             "profiles": {
                 "Annihilation Nexus": {
                     "actions": {
                         "Annihilation Nexus Secondary Attack": {
-                            "name": "Annihilation Nexus Secondary Attack",
-                            "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+                            "name": "湮灭巢房第二次攻击",
+                            "detail": "如果你上回合使用此武器进行过攻击，你可以以此武器进行第二次攻击。第二次攻击无法造成<b>额外伤害</b>，也不会触发更多的第二次攻击。<br>你可以选择以自己或是你<b>感应</b>内的任意<b>无人机</b>作为该武器攻击的中心。"
                         }
                     },
-                    "on_attack": "You can make a second attack with this weapon at the start of your next turn as a protocol. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
-                    "description": "“A storm of bladed death” – nanites organized into maniples, released from a chassis’ onboard nexuses or single-use firing tubes in a burst of filament rings so sharp they slice away at their targets on the molecular level. The visual effect of a maniple being launched is often compared to tinsel being fired through atmosphere.",
-                    "name": "Annihilation Nexus"
+                    "on_attack": "在下回合开始时，你可用<b>协定</b>使用此武器进行第二次攻击。第二次攻击无法造成<b>额外伤害</b>，也不会触发更多的第二次攻击。<br>你可以选择以自己或是你<b>感应</b>内的任意<b>无人机</b>作为该武器攻击的中心。",
+                    "description": "“刀刃死亡风暴”——由纳米体组成的军团，从机甲机载巢房或是即用即抛式发射器释放，它们会形成一团锋利丝线，在分子层面切割目标。纳米军团发射的视觉效果常被比作发射至大气的金属箔。",
+                    "name": "湮灭巢房"
                 }
             },
             "actions": {
                 "Annihilation Nexus Secondary Attack": {
-                    "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
-                    "name": "Annihilation Nexus Secondary Attack"
+                    "detail": "在下回合开始时，你可用<b>协定</b>使用此武器进行第二次攻击。第二次攻击无法造成<b>额外伤害</b>，也不会触发更多的第二次攻击。<br>你可以选择以自己或是你<b>感应</b>内的任意<b>无人机</b>作为该武器攻击的中心。",
+                    "name": "湮灭巢房第二次攻击"
                 }
             }
         },
         "Annihilator": {
-            "name": "Annihilator",
+            "name": "湮灭者",
             "profiles": {
                 "Annihilator": {
-                    "on_hit": "Make a secondary attack against all characters within burst 1 of the target. These attacks can’t deal bonus damage, and don’t trigger the Annihilator’s heat cost or secondary attacks.",
-                    "description": "Harrison Armory is known to employ somewhat unconventional development methods: tactical solutions are theorized and designed in the field as often as they are in the lab, with the former often outperforming the latter. The Annihilator’s name comes from pilots’ slang for a jury-rigged weapon first improvised in the Bradbury Rebellion, when desperate resistance pilots found a way to shunt the incredible waste heat from their reactors into a directed blast.",
-                    "name": "Annihilator"
+                    "on_hit": "对目标<b>爆发1</b>内的角色进行第二次攻击。此攻击不能造成<b>额外伤害</b>，且不会触发湮灭者的<b>热度</b>代价或二次攻击。",
+                    "description": "哈里逊兵工厂以其非传统开发方式而闻名——战术解决方案在实战中和在实验室中一样经常被理论化和设计，而前者的表现往往超越后者。湮灭者的起名来源于驾驶员在布拉德伯里起义（BradburyRebellion）中使用的临时武器之俚语，铤而走险的反抗军驾驶员发现了将其惊人的废热从反应炉指向性喷出的方法。",
+                    "name": "湮灭者"
                 }
             }
         },
