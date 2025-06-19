@@ -1717,25 +1717,25 @@
         },
         "Kutuzov": {
             "core_system": {
-                "active_name": "Projected Aegis",
-                "name": "Parallel Projectors",
-                "passive_name": "Parallel Projectors",
-                "active_effect": "Choose an allied character within line of sight, and then choose a hostile character within line of sight. Until the end of your next turn, those characters can't attack each other or force saves against each other via actions. This ability counts as a system with the <b>Shield</b> tag.<br /><br />This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
-                "description": "One of the Kutuzov's most distinct features is its series of integrated parallel-tracked field emitters, allowing for the simultaneous modulation and projection of multiple overlapping waveform patterns. This includes standard superpositional barriers and stasis fields as well as more aggressively-tuned fields designed for the take-and-hold operations the Kutuzov is tasked with, forcefully displacing threats during close-quarters engagements and clearing zones for subsequent barrier deployment to establish reinforced strongpoints.<br /><br />Among these other uses, these emitters are capable of \"flashing\" a single-plane form of the Napoleon's Trueblack Aegis as a short-lived interpositional countermeasure. Without the excessive demands of sustaining a total-coverage envelope, the operational range of the Aegis can be increased through a series of point-defense tracking protocols and set to neutralize all hostile engagement from selected targets. However, the drawback to this implementation is immediately obvious, with a reduced shield profile, unresolved interference with outgoing fire, and the field emitters requiring an extensive power-cycling period before they can be reactivated once more.",
-                "passive_effect": "1/round, when you take the Stabilize action, Bolster Quick Tech action, or Activate or otherwise use a Shield system during your turn, you may grant an allied character within Sensors a benefit based on the overall cost of that action:<ul><li>Free Action: They gain soft cover until the end of their next turn.</li><li>Quick Action: They ignore engagement, their movement doesn't provoke reactions, and they may pass through (but not stop in) spaces occupied by obstructions and other characters until the end of their next turn.</li><li>Full Action: They may clear a condition that wasn't caused by one of their own systems, talents, etc.</li></ul><br /><br />You can choose a benefit from a lower action cost if you like, instead (e.g., if you performed a full action, you could choose the quick action or free action options)."
+                "active_name": "投射神盾",
+                "name": "并联力场投射器",
+                "passive_name": "并联力场投射器",
+                "active_effect": "选择视线内的一个盟友角色，然后选择视线内的一个敌方角色。在你下一回合结束前，这些角色不能互相攻击或通过动作强制对方进行豁免。这个能力视为一个<b>护盾</b>系统。这是一个<b>高效</b>能力，使用后会在场景结束时返还 1 CP。",
+                "description": "库图佐夫最显著的特点之一，是其内建的一系列并联追踪力场发射器，可同时调制和投射多个重叠波形模式。包括标准叠加屏障和静滞场，以及专为库图佐夫夺取/坚守任务而设计更具侵略性的力场，它可强制驱离CQB交战中的威胁目标，也可清空区域以便后续部署加固的据点屏障。<br /><br />该发射器还有其他用法，它能够在短时间内以单平面的方式“闪烁”出拿破仑的真黑神盾来抗击威胁。在无需维持全面覆盖的场景中，库图佐夫可通过防御跟踪协议，扩大真黑神盾的操作范围，来将选中的敌对目标无害化。然而，这种操作的缺点显而易见，即减少了神盾的覆盖面积，也未能解决其阻断对外射击的问题，另外力场发射器需要经过长时间的充电才能再次激活。",
+                "passive_effect": "<b>1/轮</b>，当你在自己回合执行<b>稳住阵脚</b>，<b>强化快速科技动作</b>，激活或以其他方式使用<b>护盾系统</b>时，你可以根据该动作的花费向<b>感应</b>内的一个盟友角色提供一项增益：<ul><li><b>自由动作</b>：获得<b>软性掩护</b>直到对方下一回合结束。</li><li><b>快速动作</b>：忽视交战，移动不会引起反应，并且可以穿过（但不能停留在）被障碍物和其他角色占据的空间，直到对方下一个回合结束。</li><li><b>完整动作</b>：可清除一个非自身系统天赋等造成的状态。（注：如果你执行了一个完整动作，你依然可以选择快速动作或自由动作的选项）"
             },
             "traits": {
                 "Expulsion Zone": {
-                    "description": "1/round, when the Kutuzov Activates or otherwise uses a Shield system during its turn, it may knock all hostile characters of its choice within Sensors back 3 spaces.",
-                    "name": "Expulsion Zone"
+                    "description": "<b>1/轮</b>，当库图佐夫在自己回合激活或其他方式使用<b>护盾</b>系统，可选择感应内所有敌方角色击退<b> 3 空间</b>。",
+                    "name": "斥力区"
                 },
                 "Emergency Blinkfields": {
-                    "description": "Whenever the Kutuzov or any allied character within Sensors takes the Brace reaction, they clear Shredded (or ignore its effects if it can't be cleared normally) from hostile sources, and attacks they Brace against can't inflict Shredded.",
-                    "name": "Emergency Blinkfields"
+                    "description": "当库图佐夫或<b>感应</b>内任意盟友角色执行<b>受身</b>反应时，该角色清除来自敌方的<b>离散</b>（若无法正常清除则忽略离散效果），此外<b>受身</b>承受的攻击不会造成<b>离散</b>。",
+                    "name": "应急霎场"
                 }
             },
-            "name": "Kutuzov",
-            "description": "Following the initial testbed development of the Napoleon and its successful proof-of-concept demonstration of numerous advanced blinkspace and stasis technologies, Harrison Armory immediately approved a series of ongoing developmental programs to expand the application of these systems across a number of successor chassis and block upgrade packages. One of the earliest of these successor programs, the Kutuzov was designed for Armory Naval Command as a boarding action force multiplier, taking the Napoleon's incredible self-sustainability and turning it outwards to create a compact and maneuverable projected defense platform ideal for accompanying marine or chassis squads into close-quarters engagements.<br /><br />Unlike the more iconic Saladin, the Kutuzov remains unsuited to frontline engagement, and its own personal survivability metrics are notably reduced from the Napoleon itself. However, its robust array of waveform projectors are designed for sustained operation under even critical system stresses, and its ability to rapidly disseminate flash-projected barriers in response to incoming fire have shown extremely promising results both during training exercises as well as limited live-combat engagements during anti-piracy operations. Alongside the Iskander-CC, the Kutuzov has also begun to see increasing use as a perimeter security and riot-control unit during low-intensity defensive actions on New Madrassa."
+            "name": "库图佐夫",
+            "description": "继拿破仑成功展示了众多先进的霎间和静滞技术后，哈里逊兵工厂立即批准了一系列持续性研发计划，以扩大这些系统在各种后续底盘和模块升级包中的应用。其中这些后继计划最早的产品之一即为库图佐夫——该底盘按照兵工厂海军指挥部要求，作为登舰作战的力量倍增器，利用拿破仑令人难以置信的自持能力，将其转化为一种紧凑灵活的投射防御平台，非常适合与海军陆战队或底盘小队一起参与近距离战斗<br /><br />与更具标志性的萨拉丁不同，库图佐夫并不适合前线作战，其生存能力指标明显低于拿破仑本身。然而，它能够迅速投射闪现屏障、相位态波形和“固着”场，这在训练演戏和反海盗行动中，其对来袭火力的抗击能力已经得到证明。同时，库图佐夫与伊斯坎德尔-CC 等底盘在新马德拉萨（New Madrassa）进行低强度防御行动中作为周界安全和镇暴单位使用的次数也日渐增加。"
         },
         "Law of Blades": {
             "actions": {
@@ -4508,41 +4508,41 @@
             "name": "Kraul Rifle"
         },
         "Lancaster": {
-            "name": "Lancaster",
+            "name": "兰开斯特",
             "core_system": {
-                "active_effect": "Your Latch Drone clamps onto an allied mech within its Range. For the rest of the scene you take 1 heat at the start of each of your turns, but your target gains +1 accuracy on all attacks, checks, and saves, and Immunity to the Impaired, Jammed, Slowed, Shredded, and Immobilized conditions from characters other than itself. This effect ends if either character becomes Stunned.<br />While this system is active, you cannot use the Latch Drone for any other purpose.",
-                "active_name": "Supercharger",
-                "description": "Known colloquially as a “Wingman”, latch drones are companion drones carried by and deployed from a chassis. Pilots are recommended not to develop emotional attachments to these drones due to their high casualty rate.",
-                "name": "Latch Drone"
+                "active_effect": "你的<b>碰锁无人机</b>附着在<b>射程</b>内的一个盟友机甲。在场景结束前，你在自己每回合开始会受到<b> 1 热度</b>，但你的目标在所有攻击、检定和豁免掷骰上<b> +1 准度</b>，并对非自身来源的<b>受损</b>、<b>受扰</b>、<b>缓慢</b>、<b>离散</b>和<b>固定</b>状态<b>免疫</b>。<br />该效果持续到任一角色<b>晕眩</b>为止。此系统激活时，你不能使用<b>碰锁无人机</b>来作其他目的。",
+                "active_name": "增压器",
+                "description": "碰锁无人机俗称“僚机”，是一种由底盘携带部署的伴侣无人机。鉴于其高替换率，驾驶员被建议不要对这些无人机产生情感依恋。",
+                "name": "碰锁无人机"
             },
             "traits": {
                 "Insulated": {
-                    "description": "The Lancaster has Immunity to burn.",
-                    "name": "Insulated"
+                    "description": "兰开斯特<b>免疫燃烧伤害</b>。",
+                    "name": "隔热"
                 },
                 "Combat Repair": {
                     "actions": {
                         "Combat Repair": {
-                            "name": "Combat Repair",
-                            "detail": "Use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP."
+                            "name": "战地维修",
+                            "detail": "战斗时，兰开斯特可以用一个<b>完整动作</b>和<b> 4 维修</b>来修复被毁机甲，将其恢复至<b> 1 结构</b>、<b> 1 压力</b>和<b> 1HP</b>。"
                         }
                     },
-                    "description": "In combat, the Lancaster can use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP.",
-                    "name": "Combat Repair"
+                    "description": "战斗时，兰开斯特可以用一个<b>完整动作</b>和<b> 4 维修</b>来修复被毁机甲，将其恢复至<b> 1 结构</b>、<b> 1 压力</b>和<b> 1HP</b>。",
+                    "name": "战地维修"
                 },
                 "Redundant Systems": {
-                    "description": "At your discretion, other characters adjacent to the Lancaster can spend its Repairs as their own.",
-                    "name": "Redundant Systems"
+                    "description": "你同意下，邻近兰开斯特角色可挪<b>维修</b>为己用。",
+                    "name": "冗余系统"
                 }
             },
-            "description": "The IPS-N Lancaster is a mil-spec variant of an older IPS-N civilian terrestrial, inter/outer-hull transport and maintenance chassis, streamlined for use in any theater. The Lancaster features multiple redundant systems and sophisticated interaction projectors to ensure pinpoint accuracy when engaging with delicate systems, whether damaged or intact.<br />Lancaster pilots often adopt roles as sappers and engineers in frontline support. Sometimes ridiculed for piloting the old-fashioned frame by newer, untested pilots, veteran Lancaster jockeys know the truth: the Lancaster is one of the most reliable and well-made mechs out there, indispensable on any serious long-range mission. Not every mission is won with bullets, lasers, and bombs: without the engineers and their Lannies, few of those hotshots would come home alive."
+            "description": "IPS-N 兰开斯特是款规格旧式的 IPS-N 民用陆上、内/外船体运输和维护底盘的军用级变体，经过优化适用于各种战区。兰开斯特配备多重冗余系统和精密交互投射器，以确保在受损或完好的精密系统互动的精准性。<br />兰开斯特驾驶员通常是前线支援工兵和工程师。尽管有时会遭新一代未经测试的驾驶员嘲笑兰开斯特的老掉牙，但资深骑手明白：兰开斯特是最可靠最精良的机甲之一，在任何重大远程任务中都不可或缺。不是所有任务都靠子弹、镭射和炸药来决胜：没有工程师和他们的兰保姆，这些战斗高手们鲜少有人能活着回来。"
         },
         "Latch Drone": {
-            "name": "Latch Drone",
+            "name": "碰锁无人机",
             "profiles": {
                 "Latch Drone": {
-                    "effect": "This weapon can’t make normal attacks. Instead, choose an allied mech within Range and line of sight and make a ranged attack against Evasion 8. On a hit, either you or your target may spend 1 Repair to restore half your target’s HP.",
-                    "name": "Latch Drone"
+                    "effect": "该武器不做正常攻击。取代的是，选择视线<b>射程</b>内一个盟友机甲进行<b>回避 8 </b>的远程攻击。命中则你或你的目标可消耗<b> 1 维修</b>来恢复目标的一半<b> HP </b>。",
+                    "name": "碰锁无人机"
                 }
             }
         },
