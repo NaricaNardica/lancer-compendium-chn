@@ -170,127 +170,127 @@
                     "detail": "以快速动作使用这块重型臂上大盾来为一个邻近角色提供掩护，给予他们对所有伤害的<b>抗性</b>。然而，你会承受目标结算<b>装甲</b>和<b>抗性</b>前伤害的一半。该效果会维持到你的目标不再<b>邻近</b>，此时效果停止，直到你重复此动作。"
                 }
             },
-            "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size."
+            "description": "在虚空中，简约的设计和功能保证可靠性和培养信任。阿尔戈是IPS-N最古典的设计之一，可追溯至合并前极星公司的深黑安保团队。这是块简约可手提或是安装在底盘上层结构的金属板；驾驶员定制盾牌的唯一选择就是选择尺寸。"
         },
         "Armor-Lock Plating": {
             "synergies": [
                 {
-                    "detail": "You can Brace while Grappling."
+                    "detail": "你被<b>擒拿</b>时可以<b>受身</b>。"
                 },
                 {
-                    "detail": "When you Brace, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>"
+                    "detail": "当你<b>受身</b>时直到下一回合结束前获得这些优势：<ul><li>对你的攻击<b>+1难度</b>。</li><li>你的<b>敏捷</b>或<b>机体豁免</b>或其对抗检定不会失败。</li><li>你对<b>击退</b>、<b>擒拿</b>、<b>伏卧</b>，和<b>大小5</b>以下的外力移动<b>免疫</b>。"
                 }
             ],
-            "name": "Armor-Lock Plating",
-            "description": "IPS-N’s Armor-Lock Plating is a total-body modification that provides additional chassis stability for any situation in which a pilot needs to put their mech through greater-than-anticipated stress.",
-            "effect": "You can Brace while Grappling. When you do so, any grapples currently affecting you end.<br />Additionally, when you Brace, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>"
+            "name": "装甲锁定镀层",
+            "description": "IPS-N的装甲锁定镀层是对机甲全身的改进，并为它提供额外稳定性以让驾驶员能应付任何会让机甲遭遇意外地压力情况。",
+            "effect": "你被<b>擒拿</b>时可以<b>受身</b>。如此行事所有影响你的<b>擒拿</b>均结束。<br />此外，当你<b>受身</b>时直到下一回合结束前获得这些优势：<ul><li>对你的攻击<b>+1难度</b>。</li><li>你的<b>敏捷</b>或<b>机体豁免</b>或其对抗检定不会失败。</li><li>你对<b>击退</b>、<b>擒拿</b>、<b>伏卧</b>，和<b>大小5</b>以下的外力移动<b>免疫</b>。"
         },
         "Assassin Drone": {
-            "name": "Assassin Drone",
-            "description": "Assassin drones are used as area-denial weapons – persistent systems intended to occupy or deny an area against enemy combatants. Fired from a launcher, given simple directives, and equipped with a nearly inexhaustible power supply, assassin drones are capable of securing an area indefinitely.",
-            "effect": "This assassin drone may be deployed to any free, adjacent space."
+            "name": "刺客无人机",
+            "description": "刺客无人机作为区域封锁武器，用来持续占领或是对抗敌方战斗人员的系统。发射器发射并赋予简单指示，备有几乎无限能源的刺客无人机能够无期限固守指定区域安全。",
+            "effect": "刺客无人机可部署在任意<b>邻近</b>的<b>自由空间</b>。"
         },
         "Assault Cannon": {
-            "name": "Assault Cannon",
+            "name": "突击加农炮",
             "profiles": {
                 "Standard": {
-                    "effect": "You can spin up this weapon’s barrels as a quick action.",
+                    "effect": "你可以快速动作转动这门武器的枪管。",
                     "actions": {
                         "Spin Up Assault Cannon": {
-                            "detail": "Spin up the barrels of the Assault Cannon, Slowing your mech and allowing use of its \"Spin-Up Mode\" profile.",
-                            "name": "Spin Up Assault Cannon"
+                            "detail": "转动突击加农炮，是你的机甲<b>缓慢</b>并允许你使用它的“转动模式”配置。",
+                            "name": "转动突击加农炮"
                         }
                     },
-                    "description": "IPS-N’s assault cannon of choice is a deep-cooled autocannon, fieldable as a mounted weapon or manipulator-operated platform. The cannon, simple in its functionality, can be fed by either box magazine or belt and is a standard inclusion in almost any among IPS-N fleet orders. In micro and zero-gravity environments, Drake pilots commonly employ the assault cannon as an additional propulsion system.",
-                    "name": "Standard"
+                    "description": "PS-N突击加农炮不是能够安装在武器挂载点或是机械臂操作平台上的附冷却系统自动加农炮。加农炮设计简洁，可使用盒式弹匣或是弹链上弹，并且是几乎所有IPS-N舰队订单的标准配备。在微无重力环境下，德瑞克驾驶员常用这门加农炮作为额外推进系统。",
+                    "name": "标准"
                 },
                 "Spin-Up Mode": {
-                    "effect": "While spinning, this weapon gains Reliable 3, but you become Slowed.<br>You can end this effect as a protocol.",
+                    "effect": "在转动时，它获得<b>可靠3</b>，但你会<b>缓慢</b>。<br>你可使用<b>协定</b>来结束该效果。",
                     "actions": {
                         "Cease Spin-Up": {
-                            "detail": "End the Assault Cannon's \"Spin-Up Mode\", ending the Slowed condition and allowing the Assault Cannon to be used with its \"Standard\" profile.",
-                            "name": "Cease Spin-Up"
+                            "detail": "结束突击加农炮的“转动模式”，结束因此导致的<b>缓慢</b>状态并且可以使用突击加农炮的“标准”配置。",
+                            "name": "停止转动"
                         }
                     },
-                    "description": "IPS-N’s assault cannon of choice is a deep-cooled autocannon, fieldable as a mounted weapon or manipulator-operated platform. The cannon, simple in its functionality, can be fed by either box magazine or belt and is a standard inclusion in almost any among IPS-N fleet orders. In micro and zero-gravity environments, Drake pilots commonly employ the assault cannon as an additional propulsion system.",
-                    "name": "Spin-Up Mode"
+                    "description": "PS-N突击加农炮不是能够安装在武器挂载点或是机械臂操作平台上的附冷却系统自动加农炮。加农炮设计简洁，可使用盒式弹匣或是弹链上弹，并且是几乎所有IPS-N舰队订单的标准配备。在微无重力环境下，德瑞克驾驶员常用这门加农炮作为额外推进系统。",
+                    "name": "转动模式"
                 }
             }
         },
         "Assault Rifle": {
             "profiles": {
                 "Assault Rifle": {
-                    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-I (T-1) line is defined by powerful, reliable, and conventional-kinetic ranged and melee weapons, including the GMS assault rifle, heavy machine gun, shotgun, pistol, and various light and heavy blades. Reliable galactic standards, the GMS T-1 line is the most widely used mech-scale line of weaponry across the galaxy. Echoing the Everest’s design notes, T-1 weapons are simply designed, with few (if any) moving parts, intended to be used in or adaptable to any environment.",
-                    "name": "Assault Rifle"
+                    "description": "正如GMS机甲，GMS武器同样是可靠的银河标准，使用可互换部件制造，承受几乎任何环境条件。<br>第一型（T-1）是由强大可靠和常规动能的远程和近战武器定义，包括GMS突击步枪、重机枪、霰弹枪、手枪和各种轻重型刀剑。GMST-1系列是可靠的银河级标准，是银河系中使用最宽泛的机甲规模武器。T-1武器设计简单，几乎不存在（不排除有）活动部件，可用于或适应于任何环境。",
+                    "name": "突击步枪"
                 }
             },
-            "name": "Assault Rifle"
+            "name": "突击步枪"
         },
         "ASURA-Class NHP": {
-            "name": "ASURA-Class NHP",
+            "name": "阿修罗级NHP",
             "actions": {
                 "ASURA Protocol": {
-                    "name": "ASURA Protocol",
-                    "detail": "1/scene, expend a charge to take two additional quick actions or one additional full action this turn. These actions must obey restrictions on duplicate actions."
+                    "name": "阿修罗协定",
+                    "detail": "<b>1/场景</b>，消耗<b>1充能</b>在该回合进行额外2个<b>快速动作</b>，或1个<b>完整动作</b>。这些动作须遵守重复动作的限制。"
                 }
             },
-            "description": "ASURA was born from the Armory’s Think Tank thought-war games, an autonomous response to repeated failures during forlorn hope scenarios. ASURA manifested in the systems of simulated mechs as a recode of HORUS’s PUPPETMASTER virus, hijacking friendly mechs and forcing them to act far beyond human capacity—at such speed and intensity that the g-force would kill organic pilots with the sudden amplified mass of their own bodies.<br />While these results were initially deemed a failure by Think Tank NHPs and engineers, it was enough to justify further study on ASURA. Personality and parasentience code was injected into the initial anomalous PUPPETMASTER strain, and first contact handled by Think Tank NHPs. Further societal acclimation and conditioning were fast tracked, giving Armory engineers the first iteration of ASURA after a decade of study, recoding, and reeducation. ASURA, as they exist now, is a scaled-back version of that initial manifestation: while retaining some of their initial impetuousness, ASURA clones now recognize the need to keep their pilot alive and will operate within parameters set by their pilot’s medical and psychological tolerances.",
-            "effect": "Your mech gains the AI tag and the ASURA Protocol."
+            "description": "阿修罗诞生自兵工厂智囊团的思维战争游戏，在绝望的希望情境中，对反复失败的自主反应。在模拟机甲系统内，阿修罗以荷鲁斯的傀儡师病毒重编码后的方式显化，并骑劫盟友机甲强迫它们以远超人类能力行动——其高速和重力强度会使有机驾驶员因自身身体的重量突然倍增而死。<br />尽管这一结果最初被智囊团NHP和工程师视作失败品，但还是足够核准对阿修罗的进一步研究。为初始异常傀儡师病毒株注入人格和非感知编码，并且由智囊团NHP负责与其进行第一次接触。跟进的社会制约适应使兵工厂工程师能够在十年的研究、再编码和再教育后推出第一迭代的阿修罗。当今阿修罗是原初显化的小规模版本：虽然保留了最初的一些浮躁阿修罗克隆体现在理解到让其驾驶员活着的需要，并会以驾驶员的医疗和心理耐受性设下参数内运作。",
+            "effect": "你的机甲得到<b>AI标签</b>，和“<b>阿修罗协定</b>”"
         },
         "ATHENA-Class NHP": {
             "actions": {
                 "Simulacrum": {
-                    "detail": "ATHENA constructs a perfect, real-time, and fully interactive 3D model of a blast 3 area within range 50, including moving characters, all rendered in lovingly extreme detail. The following effects apply:<ul><li>You have full visibility within the affected area, but it doesn’t count as line of sight.</li><li>You know all statistics, weapons, and systems of characters within the affected area.</li><li>Hostile characters within the affected area don’t benefit from cover and can’t Hide or become Invisible.</li><li>Hostile characters that end their turn in the affected area receive Lock On and cease to be Invisible or Hidden.</li></ul>ATHENA’s simulation lasts until the end of the scene, or about 30 minutes within the narrative. You may target a new area as a quick action.",
-                    "name": "Simulacrum"
+                    "detail": "雅典娜在<b>射程50</b>内的<b>溅射3</b>区域以动人的精细度构建实时全互动3D模型，包括移动的角色，所有的一切都被渲染得极其细致。以下效果适用：<ul><li>你对该区域具备充分的能见性，但不能作<b>视线</b>。</li><li>你知道该区域内角色的所有数据、武器和系统。</li><li>受影响内的敌对角色无法从<b>掩护受益</b>，亦不能<b>躲藏</b>或<b>隐形</b>。</li><li>在受影响区域内结束回合的敌对角色会受到<b>锁定</b>，并不再<b>隐形</b>和<b>匿迹</b>。</li></ul>雅典娜模拟会维持直至场景结束，也就是叙事扮演中大约30分钟的时间。你可以使用<b>快速动作</b>构建新区域。",
+                    "name": "拟像"
                 }
             },
-            "effect": "Your mech gains the AI tag and Simulacrum.",
-            "name": "ATHENA-Class NHP",
-            "description": "Smith-Shimano’s ATHENA is the pinnacle of total hyperspectral environmental facsimiles. Through a combination of unfettered omninet access, hyperspectral relays fired out from a Cloudscout TACSIM projector, sub-networked squadmates, and active/hostile intrusion protocols, ATHENA bootstraps a near-flawless reconstruction of the immediate environment around its host core. ATHENA is unparalleled in its processing power, and with this reconstructed environment, it provides trustworthy, accurate advice to pilots in need of strategic counsel.<br />ATHENA clones tend to be patient, cautious, and measured in their relations with their pilots."
+            "effect": "你的机甲得到<b>AI</b>标签，和“<b>拟像</b>”。",
+            "name": "雅典娜级NHP",
+            "description": "史密斯-岛野的雅典娜是全超光谱环境拟像技术的最高峰。通过不受限的万物网连线、透过云侦战术模拟投射器发射的超光谱中继器、子联络小队成员以及主动/敌对入侵协定，雅典娜能够引导程序建立起近乎无瑕的宿主核心周边的直接环境。雅典娜的处理能力无与伦比，有了该重建环境，它能够为需要战略咨询的驾驶员提供可靠准确的建议。<br />雅典娜克隆体往往耐心谨慎，并且与其驾驶员之间的关系步步为营。"
         },
         "Atlas": {
-            "name": "Atlas",
+            "name": "阿特拉斯蛾",
             "core_system": {
-                "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual – by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>",
-                "active_name": "Final Hunt",
-                "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
-                "name": "BLOODLINE Active Assist"
+                "active_effect": "<p>在场景结束前，你：</p> <ul> <li>当你出于任何原因自主移动时（例如，<b>标准移动</b>、<b>推进</b>、因系统或天赋移动），额外移动<b>1空间</b>。</li> <li>无论何时何地，你享有<b>软性掩护</b>的增益。</li> <li>即使在开阔地形也可以<b>躲藏</b>而无需<b>掩护</b>。</li> </ul> <p> 揭示你的唯一方法是另一个角色<b>搜索</b>你，或者你如常失去<b>匿迹</b>——通过使用<b>推进</b>、<b>攻击</b>、<b>强制豁免</b>等动作。激活状态下，<b>1/轮</b>，当你在<b>匿迹</b>下进行<b>近战</b>或<b>远程攻击</b>时，你的目标必须同时通过<b>机体豁免</b>，否则<b>伏卧</b>。该效果在攻击前结算。 </p>",
+                "active_name": "最终狩猎",
+                "description": "阿特拉斯蛾延伸微型针没入驾驶员肌肉组织和辅助神经系统，熔并了肌肉、机甲和所有曾佩戴过它的人的记忆。",
+                "name": "血脉激活辅助"
             },
             "traits": {
                 "Giantkiller": {
-                    "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
-                    "name": "Giantkiller",
+                    "description": "计算<b>冲撞</b>和<b>擒拿</b>时阿特拉斯蛾视为<b>大小1</b>。它忽略与体型更大角色的<b>交战</b>，可自由移动穿过并共享对方所占据的<b>空间</b>（即使互相敌对）。当与任何角色占用相同<b>空间</b>时，它获得<b>软性掩护</b>，即使敌对角色同样如此。",
+                    "name": "巨人杀手",
                     "synergies": [
                         {
-                            "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
+                            "detail": "计算<b>冲撞</b>和<b>擒拿</b>时阿特拉斯蛾视为<b>大小1</b>。"
                         },
                         {
-                            "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
+                            "detail": "它忽略与体型更大角色的<b>交战</b>，可自由移动穿过并共享对方所占据的<b>空间</b>（即使互相敌对）。当与任何角色占用相同<b>空间</b>时，它获得<b>软性掩护</b>，即使敌对角色同样如此。"
                         }
                     ]
                 },
                 "Jäger Dodge": {
                     "actions": {
                         "Jäger Dodge": {
-                            "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions.",
-                            "name": "Jäger Dodge",
-                            "trigger": "You take damage from a character larger than yourself"
+                            "detail": "对该伤害获得<b>抗性</b>并向任何方向移动<b>3空间</b>。该移动忽略<b>交战</b>和<b>反应</b>。",
+                            "name": "猎人闪避",
+                            "trigger": "你受到体型更大角色的伤害"
                         }
                     },
-                    "name": "Jäger Dodge",
-                    "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions."
+                    "name": "猎人闪避",
+                    "description": "<b>1/轮</b>，当你受到体型更大角色的伤害时，以一个<b>反应</b>获得<b>抗性</b>并向任何方向移动<b>3空间</b>。该移动忽略<b>交战</b>和<b>反应</b>。"
                 },
                 "Finishing Blow": {
-                    "name": "Finishing Blow",
-                    "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target.",
+                    "name": "绝杀",
+                    "description": "<b>1/轮</b>，对<b>伏卧</b>目标成功<b>近战攻击</b><b>+1D6额外伤害</b>。",
                     "synergies": [
                         {
-                            "detail": "1/round, the Atlas can deal +1d6 bonus damage with a successful melee attack against a prone target."
+                            "detail": "<b>1/轮</b>，阿特拉斯蛾对<b>伏卧</b>目标成功<b>近战攻击</b><b>时可以造成+1D6额外伤害</b>。"
                         }
                     ]
                 },
                 "Exposed Reactor": {
-                    "description": "The Atlas receives +1 Difficulty on ENGINEERING checks and saves.",
+                    "description": "阿特拉斯蛾的<b>工程</b>检定和豁免<b>+1难度</b>。",
                     "name": "Exposed Reactor",
                     "synergies": [
                         {
@@ -299,7 +299,7 @@
                     ]
                 }
             },
-            "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas – its combat efficacy notwithstanding – is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism – that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>"
+            "description": "<p>最初由烟雾家族与秩序家族联合委托打造的决斗机甲——阿特拉斯蛾，模糊了机械化底盘与动力个人装甲之间的界限。得益于SSC奇材集团的长期研究项目，设计师们得以采用反应堆微型化的尖端技术：其结果便是一个形似流线型的大型装甲防护服，在某些部位几乎紧身贴合的底盘。尽管阿特拉斯牺牲了大型骨架的耐用性，但它的基本系统与用户的动作更加紧密结合，提供了无与伦比的机动性。</p> <p>虽然阿特拉斯最初只授权给男爵领的客户，但奇材集团一组人员在场激烈的卡普卡特（Kapkat）比赛中输给了斯帕尔战刃，丢失了一套底盘，其设计因此泄露。尽管他们最初试图追回底盘，但SSC最终让步，理由是斯帕尔团体对获得完全牌照的渴望十分强烈。 </p> <p>阿特拉斯蛾被认为是猎杀斯帕尔本土巨兽的完美战士骨架，如今在斯帕尔人和卡拉金贵族中享有双重声誉。对于斯帕尔人来说，阿特拉斯无论其具备的战斗效能如何，它的系统能够直接访问他们祖先的记忆而备受重视；斯帕尔的阿特拉斯蛾骨架是伟大战士的传家宝，与家族（血缘和神选）相连，并亲手维护。斯帕尔人的每一套底盘都有它曾经的驾驶员历史，无论是装饰还是FCA服从机器学习，这使得斯帕尔猎人几乎可以在战斗中字面意义上召唤他们的祖先并肩作战。阿特拉斯蛾在斯帕尔如此受欢迎，以至于他们甚至开发了一种基于阿特拉斯蛾的新式武术：猎人之艺（JägerKunst）。</p> <p>另一边，卡拉金贵族意识到阿特拉斯蛾是一种能展现高尚英雄气概的完美机甲——斯帕尔人对它的喜爱只会让该底盘更受卡拉金斯帕尔学者的欢迎。常见的装饰有已购入的斯帕尔传奇圆盘，巨兽皮毛，和传奇纹路，而卡拉金机甲将安诺姆·帕萨卡里亚和安诺姆·泰伦诺斯时代的英雄与斯帕尔勇士、蛮族勇士、巨兽猎人和战刃的形象融合在一起。</p>"
         },
         "Autogun": {
             "profiles": {
@@ -3932,9 +3932,9 @@
             }
         },
         "Armament Redundancy": {
-            "name": "Armament Redundancy",
-            "description": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced.",
-            "effect": "You may choose to ignore weapon destruction as a result of the SYSTEM TRAUMA result when taking structure damage. This system can only be used once before each FULL REPAIR, and is not a valid target for system destruction."
+            "name": "武备冗余",
+            "description": "通过安装额外装甲板，冗余开火回路，强化弹匣绝缘性可大大延长骨架武器的寿命。",
+            "effect": "受到<b>结构伤害</b>时，若结果为<b>系统创伤</b>你可以选择忽略武器破坏。该系统在每<b>全面维修</b>前只能使用一次，且无法作用于系统破坏。"
         },
         "Auto-Cooler": {
             "name": "Auto-Cooler",
