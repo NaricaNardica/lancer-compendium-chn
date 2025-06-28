@@ -291,10 +291,10 @@
                 },
                 "Exposed Reactor": {
                     "description": "阿特拉斯蛾的<b>工程</b>检定和豁免<b>+1难度</b>。",
-                    "name": "Exposed Reactor",
+                    "name": "外置反应堆",
                     "synergies": [
                         {
-                            "detail": "The Atlas takes +1 difficulty on Engineering checks and saves."
+                            "detail": "阿特拉斯<b>工程</b>检定和豁免受到<b>+1 难度</b>。"
                         }
                     ]
                 }
@@ -306,22 +306,22 @@
                 "Autogun": {
                     "actions": {
                         "Fire Autogun": {
-                            "detail": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
-                            "name": "Fire Autogun"
+                            "detail": "该武器不能正常攻击。相反，你可在你的回合结束时以<b>自由动作</b>进行攻击。它不会受益于或是触发你的天赋。",
+                            "name": "自动枪开火"
                         }
                     },
                     "name": "Autogun",
-                    "effect": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
+                    "effect": "该武器不能正常攻击。相反，你可在你的回合结束时以<b>自由动作</b>进行攻击。它不会受益于或是触发你的天赋。",
                     "description": "As the name implies, autoguns are automated weapons. Similar to point-defense systems, autoguns are chambered to provide effective fire against armored targets. Typically mounted on a stabilized, secondary arm, a reliably tuned autogun can be trusted to track and eliminate designated enemy units while a pilot concentrates on more specialized weapons or processes. Cheap, with malleable codebases, autoguns are common among active, armed HORUS cells."
                 }
             },
             "actions": {
                 "Fire Autogun": {
-                    "detail": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
-                    "name": "Fire Autogun"
+                    "detail": "该武器不能正常攻击。相反，你可在你的回合结束时以<b>自由动作</b>进行攻击。它不会受益于或是触发你的天赋。",
+                    "name": "自动枪开火"
                 }
             },
-            "name": "Autogun"
+            "name": "自动枪"
         },
         "Autoloader Drone": {
             "name": "Autoloader Drone",
@@ -3937,14 +3937,14 @@
             "effect": "受到<b>结构伤害</b>时，若结果为<b>系统创伤</b>你可以选择忽略武器破坏。该系统在每<b>全面维修</b>前只能使用一次，且无法作用于系统破坏。"
         },
         "Auto-Cooler": {
-            "name": "Auto-Cooler",
+            "name": "自动冷却器",
             "actions": {
                 "Action": {
-                    "detail": "As long as you don’t take damage, move, or exceed your Heat Cap, you clear all heat at the start of your next turn.",
+                    "detail": "只要你未承受伤害、移动或超过<b>热度上限</b>，你在下一回合开始时清除所有<b>热度</b>。",
                     "name": "Action"
                 }
             },
-            "description": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br />Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns."
+            "description": "兵工厂设计的自动冷却器是一个简单持久的系统，持续运作以有效地减少废热积累。<br />热转储阈值由舰队工程师决定，尽管驾驶员可在运作中调整等级——这种自动管理使驾驶员可专注于其他更紧迫的战术问题。"
         },
         "BB Breach/Blast Charges": {
             "name": "BB Breach/Blast Charges",
@@ -5036,10 +5036,10 @@
             "effect": "When you reload any weapon, your next attack with a Loading weapon gains this effect:<br />On hit: This attack deals +1d6 explosive bonus damage, and targets must succeed on a Hull save or be knocked Prone."
         },
         "Āyah of the Syzygy": {
-            "name": "Āyah of the Syzygy",
+            "name": "朔望之证",
             "actions": {
                 "Action": {
-                    "detail": "You create a Blast 2 energy field in a space within Sensors and line of sight. The first time each turn any hostile character in this area is hit by a ranged or melee attack, they release a discharge of energy and all hostile characters at least partly in the area – including the original character – take 2 AP energy damage. This effect lasts for the rest of the scene or until you take this action again.",
+                    "detail": "在视线<b>感应</b>内制造<b>溅射 2</b> 能量场，每回合该区域内的敌方角色第一次被远程或近战攻击时，他们会释放能量，并且该区域内的所有敌方角色（包括起始角色）都受到<b> 2AP 能量伤害</b>。该效果持续至场景结束，或直到你再次使用该动作。",
                     "name": "Action"
                 }
             },
