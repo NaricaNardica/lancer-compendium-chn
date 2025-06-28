@@ -1,5 +1,5 @@
 {
-  "id": "lancer-compendium-zhtw",
+  "id": "lancer-compendium-chn",
   "title": "Lancer Compendium 中文合集包",
   "description": "《枪骑兵 Lancer》的中文合集包MOD，需搭配 Babele 使用。",
   "authors": [{
@@ -18,7 +18,7 @@
 		"qq": "1073051920"
 	}
 ],
-  "version": "0.0.9",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"

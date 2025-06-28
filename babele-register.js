@@ -3,9 +3,9 @@ Hooks.once('init', () => {
 	if(typeof Babele !== 'undefined') {
 
 		Babele.get().register({
-			module: 'lancer-compendium-zhtw',
+			module: 'lancer-compendium-chn',
 			lang: 'cn',
-			dir: 'compendium'
+			dir: 'zh_Hans'
 		});
 
 		Babele.get().registerConverters({
