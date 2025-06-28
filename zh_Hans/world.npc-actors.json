@@ -1,0 +1,104 @@
+{
+    "label": "NPC 預製單位",
+    "entries": {
+        "ACE": {
+            "name": "ACE"
+        },
+        "AEGIS": {
+            "name": "AEGIS"
+        },
+        "ARCHER": {
+            "name": "ARCHER"
+        },
+        "BOMBARD": {
+            "name": "BOMBARD"
+        },
+        "BREACHER": {
+            "name": "BREACHER"
+        },
+        "RAINMAKER": {
+            "name": "RAINMAKER"
+        },
+        "RONIN": {
+            "name": "RONIN"
+        },
+        "SCOUT": {
+            "name": "SCOUT"
+        },
+        "SEEDER": {
+            "name": "SEEDER"
+        },
+        "ASSASSIN": {
+            "name": "ASSASSIN"
+        },
+        "ASSAULT": {
+            "name": "ASSAULT"
+        },
+        "BARRICADE": {
+            "name": "BARRICADE"
+        },
+        "BASTION": {
+            "name": "BASTION"
+        },
+        "BERSERKER": {
+            "name": "BERSERKER"
+        },
+        "CATAPHRACT": {
+            "name": "CATAPHRACT"
+        },
+        "DEMOLISHER": {
+            "name": "DEMOLISHER"
+        },
+        "ENGINEER": {
+            "name": "ENGINEER"
+        },
+        "GOLIATH": {
+            "name": "GOLIATH"
+        },
+        "HIVE": {
+            "name": "HIVE"
+        },
+        "HORNET": {
+            "name": "HORNET"
+        },
+        "HUMAN": {
+            "name": "HUMAN"
+        },
+        "MIRAGE": {
+            "name": "MIRAGE"
+        },
+        "MONSTROSITY": {
+            "name": "MONSTROSITY"
+        },
+        "OPERATOR": {
+            "name": "OPERATOR"
+        },
+        "PRIEST": {
+            "name": "PRIEST"
+        },
+        "PYRO": {
+            "name": "PYRO"
+        },
+        "SCOURER": {
+            "name": "SCOURER"
+        },
+        "SENTINEL": {
+            "name": "SENTINEL"
+        },
+        "SNIPER": {
+            "name": "SNIPER"
+        },
+        "SPECTER": {
+            "name": "SPECTER"
+        },
+        "SQUAD": {
+            "name": "SQUAD"
+        },
+        "SUPPORT": {
+            "name": "SUPPORT"
+        },
+        "WITCH": {
+            "name": "WITCH"
+        }
+    }
+}
