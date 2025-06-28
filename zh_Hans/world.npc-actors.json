@@ -1,104 +1,104 @@
 {
-    "label": "NPC 預製單位",
+    "label": "预设NPC",
     "entries": {
         "ACE": {
-            "name": "ACE"
+            "name": "王牌"
         },
         "AEGIS": {
-            "name": "AEGIS"
+            "name": "宙斯盾"
         },
         "ARCHER": {
-            "name": "ARCHER"
+            "name": "弓箭手"
         },
         "BOMBARD": {
-            "name": "BOMBARD"
+            "name": "投弹者"
         },
         "BREACHER": {
-            "name": "BREACHER"
+            "name": "破门手"
         },
         "RAINMAKER": {
-            "name": "RAINMAKER"
+            "name": "祈雨师"
         },
         "RONIN": {
-            "name": "RONIN"
+            "name": "浪人"
         },
         "SCOUT": {
-            "name": "SCOUT"
+            "name": "斥候"
         },
         "SEEDER": {
-            "name": "SEEDER"
+            "name": "播种机"
         },
         "ASSASSIN": {
-            "name": "ASSASSIN"
+            "name": "暗杀者"
         },
         "ASSAULT": {
-            "name": "ASSAULT"
+            "name": "突击手"
         },
         "BARRICADE": {
-            "name": "BARRICADE"
+            "name": "路障"
         },
         "BASTION": {
-            "name": "BASTION"
+            "name": "棱堡"
         },
         "BERSERKER": {
-            "name": "BERSERKER"
+            "name": "狂战士"
         },
         "CATAPHRACT": {
-            "name": "CATAPHRACT"
+            "name": "甲胄骑兵"
         },
         "DEMOLISHER": {
-            "name": "DEMOLISHER"
+            "name": "粉碎者"
         },
         "ENGINEER": {
-            "name": "ENGINEER"
+            "name": "工程师"
         },
         "GOLIATH": {
-            "name": "GOLIATH"
+            "name": "歌利亚"
         },
         "HIVE": {
-            "name": "HIVE"
+            "name": "蜂巢"
         },
         "HORNET": {
-            "name": "HORNET"
+            "name": "马蜂"
         },
         "HUMAN": {
-            "name": "HUMAN"
+            "name": "人类"
         },
         "MIRAGE": {
-            "name": "MIRAGE"
+            "name": "蜃楼"
         },
         "MONSTROSITY": {
-            "name": "MONSTROSITY"
+            "name": "怪形"
         },
         "OPERATOR": {
-            "name": "OPERATOR"
+            "name": "操作员"
         },
         "PRIEST": {
-            "name": "PRIEST"
+            "name": "司铎"
         },
         "PYRO": {
-            "name": "PYRO"
+            "name": "纵火狂"
         },
         "SCOURER": {
-            "name": "SCOURER"
+            "name": "清扫器"
         },
         "SENTINEL": {
-            "name": "SENTINEL"
+            "name": "哨兵"
         },
         "SNIPER": {
-            "name": "SNIPER"
+            "name": "狙击手"
         },
         "SPECTER": {
-            "name": "SPECTER"
+            "name": "幽鬼"
         },
         "SQUAD": {
-            "name": "SQUAD"
+            "name": "班组"
         },
         "SUPPORT": {
-            "name": "SUPPORT"
+            "name": "支援者"
         },
         "WITCH": {
-            "name": "WITCH"
+            "name": "女巫"
         }
     }
 }
