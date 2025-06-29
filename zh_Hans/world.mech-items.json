@@ -380,30 +380,30 @@
             "name": "巴巴罗萨",
             "core_system": {
                 "active_name": "导轨充能",
-                "name": "Apocalypse Rail",
+                "name": "末日导轨",
                 "description": "作为兵工厂正在进行的全岸规模武器测试计划的一部分，指数型重力投射器 LGC-04“末日导轨”刚从兵工厂向日面研究园区新鲜出炉，提供给得到许可的驾驶员进行战场实测。<br />与现有的对数型短轴或长轴舰对舰武器（包括动能或能量/粒子型）不同，这款新型平台利用兵工厂现有的重力研究来使动能酬载指数性地充能并发射。能量负载增加和充能时间减少的潜在代价是其稳定性较低。相较稳定且耐冲击的对数型轴炮，指数型重力投射器更容易变得不稳定。就目前而言，突然的创伤性失稳将触发内置故障保护，以防止系统爆炸，并重置受冲击时正在进行的充能过程。<br />LGC-04“末日导轨”系统的规模从其预期中的作战用途（即作为主力舰龙骨匝炮的代替品）大幅缩减，以便在海军采用前积累更多的实战数据以改良系统。",
                 "active_effect": "激活后，你开始为巴巴罗萨的<b>末日导轨</b>这一威力惊人，但需要校准锁定的舰对舰长轴武器系统充能。你获得以<b> 4 </b>起始的 <b>1d6 末日骰</b>。在你每回合开始时，该<b>末日骰</b>数值减 1，下限为1。若你进行移动（无论自愿或强制）或受到<b>晕眩</b>或<b>受扰</b>，<b>末日骰</b>将重置为 <b>4</b>，并如常继续进行倒数。<br />若<b>末日骰</b>的数值为 1~3，你可在自己回合中以<b>完整动作</b>使用末日导轨攻击，但该回合无法移动或进行其他任何动作。在以<b>末日导轨</b>进行攻击后，末日骰将重置为 4。若你在本场景内未使用<b>末日导轨</b>攻击，恢复<b> 1 CP</b>。<br />在场景结束时，失去<b>末日骰</b>，并且<b>末日导轨</b>停止充能。"
             },
-            "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br />The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
+            "description": "巴巴罗萨作为哈里逊兵工厂时下最为巨大的骨架，依照哈里逊二世“展现哈里逊一世不可阻挡的形象”的指示建造而成——它携带了兵工厂所能提供的最为重型的武器与装备。这毫不含蓄、高度可达 13 米的怪物机甲使敌手心生恐惧，使盟友心怀敬畏。巴巴罗萨可挂载足以与炮舰及低吨位副舰一决雌雄的武器；由于其尺寸及低下的机动力，它常被部署于质量的影响相对较小的低重力环境作战中。<br />巴巴罗萨是视界的异见者常用的靶子，众所周知，这些人声称巴巴罗萨的尺寸所带来的缺点完美投射出其政敌的本质。",
             "traits": {
                 "Heavy Frame": {
-                    "description": "The Barbarossa can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
-                    "name": "Heavy Frame"
+                    "description": "比巴巴罗萨小的角色无法将其推动、拉动、<b>伏卧</b>或击退。",
+                    "name": "重型骨架"
                 },
                 "Pressure Plating": {
-                    "name": "Pressure Plating",
-                    "description": "The Barbarossa has resistance to Explosive Damage."
+                    "name": "爆破镀层",
+                    "description": "巴巴罗萨对<b>爆炸伤害</b>具有<b>抗性</b>。"
                 },
                 "Colossus": {
-                    "description": "Adjacent allied characters can use the Barbarossa for hard cover.",
-                    "name": "Colossus"
+                    "description": "邻近的盟友角色可将巴巴罗萨作为<b>硬性掩护</b>。",
+                    "name": "巨像"
                 },
                 "Slow": {
-                    "description": "The Barbarossa receives +1 difficulty on Agility checks and saves.",
-                    "name": "Slow",
+                    "description": "巴巴罗萨的<b>敏捷</b>检定和豁免<b>+1 难度</b>。",
+                    "name": "缓慢",
                     "synergies": [
                         {
-                            "detail": "The Barbarossa receives +1 difficulty on Agility checks and saves."
+                            "detail": "巴巴罗萨的<b>敏捷</b>检定和豁免<b>+1 难度</b>。"
                         }
                     ]
                 }
@@ -412,16 +412,16 @@
         "Beckoner": {
             "actions": {
                 "Beckon": {
-                    "detail": "You take 1d6+2 AP energy damage and swap places with your target, both characters teleporting to the other’s position. Your target must be a Mech and be the same Size as you or larger, or this action fails. Characters can only be swapped to spaces they could normally stand or move on (i.e., if a character cannot fly it can’t be swapped midair).",
-                    "name": "Beckon"
+                    "detail": "你受到<b> 1d6+2AP 能量伤害</b>并和你目标<b>瞬间移动</b>交换双方位置。你的目标必须是<b>机甲</b>，且<b>大小</b>等于或大于你，否则该动作失效。角色只可交换位置至其能正常站立或是移动到的空间（即，若角色不能飞行便无法与空中交换位置）。",
+                    "name": "招手"
                 },
                 "Summon": {
-                    "detail": "All characters within range 3 of your target are pulled adjacent to them, or as close as possible.",
-                    "name": "Summon"
+                    "detail": "在你目标<b>射程 3</b> 内的所有角色尽可能拉到邻近的空间。",
+                    "name": "呼唤"
                 }
             },
-            "name": "Beckoner",
-            "description": "“I am heard in the House of Stillness; I am clad in the Magick of RA. Know this, blasphemer: what exists is within my grasp.”"
+            "name": "招手者",
+            "description": "<i>“吾于寂静之屋倾听；吾将拉之法衣披挂。记住吧，亵渎者：天地万物尽在吾掌握之中。”</i>"
         },
         "Blackbeard": {
             "traits": {
@@ -3947,14 +3947,14 @@
             "description": "兵工厂设计的自动冷却器是一个简单持久的系统，持续运作以有效地减少废热积累。<br />热转储阈值由舰队工程师决定，尽管驾驶员可在运作中调整等级——这种自动管理使驾驶员可专注于其他更紧迫的战术问题。"
         },
         "BB Breach/Blast Charges": {
-            "name": "BB Breach/Blast Charges",
+            "name": "BB 突破/爆破炸药",
             "actions": {
                 "Thermal Grenade": {
-                    "detail": "Throw a Thermal Grenade within Range 5. All characters within a Blast 1 area must succeed on an Agility save or take 1d6 energy. On a success, they take half damage. Objects and terrain are hit automatically and take 10 AP energy damage.",
-                    "name": "Thermal Grenade"
+                    "detail": "投掷一枚<b>射程5</b>的<b>高热榴弹</b>。<b>溅射1</b>范围内所有角色需通过<b>敏捷</b>豁免否则受到<b> 1d6能量伤害</b>。对物品和地形的攻击自动命中并受到 <b>10AP 能量伤害</b>。",
+                    "name": "高热榴弹"
                 }
             },
-            "description": "Breach/blast charges offer a mil-spec twist on the industrial blasting charges developed by IPS-N for asteroid mining. The IPS-N BB charge features a more volatile blend of high explosives designed to cause massive structural damage to mechanized chassis, starship bulkheads, armored vehicles, bunkers, and other hardened structures."
+            "description": "突破/爆破炸药是 IPS-N 小行星采矿的工业爆破装药的军规版。IPS-N 的 BB 炸药采用一种更不稳定的混合烈性炸药，用以对机械化底盘、飞船隔舱板、装甲载具、掩体和其他强化结构造成重大结构性破坏。"
         },
         "Blast Pick": {
             "name": "Blast Pick",
