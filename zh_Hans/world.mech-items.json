@@ -468,7 +468,8 @@
                 "Blackspot Targeting Laser": {
                     "description": "<i>“是谁在我们上岸的第一天把黑券塞到我手里？这场魔鬼的舞蹈究竟是谁跳起来的？”<br />                                                     ——金银岛 （1883）</i>",
                     "name": "“黑券”目标性镭射枪",
-                    "on_hit": "直到下一回合结束，所有<b>无人机</b>，<b>引导</b>，和<b>巢房</b>武器或系统对该目标的攻击获得<b>+1 准度</b>。"
+                    "on_hit": "直到下一回合结束，所有<b>无人机</b>，<b>引导</b>，和<b>巢房</b>武器或系统对该目标的攻击获得<b>+1 准度</b>。",
+                    "on_crit": "The target also receives Lock On."
                 }
             }
         },
@@ -574,7 +575,8 @@
             "profiles": {
                 "Burst Launcher": {
                     "name": "Burst Launcher",
-                    "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”"
+                    "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”",
+                    "on_crit": "Target becomes Impaired until the end of their next turn."
                 }
             }
         },
@@ -709,7 +711,8 @@
             "profiles": {
                 "Catalytic Hammer": {
                     "description": "Modified originally from blast-mining equipment, the catalytic hammer (colloquially, the “pilebunker”) has since been refined into a formidable melee weapon. When fired, a charge propels the hammer – a solid cylinder with a spike on one end – through a short barrel, impacting with enormous kinetic force. Standard hammer heads are smooth to allow for easy extraction from targets, but they can be detached and replaced if retrieval is impossible. Any installation of a catalytic hammer necessitates superstructure reinforcement to allow for sufficient energy dispersal.",
-                    "name": "Catalytic Hammer"
+                    "name": "Catalytic Hammer",
+                    "on_crit": "Your target must succeed on a Hull save or become Stunned until the end of their next turn."
                 }
             },
             "name": "Catalytic Hammer"
@@ -1275,7 +1278,8 @@
             "profiles": {
                 "Fold Knife": {
                     "description": ">//[Am I alone here?]<br>>//[[No. There is only an absence of you. It is very busy here, but you cannot see it]]<br>— DHIYED fragment tablet 1.3",
-                    "name": "Fold Knife"
+                    "name": "Fold Knife",
+                    "on_crit": "You may teleport 2 spaces in any direction after the attack resolves."
                 }
             }
         },
@@ -2178,7 +2182,8 @@
             "profiles": {
                 "Nanobot Whip": {
                     "name": "Nanobot Whip",
-                    "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned."
+                    "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
+                    "on_crit": "Pull your target to a free space adjacent to you, or as close as possible."
                 }
             }
         },
@@ -2444,7 +2449,8 @@
             "profiles": {
                 "Power Knuckles": {
                     "description": "IPS-N’s line of power knuckles are another popular purchase for pilots who prefer to fight up close. Taking the form of anything from shaped studs to hyperdense knuckles, or a series of magnetically accelerated micro-rams, power knuckles amplify the already incredible hitting power of a mech.",
-                    "name": "Power Knuckles"
+                    "name": "Power Knuckles",
+                    "on_crit": "Your target must succeed on a Hull save or be knocked Prone."
                 }
             }
         },
@@ -2810,7 +2816,8 @@
             "profiles": {
                 "Shock Baton": {
                     "name": "Shock Baton",
-                    "description": "The shock baton is a relatively recent development in the field of mech-to-mech “less-lethal” weaponry. A popular choice for law enforcement seeking to disable frames instead of destroying them, allowing their pilots to be taken alive."
+                    "description": "The shock baton is a relatively recent development in the field of mech-to-mech “less-lethal” weaponry. A popular choice for law enforcement seeking to disable frames instead of destroying them, allowing their pilots to be taken alive.",
+                    "on_crit": "Your target must succeed on a Systems save or become Jammed until the end of their next turn. On a success, they become Impaired for the same duration. Each character can only be affected this way 1/Scene."
                 }
             },
             "name": "Shock Baton"
@@ -3491,7 +3498,8 @@
             "profiles": {
                 "Variable Sword": {
                     "description": "The variable sword is a Smith-Shimano hallmark: a length of razor-sharp molecular wire attached to a handle and locked in place by a magnetic field, variable swords are invisible to the naked eye until they cut into their target. Designed in the early days of interstellar travel, variable swords were meant to allow for the precise gathering of samples, while also reducing the overall burden on a mech’s core.",
-                    "name": "Variable Sword"
+                    "name": "Variable Sword",
+                    "on_crit": "Deal +1d6 bonus damage."
                 }
             }
         },
@@ -3691,7 +3699,8 @@
                 "XC-BR Battle Rifle": {
                     "effect": "You may attack characters with the Lock On condition using this weapon as though it is Range 15.",
                     "name": "XC-BR Battle Rifle",
-                    "description": "The GMS MC-AR assault rifle currently in use throughout Union’s forces and beyond is a time-tested and reliable design. Rather than attempting to replace it outright, CentComm's Defense Logistics Committee has put out a call for a supplementary standardized battle rifle system that can operate alongside the MC-AR in mixed fireteams, or as a primary weapon system for engaging heavily armored opposition at longer ranges than the MC-TR thermal rifle. The XC-BR uses an advanced caseless electrochemical propellant design capable of firing larger-caliber, armor-defeating rounds while minimizing recoil along with an integrated dynamic targeting system, though the weapon is still plagued by intermittent heat issues that can adversely affect performance.</p>"
+                    "description": "The GMS MC-AR assault rifle currently in use throughout Union’s forces and beyond is a time-tested and reliable design. Rather than attempting to replace it outright, CentComm's Defense Logistics Committee has put out a call for a supplementary standardized battle rifle system that can operate alongside the MC-AR in mixed fireteams, or as a primary weapon system for engaging heavily armored opposition at longer ranges than the MC-TR thermal rifle. The XC-BR uses an advanced caseless electrochemical propellant design capable of firing larger-caliber, armor-defeating rounds while minimizing recoil along with an integrated dynamic targeting system, though the weapon is still plagued by intermittent heat issues that can adversely affect performance.</p>",
+                    "on_crit": "Your target gains Lock On."
                 }
             }
         },
@@ -4023,7 +4032,8 @@
             "profiles": {
                 "Brutus’s Wrecker": {
                     "description": "坑洞竞技场前卫冕冠军的标志武器。自布鲁图斯在光荣战斗中失败后，这被加固链条拴着的硕大钨球被绑在了另一台机甲上。这是刚正朴实的武器，破坏者用它绝对的残忍弥补了缺乏优雅的缺点。",
-                    "name": "布鲁图斯破坏者"
+                    "name": "布鲁图斯破坏者",
+                    "on_crit": "Target is knocked Prone."
                 }
             }
         },
@@ -4046,7 +4056,8 @@
             "profiles": {
                 "Chain Axe": {
                     "description": "A simple tactical-scale version of a logging tool, IPS-N’s chain axe is a serrated chainblade run off core power. The axe’s teeth are tungsten-tipped, hardened to chew through both hard and soft targets. Chain axes are effective weapons and utility tools that are often used by boarding parties to breach reinforced bulkheads.",
-                    "name": "Chain Axe"
+                    "name": "Chain Axe",
+                    "on_crit": "Your target becomes Shredded until the end of the current turn."
                 }
             }
         },
