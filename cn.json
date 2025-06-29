@@ -404,7 +404,7 @@
       "npc-actors": "预设NPC",
       "npc-items": "NPC汇编",
       "pilot-items": "驾驶员汇编",
-      "player-actors": "预设玩家卡",
+      "player-actors": "预设玩家卡/可展开物",
       "status-items": "状况/状态"
     },
     "tokenConfig": {
