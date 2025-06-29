@@ -428,106 +428,106 @@
                 "Lock/Kill Subsystem": {
                     "synergies": [
                         {
-                            "detail": "While grappling, the Blackbeard can Boost and take reactions."
+                            "detail": "黑胡子擒拿时可<b>推进</b>和反应。"
                         }
                     ],
-                    "description": "While grappling, the Blackbeard can Boost and take reactions.",
-                    "name": "Lock/Kill Subsystem"
+                    "description": "黑胡子擒拿时可<b>推进</b>和反应。",
+                    "name": "锁定/杀戮子系统"
                 },
                 "Exposed Reactor": {
-                    "description": "The Blackbeard receives +1 Difficulty on ENGINEERING checks and saves.",
-                    "name": "Exposed Reactor",
+                    "description": "黑胡子<b>工程</b>检定和豁免<b>+1 难度</b>。",
+                    "name": "外置反应堆",
                     "synergies": [
                         {
-                            "detail": "The Blackbeard gains +1 Difficulty on ENGINEERING checks and saves."
+                            "detail": "黑胡子<b>工程</b>检定和豁免<b>+1 难度</b>。"
                         }
                     ]
                 },
                 "Grapple cable": {
-                    "description": "The Blackbeard can Grapple targets within Range 5. If the Grapple is successful, the Blackbeard is immediately pulled adjacent to the target by the most direct path. If there are no suitable spaces, the grapple breaks and the Blackbeard does not move.",
-                    "name": "Grapple cable",
+                    "description": "黑胡子可<b>擒拿射程 5</b> 以内的目标。擒拿成功则黑胡子立即以最短路径将自己拉至目标邻近空间。若没有适当空间，抓钩便会断裂，黑胡子无法移动。",
+                    "name": "擒拿绳索",
                     "synergies": [
                         {
-                            "detail": "The Blackbeard can Grapple targets within Range 5. If the Grapple is successful, the Blackbeard is immediately pulled adjacent to the target by the most direct path. If there are no suitable spaces, the grapple breaks and the Blackbeard does not move."
+                            "detail": "黑胡子可<b>擒拿射程 5</b> 以内的目标。擒拿成功则黑胡子立即以最短路径将自己拉至目标邻近空间。若没有适当空间，抓钩便会断裂，黑胡子无法移动。"
                         }
                     ]
                 }
             },
-            "name": "Blackbeard",
+            "name": "黑胡子",
             "core_system": {
-                "active_effect": "This system fires grappling harpoons at any number of targets within Range 5 and line of sight. Affected characters must succeed on a Hull save or take 2d6 Kinetic damage and be knocked Prone, then pulled adjacent to you, or as close as possible. They become Immobilized until the end of their next turn. On a success, they take half damage and are otherwise unaffected.",
-                "active_name": "Omni-harpoon",
-                "name": "Assault Grapples",
-                "description": "The IPS-N-branded Assault Grappling System is a class-leading technology rated for hauling, supporting, and securing chassis of sizes up to Schedule 4. Grapple heads are interchangeable and can be swapped for engagement with soft or hard targets – either electrified or loaded with codespike systems for long-distance incapacitation."
+                "active_effect": "该系统能对视线<b>射程 5</b> 内任意数量目标发射钩爪鱼叉。受影响角色必须进行<b>机体</b>豁免否则受到<b> 2d6 动能伤害</b>并<b>伏卧</b>，随后尽可能拉到与你邻近的空间。直到对方下一回合结束前受到<b>固定</b>。成功则伤害减半，且不受其他效果影响。",
+                "active_name": "万用鱼叉",
+                "name": "突击钩爪",
+                "description": "<i>IPS-N 品牌突击钩爪系统是种引领市场的科技，可用于牵引，支持和固定尺寸达进度 4 的底盘。其抓钩可根据需要更换与软目标或硬目标交战——无论是带电索具还是装有远程瘫痪功能的编码荆棘系统。</i>"
             },
-            "description": "The Blackbeard is IPS-N’s aggressive solution to piracy: a front-facing, first-striking mech designed for environments in which combustible kinetic weapons are useless, dangerous, or likely to cause unnecessary collateral damage. With its distinctly slim frame, the Blackbeard doesn’t just look fast – it also has a reduced radar profile. This mech is hard to track and harder still to hit.<br />The Blackbeard range comprises two lines: the standard IPS-N/BB-L production line model, and the IPS-N/BB-Sk, a limited-release prototype purpose-built to house IPS-N’s SEKHMET-class NHPs."
+            "description": "<i>黑胡子是 IPS-N 面对海盗的侵略性解决方案：一款正面应敌，以攻为守的机甲，为在击发动能武器失效，危险或是可能造成不必要连带伤害的环境中运作而设计。黑胡子独特的纤细骨架不仅看起来相当敏捷，且雷达剖面也更小。该机体极难追踪，更难命中。<br />黑胡子系列包含两条生产线：标准 IPS-N/BB-L 量产线型号，以及为了安置 IPS-N 塞赫麦特级 NHP而特制的限量发行原型机 IPS-N/BB-Sk。</i>"
         },
         "Blackspot Targeting Laser": {
-            "name": "Blackspot Targeting Laser",
+            "name": "“黑券”目标性镭射枪",
             "profiles": {
                 "Blackspot Targeting Laser": {
-                    "description": "“Who tipped me the black spot the day we landed and began this dance?” – Treasure Island (1883)",
-                    "name": "Blackspot Targeting Laser",
-                    "on_hit": "DRONE, SEEKING, and NEXUS weapons and systems gain +1 Accuracy to attack the target until the end of their next turn."
+                    "description": "<i>“是谁在我们上岸的第一天把黑券塞到我手里？这场魔鬼的舞蹈究竟是谁跳起来的？”<br />                                                     ——金银岛 （1883）</i>",
+                    "name": "“黑券”目标性镭射枪",
+                    "on_hit": "直到下一回合结束，所有<b>无人机</b>，<b>引导</b>，和<b>巢房</b>武器或系统对该目标的攻击获得<b>+1 准度</b>。"
                 }
             }
         },
         "Black ICE Module": {
             "counters": {
                 "Black ICE Module": {
-                    "name": "Black ICE Module"
+                    "name": "黑冰模块"
                 }
             },
-            "description": "Black ICE modules are defensive systems packaged standard with the Black Witch fleets used by SSC's own internal security forces. They project a bubble of WHITECELL code that analyzes incoming hostile script and structures inoculants for friendly systems on the fly.",
-            "name": "Black ICE Module",
-            "effect": "Tech attacks against you or adjacent allied characters receive +1 difficulty. Each subsequent tech attack against you or an adjacent allied character receives an additional +1 difficulty, to a maximum of +3 difficulty.<br />Your Black ICE definitions roll over – resetting to +1 difficulty – when it would increase to +4 difficulty or at the end of the scene. Allied characters lose this benefit when they break adjacency."
+            "description": "<i>黑冰模块是 SSC 内部安全部队所使用的黑巫蛾舰队标准封装的防御系统。它会投射出白细胞编码泡，即时分析传入的恶意编码并快速为友方系统构建免疫剂。</i>",
+            "name": "黑冰模块",
+            "effect": "对你或邻近盟友角色的<b>科技攻击</b>获得<b>+1 难度</b>。后续每次对你或邻近盟友角色的科技攻击会额外<b>+1 难度</b>，最高为<b>+3 难度</b>。<br />你的黑冰定义具有滚动性：当增至<b>+4 难度</b>或场景结束时，它会重设为<b>+1 难度</b>。不再邻近的盟友角色会失去该优势。"
         },
         "Black Witch": {
-            "name": "Black Witch",
+            "name": "黑巫蛾",
             "core_system": {
-                "active_effect": "This system projects a blast 3 magnetic field with at least one space adjacent to you, causing the following effects until the end of your next turn:<ul><li>The affected area is difficult terrain.</li><li>Ranged attacks that deal kinetic or explosive can’t enter or leave the affected area – projectiles stop at the edge, doing no damage. Record each attack stopped this way.</li><li>Mechs and other characters made at least partly of metal that start their turn in the affected area or enter it for the first time in a round must succeed on a Hull save or be pulled as close to the center as possible and become Immobilized.</li></ul>When the effect ends, any ranged attacks that were stopped resume their trajectory – toward the center of the affected area. The GM rolls attacks against each character within, gaining +1 per blocked attack (to a maximum of +6). On hit, these attacks deal 1d6 kinetic damage per blocked attack (to a maximum of 6d6 kinetic damage).",
-                "active_name": "Mag Field",
-                "name": "Magnetic Field Projector",
-                "description": "Magnetic field generators are a portable and field-deployable variation on typical magnetic defense technologies. When activated, they create a magnetic bubble that traps all incoming ferrous projectiles. The strength of the field is so great that it can even draw mechs to its center. When the field is dispersed or its solid-state battery burns out – a feature, not a flaw – the field undergoes a sudden catastrophic implosion, drawing all captured projectiles to a point at the center of the bubble."
+                "active_effect": "该系统会投射<b>溅射 3 </b>磁场，其中至少 1 空间与你邻近，直至你下一回合结束前造成以下效果：<ul><li>· 受影响区域变成<b>困难地形</b>。</li><li>· 造成<b>动能</b>或<b>爆炸伤害</b>的远程攻击无法进入或离开该区域——投射物会停在其边缘不造成任何伤害。记下每个以此法停滞的攻击。</li><li>· 机甲或部分金属结构的角色在受影响区域开始其回合或是在轮内首次进入该区域，则必须通过<b>机体</b>豁免否则被尽可能拉至区域中央并被<b>固定</b>。</li></ul>当效果结束时，所有被停滞的远程攻击都会恢复其轨迹——朝着受影响区域的中心。GM 对区域内的每个角色作攻击掷骰，<b>每个被停滞的攻击则+1</b>（最高+6）。命中则每个被停滞攻击会造成<b> 1d6 动能伤害</b>（最大为<b>6d6 动能伤害</b>）。",
+                "active_name": "磁场",
+                "name": "磁场投射器",
+                "description": "<i>磁场发生器是典型磁力防御技术的一种便携和可现场部署的变体。在启动后，它们会产生能捕获所有来袭的铁质投射物的磁力泡。这力场的强度甚至足以将机甲拖至其中心点。在磁场消散或是其固态电池耗尽后（这是特意设计而非技术缺陷），磁场会产生灾难性反转，将所有捕获的投射物吸引到磁泡中心的一个点上。</i>"
             },
-            "description": "The Black Witch is the flagship model of SSC’s LUX-Iconic line of frames, on paper meant to compete with Harrison Armory’s dominance in the field of cutting-edge gravity and electromagnetic manipulation. Utilizing the newest technologies developed by SSC’s Exotic Materials Group, the Black Witch is a fearsome area-control platform, often fielded in support of heavier mechs engaged in direct combat.<br />With a slim profile and strong defensive systems, the Black Witch is especially popular among the wealthier houses of the Karrakin Trade Baronies, who often place multiple orders to outfit their personal guards and house company officers. Next to internally produced Baronic frames, the Black Witch (alongside other SSC LUX-Iconic models) is the most popular SSC chassis throughout noble Karrakin space.",
+            "description": "<i>黑巫蛾是 SSC 奢华标志系列骨架的旗舰型号，理论上用来与哈里逊兵工厂在尖端重力和电磁力操纵技术上的霸权分庭抗礼。黑巫蛾利用 SSC 奇材集团开发的最先进科技，在战场上是个相当可怕的区域控制平台，通常用作支援直接参与战斗的重型机甲。<br />黑巫蛾纤细的轮廓和强大的防御系统，让它受到卡拉金贸易男爵国中较为富有的家族垂涎，也因而常成为其禁卫军和家族连队的配备。黑巫蛾（和其他 SSC 奢华标志型号）是仅次于男爵领自研骨架外，在贵族卡拉金太空中最受欢迎的 SSC 底盘型号。</i>",
             "traits": {
                 "Repulsor Field": {
-                    "description": "The Black Witch has Resistance to Kinetic Damage.",
-                    "name": "Repulsor Field"
+                    "description": "黑巫蛾对<b>动能伤害</b>具有<b>抗性</b>。",
+                    "name": "偏转立场"
                 },
                 "Mag Parry": {
                     "actions": {
                         "Mag Parry": {
-                            "detail": "Roll 1d6: on 5+, the attack misses. This effect does not stack with Invisible.",
-                            "name": "Mag Parry",
-                            "trigger": "An incoming attack will deal Kinetic Damage to you or an adjacent allied character"
+                            "detail": "掷 1d6：结果为 5+则该攻击未命中。此效果不与<b>隐形</b>叠加。",
+                            "name": "磁力格挡",
+                            "trigger": "一次攻击将对你或一个邻近盟友角色造成动能伤害"
                         }
                     },
-                    "description": "1/round, as a reaction, you may attempt to parry an attack that would deal Kinetic Damage to you or an adjacent allied character. Roll 1d6: on 5+, the attack misses. This effect does not stack with Invisible.",
-                    "name": "Mag Parry"
+                    "description": "<b>1/轮</b>，你可以用一个反应来尝试格挡会对你或一个邻近盟友角色造成动能伤害的一次攻击。掷 1d6：结果为 5+则该攻击未命中。此效果不与<b>隐形</b>叠加。",
+                    "name": "磁力格挡"
                 }
             }
         },
         "Blinkshield": {
-            "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling.",
-            "name": "Blinkshield",
+            "description": "<b>哈里逊兵工厂的霎盾作为一种基于智囊团研究的武器，其特点依靠量子操纵的模糊本质。使用与霎闸相近的运作方式，霎盾能产生球形能量外壳，让其操作者能够突破现实空间并在短时间存在于霎间的虚无之中。智囊团发言人理解这在霎间（非）暂时（不）存在的战术优势，但同时也警告不应在没有足够事前事后的调节和咨询情况下连续暴露在该环境下。</b>",
+            "name": "霎盾",
             "actions": {
                 "Action": {
-                    "detail": "This system generates a burst 4 bubble around your mech, within which the flow of time is altered drastically. Nothing can enter or exit the bubble, not even light – it’s both impermeable and has Immunity to all damage and effects. Line of sight can’t be drawn through the border of the area, and it can’t be crossed by any action or effect – even those that don’t require line of sight – but time passes normally on both sides. For characters within the affected area, the world outside goes totally black; likewise, characters outside the affected area see a perfect black sphere.<br>When the Blinkshield is activated, characters partially within the affected area must make an Agility save: on a success, they move to the nearest free space on the side of their choice, inside or outside the area; on a failure, you choose.<br>This effect remains stationary even if you move, and lasts until the end of your next turn.",
-                    "name": "Action"
+                    "detail": "该系统会在你机甲周围产生<b>爆发 4 </b>泡状体，其内时间流动和外界相差甚远。所有物质均无法进出该泡状体，甚至连光也不行——它既不被渗透，又<b>对所有伤害和效果免疫</b>。视线无法穿过该区域边界，也不能被任何行动或效果所跨越，即使是那些无需视线的行动或效果也不行，但时间在双方都正常流逝。对于受影响区域内的角色而言，外部世界完全陷入漆黑；同样，受影响区域外的角色能目睹一个完美的黑色球体。<br>当<b>霎盾</b>激活时，部分处于受影响区域内的角色必须通过<b>敏捷</b>豁免。成功则目标能选择移动到任意一边的空间；失败则由你决定移动方向。<br>即使你移动，该效果也会维持不动，并且持续到你下一回合结束。",
+                    "name": "动作"
                 }
             }
         },
         "Blinkspace Tunneler": {
-            "name": "Blinkspace Tunneler",
+            "name": "霎间隧道器",
             "actions": {
                 "Action": {
-                    "detail": "You open a blink tear in a free, adjacent space. It lasts until the end of your next turn. As part of any movement, characters other than you (hostile or allied) that enter the space at least partially may teleport to a free space adjacent to you. You may only open one tear at a time, and if you create a new tear it replaces the previous one.",
-                    "name": "Action"
+                    "detail": "你在某邻近的自由空间打开一扇间隙。它会持续到你下一回合结束。作为任何移动的一部分，部分进入该空间的除你外的其他角色（敌人或盟友）可以<b>瞬间移动</b>到你邻近的自由空间。你一次只能打开一扇间隙，若你创造一扇新间隙，则它会取代先前的间隙。",
+                    "name": "动作"
                 }
             },
-            "description": "MEMO(TT_CLEARANCE_01) (01200): IT’S GONNA GET REAL FUCKING DARK."
+            "description": "<i>备忘(TT_CLEARANCE_01)(01200)：天要真他妈的黑了。</i>"
         },
         "Bolt Thrower": {
             "name": "Bolt Thrower",
@@ -1721,7 +1721,7 @@
                 "name": "并联力场投射器",
                 "passive_name": "并联力场投射器",
                 "active_effect": "选择视线内的一个盟友角色，然后选择视线内的一个敌方角色。在你下一回合结束前，这些角色不能互相攻击或通过动作强制对方进行豁免。这个能力视为一个<b>护盾</b>系统。这是一个<b>高效</b>能力，使用后会在场景结束时返还 1 CP。",
-                "description": "库图佐夫最显著的特点之一，是其内建的一系列并联追踪力场发射器，可同时调制和投射多个重叠波形模式。包括标准叠加屏障和静滞场，以及专为库图佐夫夺取/坚守任务而设计更具侵略性的力场，它可强制驱离CQB交战中的威胁目标，也可清空区域以便后续部署加固的据点屏障。<br /><br />该发射器还有其他用法，它能够在短时间内以单平面的方式“闪烁”出拿破仑的真黑神盾来抗击威胁。在无需维持全面覆盖的场景中，库图佐夫可通过防御跟踪协议，扩大真黑神盾的操作范围，来将选中的敌对目标无害化。然而，这种操作的缺点显而易见，即减少了神盾的覆盖面积，也未能解决其阻断对外射击的问题，另外力场发射器需要经过长时间的充电才能再次激活。",
+                "description": "<i>库图佐夫最显著的特点之一，是其内建的一系列并联追踪力场发射器，可同时调制和投射多个重叠波形模式。包括标准叠加屏障和静滞场，以及专为库图佐夫夺取/坚守任务而设计更具侵略性的力场，它可强制驱离CQB交战中的威胁目标，也可清空区域以便后续部署加固的据点屏障。<br /><br />该发射器还有其他用法，它能够在短时间内以单平面的方式“闪烁”出拿破仑的真黑神盾来抗击威胁。在无需维持全面覆盖的场景中，库图佐夫可通过防御跟踪协议，扩大真黑神盾的操作范围，来将选中的敌对目标无害化。然而，这种操作的缺点显而易见，即减少了神盾的覆盖面积，也未能解决其阻断对外射击的问题，另外力场发射器需要经过长时间的充电才能再次激活。</i>",
                 "passive_effect": "<b>1/轮</b>，当你在自己回合执行<b>稳住阵脚</b>，<b>强化快速科技动作</b>，激活或以其他方式使用<b>护盾系统</b>时，你可以根据该动作的花费向<b>感应</b>内的一个盟友角色提供一项增益：<ul><li><b>自由动作</b>：获得<b>软性掩护</b>直到对方下一回合结束。</li><li><b>快速动作</b>：忽视交战，移动不会引起反应，并且可以穿过（但不能停留在）被障碍物和其他角色占据的空间，直到对方下一个回合结束。</li><li><b>完整动作</b>：可清除一个非自身系统天赋等造成的状态。（注：如果你执行了一个完整动作，你依然可以选择快速动作或自由动作的选项）"
             },
             "traits": {
@@ -1735,7 +1735,7 @@
                 }
             },
             "name": "库图佐夫",
-            "description": "继拿破仑成功展示了众多先进的霎间和静滞技术后，哈里逊兵工厂立即批准了一系列持续性研发计划，以扩大这些系统在各种后续底盘和模块升级包中的应用。其中这些后继计划最早的产品之一即为库图佐夫——该底盘按照兵工厂海军指挥部要求，作为登舰作战的力量倍增器，利用拿破仑令人难以置信的自持能力，将其转化为一种紧凑灵活的投射防御平台，非常适合与海军陆战队或底盘小队一起参与近距离战斗<br /><br />与更具标志性的萨拉丁不同，库图佐夫并不适合前线作战，其生存能力指标明显低于拿破仑本身。然而，它能够迅速投射闪现屏障、相位态波形和“固着”场，这在训练演戏和反海盗行动中，其对来袭火力的抗击能力已经得到证明。同时，库图佐夫与伊斯坎德尔-CC 等底盘在新马德拉萨（New Madrassa）进行低强度防御行动中作为周界安全和镇暴单位使用的次数也日渐增加。"
+            "description": "<i>继拿破仑成功展示了众多先进的霎间和静滞技术后，哈里逊兵工厂立即批准了一系列持续性研发计划，以扩大这些系统在各种后续底盘和模块升级包中的应用。其中这些后继计划最早的产品之一即为库图佐夫——该底盘按照兵工厂海军指挥部要求，作为登舰作战的力量倍增器，利用拿破仑令人难以置信的自持能力，将其转化为一种紧凑灵活的投射防御平台，非常适合与海军陆战队或底盘小队一起参与近距离战斗<br /><br />与更具标志性的萨拉丁不同，库图佐夫并不适合前线作战，其生存能力指标明显低于拿破仑本身。然而，它能够迅速投射闪现屏障、相位态波形和“固着”场，这在训练演戏和反海盗行动中，其对来袭火力的抗击能力已经得到证明。同时，库图佐夫与伊斯坎德尔-CC 等底盘在新马德拉萨（New Madrassa）进行低强度防御行动中作为周界安全和镇暴单位使用的次数也日渐增加。</i>"
         },
         "Law of Blades": {
             "actions": {
@@ -3828,7 +3828,7 @@
                     }
                 ]
             },
-            "description": "<p><b>成吉思 MK1</b> 可在成吉思<b> LL2</b> 时替换标准<b>骨架</b>，它也可以在《壁花不容》一部分中被发掘和修复。</p><p>虽然成吉思 MK1 在游戏性上被定为哈里逊兵工厂的骨架，但最初成吉思型号是基于第二委升级版的动力装甲，技术上而言是 GMS 骨架。如今，由于在革命后期第二委员会游击队进行的技术分割，它仅能和 HA 成吉思牌照兼容。</p><p>这些古老的成吉思机甲遍布海西尼亚各地，年久失修，尸横遍野。它们无情地提醒着人们，这里曾经发生过的大屠杀。与 MK2 那种更纤细优美的机体设计不同，MK1 因其简洁而愈显残忍——它彰显着这一残酷武器的大规模生产。</p>"
+            "description": "<p><b>成吉思 MK1</b> 可在成吉思<b> LL2</b> 时替换标准<b>骨架</b>，它也可以在《壁花不容》一部分中被发掘和修复。</p><p>虽然成吉思 MK1 在游戏性上被定为哈里逊兵工厂的骨架，但最初成吉思型号是基于第二委升级版的动力装甲，技术上而言是 GMS 骨架。如今，由于在革命后期第二委员会游击队进行的技术分割，它仅能和 HA 成吉思牌照兼容。</p><i><p>这些古老的成吉思机甲遍布海西尼亚各地，年久失修，尸横遍野。它们无情地提醒着人们，这里曾经发生过的大屠杀。与 MK2 那种更纤细优美的机体设计不同，MK1 因其简洁而愈显残忍——它彰显着这一残酷武器的大规模生产。</p></i>"
         },
         "Aceso Stabilizer": {
             "name": "阿刻索稳定器",
@@ -3957,41 +3957,41 @@
             "description": "<i>突破/爆破炸药是 IPS-N 小行星采矿的工业爆破装药的军规版。IPS-N 的 BB 炸药采用一种更不稳定的混合烈性炸药，用以对机械化底盘、飞船隔舱板、装甲载具、掩体和其他强化结构造成重大结构性破坏。</i>"
         },
         "Blast Pick": {
-            "name": "Blast Pick",
+            "name": "爆破镐",
             "profiles": {
                 "Regular Swing": {
-                    "description": "Originally used in IPS-N mining operations, this particular pick eventually found its way to the Garfields in Port Conroy, a popular fusion pasta restaurant. Used as a prominent piece of decoration in the restaurant, this aged mining implement yet packs some serious punch. The blast picks operates via an integrated explosive charge which can be triggered manually to enhance the force of the swing and resulting impact exponentially.",
-                    "name": "Regular Swing"
+                    "description": "<i>最初用于 IPS-N 采矿作业，该种特殊鹤嘴锄最终被挂在康罗伊港的加菲尔德，一家颇受欢迎的融合意大利面食餐厅。作为餐厅的突出装饰，这把古老的采矿工具仍保留着些许威力。爆破镐通过一个集成装药操作，可手动触发，以成倍增强摆动的力道，并由此产生高冲击。</i>",
+                    "name": "正常模式攻击"
                 },
                 "Explosive Swing": {
-                    "description": "Originally used in IPS-N mining operations, this particular pick eventually found its way to the Garfields in Port Conroy, a popular fusion pasta restaurant. Used as a prominent piece of decoration in the restaurant, this aged mining implement yet packs some serious punch. The blast picks operates via an integrated explosive charge which can be triggered manually to enhance the force of the swing and resulting impact exponentially.",
-                    "name": "Explosive Swing"
+                    "description": "<i>最初用于 IPS-N 采矿作业，该种特殊鹤嘴锄最终被挂在康罗伊港的加菲尔德，一家颇受欢迎的融合意大利面食餐厅。作为餐厅的突出装饰，这把古老的采矿工具仍保留着些许威力。爆破镐通过一个集成装药操作，可手动触发，以成倍增强摆动的力道，并由此产生高冲击。</i>",
+                    "name": "爆破模式攻击"
                 }
             }
         },
         "Blink Charges": {
-            "name": "Blink Charges",
+            "name": "霎间充能",
             "actions": {
                 "Warp Grenade": {
-                    "detail": "Throw a grenade with Range 5 and Blast 3. On impact, choose any character within the affected area and teleport them to any free, valid space within the same area. An unwilling character can pass an Engineering save to avoid this effect",
-                    "name": "Warp Grenade"
+                    "detail": "投掷1枚<b>射程5</b>，<b>溅射3</b>的<b>扭曲榴弹</b>。选择受影响区域内任意角色并将他们<b>瞬间移动</b>同一区域内任意自由空间。非自主角色可以通过<b>工程</b>豁免来避免该效果。",
+                    "name": "扭曲榴弹"
                 }
             },
-            "description": "Eso es lo que no se suena: usar el vacio contra la Ley de la Madre. Marcamos esta en nuestro historia con lagrimas, y ennegrecer la pagina.<br />[This is the thing un-thinkable: to use the nonshape against the Mother’s Law. With tears, we mark its need in our history, and then blacken the page]"
+            "description": "<i>Eso es lo que no se suena: usar el vacio contra la Ley de la Madre. Marcamos esta en nuestro historia con lagrimas, y ennegrecer la pagina.<br />[这真是件反思维应用的事务：使用非形性去违反母亲法则，我们用眼泪在我们的历史上标出它的需要性，然后把这一页涂黑。]</i>"
         },
         "Bolt Nexus": {
             "profiles": {
                 "Target Acquired": {
-                    "name": "Target Acquired",
-                    "description": "“But they denied Him. So their Lord brought down upon them destruction for their sin, and did not fear retribution, for He was the LORD, and above reproach. Put out your eye if you think otherwise.”<br>— Witnessed from the Cyrus 2.14 ferromemetic"
+                    "name": "目标锁定",
+                    "description": "<i>“但他们拒绝了他，残废了她。所以他们的主为他们的罪给他们带来了毁灭，并使之平等/他并不惧怕由此带来的后果。”<br>    — 见证自居鲁士 2.14 钢铁模因</i>"
                 },
                 "Default": {
-                    "on_hit": "Once this weapon hits a character, it gains the Target Acquired profile against that character only until you attack a new character with this weapon.",
-                    "description": "“But they denied Him. So their Lord brought down upon them destruction for their sin, and did not fear retribution, for He was the LORD, and above reproach. Put out your eye if you think otherwise.”<br>— Witnessed from the Cyrus 2.14 ferromemetic",
-                    "name": "Default"
+                    "on_hit": "命中：该武器对被命中者获得<b>目标锁定</b>属性，直到你用该武器攻击一个新角色。",
+                    "description": "<i>“但他们拒绝了他，残废了她。所以他们的主为他们的罪给他们带来了毁灭，并使之平等/他并不惧怕由此带来的后果。”<br>    — 见证自居鲁士 2.14 钢铁模因</i>",
+                    "name": "默认"
                 }
             },
-            "name": "Bolt Nexus"
+            "name": "电箭巢房"
         },
         "BOUNDER-Class Comp/Con": {
             "name": "BOUNDER-Class Comp/Con",
@@ -4441,7 +4441,7 @@
                     "name": "解除超密度装甲"
                 }
             },
-            "description": "IPS-N 超密度装甲为太空而设，打造时并无考虑使用者在重力井下会受到的限制。因此，诸多受到超密度装甲保护的驾驶员会对其机甲在重力井运作和在无重力中翱翔的差异而感到震惊。"
+            "description": "<i>IPS-N 超密度装甲为太空而设，打造时并无考虑使用者在重力井下会受到的限制。因此，诸多受到超密度装甲保护的驾驶员会对其机甲在重力井运作和在无重力中翱翔的差异而感到震惊。</i>"
         },
         "ICEOUT Drone": {
             "name": "ICEOUT Drone",
@@ -4512,7 +4512,7 @@
             "core_system": {
                 "active_effect": "你的<b>碰锁无人机</b>附着在<b>射程</b>内的一个盟友机甲。在场景结束前，你在自己每回合开始会受到<b> 1 热度</b>，但你的目标在所有攻击、检定和豁免掷骰上<b> +1 准度</b>，并对非自身来源的<b>受损</b>、<b>受扰</b>、<b>缓慢</b>、<b>离散</b>和<b>固定</b>状态<b>免疫</b>。<br />该效果持续到任一角色<b>晕眩</b>为止。此系统激活时，你不能使用<b>碰锁无人机</b>来作其他目的。",
                 "active_name": "增压器",
-                "description": "碰锁无人机俗称“僚机”，是一种由底盘携带部署的伴侣无人机。鉴于其高替换率，驾驶员被建议不要对这些无人机产生情感依恋。",
+                "description": "<i>碰锁无人机俗称“僚机”，是一种由底盘携带部署的伴侣无人机。鉴于其高替换率，驾驶员被建议不要对这些无人机产生情感依恋。</i>",
                 "name": "碰锁无人机"
             },
             "traits": {
@@ -4531,11 +4531,11 @@
                     "name": "战地维修"
                 },
                 "Redundant Systems": {
-                    "description": "你同意下，邻近兰开斯特角色可挪<b>维修</b>为己用。",
+                    "description": "你同意下，邻近兰开斯特的角色可挪<b>维修</b>为己用。",
                     "name": "冗余系统"
                 }
             },
-            "description": "IPS-N 兰开斯特是款规格旧式的 IPS-N 民用陆上、内/外船体运输和维护底盘的军用级变体，经过优化适用于各种战区。兰开斯特配备多重冗余系统和精密交互投射器，以确保在受损或完好的精密系统互动的精准性。<br />兰开斯特驾驶员通常是前线支援工兵和工程师。尽管有时会遭新一代未经测试的驾驶员嘲笑兰开斯特的老掉牙，但资深骑手明白：兰开斯特是最可靠最精良的机甲之一，在任何重大远程任务中都不可或缺。不是所有任务都靠子弹、镭射和炸药来决胜：没有工程师和他们的兰保姆，这些战斗高手们鲜少有人能活着回来。"
+            "description": "<i>IPS-N 兰开斯特是款规格旧式的 IPS-N 民用陆上、内/外船体运输和维护底盘的军用级变体，经过优化适用于各种战区。兰开斯特配备多重冗余系统和精密交互投射器，以确保在受损或完好的精密系统互动的精准性。<br />兰开斯特驾驶员通常是前线支援工兵和工程师。尽管有时会遭新一代未经测试的驾驶员嘲笑兰开斯特的老掉牙，但资深骑手明白：兰开斯特是最可靠最精良的机甲之一，在任何重大远程任务中都不可或缺。不是所有任务都靠子弹、镭射和炸药来决胜：没有工程师和他们的兰保姆，这些战斗高手们鲜少有人能活着回来。</i>"
         },
         "Latch Drone": {
             "name": "碰锁无人机",
