@@ -530,34 +530,34 @@
             "description": "<i>备忘(TT_CLEARANCE_01)(01200)：天要真他妈的黑了。</i>"
         },
         "Bolt Thrower": {
-            "name": "Bolt Thrower",
+            "name": "投矛器",
             "profiles": {
                 "Bolt Thrower": {
-                    "description": "As with many of IPS-N’s classic weapons, the bolt thrower is descended from a civilian mining tool. It fires self-propelled explosive bolts, perfect for use in micro- and null-gravity as well as in-atmosphere.",
-                    "name": "Bolt Thrower"
+                    "description": "<i>与 IPS-N 诸多经典武器一样，投矛器也是源自民用采矿工具。它能发射自行推进的爆炸性长矛，非常适合在微重力、零重力以及大气层中使用。</i>",
+                    "name": "投矛器"
                 }
             }
         },
         "Brutus’s Shield": {
             "actions": {
                 "Action": {
-                    "detail": "As a protocol, you may raise this Shield to gain 4+Grit Overshield until the start of your next turn, at which point you lose all Overshield. You are Slowed while you have this Overshield. <br>You may not use this Protocol two turns in a row.",
-                    "name": "Action"
+                    "detail": "以一个<b>协定</b>，你竖起此盾获得<b> 4+毅力护盾</b>，直到你下一回合开始，此时你失去所有<b>护盾</b>。当你获得此<b>护盾</b>时<b>缓慢</b>。<br>你无法在两回合内连续使用此协定。",
+                    "name": "动作"
                 }
             },
             "profiles": {
                 "Brutus’s Shield": {
                     "actions": {
                         "Action": {
-                            "name": "Action",
-                            "detail": "As a protocol, you may raise this Shield to gain 4+Grit Overshield until the start of your next turn, at which point you lose all Overshield. You are Slowed while you have this Overshield. <br>You may not use this Protocol two turns in a row."
+                            "name": "动作",
+                            "detail": "以一个<b>协定</b>，你竖起此盾获得<b> 4+毅力护盾</b>，直到你下一回合开始，此时你失去所有<b>护盾</b>。当你获得此<b>护盾</b>时<b>缓慢</b>。<br>你无法在两回合内连续使用此协定。"
                         }
                     },
-                    "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this relatively advanced slab shield. Incorporating surprisingly complex Harrison Armory technology, this shield can project a localized force field of significant strength.",
-                    "name": "Brutus’s Shield"
+                    "description": "<i>坑洞竞技场前卫冕冠军的标志武器。自布鲁图斯在光荣战斗中失败后，这面先进的板盾被其他机甲挥舞着。结合了哈里逊兵工厂无与伦比的复杂技术，这面盾牌可以投射出强大的局部力场。</i>",
+                    "name": "布鲁图斯之盾"
                 }
             },
-            "name": "Brutus’s Shield"
+            "name": "布鲁图斯之盾"
         },
         "Bulwark Mods": {
             "effect": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain.",
@@ -3982,11 +3982,11 @@
         "Bolt Nexus": {
             "profiles": {
                 "Target Acquired": {
-                    "name": "目标锁定",
+                    "name": "目标标记",
                     "description": "<i>“但他们拒绝了他，残废了她。所以他们的主为他们的罪给他们带来了毁灭，并使之平等/他并不惧怕由此带来的后果。”<br>    — 见证自居鲁士 2.14 钢铁模因</i>"
                 },
                 "Default": {
-                    "on_hit": "命中：该武器对被命中者获得<b>目标锁定</b>属性，直到你用该武器攻击一个新角色。",
+                    "on_hit": "命中：该武器对被命中者的获得<b>目标标记</b>的属性，直到你用该武器攻击一个新角色。",
                     "description": "<i>“但他们拒绝了他，残废了她。所以他们的主为他们的罪给他们带来了毁灭，并使之平等/他并不惧怕由此带来的后果。”<br>    — 见证自居鲁士 2.14 钢铁模因</i>",
                     "name": "默认"
                 }
@@ -3994,36 +3994,36 @@
             "name": "电箭巢房"
         },
         "BOUNDER-Class Comp/Con": {
-            "name": "BOUNDER-Class Comp/Con",
-            "description": "Originally planned as part of the \"Campbell\" license package, which ultimately lost to the Caliban during selection trials, the BOUNDER-class comp/con nonetheless represents one of IPS-N's latest developments in next-generation smart weapons design. The Campbell program was intended to facilitate successful boarding actions through indirect targeting solutions, minimizing the risk of incoming retaliatory fire, and although the Campbell was ultimately never adopted, BOUNDER remains available as a self-contained license for requisition.<br /><br />BOUNDER is a joint hardware/software package suitable for most mainline armaments, designed to maximize surface reflectivity and projectile/waveform cohesion through a combination of specialized ammunition, variable electromagnetic lensing, and adjustable firing profiles. Thanks to the system's advanced ballistic calculation capabilities, users are able accurately chart oblique firing solutions across hard surfaces in realtime with acceptable accuracy.<br /><br />Lessons learned from the infamous UNCLE-class comp/con have resulted in a much more stable and user-friendly experience, though some pilots with experience of both systems claim they find UNCLE's idiosyncrasies more endearing than BOUNDER's polished, but less eccentric, personality.",
-            "effect": "This Mod does not work with Blast, Burst, Line, or Cone weapons. 1/round you may choose one of the following:<ul><li>When you miss an attack with this weapon, you may reroll that attack against a different target, tracing Range and line of sight from the original target's location.</li><li>You may bank your shot around corners and off of the environment to hit distant targets. Choose a piece of terrain or object Size 1 or larger within the weapon's Range and line of sight. When you make your attack, you may trace Range and line of sight from that location instead.</li><li>When you roll a 20 on a die for this attack (sometimes called a \"natural 20\"), you may riccochet the shot to strike a critical area on the target. The attack's damage can't be reduced in any way, and on hit the target is knocked Prone.</li></ul><br /><br />This system isn't a full NHP and cannot enter cascade."
+            "name": "“莽汉”级伙伴/礼宾单元",
+            "description": "<i>最初被设计为“坎贝尔”牌照包的一部分，在选拔实验阶段输给了卡利班，“莽汉”级伙伴/礼宾单元代表了IPS-N在下一代智能武器设计方面的最新发展。坎贝尔项目本意是为登舰行动提供非直瞄解决方案，以最小化敌方报复射击的风险，尽管“坎贝尔”项目最后未获采用，但“莽汉”仍可作为独立牌照进行申请。<br /><br />“莽汉”是一个适用于大多数主流武器的软硬件组合包，旨在通过专用弹药、可变电磁透镜和可调发射参数，最大限度地提高表面反弹率和射弹/波形凝聚力。借助该系统先进的弹道计算能力，用户可以准确绘制斜射弹道图，并在弹道图上标注弹道参数，为以可接受的精度在硬表面上实时发射提供了解决方案。<br /><br />从臭名昭著的“老爹”级礼宾/伙伴单元中汲取的经验教训，使其更加稳定，用户体验也更加友好，尽管一些使用过这两种系统的驾驶员声称，他们认为“老爹”的特立独行比“莽汉”光鲜但不那么古怪的个性更令人喜爱。</i>",
+            "effect": "这个模组不能附加在<b>溅射/爆发/线形/锥形</b>的武器上。1/轮，你可以选择以下其中一项：<ul><li>使用该武器攻击未命中时，你可以重新掷骰攻击另一个目标，并从原目标位置开始计算<b>射程</b>和视线。</li><li>你可以将射击瞄准角落或环境，以击中远处的目标。在武器视线<b>射程</b>内，选择一块<b>大小1</b>或更大的地形或物品。进行攻击时，你可以从该位置计算射程和视线。</li><li>掷骰结果为20（有时也称为“自然20”）时，你可以用跳弹击中目标的要害部位。该攻击伤害不会以任何方式减少，命中后目标<b>伏卧</b>。</li></ul><br /><br />该系统不是完全的NHP，不会层流。"
         },
         "Bristlecrown Flechette Launcher": {
-            "name": "Bristlecrown Flechette Launcher",
+            "name": "刺鬃冠镖弹发射器",
             "profiles": {
                 "Bristlecrown Flechette Launcher": {
-                    "effect": "This weapon ignores ranged penalties from Engaged, and deals 3 Kinetic damage to Grappled or Biological targets, instead of 1.",
-                    "description": "The IPS-N Bristlecrown Flechette Launcher uses a hive-analogous mechanism to project a total soft-target kill zone in a dome around the user, proactively denying hostile infantry-tier actions.",
-                    "name": "Bristlecrown Flechette Launcher"
+                    "effect": "该武器忽略<b>交战</b>时的远程攻击惩罚，并对<b>擒拿</b>或<b>生物</b>目标造成<b> 3 动能伤害</b>而非<b> 1</b>。",
+                    "description": "<i>IPS-N 刺鬃冠镖弹发射器使用类巢房机制，在使用者周围投射半球形软目标杀伤区，主动阻止敌方的步兵级行动。</i>",
+                    "name": "刺鬃冠镖弹发射器"
                 }
             }
         },
         "Brood-Sibling’s Molt": {
-            "name": "Brood-Sibling’s Molt",
+            "name": "母巢同胞的脱落物",
             "profiles": {
                 "Brood-Sibling’s Molt": {
-                    "effect": "1/round, this weapon deals +1d6 bonus damage to characters that are SHREDDED or STUNNED.",
-                    "description": "Goodbye, old [friend/love]",
-                    "name": "Brood-Sibling’s Molt"
+                    "effect": "1/轮，该武器对处于<b>离散</b>或<b>晕眩</b>的角色造成<b>+1d6额外伤害</b>。",
+                    "description": "<i>再见，[老朋友/旧爱]。</i>",
+                    "name": "母巢同胞的脱落物"
                 }
             }
         },
         "Brutus’s Wrecker": {
-            "name": "Brutus’s Wrecker",
+            "name": "布鲁图斯破坏者",
             "profiles": {
                 "Brutus’s Wrecker": {
-                    "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this massive tungsten ball on a reinforced chain. Ultimately a primitive weapon, this wrecker makes up for its lack of elegance with sheer brutality.",
-                    "name": "Brutus’s Wrecker"
+                    "description": "坑洞竞技场前卫冕冠军的标志武器。自布鲁图斯在光荣战斗中失败后，这被加固链条拴着的硕大钨球被绑在了另一台机甲上。这是刚正朴实的武器，破坏者用它绝对的残忍弥补了缺乏优雅的缺点。",
+                    "name": "布鲁图斯破坏者"
                 }
             }
         },
