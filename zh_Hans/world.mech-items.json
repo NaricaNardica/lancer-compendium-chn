@@ -310,9 +310,9 @@
                             "name": "自动枪开火"
                         }
                     },
-                    "name": "Autogun",
+                    "name": "自动枪",
                     "effect": "该武器不能正常攻击。相反，你可在你的回合结束时以<b>自由动作</b>进行攻击。它不会受益于或是触发你的天赋。",
-                    "description": "As the name implies, autoguns are automated weapons. Similar to point-defense systems, autoguns are chambered to provide effective fire against armored targets. Typically mounted on a stabilized, secondary arm, a reliably tuned autogun can be trusted to track and eliminate designated enemy units while a pilot concentrates on more specialized weapons or processes. Cheap, with malleable codebases, autoguns are common among active, armed HORUS cells."
+                    "description": "顾名思义，自动枪是自动武器。和点防御系统相似，自动枪装在膛内，对装甲目标提供有效火力。自动枪通常安装在附有稳定器的副臂上，这是把在驾驶员专注于其他时，用于追踪并消灭指定敌对单位的可信赖自调校武器。"
                 }
             },
             "actions": {
@@ -324,65 +324,65 @@
             "name": "自动枪"
         },
         "Autoloader Drone": {
-            "name": "Autoloader Drone",
-            "description": "Autoloader drones are many-limbed machines that assist their team by loading ordnance, maintaining powerline hookups, and cycling magazine-fed weapons, in addition to many other physical tasks.",
-            "effect": "Expend a charge to deploy this autoloader drone to any adjacent space."
+            "name": "自动装填无人机",
+            "description": "自动装填无人机这一多肢体机器能通过装填弹药、保养电线接口、为弹匣式武器上弹和进行各种不同的体力劳动来协助队伍。",
+            "effect": "消耗 1 充能来将自动装填无人机部署在任何邻近空间。"
         },
         "Autopod": {
             "profiles": {
                 "Autopod": {
-                    "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
+                    "effect": "该武器并不使用任何触发机制，而是自动扫描并锁定敌人，并在成功确认后对其发射转动的利刃圆盘。你得到<b>自动突击</b>反应，唯一能让你使用自动荚舱攻击的方式.",
                     "actions": {
                         "Autonomous Assault": {
-                            "detail": "You may automatically hit their target with the Autopod.",
-                            "name": "Autonomous Assault",
-                            "trigger": "Another character attacks a target within range 15 of you and consumes Lock On"
+                            "detail": "你可以使用自动荚舱自动命中该目标。",
+                            "name": "自动突击",
+                            "trigger": "另一角色攻击你<b>射程 15 </b>内一个目标并消耗<b>锁定</b>"
                         }
                     },
-                    "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
-                    "name": "Autopod"
+                    "description": "自动荚舱似乎是由荷鲁斯社群通讯加密师开发而成的小型杀伤性武器，其独特之处在于即使操作者阵亡也能维持攻击动作，这得益于每个单元都由直觉原型智能体分区所控制。自节德柱事件以来尚未发现自动荚舱的新型号，由于为其原型体提供驱动力的直觉编码很可能在被进一步腐化，所有现存版本的自动荚舱均被视为极端危险对象。",
+                    "name": "自动荚舱"
                 }
             },
-            "name": "Autopod",
+            "name": "自动荚舱",
             "actions": {
                 "Autonomous Assault": {
-                    "detail": "You may automatically hit their target with the Autopod.",
-                    "name": "Autonomous Assault",
-                    "trigger": "Another character attacks a target within range 15 of you and consumes Lock On"
+                    "detail": "你可以使用自动荚舱自动命中该目标。",
+                    "name": "自动突击",
+                    "trigger": "另一角色攻击你<b>射程 15 </b>内一个目标并消耗<b>锁定</b>"
                 }
             }
         },
         "Balor": {
             "traits": {
                 "Self-Perpetuating": {
-                    "description": "When you rest, the Balor regains full HP automatically and without REPAIRS.",
-                    "name": "Self-Perpetuating"
+                    "description": "当你<b>休息</b>时，炎魔无需<b>维修</b>自动回复所有<b> HP</b>。",
+                    "name": "自我永存"
                 },
                 "Regeneration": {
-                    "name": "Regeneration",
-                    "description": "At the end of its turn, the Balor regains 1/4 of its total HP. When it takes stress or structure damage, this effect ceases until the end of its next turn."
+                    "name": "再生",
+                    "description": "炎魔回合结束时恢复最大 <b>HP</b> 的 1/4。受到<b>压力</b>或<b>结构伤害</b>，则该效果中止直至下一回合结束。"
                 },
                 "Scouring Swarm": {
-                    "description": "The Balor deals 2 kinetic to characters of its choice that start their turn grappled by or adjacent to it.",
-                    "name": "Scouring Swarm"
+                    "description": "当被炎魔<b>擒拿</b>或邻近炎魔的角色开始回合时，炎魔可以选择对其造成<b> 2 动能伤害</b>。",
+                    "name": "洗涤虫群"
                 }
             },
-            "name": "Balor",
+            "name": "炎魔",
             "core_system": {
-                "active_effect": "Your nanites switch into a hyperactive mode, causing the following effects until the end of the scene:<ul><li>You and adjacent allies gain soft cover.</li><li>Scouring Swarm deals 4 kinetic, instead of 2.</li><li>Regeneration restores 1/2 of your total HP, instead of 1/4.</li><li>If you would take structure damage, roll 1d6: on 6, your mech hellishly pulls itself together, taking no structure damage, returning to 1 HP, and gaining Immunity to all damage until the end of the current turn.</li><li>You become Shredded and cannot clear this condition for the duration.</li></ul>",
-                "active_name": "Hive Frenzy",
-                "description": "In a moment, with aught but desire, the pilot of a Balor may quick-print a cloak comprised of countless minuscule drones: a hellswarm cloak – living shield and fluid-dynamic knife, cutting and guarding, in one shimmering wave. They become Hivemaster, and their will is obeyed by millions.",
-                "name": "Hellswarm"
+                "active_effect": "纳米体陷入超活跃模式，获得以下效果持续至场景结束：<ul><li>你和邻近盟友获得<b>软性掩护</b>。</li><li><b>洗涤虫群</b>造成 <b>4 </b>而非<b> 2 动能伤害</b>。</li><li><b>再生</b>回复最大 HP 的 1/2 而非 1/4。</li><li>若你受到<b>结构伤害</b>，掷 1d6：结果为 6，你的机甲如地狱般重组，不受结构伤害且 HP 重置为 1，并对所有伤害<b>免疫</b>直至该回合结束。</li><li>你陷入<b>离散</b>，在此期间无法清除该状态。",
+                "active_name": "虫巢狂乱",
+                "description": "在转瞬之间，仅凭一股欲念，炎魔驾驶员便能迅速打印出一件由无数微型无人机组成的斗篷：那是波纹闪烁的地狱虫群斗篷——既是用于保护又是用于切割的活体盾牌与流体刀刃。如此他们便化身虫群之主，其意志被数百万之众所遵从。",
+                "name": "地狱虫群"
             },
-            "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br />The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br />In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it."
+            "description": "正如大多数荷鲁斯模式组，炎魔也有千张脸孔。炎魔模式组与大多数荷鲁斯模式组一样并非是单一可识别型号，而是一系列战斗中定位相似的图式组合。这些组合可照驾驶员规格打印，并适用于完全自定义的物理架构。值得注意，炎魔模式组只在大型（进度 2 或以上）打印平台才能满足其庞大能量需求——最好是具有多重冗余性的平台，以防系统发生灾难性故障。<br />已知首次遭遇炎魔模式组的爆发，是在桑贾克起义末期，发生在信天翁与司法人权部联合追捕卡拉金自由连队“无底洞”穿越海拉丁布兰卡沙漠（Blanca Desert）期间。正是此处，联合部队遭遇，接触，并最终击败“无底洞”及其炎魔——联盟中央委员会希望在此终结纳米浴的爆发。当然，随后在海拉丁陆续出现的炎魔扩散证明这种希望的徒劳，而这些模式组继续在男爵领太空威吓着卡拉金指挥官。<br />战场上炎魔神经同步地狱虫和灰浴纳米体形成波峦保护罩，能在刹那间从底盘倾泻而出，并以疯狂漩涡来形成末世级防卫攻击系统。炎魔激活时，比起物理结构更多由波涛烈焰般的纳米体组成。这使得动能及粒子能量分散在底盘中——正如一份战后简报形容那样，对炎魔攻击“犹如对愤怒之水开枪”。"
         },
         "Barbarossa": {
-            "name": "Barbarossa",
+            "name": "巴巴罗萨",
             "core_system": {
-                "active_name": "Charge Rail",
+                "active_name": "导轨充能",
                 "name": "Apocalypse Rail",
-                "description": "Fresh from the Armory’s dayside research and development campus, the LGC-04 “Apocalypse Rail” is an exponential gravitic catapult – a to-scale test product pushed to licensed pilots for field trials as part of the Armory’s ongoing Plenary Beach Magnitude Weapons Test Project.<br />Distinct from current logarithmic short- or long-spool ship-to-ship weapons (kinetic or energetic/particular), this new platform taps into the Armory’s current gravitic research to exponentially charge and distribute a kinetic payload downrange. This increase in potential energy loading and decrease in total charge time comes at the cost of stability: where the logarithmic spool cannon is stable and shock-resistant, the exponential gravitic catapult is prone to destabilization. For the time being, built-in failsafes will trigger in the event of sudden traumatic destabilization to prevent detonation of the system, resetting any charging process underway at the time of the shock.<br />The LGC-04 “Apocalypse Rail” system is scaled considerably down from its intended operational role – that is, replacing capital ship spinal spool cannons – in order to effect the accumulation of live data for use in improving the system prior to naval adoption.",
-                "active_effect": "When activated, you start charging the Barbarossa’s Apocalypse Rail, an incredibly powerful ship-to-ship long-spool weapon system that requires target calibration. Gain an Apocalypse Die, 1d6 starting at 4. At the start of each of your turns, lower the value of the Apocalypse Die by 1, to a minimum of 1. If you move (even involuntarily) or become Stunned or Jammed, the Apocalypse Die resets to 4 and then continues to count down as usual.<br />If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn. After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4. If you reach the end of the scene without using it, you regain 1 CP.<br />At the end of the scene, lose the Apocalypse Die, and the Apocalypse Rail stops charging."
+                "description": "作为兵工厂正在进行的全岸规模武器测试计划的一部分，指数型重力投射器 LGC-04“末日导轨”刚从兵工厂向日面研究园区新鲜出炉，提供给得到许可的驾驶员进行战场实测。<br />与现有的对数型短轴或长轴舰对舰武器（包括动能或能量/粒子型）不同，这款新型平台利用兵工厂现有的重力研究来使动能酬载指数性地充能并发射。能量负载增加和充能时间减少的潜在代价是其稳定性较低。相较稳定且耐冲击的对数型轴炮，指数型重力投射器更容易变得不稳定。就目前而言，突然的创伤性失稳将触发内置故障保护，以防止系统爆炸，并重置受冲击时正在进行的充能过程。<br />LGC-04“末日导轨”系统的规模从其预期中的作战用途（即作为主力舰龙骨匝炮的代替品）大幅缩减，以便在海军采用前积累更多的实战数据以改良系统。",
+                "active_effect": "激活后，你开始为巴巴罗萨的<b>末日导轨</b>这一威力惊人，但需要校准锁定的舰对舰长轴武器系统充能。你获得以<b> 4 </b>起始的 <b>1d6 末日骰</b>。在你每回合开始时，该<b>末日骰</b>数值减 1，下限为1。若你进行移动（无论自愿或强制）或受到<b>晕眩</b>或<b>受扰</b>，<b>末日骰</b>将重置为 <b>4</b>，并如常继续进行倒数。<br />若<b>末日骰</b>的数值为 1~3，你可在自己回合中以<b>完整动作</b>使用末日导轨攻击，但该回合无法移动或进行其他任何动作。在以<b>末日导轨</b>进行攻击后，末日骰将重置为 4。若你在本场景内未使用<b>末日导轨</b>攻击，恢复<b> 1 CP</b>。<br />在场景结束时，失去<b>末日骰</b>，并且<b>末日导轨</b>停止充能。"
             },
             "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br />The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
             "traits": {
@@ -3797,19 +3797,19 @@
         "“Worldkiller” Genghis Mk I": {
             "traits": {
                 "Insulated": {
-                    "description": "The Genghis has immunity to Burn.",
-                    "name": "Insulated"
+                    "description": "成吉思<b>免疫燃烧</b>。",
+                    "name": "隔热"
                 },
                 "TBK Munitions": {
-                    "description": "The Genghis’s attacks ignore resistance to Burn and Heat.",
-                    "name": "TBK Munitions"
+                    "description": "成吉思的攻击忽略对<b>燃烧</b>和<b>热度</b>的<b>抗性</b>。",
+                    "name": "TBK 弹药"
                 },
                 "Weak Computer": {
-                    "description": "The Genghis receives +1 Difficulty on all SYSTEM saves and checks.",
-                    "name": "Weak Computer",
+                    "description": "在所有<b>系统</b>豁免和检定中，成吉思<b>+1 难度</b>。",
+                    "name": "弱计算机",
                     "synergies": [
                         {
-                            "detail": "The Genghis receives +1 Difficulty on all SYSTEM saves and checks."
+                            "detail": "在所有<b>系统</b>豁免和检定中，成吉思<b>+1 难度</b>。"
                         }
                     ]
                 }
@@ -3828,7 +3828,7 @@
                     }
                 ]
             },
-            "description": "<p>This variant can be taken at rank II of the GENGHIS license instead of the base FRAME. It can also be dug up and repaired as part of No Room For A Wallflower.</p><p>Though the Genghis Mk I is classified as a Harrison Armory FRAME for gameplay purposes, the original Genghis models were based on upscaled SecComm power armor and are technically GMS frames. Today, they are only compatible with the HA Genghis license due to a last-ditch tech partition by SecComm partisans in the latter stages of the revolution.</p><p>These old-pattern Genghis mechs are buried all over Hercynia in various states of disrepair. They are a grim reminder of the carnage that once took place here. Unlike the Mk II, with its sleeker, slimmer frame, the Mk I is much more brutal in its simplicity – mass produced, a crude weapon.</p>"
+            "description": "<p><b>成吉思 MK1</b> 可在成吉思<b> LL2</b> 时替换标准<b>骨架</b>，它也可以在《壁花不容》一部分中被发掘和修复。</p><p>虽然成吉思 MK1 在游戏性上被定为哈里逊兵工厂的骨架，但最初成吉思型号是基于第二委升级版的动力装甲，技术上而言是 GMS 骨架。如今，由于在革命后期第二委员会游击队进行的技术分割，它仅能和 HA 成吉思牌照兼容。</p><p>这些古老的成吉思机甲遍布海西尼亚各地，年久失修，尸横遍野。它们无情地提醒着人们，这里曾经发生过的大屠杀。与 MK2 那种更纤细优美的机体设计不同，MK1 因其简洁而愈显残忍——它彰显着这一残酷武器的大规模生产。</p>"
         },
         "Aceso Stabilizer": {
             "name": "阿刻索稳定器",
@@ -3941,7 +3941,7 @@
             "actions": {
                 "Action": {
                     "detail": "只要你未承受伤害、移动或超过<b>热度上限</b>，你在下一回合开始时清除所有<b>热度</b>。",
-                    "name": "Action"
+                    "name": "动作"
                 }
             },
             "description": "兵工厂设计的自动冷却器是一个简单持久的系统，持续运作以有效地减少废热积累。<br />热转储阈值由舰队工程师决定，尽管驾驶员可在运作中调整等级——这种自动管理使驾驶员可专注于其他更紧迫的战术问题。"
