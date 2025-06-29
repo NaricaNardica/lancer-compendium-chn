@@ -469,7 +469,7 @@
                     "description": "<i>“是谁在我们上岸的第一天把黑券塞到我手里？这场魔鬼的舞蹈究竟是谁跳起来的？”<br />                                                     ——金银岛 （1883）</i>",
                     "name": "“黑券”目标性镭射枪",
                     "on_hit": "直到下一回合结束，所有<b>无人机</b>，<b>引导</b>，和<b>巢房</b>武器或系统对该目标的攻击获得<b>+1 准度</b>。",
-                    "on_crit": "The target also receives Lock On."
+                    "on_crit": "命中目标同时被<b>锁定</b>。"
                 }
             }
         },
@@ -561,50 +561,50 @@
             "name": "布鲁图斯之盾"
         },
         "Bulwark Mods": {
-            "effect": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain.",
+            "effect": "你的机甲延长肢体、添加装甲、冗余发动机系统和其他强化，让你能够忽略<b>困难地形</b>。",
             "synergies": [
                 {
-                    "detail": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain."
+                    "detail": "你的机甲延长肢体、添加装甲、冗余发动机系统和其他强化，让你能够忽略<b>困难地形</b>。"
                 }
             ],
-            "name": "Bulwark Mods",
-            "description": "All proprietary IPS-N mech cores feature their QuickMod system – a modular, legacy-compatible system of joints, hardpoints, and internal slots that makes installing upgrades simple. This proved to be a necessary feature for Albatross maktebas long out of synch with Union Realtime."
+            "name": "壁垒模块",
+            "description": "<i>所有 IPS-N 专利机甲核心都装设有迅捷模块系统 ——模块化并向下兼容的关节、硬点和内部插槽系统，能让安装升级变得更为轻松简单。这被证明是信天翁马珂忒班与联盟现实时间长期不同步的必要功能。</i>"
         },
         "Burst Launcher": {
-            "name": "Burst Launcher",
+            "name": "爆裂投射器",
             "profiles": {
                 "Burst Launcher": {
-                    "name": "Burst Launcher",
-                    "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”",
-                    "on_crit": "Target becomes Impaired until the end of their next turn."
+                    "name": "爆裂投射器",
+                    "description": "<i>“是的，它们可能会死。我们杀死了很多——用爆裂投射器和加农炮炸死它们。我不觉得它们在乎。不像昆虫；不是那样……昆虫还有一个用途：作为食物，作为生态系统中的必要组成部分。它们的死亡让我们放慢脚步，但它没有指示减缓我们的速度。即使在我们突入最后的密室看到了它，我甚至不认为它知道我们的存在。”</i>",
+                    "on_crit": "目标<b>受损</b>直到对方下一回合结束。"
                 }
             }
         },
         "Cable Winch System": {
             "actions": {
                 "Action": {
-                    "detail": "These cables can be attached to an adjacent character. If the target is Stunned or willing, you automatically succeed; otherwise, they can resist with a successful Hull save. Once attached, you and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming Slowed while doing so.<br>Any character can remove the cables on a hit with a melee attack or Improvised Attack against Evasion 10.<br>These cables can also be used to drag, pull, or otherwise interact with objects and the environment. They are 5 spaces long and can support a combined Size 6 before they break. Characters can use them to climb surfaces, allowing them to climb without a Speed penalty.",
-                    "name": "Action"
+                    "detail": "这些绳索可附着在邻近的一个角色上。如目标被<b>晕眩</b>或自愿则自动成功，否则对方可通过<b>机体</b>豁免来抵抗。附着后，你和目标不能远离对方超过<b> 5 空间</b>。任一角色可以遵循正常的举高和拖行规则来拖动对方，并在这样做时<b>缓慢</b>。<br>任意角色可以对绳索进行<b>回避 10 </b>的<b>近战</b>或<b>权宜攻击</b>，命中则斩断绳索。<br>该绳索亦可用来拖拉或与物品或环境互动。其长度为<b> 5 空间</b>，并且可以拖行总<b>大小 6 </b>的物品不会断裂。角色可用它来忽略速度惩罚地攀爬表面。",
+                    "name": "动作"
                 }
             },
-            "name": "Cable Winch System",
-            "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech."
+            "name": "缆盘系统",
+            "description": "<i>绞盘系统由外部安装的纳米碳纤维缆绳线轴和一组安装在机甲上的恢复子程序组成。</i>"
         },
         "Calendula": {
-            "name": "Calendula",
+            "name": "金盏花",
             "core_system": {
-                "active_effect": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
-                "active_name": "Weighing of Inequitable Hearts",
-                "description": "“I inscribe thy name, I threaten thee with the second death. I kill thy name, and this I kill thee again in the afterlife.“",
-                "name": "Execration of the Names of the Unworthy Dead",
+                "active_effect": "选择你或空壳视线<b>射程 5</b> 内的一个敌方角色和一个盟友角色，直到你下一回合结束前均化为<b>无形</b>。为使该效果产生，必须选择两个角色。",
+                "active_name": "度不均之心",
+                "description": "<i>“我刻下汝名，以第二次死威胁你。我杀了汝名，如此我便可去来世再杀你一次。”</i>",
+                "name": "无名亡者之名的亵渎",
                 "passive_actions": {
                     "Execrate": {
-                        "detail": "1/round You may target another character in line of sight within Range 3 of a void husk, banishing them to an interstitial space. Allied characters can choose whether or not to be affected, and hostile characters can avoid being affected by succeeding on a SYSTEMS save. Banished characters exist in a shadowy gray realm, making them INTANGIBLE.<br>This effect lasts until the banished character moves adjacent or starts their turn adjacent to a void husk, either of which returns them to physical space and clears INTANGIBLE.",
-                        "name": "Execrate"
+                        "detail": "<b>1/轮</b>，你可以把视线内且处于空壳<b>射程 3 </b>内的另一角色作为目标，将其驱逐至间隙空间。盟友可以选择是否受影响，而敌人必须通过<b>系统豁免</b>来规避影响。被放逐角色存在于幽暗灰色领域，使他们化为<b>无形</b>。<br>该效果持续至被放逐者移动到邻近或开始其回合时邻近一个空壳，将返回到物质空间，清除<b>无形</b>。",
+                        "name": "亵渎"
                     }
                 },
-                "passive_effect": "Gain the Execrate Quick Tech action.",
-                "passive_name": "Execrate"
+                "passive_effect": "获得亵渎<b>快速科技</b>。",
+                "passive_name": "亵渎"
             },
             "traits": {
                 "Grammaton Mantle": {
@@ -4033,7 +4033,7 @@
                 "Brutus’s Wrecker": {
                     "description": "坑洞竞技场前卫冕冠军的标志武器。自布鲁图斯在光荣战斗中失败后，这被加固链条拴着的硕大钨球被绑在了另一台机甲上。这是刚正朴实的武器，破坏者用它绝对的残忍弥补了缺乏优雅的缺点。",
                     "name": "布鲁图斯破坏者",
-                    "on_crit": "Target is knocked Prone."
+                    "on_crit": "目标<b>伏卧</b>。"
                 }
             }
         },
