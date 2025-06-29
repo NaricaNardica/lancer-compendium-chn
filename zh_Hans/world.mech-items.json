@@ -2067,7 +2067,7 @@
             "effect": "Choose one MELEE weapon: 1/round, after you hit a character with this weapon, you take 1 Heat and it projects a superheated Cone 3 cloud oriented away from your target in a direction of your choice. Your target and any characters caught in this cloud each take 2 Explosive Damage."
         },
         "Monarch": {
-            "name": "Monarch",
+            "name": "金斑蝶",
             "core_system": {
                 "active_effect": "Choose any number of characters within range 50: your targets must each succeed on an Agility save or take 1d6+4 explosive. On a success, they take half damage. These self-guiding missiles can reach any target as long as there is a path to do so.",
                 "active_name": "Divine Punishment",
