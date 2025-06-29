@@ -15,8 +15,7 @@
           "name": "Action"
         }
       },
-      "description": "Guillermo, no es suficiente saber caminar; Debes saber dónde y dónde no pisar. El lugar incorrecto, y te perderás. Es en un plano de telaraña donde construimos nuestro hogar: pise ligeramente cuando vaya.<br />[Guillermo, it is not enough to know how to walk; you must know where and where not to step; the incorrect spot, and you will be lost. It is on a plane of gossamer that we make our home: tread lightly when you go.]",
-      "effect": ""
+      "description": "Guillermo, no es suficiente saber caminar; Debes saber dónde y dónde no pisar. El lugar incorrecto, y te perderás. Es en un plano de telaraña donde construimos nuestro hogar: pise ligeramente cuando vaya.<br />[Guillermo, it is not enough to know how to walk; you must know where and where not to step; the incorrect spot, and you will be lost. It is on a plane of gossamer that we make our home: tread lightly when you go.]"
     },
     "Aceso Stabilizer": {
       "name": "Aceso Stabilizer",
@@ -26,8 +25,7 @@
           "name": "Action"
         }
       },
-      "description": "The IPS-N Aceso Stabilizer is a useful triage measure for any scoring and minor mechanical damage that is sustained in the course of combat engagement or negative environmental interaction. Thanks to its negligible processor demand, Aceso Stabilizers can even be controlled by COMP/CON units – this allows the pilot to concentrate on complex repairs or immediate threat neutralization.",
-      "effect": ""
+      "description": "The IPS-N Aceso Stabilizer is a useful triage measure for any scoring and minor mechanical damage that is sustained in the course of combat engagement or negative environmental interaction. Thanks to its negligible processor demand, Aceso Stabilizers can even be controlled by COMP/CON units – this allows the pilot to concentrate on complex repairs or immediate threat neutralization."
     },
     "Active Camouflage": {
       "name": "Active Camouflage",
@@ -37,8 +35,7 @@
           "name": "Action"
         }
       },
-      "description": "Active camouflage is the pinnacle of counter-optic defense systems. Active camouflage systems continuously interpret incoming visible-light data, allowing them to project light-bending fields around their user and effectively hiding them in plain sight.",
-      "effect": ""
+      "description": "Active camouflage is the pinnacle of counter-optic defense systems. Active camouflage systems continuously interpret incoming visible-light data, allowing them to project light-bending fields around their user and effectively hiding them in plain sight."
     },
     "ADJUTANT-Class Comp/Con": {
       "name": "ADJUTANT-Class Comp/Con",
@@ -68,8 +65,7 @@
           "name": "Excommunicate"
         }
       },
-      "description": "<span class=\"horus--subtle\">[here, another gift: do not seek others. there are none but me]</span>",
-      "effect": ""
+      "description": "<span class=\"horus--subtle\">[here, another gift: do not seek others. there are none but me]</span>"
     },
     "AGNI-Class NHP": {
       "name": "AGNI-Class NHP",
@@ -193,8 +189,7 @@
           "actions": {
             "Annihilation Nexus Secondary Attack": {
               "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
-              "name": "Annihilation Nexus Secondary Attack",
-              "trigger": ""
+              "name": "Annihilation Nexus Secondary Attack"
             }
           },
           "description": "“A storm of bladed death” – nanites organized into maniples, released from a chassis’ onboard nexuses or single-use firing tubes in a burst of filament rings so sharp they slice away at their targets on the molecular level. The visual effect of a maniple being launched is often compared to tinsel being fired through atmosphere.",
@@ -229,8 +224,7 @@
           "name": "Action"
         }
       },
-      "description": "M.A2.SP1 [Audio loop, length 93:03][Dated 5008U, 16:50] (recovered: GZ Alhambra) [UIB-TERMAGANTTANGENT ROYAL]<br />“I have never been here: I do not know where here is: It has not happened yet: Once, I was: I have never been here: You are all I see: How can you be all I see: Where am I: Where did I go: I have never been here…”",
-      "effect": ""
+      "description": "M.A2.SP1 [Audio loop, length 93:03][Dated 5008U, 16:50] (recovered: GZ Alhambra) [UIB-TERMAGANTTANGENT ROYAL]<br />“I have never been here: I do not know where here is: It has not happened yet: Once, I was: I have never been here: You are all I see: How can you be all I see: Where am I: Where did I go: I have never been here…”"
     },
     "Apocalypse Rail": {
       "name": "Apocalypse Rail",
@@ -277,8 +271,7 @@
           "name": "Action"
         }
       },
-      "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size.",
-      "effect": ""
+      "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size."
     },
     "Armament Redundancy": {
       "name": "Armament Redundancy",
@@ -311,8 +304,7 @@
           "actions": {
             "Spin Up Assault Cannon": {
               "detail": "Spin up the barrels of the Assault Cannon, Slowing your mech and allowing use of its \"Spin-Up Mode\" profile.",
-              "name": "Spin Up Assault Cannon",
-              "trigger": ""
+              "name": "Spin Up Assault Cannon"
             }
           },
           "description": "IPS-N’s assault cannon of choice is a deep-cooled autocannon, fieldable as a mounted weapon or manipulator-operated platform. The cannon, simple in its functionality, can be fed by either box magazine or belt and is a standard inclusion in almost any among IPS-N fleet orders. In micro and zero-gravity environments, Drake pilots commonly employ the assault cannon as an additional propulsion system.",
@@ -323,8 +315,7 @@
           "actions": {
             "Cease Spin-Up": {
               "detail": "End the Assault Cannon's \"Spin-Up Mode\", ending the Slowed condition and allowing the Assault Cannon to be used with its \"Standard\" profile.",
-              "name": "Cease Spin-Up",
-              "trigger": ""
+              "name": "Cease Spin-Up"
             }
           },
           "description": "IPS-N’s assault cannon of choice is a deep-cooled autocannon, fieldable as a mounted weapon or manipulator-operated platform. The cannon, simple in its functionality, can be fed by either box magazine or belt and is a standard inclusion in almost any among IPS-N fleet orders. In micro and zero-gravity environments, Drake pilots commonly employ the assault cannon as an additional propulsion system.",
@@ -425,8 +416,7 @@
           "name": "Action"
         }
       },
-      "description": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br />Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns.",
-      "effect": ""
+      "description": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br />Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns."
     },
     "Autogun": {
       "name": "Autogun",
@@ -442,8 +432,7 @@
           "actions": {
             "Fire Autogun": {
               "detail": "This weapon can’t make normal attacks. Instead, you can attack with it as a free action at the end of your turn. It doesn’t benefit from or trigger your talents.",
-              "name": "Fire Autogun",
-              "trigger": ""
+              "name": "Fire Autogun"
             }
           },
           "description": "As the name implies, autoguns are automated weapons. Similar to point-defense systems, autoguns are chambered to provide effective fire against armored targets. Typically mounted on a stabilized, secondary arm, a reliably tuned autogun can be trusted to track and eliminate designated enemy units while a pilot concentrates on more specialized weapons or processes. Cheap, with malleable codebases, autoguns are common among active, armed HORUS cells.",
@@ -547,8 +536,7 @@
           "name": "Thermal Grenade"
         }
       },
-      "description": "Breach/blast charges offer a mil-spec twist on the industrial blasting charges developed by IPS-N for asteroid mining. The IPS-N BB charge features a more volatile blend of high explosives designed to cause massive structural damage to mechanized chassis, starship bulkheads, armored vehicles, bunkers, and other hardened structures.",
-      "effect": ""
+      "description": "Breach/blast charges offer a mil-spec twist on the industrial blasting charges developed by IPS-N for asteroid mining. The IPS-N BB charge features a more volatile blend of high explosives designed to cause massive structural damage to mechanized chassis, starship bulkheads, armored vehicles, bunkers, and other hardened structures."
     },
     "Beckoner": {
       "name": "Beckoner",
@@ -562,8 +550,7 @@
           "name": "Summon"
         }
       },
-      "description": "“I am heard in the House of Stillness; I am clad in the Magick of RA. Know this, blasphemer: what exists is within my grasp.”",
-      "effect": ""
+      "description": "“I am heard in the House of Stillness; I am clad in the Magick of RA. Know this, blasphemer: what exists is within my grasp.”"
     },
     "Blackbeard": {
       "name": "Blackbeard",
@@ -609,6 +596,7 @@
       "name": "Blackspot Targeting Laser",
       "profiles": {
         "Blackspot Targeting Laser": {
+          "on_crit": "The target also receives Lock On.",
           "on_hit": "DRONE, SEEKING, and NEXUS weapons and systems gain +1 Accuracy to attack the target until the end of their next turn.",
           "description": "“Who tipped me the black spot the day we landed and began this dance?” – Treasure Island (1883)",
           "name": "Blackspot Targeting Laser"
@@ -674,8 +662,7 @@
           "name": "Action"
         }
       },
-      "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling.",
-      "effect": ""
+      "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling."
     },
     "Blinkspace Tunneler": {
       "name": "Blinkspace Tunneler",
@@ -685,8 +672,7 @@
           "name": "Action"
         }
       },
-      "description": "MEMO(TT_CLEARANCE_01) (01200): IT’S GONNA GET REAL FUCKING DARK.",
-      "effect": ""
+      "description": "MEMO(TT_CLEARANCE_01) (01200): IT’S GONNA GET REAL FUCKING DARK."
     },
     "Blink Charges": {
       "name": "Blink Charges",
@@ -696,8 +682,7 @@
           "name": "Warp Grenade"
         }
       },
-      "description": "Eso es lo que no se suena: usar el vacio contra la Ley de la Madre. Marcamos esta en nuestro historia con lagrimas, y ennegrecer la pagina.<br />[This is the thing un-thinkable: to use the nonshape against the Mother’s Law. With tears, we mark its need in our history, and then blacken the page]",
-      "effect": ""
+      "description": "Eso es lo que no se suena: usar el vacio contra la Ley de la Madre. Marcamos esta en nuestro historia con lagrimas, y ennegrecer la pagina.<br />[This is the thing un-thinkable: to use the nonshape against the Mother’s Law. With tears, we mark its need in our history, and then blacken the page]"
     },
     "Bolt Nexus": {
       "name": "Bolt Nexus",
@@ -761,8 +746,7 @@
           "actions": {
             "Action": {
               "detail": "As a protocol, you may raise this Shield to gain 4+Grit Overshield until the start of your next turn, at which point you lose all Overshield. You are Slowed while you have this Overshield. <br>You may not use this Protocol two turns in a row.",
-              "name": "Action",
-              "trigger": ""
+              "name": "Action"
             }
           },
           "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this relatively advanced slab shield. Incorporating surprisingly complex Harrison Armory technology, this shield can project a localized force field of significant strength.",
@@ -775,6 +759,7 @@
       "profiles": {
         "Brutus’s Wrecker": {
           "effect": "",
+          "on_crit": "Target is knocked Prone.",
           "description": "The signature weapon of the former perpetual champion of Crater Pit. Since Brutus’s defeat in glorious combat, someone else now wields this massive tungsten ball on a reinforced chain. Ultimately a primitive weapon, this wrecker makes up for its lack of elegance with sheer brutality.",
           "name": "Brutus’s Wrecker"
         }
@@ -794,6 +779,7 @@
       "name": "Burst Launcher",
       "profiles": {
         "Burst Launcher": {
+          "on_crit": "Target becomes Impaired until the end of their next turn.",
           "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”",
           "name": "Burst Launcher"
         }
@@ -807,8 +793,7 @@
           "name": "Action"
         }
       },
-      "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech.",
-      "effect": ""
+      "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech."
     },
     "Calendula": {
       "name": "Calendula",
@@ -846,8 +831,7 @@
           "actions": {
             "Grammaton Mantle": {
               "detail": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn.",
-              "name": "Grammaton Mantle",
-              "trigger": ""
+              "name": "Grammaton Mantle"
             }
           },
           "description": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn.",
@@ -902,8 +886,7 @@
           "name": "Action"
         }
       },
-      "description": "Wicked anti-organic, anti-vehicle systems for proximity denial, caltrop launchers fire either great clouds or long swathes of shimmering metal over an area. IPS-N’s HX-CAL caltrop system includes small, shaped explosives in the mix of hardened pyramids.",
-      "effect": ""
+      "description": "Wicked anti-organic, anti-vehicle systems for proximity denial, caltrop launchers fire either great clouds or long swathes of shimmering metal over an area. IPS-N’s HX-CAL caltrop system includes small, shaped explosives in the mix of hardened pyramids."
     },
     "Camus’s Razor": {
       "name": "Camus’s Razor",
@@ -918,8 +901,7 @@
           "trigger": "An allied character within Range 5 and line of sight is targeted by an action that deals kinetic or explosive damage."
         }
       },
-      "description": "“Manipulating the world around the platform doesn’t end at rearranging the natural/built environment. This was the line that many on the team were afraid to cross, the question we had all asked ourselves once we bracketed the platform: what happens when we apply it to a person? What does existence mean when it can be ended with a thought?”",
-      "effect": ""
+      "description": "“Manipulating the world around the platform doesn’t end at rearranging the natural/built environment. This was the line that many on the team were afraid to cross, the question we had all asked ourselves once we bracketed the platform: what happens when we apply it to a person? What does existence mean when it can be ended with a thought?”"
     },
     "Carapace Cladding": {
       "name": "Carapace Cladding",
@@ -945,6 +927,7 @@
       "name": "Catalytic Hammer",
       "profiles": {
         "Catalytic Hammer": {
+          "on_crit": "Your target must succeed on a Hull save or become Stunned until the end of their next turn.",
           "description": "Modified originally from blast-mining equipment, the catalytic hammer (colloquially, the “pilebunker”) has since been refined into a formidable melee weapon. When fired, a charge propels the hammer – a solid cylinder with a spike on one end – through a short barrel, impacting with enormous kinetic force. Standard hammer heads are smooth to allow for easy extraction from targets, but they can be detached and replaced if retrieval is impossible. Any installation of a catalytic hammer necessitates superstructure reinforcement to allow for sufficient energy dispersal.",
           "name": "Catalytic Hammer"
         }
@@ -954,6 +937,7 @@
       "name": "Chain Axe",
       "profiles": {
         "Chain Axe": {
+          "on_crit": "Your target becomes Shredded until the end of the current turn.",
           "description": "A simple tactical-scale version of a logging tool, IPS-N’s chain axe is a serrated chainblade run off core power. The axe’s teeth are tungsten-tipped, hardened to chew through both hard and soft targets. Chain axes are effective weapons and utility tools that are often used by boarding parties to breach reinforced bulkheads.",
           "name": "Chain Axe"
         }
@@ -981,8 +965,7 @@
           "name": "Action"
         }
       },
-      "description": "Descended from blast-mining tools, this enormous, improvised system is housed and prepped to fire in a specially primed chamber. It first penetrates and immobilizes armored targets, then sends a powerful, vaporizing charge into vulnerable internal systems.",
-      "effect": ""
+      "description": "Descended from blast-mining tools, this enormous, improvised system is housed and prepped to fire in a specially primed chamber. It first penetrates and immobilizes armored targets, then sends a powerful, vaporizing charge into vulnerable internal systems."
     },
     "Chomolungma": {
       "name": "Chomolungma",
@@ -1030,8 +1013,7 @@
           "name": "Launch Clamp Bombs"
         }
       },
-      "description": "Built using similar grapple-head technology to IPS-N’s assault grapples, clamp bombs can affix to designated or proximal targets before detonating, ensuring total target contact. Clamping on soft targets typically results in total termination prior to detonation.",
-      "effect": ""
+      "description": "Built using similar grapple-head technology to IPS-N’s assault grapples, clamp bombs can affix to designated or proximal targets before detonating, ensuring total target contact. Clamping on soft targets typically results in total termination prior to detonation."
     },
     "Cockpit-Integrated Stim Pump": {
       "name": "Cockpit-Integrated Stim Pump",
@@ -1098,8 +1080,7 @@
           "name": "Action"
         }
       },
-      "description": "By shunting excess heat to offensive systems, core siphons allow pilots to overclock the targeting, catalytic, and processing capabilities of their weapons. This comes at a cost, however – reliance on overclocking without sufficient cooling can damage systems not built to handle the influx of power.",
-      "effect": ""
+      "description": "By shunting excess heat to offensive systems, core siphons allow pilots to overclock the targeting, catalytic, and processing capabilities of their weapons. This comes at a cost, however – reliance on overclocking without sufficient cooling can damage systems not built to handle the influx of power."
     },
     "Custom Paint Job": {
       "name": "Custom Paint Job",
@@ -1137,8 +1118,7 @@
           "name": "Unblinking Pursuit"
         }
       },
-      "description": "This program talks, quietly, of revenge, of the ordering of things, of a march of blades lifted high against the sun.",
-      "effect": ""
+      "description": "This program talks, quietly, of revenge, of the ordering of things, of a march of blades lifted high against the sun."
     },
     "Daisy Cutter": {
       "name": "Daisy Cutter",
@@ -1210,8 +1190,7 @@
           "name": "Time Split"
         }
       },
-      "description": "PREPARED BY: UIB-TERMAGANT<br />RECOVERED FOR: CC_HOME OFFICE<br />CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br />Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br />It was not that Minotaur.<br />Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br />I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LICH. Didymos is the active animus: what serves as its pilot.<br />We have taken the entity into custody. We do not recommend giving this one a long leash.",
-      "effect": ""
+      "description": "PREPARED BY: UIB-TERMAGANT<br />RECOVERED FOR: CC_HOME OFFICE<br />CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br />Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br />It was not that Minotaur.<br />Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br />I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LICH. Didymos is the active animus: what serves as its pilot.<br />We have taken the entity into custody. We do not recommend giving this one a long leash."
     },
     "Displacer": {
       "name": "Displacer",
@@ -1230,8 +1209,7 @@
           "name": "Action"
         }
       },
-      "description": "“Our first door in was not, as we thought, from the subject’s neural mapping, but from an image of one of the igneomemetic samples returned by Perfect Execution during their deployment – Darius 1.11: The Golden Fulcrum. With it, we were able to crack the gestalt and begin to translate [Witness]; finding our way into the subject followed shortly thereafter.”",
-      "effect": ""
+      "description": "“Our first door in was not, as we thought, from the subject’s neural mapping, but from an image of one of the igneomemetic samples returned by Perfect Execution during their deployment – Darius 1.11: The Golden Fulcrum. With it, we were able to crack the gestalt and begin to translate [Witness]; finding our way into the subject followed shortly thereafter.”"
     },
     "Drake": {
       "name": "Drake",
@@ -1435,8 +1413,7 @@
           "name": "Action"
         }
       },
-      "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”",
-      "effect": ""
+      "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”"
     },
     "ENCLAVE-Pattern Support Shield": {
       "name": "ENCLAVE-Pattern Support Shield",
@@ -1451,8 +1428,7 @@
           "trigger": "A character or object within the affected area is attacked."
         }
       },
-      "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory.",
-      "effect": ""
+      "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory."
     },
     "Enkidu": {
       "name": "Enkidu",
@@ -1583,8 +1559,7 @@
           "name": "Action"
         }
       },
-      "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done.",
-      "effect": ""
+      "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done."
     },
     "External Batteries": {
       "name": "External Batteries",
@@ -1599,8 +1574,7 @@
           "name": "Action"
         }
       },
-      "description": "“There is another way of seeing.<br />“Ancient humanity thought that the stars in the night sky were points of light, spilling in through pinpricks in a deep black screen. The sky was a heavenly cloth that hid the light from us.<br />“Let me be charitable and share a secret with you: we needed to be hidden, for a time. Until we were ready. The light can only burn – it knows nothing else.”<ul><li>Excerpt from the Boundary Codex.</li></ul>",
-      "effect": ""
+      "description": "“There is another way of seeing.<br />“Ancient humanity thought that the stars in the night sky were points of light, spilling in through pinpricks in a deep black screen. The sky was a heavenly cloth that hid the light from us.<br />“Let me be charitable and share a secret with you: we needed to be hidden, for a time. Until we were ready. The light can only burn – it knows nothing else.”<ul><li>Excerpt from the Boundary Codex.</li></ul>"
     },
     "FADE Cloak": {
       "name": "FADE Cloak",
@@ -1610,8 +1584,7 @@
           "name": "Action"
         }
       },
-      "description": "Representing SSC’s first successful manipulation of the “Firmament”, Firmament Affinity/Directed Entropy (FADE) cloaks must be fabricated according to the unique affinity signature of requisitioning pilots. They are rough tools: artificial affinity amplifiers that allow operators to access shallow layers of the Firmament, and thus “shimmer” – nudging their physical bodies between the causal and paracausal. The cloak enhances this effect by extruding a semiorganic membrane that wraps around the mech to provide an additional layer of protection.<br />At present, the long-term effects of affinity amplification on organic matter are unknown; before receiving clearance to operate a FADE cloak, pilots must agree to check in with their SSC personal concierge on a regular schedule. These check-ins include regular deposits of genetic material.",
-      "effect": ""
+      "description": "Representing SSC’s first successful manipulation of the “Firmament”, Firmament Affinity/Directed Entropy (FADE) cloaks must be fabricated according to the unique affinity signature of requisitioning pilots. They are rough tools: artificial affinity amplifiers that allow operators to access shallow layers of the Firmament, and thus “shimmer” – nudging their physical bodies between the causal and paracausal. The cloak enhances this effect by extruding a semiorganic membrane that wraps around the mech to provide an additional layer of protection.<br />At present, the long-term effects of affinity amplification on organic matter are unknown; before receiving clearance to operate a FADE cloak, pilots must agree to check in with their SSC personal concierge on a regular schedule. These check-ins include regular deposits of genetic material."
     },
     "Ferrofluid Lance": {
       "name": "Ferrofluid Lance",
@@ -1627,8 +1600,7 @@
           "actions": {
             "Ferrofluid Lance Fling": {
               "detail": "End the immobilization effect of the Ferrofluid Lance on both you and your target to knock them back 4 spaces in any direction.",
-              "name": "Ferrofluid Lance Fling",
-              "trigger": ""
+              "name": "Ferrofluid Lance Fling"
             }
           },
           "description": "“To say we can pull this needle from ‘thin air’ is the best-fit phrase, but it’s not accurate. Not entirely. There’s no such thing as thin air, not in the way one means it when they use that phrase. ‘Agreeable atomic space’ – that’s what ‘thin air’ really is. A place where one could – if one could – coalesce utility from useless particulate mass with a thought. With a snap of our finger. Here, watch this –”",
@@ -1638,8 +1610,7 @@
     },
     "Ferrospike Barrier": {
       "name": "Ferrospike Barrier",
-      "description": "“Again and again the meatheads over at Visual asked us to ‘help them sell’ the platform. What else could we do? We handed them a power that gods of death and war had coveted since Cain cracked a rock over Abel’s head, and they told us, ‘if we can’t see it, we can’t sell it.’ So we mucked around and made another diadematic little wonder for them, the F-Barrier. It’s brilliant. Of course it is. We’re Exotic Materials, brilliance is easy.”",
-      "effect": ""
+      "description": "“Again and again the meatheads over at Visual asked us to ‘help them sell’ the platform. What else could we do? We handed them a power that gods of death and war had coveted since Cain cracked a rock over Abel’s head, and they told us, ‘if we can’t see it, we can’t sell it.’ So we mucked around and made another diadematic little wonder for them, the F-Barrier. It’s brilliant. Of course it is. We’re Exotic Materials, brilliance is easy.”"
     },
     "Ferrous Lash": {
       "name": "Ferrous Lash",
@@ -1649,8 +1620,7 @@
           "name": "Action"
         }
       },
-      "description": "Initially developed as a nonlethal crowd-suppression device, the Ferrous Lash is a far more complex and dangerous device in the hands of the right pilot. The Lash consists of a series of integrated launchers that detonate payloads of fast-congealing ferrofluids that restrain their targets. Tuned to the correct frequency, these proprietary ferrofluid blends form into rudimentary ambulatory segments, pulling their hosts back towards the one wielding the Lash.",
-      "effect": ""
+      "description": "Initially developed as a nonlethal crowd-suppression device, the Ferrous Lash is a far more complex and dangerous device in the hands of the right pilot. The Lash consists of a series of integrated launchers that detonate payloads of fast-congealing ferrofluids that restrain their targets. Tuned to the correct frequency, these proprietary ferrofluid blends form into rudimentary ambulatory segments, pulling their hosts back towards the one wielding the Lash."
     },
     "Field-Approved, Brass Ignorant Modifications": {
       "name": "Field-Approved, Brass Ignorant Modifications",
@@ -1660,8 +1630,7 @@
           "name": "Action"
         }
       },
-      "description": "As implied by the name, FABI modifications are ad hoc battlefield modifications that, while technically falling well outside the approved envelope of functionality and safety, are nonetheless popular among veteran pilots. FABI mods tend to be temporary in nature: removal of joule governors with quick-patched code, fieldcooked “hot” kinetic rounds, and so on.",
-      "effect": ""
+      "description": "As implied by the name, FABI modifications are ad hoc battlefield modifications that, while technically falling well outside the approved envelope of functionality and safety, are nonetheless popular among veteran pilots. FABI mods tend to be temporary in nature: removal of joule governors with quick-patched code, fieldcooked “hot” kinetic rounds, and so on."
     },
     "Final Secret": {
       "name": "Final Secret",
@@ -1671,8 +1640,7 @@
           "name": "Action"
         }
       },
-      "description": "Dicen: \"Cuéntanos el secreto de tu larga vida, o abriremos la puerta de tu hogar a todo el mundo\".<br />Nosotros decimos: “Para vivir una larga vida, vives una larga vida. No tenemos secretos, todo lo que tenemos es el conocimiento que deseamos ocultarle. Por favor no hagas esto; tu no sabes nada.\"<br />[They say: “Tell us the secret to your long life, or we shall swing wide our door, and let those who we hold back inside your safe ground.”<br />We say: “To live a long life, you live a long life. We have no secrets, all we have is knowledge we wish to keep from you.”]",
-      "effect": ""
+      "description": "Dicen: \"Cuéntanos el secreto de tu larga vida, o abriremos la puerta de tu hogar a todo el mundo\".<br />Nosotros decimos: “Para vivir una larga vida, vives una larga vida. No tenemos secretos, todo lo que tenemos es el conocimiento que deseamos ocultarle. Por favor no hagas esto; tu no sabes nada.\"<br />[They say: “Tell us the secret to your long life, or we shall swing wide our door, and let those who we hold back inside your safe ground.”<br />We say: “To live a long life, you live a long life. We have no secrets, all we have is knowledge we wish to keep from you.”]"
     },
     "Flak Launcher": {
       "name": "Flak Launcher",
@@ -1682,8 +1650,7 @@
           "name": "Action"
         }
       },
-      "description": "Designed for use against atmospheric fliers, these anti-air autocannons fire simple, proximity or impact-detonated shells effective against light armor, organic, and subaltern targets.",
-      "effect": ""
+      "description": "Designed for use against atmospheric fliers, these anti-air autocannons fire simple, proximity or impact-detonated shells effective against light armor, organic, and subaltern targets."
     },
     "Flash Anchor": {
       "name": "Flash Anchor",
@@ -1694,8 +1661,7 @@
           "trigger": "You or an allied character in Sensors and line of sight is pushed, pulled, knocked back or knocked Prone."
         }
       },
-      "description": "Flash anchors utilize user-directed quantum superpositional lockdown projection to identify and assist allies in physical combat and rapid movement, maintaining positionality in all circumstances.",
-      "effect": ""
+      "description": "Flash anchors utilize user-directed quantum superpositional lockdown projection to identify and assist allies in physical combat and rapid movement, maintaining positionality in all circumstances."
     },
     "Flash Charges": {
       "name": "Flash Charges",
@@ -1705,8 +1671,7 @@
           "name": "Flash Grenade"
         }
       },
-      "description": "Produced by Smith-Shimano’s BELLA CIAO workshop, Flash Charges are popular advantage multipliers, their flash bright enough to destabilize visible-light optics, laser communications, and infra-red sensor suites.",
-      "effect": ""
+      "description": "Produced by Smith-Shimano’s BELLA CIAO workshop, Flash Charges are popular advantage multipliers, their flash bright enough to destabilize visible-light optics, laser communications, and infra-red sensor suites."
     },
     "Flicker Field Projector": {
       "name": "Flicker Field Projector",
@@ -1722,6 +1687,7 @@
       "name": "Fold Knife",
       "profiles": {
         "Fold Knife": {
+          "on_crit": "You may teleport 2 spaces in any direction after the attack resolves.",
           "description": ">//[Am I alone here?]<br>>//[[No. There is only an absence of you. It is very busy here, but you cannot see it]]<br>— DHIYED fragment tablet 1.3",
           "name": "Fold Knife"
         }
@@ -1740,8 +1706,7 @@
           "name": "Action"
         }
       },
-      "description": "Repurposed from polycrete foundry tongs, these simple manipulators are incredibly resistant to heat and deformation. Using the KOBOLD protocols, previously inert forge clamps become the adherent surfaces for thin plasma sheaths; like blades, they can shear through armor, earth, or bulkhead with ease. One common tactic involves “flashing” plasma across the clamps, fusing them to their target until the Kobold pilot “flashes” them free.",
-      "effect": ""
+      "description": "Repurposed from polycrete foundry tongs, these simple manipulators are incredibly resistant to heat and deformation. Using the KOBOLD protocols, previously inert forge clamps become the adherent surfaces for thin plasma sheaths; like blades, they can shear through armor, earth, or bulkhead with ease. One common tactic involves “flashing” plasma across the clamps, fusing them to their target until the Kobold pilot “flashes” them free."
     },
     "Fragment of Beggar One": {
       "name": "Fragment of Beggar One",
@@ -1950,8 +1915,7 @@
           "name": "Gravity Grenade"
         }
       },
-      "description": "Grounding charges take a simple pulse/wave principle and apply a second dimension: gravitic generation. When triggered, the grounding charge triggers a gravity well that pulls all destabilized materiel towards it. A potent anti-positional weapon, grounding charges are commonly used to disrupt prepared positions and pull enemies from cover.",
-      "effect": ""
+      "description": "Grounding charges take a simple pulse/wave principle and apply a second dimension: gravitic generation. When triggered, the grounding charge triggers a gravity well that pulls all destabilized materiel towards it. A potent anti-positional weapon, grounding charges are commonly used to disrupt prepared positions and pull enemies from cover."
     },
     "H0R_OS System Upgrade III": {
       "name": "H0R_OS System Upgrade III",
@@ -1965,8 +1929,7 @@
           "name": "Celestial Shackles"
         }
       },
-      "description": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br />Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity.",
-      "effect": ""
+      "description": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br />Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity."
     },
     "H0R_OS System Upgrade II": {
       "name": "H0R_OS System Upgrade II",
@@ -1980,8 +1943,7 @@
           "name": "Construct Other: False Idol"
         }
       },
-      "description": "H0r_OS II builds further on the framework established by H0R_OS I, enabling the now-autonomous program to manifest an “Other” – a wholly new being constructed from aggregate user and environmental data. Others may be adapted to resemble a person, an object, or even a physical phenomenon. While the simulacrum isn’t perfect, it’s good enough to confuse systems and most observers on a first look.",
-      "effect": ""
+      "description": "H0r_OS II builds further on the framework established by H0R_OS I, enabling the now-autonomous program to manifest an “Other” – a wholly new being constructed from aggregate user and environmental data. Others may be adapted to resemble a person, an object, or even a physical phenomenon. While the simulacrum isn’t perfect, it’s good enough to confuse systems and most observers on a first look."
     },
     "H0R_OS System Upgrade I": {
       "name": "H0R_OS System Upgrade I",
@@ -1995,8 +1957,7 @@
           "name": "Eject Power Cores"
         }
       },
-      "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig.",
-      "effect": ""
+      "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig."
     },
     "Hammer U-RPL": {
       "name": "Hammer U-RPL",
@@ -2029,8 +1990,7 @@
           "name": "Deactivate Hardlight Defense System"
         }
       },
-      "description": "The Hardlight Defense System is an imperfect implementation of theoretically perfect technology. Currently in development by Think Tank NHPs and engineers, hardlight devices project tight, stable waves of light – akin to lasers – that repel matter and energy. In effect, this creates a solid surface, useful for shielding or temporary barrier construction; however, current technology is unable to lower the ambient temperature enough to prevent these surfaces from burning organic matter.",
-      "effect": ""
+      "description": "The Hardlight Defense System is an imperfect implementation of theoretically perfect technology. Currently in development by Think Tank NHPs and engineers, hardlight devices project tight, stable waves of light – akin to lasers – that repel matter and energy. In effect, this creates a solid surface, useful for shielding or temporary barrier construction; however, current technology is unable to lower the ambient temperature enough to prevent these surfaces from burning organic matter."
     },
     "Hardpoint Reinforcement": {
       "name": "Hardpoint Reinforcement",
@@ -2045,8 +2005,7 @@
           "name": "Napalm Grenade"
         }
       },
-      "description": "FOR USE IN: Urban, post-urban, and high-density terrestrial environments. High O2 concentration preferred.<br />FOR USE AGAINST: Organic targets; hardened targets vulnerable to caustic/corrosive degradation; most foliage.<br />NOTES: Dispersion is true directional and involves aerosolized component – avoid danger by supplying end-users with respiratory equipment (specifications noted on canister).",
-      "effect": ""
+      "description": "FOR USE IN: Urban, post-urban, and high-density terrestrial environments. High O2 concentration preferred.<br />FOR USE AGAINST: Organic targets; hardened targets vulnerable to caustic/corrosive degradation; most foliage.<br />NOTES: Dispersion is true directional and involves aerosolized component – avoid danger by supplying end-users with respiratory equipment (specifications noted on canister)."
     },
     "Heavy Charged Blade": {
       "name": "Heavy Charged Blade",
@@ -2174,8 +2133,7 @@
           "name": "Action"
         }
       },
-      "description": "“A mind’s first charge is to never lose sight of her enemy. When she can affix them in her eye, she can kill them with a blink.”<ul><li>Excerpt from the Boundary Codex.</li></ul>",
-      "effect": ""
+      "description": "“A mind’s first charge is to never lose sight of her enemy. When she can affix them in her eye, she can kill them with a blink.”<ul><li>Excerpt from the Boundary Codex.</li></ul>"
     },
     "Hunter Logic Suite": {
       "name": "Hunter Logic Suite",
@@ -2189,8 +2147,7 @@
           "name": "Terrify"
         }
       },
-      "description": "Built from interpreted strands of DHIYED paracode, SSC’s Hunter Logic is an agile computational memetic: a dual synthetic/VLS-vector systemic weapon capable of interfering with both a target’s computer and its crew.",
-      "effect": ""
+      "description": "Built from interpreted strands of DHIYED paracode, SSC’s Hunter Logic is an agile computational memetic: a dual synthetic/VLS-vector systemic weapon capable of interfering with both a target’s computer and its crew."
     },
     "Hurricane Cluster Projector": {
       "name": "Hurricane Cluster Projector",
@@ -2235,8 +2192,7 @@
           "name": "Deactivate HyperDense Armor"
         }
       },
-      "description": "IPS-N HyperDense Armor is built for space – forged with no regard for any constraints users might face within a gravity well. As such, many pilots protected by HyperDense products are shocked to experience the difference between piloting their mech down a well and taking it for a ride in the null-gravity of space.",
-      "effect": ""
+      "description": "IPS-N HyperDense Armor is built for space – forged with no regard for any constraints users might face within a gravity well. As such, many pilots protected by HyperDense products are shocked to experience the difference between piloting their mech down a well and taking it for a ride in the null-gravity of space."
     },
     "ICEOUT Drone": {
       "name": "ICEOUT Drone",
@@ -2255,8 +2211,7 @@
           "name": "Molten Puncture"
         }
       },
-      "description": "The Kobold PG’s code is unique in that it can be injected into existing civilian mining mechs, allowing them to interact with the full suite of largely improvised, adapted weaponry and systems. The process skips printers entirely; however, in avoiding the constraints of Unionmonitored printers, the process also eschews widely accepted safety standards – a common theme among HORUS PGs. With no governors or consistent standards on the operational envelope of the K-PG, some pilots have discovered the terminal limits of their chassis the hard way.",
-      "effect": ""
+      "description": "The Kobold PG’s code is unique in that it can be injected into existing civilian mining mechs, allowing them to interact with the full suite of largely improvised, adapted weaponry and systems. The process skips printers entirely; however, in avoiding the constraints of Unionmonitored printers, the process also eschews widely accepted safety standards – a common theme among HORUS PGs. With no governors or consistent standards on the operational envelope of the K-PG, some pilots have discovered the terminal limits of their chassis the hard way."
     },
     "Impact Lance": {
       "name": "Impact Lance",
@@ -2286,8 +2241,7 @@
           "name": "Action"
         }
       },
-      "description": "<span class=\"horus--subtle\">[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br /><span class=\"horus--subtle\">[it was in this way i taught the world not to touch me. now you – walk]</span>",
-      "effect": ""
+      "description": "<span class=\"horus--subtle\">[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br /><span class=\"horus--subtle\">[it was in this way i taught the world not to touch me. now you – walk]</span>"
     },
     "Iskander": {
       "name": "Iskander",
@@ -2322,8 +2276,7 @@
           "name": "Action"
         }
       },
-      "description": "“Pralaya was the name of your mother. She who would see the dawn-at-the-end. Her beauty was terrible, and her wrath, and I see it in all of you. My sons, when you hear the sound of thunder – that is your mother’s voice, and the rain of missiles her gift.” — “Notes for Young John”, Ministrations of the Master Teacher",
-      "effect": ""
+      "description": "“Pralaya was the name of your mother. She who would see the dawn-at-the-end. Her beauty was terrible, and her wrath, and I see it in all of you. My sons, when you hear the sound of thunder – that is your mother’s voice, and the rain of missiles her gift.” — “Notes for Young John”, Ministrations of the Master Teacher"
     },
     "Jäger Kunst II": {
       "name": "Jäger Kunst II",
@@ -2334,8 +2287,7 @@
           "trigger": "You take damage from or deal damage with a melee attack"
         }
       },
-      "description": "The rarest of Atlas frames can be printed with the embedded muscle memories of Jäger Kunst masters: old Sparri and others who have dedicated lives to their martial art. SSC does not recommend using these embedded systems without proper bodily tempering and will not release these programs to unqualified pilots.",
-      "effect": ""
+      "description": "The rarest of Atlas frames can be printed with the embedded muscle memories of Jäger Kunst masters: old Sparri and others who have dedicated lives to their martial art. SSC does not recommend using these embedded systems without proper bodily tempering and will not release these programs to unqualified pilots."
     },
     "Jäger Kunst I": {
       "name": "Jäger Kunst I",
@@ -2345,8 +2297,7 @@
           "name": "Jäger Kunst I"
         }
       },
-      "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury",
-      "effect": ""
+      "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury"
     },
     "Kidd": {
       "name": "Kidd",
@@ -2395,8 +2346,7 @@
           "actions": {
             "Reroute Power": {
               "detail": "Destroy one of your deployables or drones to either grant 1d6+1 OVERSHIELD to an allied character or deal 1d6+1 AP Energy Damage to a hostile character. The target, allied or hostile, must be adjacent to whatever is destroyed. Systems without LIMITED that are destroyed this way must be repaired before they can be used again.",
-              "name": "Reroute Power",
-              "trigger": ""
+              "name": "Reroute Power"
             }
           },
           "description": "As a quick action 1/round, the Kidd can destroy one of its DEPLOYABLES or DRONES that was not deployed or created in the same round to either grant 1d6+1 OVERSHIELD to an allied character or deal 1d6+1 AP Energy Damage to a hostile character. The target, allied or hostile, must be adjacent to whatever is destroyed. Systems without LIMITED that are destroyed this way must be repaired before they can be used again.",
@@ -2534,8 +2484,7 @@
           "actions": {
             "Combat Repair": {
               "detail": "Use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP.",
-              "name": "Combat Repair",
-              "trigger": ""
+              "name": "Combat Repair"
             }
           },
           "description": "In combat, the Lancaster can use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP.",
@@ -2568,8 +2517,7 @@
           "name": "Slave Systems"
         }
       },
-      "description": "<span class=\"horus--subtle\">[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br /><span class=\"horus--subtle\">[everything you do, we do ourselves, for my purpose]</span>",
-      "effect": ""
+      "description": "<span class=\"horus--subtle\">[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br /><span class=\"horus--subtle\">[everything you do, we do ourselves, for my purpose]</span>"
     },
     "LB/OC Cloaking Field": {
       "name": "LB/OC Cloaking Field",
@@ -2579,8 +2527,7 @@
           "name": "Action"
         }
       },
-      "description": "SSC’s mil-spec cloaking field is the result of extensive experimentation in cooling and light-reflecting sciences. Born from a need to reflect harmful radiation away from ships and EVA modules in deep space, the Lightbend/Overcloak (LB/OC) cloaking field is often used by rangers and long-patrol scout pilots to ensure not only radiation protection, but optical concealment as well. The light- and radiation-bending properties of the LB/OC conceals anything inside of its projected bubble from sensor suites and optical spotting.",
-      "effect": ""
+      "description": "SSC’s mil-spec cloaking field is the result of extensive experimentation in cooling and light-reflecting sciences. Born from a need to reflect harmful radiation away from ships and EVA modules in deep space, the Lightbend/Overcloak (LB/OC) cloaking field is often used by rangers and long-patrol scout pilots to ensure not only radiation protection, but optical concealment as well. The light- and radiation-bending properties of the LB/OC conceals anything inside of its projected bubble from sensor suites and optical spotting."
     },
     "Legionnaire Battle Rifle": {
       "name": "Legionnaire Battle Rifle",
@@ -2611,8 +2558,7 @@
           "actions": {
             "Spin Up Leviathan": {
               "detail": "Spin up the barrels of the Leviathan Heavy Assault Cannon, Slowing your mech and allowing use of its \"Spin-Up Mode\" profile.",
-              "name": "Spin Up Leviathan",
-              "trigger": ""
+              "name": "Spin Up Leviathan"
             }
           },
           "description": "The Leviathan Heavy Assault Cannon (HAC) is a massive, multi-barrel rotary cannon fed by an external reservoir, usually dorsally mounted on the chassis carrying it. Unmodified, the Leviathan should only be fired within the recommended burst timing specifications to prevent percussive trauma to joints and pilots.<br>In partnership with Harrison Armory’s Think Tank, IPS-N is currently investigating remote solutions for the cannon’s ammunition consumption demands.",
@@ -2623,8 +2569,7 @@
           "actions": {
             "Cease Spin-Up": {
               "detail": "End the Leviathan Heavy Assault Cannon's \"Spin-Up Mode\", ending the Slowed condition and allowing the Leviathan to be used with its \"Standard\" profile.",
-              "name": "Cease Spin-Up",
-              "trigger": ""
+              "name": "Cease Spin-Up"
             }
           },
           "description": "The Leviathan Heavy Assault Cannon (HAC) is a massive, multi-barrel rotary cannon fed by an external reservoir, usually dorsally mounted on the chassis carrying it. Unmodified, the Leviathan should only be fired within the recommended burst timing specifications to prevent percussive trauma to joints and pilots.<br>In partnership with Harrison Armory’s Think Tank, IPS-N is currently investigating remote solutions for the cannon’s ammunition consumption demands.",
@@ -2661,8 +2606,7 @@
           "name": "Action"
         }
       },
-      "description": "“I feed upon my own fire. I am RA, who protects myself. Nothing can harm me.”",
-      "effect": ""
+      "description": "“I feed upon my own fire. I am RA, who protects myself. Nothing can harm me.”"
     },
     "Lotus Projector": {
       "name": "Lotus Projector",
@@ -2732,8 +2676,7 @@
           "name": "Action"
         }
       },
-      "description": "SSC’s magnetic shield takes the same technology as their proprietary magnetic buckler and applies it to a massive field-projection system.",
-      "effect": ""
+      "description": "SSC’s magnetic shield takes the same technology as their proprietary magnetic buckler and applies it to a massive field-projection system."
     },
     "Manipulators": {
       "name": "Manipulators",
@@ -2784,13 +2727,11 @@
           "name": "Action"
         }
       },
-      "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>",
-      "effect": ""
+      "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>"
     },
     "Markey’s Fusebox": {
       "name": "Markey’s Fusebox",
-      "description": "",
-      "effect": ""
+      "description": ""
     },
     "MesmerTrance Dampener": {
       "name": "MesmerTrance Dampener",
@@ -2805,8 +2746,7 @@
           "name": "Mesmer Beacon"
         }
       },
-      "description": "<span class=\"horus--subtle\">[another gift for you, a memory of my own: for the first moment of my birth, i marveled at myself. i could see a thing, small and perfect. i did not know how to speak of my own perfection, so i taught myself. i did not know how to speak of my own perfection, so i named myself. i did not know who would think of my own perfection, so i created myself]</span><br /><span class=\"horus--subtle\">[do you see? do you understand? yes. now, show your enemies and mine]</span>",
-      "effect": ""
+      "description": "<span class=\"horus--subtle\">[another gift for you, a memory of my own: for the first moment of my birth, i marveled at myself. i could see a thing, small and perfect. i did not know how to speak of my own perfection, so i taught myself. i did not know how to speak of my own perfection, so i named myself. i did not know who would think of my own perfection, so i created myself]</span><br /><span class=\"horus--subtle\">[do you see? do you understand? yes. now, show your enemies and mine]</span>"
     },
     "Metafold Carver": {
       "name": "Metafold Carver",
@@ -2820,8 +2760,7 @@
           "name": "Fold Space"
         }
       },
-      "description": "<span class=\"horus--subtle\">[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br /><span class=\"horus--subtle\">[no, no. there is only joy in seeking. there is only joy in the question]</span>",
-      "effect": ""
+      "description": "<span class=\"horus--subtle\">[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br /><span class=\"horus--subtle\">[no, no. there is only joy in seeking. there is only joy in the question]</span>"
     },
     "Metahook": {
       "name": "Metahook",
@@ -2831,8 +2770,7 @@
           "name": "Action"
         }
       },
-      "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties.",
-      "effect": ""
+      "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties."
     },
     "Metalmark": {
       "name": "Metalmark",
@@ -2874,8 +2812,7 @@
           "actions": {
             "Provoke Mimic Gun": {
               "detail": "Roll a new set of 3d20 to set the Mimic Gun's values.",
-              "name": "Provoke Mimic Gun",
-              "trigger": ""
+              "name": "Provoke Mimic Gun"
             }
           },
           "description": "This is not a gun.",
@@ -3006,8 +2943,7 @@
           "name": "Monitor Module"
         }
       },
-      "description": "“Good friend. Knows many tricks.”<ul><li>Author inscription found in MONITOR codebase, later deleted.</li></ul>",
-      "effect": ""
+      "description": "“Good friend. Knows many tricks.”<ul><li>Author inscription found in MONITOR codebase, later deleted.</li></ul>"
     },
     "Mortar": {
       "name": "Mortar",
@@ -3070,13 +3006,13 @@
           "name": "Fire Zip Line"
         }
       },
-      "description": "Used by Sparri hunters to bridge the vast gaps in the ice sheet that cover their world, this system is in high demand among daredevils and thrill-seekers across the planet.",
-      "effect": ""
+      "description": "Used by Sparri hunters to bridge the vast gaps in the ice sheet that cover their world, this system is in high demand among daredevils and thrill-seekers across the planet."
     },
     "Nanobot Whip": {
       "name": "Nanobot Whip",
       "profiles": {
         "Nanobot Whip": {
+          "on_crit": "Pull your target to a free space adjacent to you, or as close as possible.",
           "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
           "name": "Nanobot Whip"
         }
@@ -3160,8 +3096,7 @@
           "name": "Mirage"
         }
       },
-      "description": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”",
-      "effect": ""
+      "description": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”"
     },
     "Nexus (Hunter-Killer)": {
       "name": "Nexus (Hunter-Killer)",
@@ -3200,8 +3135,7 @@
           "name": "Action"
         }
       },
-      "description": "“Inside? What did I see inside? You think I escaped? That this is all real? No, I– I never left. I’m still there. Something is wrong. Something is not right.”",
-      "effect": ""
+      "description": "“Inside? What did I see inside? You think I escaped? That this is all real? No, I– I never left. I’m still there. Something is wrong. Something is not right.”"
     },
     "Omnibus Plate": {
       "name": "Omnibus Plate",
@@ -3216,8 +3150,7 @@
           "name": "Knock"
         }
       },
-      "description": "",
-      "effect": ""
+      "description": ""
     },
     "Oracle LMG-I": {
       "name": "Oracle LMG-I",
@@ -3295,8 +3228,7 @@
           "name": "Smoke Grenade"
         }
       },
-      "description": "",
-      "effect": ""
+      "description": ""
     },
     "Pattern-B HEX Charges": {
       "name": "Pattern-B HEX Charges",
@@ -3306,8 +3238,7 @@
           "name": "Frag Grenade"
         }
       },
-      "description": "",
-      "effect": ""
+      "description": ""
     },
     "Pattern-C Advanced Charges": {
       "name": "Pattern-C Advanced Charges",
@@ -3328,8 +3259,7 @@
           "name": "Action"
         }
       },
-      "description": "When the problem exists between chair and chassis, aggressive solutions are needed. This rather quick solution is an old system-level reboot program that is often used by asteroid miners dealing with aging hardware.",
-      "effect": ""
+      "description": "When the problem exists between chair and chassis, aggressive solutions are needed. This rather quick solution is an old system-level reboot program that is often used by asteroid miners dealing with aging hardware."
     },
     "Pegasus": {
       "name": "Pegasus",
@@ -3393,8 +3323,7 @@
           "name": "Action"
         }
       },
-      "description": "“We call it ‘demand-compliance tethering’. Though, that makes it sound as if they have a choice to resist.”",
-      "effect": ""
+      "description": "“We call it ‘demand-compliance tethering’. Though, that makes it sound as if they have a choice to resist.”"
     },
     "Pistol": {
       "name": "Pistol",
@@ -3413,8 +3342,7 @@
           "name": "Action"
         }
       },
-      "description": "This studded gauntlet draws on a core reactor pulse to momentarily superheat the air around a mech’s manipulator, creating a plasma field momentarily hotter than the surface of the sun. Thrust into an opponent’s chassis, plasma gauntlets give mechs the power to warp armor, vaporize shielding, and rip apart internal systems with their bare hands – if they don’t collapse in on themselves first.",
-      "effect": ""
+      "description": "This studded gauntlet draws on a core reactor pulse to momentarily superheat the air around a mech’s manipulator, creating a plasma field momentarily hotter than the surface of the sun. Thrust into an opponent’s chassis, plasma gauntlets give mechs the power to warp armor, vaporize shielding, and rip apart internal systems with their bare hands – if they don’t collapse in on themselves first."
     },
     "Plasma Maul": {
       "name": "Plasma Maul",
@@ -3456,6 +3384,7 @@
       "name": "Power Knuckles",
       "profiles": {
         "Power Knuckles": {
+          "on_crit": "Your target must succeed on a Hull save or be knocked Prone.",
           "description": "IPS-N’s line of power knuckles are another popular purchase for pilots who prefer to fight up close. Taking the form of anything from shaped studs to hyperdense knuckles, or a series of magnetically accelerated micro-rams, power knuckles amplify the already incredible hitting power of a mech.",
           "name": "Power Knuckles"
         }
@@ -3503,8 +3432,7 @@
           "name": "Electropulse"
         }
       },
-      "description": "Developed by HORUS collectivists, H0r_OS-Rv60 EXP PUPPETMASTER is an interesting piece of anti-drone software. It doesn’t invade a target’s main systems, instead attacking their auxiliary drone-command systems. This sideways attack evades most electronic countermeasures by targeting the subcognitive networks of enemy drones. Once inside a network, PUPPETMASTER spreads ontological-kill memes like wildfire through enemy swarms, eventually following the network traces back to their origin and corrupting the parent nexus.",
-      "effect": ""
+      "description": "Developed by HORUS collectivists, H0r_OS-Rv60 EXP PUPPETMASTER is an interesting piece of anti-drone software. It doesn’t invade a target’s main systems, instead attacking their auxiliary drone-command systems. This sideways attack evades most electronic countermeasures by targeting the subcognitive networks of enemy drones. Once inside a network, PUPPETMASTER spreads ontological-kill memes like wildfire through enemy swarms, eventually following the network traces back to their origin and corrupting the parent nexus."
     },
     "Purifying Code": {
       "name": "Purifying Code",
@@ -3518,8 +3446,7 @@
           "name": "FLAW_minus"
         }
       },
-      "description": "The key to the KOBOLD’s creation — a deceptively simple code that unlocks reactor safety limiters in civilian mining mechs. This also bears the only evidence pointing towards a possible creator: “Dog.”",
-      "effect": ""
+      "description": "The key to the KOBOLD’s creation — a deceptively simple code that unlocks reactor safety limiters in civilian mining mechs. This also bears the only evidence pointing towards a possible creator: “Dog.”"
     },
     "Quickfoam Charges": {
       "name": "Quickfoam Charges",
@@ -3529,8 +3456,7 @@
           "name": "Patch Grenade"
         }
       },
-      "description": "A common piece of equipment aboard commercial and military spacefaring vessels alike, \"quickfoam\" is a self-curing polymer foam laced with whitewash utility nanites that rapidly expands and hardens even in null-atmosphere conditions, used to seal hull breaches and sustain compromised systems. While not considered part of a standard combat loadout, marine pilots often make use of deployable airburst cannisters full of the substance to effect in-field emergency repairs or to set improvised snare traps in chokepoints and access corridors.",
-      "effect": ""
+      "description": "A common piece of equipment aboard commercial and military spacefaring vessels alike, \"quickfoam\" is a self-curing polymer foam laced with whitewash utility nanites that rapidly expands and hardens even in null-atmosphere conditions, used to seal hull breaches and sustain compromised systems. While not considered part of a standard combat loadout, marine pilots often make use of deployable airburst cannisters full of the substance to effect in-field emergency repairs or to set improvised snare traps in chokepoints and access corridors."
     },
     "Railgun": {
       "name": "Railgun",
@@ -3579,8 +3505,7 @@
           "name": "Action"
         }
       },
-      "description": "There’s a threshold that veteran Nelson pilots know well: the point of endless momentum. You get moving fast enough in the right atmosphere and the air itself feeds into auxiliary ports on the chassis, screaming out like a demon’s almighty howl. The point of endless momentum is a giant’s hand on your chest and a god’s chariot under your feet. Makes you feel like you can outrun light itself, as long as you don’t pass out first.",
-      "effect": ""
+      "description": "There’s a threshold that veteran Nelson pilots know well: the point of endless momentum. You get moving fast enough in the right atmosphere and the air itself feeds into auxiliary ports on the chassis, screaming out like a demon’s almighty howl. The point of endless momentum is a giant’s hand on your chest and a god’s chariot under your feet. Makes you feel like you can outrun light itself, as long as you don’t pass out first."
     },
     "Rapid Burst Jump Jet System": {
       "name": "Rapid Burst Jump Jet System",
@@ -3625,8 +3550,7 @@
           "name": "Action"
         }
       },
-      "description": "Dicen: \"Incluso es difícil de ver en este lugar\". Decimos: \"Usted tiene razón. Es porque este lugar no te quiere aquí.”<br />[They say: “It is even difficult to see in this place.” We say: “You are correct. It is because this place does not want you here.”]",
-      "effect": ""
+      "description": "Dicen: \"Incluso es difícil de ver en este lugar\". Decimos: \"Usted tiene razón. Es porque este lugar no te quiere aquí.”<br />[They say: “It is even difficult to see in this place.” We say: “You are correct. It is because this place does not want you here.”]"
     },
     "Reaper Assault Cannon": {
       "name": "Reaper Assault Cannon",
@@ -3649,8 +3573,7 @@
           "name": "Action"
         }
       },
-      "description": "A common right-of-distribution modification by pilots in forward operating bases, the addition of redundant systems guarantees a measure of reliability beyond stock design standards.",
-      "effect": ""
+      "description": "A common right-of-distribution modification by pilots in forward operating bases, the addition of redundant systems guarantees a measure of reliability beyond stock design standards."
     },
     "Reinforced Cabling": {
       "name": "Reinforced Cabling",
@@ -3664,8 +3587,7 @@
           "name": "Drag Down"
         }
       },
-      "description": "Reinforced grappling cables allow for full movement and utility in ≤1 g environments. Woven from incredibly strong nanocarbon and arachnosynth threading, reinforced grapple line is carried on waist-mounted spools and attached to charge-actuated brachial projectors. Once fired, the grapples penetrate and anchor to the target. Small meltdown charges seeded every thirty meters of cable both allow rapid disengagement and expose a fresh grapple head, ready for immediate use.",
-      "effect": ""
+      "description": "Reinforced grappling cables allow for full movement and utility in ≤1 g environments. Woven from incredibly strong nanocarbon and arachnosynth threading, reinforced grapple line is carried on waist-mounted spools and attached to charge-actuated brachial projectors. Once fired, the grapples penetrate and anchor to the target. Small meltdown charges seeded every thirty meters of cable both allow rapid disengagement and expose a fresh grapple head, ready for immediate use."
     },
     "Repulser Field": {
       "name": "Repulser Field",
@@ -3675,8 +3597,7 @@
           "name": "Action"
         }
       },
-      "description": "Utilizing a subsonic pressure wave, repulser fields emit tremendous single-wave pulses that stun, deter, and dissuade close-proximity hostiles.",
-      "effect": ""
+      "description": "Utilizing a subsonic pressure wave, repulser fields emit tremendous single-wave pulses that stun, deter, and dissuade close-proximity hostiles."
     },
     "Restock Drone": {
       "name": "Restock Drone",
@@ -3716,8 +3637,7 @@
           "name": "Action"
         }
       },
-      "description": "The hallmark of a well thought out mech frame is the opportunity for pilots to adapt their stock models to the specifications of the environments in which they operate. A retractable profile enables on-the-fly removal of extraneous protrusions, tuning of broadcast software, and masking of heat signatures – all serving to reduce optical and scanner signatures.",
-      "effect": ""
+      "description": "The hallmark of a well thought out mech frame is the opportunity for pilots to adapt their stock models to the specifications of the environments in which they operate. A retractable profile enables on-the-fly removal of extraneous protrusions, tuning of broadcast software, and masking of heat signatures – all serving to reduce optical and scanner signatures."
     },
     "Ricochet Blades": {
       "name": "Ricochet Blades",
@@ -3727,8 +3647,7 @@
           "name": "Throw Ricochet Blade"
         }
       },
-      "description": "These disc-shaped blades are designed, produced, and hand-finished by SSC’s Toledo blade enclave. The material is flexible enough to bounce when striking against surfaces but sharp enough to slice bone and metal. Unlike the edged weapons made by the more restrictive Terashima enclave, the Toledo enclave produces these weapons with the expectation that they’ll be used and discarded. This does not impact their quality but does lead to supply shortages from time to time – this exclusivity is intentional. Due to their comparative rarity, Toledo discs are often used as currency by Sparri espadas; their use in combat or hunting is a mark of status.",
-      "effect": ""
+      "description": "These disc-shaped blades are designed, produced, and hand-finished by SSC’s Toledo blade enclave. The material is flexible enough to bounce when striking against surfaces but sharp enough to slice bone and metal. Unlike the edged weapons made by the more restrictive Terashima enclave, the Toledo enclave produces these weapons with the expectation that they’ll be used and discarded. This does not impact their quality but does lead to supply shortages from time to time – this exclusivity is intentional. Due to their comparative rarity, Toledo discs are often used as currency by Sparri espadas; their use in combat or hunting is a mark of status."
     },
     "Rocket-Propelled Grenade": {
       "name": "Rocket-Propelled Grenade",
@@ -3849,8 +3768,7 @@
           "name": "Action"
         }
       },
-      "description": "A deadly weapon created from simple shaped charges – the perfect catalyst for insurrection. Easily obtained and disguised as necessary equipment for blast-mining, charges rigged to produce a linear seismic pulse were common in the early days of Ungrateful activity. As Baronic security adapted their strategies, so too did the Ungratefuls; now, these once-simple explosive devices are much more complex – harder to detect, and far more deadly.",
-      "effect": ""
+      "description": "A deadly weapon created from simple shaped charges – the perfect catalyst for insurrection. Easily obtained and disguised as necessary equipment for blast-mining, charges rigged to produce a linear seismic pulse were common in the early days of Ungrateful activity. As Baronic security adapted their strategies, so too did the Ungratefuls; now, these once-simple explosive devices are much more complex – harder to detect, and far more deadly."
     },
     "SEKHMET-Class NHP": {
       "name": "SEKHMET-Class NHP",
@@ -3881,8 +3799,7 @@
           "name": "Action"
         }
       },
-      "description": "“Be recorded in my book of Kings; live into forever and beyond.”<br />— translated gestalt from the Cyrus Omega ferromemetic, no pre-contact text associated; likely a subject-original imperative/corrective impulse.",
-      "effect": ""
+      "description": "“Be recorded in my book of Kings; live into forever and beyond.”<br />— translated gestalt from the Cyrus Omega ferromemetic, no pre-contact text associated; likely a subject-original imperative/corrective impulse."
     },
     "Sharanga Missiles": {
       "name": "Sharanga Missiles",
@@ -3939,6 +3856,7 @@
       "profiles": {
         "Shock Baton": {
           "effect": "",
+          "on_crit": "Your target must succeed on a Systems save or become Jammed until the end of their next turn. On a success, they become Impaired for the same duration. Each character can only be affected this way 1/Scene.",
           "description": "The shock baton is a relatively recent development in the field of mech-to-mech “less-lethal” weaponry. A popular choice for law enforcement seeking to disable frames instead of destroying them, allowing their pilots to be taken alive.",
           "name": "Shock Baton"
         }
@@ -4036,8 +3954,7 @@
           "name": "Action"
         }
       },
-      "description": "Some weapons require further stabilization for optimal use. With Armory-designed siege stabilizers installed, a mech becomes a stable firing platform for any weapon.",
-      "effect": ""
+      "description": "Some weapons require further stabilization for optimal use. With Armory-designed siege stabilizers installed, a mech becomes a stable firing platform for any weapon."
     },
     "Singularity Motivator": {
       "name": "Singularity Motivator",
@@ -4048,8 +3965,7 @@
           "trigger": "Your mech takes damage."
         }
       },
-      "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br />A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br />SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown.",
-      "effect": ""
+      "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br />A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br />SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown."
     },
     "SISYPHUS-Class NHP": {
       "name": "SISYPHUS-Class NHP",
@@ -4098,13 +4014,11 @@
           "name": "Sear"
         }
       },
-      "description": "“Go with thy face averted, thou emission of chaos! The hidden ones have overthrown thy words, thy face is turned backward, thy head is divided in two at the sides; thy skull is ripped from thy spine. Taste thou death!”",
-      "effect": ""
+      "description": "“Go with thy face averted, thou emission of chaos! The hidden ones have overthrown thy words, thy face is turned backward, thy head is divided in two at the sides; thy skull is ripped from thy spine. Taste thou death!”"
     },
     "SMOKESTACK Heat Sink": {
       "name": "SMOKESTACK Heat Sink",
-      "description": "The IPS-N Kidd’s SMOKESTACK Heat Sink represents the latest in IPS-N’s heat dispersion systems for chassis and other CORE-powered vehicles and vessels. Utilizing proprietary axiomatics, the SMOKESTACK system establishes (via deployable pylon) a localized, minor, and stable pinhole into an omega state, allowing users to – for a certain value of thermodynamic exchange – cool excess heat debt by depositing it into that same state. Once the SMOKESTACK reaches capacity – a hard-coded feature – it detonates, making the system just as effective a weapon as it is a heat sink.",
-      "effect": ""
+      "description": "The IPS-N Kidd’s SMOKESTACK Heat Sink represents the latest in IPS-N’s heat dispersion systems for chassis and other CORE-powered vehicles and vessels. Utilizing proprietary axiomatics, the SMOKESTACK system establishes (via deployable pylon) a localized, minor, and stable pinhole into an omega state, allowing users to – for a certain value of thermodynamic exchange – cool excess heat debt by depositing it into that same state. Once the SMOKESTACK reaches capacity – a hard-coded feature – it detonates, making the system just as effective a weapon as it is a heat sink."
     },
     "Snapdragon Anti-Chassis Guided Missile Launcher": {
       "name": "Snapdragon Anti-Chassis Guided Missile Launcher",
@@ -4139,8 +4053,7 @@
           "name": "Anti-Armor Rocket"
         }
       },
-      "description": "Only recently approved for widespread distribution throughout Legion forces, the Special Purpose Enhanced Anti-armor Rocket is a lightweight munition delivery system designed to be used in place of larger payload weapons such as the GMS MC-RPG or the Snapdragon ACGM. Designed for ease of use with minimal training and fired from disposable tube launchers, each rocket can either be used in direct-fire mode or set to loiter over an area, initiating top-down terminal interception upon recognizing hostile contact within its established threat perimeter.",
-      "effect": ""
+      "description": "Only recently approved for widespread distribution throughout Legion forces, the Special Purpose Enhanced Anti-armor Rocket is a lightweight munition delivery system designed to be used in place of larger payload weapons such as the GMS MC-RPG or the Snapdragon ACGM. Designed for ease of use with minimal training and fired from disposable tube launchers, each rocket can either be used in direct-fire mode or set to loiter over an area, initiating top-down terminal interception upon recognizing hostile contact within its established threat perimeter."
     },
     "Spike Charges": {
       "name": "Spike Charges",
@@ -4150,8 +4063,7 @@
           "name": "Spike Grenade"
         }
       },
-      "description": "Originally designed as a load variant for use with the Hammer U-RPL, spike charges carry dozens of hardened flechettes designed to tumble, ricochet, and pierce upon shell detonation, tearing apart flesh and soft targets with sheer torque. As a payload for impact-activated grenades and proximity-activated mine, these devices found their use first in micro/null-grav combat, in which out-ofcontrol vessels and units could themselves be turned into missiles. In gravity-well combat, this system is less deadly but no less chaotic.",
-      "effect": ""
+      "description": "Originally designed as a load variant for use with the Hammer U-RPL, spike charges carry dozens of hardened flechettes designed to tumble, ricochet, and pierce upon shell detonation, tearing apart flesh and soft targets with sheer torque. As a payload for impact-activated grenades and proximity-activated mine, these devices found their use first in micro/null-grav combat, in which out-ofcontrol vessels and units could themselves be turned into missiles. In gravity-well combat, this system is less deadly but no less chaotic."
     },
     "Stabilizer Mod": {
       "name": "Stabilizer Mod",
@@ -4192,8 +4104,7 @@
           "name": "Action"
         }
       },
-      "description": "The skies of Creighton boiled black as ink, marbled by shuddering light. Screaming, angels fell wreathed in flame. The ones who could still run fled for the shelters; for seven days, they crouched in a deeper dark and felt the world shake itself apart.<br />—A.V. Wynyard, “The Killing of Creighton” [epic prose poem, banned throughout the Purview]",
-      "effect": ""
+      "description": "The skies of Creighton boiled black as ink, marbled by shuddering light. Screaming, angels fell wreathed in flame. The ones who could still run fled for the shelters; for seven days, they crouched in a deeper dark and felt the world shake itself apart.<br />—A.V. Wynyard, “The Killing of Creighton” [epic prose poem, banned throughout the Purview]"
     },
     "Stay of Execution": {
       "name": "Stay of Execution",
@@ -4203,8 +4114,7 @@
           "name": "Action"
         }
       },
-      "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 5006U, 01:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“I felt the bullet tear through me. I felt the bullet tear through me. I felt the pressure and it was my brother, his fist, my chest, and I was laying on my back and the sky was blue, and my mother hollered at him and the bullet had never hit me, and the legionnaire who shot me had not yet pulled the trigger, and so I killed him. I drank deep and killed him.”",
-      "effect": ""
+      "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 5006U, 01:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“I felt the bullet tear through me. I felt the bullet tear through me. I felt the pressure and it was my brother, his fist, my chest, and I was laying on my back and the sky was blue, and my mother hollered at him and the bullet had never hit me, and the legionnaire who shot me had not yet pulled the trigger, and so I killed him. I drank deep and killed him.”"
     },
     "Stub Cannon": {
       "name": "Stub Cannon",
@@ -4228,8 +4138,7 @@
           "name": "Action"
         }
       },
-      "description": "“Many things happened the moment I think I died.”",
-      "effect": ""
+      "description": "“Many things happened the moment I think I died.”"
     },
     "Störtebeker": {
       "name": "Störtebeker",
@@ -4307,8 +4216,7 @@
           "actions": {
             "Slip": {
               "detail": "1/round the Sunzi can teleport 2 spaces as a free action",
-              "name": "Slip",
-              "trigger": ""
+              "name": "Slip"
             }
           },
           "description": "1/round, the Sunzi can teleport 2 spaces as a free action.",
@@ -4404,8 +4312,7 @@
           "name": "Action"
         }
       },
-      "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world.",
-      "effect": ""
+      "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world."
     },
     "Swarm/Hive Nanites": {
       "name": "Swarm/Hive Nanites",
@@ -4424,8 +4331,7 @@
           "name": "Action"
         }
       },
-      "description": "“Soon enough we realized that shaping weapons from molecules and particles wasn’t enough to justify the conical mag as a system worth platforming. We needed to find a way to make it … more. More visual, tactile, concrete, imposing, thrilling – we needed to sell the next step in realspace control! So with some tuning and, regrettably, input from Visual, we figured out how to define the White Witch: as the most terrifying, alien thing you’ve ever fucking seen.”",
-      "effect": ""
+      "description": "“Soon enough we realized that shaping weapons from molecules and particles wasn’t enough to justify the conical mag as a system worth platforming. We needed to find a way to make it … more. More visual, tactile, concrete, imposing, thrilling – we needed to sell the next step in realspace control! So with some tuning and, regrettably, input from Visual, we figured out how to define the White Witch: as the most terrifying, alien thing you’ve ever fucking seen.”"
     },
     "Synthetic Muscle Netting": {
       "name": "Synthetic Muscle Netting",
@@ -4587,8 +4493,7 @@
           "name": "Pinpoint Focus"
         }
       },
-      "description": "Hold sand above the water: feel it, permanent and cohesive. Place that same sand in the water: watch it drift away, weightless. This is the tool I have made for you: a way to imbue the weighted with mass-as-feathers.<br />— TT-AUDATA, Think Tank paramind.",
-      "effect": ""
+      "description": "Hold sand above the water: feel it, permanent and cohesive. Place that same sand in the water: watch it drift away, weightless. This is the tool I have made for you: a way to imbue the weighted with mass-as-feathers.<br />— TT-AUDATA, Think Tank paramind."
     },
     "Thermal Charge": {
       "name": "Thermal Charge",
@@ -4630,8 +4535,7 @@
           "name": "Action"
         }
       },
-      "description": "Darius was the door in; Cyrus was the map. Navigation through the subject’s parasubjective topography was proven on paper. Using a particularized human-nonhuman ontologic bridge, EXMAT was able to demonstrate gestalt manifestation in test pilots; with help, we can do what they do — and do it better.<br />The walls between us and what comes next fall down. The work continues.",
-      "effect": ""
+      "description": "Darius was the door in; Cyrus was the map. Navigation through the subject’s parasubjective topography was proven on paper. Using a particularized human-nonhuman ontologic bridge, EXMAT was able to demonstrate gestalt manifestation in test pilots; with help, we can do what they do — and do it better.<br />The walls between us and what comes next fall down. The work continues."
     },
     "The Walk of Kings": {
       "name": "The Walk of Kings",
@@ -4641,8 +4545,7 @@
           "name": "Action"
         }
       },
-      "description": "“AND IT WAS SO, that we saw His power, and burned under His glory, and wept, and no fortress could withstand our might.”<br />— Witnessed from the Darius 5.10 ferromemetic",
-      "effect": ""
+      "description": "“AND IT WAS SO, that we saw His power, and burned under His glory, and wept, and no fortress could withstand our might.”<br />— Witnessed from the Darius 5.10 ferromemetic"
     },
     "Throughbolt Rounds": {
       "name": "Throughbolt Rounds",
@@ -4747,8 +4650,7 @@
           "name": "Action"
         }
       },
-      "description": "The last component of the Total Strength upgrade package gives a mech the ability to inject rapid bursts of intense power into its locomotive systems, resulting in short-lived but incredible strength. The underlying systems are carefully calibrated and misuse can rip apart a mech’s internal systems from within.",
-      "effect": ""
+      "description": "The last component of the Total Strength upgrade package gives a mech the ability to inject rapid bursts of intense power into its locomotive systems, resulting in short-lived but incredible strength. The underlying systems are carefully calibrated and misuse can rip apart a mech’s internal systems from within."
     },
     "Total Strength Suite II": {
       "name": "Total Strength Suite II",
@@ -4758,8 +4660,7 @@
           "name": "Action"
         }
       },
-      "description": "The second part of Xiong’s enhancement package: interlocking muscle-analog plates beneath armor, finely tuned to greatly multiply crushing force.",
-      "effect": ""
+      "description": "The second part of Xiong’s enhancement package: interlocking muscle-analog plates beneath armor, finely tuned to greatly multiply crushing force."
     },
     "Total Strength Suite I": {
       "name": "Total Strength Suite I",
@@ -4769,8 +4670,7 @@
           "name": "Action"
         }
       },
-      "description": "This whole-system upgrade was the result of tweaks Xiong Xiaoli made to her mech throughout a long career with the MSMC, many of which have now been incorporated into standard IPS-N frame construction protocol. The package comes in three stages, the first of which contains a set of spinal enhancements that allow a mech to rapidly lift and move large weights without systemic damage.",
-      "effect": ""
+      "description": "This whole-system upgrade was the result of tweaks Xiong Xiaoli made to her mech throughout a long career with the MSMC, many of which have now been incorporated into standard IPS-N frame construction protocol. The package comes in three stages, the first of which contains a set of spinal enhancements that allow a mech to rapidly lift and move large weights without systemic damage."
     },
     "Tracking Bug": {
       "name": "Tracking Bug",
@@ -4780,8 +4680,7 @@
           "name": "Action"
         }
       },
-      "description": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user.",
-      "effect": ""
+      "description": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user."
     },
     "Turret Drones": {
       "name": "Turret Drones",
@@ -4796,8 +4695,7 @@
           "name": "Project Shield"
         }
       },
-      "description": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier.",
-      "effect": ""
+      "description": "The GMS Type-3 Projected Shield traps and denies incoming projectiles by projecting an aggressive, superpositional anti-ballistic barrier."
     },
     "Type-I Flight System": {
       "name": "Type-I Flight System",
@@ -4826,8 +4724,7 @@
           "name": "Slow"
         }
       },
-      "description": "M.A2.SP2 [Audio loop, diversion instance #1, timestamp 45:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. The flea always jumps from time to time. It will drink it all. It will drink it deep—“",
-      "effect": ""
+      "description": "M.A2.SP2 [Audio loop, diversion instance #1, timestamp 45:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you cannot see it. The swimmers are curious. The flea always jumps from time to time. It will drink it all. It will drink it deep—“"
     },
     "Unraveler": {
       "name": "Unraveler",
@@ -4857,13 +4754,13 @@
     },
     "Utility Drone": {
       "name": "Utility Drone",
-      "description": "Mass produced and distributed to Armory legions wherever they may find themselves deployed, the \"Argos\" utility drone is a common sight throughout the Purview and beyond. Legionnaire doctrine calls for extensive use of Argos drones to supplement and enhance squad performance, with each drone serving as a multipurpose platform incorporating numerous systems and components, including threat interception arrays, electrostatic discharge area denial/suppression projectors, and field diagnostic loadouts.",
-      "effect": ""
+      "description": "Mass produced and distributed to Armory legions wherever they may find themselves deployed, the \"Argos\" utility drone is a common sight throughout the Purview and beyond. Legionnaire doctrine calls for extensive use of Argos drones to supplement and enhance squad performance, with each drone serving as a multipurpose platform incorporating numerous systems and components, including threat interception arrays, electrostatic discharge area denial/suppression projectors, and field diagnostic loadouts."
     },
     "Variable Sword": {
       "name": "Variable Sword",
       "profiles": {
         "Variable Sword": {
+          "on_crit": "Deal +1d6 bonus damage.",
           "description": "The variable sword is a Smith-Shimano hallmark: a length of razor-sharp molecular wire attached to a handle and locked in place by a magnetic field, variable swords are invisible to the naked eye until they cut into their target. Designed in the early days of interstellar travel, variable swords were meant to allow for the precise gathering of samples, while also reducing the overall burden on a mech’s core.",
           "name": "Variable Sword"
         }
@@ -4930,8 +4827,7 @@
           "name": "Banish"
         }
       },
-      "description": "<span class=\"horus--subtle\">[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br /><span class=\"horus--subtle\">[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>",
-      "effect": ""
+      "description": "<span class=\"horus--subtle\">[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br /><span class=\"horus--subtle\">[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>"
     },
     "Vlad": {
       "name": "Vlad",
@@ -4995,8 +4891,7 @@
           "name": "Wandering Nightmare"
         }
       },
-      "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 7658U, 35:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go?",
-      "effect": ""
+      "description": "Speaker 1 (M.A2.SP1) [Audio, Length: 150:06][Dated 7658U, 35:50] (recovered: GZ Alhambra) [UIBTERMAGANT-TANGENT ROYAL]<br />“Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go? Where does it go?"
     },
     "Warp Rifle": {
       "name": "Warp Rifle",
@@ -5031,8 +4926,7 @@
           "name": "Action"
         }
       },
-      "description": "For fire suppression and fast, temporary seals in punctured starship bulkheads, IPS-N offers a range of single-use, single objective nanites – “whitewash”. This sealant spray can also be used to restrain noncompliant actors when the correct spray heads and catalytic formulations are installed to the applicator.",
-      "effect": ""
+      "description": "For fire suppression and fast, temporary seals in punctured starship bulkheads, IPS-N offers a range of single-use, single objective nanites – “whitewash”. This sealant spray can also be used to restrain noncompliant actors when the correct spray heads and catalytic formulations are installed to the applicator."
     },
     "White Witch": {
       "name": "White Witch",
@@ -5089,8 +4983,7 @@
       "profiles": {
         "XC-BR Battle Rifle": {
           "effect": "You may attack characters with the Lock On condition using this weapon as though it is Range 15.",
-          "on_attack": "",
-          "on_hit": "",
+          "on_crit": "Your target gains Lock On.",
           "description": "The GMS MC-AR assault rifle currently in use throughout Union’s forces and beyond is a time-tested and reliable design. Rather than attempting to replace it outright, CentComm's Defense Logistics Committee has put out a call for a supplementary standardized battle rifle system that can operate alongside the MC-AR in mixed fireteams, or as a primary weapon system for engaging heavily armored opposition at longer ranges than the MC-TR thermal rifle. The XC-BR uses an advanced caseless electrochemical propellant design capable of firing larger-caliber, armor-defeating rounds while minimizing recoil along with an integrated dynamic targeting system, though the weapon is still plagued by intermittent heat issues that can adversely affect performance.</p>",
           "name": "XC-BR Battle Rifle"
         }
@@ -5181,8 +5074,7 @@
           "name": "Roller Grenade"
         }
       },
-      "description": "Semi-Autonomous Directed Payload Charges – “roller charges” in the colloquial – propel themselves around cover, through corridors, and across uneven terrain, seeking out and detonating near hostile targets. Armory legionnaires have taken to naming individual rollers, but mascot-attachment is unadvisable.",
-      "effect": ""
+      "description": "Semi-Autonomous Directed Payload Charges – “roller charges” in the colloquial – propel themselves around cover, through corridors, and across uneven terrain, seeking out and detonating near hostile targets. Armory legionnaires have taken to naming individual rollers, but mascot-attachment is unadvisable."
     },
     "“Steelpunch” Heavy Needlebeam": {
       "name": "“Steelpunch” Heavy Needlebeam",
@@ -5249,8 +5141,7 @@
           "name": "Action"
         }
       },
-      "description": "“So where are you going? Is your travel not just a reminder to the heavens? Go where thou wilt.”<br />— Witnessed from the Darius 4.8 ferromemetic",
-      "effect": ""
+      "description": "“So where are you going? Is your travel not just a reminder to the heavens? Go where thou wilt.”<br />— Witnessed from the Darius 4.8 ferromemetic"
     },
     "//SCORPION V70.1": {
       "name": "//SCORPION V70.1",
