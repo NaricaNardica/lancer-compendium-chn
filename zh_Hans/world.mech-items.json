@@ -618,20 +618,20 @@
                     "name": "Grammaton Mantle"
                 },
                 "Sculptor of Fate": {
-                    "name": "Sculptor of Fate",
+                    "name": "命运雕塑家",
                     "synergies": [
                         {
-                            "detail": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene."
+                            "detail": "<b>1/轮</b>，金盏花用科技攻击命中某角色时，它可以在目标<b>距离 3</b> 自由空间制造一个空壳。空壳是无法阻碍的<b>无形</b>物体。与目标大小相同，免疫所有伤害和效果，并在激活时释放<b>爆发2</b> 光环影响<b>无形</b>和<b>有形</b>角色。敌人部分进入该区域则受到<b>缓慢</b>。金盏菊可产生任意数量空壳，该场景结束时所有空壳都瓦解。"
                         }
                     ],
-                    "description": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene."
+                    "description": "<b>1/轮</b>，金盏花用科技攻击命中某角色时，它可以在目标<b>距离 3</b> 自由空间制造一个空壳。空壳是无法阻碍的<b>无形</b>物体。与目标大小相同，免疫所有伤害和效果，并在激活时释放<b>爆发2</b> 光环影响<b>无形</b>和<b>有形</b>角色。敌人部分进入该区域则受到<b>缓慢</b>。金盏菊可产生任意数量空壳，该场景结束时所有空壳都瓦解。"
                 },
                 "Grammaton Law": {
-                    "description": "SLOWED hostile characters are also SHREDDED while within Range 3 of the Calendula.",
+                    "description": "金盏花射程 3 内缓慢敌方角色会陷入<b>离散</b>。",
                     "name": "Grammaton Law"
                 }
             },
-            "description": "A signature of the Order Xenoglossia’s Stygos Grammaton, the Royal Karrakin Foundries Calendula is derived from the Minotaur pattern group first released by HORUS. Oddly, it is unclear from temporal markers whether the codebase used to create the Calendula was created separately, before contact with Union, despite being nearly identical to the Minotaur codebase.<br />The Calendula uses the internal spatial manipulation abilities of the Minotaur and inverts them, allowing experienced pilots of the mech to cut into a ‘non-space’ widely regarded by Union theorists to be the Aunic Firmament. In this grey and bleak interstitial zone, matter appears as a flowing fog, and is just as easily parted."
+            "description": "<i>作为异语者教团冥河神名的标志，皇家卡拉金铸造厂金盏花源自荷鲁斯首发的牛头人模式组。怪异的是，虽然与牛头人代码库几乎相同，但从时间标记上看，并不能清楚用于创建金盏花的代码库是否在与联盟接触之前单独创建。<br />金盏花利用牛头人内部空间操纵能力将其倒置，使经验丰富的机甲驾驶员能够切入一个被联盟理论学家公认为“昂星天穹”的“非空间”。在这灰色和暗淡的间隙地带，物质犹如流动的雾，且可以轻易分散。</i>"
         },
         "Caliban": {
             "traits": {
