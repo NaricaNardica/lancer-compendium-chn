@@ -610,12 +610,12 @@
                 "Grammaton Mantle": {
                     "actions": {
                         "Grammaton Mantle": {
-                            "name": "Grammaton Mantle",
-                            "detail": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn."
+                            "name": "神名斗篷",
+                            "detail": "以<b>协定</b>，金盏花可<b>无形</b>直到下一回合开始。"
                         }
                     },
-                    "description": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn.",
-                    "name": "Grammaton Mantle"
+                    "description": "以<b>协定</b>，金盏花可<b>无形</b>直到下一回合开始。",
+                    "name": "神名斗篷"
                 },
                 "Sculptor of Fate": {
                     "name": "命运雕塑家",
@@ -628,7 +628,7 @@
                 },
                 "Grammaton Law": {
                     "description": "金盏花射程 3 内缓慢敌方角色会陷入<b>离散</b>。",
-                    "name": "Grammaton Law"
+                    "name": "神名律法"
                 }
             },
             "description": "<i>作为异语者教团冥河神名的标志，皇家卡拉金铸造厂金盏花源自荷鲁斯首发的牛头人模式组。怪异的是，虽然与牛头人代码库几乎相同，但从时间标记上看，并不能清楚用于创建金盏花的代码库是否在与联盟接触之前单独创建。<br />金盏花利用牛头人内部空间操纵能力将其倒置，使经验丰富的机甲驾驶员能够切入一个被联盟理论学家公认为“昂星天穹”的“非空间”。在这灰色和暗淡的间隙地带，物质犹如流动的雾，且可以轻易分散。</i>"
@@ -644,7 +644,7 @@
                     "name": "Weak Computer",
                     "synergies": [
                         {
-                            "detail": "The Caliban takes +1 Difficulty on all systems saves and checks"
+                            "detail": "卡利班在所有<b>系统</b>豁免和<b>检定</b>中<b>+1难度</b>。"
                         }
                     ]
                 },
@@ -663,68 +663,68 @@
                 }
             },
             "core_system": {
-                "active_name": "Equip Autochoke",
-                "description": "The “Flayer” – officially the Heavy Howitzer-Shotgun 075 – is a compact, formalized version of the popular “Daisy Cutter” howitzer-shotgun used by Trunk Security and other stellar marine forces. Chambered to accept shot, shell, or sabot, the Flayer sacrifices some of the DaisyCutter’s raw power in favor of control and a much-improved fire rate.",
-                "active_effect": "The Flayer shotgun comes pre-equipped with a muzzle-mounted auto-choke that allows its user to better define the spread of shot issuing from the weapon. The extreme heat from equipping the choke renders it unusable in short order and it must be discarded.<br />For the rest of this scene, the HHS-075 “Flayer” Shotgun gains the following profile:<br />Main CQB, Accurate, Knockback 5<br />[Cone 3] [Threat 3] [1d6+2 kinetic damage]",
-                "name": "Flayer Shotgun"
+                "active_name": "配备自动锁喉",
+                "description": "<i>剥皮者”（正式名称为重型榴弹霰枪075）是受主干安保和其他海军陆战队流行使用的“摘菊使者”榴弹霰枪的一个紧凑且更为标准化的版本。它装有枪弹、炮弹或尾翼稳定脱壳弹的舱室，剥皮者牺牲一些摘菊使者的原始力量，以利于控制和大幅提高射速。</i>",
+                "active_effect": "剥皮者霰弹枪预先配备了安装在枪口的自动锁喉，允许它的使用者更好地界定从武器发射子弹的扩散。配备锁喉产生的极高热量使其无法在短时间内使用，必须将其丢弃。<br />场景结束前，HHS-075“剥皮者”散弹枪获得以下数据：<br />主武器CQB，精准，击退5<br />[锥形 3] [威胁 3] [1d6+2 动能伤害]",
+                "name": "HHS-075“剥皮者”霰弹枪"
             },
-            "name": "Caliban",
+            "name": "卡利班",
             "description": "<p>The Caliban chassis is a popular new order among anti piracy and stellar marine forces. Unlike many of IPS-N's modern frames, the Caliban was designed from the ground up to be a military machine. </p> <p>The Caliban is IPS-N's solution to the  \"Yemanova \" Problem, more properly known as the Impact-Override Problem. Capital ships, the problem posits, are incredibly expensive, demand a tremendous amount of time for corpros and Diasporan states to produce and maintain, and increasingly outmatched by anti-ship weaponry. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this makes many commanders gun-shy, encouraging them to rely on subline vessels and fighters to accomplish battle objectives rather than risk their big ships. This strategy tends to prove just as expensive: instead of one or a handful of large ships being destroyed, signifying the end of a battle, engagements can grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory. </p> <p>IPS-N was the first to crack the Yemanova Problem. The corpro's designers identified the need for a rapidly deployable, sub-signature, directed weapon. It needed to be well-armed and well-armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this need. </p> <p>Cultural critics argue that mechanized chassis venerate the form of a particular humanity; it is an unconscious nod towards the anthrochauvinist roots of the machine among leading designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose. </p> <p>Unlike many IPS-N frames, the Caliban has no roots in early attempts at self-defense by freighter crews and asteroid miners. It was not born from ingenuity - there is no legacy of resilience, heroism, or the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming; it does not build, defend, or inspire – it was designed to solve a numbers problem on a ledger. </p> <p>It is a tool designed to kill human beings very, very quickly. </p>"
         },
         "Caltrop Launcher": {
-            "name": "Caltrop Launcher",
+            "name": "蒺藜发射器",
             "actions": {
                 "Action": {
-                    "detail": "This system blankets a free blast 1 area within range 5 with explosive caltrops. The affected area becomes difficult terrain for the rest of the scene, and mechs take 1d3 AP explosive damage when they enter the affected area for the first time in a round or end their turn within it.",
-                    "name": "Action"
+                    "detail": "这系统在<b>射程5</b>的<b>溅射1</b>内<b>自由空间</b>布置爆炸蒺藜。受影响地区变成<b>困难地形</b>直至场景结束，而机甲在该轮第一次进入或是在其中结束回合时，受到<b>1d3AP爆炸伤害</b>。",
+                    "name": "动作"
                 }
             },
-            "description": "Wicked anti-organic, anti-vehicle systems for proximity denial, caltrop launchers fire either great clouds or long swathes of shimmering metal over an area. IPS-N’s HX-CAL caltrop system includes small, shaped explosives in the mix of hardened pyramids."
+            "description": "<i>蒺藜发射器会发射大量闪亮的金属覆盖目标地区，以其恶劣方式阻止靠近的反有机反载具系统。IPS-N的HX-CAL蒺藜系统包括混入小型锥形装药的硬化锥体。</i>"
         },
         "Camus’s Razor": {
-            "name": "Camus’s Razor",
+            "name": "加缪之锋",
             "actions": {
                 "Prime Camus's Razor": {
-                    "detail": "Your mech is capable of projecting a spot-magnetic force of incredible power. You can prime this system as a quick action. Once primed, you gain one use of the Intervention reaction for the rest of the scene.",
-                    "name": "Prime Camus's Razor"
+                    "detail": "你的机体有能力投射出惊人能级的磁力。你可以<b>快速动作</b>启动该系统。一旦启动，在接下来场景中你将获得<b>干预</b>反应。",
+                    "name": "加缪之锋预备"
                 },
                 "Intervention": {
-                    "detail": "You become the target of the action instead. If the action was an area of effect, such as a line, cone, blast, etc, the attacker must now position it so it targets you, or as close as possible, which could change its targets. This transfer takes place even if the original could not have hit you (i.e., it was a melee attack).",
-                    "name": "Intervention",
-                    "trigger": "An allied character within Range 5 and line of sight is targeted by an action that deals kinetic or explosive damage."
+                    "detail": "你会成为该动作的目标。若动作具备区域如<b>线形</b>，<b>锥形</b>，<b>爆发</b>等，攻击者必须以你方向为定位或尽可能靠近你，这可能会改变其目标。即使该攻击本就无法击中你（例如近战攻击），这种偏移也会发生。",
+                    "name": "干预",
+                    "trigger": "<b>视线射程5</b>内的盟友角色成为造成<b>动能</b>或<b>爆炸伤害</b>动作的目标。"
                 }
             },
-            "description": "“Manipulating the world around the platform doesn’t end at rearranging the natural/built environment. This was the line that many on the team were afraid to cross, the question we had all asked ourselves once we bracketed the platform: what happens when we apply it to a person? What does existence mean when it can be ended with a thought?”"
+            "description": "<i>“操纵机体周围的世界并不仅限于重新排列自然和人工环境。这是团队中许多人都不敢跨越的界限，也是我们在提到该机体时都曾问过自己的问题：当我们将其应用于一个人时，会发生什么？当存在可以用一种思想终结时，它又意味着什么呢？”</i>"
         },
         "Carapace Cladding": {
-            "description": "While sufficient for personal armor, Egregorian chitin on its own is not robust enough to withstand attacks from heavier weapons, nor can it easily be gathered in sufficient quantities to fully outfit a chassis. Regardless, many rangers still utilize carapace-based secondary defensive enhancements anchored over critical systems as an additional layer of ablative protection, most notably against incendiary or caustic/corrosive munitions that might otherwise resist conventional suppression.",
-            "effect": "Expend a charge to immediately clear all Burn from your mech. Additionally, whenever you BRACE you may also expend a charge to reduce all Burn dealt by the attack to 0.",
-            "name": "Carapace Cladding",
+            "description": "<i>虽然对个人装甲而言已然足够，但伊格林高利几丁质本身并不足以抵御来自重型武器的攻击，也不容易收集到足够数量来装备一台底盘。无论如何，多数游骑兵仍然利用基于甲壳的二级防御增强锚定在关键系统上作为额外烧蚀保护层，最显著的是对抗可能抵抗常规压制的燃烧或腐蚀性弹药。</i>",
+            "effect": "消耗<b>1充能</b>立即清除你机甲上的所有<b>燃烧</b>。此外，每当你<b>受身</b>时，你也可以消耗1充能使此次攻击造成的所有<b>燃烧</b>伤害降为0。",
+            "name": "甲壳包层",
             "actions": {
                 "Action": {
-                    "detail": "Immediately clear all Burn from your mech.",
-                    "name": "Action"
+                    "detail": "立刻清除你机甲的所有<b>燃烧</b>。",
+                    "name": "动作"
                 }
             }
         },
         "Catalytic Hammer": {
             "profiles": {
                 "Catalytic Hammer": {
-                    "description": "Modified originally from blast-mining equipment, the catalytic hammer (colloquially, the “pilebunker”) has since been refined into a formidable melee weapon. When fired, a charge propels the hammer – a solid cylinder with a spike on one end – through a short barrel, impacting with enormous kinetic force. Standard hammer heads are smooth to allow for easy extraction from targets, but they can be detached and replaced if retrieval is impossible. Any installation of a catalytic hammer necessitates superstructure reinforcement to allow for sufficient energy dispersal.",
-                    "name": "Catalytic Hammer",
-                    "on_crit": "Your target must succeed on a Hull save or become Stunned until the end of their next turn."
+                    "description": "<i>催化锤（俗称“打桩钉”）最初为爆破采矿装置改装而成，后改进为强大的近战武器。开火时，内部装药引爆，推动一端带有尖锐实心圆柱体的重锤穿过短管，予以极大的动能撞击。标准锤头为了易于拔出而有光滑表面，不过在无法回收时亦可直接分离替换。所有催化锤的安装都需经过上层结构加固确保能量的分散。</i>",
+                    "name": "催化锤",
+                    "on_crit": "你的目标必须成功进行<b>机体</b>豁免，否则<b>晕眩</b>直到他们下一回合结束。"
                 }
             },
-            "name": "Catalytic Hammer"
+            "name": "催化锤"
         },
         "Charged Blade": {
             "profiles": {
                 "Charged Blade": {
-                    "name": "Charged Blade",
-                    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-II (T-2) line displays GMS’s proprietary “charged” melee weapons and energy weapons. T-2 charged melee weapons are structurally similar to GMS’s T-1 melee weapons, though built with different materials to tolerate the intense heat generated by their projected plasma sheaths. These sheaths can be toggled on or off, depending on the needs of the pilot. GMS’s T-2 energy weapons, like their T-1 kinetics, are sturdy tools with predictable power scaling, minimal particle scattering, and consistent performance ranges. They feature universal ports allowing them to accept a variety of power sources, from hardline cabling through to “magazine” style power packs."
+                    "name": "充能刃",
+                    "description": "<i>正如GMS机甲，GMS武器同样是可靠的银河标准，使用可互换部件制造，承受几乎任何环境条件。目前有三条生产线在生产。</i><br><i>第二型（T-2）生产线展示了GMS专有的“充能”近战武器和能量武器。T-2充能近战武器在结构上与GMST-1近战武器相似，但采用了不同材料来承受等离子鞘产生的高温。这些等离子鞘可根据驾驶员需要开关。GMST-2能量武器正如其T-1动能武器，是拥有一板一眼的功率调节，最小粒子散射，以及始终如一的性能范围这些特征的牢靠工具。它们具有允许接入各种电源（从硬线电缆到“弹匣”式电源包）的通用端口。</i>"
                 }
             },
-            "name": "Charged Blade"
+            "name": "充能刃"
         },
         "Charged Stake": {
             "name": "Charged Stake",
@@ -4038,26 +4038,26 @@
             }
         },
         "Catalyst Pistol": {
-            "name": "Catalyst Pistol",
+            "name": "催化手枪",
             "profiles": {
                 "Catalyst Pistol": {
-                    "description": "“Burn, thou fiend, before the fire of the Eye of RA!”",
-                    "name": "Catalyst Pistol"
+                    "description": "<i>“燃毁吧，汝等妖孽，在拉之神眼的圣焰之中！”</i>",
+                    "name": "催化手枪"
                 }
             }
         },
         "Champion's Favor": {
-            "description": "These mech-scale golden laurels granted to pankration mechani champions house a small but sophisticated shield generator. The shield provides both protection and a distinctively colored visual shimmer, referred to as a champion's “aura” or “halo”.",
-            "name": "Champion's Favor",
-            "effect": "At the start of your turn, gain 1 Overshield."
+            "description": "<i>这一授予潘克拉辛通用机械运动冠军的机甲级金桂冠中，含有一台小型但复杂精巧的护盾发生器。护盾提供保护，以及独特视觉的流光溢彩，被称为冠军“光环”或“光轮”。</i>",
+            "name": "冠军之恩典",
+            "effect": "在你回合开始时，获得<b>1护盾</b>。"
         },
         "Chain Axe": {
-            "name": "Chain Axe",
+            "name": "链斧",
             "profiles": {
                 "Chain Axe": {
-                    "description": "A simple tactical-scale version of a logging tool, IPS-N’s chain axe is a serrated chainblade run off core power. The axe’s teeth are tungsten-tipped, hardened to chew through both hard and soft targets. Chain axes are effective weapons and utility tools that are often used by boarding parties to breach reinforced bulkheads.",
-                    "name": "Chain Axe",
-                    "on_crit": "Your target becomes Shredded until the end of the current turn."
+                    "description": "<i>IPS-N链斧是将伐木工具经过战术升级，透过核心动力来推动的锯齿链刃。斧头锯齿以钨加固用以切开软硬目标。链轴作为高效的武器和实用工具，经常被登船方用来破坏加固舱壁。</i>",
+                    "name": "链斧",
+                    "on_crit": "目标直到当前回合结束前<b>离散</b>。"
                 }
             }
         },
