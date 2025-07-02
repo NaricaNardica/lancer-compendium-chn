@@ -727,14 +727,14 @@
             "name": "充能刃"
         },
         "Charged Stake": {
-            "name": "Charged Stake",
+            "name": "充能标桩",
             "actions": {
                 "Action": {
-                    "detail": "This system fires a charged stake at a character adjacent to you. Your target must succeed on a Hull save or be impaled by the stake, taking<br>1d6 AP energy damage and becoming Immobilized while impaled. At the end of each of their turns, an impaled character takes 1d6 AP energy damage. An impaled character can successfully repeat this save as a full action to remove the stake and free themselves, which is the only way to end the immobilization.<br>You can only affect one character with the stake at a time.",
-                    "name": "Action"
+                    "detail": "该系统会对<b>邻近</b>你的一个角色发射充能标桩。你的目标必须成功进行<b>机体</b>豁免否则被标桩射穿，受到<b>1d6AP能量伤害</b>并<b>固定</b>。被穿刺的角色在回合结束时受到1d6AP能量伤害。该角色可用<b>完整动作</b>重复进行豁免来挣脱，除此之外在他们每回合结束时可进行另一个机体豁免，同一时间只能用影响一个角色。该状态无法用其他任何方法去除。",
+                    "name": "动作"
                 }
             },
-            "description": "Descended from blast-mining tools, this enormous, improvised system is housed and prepped to fire in a specially primed chamber. It first penetrates and immobilizes armored targets, then sends a powerful, vaporizing charge into vulnerable internal systems."
+            "description": "<i>这源自爆破采矿工具的庞大临时系统，被安置在特殊弹仓中随时准备射出。它先是穿透并固定装甲目标，然后向脆弱的内部系统发射强大的汽化电荷</i>"
         },
         "Chomolungma": {
             "traits": {
@@ -751,7 +751,7 @@
                     "name": "Replaceable Parts"
                 }
             },
-            "name": "Chomolungma",
+            "name": "珠穆朗玛",
             "core_system": {
                 "passive_actions": {
                     "System Crusher": {
