@@ -895,35 +895,35 @@
                 }
             },
             "name": "狄律摩斯级 NHP",
-            "description": "PREPARED BY: UIB-TERMAGANT<br />RECOVERED FOR: CC_HOME OFFICE<br />CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br />Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br />It was not that Minotaur.<br />Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br />I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LICH. Didymos is the active animus: what serves as its pilot.<br />We have taken the entity into custody. We do not recommend giving this one a long leash."
+            "description": "<i>拟制：UIB-TERMAGANT<br>重新获取：CC_ HOME OFFICE<br>牌照要求：庄严守夜（TANGENT ROYAL 附件）<br><br>狄律摩斯。在一种古老的语言中，它的意思是“孪生者”。挺逗人喜欢的不是吗，那是我们的匣向我们吐露的名字。在阿罕布拉绿区（Green Zone Alhambra）沦陷期间，我们观测到狄律摩斯底层的运行情况，它被安装在一架底盘上，我们最初认为这是在新学院（NewMadrassa）的背弃者小组运行的三台荷鲁斯“牛头人”PG 之一。<br>那不是“牛头人”。<br>阿罕布拉在三天内沦陷。兵工厂并不想放弃它，但他们决定减少损失，选择撤退而不是等待增援。于是我们搬了进去——在洗劫期间。我们在当地联络人 [][][][][][][][] 护送下去见了新学院的指挥官，把我们介绍给他们，并争取到了机甲驾驶员的接见机会。<br>我相信你已经看过我们的汇报记录了。我们不知道它是如何到达新学院的。背弃者说他们从瓦莱多勒人的线人那里收到了初始编码。瓦莱多勒人否认了这一点；然而，该实体符合他们对一种叫做“跳蚤”实体的描述。我们将其命名为“巫妖”。狄律摩斯是被激活的意像体——作为它的驾驶员实体。<br>我们已捕获该实体。我们不建议给它施加宽松的枷锁。</i>"
         },
         "Displacer": {
-            "name": "Displacer",
+            "name": "置换枪",
             "profiles": {
                 "Displacer": {
-                    "name": "Displacer",
-                    "description": "The Displacer is the result of ongoing blinkspace exposure tests and refinement of standard interstellar travel methods. In terms of appearance, the Displacer could be mistaken for a conventional energy rifle, but it requires a massive secondary, dorsal-mounted reactor: when fired, the Displacer identifies a bubble of local space (size and location determined on an ad hoc basis by the user) and snaps it into blinkspace. The destination of the bubble is unknown, but the effect is dramatic: anything inside simply ceases to exist in this dimension, transported somewhere in the void of blinkspace. The Displacer makes no sound when fired, but the sudden and necessary venting of its power supply is tremendous; similarly, the heatwave of its backblast vent is deadly to any unshielded personnel exposed to it."
+                    "name": "置换枪",
+                    "description": "<i>置换枪是持续对暴露在霎间的研究和标准星际旅行方式改善的成果。置换枪在外观上看相当普通的能量步枪，但它需要安装在机甲额外的庞大背装式反应炉供能：开火时，置换枪会识别一个局部空间泡状体（大小和位置有使用者决定）并将其捕获拖入霎间。泡状体目的地不明，但其效果是显著的：任何在该维度的物质将不复存在，被投入霎间虚空中。置换枪开火时没有声音，但其能源突然且必要的散热声音则是震耳欲聋；同样，其后喷风口产生的热浪对任何暴露在它之下的未防护人员均是无比致命。</i>"
                 }
             }
         },
         "Dominion's Breadth": {
-            "name": "Dominion's Breadth",
+            "name": "广域支配",
             "actions": {
                 "Action": {
-                    "detail": "A mech character within Sensors and line of sight gains Overshield 1. When this Overshield is lost for any reason, that character releases a Burst 2 electric pulse. All hostile characters in the affected area (including the original character, if hostile), take 2 AP energy damage and must succeed on an Engineering save or become Impaired until the end of their next turn.",
-                    "name": "Action"
+                    "detail": "视线感应内的一台机甲角色获得<b>护盾 1</b>。当该护盾因任何原因丢失时，该角色会在其周围释放<b>爆炸 2 </b>电磁脉冲。所有受影响敌对角色（包括原角色，若它是敌人）将受到 <b>2 AP </b>能量伤害，且必须通过<b>工程</b>豁免否则<b>受损</b>直到在他们下一回合结束。",
+                    "name": "动作"
                 }
             },
-            "description": "“Our first door in was not, as we thought, from the subject’s neural mapping, but from an image of one of the igneomemetic samples returned by Perfect Execution during their deployment – Darius 1.11: The Golden Fulcrum. With it, we were able to crack the gestalt and begin to translate [Witness]; finding our way into the subject followed shortly thereafter.”"
+            "description": "<i>“我们的第一扇门不如我们所想的那样，来自于主观体的神经映射，而是来自完美执行在他们部署期间返回的一个火成模因（igneomemetic）样本的图像——大流士1.11：黄金支点。有了它，我们能够破解格式塔，并开始翻译【见证】；不久我们就找到了进入这个主观体的方法。”<br>“有趣的是：这两种记录都被用来重建帝皇主观体的上层结构——大流士和居鲁士模因 ——包括来自《古兰经》阿亚特（āyāt）的前麦加再建，那极有可能来自危机年代人类与埃格里高利文明的互相作用。”</i>"
         },
         "Drake": {
-            "name": "Drake",
+            "name": "德瑞克",
             "core_system": {
-                "active_effect": "You deploy heavy stabilizers and your mech becomes more like a fortified emplacement than a vehicle. When activated, two sections of hard cover (line 2, Size 1) unfold from your mech, drawn in any direction. These cover sections have Immunity to all damage.<br />Additionally, the following effects apply while active:<ul><li>You become Immobilized.</li><li>You benefit from hard cover, even in the open, and gain Immunity to Knockback, Prone, and all involuntary movement.</li><li>When you Brace, you may take a full action on your next turn instead of just a quick action.</li><li>Any character that gains hard cover from you or your cover sections gains Immunity to Knockback, Prone, and all involuntary movement, and gains the benefits of Blast Plating.</li></ul>This system can be deactivated as a protocol. Otherwise, it lasts until the end of the current scene.",
-                "active_name": "Fortress Protocol",
-                "name": "Fortress"
+                "active_effect": "你展开重型稳定装置，让机甲从载具化为固定要塞。激活时，从你的机甲向任意方向展开两段硬性掩护<b>（线形 2，大小 1）</b>。这些掩护对所有伤害免疫。<br />此外，在激活时获得以下效果：<ul><li>·你被<b>固定</b>。</li><li>·即使在开阔地形你也能得到硬性掩护，并对击退、<b>伏卧</b>和所有强制移动<b>免疫</b>。</li><li>·当你<b>受身</b>时，你在下一回合可以进行<b>完整动作</b>而非<b>快速动作</b>。</li><li>·所有从你或你的掩体获得硬性掩护的角色对击退、<b>伏卧</b>和所有强制移动<b>免疫</b>，并受益于<b>爆发镀层</b>。</li></ul>该系统可使用协定解除。否则它会维持至场景结束。",
+                "active_name": "要塞协定",
+                "name": "要塞"
             },
-            "description": "The Drake, IPS-N’s first foray into military-grade mech design, is the backbone of any proactive trade-security or anti-piracy force. Its massive, simian frame is built around a single-cast bulkhead, sloped and reinforced to handle sustained fire and the vagaries of vessel-proximal hardvac travel. The Drake is an imposing chassis, its frame evoking the might of ancient armored infantry from a time when greater numbers guaranteed victory.<br />The standard fleet license for the IPS-N Drake outfits each chassis with IPS-N’s high-velocity, high–projectile fragment assault cannon for suppressing and overwhelming targets, and a heavy kinetic–ablative shield for defense. Advanced models feature upgraded weapons and armor including the formidable Leviathan Heavy Assault Cannon, a high-rpm anti-materiel weapon.",
+            "description": "<i>德瑞克是 IPS-N 在军用机甲领域首次涉足的作品，是任何主动贸易安保或反海盗部队的支柱。其巨大的类猿猴骨架围绕整块铸造舱壁而建，该隔板倾斜并加固，能够承受持续火力以及船体附近硬空域旅行的各种不确定性。德雷克底盘气势恢宏，其结构让人联想到古代重装步兵的威猛——那是一个兵力数量决定胜负的时代。<br />IPS-N 德雷克标准舰队订单配置为每台机甲装备了用于压制目标的高射速高破片 IPS-N 突击加农炮，并配有动能烧蚀塔盾用作防御。更高端的型号则配备了升级后的武器和装甲，包括重量级的高转速反器材武器：利维坦重型突击加农炮。</i>",
             "traits": {
                 "Slow": {
                     "name": "Slow",
