@@ -636,12 +636,12 @@
         "Caliban": {
             "traits": {
                 "Slam": {
-                    "description": "1/round, when the Caliban knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it may force its target to pass a HULL save or take 1d6 Kinetic Damage and become IMPAIRED until the end of its next turn.",
-                    "name": "Slam"
+                    "description": "<b>1/轮</b>，在卡利班将某角色撞到墙壁、机甲或其他障碍物上使其停止移动时，它可迫使目标进行<b>机体</b>豁免，否则受到<b> 1d6 动能伤害</b>，且直到对方下一回合结束前处于<b>受损</b>。",
+                    "name": "锤击"
                 },
                 "Weak Computer": {
-                    "description": "The Caliban takes +1 Difficulty on all SYSTEMS saves and checks.",
-                    "name": "Weak Computer",
+                    "description": "在所有<b>系统</b>豁免和检定中，卡利班<b>+1 难度</b>。",
+                    "name": "弱计算机",
                     "synergies": [
                         {
                             "detail": "卡利班在所有<b>系统</b>豁免和<b>检定</b>中<b>+1难度</b>。"
@@ -649,17 +649,17 @@
                     ]
                 },
                 "Wrecking Ball": {
-                    "description": "The Caliban counts as Size 3 when inflicting knockback with any Ram, Ranged, or Melee Attack.",
-                    "name": "Wrecking Ball",
+                    "description": "因使用<b>冲撞</b>，<b>远程</b>或者<b>近战</b>攻击造成<b>击退</b>时，卡利班视为<b>大小 3</b>。",
+                    "name": "落锤破碎机",
                     "synergies": [
                         {
-                            "detail": "The Caliban counts as size 3 when inflicting knockback from any ranged or melee attack."
+                            "detail": "因使用<b>冲撞</b>，<b>远程</b>或者<b>近战</b>攻击造成<b>击退</b>时，卡利班视为<b>大小 3</b>。"
                         }
                     ]
                 },
                 "Pursue Prey": {
-                    "description": "When the Caliban inflicts KNOCKBACK as part of any action, it can move an equal number of spaces towards the same target by the most direct route possible. This movement is part of the same action, ignores engagement and doesn’t provoke reactions.",
-                    "name": "Pursue Prey"
+                    "description": "卡利班在任意动作中施加<b>击退</b>时，它可以通过最直接的路线<b>移动相同数量的空间到相同的目标</b>。该移动是动作中的一部分，忽略交战且不会引起反应。",
+                    "name": "追猎"
                 }
             },
             "core_system": {
@@ -669,7 +669,7 @@
                 "name": "HHS-075“剥皮者”霰弹枪"
             },
             "name": "卡利班",
-            "description": "<p>The Caliban chassis is a popular new order among anti piracy and stellar marine forces. Unlike many of IPS-N's modern frames, the Caliban was designed from the ground up to be a military machine. </p> <p>The Caliban is IPS-N's solution to the  \"Yemanova \" Problem, more properly known as the Impact-Override Problem. Capital ships, the problem posits, are incredibly expensive, demand a tremendous amount of time for corpros and Diasporan states to produce and maintain, and increasingly outmatched by anti-ship weaponry. In a conventional capital duel, a successful kill means the death of thousands of personnel and the loss of millions of units of manna; this makes many commanders gun-shy, encouraging them to rely on subline vessels and fighters to accomplish battle objectives rather than risk their big ships. This strategy tends to prove just as expensive: instead of one or a handful of large ships being destroyed, signifying the end of a battle, engagements can grind on for weeks as squadrons of smaller ships engage inside the unpredictability gap, inching towards victory. </p> <p>IPS-N was the first to crack the Yemanova Problem. The corpro's designers identified the need for a rapidly deployable, sub-signature, directed weapon. It needed to be well-armed and well-armored, small enough to enter a ship and efficiently neutralize personnel in order to achieve victory. IPS-N created the Caliban to solve this need. </p> <p>Cultural critics argue that mechanized chassis venerate the form of a particular humanity; it is an unconscious nod towards the anthrochauvinist roots of the machine among leading designers and fabricators. The Caliban is not that. It was never intended to be an image of man writ large, striding across the battlefield heroically to affect a greater purpose. </p> <p>Unlike many IPS-N frames, the Caliban has no roots in early attempts at self-defense by freighter crews and asteroid miners. It was not born from ingenuity - there is no legacy of resilience, heroism, or the frontier spirit to paper over the purpose of its birth. It has no civilian applications in aid, disaster relief, construction, or farming; it does not build, defend, or inspire – it was designed to solve a numbers problem on a ledger. </p> <p>It is a tool designed to kill human beings very, very quickly. </p>"
+            "description": "<i><p>卡利班底盘是在反海盗和一流海军部队中颇受欢迎的新订单。不似诸多 IPS-N 的现代骨架，卡利班的设计从落地开始便是一台军事机甲。</p><p>卡利班是 IPS-N 对“耶曼诺娃”（Yemanova）问题的解决方案，更确切地称为影响覆盖问题。问题假设主力舰极其昂贵，需要公司国和散居国大量的时间来生产和维护，并且越来越被反舰武器所赶超。在传统的主力舰决斗中，一次成功的杀伤意味着数千人的死亡和数百万单位吗哪的损失；这使许多指挥官感到胆怯，愈发怂恿他们依靠副艇和战斗机来完成战斗目标，而不是冒险使用他们的大型舰船。这种战略的趋向结果同样昂贵：胜利条件不再由一艘或几艘大型舰船被摧毁，小型舰船编队需要在可预测的环境内开战，倾向胜利条件的交战可能会持续数周。</p><p>IPS-N 是第一个破解耶曼诺娃问题的公司。公司专业设计者确定了对一种快速部署、低识别信号、定向武器的需求。为了取得胜利，它需要精良的，优越的装甲，足以进入舰船的小体积，并能有效地压制人员。IPS-N 创造了卡利班来解决这个需求。</p><p>文化批评家认为，机械化底盘崇拜定性了人类的形式；这是首要设计者和制造者对机甲的人类沙文主义根源的无意识认同。卡利班不在此列。它从来都不具备宏大的人物形象，英雄般地大步跨越战场，去影响一个更伟大的目标。</p><p>不似诸多 IPS-N 的骨架，卡利班从未根植在早期尝试自卫的货船船员和小行星矿工。它并非源自独创性——没有坚韧、英雄主义或拓荒精神的遗产来掩盖其诞生的目的。它并不具备民用功能，无法用在援助、救灾、建设和农业等方面；它不为发展，不为捍卫，不为鼓舞人心——它的设计是为了解决分类帐上的数字问题。</p><p>它只是一种用来非常，非常快速杀死人类的工具。</p></i>"
         },
         "Caltrop Launcher": {
             "name": "蒺藜发射器",
@@ -739,162 +739,162 @@
         "Chomolungma": {
             "traits": {
                 "Data Siphon": {
-                    "name": "Data Siphon",
-                    "description": "Whenever the Chomolungma makes a tech attack against a hostile character, it may also automatically Scan them."
+                    "name": "数据抽取",
+                    "description": "珠穆朗玛对敌对角色进行<b>科技攻击</b>时会同时进行<b>扫描</b>。"
                 },
                 "Brilliance": {
-                    "description": "1/scene, the Chomolungma may take any Quick Tech action as a free action, and then may either Bolster or Lock On as a free action.",
-                    "name": "Brilliance"
+                    "description": "<b>1/场景</b>，珠穆朗玛可以<b>自由动作</b>进行<b>快速科技</b>动作，然后以<b>自由动作</b>进行<b>强化</b>或<b>锁定</b>。",
+                    "name": "光华"
                 },
                 "Replaceable Parts": {
-                    "description": "While resting, the Chomolungma can be repaired at a rate of 1 Repair per 1 structure damage, instead of 2 Repairs.",
-                    "name": "Replaceable Parts"
+                    "description": "在休息时，珠穆朗玛可以<b>1维修</b>而非<b>2维修</b>来修复<b>1结构</b>伤害。",
+                    "name": "可替换组件"
                 }
             },
             "name": "珠穆朗玛",
             "core_system": {
                 "passive_actions": {
                     "System Crusher": {
-                        "name": "System Crusher",
-                        "detail": "Your target takes an additional 2 heat, for a total of 4 heat. If this Invade causes them to exceed their Heat Cap, they take 4 burn as well. This can only be used 1/scene on each character."
+                        "name": "系统粉碎",
+                        "detail": "你的目标额外受到<b>2热度</b>，总共<b>4热度</b>。如果该<b>入侵</b>导致他们超过自身<b>热度上限</b>则受到<b>4燃烧</b>。每角色每场景只能以此法影响一次。"
                     },
                     "Balance Control Lockout": {
-                        "detail": "Push your target 2 spaces in any direction and knock them Prone. If they are already Prone, they become Immobilized until the end of their next turn. You may only Immobilize each character this way 1/scene.",
-                        "name": "Balance Control Lockout"
+                        "detail": "将你的目标朝你选择的方向推动<b>2空间</b>，并使其<b>伏卧</b>。若他们已处于<b>伏卧</b>则使其<b>固定</b>直到他们下一回合结束。每角色每场景只能以此法<b>固定</b>一次。",
+                        "name": "关停平衡控制"
                     }
                 },
-                "active_effect": "Choose any number of hostile characters within Sensors and make a special Invade tech attack against them, ignoring Invisible and line of sight. On hit, apply the effects of Invade as normal, choosing options for each target. On miss, targets become Impaired until the end of their next turn.",
-                "active_name": "Wide-Area Code Pulse",
-                "name": "Advanced Intrusion Package",
-                "passive_effect": "Gain the following options for Invade:",
-                "passive_name": "Advanced Intrusion Package"
+                "active_effect": "选择<b>感应</b>内任意数量的敌对角色，对他们进行忽略<b>隐形</b>和视线的特殊<b>入侵</b>科技攻击。对每个命中目标如常产生<b>入侵</b>效果。对每个未命中目标造成<b>受损</b>直到他们下一回合结束。",
+                "active_name": "广域编码脉冲",
+                "name": "尖端入侵软件包",
+                "passive_effect": "获得以下<b>入侵</b>选项：",
+                "passive_name": "尖端入侵软件包"
             },
-            "description": "<p>While the public perception of GMS may be that of a stolid, conservative manufacturer, Union devotes substantial resources to the research and development of new armaments and technological breakthroughs in order to maintain or exceed parity with galactic-tier actors such as Harrison Armory or the Karrakin Trade Baronies. Under development by Union's Advanced Projects Special Research Agency in conjunction with General Massive Systems, the Chomolungma is a newer and more technologically advanced frame using the standard GMS Pattern I design as a base.</p><p>The Chomolungma is a specialist chassis, trading out weapon hardpoint mounting capability for additional sensors, comms/transmission arrays, and advanced GMS e-war systems including cutting-edge systemic intrusion software packages and recursive-weave hyperprocessors. In light of recent conflicts, Union has begun increasing distribution of Chomolungma licenses among both regular and auxiliary units to keep pace with evolutionary developments in battlefield tactics and technologies.</p>"
+            "description": "<i><p>虽然公众可能把GMS视为一个守旧呆板的制造商，但联盟一直有将大量资源投入到新武器的研发与技术突破上，以在地位上保持或超过哈里逊兵工厂或卡拉金贸易男爵国等银河级角色。联盟高级项目特别研究机构与通用重型系统（GMS）联合开发的珠穆朗玛，是以GMS标准模式一号（即埃佛勒斯）为基础开发，是搭载了更先进技术更为新锐的骨架。</p><p>珠穆朗玛是种更专业化的底盘，将武器挂载位替换为额外的传感器、通信/传输阵列与先进的GMS电子战系统——包括尖端的系统入侵软件包与递归编织超处理器。鉴于最近的冲突，联盟已开始在常规部队与预备队中增加珠穆朗玛牌照的分配，以跟进战场上战术与技术的不断发展。</p></i>"
         },
         "Clamp Bombs": {
-            "name": "Clamp Bombs",
+            "name": "夹钳炸弹",
             "actions": {
                 "Launch Clamp Bombs": {
-                    "name": "Launch Clamp Bombs",
-                    "detail": "Expend a charge to fire a cluster of miniature bombs at a character within Sensors. They must succeed on an Engineering save, or the bombs clamp on. At the end of their next turn, the bombs detonate, dealing 1d6+3 AP explosive damage. All characters adjacent to your target take half damage. The target can disarm and detach the bombs by voluntarily moving at least 4 spaces before the end of their turn."
+                    "name": "启动夹钳炸弹",
+                    "detail": "消耗 1 充能对<b>感应</b>内的一个角色发射集束微型地雷。目标必须通过<b>工程</b>豁免否则被地雷夹住。在对方回合结束时，炸弹引爆造成<b> 1d6+3AP 爆炸伤害</b>。所有邻近目标角色受到<b>一半伤害</b>。目标可在自身回合结束前<b>自主移动至少 4 空间</b>来解除并摆脱地雷。"
                 }
             },
-            "description": "Built using similar grapple-head technology to IPS-N’s assault grapples, clamp bombs can affix to designated or proximal targets before detonating, ensuring total target contact. Clamping on soft targets typically results in total termination prior to detonation."
+            "description": "<i>夹钳炸弹基于近似 IPS-N 突击抓钩相似的抓钩头技术制造，可在引爆前将其固定在指定或近端的目标上，确保与目标完全接触。对软目标的附着通常会在引爆前致死。</i>"
         },
         "Combat Drill": {
             "profiles": {
                 "Combat Drill": {
-                    "description": "The combat drill is a brutal close-combat weapon, powered by a massive external catalyst pack. The bit is tipped with microplasmatic projectors designed to pre-treat the target and ensure drill penetration.",
-                    "name": "Combat Drill",
-                    "effect": "When attacking a character that is Prone, Immobilized, or Stunned, this weapon’s Overkill tag does an extra +1d6 bonus damage each time it activates. This can activate indefinitely if the new bonus die result is a 1, triggering Overkill again."
+                    "description": "<i>作战用钻机是以巨型外置催化箱提供动力源的残酷近战武器。钻机尖端装有微等离子体投射器，用于对目标进行预处理以确保钻头的透穿。</i>",
+                    "name": "作战用钻机",
+                    "effect": "当攻击<b>伏卧、固定</b>或<b>晕眩</b>角色时，该武器的<b>杀绝</b>标签每次激活时会造成<b>+1d6 额外伤害</b>。若额外伤害骰结果为 1，则<b>杀绝</b>能再次触发，如此往复。"
                 }
             },
-            "name": "Combat Drill"
+            "name": "作战用钻机"
         },
         "COMP/CON-Class Assistant Unit": {
-            "name": "COMP/CON-Class Assistant Unit",
-            "description": "The GMS Companion/Concierge-Class Assistant Unit conforms to all galaxy-wide standards. These virtual assistants pass even the most rigid Turing-Null assessment criteria and are cleared to operate even in the absence of a pilot.",
-            "effect": "Your mech has a basic COMP/CON unit, granting it the AI tag. The COMP/CON can speak to you and has a personality, but, unlike an NHP, is not truly capable of independent thought. It is obedient to you alone.<br />You can give control of your mech to its COMP/CON as a protocol, allowing your mech to act independently on your turn with its own set of actions. Unlike other AIs, a mech controlled by a COMP/CON has no independent initiative and requires direct input. Your mech will follow basic courses of action (defend this area, attack this enemy, protect me, etc.) to the best of its ability, or will act to defend itself if its instructions are complete or it receives no further guidance. You can issue new commands at the start of your turn as long as you are within Range 50 and have the means to communicate with your mech. Comp/con units are not true NHPs and thus cannot enter cascade."
+            "name": "伙伴/礼宾级辅助单元",
+            "description": "<i>GMS 的伙伴/礼宾级辅助单元适用于全银河系标准。这些虚拟助手甚至可以通过最严苛的图灵-空评估标准，并能够在没有驾驶员的情况下自主运行。</i>",
+            "effect": "你的机甲配备了基本的伙伴/礼宾单元，赋予它 <b>AI</b>标签。伙伴/礼宾可与你交谈并具有个性，但与 NHP 不同，它并不能真正独立思考。它只服从于你的命令。你可用协定将机甲控制权转给伙伴/礼宾单元，允许机甲能够在你的回合独立行动并拥有其自己的动作。</br>和其他 AI 不同，伙伴/礼宾单元控制的机甲并没有自主性，需要直接指示输入。你的机甲会尽力遵从基本的动作指示（保护该区域、攻击这个敌人、保护我等），或是在指示完成或没有其他指示时保护自己。只要你在<b>射程 50</b> 内并且能够和你的机甲沟通，你就可以在你的回合开始下达新的指示。伙伴/礼宾单元并不是真正的NHP，因此并不会<b>层流</b>。"
         },
         "Concussion Missiles": {
-            "name": "Concussion Missiles",
+            "name": "震荡导弹",
             "profiles": {
                 "Concussion Missiles": {
-                    "on_hit": "The target must succeed on a Hull save or become Impaired until the end of their next turn.",
-                    "description": "Concussion missiles are fitted with overpressure-generating charges with low shatter and low incandescence – they’re meant to stun, deter, push back, and disorient, usually in tandem with a larger, more lethal attack.",
-                    "name": "Concussion Missiles"
+                    "on_hit": "目标必须通过<b>机体</b>豁免否则<b>受损</b>直到对方下一回合开始。",
+                    "description": "<i>震荡导弹装有低破碎度和低白炽度的高压产生装药——用以使目标晕眩、受阻、击退和迷惑，通常会配合更重型更致命的攻击。</i>",
+                    "name": "震荡导弹"
                 }
             }
         },
         "Core Siphon": {
-            "name": "Core Siphon",
+            "name": "核心虹吸",
             "actions": {
                 "Action": {
-                    "name": "Action",
-                    "detail": "When you activate this protocol, you gain +1 accuracy on your first attack roll this turn, but receive +1 difficulty on all other attack rolls until the end of the turn."
+                    "name": "激活",
+                    "detail": "当你激活该协定时，你本回合首次攻击掷骰<b>+1 准度</b>，但直到回合结束前所有其他攻击掷骰<b>+1 难度</b>。"
                 }
             },
-            "description": "By shunting excess heat to offensive systems, core siphons allow pilots to overclock the targeting, catalytic, and processing capabilities of their weapons. This comes at a cost, however – reliance on overclocking without sufficient cooling can damage systems not built to handle the influx of power."
+            "description": "<i>抽用核心将余热分流至攻击系统上，核心虹吸让武器的瞄准、触媒和处理系统超频。不过，这是有其代价的——没有足够散热而依赖超频，可能会损坏那些无法承受大量能量涌入的系统.</i>"
         },
         "Custom Paint Job": {
-            "name": "Custom Paint Job",
-            "effect": "When you take structure damage, roll 1d6. On a 6, you return to 1 HP and ignore the damage – the hit simply ‘scratched your paint’.<br />This system can only be used once before each Full Repair, and is not a valid target for system destruction."
+            "name": "定制涂装作业",
+            "effect": "当你的机甲受到结构伤害时，掷 1d6。结果为 6，你的<b> HP</b> 恢复至 1 并忽略该伤害——命中只是“刮花了你的涂漆”。<br />该系统只能在<b>全面维修</b>前生效一次，且无法成为系统创伤的目标。"
         },
         "Cyclone Pulse Rifle": {
-            "name": "Cyclone Pulse Rifle",
+            "name": "气旋脉冲步枪",
             "profiles": {
                 "Cyclone Pulse Rifle": {
-                    "name": "Cyclone Pulse Rifle",
-                    "description": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user."
+                    "name": "气旋脉冲步枪",
+                    "description": "正如 GMS 机甲，GMS 武器同样是可靠的银河标准，使用可互换部件制造，承受几乎任何环境条件。目前有三条生产线存在。<br><b>三式（T3）</b>系列生产线由重型武器，重火器，和其他异化，特化，或大规模化武器组成。这是个宽泛的分类，T3系列包含了常规动能反器材步枪、超速循环脉冲步枪、导弹发射架、加农炮以及可作为微型工厂、机库和便携式无人机部署系统的无人机枢纽——“巢房”式发射装置。该系列中还包含恐怖的“多段刀”，该系统采用闪印技术，在使用者周身制造即抛式刃具。"
                 }
             }
         },
         "Cynosure": {
-            "name": "Cynosure",
+            "name": "万众瞩目",
             "actions": {
                 "Celestial Ordering": {
-                    "detail": "Every character on the battlefield involuntarily moves 1 space in a direction of your choice, ignoring engagement and without provoking reactions. They must all move in the same direction.",
-                    "name": "Celestial Ordering"
+                    "detail": "战场上所有角色均非自主向你选择的方向移动<b> 1 空间</b>，无视交战且不会引起反应。他们必须朝同一方向前进。",
+                    "name": "天体序列"
                 },
                 "Unblinking Pursuit": {
-                    "detail": "A hostile character within line of sight and SENSORS must succeed on a SYSTEMS save or be mesmerized. Choose another visible character. Any voluntary movement the mesmerized character makes must be toward the chosen character by the most direct route possible. This effect ends when the mesmerized character starts or ends their turn adjacent to any other character, otherwise it lasts until the end of combat.",
-                    "name": "Unblinking Pursuit"
+                    "detail": "视线<b>感应</b>内敌对角色必须通过<b>系统</b>豁免否则将被催眠。选择另一可见角色。被催眠角色进行的任意自主移动都必须以最直接的路径走向所选择角色。被催眠角色在其他角色邻近空间开始或结束回合时，该效果结束，否则将持续至战斗结束。",
+                    "name": "目不转睛"
                 }
             },
-            "description": "This program talks, quietly, of revenge, of the ordering of things, of a march of blades lifted high against the sun."
+            "description": "<i>该程序平静地诉说着复仇，讨论着万物的秩序，高唱着指向烈日的璀璨之刃。</i>"
         },
         "Death’s Head": {
             "core_system": {
-                "name": "Precognitive Targeting",
+                "name": "预知锁定",
                 "active_actions": {
                     "Mark for Death": {
-                        "name": "Mark for Death",
-                        "detail": "Choose a character within range 30 but further than range 5 to focus on; while focusing, you become Immobilized and can’t take reactions, but you deal bonus damage based on weapon size (aux: 1d6, main: 2d6, heavy or larger: 3d6) on ranged critical hits against them, as long as they aren’t in cover or within range 5.<br>You may only focus on one character at a time. As a protocol, you may cease focusing on a target."
+                        "name": "死印",
+                        "detail": "选择<b>射程30</b>内但超过<b>射程5</b>的一个角色以集中精神在其身上。集中精神期间你会<b>固定</b>并无法<b>反应</b>，但你对不在掩护或是不在<b>射程 5</b> 内的该目标，<b>会心一击</b>时根据武器大小造成额外伤害（<b>副武器：1d6，主武器：2d6，重武器和超重武器：3d6</b>）<br>你同一时间只能集中在一个角色上。你可使用<b>协定</b>来取消集中。"
                     },
                     "Cease Focus": {
-                        "detail": "End your focus on a <b>Mark for Death</b> target.",
-                        "name": "Cease Focus"
+                        "detail": "结束你对 <b>死印</b> 目标的集中.",
+                        "name": "取消集中"
                     }
                 },
-                "active_effect": "For the rest of this scene, you gain the Mark for Death action.",
-                "active_name": "Neural Shunt",
-                "description": "Precognition is the next step in human/AI interaction. Using a neural bridge, SSC’s precognitive targeting system allows pilots to learn constantly and unconsciously from data gathered in the field, equipping them to read situations before they develop. Precognition is highly experimental and the precise mechanisms unknown even to the designers, so SSC recommends limited, monitored use of this system."
+                "active_effect": "直到该场景结束前，你获得<b>死印</b>动作。",
+                "active_name": "神经分流",
+                "description": "<i>预知能力是人与 AI 互动的下一步。SSC 的预知锁定系统透过神经桥接来让驾驶员不断无意识地从战场上收集的数据中学习，使他们能够在情况发展之前就对其进行预判。预知技术目前仍处于高度实验阶段，而其确实的机制就连设计师也未完全理解。因此 SSC 建议对该系统进行有限受监控地使用。</i>"
             },
             "traits": {
                 "Neurolink": {
-                    "description": "The Death’s Head may reroll its first ranged attack each round, but must keep the second result.",
-                    "name": "Neurolink"
+                    "description": "鬼面蛾可重掷每轮第一次的<b>远程攻击</b>，但必须接受重掷结果。",
+                    "name": "神经连接"
                 },
                 "Perfected Targeting": {
-                    "description": "The Death’s Head gains an additional +1 to all ranged attack rolls.",
-                    "name": "Perfected Targeting",
+                    "description": "鬼面蛾所有<b>远程</b>攻击掷骰额外<b>+1</b>。",
+                    "name": "完美锁定",
                     "synergies": [
                         {
-                            "detail": "The Death’s Head gains an additional +1 to all ranged attack rolls."
+                            "detail": "鬼面蛾所有<b>远程</b>攻击掷骰额外<b>+1</b>。"
                         }
                     ]
                 }
             },
-            "name": "Death’s Head",
-            "description": "The Death’s Head is Smith-Shimano’s answer to the need for a chassis solution to long-range, low-splash strike actions. Sacrificing raw hull strength for peerless stability and alacrity, the Death’s Head is a maneuverable fire-support platform able to avoid incoming fire while maintaining a near-perfect lock on its targets. Its unique hexapedal form allows for rapid, low-profile movement in all directions.<br />As an aggressive and line-focused chassis, the Death’s Head is one of the most popular models for Union Navy and Union Department of Justice and Human Rights officers. It is a combat chassis through and through; as the Death’s Head is a chassis produced under SSC’s BELLA CIAO line, there is no civilian analog."
+            "name": "鬼面蛾",
+            "description": "鬼面蛾是史密斯-岛野财团长距精准射击底盘解决方案的答案。鬼面蛾通过牺牲机体强度来换取无人能及的稳定性和敏捷性，让它成为能避开敌火的同时几乎完美地维持对目标锁定的高机动火力支援平台。其独特的六足结构让它能够对所有方向进行快速的隐密移动。<br>作为一款专注于阵线的高侵略性底盘，鬼面蛾是联盟海军和联盟司法人权部军官最为喜爱的型号之一。这是台纯粹的战斗用底盘，是 SSC 旗下“告别佳人”系列的产品，因此并无民用版本。"
         },
         "Deck-Sweeper Automatic Shotgun": {
-            "name": "Deck-Sweeper Automatic Shotgun",
+            "name": "“甲板清扫者”自动霰弹枪",
             "profiles": {
                 "Deck-Sweeper Automatic Shotgun": {
-                    "description": "The Deck-Sweeper Automatic Shotgun is a belt-fed scattergun, a favorite of marine pilots aboard stations and capital ships. Its methodology is straightforward: charge, point, and fire. A single-barrel constriction allows for pneumatic absorption – dampening the effect of its incredible recoil – and its belt feeder is compatible with many types of shot-and-slug ammunition.",
-                    "name": "Deck-Sweeper Automatic Shotgun"
+                    "description": "<i>“甲板清扫者”自动散弹枪是空间站和主力舰上海军驾驶员钟爱的弹链式供弹霰弹枪。它的设计哲学简单易懂：冲锋、瞄准、射击。其单管设计让气动系统能吸收和缓和其强大后座力，弹链式供弹与诸多类型的子弹和弹头弹药兼容。</i>",
+                    "name": "“甲板清扫者”自动霰弹枪"
                 }
             }
         },
         "DIDYMOS-Class NHP": {
             "actions": {
                 "Time Split": {
-                    "name": "Time Split",
-                    "detail": "Choose yourself or another character within Sensors and line of sight. Your target disappears and you create a chronological split in their timeline, replacing them with two fields of mutating paradox energy appear as close to their original position as possible. These fields are new characters that look like holes in space of the same Size and roughly the same shape as your target (although you shouldn’t look at them too long). They have 10 HP, SPEED 5, Evasion 5, E-Defense 5, Heat Cap 5, and have Immunity to all conditions and statuses. They are controlled by the player of the affected character and both act on that character’s turn, starting with their next turn. The only actions the fields can take are standard moves and Boost, and the only reaction they can take is to disperse (see below). They are obstructions and grant hard cover.<br>If a field exceeds its HEAT CAP or is reduced to 0 HP, it immediately disappears. Their player can also cause a field to disappear as a reaction at the end of any character’s turn.<br>If one field disappears, the other immediately coalesces into the original character, who returns to the field in that field’s space. If both fields disappear at the same time, their player decides which field disappears first.<br>An unwilling character can ignore this effect with a successful Systems save"
+                    "name": "时裂",
+                    "detail": "选择你自己或视线<b>感应</b>内一个角色。你的目标消失，并且你在他们的时间线上创造了一个时潮分裂裂隙，以一对尽可能靠近它们最初位置的突变悖论能量域替换了它们的存在。这些域是新角色，它们看起来像是空间中的虚洞，<b>大小</b>和形状与你的目标大致相同（尽管你不能直视它们太久）。它们拥有<b> 10HP，速度 5，回避 5，电子防御 5, 热度上限 5，并对所有状态和状况免疫</b>。<br>从它们下一回合开始，它们由受影响角色的玩家控制，并且都在该角色回合中行动。域可以采取的唯一动作是<b>标准移动</b>和<b>推进</b>，它们可以采取的唯一反应是<b>驱散</b>（见下）。它们可以作为阻碍，并给予<b>硬性掩护</b>。<br>若某域超过了它的<b>热度上限</b>或减少到<b> 0HP</b>，则立即消失。他们的玩家也可以在任何角色回合结束时作为<b>反应</b>而使得域消失。<br>若某域消失，另一个立即融合成原来的角色，回到域所在空间。若两个域同时消失，它们的玩家决定哪个域先消失。<br>某非自愿角色可通过成功的<b>系统</b>豁免忽略该影响。"
                 }
             },
-            "name": "DIDYMOS-Class NHP",
+            "name": "狄律摩斯级 NHP",
             "description": "PREPARED BY: UIB-TERMAGANT<br />RECOVERED FOR: CC_HOME OFFICE<br />CLEARANCE REQ: SOLEMN VIGIL (TANGENT ROYAL ADDENDUM)<br />Didymos. It means twin in an old, old tongue. It might be a bit too cute but it’s the name our cask spat out for us. We observed Didymos Prime in action during the fall of Green Zone Alhambra, mounted in a chassis we initially classified as a HORUS Minotaur PG, one of three we ID’d operating among the Ungrateful cell in New Madrassa.<br />It was not that Minotaur.<br />Alhambra fell in three days. The Armory wasn’t keen to give it up, but decided to cut their losses and pull back rather than hold for reinforcements. We moved in after, during the looting. Our local contact [][][][][][][][] escorted us to the New Madrassan commanders, introduced us to them, and secured an audience with the pilot of the chassis.<br />I’m sure you’ve reviewed the records of the debrief we recorded. We don’t know how it arrived in New Madrassa; the Ungratefuls say they received the initial code burst from their contact in the Voladores. The Voladores deny this; the entity, however, conforms to their descriptions of an entity called “la pulga,” or, “The Flea.” We have designated it LICH. Didymos is the active animus: what serves as its pilot.<br />We have taken the entity into custody. We do not recommend giving this one a long leash."
         },
         "Displacer": {
@@ -4062,61 +4062,61 @@
             }
         },
         "Cockpit-Integrated Stim Pump": {
-            "name": "Cockpit-Integrated Stim Pump",
+            "name": "驾驶舱集成刺激泵",
             "actions": {
                 "Agitron": {
-                    "detail": "<ul><li>You become Impaired.</li><li>You gain Immunity to Shredded.</li><li>Your Melee attacks gain Knockback 1 and deal +2 bonus damage.</li></ul>",
-                    "name": "Agitron"
+                    "detail": "<ul><li>你<b>受损</b>。</li><li>你获得<b>离散免疫</b>。</li><li>你的近战攻击获得<b>击退1</b>与造成<b>+2额外伤害</b>。</li></ul>",
+                    "name": "敏化"
                 },
                 "Enduritran": {
-                    "detail": "<ul><li>You become Jammed.</li><li>You gain Immunity to Impaired.</li><li>You gain +2 Armor. This may bring you above 4 Armor.</li></ul>",
-                    "name": "Enduritran"
+                    "detail": "<ul><li>你<b>受扰</b>。</li><li>你获得<b>受损免疫</b>。</li><li>你获得<b>+2装甲</b>。这可能使你<b>装甲超过4</b>。</li></ul>",
+                    "name": "硬化"
                 },
                 "Edge": {
-                    "detail": "<ul><li>You become Slowed.</li><li>You gain Immunity to Jammed.</li><li>Your next attack this turn gains +1 Accuracy.</li></ul>",
-                    "name": "Edge"
+                    "detail": "<ul><li>你<b>缓慢</b>。</li><li>你获得<b>受扰免疫</b>。</li><li>你本回合下次攻击<b>+1准度</b>。</li></ul>",
+                    "name": "极限"
                 },
                 "Nerve Boosters": {
-                    "detail": "<ul><li>You become Shredded.</li><li>You gain Immunity to Slowed.</li><li>You gain +1 Speed and ignore Engagement and your movements do not trigger Reactions.</li></ul>",
-                    "name": "Nerve Boosters"
+                    "detail": "<ul><li>你<b>离散</b>。</li><li>你获得<b>缓慢免疫</b>。</li><li>你获得<b>+1速度</b>，忽略<b>交战</b>和反应。</li></ul>",
+                    "name": "神经助推器"
                 }
             },
-            "description": "Powerful stim pumps are directly wired into the cockpit and intravenously administer the pilot with a potent slew of drugs. While they can enhance a pilot’s combat ability to superhuman levels, users should be keenly aware of the substances’ various side effects. While the apparatus is theoretically capable of mixing and administering complex drug cocktails this should be done with extreme caution, as the wrong mixtures or doses may lead to sudden cardiac arrest, requiring resuscitation of the pilot via in-built defibrillators and an injection of “adrenadron” to purge their system.",
-            "effect": "As a protocol, you may expend a charge to pick any number of the following stims and apply their effects. Roll 1d6 for each stim chosen: if any two dice show the same result, you immediately become Stunned until the end of your current turn instead of applying the effects. All effects from this system last until the start of your next turn."
+            "description": "<i>这款强效刺激泵直接连接驾驶舱，并通过静脉为驾驶员注射大量强效药物。虽然它们可将驾驶员战斗力提升到超人水平，但使用者应敏锐意识到这些物质的各种副作用。<br>虽然该设备理论上能够混合使用复合摄入混合物，但在操作时要非常小心，因错误混合或错估剂量可能会导致心脏骤停，需通过内置除颤器对驾驶员进行复苏，并注射“肾上腺素”来净化其系统。</i>",
+            "effect": "以一个<b>协定</b>，你可以消耗 1 充能来选择以下任何数量的刺激物并应用它们的效果。每选择一个刺激物掷一次<b> 1d6</b>：若任何两个骰子结果相同，你立即<b>晕眩</b>直到你当前回合结束，代替原本的效果。该系统所有效果将持续到你下一回合开始。"
         },
         "Colossus Termo-Unguis": {
-            "name": "Colossus Termo-Unguis",
+            "name": "“巨像”超温爪",
             "profiles": {
                 "Colossus Termo-Unguis": {
-                    "effect": "The Empakaai’s COLOSSUS TERMO-UNGUIS can be used even while Jammed. <br/> Before rolling, you may force your target and any characters of your choice adjacent to it to make a Hull save or be pulled adjacent and automatically Grappled.",
-                    "name": "Colossus Termo-Unguis"
+                    "effect": "因帕卡伊的<b>“巨像”超温爪</b>可在<b>受扰</b>下使用。在掷骰前，你可强迫目标及与其邻近的任意角色进行<b>机体</b>豁免，否则被拉至邻近并自动<b>擒拿</b>。",
+                    "name": "“巨像”超温爪"
                 }
             }
         },
         "Cutter MkII Plasma Torch": {
-            "name": "Cutter MkII Plasma Torch",
+            "name": "“切割者”Mk2 等离子炬",
             "profiles": {
                 "Cutter MkII Plasma Torch": {
-                    "effect": "This weapon deals 10AP energy to objects, cover, terrain, and the environment.",
-                    "description": "Plasma cutters were tools first: simple blades built to toggle and sustain a plasma sheath, making it easier to cut metal. Repeated ad hoc use of cutters as personal defense weapons against pirate boarding parties convinced IPS-N of the need for a mil-spec variant of the civilian tool – the Cutter, now in its second generation. The Cutter MkII feeds directly from the mech’s power core, with a port to attach power packs in case of cord severance. Although the cutting edge can be shortened to a knife length, its most popular setting is the “cutlass”, a medium-length option perfect for balancing reach and maneuverability in close quarters.",
-                    "name": "Cutter MkII Plasma Torch"
+                    "effect": "该武器对物品、掩体、地形和环境造成<b> 10AP 能量伤害</b>。",
+                    "description": "<i>“切割者”等离子锯先是普通工具：一种利用简单刀身，维持专门设计的等离子鞘，以方便切割金属的工具。多次特别使用切割锯作为个体防卫武器来对付登舰海盗后，IPS-N 确信需要一种民用工具的军用变体——切割者 Mk2 就此诞生。Mk2 切割者直接以机甲的动力核心供能，并附带接口以在缆线切断时与电源连接。尽管切割刃长度可缩至匕首大小，但它最受欢迎的设置是“弯刀模式”，其中等长度完美地平衡了攻击范围和在狭窄地方的灵活性。</i>",
+                    "name": "“切割者”Mk2 等离子炬"
                 }
             }
         },
         "Daisy Cutter": {
-            "name": "Daisy Cutter",
+            "name": "摘菊使者",
             "profiles": {
                 "Daisy Cutter": {
-                    "on_attack": "Creates a cloud of smoke and detritus in the attack cone, providing soft cover in the affected area that lasts until the end of your next turn.",
-                    "description": "The Daisy Cutter is an effective weapon – if outdated – that’s still favored by many marine pilots. Essentially, it’s a massive shotgun; the pilot loads a charge into the gun’s breech, drops a packed sabot down the barrel, aims, and fires a hellfire cloud of flechette darts, bearings, and ignited magnesium strips, guaranteed to clear any deck on which it’s been fired.",
-                    "name": "Daisy Cutter"
+                    "on_attack": "在攻击锥形范围内产生一片碎屑云，使该影响地区在你下一回合结束前提供<b>软性掩护</b>。",
+                    "description": "<i>摘菊使者是老旧但有效因而受到不少海军驾驶员喜爱的武器。本质上它是把巨型霰弹枪；在驾驶员装填弹药后再把充填物塞进枪管前，瞄准开火后会发射出一团破片飞镖、弹珠和点燃镁片组成的地狱火云，以确保清空枪管前的甲板空间。</i>",
+                    "name": "摘菊使者"
                 }
             }
         },
         "Deep Well Heat Sink": {
-            "name": "Deep Well Heat Sink",
-            "description": "The Deep Well experimental heat-sink system is a part of the Armory’s VANGUARD line of equipment, available to licensed beta testers. Through a complex, delicate weave of heat exchangers, Deep Well recycles the heat generated by a mech into usable energy. The system works well, but the delicate nature of the exchange renders it highly volatile.",
-            "effect": "When you start your turn in the Danger Zone, you gain Resistance to heat for the rest of the turn. This effect persists even if you leave the Danger Zone during your turn."
+            "name": "深井冷源",
+            "description": "<i>深井实验性冷源是兵工厂的“先锋”系列装备的一部分，可用于获得牌照的贝塔级测试人员。通过复杂而精细的热交换器织网，深井能将机甲产生的热能转化成可用能量。这系统运作良好，但交换器精巧的本质使其相当不稳定。</i>",
+            "effect": "你在<b>超温危域</b>开始自己回合时，该回合获得<b>热度</b>的<b>抗性</b>。即使你在回合中退出<b>超温危域</b>，该效果仍存在。"
         },
         "ENCLAVE-Pattern Support Shield": {
             "actions": {
