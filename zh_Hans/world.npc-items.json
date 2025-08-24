@@ -1936,15 +1936,15 @@
             "effect": "Scan doesn’t reveal any information about the Horror except that they are a Horror."
         },
         "Abhorrent Redundancies": {
-            "name": "Abhorrent Redundancies",
-            "effect": "Whenever the Horror is reduced to 0 HP, they may roll 1d6. On a 5+, they return to 1 HP and gain {3/4/5} Overshield. After this trait triggers once, it only triggers again on a 6+.",
+            "name": "憎恶冗余",
+            "effect": "怖物<b> HP</b> 降低为 <b>0</b> 时可掷骰 <b>1d6</b>。<b>5+</b>则 <b>HP</b> 恢复至 <b>1</b> 并获得 <b>3/4/5 护盾</b>。该特征在第一次触发后可在结果 <b>6+</b>时再次触发。",
             "origin": {
-                "name": "Horror"
+                "name": "怖物"
             }
         },
         "ABJURE": {
-            "name": "ABJURE",
-            "effect": "The Priest makes a tech attack against a target within Sensors. On a success, the target takes {2/3/4} Heat each time they make any attack until the end of their next turn.",
+            "name": "誓绝",
+            "effect": "司铎对感应内一个目标进行<b>科技攻击</b>。成功则对方每次攻击都受到 <b>2/3/4 热度</b>直到对方下一回合结束。",
             "origin": {
                 "name": "PRIEST"
             }
