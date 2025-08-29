@@ -13,127 +13,127 @@
     },
     "entries": {
         "ADAPTIVE SHIELDING": {
-            "name": "ADAPTIVE SHIELDING",
-            "effect": "The first time each round an ally affected by Defense Net takes damage, all allies within the Net gain Resistance to the damage type taken. This lasts until the end of the Aegis’s next turn.",
+            "name": "自适应屏蔽",
+            "effect": "每轮首次在<b>防御网</b>中的盟友受伤害时，防御网内所有盟友获得对该类型伤害<b>抗性</b>。该持续到宙斯盾下一回合结束。",
             "origin": {
-                "name": "AEGIS"
+                "name": "宙斯盾"
             }
         },
         "ADAPT/EVADE/DISENGAGE": {
-            "name": "ADAPT/EVADE/DISENGAGE",
-            "effect": "The Hornet gains Immunity to Grapple and always ignores engagement.",
+            "name": "适应/规避/脱离",
+            "effect": "马蜂获得对<b>擒拿</b>的免疫且始终忽视<b>交战</b>。",
             "origin": {
-                "name": "HORNET"
+                "name": "马蜂"
             }
         },
         "ADHESIVE SECRETIONS": {
-            "name": "ADHESIVE SECRETIONS",
-            "effect": "The first character damaged by the Monstrosity each turn must succeed on an Engineering save or become Slowed. This effect lasts until the target regains any HP, or for the rest of the scene.",
+            "name": "黏着分泌物",
+            "effect": "每回合首个被怪形伤害的角色必须通过<b>工程</b>豁免否则<b>缓慢</b>。该效果会持续到目标恢复<b> HP</b> 或场景结束。",
             "origin": {
-                "name": "MONSTROSITY"
+                "name": "怪形"
             }
         },
         "AEGIS": {
-            "flavor": "Aegis-archetype mechs are built to hold ground, support their allies, and suppress enemies. First used to great effect during the Comorrand Action by a Karrakin pilot, Lady Gloria of House MacLennan, Aegis’s are known for their powerful defensive measures. Their pilots can expertly make a bulwark out of the smallest barricade with anything from conventional tools to cutting-edge technologies.",
-            "name": "AEGIS",
-            "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible since they can be difficult to redeploy. Regenerative Shielding also protects the Aegis from mobility-reducing effects."
+            "flavor": "<i>宙斯盾原型机被用来驻守阵地、支持盟友和压制敌人。在科摩罗（Comorrand）行动中，卡拉金驾驶员麦克伦南（MacLennan）家族的格洛丽亚（Gloria）女士首次使用它并取得显著效果。宙斯盾以其强大防御措施而闻名。其驾驶员可熟练运用传统工具至尖端技术，将最小屏障化为坚固堡垒。</i>",
+            "name": "宙斯盾",
+            "tactics": "宙斯盾是坚固的防御支援单位。覆盖尽可能多盟友的防御网最为有效，因它们很难重新部署。再生护盾也保护宙斯盾免受移动性降低的影响。"
         },
         "AGGRESSION": {
-            "name": "AGGRESSION",
+            "name": "好斗",
             "origin": {
-                "name": "BERSERKER"
+                "name": "狂战士"
             },
-            "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character – hostile or allied – with the Chain Axe."
+            "effect": "每轮受到第一次伤害后，狂战士必须立即用<b>链斧</b>攻击邻近的任意角色——无论敌友。"
         },
         "ARGUS ARMOR": {
-            "effect": "The Ultra has 6 Armor. Each time they roll a structure damage or overheating check, they lose 2 Armor, to a minimum of 0.",
+            "effect": "超体拥有 6 <b>装甲</b>。每次掷骰<b>结构伤害</b>或<b>过热检定</b>，它们失去 <b>2 装甲</b>，最低<b> 0</b>。",
             "origin": {
-                "name": "ULTRA"
+                "name": "超体"
             },
-            "name": "ARGUS ARMOR"
+            "name": "阿耳戈斯装甲"
         },
         "ARSENAL": {
             "origin": {
-                "name": "ENGINEER"
+                "name": "工程师"
             },
-            "name": "ARSENAL",
-            "effect": "When the Engineer uses Deployable Turret, they can choose one of these modifications for their turrets:<ul><li>Inferno: The turret’s attacks become Cone 3, {2/3/4} Burn.</li><li>Hellstorm: The turret’s attacks become range 15, Blast 1, {2/3/4} Explosive damage.</li><li>Hunter: The turret’s attacks gain Reliable 1.</li><li>Primed: When either the turret or Engineer is destroyed, the turret explodes in a Burst 1 area. Characters within the affected area must succeed on an Agility save or take {7/9/11} Explosive damage.</li></ul>"
+            "name": "军火库",
+            "effect": "工程师使用可部署炮塔时，可为其炮塔选择以下一种改造：<ul><li>·<b>狱火</b>：炮塔攻击变成<b>锥形 3，2/3/4 燃烧伤害</b>。</li><li>·<b>地狱风暴</b>：炮塔攻击变成<b>射程 15，溅射 1，2/3/4 爆炸</b>。</li><li>·猎人：炮塔攻击获得<b>可靠 1</b>。</li><li>·蓄势待发：炮塔或工程师摧毁时，炮塔在<b>爆发 1 </b>爆炸。受影响区域内角色必须通过<b>敏捷豁免</b>否则受到 7/9/11 <b>爆炸伤害</b>。</li></ul>"
         },
         "Artificial": {
-            "name": "Artificial",
-            "effect": "This trait can only be applied if the Horror is Biological. The Horror is no longer Biological and gains Heat Cap 6.",
+            "name": "人工",
+            "effect": "该特征只能被用于<b>生物</b>怖物。怖物不再拥有<b>生物</b>标签，并且获得<b> 6 热度</b>。",
             "origin": {
-                "name": "Horror"
+                "name": "怖物"
             }
         },
         "ASSASSIN’S MARK": {
-            "name": "ASSASSIN’S MARK",
+            "name": "暗杀者标记",
             "origin": {
-                "name": "ASSASSIN"
+                "name": "暗杀者"
             },
-            "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains +1 Accuracy on all saves forced by that target.</li></ul><br />The Assassin can only choose a new target if the current target is destroyed."
+            "effect": "暗杀者选择视线内一个角色。直到场景结束前使用以下效果：<ul><li>·对目标伤害有<b>抗性</b>。</li><li>·对该目标造成的伤害无法减免。</li><li>·在该目标强制的所有豁免中获得<b>+1 准度</b>。</li></ul><br />暗杀者只有当前目标被摧毁后才能选择新目标。"
         },
         "ASSAULT ARMOR": {
-            "name": "ASSAULT ARMOR",
+            "name": "突击装甲",
             "origin": {
-                "name": "AVENGER"
+                "name": "复仇者"
             },
-            "effect": "The Avenger has RESISTANCE to all damage originating within Range 3."
+            "effect": "复仇者对<b>射程 3 </b>以内的所有伤害有<b>抗性</b>。"
         },
         "AUTO-TARGETING": {
-            "effect": "The Assault ignores cover when attacking, although they still require line of sight.",
+            "effect": "突击手在攻击时忽略掩护，尽管仍需要视线。",
             "origin": {
-                "name": "ASSAULT"
+                "name": "突击手"
             },
-            "name": "AUTO-TARGETING"
+            "name": "自动锁定"
         },
         "Automated Battlefield Awareness Node": {
-            "name": "Automated Battlefield Awareness Node",
-            "effect": "The Spec Ops gains the Battlefield Awareness reaction, which can be used any number of times per round. This system can only be taken by one Spec Ops per combat. <br /><b>Battlefield Awareness </b><br /><b>Trigger:</b> An allied Spec Ops character within Range 8 and line of sight would roll a save. <br /><b>Effect:</b> They automatically succeed on the save before rolling any dice.",
+            "name": "自动战斗感知节点",
+            "effect": "特种部队获得<b>战斗感知</b>反应，可以在一轮中使用无限次。这个系统每场战斗只能由一个特种部队使用。<br /><b>战斗感知</b><br /><b>触发：</b> 视线<b>射程 8</b> 内的特种部队盟友角色将掷骰豁免。<br /><b>效果：</b> 他们在掷任意骰前自动成功豁免。",
             "origin": {
-                "name": "Spec Op"
+                "name": "特种部队"
             }
         },
         "AVALANCHE CHARGE": {
-            "name": "AVALANCHE CHARGE",
+            "name": "雪崩冲锋",
             "origin": {
-                "name": "BERSERKER"
+                "name": "狂战士"
             },
-            "effect": "The Berserker moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied—with the Chain Axe."
+            "effect": "狂战士沿着直线移动与<b>速度</b>相等的空间，忽略反应和交战，然后用<b>链斧</b>攻击随机邻近角色——无论敌友。"
         },
         "BARRICADE": {
-            "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
-            "tactics": "Barricades are at their best when locking down fast-moving targets. They can use their Mobile Printer to create hard cover for allies or to prevent melee mechs from moving through an area.",
-            "name": "BARRICADE"
+            "flavor": "<i>维尔德系统公司（Veld Systems）守护者五型（（Keeper Pattern 5）是种常见卫兵机甲，因其在拉玛之歌战役（Sing Rama Sing）中的出色表现而名声大噪。战役中，炽天使连队的奥黛丽·雷默斯（Audrey Reimaus）用守护者 5 型独自保护了拉玛城主天梯塔的安全，从而保证城市居民疏散通道。</i>",
+            "tactics": "需封锁高机动目标那么路障是把好手。它们可以使用<b>便携打印机</b>为盟友制造硬性掩护，或阻止近战机甲通过区域。",
+            "name": "路障"
         },
         "BLIND": {
-            "name": "BLIND",
-            "effect": "The Witch makes a tech attack against a character within Sensors. On a success, the target only has line of sight to adjacent spaces until the end of their next turn.",
+            "name": "盲目术",
+            "effect": "女巫对<b>感应</b>内一个角色进行<b>科技攻击</b>。成功则目标在下一回合结束前只对邻近空间有视线。",
             "origin": {
-                "name": "WITCH"
+                "name": "女巫"
             }
         },
         "BLINKSPACE CARVER": {
-            "name": "BLINKSPACE CARVER",
-            "effect": "The Exotic teleports when they move.",
+            "name": "霎间割裂",
+            "effect": "异种移动时<b>瞬间移动</b>。",
             "origin": {
-                "name": "EXOTIC"
+                "name": "异种"
             }
         },
         "BLIP": {
-            "name": "BLIP",
-            "effect": "The Mirage may teleport one allied character within Sensors 5 spaces in any direction.",
+            "name": "信标光点",
+            "effect": "蜃楼可让一个盟友角色向任意方向<b>瞬间移动 5 空间</b>。",
             "origin": {
-                "name": "MIRAGE"
+                "name": "蜃楼"
             },
-            "trigger": "A hostile character takes action in line of sight."
+            "trigger": "一个敌对角色在视线内执行动作。"
         },
         "BOLSTER NETWORK": {
             "origin": {
-                "name": "COMMANDER"
+                "name": "指挥官"
             },
-            "name": "BOLSTER NETWORK",
-            "effect": "All allied characters within line of sight (excluding the Commander) gain +1 Accuracy on Systems saves, and tech attacks made against them receive +1 Difficulty."
+            "name": "激励广播",
+            "effect": "视线内所有盟友角色（指挥官除外）<b>系统豁免+1准度</b>，对其进行的<b>科技攻击+1 难度</b>。"
         },
         "BOMBARD CANNON": {
             "name": "BOMBARD CANNON",
@@ -1930,10 +1930,10 @@
         },
         "Abominable": {
             "origin": {
-                "name": "Horror"
+                "name": "怖物"
             },
-            "name": "Abominable",
-            "effect": "Scan doesn’t reveal any information about the Horror except that they are a Horror."
+            "name": "恶质",
+            "effect": "<b>扫描</b>不显示任何怖物相关信息，除是个怖物外。"
         },
         "Abhorrent Redundancies": {
             "name": "憎恶冗余",
@@ -1946,222 +1946,222 @@
             "name": "誓绝",
             "effect": "司铎对感应内一个目标进行<b>科技攻击</b>。成功则对方每次攻击都受到 <b>2/3/4 热度</b>直到对方下一回合结束。",
             "origin": {
-                "name": "PRIEST"
+                "name": "司铎"
             }
         },
         "ABLATIVE SHIELDING": {
-            "name": "ABLATIVE SHIELDING",
-            "effect": "The Scourer has Resistance to Energy damage.",
+            "name": "烧蚀保护层",
+            "effect": "清扫器对<b>能量伤害</b>具有<b>抗性</b>。",
             "origin": {
-                "name": "SCOURER"
+                "name": "清扫器"
             }
         },
         "ACE": {
-            "name": "ACE",
-            "flavor": "The first person to embody the “Ace” archetype was Aisling Jensen, an auxiliary pilot active during the liberation of Verdana. Knights of the chassis and sky, Aces like Aisling throw their mechs into battle with high-speed strafing runs, agile maneuvers, and reckless feats of daring. Cocky and self-assured, Aces relish a good duel.",
-            "tactics": "Aces are very fast and reactive strikers that can use Evasive Maneuvers to mitigate dangerous or high-damage attacks. Barrel Roll is most effective against heavy weapons. Their Seeking weapons ignore cover and don’t require line of sight, allowing them to deal consistent damage. Relatively low HP makes Aces vulnerable to sustained damage, and they are relatively weak against tech attacks."
+            "name": "王牌",
+            "flavor": "<i>首位展现王牌原型机魅力的角色是艾斯琳·詹森（Aisling Jensen），她是维丹娜（Verdana）解放运动期间活跃的一名辅助飞军驾驶员。作为底盘和苍穹之骑士，像艾斯琳这样的王牌以高速扫射、敏捷机动和不顾一切的大胆壮举将他们的机甲投入战斗。他们骄傲自信，热衷于一场精彩的决斗。</i>",
+            "tactics": "王牌是高机动快反应的突击，可以使用<b>桶滚</b>来减轻危险或高伤害攻击。<b>桶滚</b>对重型武器尤为有效。他们的<b>引导</b>武器无视掩体，也不需要视线，因此可以持续造成伤害。相对较低的 HP 使得王牌容易受到持续伤害，且他们在对付科技攻击时相对较弱。"
         },
         "ACROBAT": {
-            "name": "ACROBAT",
-            "effect": "After the Veteran move or Boosts, they can fly 3 spaces. This flight ignores engagement and doesn’t provoke reactions.",
+            "name": "杂技演员",
+            "effect": "老兵移动或<b>推进</b>后可<b>飞行 3 空间</b>。该飞行无视<b>交战</b>和<b>反应</b>。",
             "origin": {
-                "name": "VETERAN"
+                "name": "老兵"
             }
         },
         "ACID SPITTLE": {
-            "name": "ACID SPITTLE",
+            "name": "酸液喷吐",
             "origin": {
-                "name": "MONSTROSITY"
+                "name": "怪形"
             },
-            "on_hit": "Target is Shredded until the end of its next turn."
+            "on_hit": "目标<b>离散</b>直到对方下一回合结束。"
         },
         "Active Camo": {
-            "name": "Active Camo",
-            "effect": "As a protocol, the Spec Ops may expend a charge to become Invisible until the end of their next turn. For the duration of this effect, the Spec Ops’ next melee or ranged attack becomes a critical hit if it hits.",
+            "name": "主动迷彩",
+            "effect": "以一个<b>协定</b>，特种部队可消耗 1 充能<b>隐形</b>直到他们下一回合结束。<br>此效果持续期间，特种部队下一次<b>近战或远程攻击</b>若命中则视为<b>会心一击</b>。",
             "origin": {
-                "name": "Spec Op"
+                "name": "特种部队"
             }
         },
         "ADVANCED KIT": {
-            "name": "ADVANCED KIT",
-            "effect": "The Ultra chooses 1–2 additional optional systems from their class.",
+            "name": "先进元件",
+            "effect": "超体从职业中选择 1~2 个额外可选系统。",
             "origin": {
-                "name": "ULTRA"
+                "name": "超体"
             }
         },
         "AMBUSHERS": {
-            "name": "AMBUSHERS",
-            "effect": "The Squad gains +2 Accuracy on all attacks, saves, and checks during the first round of combat.",
+            "name": "伏击者",
+            "effect": "班组在首轮战斗中所有攻击、豁免和检定+2 <b>准度</b>。",
             "origin": {
-                "name": "SQUAD"
+                "name": "班组"
             }
         },
         "ANTARES-Pattern Laser Cannon": {
-            "name": "ANTARES-Pattern Laser Cannon",
+            "name": "“安塔瑞斯”型镭射炮",
             "origin": {
-                "name": "MBT"
+                "name": "主战坦克"
             }
         },
         "Anti-Armor Missiles": {
-            "name": "Anti-Armor Missiles",
+            "name": "反装甲导弹",
             "origin": {
-                "name": "MBT"
+                "name": "主战坦克"
             }
         },
         "ANTI-ARMOR WEAPON": {
-            "name": "ANTI-ARMOR WEAPON",
+            "name": "反装甲武器",
             "origin": {
-                "name": "SQUAD"
+                "name": "班组"
             }
         },
         "ANTI-MATERIEL RIFLE": {
-            "name": "ANTI-MATERIEL RIFLE",
+            "name": "反器材步枪",
             "origin": {
-                "name": "SNIPER"
+                "name": "狙击手"
             }
         },
         "Anti-Tank Gun": {
-            "name": "Anti-Tank Gun",
-            "effect": "On Critical Hit: The target becomes Shredded until the end of their next turn.",
+            "name": "反坦克炮",
+            "effect": "<b>会心一击</b>：目标<b>离散</b>直到其下一回合结束。",
             "origin": {
-                "name": "MBT"
+                "name": "主战坦克"
             }
         },
         "ARCHER": {
-            "name": "ARCHER",
-            "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
-            "tactics": "Archers excel at inflicting “choice punishment” on their enemies – they make characters choose between taking certain actions or letting the Archer attack them. Use Archers to lock down mobile or hard-hitting PCs or to cover for more vulnerable allies. Keep in mind that Archers are most effective when they can get fairly close to their targets, but they aren’t especially durable."
+            "name": "弓箭手",
+            "flavor": "<i>弓箭手原型为大熊座公司（Ursa Major）的护门者之匙二型（Gatekeeper Key-II），因伊卡伯德·卡登（Ichabod Carden）在地震动（Terramoto）战役中的英勇行为而广为人知。弓箭手原型机为强大的瞄准和叠加边界机动系统而牺牲装甲，这让它们深受热爱控制每次射击精确目标的驾驶员青睐。</i>",
+            "tactics": "弓箭手擅长于对敌人施加“选择惩罚”——他们让角色在采取某些行动或让弓箭手攻击他们之间做出选择。使用弓箭手锁定高机动或强攻击的 PC，或掩护更脆弱的盟友。记住，当弓箭手能够相当接近他们的目标时最为有效，但他们并不特别坚固。"
         },
         "Armaments": {
-            "name": "Armaments",
-            "effect": "When creating an MBT, choose exactly one of its Heavy weapon options and exactly one of its Main weapon options.",
+            "name": "武装配备",
+            "effect": "主战坦克必须选择一门<b>主炮</b>和一件<b>辅助武器</b>。",
             "origin": {
-                "name": "MBT"
+                "name": "主战坦克"
             }
         },
         "Armament Loadout": {
-            "name": "Armament Loadout",
-            "effect": "The MBT chooses one Main Gun and one Secondary Weapon.",
+            "name": "武装配备",
+            "effect": "主战坦克必须选择一门<b>主炮</b>和一件<b>辅助武器</b>。",
             "origin": {
-                "name": "MBT"
+                "name": "主战坦克"
             }
         },
         "ARMORED HULL": {
-            "name": "ARMORED HULL",
-            "effect": "The Ship gains +5 HP.",
+            "name": "装甲船体",
+            "effect": "飞船获得<b>+5HP</b>。",
             "origin": {
-                "name": "SHIP"
+                "name": "飞船"
             }
         },
         "ASSASSIN": {
-            "tactics": "Assassins are true experts at punishing single characters. Use Assassin’s Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. For a nasty combination, pair an Assassin with NPCs that inflict mobility-reducing conditions like Stunned or Prone. Without optional systems like the “Devil’s Cough” Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage.",
-            "name": "ASSASSIN",
-            "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard."
+            "tactics": "暗杀者是重击落单角色的真正专家。使用暗杀者标记选择一个目标，然后充分利用暗杀者的高速和轻跃来接近距离。有个相当具有威胁的的组合，将暗杀者与会造成机动性降低状态如昏迷或伏卧的 NPC 配对。若没有“魔鬼的咳嗽”霰弹枪这样的可选系统，暗杀者便只能进行近战攻击，且很容易受到持续伤害。",
+            "name": "暗杀者",
+            "flavor": "<i>暗杀者型机甲倾向于敏捷，高伤和速度。这些驾驶员为提高效率而牺牲舒适性，从拆除生命维持到通讯系统，取而代之更强大的处理能力和潜行能力。暗杀者可单打独斗，也可组队作战，驾驶着他们小巧优美的机甲穿过几乎无法穿越的地形，在毫无防备情况下逮住目标。</i>"
         },
         "ARMORED": {
-            "name": "ARMORED",
-            "effect": "+1–2 Armor",
+            "name": "披甲",
+            "effect": "+1~2 <b>装甲</b>",
             "origin": {
-                "name": "HUMAN"
+                "name": "人类"
             }
         },
         "ASSAULT": {
-            "name": "ASSAULT",
-            "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
-            "tactics": "Assaults are straightforward, damage-dealing strikers. Put them somewhere their toughness and decent range can be used effectively, and Hunker Down against damage to maximize their survivability."
+            "name": "突击手",
+            "flavor": "<i>突击手机甲是银河系中最为常见的主要战斗骨架。配备重型步枪、随身武器和一套增强移动、瞄准和防御能力的系统，它们是直接可靠坚韧英勇的战斗单位。突击手机甲驾驶员的训练和装备也是最为价格低廉的，但这并不会妨碍其危险性。</i>",
+            "tactics": "突击手是直接了当造成伤害的突击。把他们安置在一个可以有效利用他们韧性和适当射程的位置，使用<b>受身</b>抵抗伤害以最大限度提高他们的生存能力。"
         },
         "Assimilation Maw": {
-            "name": "Assimilation Maw",
-            "effect": "Additionally, if the Horror destroys another character with this weapon, allied or hostile, or hits a wreck, they regain {10/15/20} HP. Wrecks and allies are automatically hit by this weapon. Wrecks hit by this weapon are automatically destroyed.",
+            "name": "同化虚洞",
+            "effect": "此外，若怖物用此武器摧毁另一个角色无论敌我，或命中残骸，则恢复<b> 10/15/20 HP</b>。残骸和盟友自动被该武器命中。受此武器攻击的残骸自动摧毁。",
             "origin": {
-                "name": "Horror"
+                "name": "怖物"
             },
-            "on_hit": "If the target is at half or less HP after this attack is resolved, they must succeed on a Hull save or be reduced to 0 HP."
+            "on_hit": "若目标在攻击结束后只有一半或更少的<b> HP</b>，必须通过<b>机体</b>豁免否则将<b> HP </b>降为<b> 0</b>。"
         },
         "ATLAS MISSILES": {
-            "name": "ATLAS MISSILES",
-            "effect": "The Rainmaker chooses a space of ground in line of sight and Range 30, obvious to all characters with line of sight to the space. The Rainmaker launches a missile that lands at the end of the next round making a Blast 2 explosion; affected characters take {16/20/24} Explosive damage, half if they pass an Agility save.",
+            "name": "阿特拉斯导弹",
+            "effect": "祈雨师选择视线<b>射程 30 </b>内一个地面空间，所有角色都知悉选择了哪些空间。祈雨师发射一枚导弹，在下一轮结束时该地点造成<b>溅射 2 </b>的爆炸；受影响角色受到<b>16/20/24 爆炸伤害</b>，成功进行<b>敏捷</b>豁免伤害减半。",
             "origin": {
-                "name": "RAINMAKER"
+                "name": "祈雨师"
             }
         },
         "AVENGER": {
-            "name": "AVENGER",
-            "flavor": "Avenger-class mechs are typically piloted by zealots, career warriors, and people from cultures that place significant value on praetorian or warrior castes. In battle, these pilots act as force multipliers and squad leaders, but they tend to be more notable as individuals than for their machines. Avenger pilots have tight bonds to their allies – strong enough that the intense emotions of battle, loss, and struggle can push them to incredible feats of heroism when the tide turns in their enemies’ favor.",
-            "tactics": "While not particularly dangerous to begin with, Avengers become much more threatening when their allies start falling around them. Place them near other high-priority targets to take advantage of their REVENGE ability, forcing characters to choose between taking them out first or suffering more for destroying their allies."
+            "name": "复仇者",
+            "flavor": "<i>复仇者级机甲的驾驶员往往是狂热者、职业战士，以及来自高度重视禁卫军或战士种姓文化的民族。战斗中，这些驾驶员扮演着力量倍增者和班组领导者的角色，但比起他们的机甲，他们作为个人更引人注目。复仇者驾驶员与他们的盟友紧密维系着——这份牵绊强大到当形势转向对敌人有利时，对战斗、失败和斗争的强烈情绪足以促使他们做出令人难以置信的英雄壮举。</i>",
+            "tactics": "复仇者最初并不是特别危险，但当他们的盟友们集结在他周围时，便是他们极具危险之时。将它们安置在其他高优先级目标附近，以利用它们的<b>复仇</b>能力，迫使角色在首先消灭它们或因摧毁盟友而遭受更多痛苦之间做出选择。"
         },
         "A Wicked Mess": {
-            "name": "A Wicked Mess",
-            "effect": "While the Leech is Grappling a hostile character, that character takes 2 AP energy damage and 2 heat any time the Leech takes damage.",
+            "name": "邪恶扰乱",
+            "effect": "水蛭擒拿一个敌对角色时，每当水蛭受到伤害，该角色受到 <b>2AP 能量伤害</b>和 <b>2 热度</b>。",
             "origin": {
-                "name": "Leech"
+                "name": "水蛭"
             }
         },
         "BARREL ROLL": {
-            "name": "BARREL ROLL",
-            "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions.",
+            "name": "桶滚",
+            "effect": "王牌执行桶滚，向任意方向飞行<b> 6 空间</b>并使攻击未命中。该移动忽略交战和反应。",
             "origin": {
-                "name": "ACE"
+                "name": "王牌"
             },
-            "trigger": "A melee or ranged attack hits the Ace."
+            "trigger": "近战或远程攻击命中王牌。"
         },
         "BASTION": {
-            "name": "BASTION",
-            "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
-            "tactics": "Bastions are hardy defenders that use their bulk and size to protect themselves and nearby. Use Friendly Interdiction to defend against distant enemies, like artillery and snipers. Bastions (and their wards) are vulnerable to Knockback and forced movement, as these effects break many of their abilities."
+            "name": "棱堡",
+            "flavor": "<i>棱堡以宙斯盾原型机甲的纯粹防御优势换取更大的机动性。它们将区域抗拒进攻能力与坚固防御系统以及先进通信系统相结合。这些机甲是众多强大中队指挥官的最爱。这种搭配效能在德洛梅达星系（Dromeda system）与虚空之间（Space Between）星际海盗公会的交战中得到了最佳展示，当时一名战地晋升的辅助军官赞德·里夫斯（Zander Reeves）就驾驶着这种机甲。</i>",
+            "tactics": "棱堡是顽强的防御者，利用自己的机体和大小来保护自己和附近。使用<b>盾墙</b>防御远处的敌人，如炮兵和狙击手。棱堡（和他们的结界）对于<b>击退</b>和强制移动的攻击非常脆弱，因这些效果会破坏他们的许多能力。"
         },
         "Battering Ram": {
-            "name": "Battering Ram",
-            "effect": "The Marine deals {10/20/30} AP kinetic damage to an adjacent piece of terrain, obstruction, or Deployable. They may move 2 spaces before or after using this system.",
+            "name": "破城槌",
+            "effect": "海军陆战队对一个邻近的地形，障碍物或<b>可展开</b>物品造成 <b>10/20/30 AP 动能伤害</b>。在使用该系统前或后，可移动<b> 2 空间</b>。",
             "origin": {
-                "name": "MARINE"
+                "name": "海军陆战队"
             }
         },
         "BERSERKER": {
-            "name": "BERSERKER",
-            "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
-            "tactics": "Berserkers are excellent melee duelists that are very scary up close. Their potential is greatest when they are as close to enemy forces as possible. Due to their terrible Heat Cap and E-Defense, Berserkers are vulnerable to tech attacks. Savvy opponents will use Aggression to their own advantage, turning Berserkers against their allies, so it’s best to keep them away from friendly forces."
+            "name": "狂战士",
+            "flavor": "<i>狂战士型机甲具备先进热循环系统，该系统能将产生的热量转化为纯粹的进攻力量，从而指数级提升其武器输出。该机甲原型最广为人知的便是达尔·梅洛斯将军（Gen’Dal Merlos）那濒毁的骑士们（Knights of Imminent Destruction），它本身也深受专注于纯粹战斗的组织、私人军事公司（PMC）以及已建立国家中可否认资产部队的青睐。</i>",
+            "tactics": "狂战士是非常优秀的肉搏决斗者，近距离接触时非常可怕。当他们越是尽可能接近敌军，其潜力越大。鉴于他们差劲的<b>热度上限</b>和<b>电子防御</b>，狂战士很容易遭受科技攻击。聪明的对手会利用<b>好斗</b>为自己建立的优势，让狂战士转而对付盟友，所以最好让他们远离友军。"
         },
         "BLAST SHIELD": {
             "origin": {
-                "name": "STRIDER"
+                "name": "神行客"
             },
-            "name": "BLAST SHIELD",
-            "effect": "The Strider has RESISTANCE to all damage and heat from Line, Cone, Blast, and Burst effects, and gains +1 Accuracy on all saves to avoid effects that use these patterns."
+            "name": "防爆屏蔽",
+            "effect": "神行客对所有来自<b>线形，锥形，爆发和溅射</b>效果的<b>伤害</b>和<b>热度</b>具有<b>抗性</b>，并且在避免这些效果的所有豁免上<b>+1 准度</b>。"
         },
         "BLINDING SHELLS": {
-            "name": "BLINDING SHELLS",
-            "effect": "After the Archer makes a successful attack, they force their target to make an Engineering save. On a failure, the target only has line of sight to adjacent spaces until their next turn ends.",
+            "name": "致盲弹",
+            "effect": "在弓箭手成功攻击后迫使目标进行<b>工程</b>豁免。若失败目标下一回合结束前只有邻近空间的视线。",
             "origin": {
-                "name": "ARCHER"
+                "name": "弓箭手"
             }
         },
         "BEST OF THE BEST": {
-            "name": "BEST OF THE BEST",
-            "effect": "The Ultra can’t take the Elite or Grunt templates.",
+            "name": "精英中的精英",
+            "effect": "超体无法使用<b>精英</b>或<b>低等兵</b>模板.",
             "origin": {
-                "name": "ULTRA"
+                "name": "超体"
             }
         },
         "BLUR": {
-            "name": "BLUR",
-            "effect": "During the Witch’s turn, they are Invisible.",
+            "name": "模糊术",
+            "effect": "女巫自身回合中，它们<b>隐形</b>。",
             "origin": {
-                "name": "WITCH"
+                "name": "女巫"
             }
         },
         "BOARDING LEASH": {
-            "name": "BOARDING LEASH",
+            "name": "跳帮栓链",
             "origin": {
-                "name": "PIRATE"
+                "name": "海盗"
             },
-            "on_hit": "Target must pass a Hull save or be pulled directly to the Pirate and automatically Grappled."
+            "on_hit": "目标必须通过<b>机体</b>豁免否则被拉向海盗并自动擒拿。"
         },
         "BODYGUARD": {
-            "name": "BODYGUARD",
-            "effect": "The Sentinel chooses an allied character within range 5 as their ward and gains the Reflexive Blow reaction.",
+            "name": "保镖",
+            "effect": "哨兵选择<b>射程 5 </b>内的盟友角色作为其<b>守护目标</b>并获得<b>自反式打击</b>反应。",
             "origin": {
-                "name": "SENTINEL"
+                "name": "哨兵"
             }
         },
         "BONUS HP": {
