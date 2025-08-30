@@ -218,43 +218,43 @@
             "name": "引爆钉刺"
         },
         "DEVASTATOR": {
-            "name": "DEVASTATOR",
-            "effect": "1/round, when the Ultra makes a successful attack, all characters within line of sight take {2/4/6} kinetic, Explosive, or Energy damage.",
+            "name": "毁灭",
+            "effect": "1/轮，超体发动一次成功的攻击时，视线内所有角色受<b>到 2/4/6 动能，能量或爆炸伤害</b>。",
             "origin": {
                 "name": "超体"
             }
         },
         "DISPERSAL SHIELD": {
-            "name": "DISPERSAL SHIELD",
-            "effect": "The Priest releases a cloud of miniature drones that cluster around a nearby mech, providing protection. The Priest or an allied character within Sensors gains Resistance to damage and heat from the next 1d3 attacks that hit. This effect is not cumulative.",
+            "name": "散列护盾",
+            "effect": "司铎释放微型无人机聚集在附近机甲周围提供保护。司铎或处于<b>感应</b>内的一个盟友将从之后的<b> 1d3 </b>次攻击中获得对<b>伤害</b>和<b>热度</b>的<b>抗性</b>。该效果不会叠加。",
             "origin": {
                 "name": "司铎"
             }
         },
         "Disruptor Whip": {
-            "name": "Disruptor Whip",
+            "name": "裂解之鞭",
             "origin": {
-                "name": "Horror"
+                "name": "怖物"
             },
-            "on_hit": "The target loses all Overshield."
+            "on_hit": "目标失去所有<b>护盾</b>。"
         },
         "DRAG DOWN": {
-            "name": "DRAG DOWN",
-            "effect": "The Barricade makes a tech attack against a character within Sensors. On a success, they take 2 AP Energy damage per space that they voluntarily move until the end of their next turn.",
+            "name": "拖下水",
+            "effect": "路障对<b>感应</b>中的一个角色进行<b>科技攻击</b>。若成功，目标每主动移动 <b>1 空间</b>就会造成<b> 2AP 能量伤害</b>直到对方下一回合结束。",
             "origin": {
                 "name": "路障"
             }
         },
         "DRONE BARRAGE": {
-            "name": "DRONE BARRAGE",
-            "effect": "The Hive makes a tech attack against a character within Sensors. On a success, the target chooses one: they become Immobilized and Impaired until the end of their next turn, or they immediately move up to 5 spaces in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
+            "name": "雄蜂攻势",
+            "effect": "蜂巢对<b>感应</b>内一个角色进行<b>科技攻击</b>。成功则目标将选择其一：对方<b>固定</b>并<b>受损</b>直到下一回合结束，或立即朝蜂巢所选方向移动<b> 5 空间</b>。该移动忽略交战和<b>反应</b>。",
             "origin": {
                 "name": "蜂巢"
             }
         },
         "DRUM SHOTGUN": {
-            "name": "DRUM SHOTGUN",
-            "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
+            "name": "鼓轮霰弹枪",
+            "effect": "T2 时，该武器可一次攻击两次，目标可以是同一个角色，也可以是两个不同角色。T3 时，它可以一次攻击三次。",
             "origin": {
                 "name": "歌利亚"
             }
@@ -263,34 +263,34 @@
             "origin": {
                 "name": "神行客"
             },
-            "name": "DUCK",
-            "effect": "The attack misses and the Strider gains RESISTANCE to all damage until the end of the turn.",
-            "trigger": "A ranged attack originating beyond Range 8 hits the Strider."
+            "name": "闪避",
+            "effect": "该攻击失败，且神行客获得对所有伤害抗性直到回合结束。",
+            "trigger": "超过射程 8 的远程攻击将击中神行客。"
         },
         "EFFICIENT KILLER": {
-            "effect": "The Mercenary gains +1 Accuracy and AP on attacks against characters with 2 Structure or less.",
+            "effect": "佣兵攻击 2 结构或以下角色获得<b>+1 准度</b>和 <b>AP</b>。",
             "origin": {
                 "name": "雇佣兵"
             },
-            "name": "EFFICIENT KILLER"
+            "name": "高效杀手"
         },
         "ELECTRIFIED BOLA": {
-            "name": "ELECTRIFIED BOLA",
-            "effect": "A flying character in Range 10 must make an Agility save. On a failure, they land immediately and become Immobilized until the end of their next turn. This counts as falling but without damage.",
+            "name": "导电投石索",
+            "effect": "射程 10 内的飞行角色必须通过<b>敏捷</b>豁免。若失败则立即降落并<b>固定</b>直到对方下一回合结束。此效果算没有伤害的坠落。",
             "origin": {
                 "name": "甲胄骑兵"
             }
         },
         "ELECTRIFIED LASSO": {
-            "name": "ELECTRIFIED LASSO",
+            "name": "导电套索",
             "origin": {
                 "name": "甲胄骑兵"
             },
-            "effect": "A character in line of sight and range 5 must make a Hull save. On a failure, they are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them."
+            "effect": "在视线射程 5 内的一个角色必须通过<b>机体</b>豁免。失败则会被拉到尽可能靠近甲胄骑兵的位置；若对方至邻近，则甲胄骑兵自动<b>擒拿</b>对方。"
         },
         "ELECTRO-NANITE CLOUD": {
-            "name": "ELECTRO-NANITE CLOUD",
-            "effect": "At the start of their turn, hostile characters within range 3 take 2 Burn; additionally, until they move beyond range 3, they make all System checks and saves, and all tech attacks, at +{1/2/3} difficulty.",
+            "name": "电镀纳米云",
+            "effect": "蜂巢射程3内敌方角色在其回合开始时受到<b>2燃烧伤害</b>；此外直到对方离开<b>射程 3</b>，否则进行所有<b>系统</b>检定和豁免以及所有<b>科技攻击+1/2/3 难度</b>。",
             "origin": {
                 "name": "蜂巢"
             }
@@ -2567,73 +2567,73 @@
             }
         },
         "DEVOURING SHARD": {
-            "name": "DEVOURING SHARD",
-            "effect": "While inside a SHROUD ZONE, the Lurker can also spew out a Cone 3 torrent of razor sharp nanites as a quick action. Characters within the affected area must pass an ENGINEERING save or take {4/5/6} Energy AP. On a success, they take half damage.",
+            "name": "吞噬碎片",
+            "effect": "在<b>护罩区域</b>内，潜伏者可用快速动作以雷霆之势喷出<b>锥形 3</b>剃刀般锋利的纳米体洪流。受影响区域内的角色必须通过<b>工程</b>豁免否则受到<b> 4/5/6AP 能量伤害</b>。成功则伤害减半。",
             "origin": {
                 "name": "潜伏者"
             }
         },
         "Diffusor": {
-            "name": "Diffusor",
+            "name": "扩散器",
             "origin": {
-                "name": "Tempest"
+                "name": "暴风雨"
             },
-            "effect": "<p>Trigger:  A hostile character starts their turn within Range 3 of the Tempest or becomes adjacent to the Tempest for the first time on their turn.</p> <p>Effect: Target must pass a Systems save or be unable to restore HP for any reason until they take structure or stress damage.</p>"
+            "effect": "<p><b>触发</b>：一个敌对角色在暴风雨<b>射程 3 </b>内开始回合，或在其回合中首次与暴风雨<b>邻近</b>。</p> <p><b>效果</b>：目标必须通过<b>系统</b>豁免，否则无法以任何方式恢复<b> HP</b>，直到它们承受<b>结构</b>或<b>压力</b>伤害。</p>"
         },
         "DIG IN": {
-            "name": "DIG IN",
-            "effect": "It gains Resistance to all damage from the attack, but become Slowed until the end of its next turn.",
+            "name": "掘壕固守",
+            "effect": "获得对所有攻击伤害的<b>抗性</b>，但<b>缓慢</b>直到自己下一回合结束。",
             "origin": {
                 "name": "粉碎者"
             },
-            "trigger": "An attack hits the Demolisher, but damage hasn’t been rolled yet."
+            "trigger": "一次攻击命中粉碎者，但伤害还未掷出。"
         },
         "DRAIN SYSTEMS": {
             "origin": {
                 "name": "幽鬼"
             },
-            "name": "DRAIN SYSTEMS",
-            "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target."
+            "name": "枯竭系统",
+            "effect": "幽鬼对邻近角色进行<b>科技攻击</b>。成功则目标<b>晕眩</b>。此效果持续到除幽鬼外其他角色开始回合与目标邻近或移动到目标邻近。"
         },
         "DRIVING SWARM": {
-            "name": "DRIVING SWARM",
-            "effect": "Whenever characters take Burn from a razor swarm, they must succeed on a Systems save or immediately move 4 spaces in a direction chosen by the Hive after taking damage. This movement ignores engagement and does not provoke reactions.",
+            "name": "倾泻蜂群",
+            "effect": "角色受到<b>剃刀蜂群</b>燃烧伤害时必须通过<b>系统</b>豁免，否则在受到伤害后立即向蜂巢所选方向移动<b> 4 空间</b>。该移动忽略<b>交战</b>和<b>反应</b>。",
             "origin": {
                 "name": "蜂巢"
             }
         },
         "DISCIPLINED": {
-            "name": "DISCIPLINED",
-            "effect": "Losing HP doesn’t affect the number of attacks the Squad can make each turn.",
+            "name": "纪律",
+            "effect": "失去 <b>HP </b>不会影响班组每回合的攻击次数。",
             "origin": {
                 "name": "班组"
             }
         },
         "DUAL SHOTGUNS": {
-            "name": "DUAL SHOTGUNS",
-            "effect": "This weapon can make two attacks at once, targeting either the same character or different ones.",
+            "name": "鼓轮霰弹枪",
+            "effect": "该武器可一次攻击两次，目标可以是同一个角色，也可以是两个不同角色。",
             "origin": {
                 "name": "破门手"
             }
         },
         "DUCK AND COVER": {
-            "name": "DUCK AND COVER",
-            "effect": "The Squad gains Resistance to the damage but becomes Immobilized until the end of their next turn.",
+            "name": "卧倒藏好",
+            "effect": "班组获得伤害<b>抗性</b>，但<b>固定</b>直到下一回合结束。",
             "origin": {
                 "name": "班组"
             },
-            "trigger": "The Squad is hit by an attack."
+            "trigger": "班组被攻击命中。"
         },
         "EARTHSHAKER SHELLS": {
-            "name": "EARTHSHAKER SHELLS",
-            "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, characters within Burst 3 of the targeted space must succeed on a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces of the Bombard’s choice (within the affected area).",
+            "name": "撼地炮弹",
+            "effect": "用<b>射石加农炮</b>攻击时，投弹者也可以发射一枚特殊的震地炮弹。除了造成伤害外，距离目标空间爆发 3 以内的角色必须通过<b>机体</b>豁免否则<b>伏卧</b>。碎片或破碎的泥土被撞击抛起，在投弹者选择的自由空间内（受影响区域内）制造 2 个<b>大小 1 的硬性掩护</b>。",
             "origin": {
                 "name": "投弹者"
             }
         },
         "ECHO EDGE": {
-            "name": "ECHO EDGE",
-            "effect": "Characters damaged by the Ronin gain a Ronin’s Mark. At the start of the Ronin’s turn, the Ronin can clear all Ronin’s Marks as a free action, automatically dealing 1d6 AP Kinetic damage to all characters that have a Ronin’s Mark cleared in this way.",
+            "name": "共鸣锋刃",
+            "effect": "被浪人伤害的角色将获得一个<b>浪人标记</b>。浪人回合开始时可用一个<b>自由动作</b>清除所有<b>浪人标记</b>，自动对所有<b>浪人标记</b>角色造成<b> 1d6AP 动能伤害</b>并清除标记。",
             "origin": {
                 "name": "浪人"
             }
@@ -2642,16 +2642,16 @@
             "origin": {
                 "name": "清扫器"
             },
-            "name": "EMERGENCY VENT",
-            "effect": "When the Scourer exceeds their Heat Cap or becomes Stunned, they become Invisible until the start of their next turn."
+            "name": "紧急通风口",
+            "effect": "当清扫器超过其热度上限或被<b>晕眩</b>时，它们<b>隐形</b>直到下一回合开始。"
         },
         "ELITE": {
             "name": "精英",
-            "description": "Elite enemies are tougher and more powerful than most – just a step down from Ultras. They might be especially tough or experienced pilots, special forces, or foes using a higher level of technology or better quality gear than the rank and file. Elites can act several times each round and get additional Structure, which effectively doubles their HP and allows them to make structure damage checks like PCs."
+            "description": "精英敌人比大多数敌人更强大——仅次于超体。他们可能是特别坚韧或经验丰富的驾驶员，特种部队，或使用比普通士兵更高水平技术或更好的装备的敌人。精英们可以在每轮行动几次并获得额外结构，这将高效地使他们的 HP 加倍，并允许他们像 PC 一样进行<b>结构伤害</b>检定。"
         },
         "EMPOWERED CLOUD": {
-            "name": "EMPOWERED CLOUD",
-            "effect": "When they start their turn adjacent to the Support, allied characters may clear one condition.",
+            "name": "附魔云",
+            "effect": "若盟友角色开始其回合时与支援者邻近，他们可以清除一个状态。",
             "origin": {
                 "name": "支援者"
             }
@@ -2660,8 +2660,8 @@
             "origin": {
                 "name": "司铎"
             },
-            "name": "EMPOWERED SHIELD",
-            "effect": "Dispersal Shield also grants Overshield {5/6/8}."
+            "name": "附魔盾",
+            "effect": "<b>散列护盾</b>同时给予<b>护盾 5/6/8</b>。"
         },
         "EMPOWER SHROUD": {
             "name": "EMPOWER SHROUD",
