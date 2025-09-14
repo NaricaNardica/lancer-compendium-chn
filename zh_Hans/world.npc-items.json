@@ -297,65 +297,65 @@
         },
         "EMP Pulse": {
             "origin": {
-                "name": "Leech"
+                "name": "水蛭"
             },
-            "name": "EMP Pulse",
-            "effect": "<p>Trigger:  The Leech takes damage or Heat from an external sources while Grappling.</p> <p>Effect: Hostile characters within Burst 2 must pass a Systems Save or become jammed until the end of their next turn. </p>"
+            "name": "EMP 脉冲",
+            "effect": "<p>触发：水蛭<b>擒拿</b>时受到外部来源的<b>伤害</b>或<b>热度</b>。 </p><p>效果：<b>爆发 2 </b>内敌对角色必须通过<b>系统</b>豁免，否则<b>受扰</b>直到他们下一回合结束。 </p>"
         },
         "ENDLESS RAIN": {
-            "name": "ENDLESS RAIN",
-            "effect": "The Rainmaker picks 6 spaces for Javelin Rockets, not 3.",
+            "name": "无尽之雨",
+            "effect": "祈雨师为<b>标枪火箭弹</b>选择 <b>6 空间</b>，而非 3。",
             "origin": {
                 "name": "祈雨师"
             }
         },
         "ENGINEER": {
             "name": "工程师",
-            "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
-            "tactics": "Engineers’ Deployable Turrets make them potent force multipliers, as they can deploy one every turn. If enemies don’t deal with an Engineer's turrets quickly, their potential damage quickly skyrockets – even more when they target characters with Engineer’s Mark. Without Engineer’s Mark, turrets attack the nearest target, which players can use to control who takes damage."
+            "flavor": "<i>各种类型的本地化工程师级机甲在全银河系中都颇为常见，专属于它们自身所运作的天体或舞台。工程师作为一种原型早已存在，但直到拉斯·萨姆拉兵工厂公务主管科里达·伊索尔德-诺莱（CorridaIsolde-Nollet）提出了完整的设计原则，它才在很大程度上被定义。在所有情况下，工程师的任务都呈一致性：保卫、维护、安全。工程师在战线中部或后方的最佳作战位置，协调重要阵地的防御，监督所有作战资产的全面部署。记住：若你不能了解敌人，你就会输。</i>",
+            "tactics": "工程师的<b>可部署炮塔</b>使他们成为强大的武力倍增器，他们可以每回合部署一个。若敌人不能快速对付工程师炮塔，他们的潜在危害迅速飙升——当他们瞄准带有<b>工程师标记</b>的角色时更是如此。没有<b>工程师标记</b>，炮塔会攻击最近目标，玩家可以借此来控制谁受到伤害。"
         },
         "ENGINEER’S MARK": {
-            "name": "ENGINEER’S MARK",
-            "effect": "Until the end of the Engineer’s next turn, the Engineer’s Deployable Turrets will attack a target of their choice (within Range) instead of attacking the nearest hostile character.",
+            "name": "工程师标记",
+            "effect": "直到工程师下一回合结束，工程师可部署炮塔将攻击它们选择的目标（在<b>射程</b>内），而不是攻击最近的敌方角色。",
             "origin": {
                 "name": "工程师"
             }
         },
         "ENTHRONE": {
-            "name": "ENTHRONE",
-            "effect": "The Spite becomes IMMOBILIZED and activates a crackling defensive shield. While this shield is active, any characters that make ranged or melee attacks against the Spite or its adjacent allies take {3/4/5} Energy AP before the attack roll is made. This effect lasts until the end of the Spite’s next turn, or if it ends this effect as a quick action.",
+            "name": "登基",
+            "effect": "怨恨者被<b>固定</b>并激活爆裂防御盾。任何对怨恨者或其邻近盟友进行远程或近战攻击的角色在掷骰前受到 <b>3AP 能量伤害</b>。该效果持续怨恨者下一回合结束，或以<b>快速动作</b>结束该效果。",
             "origin": {
                 "name": "怨恨者"
             }
         },
         "ENTRENCHED": {
-            "name": "ENTRENCHED",
+            "name": "盘踞",
             "origin": {
                 "name": "怨恨者"
             },
-            "effect": "The Spite has IMMUNITY to involuntary movement forced by hostile characters."
+            "effect": "怨恨者<b>免疫</b>敌对角色强迫的非自主移动。"
         },
         "EXOTIC": {
-            "description": "Even in a galaxy of wonders, Exotics are strange and dangerous enemies. Some feature unique technologies not yet available to the wider galaxy or wield archaic weapon styles updated to the modern day, while others carry equipment or adopt tactics that are totally alien to Union doctrine.",
+            "description": "即使在这充满奇迹的银河系中，异种也是怪异而危险的敌人。一些具备独特技术，某些尚不适用于更宽泛的银河系，有些使用者更新至现代的古老武器样式，而另一些则携带着或采用着完全不符合联盟原则的装备或战术。",
             "name": "异种"
         },
         "EXOTIC SYSTEMS": {
-            "name": "EXOTIC SYSTEMS",
-            "effect": "The Exotic chooses up to two options from the Exotic Systems and Traits list.",
+            "name": "异种系统",
+            "effect": "异种在<b>异种系统和特征表</b>中最多可以选择两项。",
             "origin": {
                 "name": "异种"
             }
         },
         "EXPLOSIVE JET": {
-            "name": "EXPLOSIVE JET",
-            "effect": "Enemies within Burst 2 must succeed on a Hull save or be knocked outside of the area and knocked Prone. The Pyro then flies 5 spaces in any direction, but must land after completing that move.",
+            "name": "爆炸性喷口",
+            "effect": "<b>爆发 2 </b>以内的敌人必须通过<b>机体</b>豁免否则<b>击退</b>至区域外并<b>伏卧</b>。然后纵火狂向任意方向<b>飞行 5 空间</b>，但必须在完成该动作后着陆。",
             "origin": {
                 "name": "纵火狂"
             }
         },
         "EXPLOSIVE KNIVES": {
-            "name": "EXPLOSIVE KNIVES",
-            "effect": "The Assassin expends a charge to throw an Explosive damage knife at a character within range 3, making a ranged attack at +{2/4/6}. On a hit, the knife embeds itself in the target and explodes at the end of their next turn, dealing {6/8/10} Explosive damage in a Burst 1 area.",
+            "name": "爆裂匕首",
+            "effect": "暗杀者消耗1充能向<b>射程3</b>内一个角色投掷爆裂匕首，远程攻击目标<b>+2/+4/+6</b>。命中则匕首嵌入目标并在对方下一回合结束时爆炸，<b>爆发 1</b> 内造成 <b>6/8/10 爆炸伤害</b>。",
             "origin": {
                 "name": "暗杀者"
             }
@@ -364,71 +364,71 @@
             "origin": {
                 "name": "操作员"
             },
-            "name": "FADE GENERATOR",
-            "effect": "At the end of the Operator’s turn, they become Invisible until the start of their next turn. This immediately ceases if they take damage or make a reaction."
+            "name": "褪色生成器",
+            "effect": "操作员回合结束时会<b>隐形</b>直到下一回合开始。若受到伤害或进行<b>反应</b>，该状况立即停止。"
         },
         "Fade Reactor": {
-            "name": "Fade Reactor",
-            "effect": "Choose one character the Leech is Grappled with: the Leech and its target become Invisible until the end of the Leech's next turn.",
+            "name": "褪色炉",
+            "effect": "选择一个被水蛭<b>擒拿</b>的角色：水蛭和目标<b>隐形</b>直到水蛭下一回合开始。",
             "origin": {
-                "name": "Leech"
+                "name": "水蛭"
             }
         },
         "FAVORS OWED": {
-            "name": "FAVORS OWED",
+            "name": "人情债",
             "origin": {
                 "name": "雇佣兵"
             },
-            "effect": "The Mercenary calls in a favor: an orbital or artillery bombardment, targeting a Blast 2 area within line of sight and range 30. Characters within the affected area must succeed on an Agility save or take {6/8/12} Explosive damage and be knocked Prone. On a success, they take half damage and aren’t knocked Prone."
+            "effect": "雇佣兵请求帮助：轨道或炮火轰炸，目标是视线<b>射程 30 </b>内的<b>溅射 2</b>。受影响区域内的角色必须通过敏捷豁免否则受到<b> 6/8/12 爆炸伤害</b>并<b>伏卧</b>。成功则伤害减半不会伏卧。"
         },
         "FEEDBACK SHIELD": {
-            "effect": "The Spite chooses an allied character within line of sight and Range 5. Any character that successfully damages that character immediately becomes JAMMED until the end of their next turn. This effect lasts until triggered, or for the rest of the scene.",
+            "effect": "怨恨者视线<b>射程 5</b> 内选择一个盟友角色。任何成功伤害该角色的角色会立即<b>受扰</b>直到他们下一回合结束。该效果持续到被触发，或场景结束。",
             "origin": {
                 "name": "怨恨者"
             },
-            "name": "FEEDBACK SHIELD"
+            "name": "反馈护盾"
         },
         "FEIGN DEATH": {
-            "name": "FEIGN DEATH",
-            "effect": "The first time that the Veteran is destroyed each combat, they are actually feigning death – they appear to be destroyed, but have 1 HP. Characters adjacent to the Veteran can reveal this with a successful Systems check or pilot skill check; otherwise, the Veteran remains unnoticed until they move or take an action.",
+            "name": "假死",
+            "effect": "老兵每场战斗中被摧毁时，他们实际在假死——他们看起来被摧毁了，但还剩<b> 1HP</b>。邻近老兵的角色可通过<b>系统</b>检定或<b>驾驶员技能</b>检定来揭示；否则老兵会一直被忽视直到对方移动或执行动作。",
             "origin": {
                 "name": "老兵"
             }
         },
         "FIREBREAK SHIELD": {
-            "name": "FIREBREAK SHIELD",
+            "name": "防火带盾",
             "origin": {
                 "name": "纵火狂"
             },
-            "effect": "At the end of the Pyro’s turn, they create a Line 4 Energy damage shield, 4 spaces high, in free spaces within line of sight and with at least 1 space adjacent to the Pyro. It doesn’t block line of sight but provides soft cover; when an attack is made against a character benefiting from the cover, it misses on a 4+ on 1d6. This lasts until the start of the Pyro’s next turn, or if the Pyro moves or is Stunned. It doesn’t stack with Invisible."
+            "effect": "纵火狂回合结束时，视线内其中末端 <b>1 空间</b>与纵火狂邻近的自由空间创造出<b>高 4 空间</b>的<b>线形 4</b> 能量护盾。它不会阻挡视线，但提供<b>软性掩护</b>；当攻击一个受益于掩体的角色时，掷骰 1d6 出 4+视为<b>未命中</b>。这将持续到纵火狂下一回合开始，或纵火狂移动或<b>晕眩</b>。它无法和<b>隐形</b>叠用。"
         },
         "First On, Last Off": {
-            "name": "First On, Last Off",
-            "effect": "Attacks against the Marine made as reactions (e.g. Overwatch) are made with +1 Difficulty.",
+            "name": "冲锋在前，撤退在后",
+            "effect": "以<b>反应</b>对海军陆战队进行攻击时（如<b>守望</b>）获得<b>+1难度</b>。",
             "origin": {
                 "name": "海军陆战队"
             }
         },
         "FLAK CANNON": {
-            "name": "FLAK CANNON",
-            "effect": "This weapon has +2 Accuracy against flying targets.",
+            "name": "高射加农炮",
+            "effect": "该武器对飞行目标攻击有<b>+2 准度</b>。",
             "origin": {
                 "name": "工程师"
             }
         },
         "FLAMETHROWER": {
-            "name": "FLAMETHROWER",
-            "effect": "This weapon deals double Burn to characters that already have any Burn.",
+            "name": "火焰喷射器",
+            "effect": "该武器对已<b>燃烧</b>的角色造成<b>双倍燃烧</b>。",
             "origin": {
                 "name": "纵火狂"
             }
         },
         "FLARE DRONE": {
-            "name": "FLARE DRONE",
+            "name": "耀斑无人机",
             "origin": {
                 "name": "投弹者"
             },
-            "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Drone)<br />This drone can be deployed to a space within line of sight and range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area.<br />The drone can take damage from the Bombard’s attacks, and the Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates."
+            "effect": "<b>耀斑无人机（尺寸 1/2，HP10/20/30，闪避 10，电子防御 10，标签：无人机）</b><br />该无人机可被部署到视线<b>射程 25 </b>空间，在那里盘旋并开始向<b>爆发 2 </b>区域投射强光。受影响区域内所有角色，包括那些移动到该区域或在区域内开始其回合的角色将失去<b>隐形</b>和<b>匿迹</b>，且无法在该区域内<b>躲藏</b>或<b>隐形</b>。此外，投弹者对受影响区域内角色的攻击<b>+1 准度</b>。<br />无人机会承受投弹者攻击的伤害，投弹者一次只能部署一架无人机；若部署新的无人机，则旧的会解体。"
         },
         "FLIER": {
             "name": "FLIER",
@@ -2664,42 +2664,42 @@
             "effect": "<b>散列护盾</b>同时给予<b>护盾 5/6/8</b>。"
         },
         "EMPOWER SHROUD": {
-            "name": "EMPOWER SHROUD",
-            "effect": "The Lurker expands a SHROUD ZONE they currently occupy to Blast 2. This can cause it to envelop other characters. In addition, it now takes two successful attacks to disperse the effect.",
+            "name": "天命护罩",
+            "effect": "潜伏者将他们目前占据的某<b>护罩区域</b>扩展到<b>爆发 2</b>。这可能致使它囊括其他角色。从现在起需两次成功攻击才能驱散效果。",
             "origin": {
                 "name": "潜伏者"
             }
         },
         "ENDLESS REVENGE": {
-            "name": "ENDLESS REVENGE",
-            "effect": "REVENGE can be triggered any number of times per scene, but after the first time, it doesn’t grant additional damage increases. Instead it grants +{4/5/6} OVERSHIELD . This doesn’t replace any previous OVERSHIELD, but instead increases it by the same amount.",
+            "name": "无尽复仇",
+            "effect": "<b>复仇</b>在每场景中可被触发任意次数，但在第一次触发后，它就不能获得额外伤害提升。取而代之的是它给予<b>+4/5/6 护盾</b>。这不会取代原先的护盾，而是增加相同的量。",
             "origin": {
                 "name": "复仇者"
             }
         },
         "ERUPTING SHRAPNEL": {
-            "name": "ERUPTING SHRAPNEL",
-            "effect": "When the Avenger’s attack damages another character, they may force that character to succeed on an ENGINEERING save or be covered in explosive shrapnel until the end of their next turn. Until then, they take {3/4/5} Explosive AP damage each time they make a melee or ranged attack, after the attack roll is made. Affected characters are aware of this effect.",
+            "name": "迸发簇弹",
+            "effect": "当复仇者的攻击伤害到另一角色时，他们可以迫使该角色通过<b>工程</b>豁免，否则将被爆破簇弹覆盖直到他们下一回合结束。在该效果解除前，他们每次进行<b>近战或远程攻击</b>时都会受到<b>3/4/5AP 爆炸伤害</b>。受影响角色会意识到这种效果。",
             "origin": {
                 "name": "复仇者"
             }
         },
         "EVASIVE": {
-            "name": "EVASIVE",
-            "effect": "The Ultra gains +4 Evasion (to a maximum of 20) and –1 Structure.",
+            "name": "规避",
+            "effect": "超体获得<b>+4 回避</b>（最高 20）和<b>-1 结构</b>。",
             "origin": {
                 "name": "超体"
             }
         },
         "EXPLOSIVE RIFLE": {
-            "name": "EXPLOSIVE RIFLE",
+            "name": "爆破步枪",
             "origin": {
                 "name": "神行客"
             }
         },
         "EXPLOSIVE VENT": {
-            "name": "EXPLOSIVE VENT",
-            "effect": "The Pyro clears all heat. Characters in Burst 1 must pass an Agility save or take heat equal to half the amount the Pyro cleared and be knocked Prone.",
+            "name": "爆炸性通风",
+            "effect": "纵火狂清除所有<b>热量</b>。<b>爆发 1 </b>内的角色必须通过<b>敏捷</b>豁免否则受到等同<b>纵火狂清除量一半的热度</b>并<b>伏卧</b>。",
             "origin": {
                 "name": "纵火狂"
             }
@@ -2708,55 +2708,55 @@
             "origin": {
                 "name": "斥候"
             },
-            "name": "EXPOSE WEAKNESS",
-            "effect": "Characters that are successfully attacked with the Marker Rifle take +{4/6/8} bonus damage the next time they are successfully hit with a ranged or melee attack. If it isn’t triggered, this effect lasts for the rest of the scene."
+            "name": "暴露弱点",
+            "effect": "成功被标记步枪攻击的角色下次成功被远程或近战攻击时受到<b>+4/+6/+8 额外伤害</b>。若它没被触发，则持续到场景结束。"
         },
         "EXTENDED BLADE": {
-            "name": "EXTENDED BLADE",
-            "effect": "The Ronin’s Carbon Fiber Sword becomes Threat 3. The first time each turn that the Ronin performs a critical hit with it, all characters within Threat take {2/3/4} kinetic damage – including the target.",
+            "name": "加长刀刃",
+            "effect": "浪人的<b>碳纤维剑</b>变为<b>威胁 3</b>。当浪人每回合首次用它进行会心一击时，<b>威胁</b>内的所有角色都将受到<b> 2/3/4动能伤害</b>——包括目标。",
             "origin": {
                 "name": "浪人"
             }
         },
         "EXTRA DEADLY": {
-            "name": "EXTRA DEADLY",
-            "effect": "The first critical hit the Ultra performs each turn deals +2d6 damage at Tier 2 or +3d6 damage at Tier 3.",
+            "name": "额外致命",
+            "effect": "超体每回合首次<b>会心一击</b>在 <b>T2 </b>造成<b>+2d6 伤害</b>，或在 <b>T3 </b>造成<b>+3d6 伤害</b>。",
             "origin": {
                 "name": "超体"
             }
         },
         "EXTRUDITE": {
-            "name": "EXTRUDITE",
-            "effect": "The Barricade can print two separate cubes at a time with Mobile Printer, instead of one.",
+            "name": "挤压出物",
+            "effect": "路障使用<b>便携打印机</b>一次可以打印两个独立立方体而非一个。",
             "origin": {
                 "name": "路障"
             }
         },
         "EYE OF MIDNIGHT": {
-            "name": "EYE OF MIDNIGHT",
-            "effect": "The Sentinel becomes Slowed but can take Overwatch 1/turn, instead of 1/round. Once activated, this effect lasts until it is deactivated as a quick action.",
+            "name": "子夜之眼",
+            "effect": "哨兵<b>缓慢</b>，但守望的<b> 1/回合</b>取代<b> 1/轮</b>。一旦激活，该效果将一直持续到以<b>快速动作</b>终止。",
             "origin": {
                 "name": "哨兵"
             }
         },
         "Eye of the Storm": {
-            "name": "Eye of the Storm",
-            "effect": "The Tempest may choose to have Immunity to any effects of its Meteorological Graywash. Additionally, when it would be destroyed or become Exposed, it instead destroys a Climate Node, clears Exposed and all Heat, and is restored to half HP.",
+            "name": "暴风眼",
+            "effect": "暴风雨可选择对其<b>气象灰浴</b>的任何效果具有<b>免疫</b>。此外，当它被摧毁或<b>暴露</b>时，它可摧毁一个气候节点作为替代来清除<b>暴露</b>和所有<b>热度</b>，并恢复到一半<b> HP</b>。",
             "origin": {
-                "name": "Tempest"
+                "name": "暴风雨"
             }
         },
         "FEARLESS DEFENDER": {
-            "name": "FEARLESS DEFENDER",
-            "effect": "The Bastion can move to an adjacent space and take the damage instead.",
+            "name": "无畏捍卫者",
+            "effect": "效果：棱堡可以移动到邻近空间并承受伤害。",
             "origin": {
                 "name": "棱堡"
             },
-            "trigger": "An allied character in range 5 of the Bastion takes damage, and the Bastion isn’t Immobilized, Slowed, Stunned or otherwise cannot move."
+            "trigger": "触发：棱堡<b>射程 5</b> 内的一个盟友受到伤害，同时棱堡没被<b>固定，缓慢，晕眩</b>或其他不能移动的方式。"
         },
         "FLASH LENS": {
-            "name": "FLASH LENS",
-            "effect": "All characters in a Cone 5 area drawn from the Scourer must pass a Systems save or become Jammed until the start of the Scourer’s next turn.",
+            "name": "闪光镜头",
+            "effect": "以清扫器为原点的<b>锥形 5</b> 内所有角色必须通过<b>系统</b>豁免否则<b>受扰</b>直到清扫器下一回合开始。",
             "origin": {
                 "name": "清扫器"
             }
