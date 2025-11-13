@@ -935,16 +935,16 @@
                     "description": "The Drake receives +1 difficulty on Agility checks and saves."
                 },
                 "Heavy Frame": {
-                    "description": "The Drake can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
-                    "name": "Heavy Frame"
+                    "description": "比德瑞克小的角色无法将其推动、拉动、<b>伏卧</b>或是<b>击退</b>。",
+                    "name": "重型骨架"
                 },
                 "Blast Plating": {
-                    "description": "The Drake has Resistance to damage, burn and heat from blast, burst, line, and cone attacks.",
-                    "name": "Blast Plating"
+                    "description": "德瑞克对<b>溅射</b>、<b>爆发</b>、<b>线形</b>和<b>锥形</b>造成的<b>伤害</b>与<b>热度</b>获得<b>抗性</b>。",
+                    "name": "爆发镀层"
                 },
                 "Guardian": {
                     "description": "Adjacent allied characters can use the Drake for hard cover.",
-                    "name": "Guardian"
+                    "name": "护法"
                 }
             }
         },
@@ -952,8 +952,8 @@
             "core_system": {
                 "active_actions": {
                     "Hologram Teleport": {
-                        "name": "Hologram Teleport",
-                        "detail": "You may instantly teleport to the location of any hologram within range 50 as a quick action. When you do so, all extant holograms detonate – creating burst 1 explosions that deal 1d6 Energy Damage (Agility save for half) – and you may not create any new holograms until the start of your next turn"
+                        "name": "投影传送",
+                        "detail": "以一个<b>快速动作</b>，<b>瞬间移动</b>到任何<b>射程50</b>内的投影位置。如此行事所有其他投影均会爆炸，<b>爆发1</b>内的目标必须通过<b>敏捷豁免</b>否则受到<b>1d6能量伤害</b>。而你在自己下一回合开始前无法创造任何新全息印痕。"
                     }
                 },
                 "active_name": "Hall of Mirrors",
@@ -990,7 +990,7 @@
                     ]
                 }
             },
-            "name": "Dusk Wing",
+            "name": "珠弄蝶",
             "description": "The Dusk Wing originated as a legacy-inspired modification package to EVA suits, intended to equip them for hazardous environments. In the early days of deep-space exploration, there was a need for mechanized exoskeletons that not only amplified capacity but enhanced kinetic defense. The Dusk Wing is the spiritual heir of those early deep-space suits. Fast and small, it carries a complement of all-theater maneuverability jets that allow for near-perfect flight.<br />After the DHIYED expedition, the Exotic Materials Group isolated and translated strains of the entity’s realspace expiry paracode, teleologics, and kinematics for use in electronic and systems warfare. Of the frames trialed for use with DHIYED-derived technologies, the Dusk Wing performed best. As a result, it is often used by SSC’s internal Constellar Security forces when esoteric defense is necessary."
         },
         "D/D 288": {
@@ -5058,8 +5058,8 @@
         },
         "//SCORPION V70.1": {
             "name": "//SCORPION V70.1",
-            "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",
-            "effect": "Any time you or any allied character adjacent to you is missed by a tech attack or succeed on a save against a hostile tech action, choose one of the following:<ul><li>The attacker becomes Impaired until the end of their next turn and takes 2 heat.</li><li>The attacker becomes Jammed until the end of their next turn.</li></ul>"
+            "description": "<i>尽管//蝎子程序的操作相当单调（至少对于带有荷鲁斯标签的编码而言），但它在万物网上有着悠久的历史。其起源可追溯到前火卫二时期，那时的一篇晦涩研究论文中讨论了NHP前机械思维体反射反应的理论代码。从那时起，//蝎子从一个简单的数据包解释器演变成了强大的反入侵程序，它足够灵活，能够适应大多数接收其广播的市场产品系列系统。</i>",
+            "effect": "每当<b>科技攻击</b>未命中你或你邻近的盟友角色或通过敌对<b>科技动作</b>豁免，则选择以下效果之一：<ul><li>攻击者<b>受损</b>直到他们的下一回合结束并受到<b>2热度</b>。</li><li>攻击者<b>受扰</b>直到他们的下一回合结束。</li></ul>"
         }
     }
 }
