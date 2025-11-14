@@ -926,13 +926,13 @@
             "description": "<i>德瑞克是 IPS-N 在军用机甲领域首次涉足的作品，是任何主动贸易安保或反海盗部队的支柱。其巨大的类猿猴骨架围绕整块铸造舱壁而建，该隔板倾斜并加固，能够承受持续火力以及船体附近硬空域旅行的各种不确定性。德雷克底盘气势恢宏，其结构让人联想到古代重装步兵的威猛——那是一个兵力数量决定胜负的时代。<br />IPS-N 德雷克标准舰队订单配置为每台机甲装备了用于压制目标的高射速高破片 IPS-N 突击加农炮，并配有动能烧蚀塔盾用作防御。更高端的型号则配备了升级后的武器和装甲，包括重量级的高转速反器材武器：利维坦重型突击加农炮。</i>",
             "traits": {
                 "Slow": {
-                    "name": "Slow",
+                    "name": "缓慢",
                     "synergies": [
                         {
-                            "detail": "The Drake receives +1 difficulty on Agility checks and saves."
+                            "detail": "德瑞克在<b>敏捷</b>检定和豁免<b>+1难度</b>。"
                         }
                     ],
-                    "description": "The Drake receives +1 difficulty on Agility checks and saves."
+                    "description": "德瑞克在<b>敏捷</b>检定和豁免<b>+1难度</b>。"
                 },
                 "Heavy Frame": {
                     "description": "比德瑞克小的角色无法将其推动、拉动、<b>伏卧</b>或是<b>击退</b>。",
@@ -943,7 +943,7 @@
                     "name": "爆发镀层"
                 },
                 "Guardian": {
-                    "description": "Adjacent allied characters can use the Drake for hard cover.",
+                    "description": "邻近盟友角色可将德瑞克视为<b>硬性掩护</b>。",
                     "name": "护法"
                 }
             }
@@ -956,60 +956,60 @@
                         "detail": "以一个<b>快速动作</b>，<b>瞬间移动</b>到任何<b>射程50</b>内的投影位置。如此行事所有其他投影均会爆炸，<b>爆发1</b>内的目标必须通过<b>敏捷豁免</b>否则受到<b>1d6能量伤害</b>。而你在自己下一回合开始前无法创造任何新全息印痕。"
                     }
                 },
-                "active_name": "Hall of Mirrors",
-                "name": "DHIYED Articulation",
-                "active_effect": "For the rest of the scene, whenever you start a unique movement during your turn (e.g., a standard move, Boost, or movement granted by talents or systems), you leave a holographic imprint of yourself behind in the space from which you started. These are illusory objects the same Size as you that have Immunity to all damage and effects and aren’t obstructions.<br />When hostile characters start their turn in, move through, or move adjacent to the space occupied by a hologram, it detonates. They must succeed on an Agility save or take 1d6 energy damage. On a success, they take half damage.<br />You also gain the Hologram Teleport Quick Action.",
-                "description": "“Belief in what we could see, what we could touch – in what our COMP/CONs assured us was there, in our own subjectivity and memory. Belief in reality became a weapon. We approached the metavault knowing that we would face an unknown enemy, but we approached with the advantage of numbers and machine strength.<br />“DHIYED taught us as it killed us: through garbled comms chatter, through the screams of the dying, through the cackling of our mirror-selves as they killed us. Every spoofed signature, every temporal skip, every memetic, every non-Euclid – these were lessons.<br />“Do you understand?<br />“DHIYED the Teacher. DHIYED the Monster. As we killed it, DHIYED taught us what to fear, and how to face it.<br />“What do I fear now? That's a good question. What does the pilot fear who cracked open DHIYED’s casket?<br />“I don’t think we killed it. I think it wants us to believe we killed it – and I cannot imagine what it has done while we think ourselves safe.”"
+                "active_name": "镜厅",
+                "name": "节德柱衔接",
+                "active_effect": "场景结束前，每当你在自己回合作单独移动（如<b>标准移动</b>、<b>推进</b>和其他来自天赋或系统的移动）时，你会在起点留下全息印痕。这些幻像<b>大小</b>与你一致，对所有伤害和效果<b>免疫</b>，且不作为障碍物。<br />当敌对角色开始进入、穿过或邻近全息印痕占据的空间时就会引爆。目标必须通过<b>敏捷豁免</b>否则受到<b>1d6能量伤害</b>。成功则伤害减半。<br />你也获得快速动作：投影传送。",
+                "description": "<i>“我们相信自己所见，我们相信自己所触碰的一切— —相信我们伙伴/礼宾单元向我们保证的一切，相信我们自己的主观和记忆。对现实的信仰成为了某种武器。我们接近空间翘曲储存库时，深知我们会面对未知的敌人，不过我们以数量和机器的优势来去接近它。”<br />“节德柱杀死我们时也在教导我们：透过混乱的通讯嘈杂，透过垂死者的尖叫，透过我们在被杀时镜像自我的狂笑。所有伪造信号，所有时间跳跃，所有模因，所有非欧几何空间——所有一切都是训诫。”<br />“你明白了吗？”<br />“节德柱是老师。节德柱是怪物。我们杀死它时，节德柱告诉我们该害怕什么，该如何面对它。”<br />“我现在该害怕什么？这是个好问题。打开节德柱之匣的驾驶员该害怕什么？”<br />“我不认为它死了。它想要我们相信它死了——而我无法想像它在我们直觉安全时，已经做了什么。”</i>"
             },
             "traits": {
                 "Fragile": {
-                    "name": "Fragile",
-                    "description": "The Dusk Wing receives +1 difficulty on Hull checks and saves.",
+                    "name": "脆弱",
+                    "description": "珠弄蝶在<b>机体</b>检定和豁免<b>+1难度</b>。",
                     "synergies": [
                         {
-                            "detail": "The Dusk Wing receives +1 difficulty on Hull checks and saves."
+                            "detail": "珠弄蝶在<b>机体</b>检定和豁免<b>+1难度</b>。"
                         }
                     ]
                 },
                 "Maneuverability Jets": {
-                    "description": "The Dusk Wing can hover when it moves.",
-                    "name": "Maneuverability Jets",
+                    "description": "珠弄蝶在移动时可<b>悬浮</b>。",
+                    "name": "机动喷口",
                     "synergies": [
                         {
-                            "detail": "The Dusk Wing can hover when it moves."
+                            "detail": "珠弄蝶在移动时可<b>悬浮</b>。"
                         }
                     ]
                 },
                 "Harlequin Cloak": {
-                    "description": "During its turn, the Dusk Wing is Invisible; it reappears at the end of the turn.",
-                    "name": "Harlequin Cloak",
+                    "description": "珠弄蝶在自己回合时<b>隐形</b>；在回合结束后现形。",
+                    "name": "丑角斗篷",
                     "synergies": [
                         {
-                            "detail": "During its turn, the Dusk Wing is Invisible; it reappears at the end of the turn."
+                            "detail": "珠弄蝶在自己回合时<b>隐形</b>；在回合结束后现形。"
                         }
                     ]
                 }
             },
             "name": "珠弄蝶",
-            "description": "The Dusk Wing originated as a legacy-inspired modification package to EVA suits, intended to equip them for hazardous environments. In the early days of deep-space exploration, there was a need for mechanized exoskeletons that not only amplified capacity but enhanced kinetic defense. The Dusk Wing is the spiritual heir of those early deep-space suits. Fast and small, it carries a complement of all-theater maneuverability jets that allow for near-perfect flight.<br />After the DHIYED expedition, the Exotic Materials Group isolated and translated strains of the entity’s realspace expiry paracode, teleologics, and kinematics for use in electronic and systems warfare. Of the frames trialed for use with DHIYED-derived technologies, the Dusk Wing performed best. As a result, it is often used by SSC’s internal Constellar Security forces when esoteric defense is necessary."
+            "description": "<i>珠弄蝶最初是为了让EVA防护服能够应付恶劣环境而配备的改装套装。在早期的深空探索中，机械化外骨骼不只要能强化穿戴者能力，还需要有更强的对动能防御。珠弄蝶继承了这些早期深空防护服的精髓。这小巧灵活的机甲备有全地形机动喷嘴，让其有几近完美的飞行能力。<br />在节德柱远征后，SSC奇材集团将该存在在现实空间的过期辅助编码、目的论能力和运动学数据来用于电子战和系统战中。珠弄蝶是各个测试使用节德柱衍生技术的机甲中，表现最好的一个。因此，当需要深奥的防御时，它常会被配备在SSC内部辰星安保部队之中。</i>"
         },
         "D/D 288": {
             "name": "D/D 288",
             "actions": {
                 "Charge D/D 288": {
-                    "detail": "Charge the D/D 288. At the start of any of your turns while the D/D 288 is Charged, it uses the \"Charged\" profile. You become SLOWED, and benefit from soft cover. Additionally, gain 2 Heat at the start of your turn.<br>The \"Charged\" profile cannot be used to Skirmish.",
-                    "name": "Charge D/D 288"
+                    "detail": "为D/D 288充能。当它处于充能，它使用充能配置：你受到<b>缓慢</b>，并且获得<b>软性掩护</b>。在你回合开始时获得<b>2热度</b>。<br>处于充能配置时，它不能用于<b>交火</b>。",
+                    "name": "D/D 288充能"
                 }
             },
             "profiles": {
                 "Uncharged": {
-                    "name": "Uncharged",
-                    "description": "The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots."
+                    "name": "取消充能",
+                    "description": "<i>郑的破坏神/毁灭者武器288可谓鼎鼎大名，它能够突破装甲并对坚固目标造成彻底破坏。该拳套挂载系统最初为芎晓礼将机甲反应堆主要散热口改造为定向爆破作战武器的终极手段。生产线的D/D288必须在点火前蓄能，这需要从机甲系统中汲取危险能量；主干安保公司关于回收任务的报告认为，正是芎晓礼使用了该武器才杀死了自己，并摧毁了白虎的炮艇核心。D/D288具有造成巨大附带伤害的能力，并且在点火时制造出壮观的电流放出，这为它在MSMC驾驶员中赢得了杀马掌（Shā mǎzhǎng）的诨号。</i>"
                 },
                 "Charged": {
-                    "on_hit": "While charged, this weapon deals 30 AP Kinetic Damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing 1d6 Kinetic Damage to all adjacent characters other than you and knocking them back 1 space.<br>This weapon loses its charge when you hit a target, when you disperse its charge as a free action, or when you become STUNNED or SHUT DOWN.",
-                    "description": "The Zheng’s Devastator/Demolition Weapon 288 is legendary for its ability to breach armor and inflict total destruction on hardened targets. Originally rigged up as a last resort by Xiong Xiaoli, this fistmounted system repurposes a mech reactor’s primary heat vent into a directional, engagement-proximity weapon. The production line D/D 288 must be primed before firing, requiring a dangerous power draw from the mechs’ systems; Trunk Security’s reportage of the recovery mission assumes that using this weapons is what killed Xiong Xiaoli and cored the White Tiger’s gunboat. The D/D 288’s ability to cause enormous collateral damage and its spectacular discharge when fired have earned it the moniker ‘Shā mǎ zhǎng’ or Horse-Killing Palm among MSMC pilots.",
-                    "name": "Charged"
+                    "on_hit": "处于充能时，该武器在击中物品或地形时造成<b>30AP爆炸伤害</b>。若该伤害破坏物品或地形，它会产生爆炸，对除你之外的所有邻近角色造成<b>1d6动能伤害</b>并将他们击退<b>1空间</b>。<br>当你击中目标，或以<b>自由动作</b>取消充能，或当你<b>晕眩</b>或<b>关机</b>时，该武器失去充能。",
+                    "description": "<i>郑的破坏神/毁灭者武器288可谓鼎鼎大名，它能够突破装甲并对坚固目标造成彻底破坏。该拳套挂载系统最初为芎晓礼将机甲反应堆主要散热口改造为定向爆破作战武器的终极手段。生产线的D/D288必须在点火前蓄能，这需要从机甲系统中汲取危险能量；主干安保公司关于回收任务的报告认为，正是芎晓礼使用了该武器才杀死了自己，并摧毁了白虎的炮艇核心。D/D288具有造成巨大附带伤害的能力，并且在点火时制造出壮观的电流放出，这为它在MSMC驾驶员中赢得了杀马掌（Shā mǎzhǎng）的诨号。</i>C pilots.",
+                    "name": "充能"
                 }
             }
         },
