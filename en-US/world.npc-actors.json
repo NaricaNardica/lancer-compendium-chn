@@ -132,6 +132,11 @@
     "WITCH": {
       "name": "WITCH",
       "tokenName": "WITCH"
-    }
+    },
+    "AVENGER": {
+      "name": "AVENGER",
+      "tokenName": "AVENGER"
+    },
+
   }
 }

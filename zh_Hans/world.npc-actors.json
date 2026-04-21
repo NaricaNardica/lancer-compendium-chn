@@ -99,6 +99,37 @@
         },
         "WITCH": {
             "name": "女巫"
-        }
+        },
+        "AVENGER": {
+      "name": "复仇者"
+        },
+        "LURKER":
+        {
+            "name":"潜伏者"
+        },
+        "Leech":
+        {
+            "name":"水蛭"
+        },    
+    "MBT":
+    {
+        "name":"主战坦克"
+    },
+    "SPITE":
+    {
+      "name":"怨恨者"
+    },
+    "Tempest":
+    {
+      "name":"暴风雨"
     }
 }
+}
+
+
+
+
+
+
+
+
