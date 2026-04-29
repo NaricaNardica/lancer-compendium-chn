@@ -1,142 +1,275 @@
 {
-  "label": "预设NPC",
-  "entries": {
-    "ACE": {
-      "name": "ACE",
-      "tokenName": "ACE"
+    "label": "预设NPC",
+    "entries": {
+        "ACE": {
+            "name": "王牌"
+        },
+        "AEGIS": {
+            "name": "宙斯盾"
+        },
+        "ARCHER": {
+            "name": "弓箭手"
+        },
+        "BOMBARD": {
+            "name": "投弹者"
+        },
+        "BREACHER": {
+            "name": "破门手"
+        },
+        "RAINMAKER": {
+            "name": "祈雨师"
+        },
+        "RONIN": {
+            "name": "浪人"
+        },
+        "SCOUT": {
+            "name": "斥候"
+        },
+        "SEEDER": {
+            "name": "播种机"
+        },
+        "ASSASSIN": {
+            "name": "暗杀者"
+        },
+        "ASSAULT": {
+            "name": "突击手"
+        },
+        "BARRICADE": {
+            "name": "路障"
+        },
+        "BASTION": {
+            "name": "棱堡"
+        },
+        "BERSERKER": {
+            "name": "狂战士"
+        },
+        "CATAPHRACT": {
+            "name": "甲胄骑兵"
+        },
+        "DEMOLISHER": {
+            "name": "粉碎者"
+        },
+        "ENGINEER": {
+            "name": "工程师"
+        },
+        "GOLIATH": {
+            "name": "歌利亚"
+        },
+        "HIVE": {
+            "name": "蜂巢"
+        },
+        "HORNET": {
+            "name": "马蜂"
+        },
+        "HUMAN": {
+            "name": "人类"
+        },
+        "MIRAGE": {
+            "name": "蜃楼"
+        },
+        "MONSTROSITY": {
+            "name": "怪形"
+        },
+        "OPERATOR": {
+            "name": "操作员"
+        },
+        "PRIEST": {
+            "name": "司铎"
+        },
+        "PYRO": {
+            "name": "纵火狂"
+        },
+        "SCOURER": {
+            "name": "清扫器"
+        },
+        "SENTINEL": {
+            "name": "哨兵"
+        },
+        "SNIPER": {
+            "name": "狙击手"
+        },
+        "SPECTER": {
+            "name": "幽鬼"
+        },
+        "SQUAD": {
+            "name": "班组"
+        },
+        "SUPPORT": {
+            "name": "支援者"
+        },
+        "WITCH": {
+            "name": "女巫"
+        },
+        "AVENGER": {
+      "name": "复仇者"
+        },
+        "LURKER":
+        {
+            "name":"潜伏者"
+        },
+        "Leech":
+        {
+            "name":"水蛭"
+        },    
+    "MBT":
+    {
+        "name":"主战坦克"
     },
-    "AEGIS": {
-      "name": "AEGIS",
-      "tokenName": "AEGIS"
+    "SPITE":
+    {
+      "name":"怨恨者"
     },
-    "ARCHER": {
-      "name": "ARCHER",
-      "tokenName": "ARCHER"
+    "Tempest":
+    {
+      "name":"暴风雨"
     },
-    "ASSASSIN": {
-      "name": "ASSASSIN",
-      "tokenName": "ASSASSIN"
+    "Assault [K]": {
+      "name": "突击 [K]",
+      "tokenName": "突击 [K]"
     },
-    "ASSAULT": {
-      "name": "ASSAULT",
-      "tokenName": "ASSAULT"
+    "Assassin [K]": {
+      "name": "暗杀者 [K]",
+      "tokenName": "暗杀者 [K]"
     },
-    "BARRICADE": {
-      "name": "BARRICADE",
-      "tokenName": "BARRICADE"
+    "Ace [K]": {
+      "name": "王牌 [K]",
+      "tokenName": "王牌 [K]"
     },
-    "BASTION": {
-      "name": "BASTION",
-      "tokenName": "BASTION"
+    "Bastion [K]": {
+      "name": "棱堡 [K]",
+      "tokenName": "棱堡 [K]"
     },
-    "BERSERKER": {
-      "name": "BERSERKER",
-      "tokenName": "BERSERKER"
+    "Aegis [K]": {
+      "name": "宙斯盾 [K]",
+      "tokenName": "宙斯盾 [K]"
     },
-    "BOMBARD": {
-      "name": "BOMBARD",
-      "tokenName": "BOMBARD"
+    "Barricade [K]": {
+      "name": "路障 [K]",
+      "tokenName": "路障 [K]"
     },
-    "BREACHER": {
-      "name": "BREACHER",
-      "tokenName": "BREACHER"
+    "Bombard [K]": {
+      "name": "投弹者 [K]",
+      "tokenName": "投弹者 [K]"
     },
-    "CATAPHRACT": {
-      "name": "CATAPHRACT",
-      "tokenName": "CATAPHRACT"
+    "Breacher [K]": {
+      "name": "破门手 [K]",
+      "tokenName": "破门手 [K]"
     },
-    "DEMOLISHER": {
-      "name": "DEMOLISHER",
-      "tokenName": "DEMOLISHER"
+    "Cataphract [K]": {
+      "name": "甲胄骑兵 [K]",
+      "tokenName": "甲胄骑兵 [K]"
     },
-    "ENGINEER": {
-      "name": "ENGINEER",
-      "tokenName": "ENGINEER"
+    "Berserker [K]": {
+      "name": "狂战士 [K]",
+      "tokenName": "狂战士 [K]"
     },
-    "GOLIATH": {
-      "name": "GOLIATH",
-      "tokenName": "GOLIATH"
+    "Demolisher [K]": {
+      "name": "粉碎者 [K]",
+      "tokenName": "粉碎者 [K]"
     },
-    "HIVE": {
-      "name": "HIVE",
-      "tokenName": "HIVE"
+    "Hive [K]": {
+      "name": "蜂巢 [K]",
+      "tokenName": "蜂巢 [K]"
     },
-    "HORNET": {
-      "name": "HORNET",
-      "tokenName": "HORNET"
+    "Archer [K]": {
+      "name": "弓箭手 [K]",
+      "tokenName": "弓箭手 [K]"
     },
-    "HUMAN": {
-      "name": "HUMAN",
-      "tokenName": "HUMAN"
+    "Engineer [K]": {
+      "name": "工程师 [K]",
+      "tokenName": "工程师 [K]"
     },
-    "MIRAGE": {
-      "name": "MIRAGE",
-      "tokenName": "MIRAGE"
+    "Hornet [K]": {
+      "name": "马蜂 [K]",
+      "tokenName": "马蜂 [K]"
     },
-    "MONSTROSITY": {
-      "name": "MONSTROSITY",
-      "tokenName": "MONSTROSITY"
+    "Operator [K]": {
+      "name": "操作员 [K]",
+      "tokenName": "操作员 [K]"
     },
-    "OPERATOR": {
-      "name": "OPERATOR",
-      "tokenName": "OPERATOR"
+    "Priest [K]": {
+      "name": "司铎 [K]",
+      "tokenName": "司铎 [K]"
     },
-    "PRIEST": {
-      "name": "PRIEST",
-      "tokenName": "PRIEST"
+    "Mirage [K]": {
+      "name": "蜃楼 [K]",
+      "tokenName": "蜃楼 [K]"
     },
-    "PYRO": {
-      "name": "PYRO",
-      "tokenName": "PYRO"
+    "Goliath [K]": {
+      "name": "歌利亚 [K]",
+      "tokenName": "歌利亚 [K]"
     },
-    "RAINMAKER": {
-      "name": "RAINMAKER",
-      "tokenName": "RAINMAKER"
+    "Pyro [K]": {
+      "name": "纵火狂 [K]",
+      "tokenName": "纵火狂 [K]"
     },
-    "RONIN": {
-      "name": "RONIN",
-      "tokenName": "RONIN"
+    "Scout [K]": {
+      "name": "斥候 [K]",
+      "tokenName": "斥候 [K]"
     },
-    "SCOURER": {
-      "name": "SCOURER",
-      "tokenName": "SCOURER"
+    "Rainmaker [K]": {
+      "name": "祈雨师 [K]",
+      "tokenName": "祈雨师 [K]"
     },
-    "SCOUT": {
-      "name": "SCOUT",
-      "tokenName": "SCOUT"
+    "Seeder [K]": {
+      "name": "播种机 [K]",
+      "tokenName": "播种机 [K]"
     },
-    "SEEDER": {
-      "name": "SEEDER",
-      "tokenName": "SEEDER"
+    "Sentinel [K]": {
+      "name": "哨兵 [K]",
+      "tokenName": "哨兵 [K]"
     },
-    "SENTINEL": {
-      "name": "SENTINEL",
-      "tokenName": "SENTINEL"
+    "Ronin [K]": {
+      "name": "浪人 [K]",
+      "tokenName": "浪人 [K]"
     },
-    "SNIPER": {
-      "name": "SNIPER",
-      "tokenName": "SNIPER"
+    "Sniper [K]": {
+      "name": "狙击手 [K]",
+      "tokenName": "狙击手 [K]"
     },
-    "SPECTER": {
-      "name": "SPECTER",
-      "tokenName": "SPECTER"
+    "Specter [K]": {
+      "name": "幽鬼 [K]",
+      "tokenName": "幽鬼 [K]"
     },
-    "SQUAD": {
-      "name": "SQUAD",
-      "tokenName": "SQUAD"
+    "Scourer [K]": {
+      "name": "清扫器 [K]",
+      "tokenName": "清扫器 [K]"
     },
-    "SUPPORT": {
-      "name": "SUPPORT",
-      "tokenName": "SUPPORT"
+    "Support [K]": {
+      "name": "支援者 [K]",
+      "tokenName": "支援者 [K]"
     },
-    "WITCH": {
-      "name": "WITCH",
-      "tokenName": "WITCH"
+    "Grunt Controller": {
+      "name": "低等兵 操纵型",
+      "tokenName": "低等兵 操纵型"
     },
-    "AVENGER": {
-      "name": "AVENGER",
-      "tokenName": "AVENGER"
+    "Witch [K]": {
+      "name": "女巫 [K]",
+      "tokenName": "女巫 [K]"
     },
-
-  }
+    "Grunt Artillery": {
+      "name": "低等兵 炮击型",
+      "tokenName": "低等兵 炮击型"
+    },
+    "Grunt Defender": {
+      "name": "低等兵 卫兵型",
+      "tokenName": "低等兵 卫兵型"
+    },
+    "Grunt Striker": {
+      "name": "低等兵 突击型",
+      "tokenName": "低等兵 突击型"
+    },
+    "Grunt Support": {
+      "name": "低等兵 支援型",
+      "tokenName": "低等兵 支援型"
+    }
 }
+}
+
+
+
+
+
+
+
+

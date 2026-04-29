@@ -122,6 +122,146 @@
     "Tempest":
     {
       "name":"暴风雨"
+    },
+    "Assault [K]": {
+      "name": "突击 [K]",
+      "tokenName": "突击 [K]"
+    },
+    "Assassin [K]": {
+      "name": "暗杀者 [K]",
+      "tokenName": "暗杀者 [K]"
+    },
+    "Ace [K]": {
+      "name": "王牌 [K]",
+      "tokenName": "王牌 [K]"
+    },
+    "Bastion [K]": {
+      "name": "棱堡 [K]",
+      "tokenName": "棱堡 [K]"
+    },
+    "Aegis [K]": {
+      "name": "宙斯盾 [K]",
+      "tokenName": "宙斯盾 [K]"
+    },
+    "Barricade [K]": {
+      "name": "路障 [K]",
+      "tokenName": "路障 [K]"
+    },
+    "Bombard [K]": {
+      "name": "投弹者 [K]",
+      "tokenName": "投弹者 [K]"
+    },
+    "Breacher [K]": {
+      "name": "破门手 [K]",
+      "tokenName": "破门手 [K]"
+    },
+    "Cataphract [K]": {
+      "name": "甲胄骑兵 [K]",
+      "tokenName": "甲胄骑兵 [K]"
+    },
+    "Berserker [K]": {
+      "name": "狂战士 [K]",
+      "tokenName": "狂战士 [K]"
+    },
+    "Demolisher [K]": {
+      "name": "粉碎者 [K]",
+      "tokenName": "粉碎者 [K]"
+    },
+    "Hive [K]": {
+      "name": "蜂巢 [K]",
+      "tokenName": "蜂巢 [K]"
+    },
+    "Archer [K]": {
+      "name": "弓箭手 [K]",
+      "tokenName": "弓箭手 [K]"
+    },
+    "Engineer [K]": {
+      "name": "工程师 [K]",
+      "tokenName": "工程师 [K]"
+    },
+    "Hornet [K]": {
+      "name": "马蜂 [K]",
+      "tokenName": "马蜂 [K]"
+    },
+    "Operator [K]": {
+      "name": "操作员 [K]",
+      "tokenName": "操作员 [K]"
+    },
+    "Priest [K]": {
+      "name": "司铎 [K]",
+      "tokenName": "司铎 [K]"
+    },
+    "Mirage [K]": {
+      "name": "蜃楼 [K]",
+      "tokenName": "蜃楼 [K]"
+    },
+    "Goliath [K]": {
+      "name": "歌利亚 [K]",
+      "tokenName": "歌利亚 [K]"
+    },
+    "Pyro [K]": {
+      "name": "纵火狂 [K]",
+      "tokenName": "纵火狂 [K]"
+    },
+    "Scout [K]": {
+      "name": "斥候 [K]",
+      "tokenName": "斥候 [K]"
+    },
+    "Rainmaker [K]": {
+      "name": "祈雨师 [K]",
+      "tokenName": "祈雨师 [K]"
+    },
+    "Seeder [K]": {
+      "name": "播种机 [K]",
+      "tokenName": "播种机 [K]"
+    },
+    "Sentinel [K]": {
+      "name": "哨兵 [K]",
+      "tokenName": "哨兵 [K]"
+    },
+    "Ronin [K]": {
+      "name": "浪人 [K]",
+      "tokenName": "浪人 [K]"
+    },
+    "Sniper [K]": {
+      "name": "狙击手 [K]",
+      "tokenName": "狙击手 [K]"
+    },
+    "Specter [K]": {
+      "name": "幽鬼 [K]",
+      "tokenName": "幽鬼 [K]"
+    },
+    "Scourer [K]": {
+      "name": "清扫器 [K]",
+      "tokenName": "清扫器 [K]"
+    },
+    "Support [K]": {
+      "name": "支援者 [K]",
+      "tokenName": "支援者 [K]"
+    },
+    "Grunt Controller": {
+      "name": "低等兵 操纵型",
+      "tokenName": "低等兵 操纵型"
+    },
+    "Witch [K]": {
+      "name": "女巫 [K]",
+      "tokenName": "女巫 [K]"
+    },
+    "Grunt Artillery": {
+      "name": "低等兵 炮击型",
+      "tokenName": "低等兵 炮击型"
+    },
+    "Grunt Defender": {
+      "name": "低等兵 卫兵型",
+      "tokenName": "低等兵 卫兵型"
+    },
+    "Grunt Striker": {
+      "name": "低等兵 突击型",
+      "tokenName": "低等兵 突击型"
+    },
+    "Grunt Support": {
+      "name": "低等兵 支援型",
+      "tokenName": "低等兵 支援型"
     }
 }
 }
