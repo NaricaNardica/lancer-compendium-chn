@@ -28,6 +28,15 @@
     }
   },
   "lancer": {
+    "LancerPilotSheet": "Lancer System Pilot Sheet",
+    "LancerMechSheet": "Lancer System Mech Sheet",
+    "LancerDeployableSheet": "Lancer System Deployable Sheet",
+    "LancerNPCSheet": "Lancer System NPC Sheet",
+    "LancerItemSheet": "Lancer System Item Sheet",
+    "LancerFrameSheet": "Lancer System Frame Sheet",
+    "LancerLicenseSheet": "Lancer System License Sheet",
+    "LancerNPCClassSheet": "Lancer System NPC Class/Template Sheet",
+    "LancerNPCFeatureSheet": "Lancer System NPC Feature Sheet",
     "Actor": {
       "FIELDS": {
         "activations": { "label": "Activations" }
@@ -42,6 +51,9 @@
       }
     },
     "deployable-sheet": {
+      "header": {
+        "owner": "拥有者"
+      },
       "tabs": {
         "status": "<状态>",
         "config": "<设定>"
@@ -54,6 +66,9 @@
       }
     },
     "mech-sheet": {
+      "header": {
+        "inactive-warning": "警告：未激活机甲-驾驶员加值未追踪"
+      },
       "tabs": {
         "stats": "<机甲属性>",
         "loadout": "<机甲装备>",
@@ -88,7 +103,8 @@
     },
     "npc-sheet": {
       "header": {
-        "class": "职业："
+        "class": "职业：",
+        "templates": "模板"
       },
       "class": {
         "label": "职业",
@@ -137,7 +153,8 @@
       },
       "dossier": {
         "cs": "代号",
-        "name": "名称"
+        "name": "名称",
+        "background": "背景"
       },
       "narrative": {
         "bond": "羁绊-{bondName}",
@@ -396,6 +413,72 @@
         "inherited": "继承中效果"
       }
     },
+    "tables": {
+      "structure": {
+        "title": {
+          "crushing": "致命一击",
+          "direct": "直接命中",
+          "trauma": "系统创伤",
+          "glancing": "擦身而过"
+        },
+        "description": {
+          "crushing": "你的机甲受损太严重而无法修复——它被摧毁。你仍能够如常离开。",
+          "direct": {
+            "3plus": "你的机甲 @LancerID[stunned] 直到你下一回合结束。",
+            "2": "进行机体检定。成功时，你的机甲 @LancerID[stunned] 直到你的下一回合结束。失败时，你的机甲被毁。",
+            "1": "你的机甲被摧毁。"
+          },
+          "trauma": "你的机甲有一部分被损伤破坏。掷1d6：1~3，任意一个挂载点上的所有武器均被破坏；4~6，你所选的一个系统被破坏。不能选择已耗尽充能的受限系统和武器。如无剩余有效选择，则改为另一结果。如无有效系统或武器可选，结果则变成直接命中。",
+          "glancing": "紧急系统启动并稳住你的机甲，但你的机甲 @LancerID[impaired] 直到你下一回合结束。"
+        }
+      },
+      "overheat": {
+        "title": {
+          "irreversible": "不可逆熔解",
+          "meltdown": "炉心熔解",
+          "destabilized": "反应炉失衡",
+          "shunt": "紧急排热"
+        },
+        "description": {
+          "irreversible": "反应炉进入临界状态——你的机甲将在你下一回合结束时炉心熔解。",
+          "meltdown": {
+            "3plus": "你的机甲进入 @LancerID[exposed] 状态。",
+            "2": "进行工程检定。成功则你的机甲进入 @LancerID[exposed] 状态；失败则会在你1d6回合（由GM掷骰）后炉心熔解。以一个<b>完整动作</b>可重试工程检定来阻止炉心熔解。",
+            "1": "你的机甲将在你下一回合结束时炉心熔解。"
+          },
+          "destabilized": "反应炉变得不稳，并且开始喷射等离子体。你的机甲进入 @LancerID[exposed] 状态。",
+          "shunt": "你的机甲的冷却系统成功控制过量的热度；然而，你的机甲 @LancerID[impaired] 直到你下一回合结束。"
+        }
+      },
+      "structureMonstrosity": {
+        "title": {
+          "fatal": "致命一击",
+          "direct": "直接命中",
+          "dismember": "肢解",
+          "powerful": "强力一击",
+          "glancing": "擦身而过"
+        },
+        "description": {
+          "fatal": "怪形被摧毁。",
+          "direct": {
+            "3plus": "怪形被重击头部并 @LancerID[stunned] 直到它下一回合结束。",
+            "2": "怪形必须成功进行机体检定，否则将被摧毁。",
+            "1": "怪形被摧毁。"
+          },
+          "dismember": "攻击卸下怪形四肢或大块组织；它受到1d6动能伤害，并在场景结束前 @LancerID[slow]。",
+          "powerful": "怪形被重击的力量击倒 @LancerID[prone]。",
+          "glancing": "怪形痛苦地畏缩；直到它下一回合结束前 @LancerID[impaired]。"
+        }
+      }
+    },
+    "movement": {
+      "actions": {
+        "blink": "瞬间移动（移动）",
+        "forced": "强制移动",
+        "ignore": "无视地形",
+        "teleport": "瞬间移动 (能力)"
+      }
+    },
     "compendium": {
       "core_macros": "LANCER宏",
       "lancer_info": "LANCER信息",
@@ -415,6 +498,10 @@
     }
   },
   "LANCERINITIATIVE": {
+    "COMBAT": {
+      "activateCombatantTurn": "开始该参战者回合",
+      "deactivateCombatantTurn": "结束该参战者回合"
+    },
     "IconSettingsMenu": "图标设置",
     "Icon": "激活图标",
     "IconDesc": "用于定义激活图标的 CSS 类",
