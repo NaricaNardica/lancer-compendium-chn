@@ -6683,6 +6683,408 @@
       "origin": {
         "name": "暗杀者 [K]"
       }
+    },
+    "ACHRONAL RESPONSE": {
+      "name": "ACHRONAL RESPONSE",
+      "effect": "Effect: The Parallel immediately teleports to the echo’s space, destroying it, and then uses Skirmish as part of the same reaction, before the hostile character moves. A new echo is created in the space the Parallel previously occupied.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "trigger": "A hostile character starts movement (including Boost and other actions) inside the Threat of one of the Parallel’s echoes.",
+      "on_hit": ""
+    },
+    "ANOMALOUS MOTION": {
+      "name": "ANOMALOUS MOTION",
+      "effect": "The Parallel teleports when they make a standard move.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "ANOTHER HAND CANNON": {
+      "name": "ANOTHER HAND CANNON",
+      "effect": "When the Slinger makes an Overwatch attack with another weapon, they can also make an attack with this weapon against the triggering character.<br />This weapon is considered a Hand Cannon for any traits or systems that refer to one.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "ASSAULT LAUNCHER": {
+      "name": "ASSAULT LAUNCHER",
+      "effect": "Mining Charge attacks the Lobber makes this turn become Range 15. Any Blast remains the same.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "BLAST PLATING": {
+      "name": "BLAST PLATING",
+      "effect": "The Lobber has Resistance to Explosive and damage from Blast attacks and systems.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "COOK OFF": {
+      "name": "COOK OFF",
+      "effect": "When the Lobber's mech is destroyed, it immediately makes two Mining Charge attacks. Both of these attacks gain +1 Accuracy and must include the Lobber in their Blast; this isn’t a Barrage, so the areas may overlap. The pilot may Eject as part of this process, and definitely should.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "COOL HAND": {
+      "name": "COOL HAND",
+      "effect": "The Slinger gains Accuracy instead of Difficulty from being Engaged.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "CRACKED MIRROR": {
+      "name": "CRACKED MIRROR",
+      "effect": "Effect: The attacker must make a Systems save. If it fails, the attack doesn’t occur and the attacker and the target swap position, both teleporting. The attacker must then repeat the attack against themselves.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "trigger": "A melee or ranged attack is made against the Parallel or one of its echoes.",
+      "on_hit": ""
+    },
+    "DARK WIND": {
+      "name": "DARK WIND",
+      "effect": "Effect: The Slinger makes a Hand Cannon attack against the triggering character. If that character has Deathmark, clear it, and the Slinger’s attack happens first. If the Slinger’s attack hits, the target becomes Impaired until the end of their next turn.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "trigger": "A character attacks the Slinger with a ranged weapon.",
+      "on_hit": ""
+    },
+    "DEATHMARK": {
+      "name": "DEATHMARK",
+      "effect": "When the Slinger scores a critical hit, their target gains Deathmark. A character with Deathmark can make an Agility save as a quick action to remove it.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "DEATHWALKER": {
+      "name": "DEATHWALKER",
+      "effect": "The first time that the Parallel is destroyed each combat, if they still have an echo active, they’re not actually defeated. At the start of the Parallel’s next turn, they teleport to their echo, destroying it and returning to 1 HP. If their last echo is destroyed before their next turn, this trait doesn't function and the Parallel remains destroyed. This doesn’t stack with the Veteran template’s Feign Death trait.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "DELUGE": {
+      "name": "DELUGE",
+      "flavor": "Deluge-type chassis are the logical extreme of the n+1 doctrine of firepower. One big, expensive gun might be more powerful, but a handful of slightly smaller guns can do the job just as well for less money. Why waste a king’s ransom on some fancy guided missile that might get punked by ECM when you can just buy ten thousand bullets and hose the whole place down? One of them has to hit, after all.",
+      "tactics": "The Deluge’s primary tactic is to inhibit mobility by laying down zones which let it automatically damage anything that enters them. As it continues to fire, its damage increases along with its heat – which is a potential weakness, since it needs to be close to exceeding its heat cap to do the most damage."
+    },
+    "DEVIL'S EYE": {
+      "name": "DEVIL'S EYE",
+      "effect": "The Slinger ignores Hidden and Invisible on any character that has Deathmark.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "DOPPLER": {
+      "name": "DOPPLER",
+      "effect": "The Parallel moves one of its echoes up to 5 spaces. Echoes are not characters, so this movement ignores engagement and doesn’t provoke reactions.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "DRAW!": {
+      "name": "DRAW!",
+      "effect": "Effect: Clear that character’s Deathmark. Until the end of their turn, that character receives +3 Difficulty on any attack that doesn’t target the Slinger.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "trigger": "A character with Deathmark starts their turn within line of sight and Range 5 of the Slinger.",
+      "on_hit": ""
+    },
+    "EXPERT DEMOLITIONIST": {
+      "name": "EXPERT DEMOLITIONIST",
+      "effect": "Objects, terrain and deployables in the area of the Lobber's Mining Charge attacks are automatically hit and take 5/8/10 AP Explosive damage.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "FAN THE HAMMER": {
+      "name": "FAN THE HAMMER",
+      "effect": "The Slinger prepares to unleash a hail of lead. The next attack it makes with its Hand Cannon becomes Cone 5, but doesn’t hit allied characters.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "HAND CANNON": {
+      "name": "HAND CANNON",
+      "effect": "",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "IMPOSSIBLE RICOCHET": {
+      "name": "IMPOSSIBLE RICOCHET",
+      "effect": "The Slinger’s Hand Cannon attacks gain Arcing. Against characters with Deathmark, they instead gain Seeking.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "INCENDIARY CHARGE": {
+      "name": "INCENDIARY CHARGE",
+      "effect": "Mining Charge attacks the Lobber makes this turn deal 3/4/5 Burn instead of their regular damage.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "INTERESTING CHOICE FOR CQB": {
+      "name": "INTERESTING CHOICE FOR CQB",
+      "effect": "The Lobber doesn't receive Difficulty on Mining Charge attacks due to being Engaged if it includes itself in the Blast.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "KINETIC CHARGE": {
+      "name": "KINETIC CHARGE",
+      "effect": "Mining Charge attacks the Lobber makes this turn gain Knockback 2.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "LEAD RAIN": {
+      "name": "LEAD RAIN",
+      "effect": "After firing its Quad Assault Cannons, the Deluge may create a lead rain zone in the same Line 10 as a free action. This zone ends immediately if the Deluge moves, is destroyed, becomes Stunned or Jammed, or if it fires the weapon again. When a character starts their turn in or enters this zone for the first time in a round, the Deluge automatically deals the Quad Assault Cannons’ Reliable damage to them.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "LOBBER": {
+      "name": "LOBBER",
+      "flavor": "An example of the Long Rim’s brutally pragmatic approach to combat, the Lobber is little more than a civilian loader frame covered in pressure plating, wielding repurposed mining explosives. They're a cheap, efficient force multiplier, and terrifyingly effective against soft targets or mechanized chassis in close formation.",
+      "tactics": "The Lobber is a close-range combatant that specializes in punishing targets who bunch up. It has a broad range of optional systems that allow its attacks more tactical flexibility. Notably, it’s resistant to all of the damage it can deal, so it doesn’t need to worry so much about catching itself in its own blasts.<br />If it has multiple optional systems that modify its Mining Charge attacks, it can use any and all of them at once."
+    },
+    "MANNIFEST POSSIBILITY": {
+      "name": "MANNIFEST POSSIBILITY",
+      "effect": "The Parallel creates an echo in a target space within line of sight and Range 10.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "MATHUR STOP": {
+      "name": "MATHUR STOP",
+      "effect": "When the Deluge clears all Heat, it may choose to receive Heat equal to half its Heat Cap, putting it in the Danger Zone.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "MINING CHARGE": {
+      "name": "MINING CHARGE",
+      "effect": "The Lobber can use this weapon as both parts of a Barrage, but the target areas can't overlap. Characters in both areas are attacked only once, but the Lobber may choose from which area.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "OUTLAW'S HAND": {
+      "name": "OUTLAW'S HAND",
+      "effect": "The Slinger's Hand Cannon, Sun's Zenith, and Ring the Bell are now Range 8.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "OVERSIZE CHARGE": {
+      "name": "OVERSIZE CHARGE",
+      "effect": "Mining Charge attacks the Lobber makes this turn become Blast 2. Any Range remains the same.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "PARALLEL": {
+      "name": "PARALLEL",
+      "flavor": "PREPARED BY: UIB-TERMINALCLICHE<li>RECOVERED FOR: UIB-KATABATIC</li><li>CLEARENCE REQ: SOLEMN VIGIL<br />I can confirm that mechs belonging to pattern group “Parallel” match the profile of contacts first observed during the Calliope Incident (see report: CALAMITY AXIS). We’re still trying to identify the original developer. Current best guesses are SSC, the Armory, Horizon, or even the Cult of the One, but in my opinion, it can’t be any of them. This tech is years ahead of even the largest corprostates, let alone a bunch of cultists in a garage.</li>",
+      "tactics": "The Parallel is a highly mobile striker that can dominate large areas of the battlefield by literally being in two places at once. PHASE ECHO lets them position a surrogate that they can switch places with to avoid incoming damage or make reaction attacks. A Parallel’s main weakness is its fragility; it relies on careful positioning and judicious use of REVERT to avoid high-damage attacks. It can’t stand up to repeated damage, and removing its echoes hampers its mobility."
+    },
+    "PHASE ECHO": {
+      "name": "PHASE ECHO",
+      "effect": "Whenever the Parallel teleports, it creates an echo in the space it previously occupied. An echo is an obstruction the same size as the Parallel, has Evasion 10, E-Defense 10, is destroyed if it takes any damage or heat, and projects the same Threat as the Parallel’s weapons. The Parallel can only have one echo at once; creating a new one destroys the old one. The Parallel also gains the Revert and Achronal Response reactions. It can’t use these reactions if it’s Slowed or Immobilized.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "POINT DEFENSE MODE": {
+      "name": "POINT DEFENSE MODE",
+      "effect": "The Deluge reorients its frame and shifts into point-defense mode. Until the start of its next turn, the Deluge becomes Immobilized, but it projects a Burst 3 point defense zone around itself. This zone is a lead rain zone that only damages hostiles, instead providing the Deluge and its allies with soft cover and Resistance to damage from ranged attacks.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "POSSIBILITY BLADE": {
+      "name": "POSSIBILITY BLADE",
+      "effect": "",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "QUAD ASSAULT CANNONS": {
+      "name": "QUAD ASSAULT CANNONS",
+      "effect": "",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "REACTIVE DEFENSE SYSTEM": {
+      "name": "REACTIVE DEFENSE SYSTEM",
+      "effect": "The Deluge and adjacent allies gain soft cover for as long as it’s generating a zone of lead rain.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "REVERT": {
+      "name": "REVERT",
+      "effect": "Effect: The Parallel interrupts the triggering attack and teleports to the space of one of its echoes, destroying it. The attack now targets the new echo it left behind. If part of the same attack also targeted its previous echo, it now targets the Parallel.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "trigger": "An attack is made against the Parallel.",
+      "on_hit": ""
+    },
+    "RIDING THE REDLINE": {
+      "name": "RIDING THE REDLINE",
+      "effect": "When the Deluge reaches its HEAT CAP, it no longer takes heat from firing its Quad Assault Cannons. It takes heat normally from all other sources.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "RING THE BELL": {
+      "name": "RING THE BELL",
+      "effect": "The Slinger makes a Hand Cannon attack against each character within Range 5 that has Deathmark, then clears Deathmark on those characters. Any character hit by these attacks becomes SLOWED until the end of their next turn. Attacks that score a critical hit can reapply Deathmark.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "SEISMIC CHARGE": {
+      "name": "SEISMIC CHARGE",
+      "effect": "Targets the Lobber hits with its Mining Charge attacks this turn must succeed on a Hull save or be knocked Prone.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "SHATTER": {
+      "name": "SHATTER",
+      "effect": "Whenever an echo is destroyed, it deals 3/6/9 Kinetic damage in a Burst 1 area.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "SHEER VOLUME OF BULLETS": {
+      "name": "SHEER VOLUME OF BULLETS",
+      "effect": "Attacks with the Deluge’s Quad Assault Cannons ignore Invisible.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "SHOULDNA AUGHTA": {
+      "name": "SHOULDNA AUGHTA",
+      "effect": "Effect: That character gains Deathmark. At T2, this reaction can be used twice per round. At T3, it can be used three times per round.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "trigger": "A hostile character within line of sight of the Slinger attacks one of the Slinger’s allies.",
+      "on_hit": ""
+    },
+    "SLINGER": {
+      "name": "SLINGER",
+      "flavor": "Slinger-class mechs are a favorite among pilots who value skill over raw firepower. Stable, agile and dependable, Slinger frames don’t need military-grade guns or fancy tech; all they need is someone at the controls who knows when to take the shot that ends the fight. Stepping into battle against a Slinger is a nerve-wracking experience: a quiet duel of resolve, each combatant seeking their perfect moment, the razor-thin window that separates the quick from the dead.",
+      "tactics": "Slingers are potent area denial specialists who trade heavily on their Deathmark mechanic. It inflicts these upon a critical hit, so it will benefit allies who can provide LOCK ON. Its attacks ignore armor and deal damage even on a miss, and if it’s inflicted a lot of Deathmarks, it can unleash several at once at the startof its turn, threatening multiple foes in a wide radius.<br />The Slinger’s primary weaknesses are its inability to deal with targets at long range and its reliance on Deathmark to be effective. Players inflicting IMPAIRED or using cover will make marks harder to inflict."
+    },
+    "SPIN UP": {
+      "name": "SPIN UP",
+      "effect": "While the Deluge is in the Danger Zone, its Quad Assault Cannons deal +2 bonus damage, and their Reliable value is increased by 1.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "SPRAY AND PRAY": {
+      "name": "SPRAY AND PRAY",
+      "effect": "Until the start of its next turn, the Deluge’s Quad Assault Cannons gain Inaccurate, but their attack and the lead rain zone they generate become Cone 7.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "SUN'S ZENITH": {
+      "name": "SUN'S ZENITH",
+      "effect": "Choose any number of characters within line of sight and Range 5 of the Slinger. They each gain Deathmark.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "TRUE GRIT": {
+      "name": "TRUE GRIT",
+      "effect": "When a character with Deathmark attacks the Slinger, the Slinger gains Resistance to damage, Heat and Burn from that attack. Then, clear that character’s Deathmark.",
+      "origin": {
+        "name": "SLINGER"
+      },
+      "on_hit": ""
+    },
+    "UNCERTAINTY": {
+      "name": "UNCERTAINTY",
+      "effect": "The Parallel can have two echoes active at once, instead of one. It always decides which of its previous echoes to destroy if it creates a third. If this system is destroyed, an echo of the Parallel’s choice is also destroyed, even if it only has one left.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
+    },
+    "WITHERING HAIL": {
+      "name": "WITHERING HAIL",
+      "effect": "Characters within the Deluge’s lead rain zone become Impaired, and can’t clear this condition by any means while they remain in the zone.",
+      "origin": {
+        "name": "DELUGE"
+      },
+      "on_hit": ""
+    },
+    "WITNESS ME!": {
+      "name": "WITNESS ME!",
+      "effect": "When COOK OFF triggers, the Lobber first moves spaces equal to its SPEED, ignoring reactions and engagement. If Mining Charge is broken, repair it.",
+      "origin": {
+        "name": "LOBBER"
+      },
+      "on_hit": ""
+    },
+    "WRAITHSHOT": {
+      "name": "WRAITHSHOT",
+      "effect": "This weapon makes one extra attack per echo the Parallel has active. Each extra attack originates from a different one of its echoes.",
+      "origin": {
+        "name": "PARALLEL"
+      },
+      "on_hit": ""
     }
     }
 }

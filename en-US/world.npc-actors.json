@@ -262,6 +262,22 @@
     "Grunt Support": {
       "name": "低等兵 支援型",
       "tokenName": "低等兵 支援型"
+    },
+    "DELUGE": {
+      "name": "洪水",
+      "tokenName": "洪水"
+    },
+    "LOBBER": {
+      "name": "高球手",
+      "tokenName": "高球手"
+    },
+    "PARALLEL": {
+      "name": "平行体",
+      "tokenName": "平行体"
+    },
+    "SLINGER": {
+      "name": "铳士",
+      "tokenName": "铳士"
     }
 }
 }
