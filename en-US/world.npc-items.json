@@ -4957,13 +4957,7 @@
       "flavor": "低等兵比炮灰稍强一些。他们通常以量产或标准型机甲投入战场——接受纪律训练而非卓越训练。低等兵单独可能不构成威胁，但成群结队时，他们会变成压倒性的肉体与弹丸之墙，甚至威胁到最强大的敌人。",
       "tactics": ""
     },
-    "Guardian": {
-      "name": "护法",
-      "effect": "相邻友军可以将棱堡用作<b>硬性掩护</b>。",
-      "origin": {
-        "name": "棱堡 [K]"
-      }
-    },
+
     "H0R_OS v?? Puppet Crasher": {
       "name": "荷鲁斯系统v?? 愧儡崩溃者",
       "effect": "超体对感应内的一个敌对角色进行科技攻击。成功时，其受到<b>{2/3/4} 热度</b>、获得<b>锁定</b>、<b>受损</b>直到其下一回合结束，并向超体选择的方向移动其<b>速度</b>。此移动是非自愿的，但会如常触发<b>反应</b>和交战，并且不计为<b>击退</b>、推动或拉动。",
@@ -5050,13 +5044,7 @@
         "name": "低等兵 突击型"
       }
     },
-    "Heavy Frame": {
-      "name": "重型骨架",
-      "effect": "粉碎者不能被更小的角色推动、拉动、击<b>俯卧</b>或击退。",
-      "origin": {
-        "name": "粉碎者 [K]"
-      }
-    },
+
     "Heavy Tread [Demolisher]": {
       "name": "沉重步伐 [粉碎者]",
       "effect": "所有其他角色将粉碎者周围<b>爆发 2</b>的区域视为<b>困难地形</b>。",
@@ -5244,13 +5232,7 @@
         "name": "粉碎者 [K]"
       }
     },
-    "Juggernaut": {
-      "name": "主宰",
-      "effect": "在超体回合开始时，其可以清除一个状态。若如此，其需选择一项：<b>受损</b>直到其回合结束；受到不可减免的<b>5 能量伤害</b>；或在其回合内只能进行<b>一个快速动作</b>，而非两个快速动作或一个完整动作。",
-      "origin": {
-        "name": "超体 [K]"
-      }
-    },
+
     "Kai Bioplating": {
       "name": "凯氏生物镀层",
       "effect": "暗杀者在所有<b>敏捷</b>检定上获得<b>+1 准度</b>；此外，他们以正常速度攀爬和游泳，无视<b>困难地形</b>，并且在进行标准移动时，可以水平跳跃最多其<b>速度</b>，垂直跳跃最多其<b>速度</b>的一半（任意组合）。",
@@ -5350,13 +5332,7 @@
         "name": "弓箭手 [K]"
       }
     },
-    "Limitless": {
-      "name": "无限",
-      "effect": "老兵可以<b>超限</b>。代替标准代价，他们总是获得<b>1d6 热度</b>。",
-      "origin": {
-        "name": "老兵 [K]"
-      }
-    },
+
     "Lingering Flames": {
       "name": "余焰",
       "effect": "当纵火狂使用<b>喷火器</b>攻击时，火焰会在受影响区域内其选择的<b>3 个自由空间</b>继续燃烧。当角色在此空间之一开始其回合或在本轮首次进入时，他们受到<b>{2/3/4} 燃烧</b>。这些空间持续到场景结束，或直到纵火狂再次使用<b>喷火器</b>攻击。",
@@ -5517,14 +5493,7 @@
         "name": "幽鬼 [K]"
       }
     },
-    "Moving Target": {
-      "name": "移动靶子",
-      "effect": "<p>狙击手打断移动。角色必须立即停止、放弃所有剩余移动并<b>俯卧</b>，否则其获得<b>狙击手标记</b>。</p><p>如果他们已有<b>狙击手标记</b>，狙击手可以改为立即使用<b>反器材步枪</b>对其进行一次攻击。</p>",
-      "origin": {
-        "name": "狙击手 [K]"
-      },
-      "trigger": "一个位于视线和<b>射程 20</b>内的敌对角色移动。"
-    },
+
     "Multiplicity": {
       "name": "多重性",
       "effect": "攻击者必须通过一个<b>系统</b>豁免，否则目标获得对<b>来自该攻击的所有伤害的抗性</b>。成功时，攻击正常造成伤害，但蜃楼随后可以将目标向任意方向<b>瞬间移动</b>最多<b>5 格</b>，并且该角色获得<b>软性掩护</b>直到其下一回合结束。",
@@ -5835,13 +5804,7 @@
         "name": "宙斯盾 [K]"
       }
     },
-    "Reinforced": {
-      "name": "强化",
-      "effect": "老兵获得<b>+1 结构</b>和<b>+1 压力</b>。",
-      "origin": {
-        "name": "老兵 [K]"
-      }
-    },
+
     "Reinforced Systems": {
       "name": "加固系统",
       "effect": "操纵型拥有<b>+2 电子防御</b>，并且无视其在场景中受到的第一次<b>热度</b>。",
@@ -7085,6 +7048,78 @@
         "name": "PARALLEL"
       },
       "on_hit": ""
-    }
+    },
+    "Guardian": {
+            "name": "护法",
+            "npc-rebake_npcf_guardian_bastion": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_defender_grunt": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_goliath": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            
+            },
+            "npc-rebake_npcf_guardian_aegis": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_sentinel": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            
+            }
+
+        },
+        "Heavy Frame": {
+            "name": "重型骨架",
+            "npc-rebake_npcf_heavy_frame_goliath": {
+                "effect": "歌利亚无法被小于自身的角色推，拉，俯卧或击退。"
+            },
+            "npc-rebake_npcf_heavy_frame_demolisher": {
+                "effect": "粉碎者无法被小于自身的角色推，拉，伏卧或击退。"
+            
+            }
+        },
+        "Juggernaut": {
+            "name": "主宰",
+            "npc-rebake_npcf_juggernaut_berserker": {
+                "effect": "当狂战士使用雪崩冲锋时，所有邻近冲锋路径或最终位置的角色必须通过机体豁免否则伏卧，无论敌友。"
+            },
+            "npc-rebake_npcf_juggernaut_ultra": {
+                "effect": "超体回合开始时，它们可以清除一个状态。若如此，则选择如下一选项：<br>·受损直到回合结束。<br>·受到不可减免的 5 能量伤害。<br>·在其回合内只能采取一个快速动作，而非两个快速动作或者一个完整动作。"
+            
+            }
+        },
+        "Limitless": {
+            "name": "无限",
+            "npc-rebake_npcf_limitless_ultra": {
+                "effect": "超体可以超限。它们总是受到 1d6 热度，代替标准代价。"
+            },
+            "npc-rebake_npcf_limitless_veteran": {
+                "effect": "老兵可以超限。它们总是受到 1d6 热度，代替标准代价。"
+            
+            }
+        },
+        "Moving Target": {
+            "name": "移动靶子",
+            "npc-rebake_npcf_moving_target_archer": {
+                "trigger": "当弓箭手使用<b>压制</b>的目标开始移动时。",
+                "effect": "弓箭手使用轻机枪对它进行一次攻击，打断触发移动并且在移动前结算。"
+            },
+            "npc-rebake_npcf_moving_target_sniper": {
+                "trigger": "当 ⌿20 范围和视线范围内的角色进行移动时。",
+                "effect": "狙击手打断移动。角色必须立刻停止，丢失任何未使用的移动，并且俯卧；否则，获得狙击手标记（若另一角色已有标记则将其转至触发目标），如果目标已经有狙击手标记，狙击手则可以立刻用反器材步枪攻击它。"
+            }
+        },
+        "Reinforced": {
+            "name": "强化",
+            "npc-rebake_npcf_reinforced_veteran": {
+                "effect": "老兵获得+1 结构和+1 压力。"
+            },
+            "npc-rebake_npcf_reinforced_ultra": {
+                "effect": "超体获得+3 结构和+3 压力。"
+            
+            }
+        }
     }
 }
