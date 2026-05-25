@@ -7425,6 +7425,21 @@
             "effect": "相邻友军可以将棱堡用作<b>硬性掩护</b>。",
             "origin": {
                 "name": "棱堡 [K]"
+            },
+            "npc-rebake_npcf_guardian_bastion": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_defender_grunt": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_goliath": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_aegis": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
+            },
+            "npc-rebake_npcf_guardian_sentinel": {
+                "effect": "邻近盟友可将该机体充当<b>硬性掩护</b>。"
             }
         },
         "H0R_OS v?? Puppet Crasher": {
@@ -7516,6 +7531,12 @@
             "effect": "粉碎者不能被更小的角色推动、拉动、击<b>俯卧</b>或击退。",
             "origin": {
                 "name": "粉碎者 [K]"
+            },
+            "npc-rebake_npcf_heavy_frame_goliath": {
+                "effect": "歌利亚无法被小于自身的角色推，拉，俯卧或击退。"
+            },
+            "npc-rebake_npcf_heavy_frame_demolisher": {
+                "effect": "粉碎者无法被小于自身的角色推，拉，伏卧或击退。"
             }
         },
         "Heavy Tread [Demolisher]": {
@@ -7709,6 +7730,12 @@
             "effect": "在超体回合开始时，其可以清除一个状态。若如此，其需选择一项：<b>受损</b>直到其回合结束；受到不可减免的<b>5 能量伤害</b>；或在其回合内只能进行<b>一个快速动作</b>，而非两个快速动作或一个完整动作。",
             "origin": {
                 "name": "超体 [K]"
+            },
+            "npc-rebake_npcf_juggernaut_berserker": {
+                "effect": "当狂战士使用雪崩冲锋时，所有邻近冲锋路径或最终位置的角色必须通过机体豁免否则伏卧，无论敌友。"
+            },
+            "npc-rebake_npcf_juggernaut_ultra": {
+                "effect": "超体回合开始时，它们可以清除一个状态。若如此，则选择如下一选项：<br>·受损直到回合结束。<br>·受到不可减免的 5 能量伤害。<br>·在其回合内只能采取一个快速动作，而非两个快速动作或者一个完整动作。"
             }
         },
         "Kai Bioplating": {
@@ -7813,6 +7840,12 @@
             "effect": "老兵可以<b>超限</b>。代替标准代价，他们总是获得<b>1d6 热度</b>。",
             "origin": {
                 "name": "老兵 [K]"
+            },
+            "npc-rebake_npcf_limitless_ultra": {
+                "effect": "超体可以超限。它们总是受到 1d6 热度，代替标准代价。"
+            },
+            "npc-rebake_npcf_limitless_veteran": {
+                "effect": "老兵可以超限。它们总是受到 1d6 热度，代替标准代价。"
             }
         },
         "Lingering Flames": {
@@ -7980,7 +8013,15 @@
             "origin": {
                 "name": "狙击手 [K]"
             },
-            "trigger": "一个位于视线和<b>射程 20</b>内的敌对角色移动。"
+            "trigger": "一个位于视线和<b>射程 20</b>内的敌对角色移动。",
+            "npc-rebake_npcf_moving_target_archer": {
+                "trigger": "当弓箭手使用<b>压制</b>的目标开始移动时。",
+                "effect": "弓箭手使用轻机枪对它进行一次攻击，打断触发移动并且在移动前结算。"
+            },
+            "npc-rebake_npcf_moving_target_sniper": {
+                "trigger": "当 ⌿20 范围和视线范围内的角色进行移动时。",
+                "effect": "狙击手打断移动。角色必须立刻停止，丢失任何未使用的移动，并且俯卧；否则，获得狙击手标记（若另一角色已有标记则将其转至触发目标），如果目标已经有狙击手标记，狙击手则可以立刻用反器材步枪攻击它。"
+            }
         },
         "Multiplicity": {
             "name": "多重性",
@@ -8297,6 +8338,12 @@
             "effect": "老兵获得<b>+1 结构</b>和<b>+1 压力</b>。",
             "origin": {
                 "name": "老兵 [K]"
+            },
+            "npc-rebake_npcf_reinforced_veteran": {
+                "effect": "老兵获得+1 结构和+1 压力。"
+            },
+            "npc-rebake_npcf_reinforced_ultra": {
+                "effect": "超体获得+3 结构和+3 压力。"
             }
         },
         "Reinforced Systems": {
