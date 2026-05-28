@@ -2751,7 +2751,7 @@
             }
         },
         "Helodbella Doctrine Upgrade II": {
-            "name": "泽经学说升级II",
+            "name": "泽蛭学说升级II",
             "origin": {
                 "name": "水蛭"
             },
@@ -3052,7 +3052,7 @@
             }
         },
         "Ophiocordyceps Doctrine Upgrade I": {
-            "name": "虫草学说升级！",
+            "name": "虫草学说升级 I",
             "effect": "擒拿时，水蛭选择选项其二：<p>将擒拿角色向任意方向推动4空间。</p><p>使擒拿角色或射程3内另一角色受损。</p><p>对擒拿角色或射程3内另一角色造成3/4/5AP能量伤害。</p>",
             "origin": {
                 "name": "水蛭"
@@ -3460,7 +3460,7 @@
             }
         },
         "SUPERIOR TARGETING": {
-            "name": "卓越素敌",
+            "name": "卓越索敌",
             "effect": "超体进行远程攻击时忽略掩体。",
             "origin": {
                 "name": "超体"
@@ -3584,7 +3584,7 @@
                 "name": "哨兵"
             },
             "name": "盛怒喉缩",
-            "effect": "哨兵为该系统提供武器。一旦装备好，哨兵就会在下一次使用战斗鞭弹枪进行两次而非一次攻击。"
+            "effect": "哨兵为该系统提供武器。一旦装备好，哨兵就会在下一次使用战斗霰弹枪进行两次而非一次攻击。"
         },
         "WOLFHOUND MISSILE": {
             "name": "狼猎导弹",
