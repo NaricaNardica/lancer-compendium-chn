@@ -48,6 +48,47 @@
     "common-sheet": {
       "tabs": {
         "effects": "<激活中效果>"
+      },
+      "headers": {
+        "combatUtilities": "快捷战斗栏"
+      },
+      "buttons": {
+        "basicAttack": "近战/远程",
+        "damage": "伤害",
+        "fullRepair": "全面维修",
+        "overheat": "压力检定",
+        "scan": "扫描",
+        "stabilize": "稳住阵脚",
+        "structure": "结构检定",
+        "tech": "科技"
+      },
+      "shortStats": {
+        "hull": "机体",
+        "agi": "敏捷",
+        "sys": "系统",
+        "eng": "工程",
+        "level": "牌照等级",
+        "grit": "毅力",
+        "tier": "层级",
+        "activations": "激活",
+        "hp": "HP",
+        "evasion": "回避",
+        "armor": "装甲",
+        "structure": "结构",
+        "heat": "热量",
+        "heatcap": "热量上限",
+        "edef": "电子防御",
+        "stress": "压力",
+        "speed": "速度",
+        "save": "豁免目标",
+        "sensor_range": "感应",
+        "tech_attack": "科技攻击",
+        "overcharge": "超限",
+        "burn": "燃烧",
+        "overshield": "护盾",
+        "repairs": "维修",
+        "size": "大小",
+        "cost": "COST"
       }
     },
     "deployable-sheet": {
@@ -232,6 +273,29 @@
       "ssc": "SSC Constellar Congress",
       "ipsn": "IPS-N Carina",
       "gal": "FORECAST/GALSIM"
+    },
+    "pauseIcon": {
+      "name": "暂停图标",
+      "hint": "在FVTT暂停时使用的图标.",
+      "gms": "联盟/GMS (默认)",
+      "horus": "HORUS",
+      "ha": "Harrison Armory",
+      "ssc": "SSC",
+      "ips-n": "IPS-N",
+      "albatross": "Albatross",
+      "aun": "Aun Ascendancy",
+      "barony": "卡拉金贸易男爵国",
+      "horizon": "Horizon Collective",
+      "ra": "RA",
+      "sparri": "Sparri",
+      "voladores": "Voladores"
+    },
+    "scanOutput": {
+      "name": "扫描输出设置",
+      "hint": "扫描结果应该被记录在哪里？",
+      "both": "聊天界面+日志界面",
+      "chat": "仅聊天",
+      "journal": "仅日志"
     },
     "statusIconsConfig": {
       "menu-name": "状态图标",
